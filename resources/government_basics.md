@@ -4,14 +4,7 @@ A clean, age‑appropriate guide to the three branches of the U.S. government an
 
 ---
 
-## 🧭 How To Use This (Age Tracks)
-
-- Caleb (Grade 7–9): Read each branch section and complete one Agency Card per week. Track how agencies connect to your Social Studies topics.
-- Elijah (Grade 4–6): Read the Kid‑Friendly bullets and fill in a short Agency Card (3–4 lines). Focus on what the agency does and one example.
-
-Keep work in a `/government` subfolder under your student folder.
-
----
+ 
 
 ## 🔗 Quick Links (Official Sites)
 
@@ -132,39 +125,11 @@ Kid‑Friendly: A rule is proposed, discussed, changed, and voted on by both Hou
 
 ---
 
-## 🧰 Templates (copy into your student folder)
+ 
 
-1) Agency Card
-```
-Agency name:
-Branch (Legislative / Executive / Judicial):
-Parent department (if any):
-What it does (2–3 lines):
-One real example of its work:
-Official link (URL):
-```
-
-2) Case & Policy Tracker (Caleb)
-```
-Topic (e.g., privacy, energy, health):
-Agency/court involved:
-One current rule/case and the question it answers:
-Why it matters (3–4 lines):
-Source & date you checked:
-```
-
----
-
-## 📝 Practice Ideas
-
-- Legislative: Use congress.gov to find a bill on education or technology. Write an Agency Card for CRS or CBO and note how they inform Congress.
-- Executive: Pick one department (e.g., HHS) and one program (e.g., FDA). What problem do they solve? Add links and an example action.
-- Judicial: Name one recent Supreme Court case and what question it decided (one‑sentence summary).
-
----
+ 
 
 ## ⚠️ Notes
 
 - This is a plain‑language overview; official sites above provide details.
 - Agencies can move or change over time. Record the date/source for anything you cite.
-
