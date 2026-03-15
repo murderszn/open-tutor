@@ -20,6 +20,8 @@ Navigate the repository using the following folders:
 *   [`/assignments`](./assignments/): Shared assignments, tasks, and coding challenges.
 *   [`/students/caleb`](./students/caleb/): Caleb's personal workspace for projects and work.
 *   [`/students/elijah`](./students/elijah/): Elijah's personal workspace for projects and work.
+*   [`/students/glory`](./students/glory/): Glory's Pre-K structured workspace and tracking board.
+*   [`/teachers/ai-assistants`](./teachers/ai-assistants/): System prompts and personas for the AI Teaching Team (Lesson Planner, Grader, etc.).
 
 ## 📝 Daily Workflow
 
