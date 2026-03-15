@@ -36,3 +36,14 @@ This folder contains educational materials, reference documents, and useful link
 *   **[FinViz](https://finviz.com/)**: For visualizing stock data, heatmaps, and screening companies.
 *   **[TradingView / TradingStation](https://www.tradingview.com/)**: For looking at stock charts and technical analysis.
 *   **[US Debt Clock](https://www.usdebtclock.org/)**: Real-time tracking of the United States national debt and economic indicators.
+
+### Creative & Design
+*   **[Canva](https://www.canva.com/)**: For quick graphic design, posters, and simple video editing.
+*   **[Figma](https://www.figma.com/)**: For professional UI/UX design, wireframing, and prototyping apps or websites.
+
+### Educational Video Channels (YouTube)
+*   **[Khan Academy](https://www.youtube.com/c/khanacademy)**: World-class explanations for almost any math or science topic.
+*   **[3Blue1Brown](https://www.youtube.com/c/3blue1brown)**: Extremely high-quality, visual explanations of complex math and physics concepts.
+*   **[Mark Rober](https://www.youtube.com/c/MarkRober)**: Former NASA engineer building incredible real-world engineering projects and experiments.
+*   **[Veritasium](https://www.youtube.com/c/veritasium)**: Deep dives into science, engineering, and the truth behind interesting phenomena.
+*   **[Numberphile](https://www.youtube.com/user/numberphile)**: Fascinating stories and explanations about numbers and mathematics.
