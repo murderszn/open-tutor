@@ -28,11 +28,11 @@ Welcome to 4th Grade! Here are your subject folders:
 - [ ] **STEM:** Complete the **[Perfect 3-Car Collection](../../assignments/perfect-3-car-collection/README.md)** Assignment (Due today! Use **[car-brands.html](../../assignments/perfect-3-car-collection/car-brands.html)**)
 - [ ] **Math:** Complete mom's assigned math work
 - [ ] **Language Arts:** Complete mom's assigned reading and grammar work
-- [ ] **Assessment:** Weekly Quiz
+- [ ] **Assessment:** [Take the Weekly Math Quiz](./grade-4/math/quizzes/2026-03-20_quiz.md)
 
 ### March 27, 2026
 
-- [ ] **Math**: Complete End-of-Week Review Quiz.
+- [ ] **Math**: Complete End-of-Week Review Quiz: **[March 27 Quiz](./grade-4/math/quizzes/2026-03-27_quiz.md)**.
 - [ ] **Language Arts**: Submit Final Draft of Essay.
 - [ ] **Curriculum**: Complete regular book learning.
 - [ ] **Money Management**: Complete the **[How I Spent My First Million](../../assignments/how-i-spent-my-first-million/README.md)** budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.
@@ -44,7 +44,7 @@ Welcome to 4th Grade! Here are your subject folders:
 *   [ ] **Tuesday (Action):** Draw Customer 1's pizza. Slice it into 8ths and color in the correct fractions.
 *   [ ] **Wednesday (Action):** Solve Customer 2's party order. Convert the improper fraction to a mixed number!
 *   [ ] **Thursday (Review):** Use your menu prices to calculate the total cost for Customer 3 using decimals.
-*   [ ] **Friday (Submission):** Submit your menu, drawings, and math calculations to Mom & Dad. Take your spelling test.
+*   [ ] **Friday (Submission):** Submit your menu, drawings, and math calculations to Mom & Dad. Take your spelling test and your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-03_quiz.md)**.
 
 ### April 10, 2026
 
