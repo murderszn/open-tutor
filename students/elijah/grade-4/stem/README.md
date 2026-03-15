@@ -14,5 +14,5 @@ Welcome to your STEM (Science, Technology, Engineering, and Mathematics) folder!
     *   Visual Studio Code (VS Code)
     *   GitHub (Saving and sharing code)
 *   **Programming**: Start writing basic scripts using **Python**.
-*   **File Types**: Learn about basic computer file types used for work and coding (e.g., `.txt`, `.csv`, `.html`, `.py`).
+*   **File Types**: Read the **[Ultimate Guide to File Types](../../../../resources/file-types.md)** to learn about basic computer file types used for work and coding (e.g., `.txt`, `.csv`, `.html`, `.py`).
 *   **Web Hosting**: Start designing, building, and hosting your very own simple websites!
