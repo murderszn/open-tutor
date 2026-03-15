@@ -12,6 +12,9 @@ This year will follow standard 7th-grade math concepts:
 *   **Geometry**: Draw, construct, and describe geometrical figures and describe the relationships between them. Solve real-life and mathematical problems involving angle measure, area, surface area, and volume.
 *   **Statistics and Probability**: Use random sampling to draw inferences about a population. Draw informal comparative inferences about two populations. Investigate chance processes and develop, use, and evaluate probability models.
 
+## 📝 Weekly Assessments
+*   **[12-Week Quiz Guide](./weekly_quizzes.md)**: A complete list of 12 weekly quizzes covering all 7th-grade math topics. Have Caleb complete one quiz every Friday.
+
 ## 🎮 Interactive Math Games & Practice
 
 *   **[Prodigy Math (Middle School)](https://www.prodigygame.com/main-en/)**: An RPG-style game where you battle monsters by solving math problems. Great for practicing 7th-grade concepts.

@@ -12,6 +12,9 @@ This year will follow standard 4th-grade math concepts:
 *   **Measurement and Data**: Solve problems involving measurement and conversion of measurements from a larger unit to a smaller unit. Understand concepts of angle and measure angles.
 *   **Geometry**: Draw and identify lines and angles, and classify shapes by properties of their lines and angles.
 
+## 📝 Weekly Assessments
+*   **[12-Week Quiz Guide](./weekly_quizzes.md)**: A complete list of 12 weekly quizzes covering all 4th-grade math topics. Have Elijah complete one quiz every Friday.
+
 ## 🎮 Interactive Math Games & Practice
 
 *   **[Prodigy Math](https://www.prodigygame.com/main-en/)**: An adventure game where you catch pets and battle monsters by correctly answering 4th-grade math questions!
