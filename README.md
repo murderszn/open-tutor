@@ -21,5 +21,18 @@ Navigate the repository using the following folders:
 *   [`/students/caleb`](./students/caleb/): Caleb's personal workspace for projects and work.
 *   [`/students/elijah`](./students/elijah/): Elijah's personal workspace for projects and work.
 
+## 📝 Daily Workflow
+
+1.  **Log In**: Every morning, log into your GitHub accounts.
+2.  **Check-In**: Go to your student folder. Your `README.md` contains your weekly schedule and specific assignments for Friday.
+3.  **Work**: Mom and Dad will dole out the actual assignments, which will be in your folder or the `/resources` folder.
+4.  **Commit**: Save your completed projects, notes, and coding assignments back into your personal GitHub folders.
+
+## ⚠️ Help & Questions
+
+If you get stuck, have questions, or need help with a course:
+*   **Message Dad directly for assistance.**
+*   **Utilize GitHub issues to flag problems on specific files.**
+
 ---
-*Happy Learning!*
+*Get logged in and let's get building! 🚀*
