@@ -14,8 +14,10 @@ This folder contains educational materials, reference documents, and useful link
 *   Do not modify or delete files in this folder unless instructed.
 
 ## 📚 Quick Reference Guides
+## 📚 Quick Reference Guides
 *   **[The Ultimate Guide to File Types](./file-types.md)**: A cheat sheet explaining common file extensions (`.docx`, `.xlsx`, `.md`, etc.) and the software required to open them.
 *   **[Weights, Measures, & Conversions](./weights_and_measures.md)**: A handy cheat sheet covering US Customary volume, mass, and distance, the Metric System, and standard-to-metric conversions.
+*   **[Global Reference & World Facts](./world_facts.md)**: A global life preparation guide detailing major oceans, strategic shipping fairways, country capitals, stock exchanges, and global commodity sources (Oil, Gold, Wheat, Soybeans, Rice).
 
 ## 🧰 Essential Online Tools
 
