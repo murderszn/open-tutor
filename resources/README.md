@@ -13,6 +13,10 @@ This folder contains educational materials, reference documents, and useful link
 *   Check this folder regularly for new materials to read, watch, or reference.
 *   Do not modify or delete files in this folder unless instructed.
 
+## 📚 Quick Reference Guides
+*   **[The Ultimate Guide to File Types](./file-types.md)**: A cheat sheet explaining common file extensions (`.docx`, `.xlsx`, `.md`, etc.) and the software required to open them.
+*   **[Weights, Measures, & Conversions](./weights_and_measures.md)**: A handy cheat sheet covering US Customary volume, mass, and distance, the Metric System, and standard-to-metric conversions.
+
 ## 🧰 Essential Online Tools
 
 ### Productivity & Documents (Google Workspace)
