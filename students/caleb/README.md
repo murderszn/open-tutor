@@ -23,7 +23,7 @@ Welcome to 7th Grade! Here are your subject folders:
 ## Weekly Schedule & Assignments (Fridays)
 
 ### March 20, 2026
-- [ ] **STEM:** Perfect 3-Car Collection Assignment (Due today! Use `assignments/perfect-3-car-collection/car-brands.html`)
+- [ ] **STEM:** Complete the **[Perfect 3-Car Collection](../../assignments/perfect-3-car-collection/README.md)** Assignment (Due today! Use **[car-brands.html](../../assignments/perfect-3-car-collection/car-brands.html)**)
 - [ ] **Math:** Complete mom's assigned math work
 - [ ] **Language Arts:** Complete mom's assigned reading and grammar work
 - [ ] **Assessment:** Weekly Quiz
