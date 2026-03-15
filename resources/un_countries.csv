@@ -1,0 +1,196 @@
+name_common,name_official,cca2,cca3,ccn3,region,subregion,capital,population,area_km2,lat,lng,un_status,independent,google_maps_url
+Afghanistan,Islamic Republic of Afghanistan,AF,AFG,004,Asia,Southern Asia,Kabul,,652230,,,Member,True,https://www.google.com/maps/place/Afghanistan
+Albania,Republic of Albania,AL,ALB,008,Europe,Southeast Europe,Tirana,,28748,,,Member,True,https://www.google.com/maps/place/Albania
+Algeria,People's Democratic Republic of Algeria,DZ,DZA,012,Africa,Northern Africa,Algiers,,2381741,,,Member,True,https://www.google.com/maps/place/Algeria
+Andorra,Principality of Andorra,AD,AND,020,Europe,Southern Europe,Andorra la Vella,,468,,,Member,True,https://www.google.com/maps/place/Andorra
+Angola,Republic of Angola,AO,AGO,024,Africa,Middle Africa,Luanda,,1246700,,,Member,True,https://www.google.com/maps/place/Angola
+Antigua and Barbuda,Antigua and Barbuda,AG,ATG,028,Americas,Caribbean,Saint John's,,442,,,Member,True,https://www.google.com/maps/place/Antigua%20and%20Barbuda
+Argentina,Argentine Republic,AR,ARG,032,Americas,South America,Buenos Aires,,2780400,,,Member,True,https://www.google.com/maps/place/Argentina
+Armenia,Republic of Armenia,AM,ARM,051,Asia,Western Asia,Yerevan,,29743,,,Member,True,https://www.google.com/maps/place/Armenia
+Australia,Commonwealth of Australia,AU,AUS,036,Oceania,Australia and New Zealand,Canberra,,7692024,,,Member,True,https://www.google.com/maps/place/Australia
+Austria,Republic of Austria,AT,AUT,040,Europe,Central Europe,Vienna,,83871,,,Member,True,https://www.google.com/maps/place/Austria
+Azerbaijan,Republic of Azerbaijan,AZ,AZE,031,Asia,Western Asia,Baku,,86600,,,Member,True,https://www.google.com/maps/place/Azerbaijan
+Bahamas,Commonwealth of the Bahamas,BS,BHS,044,Americas,Caribbean,Nassau,,13943,,,Member,True,https://www.google.com/maps/place/Bahamas
+Bahrain,Kingdom of Bahrain,BH,BHR,048,Asia,Western Asia,Manama,,765,,,Member,True,https://www.google.com/maps/place/Bahrain
+Bangladesh,People's Republic of Bangladesh,BD,BGD,050,Asia,Southern Asia,Dhaka,,147570,,,Member,True,https://www.google.com/maps/place/Bangladesh
+Barbados,Barbados,BB,BRB,052,Americas,Caribbean,Bridgetown,,430,,,Member,True,https://www.google.com/maps/place/Barbados
+Belarus,Republic of Belarus,BY,BLR,112,Europe,Eastern Europe,Minsk,,207600,,,Member,True,https://www.google.com/maps/place/Belarus
+Belgium,Kingdom of Belgium,BE,BEL,056,Europe,Western Europe,Brussels,,30528,,,Member,True,https://www.google.com/maps/place/Belgium
+Belize,Belize,BZ,BLZ,084,Americas,Central America,Belmopan,,22966,,,Member,True,https://www.google.com/maps/place/Belize
+Benin,Republic of Benin,BJ,BEN,204,Africa,Western Africa,Porto-Novo,,112622,,,Member,True,https://www.google.com/maps/place/Benin
+Bhutan,Kingdom of Bhutan,BT,BTN,064,Asia,Southern Asia,Thimphu,,38394,,,Member,True,https://www.google.com/maps/place/Bhutan
+Bolivia,Plurinational State of Bolivia,BO,BOL,068,Americas,South America,Sucre,,1098581,,,Member,True,https://www.google.com/maps/place/Bolivia
+Bosnia and Herzegovina,Bosnia and Herzegovina,BA,BIH,070,Europe,Southeast Europe,Sarajevo,,51209,,,Member,True,https://www.google.com/maps/place/Bosnia%20and%20Herzegovina
+Botswana,Republic of Botswana,BW,BWA,072,Africa,Southern Africa,Gaborone,,582000,,,Member,True,https://www.google.com/maps/place/Botswana
+Brazil,Federative Republic of Brazil,BR,BRA,076,Americas,South America,Brasília,,8515767,,,Member,True,https://www.google.com/maps/place/Brazil
+Brunei,"Nation of Brunei, Abode of Peace",BN,BRN,096,Asia,South-Eastern Asia,Bandar Seri Begawan,,5765,,,Member,True,https://www.google.com/maps/place/Brunei
+Bulgaria,Republic of Bulgaria,BG,BGR,100,Europe,Southeast Europe,Sofia,,110879,,,Member,True,https://www.google.com/maps/place/Bulgaria
+Burkina Faso,Burkina Faso,BF,BFA,854,Africa,Western Africa,Ouagadougou,,272967,,,Member,True,https://www.google.com/maps/place/Burkina%20Faso
+Burundi,Republic of Burundi,BI,BDI,108,Africa,Eastern Africa,Gitega,,27834,,,Member,True,https://www.google.com/maps/place/Burundi
+Cambodia,Kingdom of Cambodia,KH,KHM,116,Asia,South-Eastern Asia,Phnom Penh,,181035,,,Member,True,https://www.google.com/maps/place/Cambodia
+Cameroon,Republic of Cameroon,CM,CMR,120,Africa,Middle Africa,Yaoundé,,475442,,,Member,True,https://www.google.com/maps/place/Cameroon
+Canada,Canada,CA,CAN,124,Americas,North America,Ottawa,,9984670,,,Member,True,https://www.google.com/maps/place/Canada
+Cape Verde,Republic of Cabo Verde,CV,CPV,132,Africa,Western Africa,Praia,,4033,,,Member,True,https://www.google.com/maps/place/Cape%20Verde
+Central African Republic,Central African Republic,CF,CAF,140,Africa,Middle Africa,Bangui,,622984,,,Member,True,https://www.google.com/maps/place/Central%20African%20Republic
+Chad,Republic of Chad,TD,TCD,148,Africa,Middle Africa,N'Djamena,,1284000,,,Member,True,https://www.google.com/maps/place/Chad
+Chile,Republic of Chile,CL,CHL,152,Americas,South America,Santiago,,756102,,,Member,True,https://www.google.com/maps/place/Chile
+China,People's Republic of China,CN,CHN,156,Asia,Eastern Asia,Beijing,,9706961,,,Member,True,https://www.google.com/maps/place/China
+Colombia,Republic of Colombia,CO,COL,170,Americas,South America,Bogotá,,1141748,,,Member,True,https://www.google.com/maps/place/Colombia
+Comoros,Union of the Comoros,KM,COM,174,Africa,Eastern Africa,Moroni,,1862,,,Member,True,https://www.google.com/maps/place/Comoros
+Congo,Republic of the Congo,CG,COG,178,Africa,Middle Africa,Brazzaville,,342000,,,Member,True,https://www.google.com/maps/place/Congo
+Costa Rica,Republic of Costa Rica,CR,CRI,188,Americas,Central America,San José,,51100,,,Member,True,https://www.google.com/maps/place/Costa%20Rica
+Croatia,Republic of Croatia,HR,HRV,191,Europe,Southeast Europe,Zagreb,,56594,,,Member,True,https://www.google.com/maps/place/Croatia
+Cuba,Republic of Cuba,CU,CUB,192,Americas,Caribbean,Havana,,109884,,,Member,True,https://www.google.com/maps/place/Cuba
+Cyprus,Republic of Cyprus,CY,CYP,196,Europe,Southern Europe,Nicosia,,9251,,,Member,True,https://www.google.com/maps/place/Cyprus
+Czechia,Czech Republic,CZ,CZE,203,Europe,Central Europe,Prague,,78865,,,Member,True,https://www.google.com/maps/place/Czechia
+DR Congo,Democratic Republic of the Congo,CD,COD,180,Africa,Middle Africa,Kinshasa,,2344858,,,Member,True,https://www.google.com/maps/place/DR%20Congo
+Denmark,Kingdom of Denmark,DK,DNK,208,Europe,Northern Europe,Copenhagen,,43094,,,Member,True,https://www.google.com/maps/place/Denmark
+Djibouti,Republic of Djibouti,DJ,DJI,262,Africa,Eastern Africa,Djibouti,,23200,,,Member,True,https://www.google.com/maps/place/Djibouti
+Dominica,Commonwealth of Dominica,DM,DMA,212,Americas,Caribbean,Roseau,,751,,,Member,True,https://www.google.com/maps/place/Dominica
+Dominican Republic,Dominican Republic,DO,DOM,214,Americas,Caribbean,Santo Domingo,,48671,,,Member,True,https://www.google.com/maps/place/Dominican%20Republic
+Ecuador,Republic of Ecuador,EC,ECU,218,Americas,South America,Quito,,276841,,,Member,True,https://www.google.com/maps/place/Ecuador
+Egypt,Arab Republic of Egypt,EG,EGY,818,Africa,Northern Africa,Cairo,,1002450,,,Member,True,https://www.google.com/maps/place/Egypt
+El Salvador,Republic of El Salvador,SV,SLV,222,Americas,Central America,San Salvador,,21041,,,Member,True,https://www.google.com/maps/place/El%20Salvador
+Equatorial Guinea,Republic of Equatorial Guinea,GQ,GNQ,226,Africa,Middle Africa,Malabo,,28051,,,Member,True,https://www.google.com/maps/place/Equatorial%20Guinea
+Eritrea,State of Eritrea,ER,ERI,232,Africa,Eastern Africa,Asmara,,117600,,,Member,True,https://www.google.com/maps/place/Eritrea
+Estonia,Republic of Estonia,EE,EST,233,Europe,Northern Europe,Tallinn,,45227,,,Member,True,https://www.google.com/maps/place/Estonia
+Eswatini,Kingdom of Eswatini,SZ,SWZ,748,Africa,Southern Africa,Lobamba,,17364,,,Member,True,https://www.google.com/maps/place/Eswatini
+Ethiopia,Federal Democratic Republic of Ethiopia,ET,ETH,231,Africa,Eastern Africa,Addis Ababa,,1104300,,,Member,True,https://www.google.com/maps/place/Ethiopia
+Fiji,Republic of Fiji,FJ,FJI,242,Oceania,Melanesia,Suva,,18272,,,Member,True,https://www.google.com/maps/place/Fiji
+Finland,Republic of Finland,FI,FIN,246,Europe,Northern Europe,Helsinki,,338424,,,Member,True,https://www.google.com/maps/place/Finland
+France,French Republic,FR,FRA,250,Europe,Western Europe,Paris,,551695,,,Member,True,https://www.google.com/maps/place/France
+Gabon,Gabonese Republic,GA,GAB,266,Africa,Middle Africa,Libreville,,267668,,,Member,True,https://www.google.com/maps/place/Gabon
+Gambia,Republic of the Gambia,GM,GMB,270,Africa,Western Africa,Banjul,,10689,,,Member,True,https://www.google.com/maps/place/Gambia
+Georgia,Georgia,GE,GEO,268,Asia,Western Asia,Tbilisi,,69700,,,Member,True,https://www.google.com/maps/place/Georgia
+Germany,Federal Republic of Germany,DE,DEU,276,Europe,Western Europe,Berlin,,357114,,,Member,True,https://www.google.com/maps/place/Germany
+Ghana,Republic of Ghana,GH,GHA,288,Africa,Western Africa,Accra,,238533,,,Member,True,https://www.google.com/maps/place/Ghana
+Greece,Hellenic Republic,GR,GRC,300,Europe,Southern Europe,Athens,,131990,,,Member,True,https://www.google.com/maps/place/Greece
+Grenada,Grenada,GD,GRD,308,Americas,Caribbean,St. George's,,344,,,Member,True,https://www.google.com/maps/place/Grenada
+Guatemala,Republic of Guatemala,GT,GTM,320,Americas,Central America,Guatemala City,,108889,,,Member,True,https://www.google.com/maps/place/Guatemala
+Guinea,Republic of Guinea,GN,GIN,324,Africa,Western Africa,Conakry,,245857,,,Member,True,https://www.google.com/maps/place/Guinea
+Guinea-Bissau,Republic of Guinea-Bissau,GW,GNB,624,Africa,Western Africa,Bissau,,36125,,,Member,True,https://www.google.com/maps/place/Guinea-Bissau
+Guyana,Co-operative Republic of Guyana,GY,GUY,328,Americas,South America,Georgetown,,214969,,,Member,True,https://www.google.com/maps/place/Guyana
+Haiti,Republic of Haiti,HT,HTI,332,Americas,Caribbean,Port-au-Prince,,27750,,,Member,True,https://www.google.com/maps/place/Haiti
+Honduras,Republic of Honduras,HN,HND,340,Americas,Central America,Tegucigalpa,,112492,,,Member,True,https://www.google.com/maps/place/Honduras
+Hungary,Hungary,HU,HUN,348,Europe,Central Europe,Budapest,,93028,,,Member,True,https://www.google.com/maps/place/Hungary
+Iceland,Iceland,IS,ISL,352,Europe,Northern Europe,Reykjavik,,103000,,,Member,True,https://www.google.com/maps/place/Iceland
+India,Republic of India,IN,IND,356,Asia,Southern Asia,New Delhi,,3287590,,,Member,True,https://www.google.com/maps/place/India
+Indonesia,Republic of Indonesia,ID,IDN,360,Asia,South-Eastern Asia,Jakarta,,1904569,,,Member,True,https://www.google.com/maps/place/Indonesia
+Iran,Islamic Republic of Iran,IR,IRN,364,Asia,Southern Asia,Tehran,,1648195,,,Member,True,https://www.google.com/maps/place/Iran
+Iraq,Republic of Iraq,IQ,IRQ,368,Asia,Western Asia,Baghdad,,438317,,,Member,True,https://www.google.com/maps/place/Iraq
+Ireland,Republic of Ireland,IE,IRL,372,Europe,Northern Europe,Dublin,,70273,,,Member,True,https://www.google.com/maps/place/Ireland
+Israel,State of Israel,IL,ISR,376,Asia,Western Asia,Jerusalem,,20770,,,Member,True,https://www.google.com/maps/place/Israel
+Italy,Italian Republic,IT,ITA,380,Europe,Southern Europe,Rome,,301336,,,Member,True,https://www.google.com/maps/place/Italy
+Ivory Coast,Republic of Côte d'Ivoire,CI,CIV,384,Africa,Western Africa,Yamoussoukro,,322463,,,Member,True,https://www.google.com/maps/place/Ivory%20Coast
+Jamaica,Jamaica,JM,JAM,388,Americas,Caribbean,Kingston,,10991,,,Member,True,https://www.google.com/maps/place/Jamaica
+Japan,Japan,JP,JPN,392,Asia,Eastern Asia,Tokyo,,377930,,,Member,True,https://www.google.com/maps/place/Japan
+Jordan,Hashemite Kingdom of Jordan,JO,JOR,400,Asia,Western Asia,Amman,,89342,,,Member,True,https://www.google.com/maps/place/Jordan
+Kazakhstan,Republic of Kazakhstan,KZ,KAZ,398,Asia,Central Asia,Astana,,2724900,,,Member,True,https://www.google.com/maps/place/Kazakhstan
+Kenya,Republic of Kenya,KE,KEN,404,Africa,Eastern Africa,Nairobi,,580367,,,Member,True,https://www.google.com/maps/place/Kenya
+Kiribati,Independent and Sovereign Republic of Kiribati,KI,KIR,296,Oceania,Micronesia,South Tarawa,,811,,,Member,True,https://www.google.com/maps/place/Kiribati
+Kuwait,State of Kuwait,KW,KWT,414,Asia,Western Asia,Kuwait City,,17818,,,Member,True,https://www.google.com/maps/place/Kuwait
+Kyrgyzstan,Kyrgyz Republic,KG,KGZ,417,Asia,Central Asia,Bishkek,,199951,,,Member,True,https://www.google.com/maps/place/Kyrgyzstan
+Laos,Lao People's Democratic Republic,LA,LAO,418,Asia,South-Eastern Asia,Vientiane,,236800,,,Member,True,https://www.google.com/maps/place/Laos
+Latvia,Republic of Latvia,LV,LVA,428,Europe,Northern Europe,Riga,,64559,,,Member,True,https://www.google.com/maps/place/Latvia
+Lebanon,Lebanese Republic,LB,LBN,422,Asia,Western Asia,Beirut,,10452,,,Member,True,https://www.google.com/maps/place/Lebanon
+Lesotho,Kingdom of Lesotho,LS,LSO,426,Africa,Southern Africa,Maseru,,30355,,,Member,True,https://www.google.com/maps/place/Lesotho
+Liberia,Republic of Liberia,LR,LBR,430,Africa,Western Africa,Monrovia,,111369,,,Member,True,https://www.google.com/maps/place/Liberia
+Libya,State of Libya,LY,LBY,434,Africa,Northern Africa,Tripoli,,1759540,,,Member,True,https://www.google.com/maps/place/Libya
+Liechtenstein,Principality of Liechtenstein,LI,LIE,438,Europe,Western Europe,Vaduz,,160,,,Member,True,https://www.google.com/maps/place/Liechtenstein
+Lithuania,Republic of Lithuania,LT,LTU,440,Europe,Northern Europe,Vilnius,,65300,,,Member,True,https://www.google.com/maps/place/Lithuania
+Luxembourg,Grand Duchy of Luxembourg,LU,LUX,442,Europe,Western Europe,Luxembourg,,2586,,,Member,True,https://www.google.com/maps/place/Luxembourg
+Madagascar,Republic of Madagascar,MG,MDG,450,Africa,Eastern Africa,Antananarivo,,587041,,,Member,True,https://www.google.com/maps/place/Madagascar
+Malawi,Republic of Malawi,MW,MWI,454,Africa,Eastern Africa,Lilongwe,,118484,,,Member,True,https://www.google.com/maps/place/Malawi
+Malaysia,Malaysia,MY,MYS,458,Asia,South-Eastern Asia,Kuala Lumpur,,330803,,,Member,True,https://www.google.com/maps/place/Malaysia
+Maldives,Republic of the Maldives,MV,MDV,462,Asia,Southern Asia,Malé,,300,,,Member,True,https://www.google.com/maps/place/Maldives
+Mali,Republic of Mali,ML,MLI,466,Africa,Western Africa,Bamako,,1240192,,,Member,True,https://www.google.com/maps/place/Mali
+Malta,Republic of Malta,MT,MLT,470,Europe,Southern Europe,Valletta,,316,,,Member,True,https://www.google.com/maps/place/Malta
+Marshall Islands,Republic of the Marshall Islands,MH,MHL,584,Oceania,Micronesia,Majuro,,181,,,Member,True,https://www.google.com/maps/place/Marshall%20Islands
+Mauritania,Islamic Republic of Mauritania,MR,MRT,478,Africa,Western Africa,Nouakchott,,1030700,,,Member,True,https://www.google.com/maps/place/Mauritania
+Mauritius,Republic of Mauritius,MU,MUS,480,Africa,Eastern Africa,Port Louis,,2040,,,Member,True,https://www.google.com/maps/place/Mauritius
+Mexico,United Mexican States,MX,MEX,484,Americas,North America,Mexico City,,1964375,,,Member,True,https://www.google.com/maps/place/Mexico
+Micronesia,Federated States of Micronesia,FM,FSM,583,Oceania,Micronesia,Palikir,,702,,,Member,True,https://www.google.com/maps/place/Micronesia
+Moldova,Republic of Moldova,MD,MDA,498,Europe,Eastern Europe,Chișinău,,33846,,,Member,True,https://www.google.com/maps/place/Moldova
+Monaco,Principality of Monaco,MC,MCO,492,Europe,Western Europe,Monaco,,2.02,,,Member,True,https://www.google.com/maps/place/Monaco
+Mongolia,Mongolia,MN,MNG,496,Asia,Eastern Asia,Ulan Bator,,1564110,,,Member,True,https://www.google.com/maps/place/Mongolia
+Montenegro,Montenegro,ME,MNE,499,Europe,Southeast Europe,Podgorica,,13812,,,Member,True,https://www.google.com/maps/place/Montenegro
+Morocco,Kingdom of Morocco,MA,MAR,504,Africa,Northern Africa,Rabat,,446550,,,Member,True,https://www.google.com/maps/place/Morocco
+Mozambique,Republic of Mozambique,MZ,MOZ,508,Africa,Eastern Africa,Maputo,,801590,,,Member,True,https://www.google.com/maps/place/Mozambique
+Myanmar,Republic of the Union of Myanmar,MM,MMR,104,Asia,South-Eastern Asia,Naypyidaw,,676578,,,Member,True,https://www.google.com/maps/place/Myanmar
+Namibia,Republic of Namibia,NA,NAM,516,Africa,Southern Africa,Windhoek,,825615,,,Member,True,https://www.google.com/maps/place/Namibia
+Nauru,Republic of Nauru,NR,NRU,520,Oceania,Micronesia,Yaren,,21,,,Member,True,https://www.google.com/maps/place/Nauru
+Nepal,Federal Democratic Republic of Nepal,NP,NPL,524,Asia,Southern Asia,Kathmandu,,147181,,,Member,True,https://www.google.com/maps/place/Nepal
+Netherlands,Kingdom of the Netherlands,NL,NLD,528,Europe,Western Europe,Amsterdam,,41850,,,Member,True,https://www.google.com/maps/place/Netherlands
+New Zealand,New Zealand,NZ,NZL,554,Oceania,Australia and New Zealand,Wellington,,270467,,,Member,True,https://www.google.com/maps/place/New%20Zealand
+Nicaragua,Republic of Nicaragua,NI,NIC,558,Americas,Central America,Managua,,130373,,,Member,True,https://www.google.com/maps/place/Nicaragua
+Niger,Republic of Niger,NE,NER,562,Africa,Western Africa,Niamey,,1267000,,,Member,True,https://www.google.com/maps/place/Niger
+Nigeria,Federal Republic of Nigeria,NG,NGA,566,Africa,Western Africa,Abuja,,923768,,,Member,True,https://www.google.com/maps/place/Nigeria
+North Korea,Democratic People's Republic of Korea,KP,PRK,408,Asia,Eastern Asia,Pyongyang,,120538,,,Member,True,https://www.google.com/maps/place/North%20Korea
+North Macedonia,Republic of North Macedonia,MK,MKD,807,Europe,Southeast Europe,Skopje,,25713,,,Member,True,https://www.google.com/maps/place/North%20Macedonia
+Norway,Kingdom of Norway,NO,NOR,578,Europe,Northern Europe,Oslo,,323802,,,Member,True,https://www.google.com/maps/place/Norway
+Oman,Sultanate of Oman,OM,OMN,512,Asia,Western Asia,Muscat,,309500,,,Member,True,https://www.google.com/maps/place/Oman
+Pakistan,Islamic Republic of Pakistan,PK,PAK,586,Asia,Southern Asia,Islamabad,,881912,,,Member,True,https://www.google.com/maps/place/Pakistan
+Palau,Republic of Palau,PW,PLW,585,Oceania,Micronesia,Ngerulmud,,459,,,Member,True,https://www.google.com/maps/place/Palau
+Panama,Republic of Panama,PA,PAN,591,Americas,Central America,Panama City,,75417,,,Member,True,https://www.google.com/maps/place/Panama
+Papua New Guinea,Independent State of Papua New Guinea,PG,PNG,598,Oceania,Melanesia,Port Moresby,,462840,,,Member,True,https://www.google.com/maps/place/Papua%20New%20Guinea
+Paraguay,Republic of Paraguay,PY,PRY,600,Americas,South America,Asunción,,406752,,,Member,True,https://www.google.com/maps/place/Paraguay
+Peru,Republic of Peru,PE,PER,604,Americas,South America,Lima,,1285216,,,Member,True,https://www.google.com/maps/place/Peru
+Philippines,Republic of the Philippines,PH,PHL,608,Asia,South-Eastern Asia,Manila,,342353,,,Member,True,https://www.google.com/maps/place/Philippines
+Poland,Republic of Poland,PL,POL,616,Europe,Central Europe,Warsaw,,312679,,,Member,True,https://www.google.com/maps/place/Poland
+Portugal,Portuguese Republic,PT,PRT,620,Europe,Southern Europe,Lisbon,,92090,,,Member,True,https://www.google.com/maps/place/Portugal
+Qatar,State of Qatar,QA,QAT,634,Asia,Western Asia,Doha,,11586,,,Member,True,https://www.google.com/maps/place/Qatar
+Romania,Romania,RO,ROU,642,Europe,Southeast Europe,Bucharest,,238391,,,Member,True,https://www.google.com/maps/place/Romania
+Russia,Russian Federation,RU,RUS,643,Europe,Eastern Europe,Moscow,,17098242,,,Member,True,https://www.google.com/maps/place/Russia
+Rwanda,Republic of Rwanda,RW,RWA,646,Africa,Eastern Africa,Kigali,,26338,,,Member,True,https://www.google.com/maps/place/Rwanda
+Saint Kitts and Nevis,Federation of Saint Christopher and Nevis,KN,KNA,659,Americas,Caribbean,Basseterre,,261,,,Member,True,https://www.google.com/maps/place/Saint%20Kitts%20and%20Nevis
+Saint Lucia,Saint Lucia,LC,LCA,662,Americas,Caribbean,Castries,,616,,,Member,True,https://www.google.com/maps/place/Saint%20Lucia
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines,VC,VCT,670,Americas,Caribbean,Kingstown,,389,,,Member,True,https://www.google.com/maps/place/Saint%20Vincent%20and%20the%20Grenadines
+Samoa,Independent State of Samoa,WS,WSM,882,Oceania,Polynesia,Apia,,2842,,,Member,True,https://www.google.com/maps/place/Samoa
+San Marino,Most Serene Republic of San Marino,SM,SMR,674,Europe,Southern Europe,City of San Marino,,61,,,Member,True,https://www.google.com/maps/place/San%20Marino
+Saudi Arabia,Kingdom of Saudi Arabia,SA,SAU,682,Asia,Western Asia,Riyadh,,2149690,,,Member,True,https://www.google.com/maps/place/Saudi%20Arabia
+Senegal,Republic of Senegal,SN,SEN,686,Africa,Western Africa,Dakar,,196722,,,Member,True,https://www.google.com/maps/place/Senegal
+Serbia,Republic of Serbia,RS,SRB,688,Europe,Southeast Europe,Belgrade,,88361,,,Member,True,https://www.google.com/maps/place/Serbia
+Seychelles,Republic of Seychelles,SC,SYC,690,Africa,Eastern Africa,Victoria,,452,,,Member,True,https://www.google.com/maps/place/Seychelles
+Sierra Leone,Republic of Sierra Leone,SL,SLE,694,Africa,Western Africa,Freetown,,71740,,,Member,True,https://www.google.com/maps/place/Sierra%20Leone
+Singapore,Republic of Singapore,SG,SGP,702,Asia,South-Eastern Asia,Singapore,,710,,,Member,True,https://www.google.com/maps/place/Singapore
+Slovakia,Slovak Republic,SK,SVK,703,Europe,Central Europe,Bratislava,,49037,,,Member,True,https://www.google.com/maps/place/Slovakia
+Slovenia,Republic of Slovenia,SI,SVN,705,Europe,Central Europe,Ljubljana,,20273,,,Member,True,https://www.google.com/maps/place/Slovenia
+Solomon Islands,Solomon Islands,SB,SLB,090,Oceania,Melanesia,Honiara,,28896,,,Member,True,https://www.google.com/maps/place/Solomon%20Islands
+Somalia,Federal Republic of Somalia,SO,SOM,706,Africa,Eastern Africa,Mogadishu,,637657,,,Member,True,https://www.google.com/maps/place/Somalia
+South Africa,Republic of South Africa,ZA,ZAF,710,Africa,Southern Africa,Pretoria,,1221037,,,Member,True,https://www.google.com/maps/place/South%20Africa
+South Korea,Republic of Korea,KR,KOR,410,Asia,Eastern Asia,Seoul,,100210,,,Member,True,https://www.google.com/maps/place/South%20Korea
+South Sudan,Republic of South Sudan,SS,SSD,728,Africa,Middle Africa,Juba,,619745,,,Member,True,https://www.google.com/maps/place/South%20Sudan
+Spain,Kingdom of Spain,ES,ESP,724,Europe,Southern Europe,Madrid,,505992,,,Member,True,https://www.google.com/maps/place/Spain
+Sri Lanka,Democratic Socialist Republic of Sri Lanka,LK,LKA,144,Asia,Southern Asia,Colombo,,65610,,,Member,True,https://www.google.com/maps/place/Sri%20Lanka
+Sudan,Republic of the Sudan,SD,SDN,729,Africa,Northern Africa,Khartoum,,1886068,,,Member,True,https://www.google.com/maps/place/Sudan
+Suriname,Republic of Suriname,SR,SUR,740,Americas,South America,Paramaribo,,163820,,,Member,True,https://www.google.com/maps/place/Suriname
+Sweden,Kingdom of Sweden,SE,SWE,752,Europe,Northern Europe,Stockholm,,450295,,,Member,True,https://www.google.com/maps/place/Sweden
+Switzerland,Swiss Confederation,CH,CHE,756,Europe,Western Europe,Bern,,41284,,,Member,True,https://www.google.com/maps/place/Switzerland
+Syria,Syrian Arab Republic,SY,SYR,760,Asia,Western Asia,Damascus,,185180,,,Member,True,https://www.google.com/maps/place/Syria
+São Tomé and Príncipe,Democratic Republic of São Tomé and Príncipe,ST,STP,678,Africa,Middle Africa,São Tomé,,964,,,Member,True,https://www.google.com/maps/place/S%C3%A3o%20Tom%C3%A9%20and%20Pr%C3%ADncipe
+Tajikistan,Republic of Tajikistan,TJ,TJK,762,Asia,Central Asia,Dushanbe,,143100,,,Member,True,https://www.google.com/maps/place/Tajikistan
+Tanzania,United Republic of Tanzania,TZ,TZA,834,Africa,Eastern Africa,Dodoma,,945087,,,Member,True,https://www.google.com/maps/place/Tanzania
+Thailand,Kingdom of Thailand,TH,THA,764,Asia,South-Eastern Asia,Bangkok,,513120,,,Member,True,https://www.google.com/maps/place/Thailand
+Timor-Leste,Democratic Republic of Timor-Leste,TL,TLS,626,Asia,South-Eastern Asia,Dili,,14874,,,Member,True,https://www.google.com/maps/place/Timor-Leste
+Togo,Togolese Republic,TG,TGO,768,Africa,Western Africa,Lomé,,56785,,,Member,True,https://www.google.com/maps/place/Togo
+Tonga,Kingdom of Tonga,TO,TON,776,Oceania,Polynesia,Nuku'alofa,,747,,,Member,True,https://www.google.com/maps/place/Tonga
+Trinidad and Tobago,Republic of Trinidad and Tobago,TT,TTO,780,Americas,Caribbean,Port of Spain,,5130,,,Member,True,https://www.google.com/maps/place/Trinidad%20and%20Tobago
+Tunisia,Tunisian Republic,TN,TUN,788,Africa,Northern Africa,Tunis,,163610,,,Member,True,https://www.google.com/maps/place/Tunisia
+Turkmenistan,Turkmenistan,TM,TKM,795,Asia,Central Asia,Ashgabat,,488100,,,Member,True,https://www.google.com/maps/place/Turkmenistan
+Tuvalu,Tuvalu,TV,TUV,798,Oceania,Polynesia,Funafuti,,26,,,Member,True,https://www.google.com/maps/place/Tuvalu
+Türkiye,Republic of Türkiye,TR,TUR,792,Asia,Western Asia,Ankara,,783562,,,Member,True,https://www.google.com/maps/place/T%C3%BCrkiye
+Uganda,Republic of Uganda,UG,UGA,800,Africa,Eastern Africa,Kampala,,241550,,,Member,True,https://www.google.com/maps/place/Uganda
+Ukraine,Ukraine,UA,UKR,804,Europe,Eastern Europe,Kyiv,,603500,,,Member,True,https://www.google.com/maps/place/Ukraine
+United Arab Emirates,United Arab Emirates,AE,ARE,784,Asia,Western Asia,Abu Dhabi,,83600,,,Member,True,https://www.google.com/maps/place/United%20Arab%20Emirates
+United Kingdom,United Kingdom of Great Britain and Northern Ireland,GB,GBR,826,Europe,Northern Europe,London,,242900,,,Member,True,https://www.google.com/maps/place/United%20Kingdom
+United States,United States of America,US,USA,840,Americas,North America,Washington D.C.,,9372610,,,Member,True,https://www.google.com/maps/place/United%20States
+Uruguay,Oriental Republic of Uruguay,UY,URY,858,Americas,South America,Montevideo,,181034,,,Member,True,https://www.google.com/maps/place/Uruguay
+Uzbekistan,Republic of Uzbekistan,UZ,UZB,860,Asia,Central Asia,Tashkent,,447400,,,Member,True,https://www.google.com/maps/place/Uzbekistan
+Vanuatu,Republic of Vanuatu,VU,VUT,548,Oceania,Melanesia,Port Vila,,12189,,,Member,True,https://www.google.com/maps/place/Vanuatu
+Vatican City,Vatican City State,VA,VAT,336,Europe,Southern Europe,Vatican City,,0.44,,,Member,True,https://www.google.com/maps/place/Vatican%20City
+Venezuela,Bolivarian Republic of Venezuela,VE,VEN,862,Americas,South America,Caracas,,916445,,,Member,True,https://www.google.com/maps/place/Venezuela
+Vietnam,Socialist Republic of Vietnam,VN,VNM,704,Asia,South-Eastern Asia,Hanoi,,331212,,,Member,True,https://www.google.com/maps/place/Vietnam
+Yemen,Republic of Yemen,YE,YEM,887,Asia,Western Asia,Sana'a,,527968,,,Member,True,https://www.google.com/maps/place/Yemen
+Zambia,Republic of Zambia,ZM,ZMB,894,Africa,Eastern Africa,Lusaka,,752612,,,Member,True,https://www.google.com/maps/place/Zambia
+Zimbabwe,Republic of Zimbabwe,ZW,ZWE,716,Africa,Eastern Africa,Harare,,390757,,,Member,True,https://www.google.com/maps/place/Zimbabwe
+Palestine,State of Palestine,PS,PSE,275,Asia,Western Asia,Ramallah,,6220,,,Observer,False,https://www.google.com/maps/place/Palestine

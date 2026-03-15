@@ -52,14 +52,16 @@ Welcome to 4th Grade! Here are your subject folders:
 ### April 10, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-10_quiz.md)**
+- [ ] **Math Prep:** Read the **[Rounding Hints](./grade-4/math/quizzes/2026-04-10_quiz_hints.md)** before you start.
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-04-10_quiz.md)**
-- [ ] Other assignments to be determined...
+- [ ] **Math Project:** Do the **[Place Value Detective](../../assignments/place-value-detective/README.md)** mini‑project. Turn in a photo or PDF.
+- [ ] **STEM Fun (Optional):** Draw your own “app icon” for a pretend game. Write 2 sentences about what the game does.
 
 ### April 17, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-17_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-04-17_quiz.md)**
-- [ ] Other assignments to be determined...
+ - [ ] **Math Practice:** Make 12 number cards (1–36). Sort three sets: “All Factors of 24”, “Multiples of 6”, “Numbers that are both”. Take a photo of your sort.
 
 ### April 24, 2026
 

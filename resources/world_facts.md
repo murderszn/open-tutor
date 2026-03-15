@@ -1,88 +1,230 @@
-# 🌍 Global Reference & World Facts
+# 🌍 World Facts & ASCII Visuals
 
-Welcome to your guide to understanding how the world connects! This document covers the major geography, economics, and resources that power the global economy.
+A compact, easy‑reference guide to geography, countries, economies, and history. Snapshot lists provide quick context; see Data & Practice for authoritative sources.
 
 ---
 
-## 🌊 Major Bodies of Water & Strategic Fairways (Chokepoints)
+## 🔗 Quick Links
 
-Understanding the oceans and the strategic "chokepoints" (narrow fairways, canals, and straits) is crucial because roughly 80% of all global trade travels by sea!
+- UN Countries (CSV): `resources/un_countries.csv`
+- UN Countries (SQL): `resources/un_countries.sql`
+- UN Countries (JSON snapshot): `resources/un_countries.json`
+
+---
+
+## 🗺️ Continents & Land
+
+### Continents Overview (countries + population)
+Note: Country counts vary by recognition and how trans‑continental states are grouped. Populations are 2025 estimates, rounded.
+
+- Africa — 54 countries — ≈ 1.50B people
+- Asia — 49 countries — ≈ 4.80B people
+- Europe — 44 countries — ≈ 0.75B people
+- North America — 23 countries — ≈ 0.60B people (includes Central America & the Caribbean)
+- South America — 12 countries — ≈ 0.44B people
+- Oceania — 14 countries — ≈ 0.05B people
+- Antarctica — 0 countries — ≈ 0 (no permanent residents)
+
+### Land Superlatives (quick reference)
+- Largest countries by area: Russia, Canada, China, United States, Brazil, Australia, India, Argentina, Kazakhstan, Algeria.
+- Largest islands: Greenland, New Guinea, Borneo, Madagascar, Baffin Island.
+- Longest rivers: Nile, Amazon, Yangtze, Mississippi–Missouri, Yenisei.
+- Highest mountains: Everest, K2, Kangchenjunga, Lhotse, Makalu.
+- Largest deserts: Antarctic, Arctic, Sahara, Arabian, Gobi.
+
+ 
+
+
+---
+
+## 🧭 Geography & Trade Routes
 
 ### The 5 Oceans
-1. **Pacific Ocean:** The largest and deepest ocean, covering more than 30% of the Earth's surface.
-2. **Atlantic Ocean:** Separates the Americas from Europe and Africa.
-3. **Indian Ocean:** Located between Africa, Asia, and Australia. Heavy trade route for oil.
-4. **Southern Ocean:** Encircles Antarctica.
-5. **Arctic Ocean:** The smallest and shallowest, located around the North Pole.
+1. Pacific — Largest and deepest (30%+ of Earth’s surface).
+2. Atlantic — Separates the Americas from Europe and Africa.
+3. Indian — Between Africa, Asia, Australia; major oil routes.
+4. Southern — Encircles Antarctica.
+5. Arctic — Smallest/shallowest around the North Pole.
 
 ### Major Seas
-*   **Mediterranean Sea:** Located between Europe, Africa, and Asia.
-*   **South China Sea:** A highly contested, massive trade route in Southeast Asia.
-*   **Caribbean Sea:** Located between North and South America.
-*   **Arabian Sea:** Northwest part of the Indian Ocean, critical for Middle East shipping.
+- Mediterranean — Between Europe, Africa, Asia.
+- South China Sea — Massive, contested trade corridor.
+- Caribbean — Between North and South America.
+- Arabian Sea — Northwest Indian Ocean; key for Middle East shipping.
 
-### Critical Global Chokepoints (Strategic Fairways)
-*   **Panama Canal:** Connects the Atlantic and Pacific Oceans, saving ships from traveling all the way around South America.
-*   **Suez Canal (Egypt):** Connects the Mediterranean Sea to the Red Sea, allowing ships to bypass Africa when traveling between Europe and Asia.
-*   **Strait of Hormuz (Middle East):** The world's most important oil chokepoint. About 20-30% of the world's oil passes through this narrow strait between the Persian Gulf and the Gulf of Oman.
-*   **Strait of Malacca (Southeast Asia):** The primary shipping lane connecting the Indian and Pacific Oceans. It passes by Singapore, a massive global port.
-
----
-
-## 🏛️ Major Global Capitals
-
-Knowing the capitals of the world's major economic and political powers helps you understand international news and politics.
-
-*   🇺🇸 **United States:** Washington, D.C.
-*   🇬🇧 **United Kingdom:** London
-*   🇪🇺 **European Union HQ:** Brussels, Belgium (Note: The EU is an economic/political alliance, not a single country, but Brussels acts as its de-facto headquarters).
-*   🇩🇪 **Germany:** Berlin
-*   🇫🇷 **France:** Paris
-*   🇨🇳 **China:** Beijing
-*   🇯🇵 **Japan:** Tokyo
-*   🇮🇳 **India:** New Delhi
-*   🇷🇺 **Russia:** Moscow
-*   🇧🇷 **Brazil:** Brasília
-*   🇨🇦 **Canada:** Ottawa
-*   🇦🇺 **Australia:** Canberra
+### Strategic Fairways (Chokepoints)
+- [Panama Canal](https://www.google.com/maps/place/Panama+Canal) — Atlantic↔Pacific shortcut.
+- [Suez Canal](https://www.google.com/maps/place/Suez+Canal) — Mediterranean↔Red Sea; Europe↔Asia shortcut.
+- [Strait of Hormuz](https://www.google.com/maps/place/Strait+of+Hormuz) — Critical for global oil flows.
+- [Strait of Malacca](https://www.google.com/maps/place/Strait+of+Malacca) — Primary lane India↔Pacific near Singapore.
 
 ---
 
-## 📈 Major Global Stock Exchanges
+## 🏙️ Capitals & Economic Hubs
 
-These are the primary marketplaces where shares of massive multinational companies are bought and sold.
+(Links open Google Maps)
 
-1.  **New York Stock Exchange (NYSE) - USA:** The largest stock exchange in the world by market capitalization, located on Wall Street in NYC.
-2.  **Nasdaq - USA:** The second-largest exchange, known for heavily listing technology companies (Apple, Microsoft, Google, Amazon).
-3.  **Shanghai Stock Exchange (SSE) - China:** The largest exchange in mainland China.
-4.  **Euronext - Europe:** A pan-European exchange spanning Amsterdam, Brussels, Dublin, Lisbon, Milan, Oslo, and Paris.
-5.  **Japan Exchange Group (JPX) - Japan:** Created by the merger of the Tokyo and Osaka stock exchanges.
-6.  **London Stock Exchange (LSE) - UK:** One of the oldest and most historically significant exchanges in the world.
-7.  **Hong Kong Stock Exchange (HKEX) - Hong Kong:** A massive financial hub connecting Chinese markets with international investors.
+- United States — [Washington, D.C.](https://www.google.com/maps/place/Washington,+DC)
+- United Kingdom — [London](https://www.google.com/maps/place/London,+UK)
+- European Union HQ — [Brussels, Belgium](https://www.google.com/maps/place/Brussels,+Belgium)
+- Germany — [Berlin](https://www.google.com/maps/place/Berlin,+Germany)
+- France — [Paris](https://www.google.com/maps/place/Paris,+France)
+- China — [Beijing](https://www.google.com/maps/place/Beijing,+China)
+- Japan — [Tokyo](https://www.google.com/maps/place/Tokyo,+Japan)
+- India — [New Delhi](https://www.google.com/maps/place/New+Delhi,+Delhi,+India)
+- Russia — [Moscow](https://www.google.com/maps/place/Moscow,+Russia)
+- Brazil — [Brasilia](https://www.google.com/maps/place/Brasilia,+Federal+District,+Brazil)
+- Canada — [Ottawa](https://www.google.com/maps/place/Ottawa,+ON,+Canada)
+- Australia — [Canberra](https://www.google.com/maps/place/Canberra+ACT,+Australia)
 
 ---
 
-## 🌾 Global Commodities: Where Do Our Resources Come From?
+## 📊 Markets & Exchanges (2025 snapshot)
 
-Commodities are raw materials or primary agricultural products that can be bought and sold. Certain countries completely dominate the global supply of specific resources.
+Major stock exchanges by market activity and listings (acknowledgement only; no stats shown):
+- NYSE (USA), Nasdaq (USA), SSE (China), Euronext (EU), JPX (Japan), LSE (UK), HKEX (Hong Kong)
 
-### 🛢️ Crude Oil (Energy)
-Oil fuels the entire global economy (gasoline, plastics, jet fuel). Taking control of oil trade is a major geopolitical strategy.
-*   **Top Producers:** United States, Saudi Arabia, Russia.
-*   *Note: OPEC (Organization of the Petroleum Exporting Countries) is a group of countries (largely in the Middle East) that coordinate to control oil prices by collectively raising or lowering production.*
+Note: This reflects the major players as of 2025 when we ran the data. Exact rankings and market shares fluctuate over time.
 
-### 🥇 Gold (Precious Metals)
-Used in electronics, jewelry, and heavily bought by central banks as a protective financial/monetary asset.
-*   **Top Producers:** China, Australia, Russia. (The US and Canada are also major producers).
+---
+
+## 🧺 Food Commodities — Leaders (2025 snapshot)
+
+Acknowledgement only; no charts or stats shown. Leaders can vary year‑to‑year, but these reflect major producers as of 2025 when we ran the data.
 
 ### 🌾 Wheat (Food Staple)
-Used for bread, pasta, and baked goods. Geopolitical conflict (like wars) and weather heavily affect global wheat prices.
-*   **Top Producers:** China, India, Russia, United States, and France.
+- China
+- India
+- Russia
+- United States
+- France
 
 ### 🌱 Soybeans (Agriculture)
-Crucial not just for humans, but mostly for feeding livestock (pigs, cows, chickens) around the world.
-*   **Top Producers:** Brazil, United States, Argentina. (China is the world's absolute largest *importer* of soybeans to feed its population and livestock).
+- Brazil
+- United States
+- Argentina
 
 ### 🍚 Rice (Food Staple)
-The primary food staple for more than half of the world's human population.
-*   **Top Producers:** China, India, Bangladesh, Indonesia.
+- China
+- India
+- Bangladesh
+- Indonesia
+
+---
+
+## 🕰️ Historical Eras (ASCII timeline)
+
+Use this to place literature, technology, and events in context.
+
+```
+1760-1840  First Industrial Revolution
+    |
+1870-1914  Second Industrial Revolution
+    |
+1920-1929  Roaring Twenties
+    |
+1929-1939  The Great Depression
+    |
+1939-1945  World War II
+    |
+1946-1969  Post‑War Boom & Early Cold War
+    |
+1970-1999  Information & Computer Age
+    |
+1990-2005  Dot‑Com Era & Globalization 2.0
+    |
+2008-2009  Global Financial Crisis
+    |
+2010‑Now   AI & Data‑Driven Era
+```
+
+Prompt: When reading a work, ask which era’s technology, economy, and ideas shaped the story.
+
+---
+
+## 🧭 Era Highlights (Global Perspective)
+
+Brief snapshots to anchor discussion and cross‑link literature, economics, and technology.
+
+### 1760–1840 · First Industrial Revolution
+- Steam power, mechanized textiles, ironworks; factories and urban migration expand.
+- Canals and early railways improve freight; global cotton trade intertwines with slavery.
+
+### 1870–1914 · Second Industrial Revolution
+- Steel, electricity, chemicals, telegraph/telephone; assembly lines and mass production.
+- High imperialism and colonial extraction; steamships and rail knit global markets.
+
+### 1920–1929 · Roaring Twenties
+- Mass consumer culture: radio, cinema, automobiles; jazz and modernism spread.
+- Post‑WWI recovery alongside asset bubbles; women’s suffrage expands in multiple countries.
+
+### 1929–late 1930s · The Great Depression
+- Global trade contracts; unemployment and deflation drive social hardship.
+- Protectionism rises; states experiment with safety nets, public works, and currency reform.
+
+### 1939–1945 · World War II
+- Total war across Europe, Asia, Africa, and the Pacific; industrial mobilization at scale.
+- Genocide and war crimes (including the Holocaust); founding of the United Nations (1945).
+
+### late 1940s–1960s · Post‑War Boom & Early Cold War
+- Reconstruction in Europe/Japan; Bretton Woods system, IMF/World Bank, Marshall Plan.
+- Decolonization across Asia/Africa; superpower rivalry and nuclear deterrence.
+
+### 1970s–1990s · Information & Computer Age
+- Microprocessors, PCs, satellites; container shipping and just‑in‑time logistics scale trade.
+- Oil shocks and inflation; end of the Cold War, the Internet and the World Wide Web emerge.
+
+### 1990s–early 2000s · Dot‑Com Era & Globalization 2.0
+- Commercial internet, mobile phones, and e‑commerce; WTO (1995) and rising supply chains.
+- Dot‑com boom/bust; security landscape shifts after 2001.
+
+### 2008–2009 · Global Financial Crisis
+- Housing/credit bubbles burst; banking stress and synchronized recession.
+- Fiscal/monetary stimulus; regulatory reforms (e.g., Basel III) and sovereign‑debt strains.
+
+### 2010s–present · AI & Data‑Driven Era
+- Smartphones, cloud, social platforms; big data, machine learning, and generative AI.
+- COVID‑19 pandemic shock, remote/hybrid work; energy transition and supply‑chain rewiring.
+
+---
+
+## 🧑‍⚖️ World Leaders (2025 snapshot)
+
+Acknowledgement-only list of widely recognized political leaders. Incumbents change; verify before use.
+
+- Xi Jinping — President of the PRC; General Secretary of the Communist Party of China (China)
+- Narendra Modi — Prime Minister of India (India)
+- Vladimir Putin — President of the Russian Federation (Russia)
+- Keir Starmer — Prime Minister of the United Kingdom (United Kingdom)
+- Ursula von der Leyen — President of the European Commission (European Union)
+- Emmanuel Macron — President of France (France)
+- Olaf Scholz — Chancellor of Germany (Germany)
+- Volodymyr Zelenskyy — President of Ukraine (Ukraine)
+- Recep Tayyip Erdoğan — President of Türkiye (Turkey)
+- Mohammed bin Salman — Crown Prince/Prime Minister (Saudi Arabia)
+- Benjamin Netanyahu — Prime Minister (Israel)
+- Pope Francis — Head of the Catholic Church (Vatican City)
+
+Note: This is a non-exhaustive snapshot for context and discussion; verify incumbents and titles against official sources.
+
+---
+
+## 🗃️ Data & Practice
+
+### Datasets (Countries)
+- JSON (source snapshot): `resources/un_countries.json` (from mledoze/countries)
+- CSV: UN‑recognized nations with demographics and Google Maps link → `resources/un_countries.csv`
+- SQL: Matching table definition + INSERTs → `resources/un_countries.sql`
+
+Note: Includes UN Members plus Observers (Holy See, State of Palestine). Snapshot current as of fetch time.
+
+### Geography Quizzes
+- Seterra (GeoGuessr) Map Quizzes: https://www.geoguessr.com/seterra/
+
+### Official Records & Statistics
+- UN Data Portal: https://data.un.org/
+- World Bank Data: https://data.worldbank.org/
+- UN Population (World Population Prospects): https://population.un.org/wpp/
+- FAOSTAT (Food & Agriculture): https://www.fao.org/faostat/
+- IEA Energy Statistics: https://www.iea.org/data-and-statistics
+- UN Comtrade (Global Trade): https://comtradeplus.un.org/
