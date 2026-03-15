@@ -6,9 +6,9 @@ A compact, easy‑reference guide to geography, countries, economies, and histor
 
 ## 🔗 Quick Links
 
-- UN Countries (CSV): `resources/un_countries.csv`
-- UN Countries (SQL): `resources/un_countries.sql`
-- UN Countries (JSON snapshot): `resources/un_countries.json`
+- UN Countries (CSV): [resources/un_countries.csv](./un_countries.csv)
+- UN Countries (SQL): [resources/un_countries.sql](./un_countries.sql)
+- UN Countries (JSON snapshot): [resources/un_countries.json](./un_countries.json)
 
 ---
 

@@ -14,9 +14,9 @@ Keep everything in your student folder in a `/finance` subfolder.
 ---
 
 ## 🔗 Quick Links
-- World Facts (markets, leaders, trade routes): `resources/world_facts.md`
-- Weights & Measures (unit conversions): `resources/weights_and_measures.md`
-- UN Countries (for currency/country lookups): `resources/un_countries.csv`
+- World Facts (markets, leaders, trade routes): [resources/world_facts.md](./world_facts.md)
+- Weights & Measures (unit conversions): [resources/weights_and_measures.md](./weights_and_measures.md)
+- UN Countries (for currency/country lookups): [resources/un_countries.csv](./un_countries.csv)
 
 ---
 
@@ -198,27 +198,26 @@ Source & date for rate:
 ## 🌐 Sites & Sources (Learn + Verify)
 
 Official (US)
-- SEC Investor.gov (investing basics + calculators): https://www.investor.gov/
-- FINRA (fund analyzer, investor education): https://www.finra.org/investors
-- CFPB (loans, mortgages, credit card guidance): https://www.consumerfinance.gov/
-- IRS (tax rules, IRA/401k information): https://www.irs.gov/
-- Federal Reserve (rates, education): https://www.federalreserve.gov/ and FRED data https://fred.stlouisfed.org/
-- Freddie Mac Primary Mortgage Market Survey (US mortgage rates): https://www.freddiemac.com/pmms
+- [SEC Investor.gov — investing basics + calculators](https://www.investor.gov/)
+- [FINRA — fund analyzer, investor education](https://www.finra.org/investors)
+- [CFPB — loans, mortgages, credit cards](https://www.consumerfinance.gov/)
+- [IRS — tax rules, IRA/401k info](https://www.irs.gov/)
+- [Federal Reserve — rates, education](https://www.federalreserve.gov/) and [FRED data](https://fred.stlouisfed.org/)
+- [Freddie Mac PMMS — US mortgage rates](https://www.freddiemac.com/pmms)
 
 International & Data
-- World Bank Data: https://data.worldbank.org/
-- IMF Data: https://www.imf.org/en/Data
-- OECD Data: https://data.oecd.org/
-- ECB Reference Exchange Rates: https://www.ecb.europa.eu/stats/eurofxref/
+- [World Bank Data](https://data.worldbank.org/)
+- [IMF Data](https://www.imf.org/en/Data)
+- [OECD Data](https://data.oecd.org/)
+- [ECB Reference Exchange Rates](https://www.ecb.europa.eu/stats/eurofxref/)
 
 Education (kids to adults)
-- Khan Academy — Finance & Capital Markets: https://www.khanacademy.org/economics-finance-domain
-- Next Gen Personal Finance (NGPF): https://www.ngpf.org/
-- Bogleheads Wiki (investing basics): https://www.bogleheads.org/wiki/Main_Page
-- Vanguard Investor Education: https://investor.vanguard.com/investor-resources-education
+- [Khan Academy — Finance & Capital Markets](https://www.khanacademy.org/economics-finance-domain)
+- [Next Gen Personal Finance (NGPF)](https://www.ngpf.org/)
+- [Bogleheads Wiki — Investing Basics](https://www.bogleheads.org/wiki/Main_Page)
+- [Vanguard — Investor Education](https://investor.vanguard.com/investor-resources-education)
 
 Rates & Market Check (use carefully; record source/date)
-- Treasury yields (US): https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/default.aspx
-- St. Louis Fed FRED series (search tool): https://fred.stlouisfed.org/
-- ECB exchange rates (daily reference): https://www.ecb.europa.eu/stats/eurofxref/
-
+- [Treasury yields (US)](https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/default.aspx)
+- [St. Louis Fed — FRED series](https://fred.stlouisfed.org/)
+- [ECB exchange rates (daily reference)](https://www.ecb.europa.eu/stats/eurofxref/)
