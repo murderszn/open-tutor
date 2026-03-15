@@ -53,10 +53,10 @@ Note: Country counts vary by recognition and how trans‑continental states are 
 - Arabian Sea — Northwest Indian Ocean; key for Middle East shipping.
 
 ### Strategic Fairways (Chokepoints)
-- [Panama Canal](https://www.google.com/maps/place/Panama+Canal) — Atlantic↔Pacific shortcut.
-- [Suez Canal](https://www.google.com/maps/place/Suez+Canal) — Mediterranean↔Red Sea; Europe↔Asia shortcut.
-- [Strait of Hormuz](https://www.google.com/maps/place/Strait+of+Hormuz) — Critical for global oil flows.
-- [Strait of Malacca](https://www.google.com/maps/place/Strait+of+Malacca) — Primary lane India↔Pacific near Singapore.
+- [Panama Canal](https://www.google.com/maps/place/Panama+Canal) — Atlantic↔Pacific shortcut. ([Wikipedia](https://en.wikipedia.org/wiki/Panama_Canal))
+- [Suez Canal](https://www.google.com/maps/place/Suez+Canal) — Mediterranean↔Red Sea; Europe↔Asia shortcut. ([Wikipedia](https://en.wikipedia.org/wiki/Suez_Canal))
+- [Strait of Hormuz](https://www.google.com/maps/place/Strait+of+Hormuz) — Critical for global oil flows. ([Wikipedia](https://en.wikipedia.org/wiki/Strait_of_Hormuz))
+- [Strait of Malacca](https://www.google.com/maps/place/Strait+of+Malacca) — Primary lane India↔Pacific near Singapore. ([Wikipedia](https://en.wikipedia.org/wiki/Strait_of_Malacca))
 
 ---
 
@@ -64,18 +64,18 @@ Note: Country counts vary by recognition and how trans‑continental states are 
 
 (Links open Google Maps)
 
-- United States — [Washington, D.C.](https://www.google.com/maps/place/Washington,+DC)
-- United Kingdom — [London](https://www.google.com/maps/place/London,+UK)
-- European Union HQ — [Brussels, Belgium](https://www.google.com/maps/place/Brussels,+Belgium)
-- Germany — [Berlin](https://www.google.com/maps/place/Berlin,+Germany)
-- France — [Paris](https://www.google.com/maps/place/Paris,+France)
-- China — [Beijing](https://www.google.com/maps/place/Beijing,+China)
-- Japan — [Tokyo](https://www.google.com/maps/place/Tokyo,+Japan)
-- India — [New Delhi](https://www.google.com/maps/place/New+Delhi,+Delhi,+India)
-- Russia — [Moscow](https://www.google.com/maps/place/Moscow,+Russia)
-- Brazil — [Brasilia](https://www.google.com/maps/place/Brasilia,+Federal+District,+Brazil)
-- Canada — [Ottawa](https://www.google.com/maps/place/Ottawa,+ON,+Canada)
-- Australia — [Canberra](https://www.google.com/maps/place/Canberra+ACT,+Australia)
+- United States — [Washington, D.C.](https://www.google.com/maps/place/Washington,+DC) ([Wikipedia](https://en.wikipedia.org/wiki/United_States))
+- United Kingdom — [London](https://www.google.com/maps/place/London,+UK) ([Wikipedia](https://en.wikipedia.org/wiki/United_Kingdom))
+- European Union HQ — [Brussels, Belgium](https://www.google.com/maps/place/Brussels,+Belgium) ([Wikipedia](https://en.wikipedia.org/wiki/European_Union))
+- Germany — [Berlin](https://www.google.com/maps/place/Berlin,+Germany) ([Wikipedia](https://en.wikipedia.org/wiki/Germany))
+- France — [Paris](https://www.google.com/maps/place/Paris,+France) ([Wikipedia](https://en.wikipedia.org/wiki/France))
+- China — [Beijing](https://www.google.com/maps/place/Beijing,+China) ([Wikipedia](https://en.wikipedia.org/wiki/China))
+- Japan — [Tokyo](https://www.google.com/maps/place/Tokyo,+Japan) ([Wikipedia](https://en.wikipedia.org/wiki/Japan))
+- India — [New Delhi](https://www.google.com/maps/place/New+Delhi,+Delhi,+India) ([Wikipedia](https://en.wikipedia.org/wiki/India))
+- Russia — [Moscow](https://www.google.com/maps/place/Moscow,+Russia) ([Wikipedia](https://en.wikipedia.org/wiki/Russia))
+- Brazil — [Brasilia](https://www.google.com/maps/place/Brasilia,+Federal+District,+Brazil) ([Wikipedia](https://en.wikipedia.org/wiki/Brazil))
+- Canada — [Ottawa](https://www.google.com/maps/place/Ottawa,+ON,+Canada) ([Wikipedia](https://en.wikipedia.org/wiki/Canada))
+- Australia — [Canberra](https://www.google.com/maps/place/Canberra+ACT,+Australia) ([Wikipedia](https://en.wikipedia.org/wiki/Australia))
 
 ---
 
@@ -93,22 +93,22 @@ Note: This reflects the major players as of 2025 when we ran the data. Exact ran
 Acknowledgement only; no charts or stats shown. Leaders can vary year‑to‑year, but these reflect major producers as of 2025 when we ran the data.
 
 ### 🌾 Wheat (Food Staple)
-- China
-- India
-- Russia
-- United States
-- France
+- [China](https://en.wikipedia.org/wiki/China)
+- [India](https://en.wikipedia.org/wiki/India)
+- [Russia](https://en.wikipedia.org/wiki/Russia)
+- [United States](https://en.wikipedia.org/wiki/United_States)
+- [France](https://en.wikipedia.org/wiki/France)
 
 ### 🌱 Soybeans (Agriculture)
-- Brazil
-- United States
-- Argentina
+- [Brazil](https://en.wikipedia.org/wiki/Brazil)
+- [United States](https://en.wikipedia.org/wiki/United_States)
+- [Argentina](https://en.wikipedia.org/wiki/Argentina)
 
 ### 🍚 Rice (Food Staple)
-- China
-- India
-- Bangladesh
-- Indonesia
+- [China](https://en.wikipedia.org/wiki/China)
+- [India](https://en.wikipedia.org/wiki/India)
+- [Bangladesh](https://en.wikipedia.org/wiki/Bangladesh)
+- [Indonesia](https://en.wikipedia.org/wiki/Indonesia)
 
 ---
 
@@ -192,18 +192,18 @@ Brief snapshots to anchor discussion and cross‑link literature, economics, and
 
 Acknowledgement-only list of widely recognized political leaders. Incumbents change; verify before use.
 
-- Xi Jinping — President of the PRC; General Secretary of the Communist Party of China (China)
-- Narendra Modi — Prime Minister of India (India)
-- Vladimir Putin — President of the Russian Federation (Russia)
-- Keir Starmer — Prime Minister of the United Kingdom (United Kingdom)
-- Ursula von der Leyen — President of the European Commission (European Union)
-- Emmanuel Macron — President of France (France)
-- Olaf Scholz — Chancellor of Germany (Germany)
-- Volodymyr Zelenskyy — President of Ukraine (Ukraine)
-- Recep Tayyip Erdoğan — President of Türkiye (Turkey)
-- Mohammed bin Salman — Crown Prince/Prime Minister (Saudi Arabia)
-- Benjamin Netanyahu — Prime Minister (Israel)
-- Pope Francis — Head of the Catholic Church (Vatican City)
+- [Xi Jinping](https://en.wikipedia.org/wiki/Xi_Jinping) — President of the PRC; General Secretary of the Communist Party of China ([China](https://en.wikipedia.org/wiki/China))
+- [Narendra Modi](https://en.wikipedia.org/wiki/Narendra_Modi) — Prime Minister of India ([India](https://en.wikipedia.org/wiki/India))
+- [Vladimir Putin](https://en.wikipedia.org/wiki/Vladimir_Putin) — President of the Russian Federation ([Russia](https://en.wikipedia.org/wiki/Russia))
+- [Keir Starmer](https://en.wikipedia.org/wiki/Keir_Starmer) — Prime Minister of the United Kingdom ([United Kingdom](https://en.wikipedia.org/wiki/United_Kingdom))
+- [Ursula von der Leyen](https://en.wikipedia.org/wiki/Ursula_von_der_Leyen) — President of the European Commission ([European Union](https://en.wikipedia.org/wiki/European_Union))
+- [Emmanuel Macron](https://en.wikipedia.org/wiki/Emmanuel_Macron) — President of France ([France](https://en.wikipedia.org/wiki/France))
+- [Olaf Scholz](https://en.wikipedia.org/wiki/Olaf_Scholz) — Chancellor of Germany ([Germany](https://en.wikipedia.org/wiki/Germany))
+- [Volodymyr Zelenskyy](https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy) — President of Ukraine ([Ukraine](https://en.wikipedia.org/wiki/Ukraine))
+- [Recep Tayyip Erdoğan](https://en.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan) — President of Türkiye ([Turkey](https://en.wikipedia.org/wiki/Turkey))
+- [Mohammed bin Salman](https://en.wikipedia.org/wiki/Mohammed_bin_Salman) — Crown Prince/Prime Minister ([Saudi Arabia](https://en.wikipedia.org/wiki/Saudi_Arabia))
+- [Benjamin Netanyahu](https://en.wikipedia.org/wiki/Benjamin_Netanyahu) — Prime Minister ([Israel](https://en.wikipedia.org/wiki/Israel))
+- [Pope Francis](https://en.wikipedia.org/wiki/Pope_Francis) — Head of the Catholic Church ([Vatican City](https://en.wikipedia.org/wiki/Vatican_City))
 
 Note: This is a non-exhaustive snapshot for context and discussion; verify incumbents and titles against official sources.
 
