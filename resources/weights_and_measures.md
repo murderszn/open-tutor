@@ -142,3 +142,82 @@ Currency values change every single day based on the global economy! Here are th
 *   **🇨🇳 Chinese Yuan (CNY - China)** $\approx$ $¥7.00$ to $¥7.20$
 
 > 💡 **Tip:** When you travel internationally, your US Dollar might buy *more* or *less* than it does at home, depending entirely on this exchange rate! If the foreign number is larger than 1.00 (like Yen or Rupees), your dollar is "stronger" numerically there.
+
+---
+
+## ⏱️ Time Units (Largest → Smallest)
+
+- 1 Year ≈ 365 days (365.24 days on average; leap years add a day)
+- 1 Month ≈ 30.44 days (average; actual months vary 28–31)
+- 1 Week = 7 days
+- 1 Day = 24 hours
+- 1 Hour = 60 minutes
+- 1 Minute = 60 seconds
+- 1 Second (s) = base SI unit of time
+- 1 Millisecond (ms) = 10⁻³ s (0.001 s)
+- 1 Microsecond (µs) = 10⁻⁶ s (0.000001 s)
+- 1 Nanosecond (ns) = 10⁻⁹ s (0.000000001 s)
+- 1 Picosecond (ps) = 10⁻¹² s (0.000000000001 s)
+
+---
+
+## 🕒 Time Zones (Relative to Chicago, USA — Central Time)
+
+Chicago observes Central Time (CT):
+- Standard Time (CST) = UTC−6
+- Daylight Saving Time (CDT) = UTC−5 (spring/summer)
+
+Offsets below are shown relative to Chicago during Standard Time (CST, UTC−6). During Daylight Saving Time, differences may shift by ±1 hour. Always check current local time when planning.
+
+- Pacific (US) UTC−8 → Chicago −2 h
+- Mountain (US) UTC−7 → Chicago −1 h
+- Central (US) UTC−6 → Chicago ±0 h
+- Eastern (US) UTC−5 → Chicago +1 h
+- Atlantic (CA) UTC−4 → Chicago +2 h
+- Alaska UTC−9 → Chicago −3 h
+- Hawaii UTC−10 → Chicago −4 h
+- UTC (Coordinated Universal Time) UTC±0 → Chicago +6 h
+- Western Europe (UK/Portugal in winter) UTC±0 → Chicago +6 h
+- Central Europe (CET, e.g., Germany, France) UTC+1 → Chicago +7 h
+- Eastern Europe (EET, e.g., Greece, Finland) UTC+2 → Chicago +8 h
+- Moscow (MSK) UTC+3 → Chicago +9 h
+- Gulf/Arabian (e.g., UAE) UTC+4 → Chicago +10 h
+- India (IST) UTC+5:30 → Chicago +11 h 30 m
+- China/Singapore (CST/SGT) UTC+8 → Chicago +14 h
+- Japan/Korea (JST/KST) UTC+9 → Chicago +15 h
+- Australia Eastern (AEST) UTC+10 → Chicago +16 h
+- New Zealand (NZST) UTC+12 → Chicago +18 h
+
+Note: Many regions use their own daylight‑saving rules; check a reliable world clock.
+
+---
+
+## ⚡ Electricity & Power — Units and Scale
+
+Power (rate of using energy)
+- Watt (W): 1 joule per second
+- Kilowatt (kW): 1,000 W
+- Megawatt (MW): 1,000 kW (1,000,000 W)
+- Gigawatt (GW): 1,000 MW
+
+Energy (amount used over time)
+- Watt‑hour (Wh): energy used by 1 W for 1 hour
+- Kilowatt‑hour (kWh): 1,000 Wh (common on utility bills)
+- 1 kWh = 3.6 million joules (3.6 MJ)
+
+Relative usage and capacity (ballpark figures)
+- Smartphone charge: ~10 Wh (0.01 kWh) per full charge
+- Laptop charge: ~50–100 Wh (0.05–0.1 kWh)
+- Electric car (EV): battery ~60–100 kWh; driving ~0.25–0.30 kWh per mile (15–20 kWh per 100 km)
+- Typical US home:
+  - Monthly electricity: ~700–1,200 kWh
+  - Instantaneous household draw while “on”: ~0.5–5 kW (varies widely)
+- Small business/storefront: a few kW to tens of kW peak load
+- City (1 million people): ~1–2 GW average draw (very rough, varies by industry/climate)
+- Nuclear power plant unit: ~0.5–1.6 GW electric output (continuous when online)
+
+For scientific scale only (not electricity production)
+- Explosion energy is often given as TNT equivalent: 1 kiloton TNT ≈ 4.184 × 10¹² J ≈ 1.16 GWh; 1 megaton ≈ 4,184 GWh.
+  - Note: This is a single burst of energy, not usable electric power.
+
+Tip: When comparing power (kW/MW/GW) vs energy (kWh/MWh/GWh), remember: power is “how fast,” energy is “how much over time.”
