@@ -28,8 +28,11 @@ Welcome to 7th Grade! Here are your subject folders:
 - [ ] **Language Arts:** Complete mom's assigned reading and grammar work
 - [ ] **Assessment:** Weekly Quiz
 
-### March 27, 2026
-- [ ] Assignments to be determined...
+### 📅 Friday, March 27, 2026
+*   [ ] **Math**: Complete End-of-Week Review Quiz.
+*   [ ] **Language Arts**: Submit Final Draft of Essay.
+*   [ ] **Curriculum**: Complete regular book learning.
+*   [ ] **Money Management**: Complete the **[How I Spent My First Million](../../assignments/how-i-spent-my-first-million/README.md)** budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.
 
 ### April 03, 2026
 - [ ] Assignments to be determined...

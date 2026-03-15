@@ -32,7 +32,10 @@ Welcome to 4th Grade! Here are your subject folders:
 
 ### March 27, 2026
 
-- [ ] Assignments to be determined...
+- [ ] **Math**: Complete End-of-Week Review Quiz.
+- [ ] **Language Arts**: Submit Final Draft of Essay.
+- [ ] **Curriculum**: Complete regular book learning.
+- [ ] **Money Management**: Complete the **[How I Spent My First Million](../../assignments/how-i-spent-my-first-million/README.md)** budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.
 
 ### April 03, 2026
 
