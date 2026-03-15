@@ -29,10 +29,12 @@ Welcome to 4th Grade! Here are your subject folders:
 - [ ] **Math:** Complete mom's assigned math work
 - [ ] **Language Arts:** Complete mom's assigned reading and grammar work
 - [ ] **Assessment:** [Take the Weekly Math Quiz](./grade-4/math/quizzes/2026-03-20_quiz.md)
+- [ ] **Social Studies:** [Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-03-20_quiz.md)
 
 ### March 27, 2026
 
 - [ ] **Math**: Complete End-of-Week Review Quiz: **[March 27 Quiz](./grade-4/math/quizzes/2026-03-27_quiz.md)**.
+- [ ] **Social Studies:** Complete **[March 27 Reading & Quiz](./grade-4/social-studies/quizzes/2026-03-27_quiz.md)**.
 - [ ] **Language Arts**: Submit Final Draft of Essay.
 - [ ] **Curriculum**: Complete regular book learning.
 - [ ] **Money Management**: Complete the **[How I Spent My First Million](../../assignments/how-i-spent-my-first-million/README.md)** budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.
@@ -44,51 +46,61 @@ Welcome to 4th Grade! Here are your subject folders:
 *   [ ] **Tuesday (Action):** Draw Customer 1's pizza. Slice it into 8ths and color in the correct fractions.
 *   [ ] **Wednesday (Action):** Solve Customer 2's party order. Convert the improper fraction to a mixed number!
 *   [ ] **Thursday (Review):** Use your menu prices to calculate the total cost for Customer 3 using decimals.
-*   [ ] **Friday (Submission):** Submit your menu, drawings, and math calculations to Mom & Dad. Take your spelling test and your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-03_quiz.md)**.
+*   [ ] **Friday (Submission):** Submit your menu, drawings, and math calculations to Mom & Dad. Take your spelling test and your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-03_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-04-03_quiz.md)**.
 
 ### April 10, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-10_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-04-10_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### April 17, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-17_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-04-17_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### April 24, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-24_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-04-24_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 01, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-01_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-01_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 08, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-08_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-08_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 15, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-15_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-15_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 22, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-22_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-22_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 29, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-29_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-29_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### June 05, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-06-05_quiz.md)**
+- [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-06-05_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### June 12, 2026
