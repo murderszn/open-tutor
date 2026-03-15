@@ -11,3 +11,10 @@ This year will follow standard 7th-grade math concepts:
 *   **Expressions and Equations**: Use properties of operations to generate equivalent expressions. Solve real-life and mathematical problems using numerical and algebraic expressions and equations.
 *   **Geometry**: Draw, construct, and describe geometrical figures and describe the relationships between them. Solve real-life and mathematical problems involving angle measure, area, surface area, and volume.
 *   **Statistics and Probability**: Use random sampling to draw inferences about a population. Draw informal comparative inferences about two populations. Investigate chance processes and develop, use, and evaluate probability models.
+
+## 🎮 Interactive Math Games & Practice
+
+*   **[Prodigy Math (Middle School)](https://www.prodigygame.com/main-en/)**: An RPG-style game where you battle monsters by solving math problems. Great for practicing 7th-grade concepts.
+*   **[Math Playground (6th/7th Grade)](https://www.mathplayground.com/grade_6_games.html)**: Logic puzzles, algebra games, and advanced math challenges.
+*   **[Mangahigh](https://www.mangahigh.com/en-us/)**: Fast-paced, competitive math games covering algebra, geometry, and probability.
+*   **[CoolMathGames](https://www.coolmathgames.com/)**: Strategy, logic, and brain-training games to keep your problem-solving skills sharp.

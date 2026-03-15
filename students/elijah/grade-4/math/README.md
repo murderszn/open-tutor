@@ -11,3 +11,10 @@ This year will follow standard 4th-grade math concepts:
 *   **Number and Operations—Fractions**: Develop an understanding of fraction equivalence and ordering. Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers. Understand decimal notation for fractions.
 *   **Measurement and Data**: Solve problems involving measurement and conversion of measurements from a larger unit to a smaller unit. Understand concepts of angle and measure angles.
 *   **Geometry**: Draw and identify lines and angles, and classify shapes by properties of their lines and angles.
+
+## 🎮 Interactive Math Games & Practice
+
+*   **[Prodigy Math](https://www.prodigygame.com/main-en/)**: An adventure game where you catch pets and battle monsters by correctly answering 4th-grade math questions!
+*   **[Math Playground (4th Grade)](https://www.mathplayground.com/grade_4_games.html)**: Fun games specifically for practicing multiplication, division, fractions, and decimals.
+*   **[ABCya (Grade 4)](https://www.abcya.com/grades/4/numbers)**: Great, colorful games covering fractions, geometry, and money math.
+*   **[Multiplication.com](https://www.multiplication.com/games/all-games)**: Fast-paced racing and arcade games to help memorize your multiplication tables perfectly.
