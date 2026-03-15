@@ -18,6 +18,7 @@ This folder contains educational materials, reference documents, and useful link
 *   **[Weights, Measures, & Conversions](./weights_and_measures.md)**: A handy cheat sheet covering US Customary volume, mass, and distance, the Metric System, and standard-to-metric conversions.
 *   **[Global Reference & World Facts](./world_facts.md)**: A global life preparation guide detailing major oceans, strategic shipping fairways, country capitals, stock exchanges, and global commodity sources (Oil, Gold, Wheat, Soybeans, Rice).
 *   **[Financial Tools & Principles](./financial_tools_and_principles.md)**: Currency conversion basics; what stocks/bonds/funds/REITs are; mortgages and interest; core business terms (revenue, profit, assets, liabilities); leverage and good vs bad debt; smart habits and tax‑advantaged accounts.
+*   **[Government Basics — Branches & Agencies](./government_basics.md)**: The three branches (Legislative, Executive, Judicial), major agencies and departments, official links, kid‑friendly bullets, and templates.
 
 ## 🧰 Essential Online Tools
 
