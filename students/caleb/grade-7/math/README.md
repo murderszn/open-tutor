@@ -13,7 +13,7 @@ This year will follow standard 7th-grade math concepts:
 *   **Statistics and Probability**: Use random sampling to draw inferences about a population. Draw informal comparative inferences about two populations. Investigate chance processes and develop, use, and evaluate probability models.
 
 ## 📝 Weekly Assessments
-*   **[12-Week Quiz Guide](./weekly_quizzes.md)**: A complete list of 12 weekly quizzes covering all 7th-grade math topics. Have Caleb complete one quiz every Friday.
+*   **[12-Week Quiz Guide](./quizzes/)**: A folder containing 12 individual weekly quizzes, each with 20 questions covering all 7th-grade math topics. Have Caleb complete one quiz every Friday.
 
 ## 🎮 Interactive Math Games & Practice
 

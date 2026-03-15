@@ -1,0 +1,48 @@
+# 🧮 7th Grade Math - Week 1 Quiz
+
+**Topic:** Ratios & Rates
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Calculate: \(6/9 + 7/2\). Simplify if possible.
+
+**2.** Calculate: \(9/2 * 2/10\). Simplify if possible.
+
+**3.** Calculate: \(5/8 + 4/6\). Simplify if possible.
+
+**4.** If a car travels 489 miles in 4 hours, what is its speed?
+
+**5.** Calculate: \(2/10 * 5/10\). Simplify if possible.
+
+**6.** If a car travels 250 miles in 7 hours, what is its speed?
+
+**7.** Calculate: \(6/7 * 7/10\). Simplify if possible.
+
+**8.** Calculate: \(8/2 + 6/5\). Simplify if possible.
+
+**9.** If a car travels 448 miles in 3 hours, what is its speed?
+
+**10.** Calculate: \(5/9 + 10/10\). Simplify if possible.
+
+**11.** Calculate: \(10/10 - 7/7\). Simplify if possible.
+
+**12.** Calculate: \(1/3 * 3/8\). Simplify if possible.
+
+**13.** If a car travels 135 miles in 5 hours, what is its speed?
+
+**14.** Calculate: \(3/3 - 4/2\). Simplify if possible.
+
+**15.** Calculate: \(7/2 + 2/3\). Simplify if possible.
+
+**16.** If a car travels 361 miles in 5 hours, what is its speed?
+
+**17.** If a car travels 101 miles in 5 hours, what is its speed?
+
+**18.** Calculate: \(1/5 * 1/7\). Simplify if possible.
+
+**19.** Calculate: \(9/6 * 8/9\). Simplify if possible.
+
+**20.** Calculate: \(8/5 + 5/2\). Simplify if possible.
+

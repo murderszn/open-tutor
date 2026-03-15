@@ -1,0 +1,48 @@
+# 🧮 7th Grade Math - Week 4 Quiz
+
+**Topic:** Rational Numbers (Negatives)
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Calculate: \(-8 - (-10)\)
+
+**2.** Calculate: \(-5 - (-8)\)
+
+**3.** Calculate: \(-13 - (-15)\)
+
+**4.** Calculate: \(-5 - (-11)\)
+
+**5.** Calculate: \(-10 - (-4)\)
+
+**6.** Calculate: \(-11 - (9)\)
+
+**7.** Calculate: \(-14 - (-4)\)
+
+**8.** Calculate: \(-15 - (8)\)
+
+**9.** Calculate: \(9 - (11)\)
+
+**10.** Calculate: \(8 - (4)\)
+
+**11.** Calculate: \(-11 - (-15)\)
+
+**12.** Calculate: \(14 - (1)\)
+
+**13.** Calculate: \(2 - (3)\)
+
+**14.** Calculate: \(-2 - (-1)\)
+
+**15.** Calculate: \(9 - (-2)\)
+
+**16.** Calculate: \(-3 - (-5)\)
+
+**17.** Calculate: \(-11 - (-14)\)
+
+**18.** Calculate: \(14 - (7)\)
+
+**19.** Calculate: \(10 - (-7)\)
+
+**20.** Calculate: \(-2 - (-6)\)
+

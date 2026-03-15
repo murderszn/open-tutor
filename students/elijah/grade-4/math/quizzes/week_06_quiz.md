@@ -1,0 +1,48 @@
+# 🧮 4th Grade Math - Week 6 Quiz
+
+**Topic:** Fraction Fundamentals
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Compare: 4/9 and 1/5 (use \<, \>, =)
+
+**2.** Compare: 7/8 and 4/5 (use \<, \>, =)
+
+**3.** Compare: 1/2 and 3/6 (use \<, \>, =)
+
+**4.** Compare: 2/4 and 3/4 (use \<, \>, =)
+
+**5.** Compare: 3/7 and 1/2 (use \<, \>, =)
+
+**6.** Compare: 3/7 and 4/5 (use \<, \>, =)
+
+**7.** Compare: 1/3 and 7/8 (use \<, \>, =)
+
+**8.** Compare: 7/9 and 7/8 (use \<, \>, =)
+
+**9.** Compare: 1/2 and 5/8 (use \<, \>, =)
+
+**10.** Compare: 1/2 and 2/3 (use \<, \>, =)
+
+**11.** Compare: 1/7 and 6/7 (use \<, \>, =)
+
+**12.** Compare: 4/5 and 2/6 (use \<, \>, =)
+
+**13.** Compare: 6/7 and 1/2 (use \<, \>, =)
+
+**14.** Compare: 2/7 and 4/7 (use \<, \>, =)
+
+**15.** Compare: 2/6 and 1/4 (use \<, \>, =)
+
+**16.** Compare: 1/2 and 4/7 (use \<, \>, =)
+
+**17.** Compare: 2/3 and 3/5 (use \<, \>, =)
+
+**18.** Compare: 1/2 and 4/8 (use \<, \>, =)
+
+**19.** Compare: 2/4 and 1/6 (use \<, \>, =)
+
+**20.** Compare: 1/4 and 5/8 (use \<, \>, =)
+

@@ -1,0 +1,48 @@
+# 🧮 7th Grade Math - Week 11 Quiz
+
+**Topic:** Statistics & Sampling
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Find the mean and median of the following data set: 55, 17, 51, 36, 71, 50, 19
+
+**2.** Find the mean and median of the following data set: 34, 24, 56, 19, 57, 90, 55
+
+**3.** Find the mean and median of the following data set: 70, 50, 58, 15, 47, 91, 66
+
+**4.** Find the mean and median of the following data set: 41, 33, 84, 33, 73, 78, 30
+
+**5.** Find the mean and median of the following data set: 56, 79, 41, 32, 94, 14, 51
+
+**6.** Find the mean and median of the following data set: 50, 50, 88, 32, 57, 100, 89
+
+**7.** Find the mean and median of the following data set: 98, 55, 67, 64, 84, 46, 33
+
+**8.** Find the mean and median of the following data set: 41, 44, 41, 30, 97, 99, 34
+
+**9.** Find the mean and median of the following data set: 40, 22, 86, 11, 63, 70, 20
+
+**10.** Find the mean and median of the following data set: 56, 58, 64, 58, 82, 12, 12
+
+**11.** Find the mean and median of the following data set: 12, 46, 98, 79, 94, 19, 46
+
+**12.** Find the mean and median of the following data set: 22, 42, 10, 62, 92, 98, 53
+
+**13.** Find the mean and median of the following data set: 55, 58, 40, 23, 18, 67, 90
+
+**14.** Find the mean and median of the following data set: 31, 10, 92, 10, 74, 77, 63
+
+**15.** Find the mean and median of the following data set: 22, 34, 39, 42, 56, 52, 51
+
+**16.** Find the mean and median of the following data set: 74, 97, 83, 44, 61, 57, 27
+
+**17.** Find the mean and median of the following data set: 79, 22, 65, 98, 47, 76, 40
+
+**18.** Find the mean and median of the following data set: 49, 76, 41, 63, 87, 57, 28
+
+**19.** Find the mean and median of the following data set: 39, 90, 47, 73, 38, 84, 37
+
+**20.** Find the mean and median of the following data set: 28, 94, 76, 30, 48, 36, 48
+

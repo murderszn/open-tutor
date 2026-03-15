@@ -1,0 +1,48 @@
+# 🧮 7th Grade Math - Week 3 Quiz
+
+**Topic:** Operations with Fractions
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Calculate: \(5/2 / 8/6\). Simplify if possible.
+
+**2.** Calculate: \(5/8 + 3/7\). Simplify if possible.
+
+**3.** Calculate: \(5/8 / 2/5\). Simplify if possible.
+
+**4.** Calculate: \(1/5 - 3/4\). Simplify if possible.
+
+**5.** Calculate: \(1/9 * 8/4\). Simplify if possible.
+
+**6.** Calculate: \(7/7 / 6/8\). Simplify if possible.
+
+**7.** Calculate: \(10/8 - 9/3\). Simplify if possible.
+
+**8.** Calculate: \(3/2 / 10/7\). Simplify if possible.
+
+**9.** Calculate: \(8/8 * 2/5\). Simplify if possible.
+
+**10.** Calculate: \(9/9 + 7/3\). Simplify if possible.
+
+**11.** Calculate: \(2/5 / 2/4\). Simplify if possible.
+
+**12.** Calculate: \(6/6 + 9/10\). Simplify if possible.
+
+**13.** Calculate: \(1/10 / 9/7\). Simplify if possible.
+
+**14.** Calculate: \(7/5 - 5/10\). Simplify if possible.
+
+**15.** Calculate: \(2/9 - 5/4\). Simplify if possible.
+
+**16.** Calculate: \(10/2 * 8/2\). Simplify if possible.
+
+**17.** Calculate: \(5/8 * 8/6\). Simplify if possible.
+
+**18.** Calculate: \(2/8 - 7/2\). Simplify if possible.
+
+**19.** Calculate: \(10/4 * 9/5\). Simplify if possible.
+
+**20.** Calculate: \(2/6 - 5/8\). Simplify if possible.
+

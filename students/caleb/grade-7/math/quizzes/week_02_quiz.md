@@ -1,0 +1,48 @@
+# 🧮 7th Grade Math - Week 2 Quiz
+
+**Topic:** Proportional Relationships
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Calculate: \(6/2 / 2/8\). Simplify if possible.
+
+**2.** Calculate: \(1/6 * 5/9\). Simplify if possible.
+
+**3.** Calculate: \(4/10 - 1/7\). Simplify if possible.
+
+**4.** Calculate: \(3/5 / 2/4\). Simplify if possible.
+
+**5.** Calculate: \(8/3 * 10/2\). Simplify if possible.
+
+**6.** Calculate: \(5/5 / 2/2\). Simplify if possible.
+
+**7.** Calculate: \(5/2 - 6/10\). Simplify if possible.
+
+**8.** Calculate: \(5/9 - 9/3\). Simplify if possible.
+
+**9.** Calculate: \(7/2 + 3/8\). Simplify if possible.
+
+**10.** Calculate: \(5/8 + 8/10\). Simplify if possible.
+
+**11.** Calculate: \(3/9 * 1/7\). Simplify if possible.
+
+**12.** Calculate: \(10/7 / 5/9\). Simplify if possible.
+
+**13.** Calculate: \(10/8 / 8/2\). Simplify if possible.
+
+**14.** Calculate: \(4/10 + 9/3\). Simplify if possible.
+
+**15.** Calculate: \(1/10 - 10/10\). Simplify if possible.
+
+**16.** Calculate: \(5/7 + 6/9\). Simplify if possible.
+
+**17.** Calculate: \(4/7 / 3/7\). Simplify if possible.
+
+**18.** Calculate: \(8/3 * 2/6\). Simplify if possible.
+
+**19.** Calculate: \(5/4 + 9/7\). Simplify if possible.
+
+**20.** Calculate: \(7/3 / 10/5\). Simplify if possible.
+

@@ -1,0 +1,48 @@
+# 🧮 7th Grade Math - Week 5 Quiz
+
+**Topic:** Equivalent Expressions
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Simplify: \(3(3y + -10) - 1y\)
+
+**2.** Simplify: \(2(-9x + -10) - 2x\)
+
+**3.** Simplify: \(3(7z + 14) - 1z\)
+
+**4.** Simplify: \(4(-12x + -12) - 1x\)
+
+**5.** Simplify: \(2(10y + 1) - 4y\)
+
+**6.** Simplify: \(3(7z + -6) - 2z\)
+
+**7.** Simplify: \(4(2z + -9) - 1z\)
+
+**8.** Simplify: \(4(6x + -15) - 2x\)
+
+**9.** Simplify: \(3(-13z + 2) - 1z\)
+
+**10.** Simplify: \(5(1x + 1) - 3x\)
+
+**11.** Simplify: \(4(-10y + 6) - 2y\)
+
+**12.** Simplify: \(4(-4y + 9) - 1y\)
+
+**13.** Simplify: \(5(2y + 0) - 4y\)
+
+**14.** Simplify: \(4(-1z + 15) - 4z\)
+
+**15.** Simplify: \(2(15z + 8) - 1z\)
+
+**16.** Simplify: \(4(14x + -3) - 4x\)
+
+**17.** Simplify: \(4(9z + -7) - 3z\)
+
+**18.** Simplify: \(4(13y + 1) - 1y\)
+
+**19.** Simplify: \(5(13x + 2) - 4x\)
+
+**20.** Simplify: \(2(11y + -14) - 3y\)
+

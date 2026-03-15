@@ -1,0 +1,48 @@
+# 🧮 7th Grade Math - Week 8 Quiz
+
+**Topic:** Geometry - Angles
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Two angles are supplementary. If one is 151 degrees, what is the other?
+
+**2.** Two angles are supplementary. If one is 26 degrees, what is the other?
+
+**3.** Two angles are supplementary. If one is 71 degrees, what is the other?
+
+**4.** Two angles are supplementary. If one is 52 degrees, what is the other?
+
+**5.** Two angles are supplementary. If one is 88 degrees, what is the other?
+
+**6.** Two angles are supplementary. If one is 145 degrees, what is the other?
+
+**7.** Two angles are supplementary. If one is 115 degrees, what is the other?
+
+**8.** Two angles are supplementary. If one is 95 degrees, what is the other?
+
+**9.** Two angles are supplementary. If one is 111 degrees, what is the other?
+
+**10.** Two angles are supplementary. If one is 108 degrees, what is the other?
+
+**11.** Two angles are supplementary. If one is 150 degrees, what is the other?
+
+**12.** Two angles are supplementary. If one is 28 degrees, what is the other?
+
+**13.** Two angles are supplementary. If one is 84 degrees, what is the other?
+
+**14.** Two angles are supplementary. If one is 160 degrees, what is the other?
+
+**15.** Two angles are supplementary. If one is 82 degrees, what is the other?
+
+**16.** Two angles are supplementary. If one is 83 degrees, what is the other?
+
+**17.** Two angles are supplementary. If one is 41 degrees, what is the other?
+
+**18.** Two angles are supplementary. If one is 143 degrees, what is the other?
+
+**19.** Two angles are supplementary. If one is 132 degrees, what is the other?
+
+**20.** Two angles are supplementary. If one is 81 degrees, what is the other?
+

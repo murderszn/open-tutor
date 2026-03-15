@@ -1,0 +1,48 @@
+# 🧮 4th Grade Math - Week 7 Quiz
+
+**Topic:** Adding & Subtracting Fractions
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Calculate: 4/8 + 6/8
+
+**2.** Calculate: 1/9 + 6/9
+
+**3.** Calculate: 6/7 + 4/7
+
+**4.** Calculate: 2/8 + 5/8
+
+**5.** Calculate: 4/9 + 8/9
+
+**6.** Calculate: 1/4 + 3/4
+
+**7.** Calculate: 4/6 + 3/6
+
+**8.** Calculate: 1/3 + 2/3
+
+**9.** Calculate: 1/3 + 2/3
+
+**10.** Calculate: 4/6 + 4/6
+
+**11.** Calculate: 1/7 + 3/7
+
+**12.** Calculate: 2/4 + 3/4
+
+**13.** Calculate: 2/4 + 3/4
+
+**14.** Calculate: 3/4 + 3/4
+
+**15.** Calculate: 2/6 + 5/6
+
+**16.** Calculate: 6/7 + 5/7
+
+**17.** Calculate: 1/3 + 2/3
+
+**18.** Calculate: 5/8 + 7/8
+
+**19.** Calculate: 5/7 + 2/7
+
+**20.** Calculate: 4/5 + 2/5
+

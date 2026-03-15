@@ -1,0 +1,48 @@
+# 🧮 7th Grade Math - Week 12 Quiz
+
+**Topic:** Probability
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** What is the probability of rolling a 1 on a standard 6-sided die?
+
+**2.** What is the probability of rolling a 1 on a standard 6-sided die?
+
+**3.** What is the probability of rolling a 4 on a standard 6-sided die?
+
+**4.** What is the probability of rolling a 3 on a standard 6-sided die?
+
+**5.** What is the probability of rolling a 5 on a standard 6-sided die?
+
+**6.** What is the probability of rolling a 2 on a standard 6-sided die?
+
+**7.** What is the probability of rolling a 2 on a standard 6-sided die?
+
+**8.** What is the probability of rolling a 5 on a standard 6-sided die?
+
+**9.** What is the probability of rolling a 2 on a standard 6-sided die?
+
+**10.** What is the probability of rolling a 2 on a standard 6-sided die?
+
+**11.** What is the probability of rolling a 4 on a standard 6-sided die?
+
+**12.** What is the probability of rolling a 6 on a standard 6-sided die?
+
+**13.** What is the probability of rolling a 6 on a standard 6-sided die?
+
+**14.** What is the probability of rolling a 3 on a standard 6-sided die?
+
+**15.** What is the probability of rolling a 3 on a standard 6-sided die?
+
+**16.** What is the probability of rolling a 4 on a standard 6-sided die?
+
+**17.** What is the probability of rolling a 1 on a standard 6-sided die?
+
+**18.** What is the probability of rolling a 5 on a standard 6-sided die?
+
+**19.** What is the probability of rolling a 3 on a standard 6-sided die?
+
+**20.** What is the probability of rolling a 6 on a standard 6-sided die?
+

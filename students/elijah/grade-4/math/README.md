@@ -13,7 +13,7 @@ This year will follow standard 4th-grade math concepts:
 *   **Geometry**: Draw and identify lines and angles, and classify shapes by properties of their lines and angles.
 
 ## 📝 Weekly Assessments
-*   **[12-Week Quiz Guide](./weekly_quizzes.md)**: A complete list of 12 weekly quizzes covering all 4th-grade math topics. Have Elijah complete one quiz every Friday.
+*   **[12-Week Quiz Guide](./quizzes/)**: A folder containing 12 individual weekly quizzes, each with 20 questions covering all 4th-grade math topics. Have Elijah complete one quiz every Friday.
 
 ## 🎮 Interactive Math Games & Practice
 

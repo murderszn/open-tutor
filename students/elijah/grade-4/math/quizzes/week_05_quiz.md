@@ -1,0 +1,48 @@
+# 🧮 4th Grade Math - Week 5 Quiz
+
+**Topic:** Factors & Multiples
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** List all the factors of 31.
+
+**2.** List all the factors of 34.
+
+**3.** List all the factors of 12.
+
+**4.** List all the factors of 22.
+
+**5.** List all the factors of 12.
+
+**6.** List all the factors of 28.
+
+**7.** List all the factors of 23.
+
+**8.** List all the factors of 22.
+
+**9.** List all the factors of 28.
+
+**10.** List all the factors of 36.
+
+**11.** List all the factors of 13.
+
+**12.** List all the factors of 48.
+
+**13.** List all the factors of 31.
+
+**14.** List all the factors of 49.
+
+**15.** List all the factors of 26.
+
+**16.** List all the factors of 42.
+
+**17.** List all the factors of 16.
+
+**18.** List all the factors of 42.
+
+**19.** List all the factors of 19.
+
+**20.** List all the factors of 15.
+

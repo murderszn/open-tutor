@@ -1,0 +1,48 @@
+# 🧮 7th Grade Math - Week 6 Quiz
+
+**Topic:** Solving Equations
+
+Please answer the following 20 questions. Show your work!
+
+---
+
+**1.** Solve for z: \(-7z + 15 = -18\)
+
+**2.** Solve for z: \(9z + 14 = 19\)
+
+**3.** Solve for y: \(-5y + -6 = 10\)
+
+**4.** Solve for z: \(-8z + 9 = -10\)
+
+**5.** Solve for x: \(-1x + 2 = 5\)
+
+**6.** Solve for y: \(-13y + -5 = -17\)
+
+**7.** Solve for z: \(3z + 7 = -14\)
+
+**8.** Solve for x: \(10x + -13 = 9\)
+
+**9.** Solve for x: \(6x + 6 = 6\)
+
+**10.** Solve for y: \(5y + 7 = -7\)
+
+**11.** Solve for x: \(14x + -9 = -1\)
+
+**12.** Solve for z: \(7z + -14 = 5\)
+
+**13.** Solve for z: \(-13z + -13 = 10\)
+
+**14.** Solve for y: \(-8y + -2 = -5\)
+
+**15.** Solve for x: \(-14x + -13 = -13\)
+
+**16.** Solve for z: \(-5z + -12 = 12\)
+
+**17.** Solve for y: \(2y + 15 = 17\)
+
+**18.** Solve for y: \(2y + 2 = 11\)
+
+**19.** Solve for x: \(-2x + 5 = -7\)
+
+**20.** Solve for x: \(-7x + -6 = 17\)
+
