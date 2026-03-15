@@ -54,6 +54,7 @@ Welcome to 4th Grade! Here are your subject folders:
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-10_quiz.md)**
 - [ ] **Math Prep:** Read the **[Rounding Hints](./grade-4/math/quizzes/2026-04-10_quiz_hints.md)** before you start.
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-04-10_quiz.md)**
+- [ ] **Science:** **[Week 01 Science Quiz](./grade-4/stem/quizzes/week-01_quiz.md)**
 - [ ] **Math Project:** Do the **[Place Value Detective](../../assignments/place-value-detective/README.md)** mini‑project. Turn in a photo or PDF.
 - [ ] **STEM Fun (Optional):** Draw your own “app icon” for a pretend game. Write 2 sentences about what the game does.
 
@@ -61,60 +62,71 @@ Welcome to 4th Grade! Here are your subject folders:
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-17_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-04-17_quiz.md)**
+ - [ ] **Science:** **[Week 02 Science Quiz](./grade-4/stem/quizzes/week-02_quiz.md)**
  - [ ] **Math Practice:** Make 12 number cards (1–36). Sort three sets: “All Factors of 24”, “Multiples of 6”, “Numbers that are both”. Take a photo of your sort.
 
 ### April 24, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-04-24_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-04-24_quiz.md)**
+- [ ] **Science:** **[Week 03 Science Quiz](./grade-4/stem/quizzes/week-03_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 01, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-01_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-01_quiz.md)**
+- [ ] **Science:** **[Week 04 Science Quiz](./grade-4/stem/quizzes/week-04_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 08, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-08_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-08_quiz.md)**
+- [ ] **Science:** **[Week 05 Science Quiz](./grade-4/stem/quizzes/week-05_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 15, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-15_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-15_quiz.md)**
+- [ ] **Science:** **[Week 06 Science Quiz](./grade-4/stem/quizzes/week-06_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 22, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-22_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-22_quiz.md)**
+- [ ] **Science:** **[Week 07 Science Quiz](./grade-4/stem/quizzes/week-07_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### May 29, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-05-29_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-05-29_quiz.md)**
+- [ ] **Science:** **[Week 08 Science Quiz](./grade-4/stem/quizzes/week-08_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### June 05, 2026
 
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-4/math/quizzes/2026-06-05_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-4/social-studies/quizzes/2026-06-05_quiz.md)**
+- [ ] **Science:** **[Week 09 Science Quiz](./grade-4/stem/quizzes/week-09_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### June 12, 2026
 
+- [ ] **Science:** **[Week 10 Science Quiz](./grade-4/stem/quizzes/week-10_quiz.md)**
 - [ ] Assignments to be determined...
 
 ### June 19, 2026
 
+- [ ] **Science:** **[Week 11 Science Quiz](./grade-4/stem/quizzes/week-11_quiz.md)**
 - [ ] Assignments to be determined...
 
 ### June 26, 2026
 
+- [ ] **Science:** **[Week 12 Science Quiz](./grade-4/stem/quizzes/week-12_quiz.md)**
 - [ ] Assignments to be determined...
 
 ### July 03, 2026

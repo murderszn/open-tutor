@@ -49,57 +49,69 @@ Welcome to 7th Grade! Here are your subject folders:
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-04-10_quiz.md)**
 - [ ] **Math Prep:** Review the **[Quiz Hints](./grade-7/math/quizzes/2026-04-10_quiz_hints.md)** on rational numbers (negatives).
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-04-10_quiz.md)**
+- [ ] **STEM:** **[Week 01 STEM Quiz](./grade-7/stem/quizzes/week-01_quiz.md)**
 - [ ] **STEM:** Start the **[Responsive Navbar Challenge](../../assignments/responsive-navbar-challenge/README.md)** and test it at mobile and desktop sizes.
 - [ ] **Language Arts:** Draft a short blog post (6–8 sentences) for your portfolio homepage introducing who you are and what you’re building. Proofread once, then publish.
 
 ### April 17, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-04-17_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-04-17_quiz.md)**
+ - [ ] **STEM:** **[Week 02 STEM Quiz](./grade-7/stem/quizzes/week-02_quiz.md)**
  - [ ] **STEM:** Finish and polish the navbar from last week (hover states, spacing, and colors). If ready, integrate it into your `my-portfolio` pages.
  - [ ] **Language Arts:** Revise last week’s blog post based on Mom/Dad feedback. Add one image and a proper caption.
 
 ### April 24, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-04-24_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-04-24_quiz.md)**
+- [ ] **STEM:** **[Week 03 STEM Quiz](./grade-7/stem/quizzes/week-03_quiz.md)**
 - [ ] **Language Arts:** Do **[Archetypes: The Scarlet Letter](../../assignments/language-arts/archetypes-the-scarlet-letter/README.md)** and submit a **Relevance Reflection** with 2–3 modern examples.
 
 ### May 01, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-01_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-01_quiz.md)**
+- [ ] **STEM:** **[Week 04 STEM Quiz](./grade-7/stem/quizzes/week-04_quiz.md)**
 - [ ] **Language Arts:** **[Shakespeare Overview: Romeo & Juliet](../../assignments/language-arts/shakespeare-overview-romeo-and-juliet/README.md)** — make a 5‑bullet plot map and a Relevance Reflection.
 
 ### May 08, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-08_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-08_quiz.md)**
+- [ ] **STEM:** **[Week 05 STEM Quiz](./grade-7/stem/quizzes/week-05_quiz.md)**
 - [ ] **Language Arts:** **[Poetry Focus: Langston Hughes & Maya Angelou](../../assignments/language-arts/harlem-renaissance-poetry/README.md)** — annotate 2 poems and complete one Relevance Reflection.
 
 ### May 15, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-15_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-15_quiz.md)**
+- [ ] **STEM:** **[Week 06 STEM Quiz](./grade-7/stem/quizzes/week-06_quiz.md)**
 - [ ] **Language Arts:** **[Shakespeare Overview: Hamlet](../../assignments/language-arts/shakespeare-overview-hamlet/README.md)** — plot map + Relevance Reflection.
 
 ### May 22, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-22_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-22_quiz.md)**
+- [ ] **STEM:** **[Week 07 STEM Quiz](./grade-7/stem/quizzes/week-07_quiz.md)**
 - [ ] **Language Arts + Soc. Studies:** **[Archetypal Myths: Flood & Trinity](../../assignments/language-arts/archetypal-myths-flood-trinity/README.md)** — Venn diagram, symbol map, and one Relevance Reflection.
 
 ### May 29, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-29_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-29_quiz.md)**
+- [ ] **STEM:** **[Week 08 STEM Quiz](./grade-7/stem/quizzes/week-08_quiz.md)**
 - [ ] **Language Arts:** Pick any book or summary tied to a **World Facts** era (resources/world_facts.md:1). Complete one Relevance Reflection connecting themes to that era.
 
 ### June 05, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-06-05_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-06-05_quiz.md)**
+- [ ] **STEM:** **[Week 09 STEM Quiz](./grade-7/stem/quizzes/week-09_quiz.md)**
 - [ ] Other assignments to be determined...
 
 ### June 12, 2026
+- [ ] **STEM:** **[Week 10 STEM Quiz](./grade-7/stem/quizzes/week-10_quiz.md)**
 - [ ] Assignments to be determined...
 
 ### June 19, 2026
+- [ ] **STEM:** **[Week 11 STEM Quiz](./grade-7/stem/quizzes/week-11_quiz.md)**
 - [ ] Assignments to be determined...
 
 ### June 26, 2026
+- [ ] **STEM:** **[Week 12 STEM Quiz](./grade-7/stem/quizzes/week-12_quiz.md)**
 - [ ] Assignments to be determined...
 
 ### July 03, 2026
