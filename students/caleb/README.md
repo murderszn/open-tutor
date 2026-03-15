@@ -2,6 +2,8 @@
 
 Welcome to your personal folder, Caleb! This is your space to save your work, experiment with projects, and track your progress.
 
+Be sure to join the [[JFD] Learning Center - johnson family dynasty](https://discord.gg/rrHxuCUR) Discord server for communication, announcements, and quick questions!
+
 ## 🎓 7th Grade
 
 Welcome to 7th Grade! Here are your subject folders:

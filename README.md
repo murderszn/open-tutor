@@ -10,7 +10,7 @@ To fully participate in the Learning Center, please ensure the following steps a
 
 1. **GitHub Accounts**: Everyone (Caleb, Elijah, and Mom) needs a personal GitHub account. If you don't have one, [sign up here](https://github.com/signup).
 2. **Repository Access**: Once accounts are created, let me know the usernames so I can add you as **collaborators** to this repository. This will grant you access to read and write files.
-3. **Discord Server**: We use a dedicated Discord server for communication, announcements, and quick questions. Ensure you have joined the server and have the app installed on your devices.
+3. **Discord Server**: We use a dedicated Discord server for communication, announcements, and quick questions. Ensure you have joined the [[JFD] Learning Center - johnson family dynasty](https://discord.gg/rrHxuCUR) server and have the app installed on your devices.
 
 ## 📂 Repository Structure
 
