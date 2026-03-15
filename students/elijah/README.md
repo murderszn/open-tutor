@@ -37,9 +37,14 @@ Welcome to 4th Grade! Here are your subject folders:
 - [ ] **Curriculum**: Complete regular book learning.
 - [ ] **Money Management**: Complete the **[How I Spent My First Million](../../assignments/how-i-spent-my-first-million/README.md)** budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.
 
-### April 03, 2026
+### 📅 Week of April 03, 2026
+**Focus:** Fraction Pizza Parlor (Math & Art)
 
-- [ ] Assignments to be determined...
+*   [ ] **Monday (Input):** Read the **[Fraction Pizza Parlor](../../assignments/fraction-pizza-parlor/README.md)** instructions. Design your restaurant menu and logo.
+*   [ ] **Tuesday (Action):** Draw Customer 1's pizza. Slice it into 8ths and color in the correct fractions.
+*   [ ] **Wednesday (Action):** Solve Customer 2's party order. Convert the improper fraction to a mixed number!
+*   [ ] **Thursday (Review):** Use your menu prices to calculate the total cost for Customer 3 using decimals.
+*   [ ] **Friday (Submission):** Submit your menu, drawings, and math calculations to Mom & Dad. Take your spelling test.
 
 ### April 10, 2026
 

@@ -34,8 +34,14 @@ Welcome to 7th Grade! Here are your subject folders:
 *   [ ] **Curriculum**: Complete regular book learning.
 *   [ ] **Money Management**: Complete the **[How I Spent My First Million](../../assignments/how-i-spent-my-first-million/README.md)** budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.
 
-### April 03, 2026
-- [ ] Assignments to be determined...
+### 📅 Week of April 03, 2026
+**Focus:** Building a Personal Portfolio Website (HTML/CSS)
+
+*   [ ] **Monday (Input):** Read the **[Personal Portfolio](../../assignments/personal-portfolio/README.md)** instructions. Set up your folder structure (`index.html`, `style.css`).
+*   [ ] **Tuesday (Action):** Build your Homepage (`index.html`). Add headings, paragraphs, and a navigation bar.
+*   [ ] **Wednesday (Action):** Build your `projects.html` page and link your Car Collection and Budget Tracker.
+*   [ ] **Thursday (Review):** Link your `style.css` file and add custom colors and fonts to your site. Test all links!
+*   [ ] **Friday (Submission):** Ensure all 3 pages work. Create a zip file of your project or commit it to GitHub. Take the End-of-Week Math Quiz.
 
 ### April 10, 2026
 - [ ] Assignments to be determined...
