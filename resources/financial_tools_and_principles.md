@@ -4,6 +4,15 @@ A practical, age‑appropriate guide to money, markets, and smart habits. Use th
 
 ---
 
+## 🧭 How To Use This (Age Tracks)
+
+- Caleb (Grade 7–9): Read each section, then complete one Practice Idea per week. Use the templates to write one page per concept (stock, bond, mortgage, etc.).
+- Elijah (Grade 4–6): Read the “Kid‑Friendly” bullets under each section (parents help as needed). Fill out the short templates (3–4 lines each) and do one small conversion or definition per week.
+
+Keep everything in your student folder in a `/finance` subfolder.
+
+---
+
 ## 🔗 Quick Links
 - World Facts (markets, leaders, trade routes): `resources/world_facts.md`
 - Weights & Measures (unit conversions): `resources/weights_and_measures.md`
@@ -19,6 +28,9 @@ A practical, age‑appropriate guide to money, markets, and smart habits. Use th
 - Cross‑rate idea: if USD/EUR and USD/JPY known, infer EUR/JPY. (Optional stretch)
 - Where to check live rates: central bank pages, major finance sites, or bank apps. Rates change throughout the day.
 - Pro tip: Always record the date and source for any rate you use in assignments.
+
+Kid‑Friendly:
+- Currency is like language for money. Sometimes a dollar can buy more or less of another country’s money. When that changes, the “exchange rate” has moved.
 
 ---
 
@@ -38,6 +50,10 @@ A practical, age‑appropriate guide to money, markets, and smart habits. Use th
 - Good Debt vs Bad Debt (rule of thumb):
   - Good: used to acquire productive assets (education, modest home, business equipment) with a plan to repay.
   - Bad: high‑interest debt for consumables (e.g., revolving credit card balances) with no repayment plan.
+
+Kid‑Friendly:
+- Asset = something that helps you (saves time, makes money, or keeps value). Liability = something you owe.
+- Profit is what’s left after paying all bills. If it’s negative, that’s a loss.
 
 ---
 
@@ -59,6 +75,10 @@ Taxes & Accounts (US examples)
 
 Note: Tax rules vary and change. Always check current IRS/state guidance.
 
+Kid‑Friendly:
+- A stock is a small piece of a company. A fund is a basket of many pieces.
+- Diversification = don’t put all your eggs in one basket.
+
 ---
 
 ## 🏠 Credit, Loans, and Mortgages
@@ -70,6 +90,9 @@ Note: Tax rules vary and change. Always check current IRS/state guidance.
 - DTI (Debt‑to‑Income): monthly debt payments ÷ monthly income. Lower is safer for borrowers.
 
 Where to find current rates: lender/bank websites, central bank statements, trusted financial news. Document the date/source you used.
+
+Kid‑Friendly:
+- A mortgage is a long loan to buy a home. You pay it back a little each month.
 
 ---
 
@@ -110,8 +133,92 @@ Where to find current rates: lender/bank websites, central bank statements, trus
 
 ---
 
+## 🧰 Templates (copy/paste into your student folder)
+
+1) Money Concept Card (good for any term: stock, bond, mortgage, APY)
+```
+Title (Term):
+Plain‑English meaning (2–3 lines):
+Real example (1–2 lines):
+Why it matters (1–2 lines):
+Source & date you checked:
+```
+
+2) Monthly Budget (Pay Yourself First)
+```
+Month/Year:
+Income:
+  - Paycheck(s):
+  - Other:
+Pay Yourself First (automatic savings/investing):
+  - Emergency fund:  $
+  - Investing acct:  $
+Fixed costs (rent, utilities, internet):  $
+Variable costs (food, fuel, fun):       $
+Leftover / Overbudget:                  $
+Notes (one change to improve next month):
+```
+
+3) Currency Conversion Mini‑Sheet
+```
+Date & source:
+Rate used (e.g., 1 USD = 0.92 EUR):
+Conversions:
+  USD → EUR: $____ × 0.92 = €____
+  EUR → USD: €____ ÷ 0.92 = $____
+Reflection: Did the currency go up or down since last time?
+```
+
+4) ETF / Index Snapshot (for a simple two‑fund idea)
+```
+Fund name & ticker:
+Index it tracks:
+Expense ratio:
+What countries/sectors does it hold?
+Why I chose it (1–2 lines):
+```
+
+5) Mortgage Payment Scratchpad
+```
+Home price: $      Down payment: $      Loan: $
+Rate (APR):  %     Term:  years         Est. PMT: $
+Notes: Fixed or adjustable? What happens if rate rises 1%?
+Source & date for rate:
+```
+
+---
+
 ## ⚠️ Important Notes
 
 - Educational material only; not financial or tax advice. Verify data and rules before making decisions.
 - Prices, rates, and laws change. Always record the date/source of any number you use.
+
+---
+
+## 🌐 Sites & Sources (Learn + Verify)
+
+Official (US)
+- SEC Investor.gov (investing basics + calculators): https://www.investor.gov/
+- FINRA (fund analyzer, investor education): https://www.finra.org/investors
+- CFPB (loans, mortgages, credit card guidance): https://www.consumerfinance.gov/
+- IRS (tax rules, IRA/401k information): https://www.irs.gov/
+- Federal Reserve (rates, education): https://www.federalreserve.gov/ and FRED data https://fred.stlouisfed.org/
+- Freddie Mac Primary Mortgage Market Survey (US mortgage rates): https://www.freddiemac.com/pmms
+
+International & Data
+- World Bank Data: https://data.worldbank.org/
+- IMF Data: https://www.imf.org/en/Data
+- OECD Data: https://data.oecd.org/
+- ECB Reference Exchange Rates: https://www.ecb.europa.eu/stats/eurofxref/
+
+Education (kids to adults)
+- Khan Academy — Finance & Capital Markets: https://www.khanacademy.org/economics-finance-domain
+- Next Gen Personal Finance (NGPF): https://www.ngpf.org/
+- Bogleheads Wiki (investing basics): https://www.bogleheads.org/wiki/Main_Page
+- Vanguard Investor Education: https://investor.vanguard.com/investor-resources-education
+
+Rates & Market Check (use carefully; record source/date)
+- Treasury yields (US): https://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/default.aspx
+- St. Louis Fed FRED series (search tool): https://fred.stlouisfed.org/
+- ECB exchange rates (daily reference): https://www.ecb.europa.eu/stats/eurofxref/
 
