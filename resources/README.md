@@ -19,6 +19,7 @@ This folder contains educational materials, reference documents, and useful link
 *   **[Global Reference & World Facts](./world_facts.md)**: A global life preparation guide detailing major oceans, strategic shipping fairways, country capitals, stock exchanges, and global commodity sources (Oil, Gold, Wheat, Soybeans, Rice).
 *   **[Financial Tools & Principles](./financial_tools_and_principles.md)**: Currency conversion basics; what stocks/bonds/funds/REITs are; mortgages and interest; core business terms (revenue, profit, assets, liabilities); leverage and good vs bad debt; smart habits and tax‑advantaged accounts.
 *   **[Government Basics — Branches & Agencies](./government_basics.md)**: The three branches (Legislative, Executive, Judicial), major agencies and departments, official links, kid‑friendly bullets, and templates.
+*   **[United States — Understanding & Principles](./united_states_understanding_and_principles.md)**: Brief origins, why the U.S. rejected monarchy, how the Constitution works (and changes), rights and responsibilities, and trusted primary sources.
 
 ## 🧰 Essential Online Tools
 

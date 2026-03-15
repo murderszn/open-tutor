@@ -1,5 +1,7 @@
 # 🏛️ U.S. Government Basics — Branches & Agencies
 
+Context & origins: see [United States — Understanding & Principles](./united_states_understanding_and_principles.md)
+
 A clean, age‑appropriate guide to the three branches of the U.S. government and major agencies. Use this for Social Studies reference and projects.
 
 ---
