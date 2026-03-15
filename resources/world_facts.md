@@ -203,7 +203,7 @@ Acknowledgement-only list of widely recognized political leaders. Incumbents cha
 - [Recep Tayyip Erdoğan](https://en.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan) — President of Türkiye ([Turkey](https://en.wikipedia.org/wiki/Turkey))
 - [Mohammed bin Salman](https://en.wikipedia.org/wiki/Mohammed_bin_Salman) — Crown Prince/Prime Minister ([Saudi Arabia](https://en.wikipedia.org/wiki/Saudi_Arabia))
 - [Benjamin Netanyahu](https://en.wikipedia.org/wiki/Benjamin_Netanyahu) — Prime Minister ([Israel](https://en.wikipedia.org/wiki/Israel))
-- [Pope Francis](https://en.wikipedia.org/wiki/Pope_Francis) — Head of the Catholic Church ([Vatican City](https://en.wikipedia.org/wiki/Vatican_City))
+- [Pope Leo XIV](https://en.wikipedia.org/wiki/Pope_Leo_XIV) — Head of the Catholic Church ([Vatican City](https://en.wikipedia.org/wiki/Vatican_City))
 
 Note: This is a non-exhaustive snapshot for context and discussion; verify incumbents and titles against official sources.
 
