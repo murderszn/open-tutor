@@ -28,6 +28,8 @@ Welcome to 7th Grade! Here are your subject folders:
 - [ ] **Language Arts:** Complete mom's assigned reading and grammar work
 - [ ] **Assessment:** [Take the Weekly Math Quiz](./grade-7/math/quizzes/2026-03-20_quiz.md)
 - [ ] **Social Studies:** [Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-03-20_quiz.md)
+- [ ] **STEM:** **[Week 01 STEM Quiz](./grade-7/stem/quizzes/week-01_quiz.md)**
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### 📅 Friday, March 27, 2026
 *   [ ] **Math**: Complete End-of-Week Review Quiz: **[March 27 Quiz](./grade-7/math/quizzes/2026-03-27_quiz.md)**.
@@ -35,6 +37,8 @@ Welcome to 7th Grade! Here are your subject folders:
 *   [ ] **Language Arts**: Submit Final Draft of Essay.
 *   [ ] **Curriculum**: Complete regular book learning.
 *   [ ] **Money Management**: Complete the **[How I Spent My First Million](../../assignments/how-i-spent-my-first-million/README.md)** budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.
+*   [ ] **STEM:** **[Week 02 STEM Quiz](./grade-7/stem/quizzes/week-02_quiz.md)**
+*   [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### 📅 Week of April 03, 2026
 **Focus:** Building a Personal Portfolio Website (HTML/CSS)
@@ -44,63 +48,74 @@ Welcome to 7th Grade! Here are your subject folders:
 *   [ ] **Wednesday (Action):** Build your `projects.html` page and link your Car Collection and Budget Tracker.
 *   [ ] **Thursday (Review):** Link your `style.css` file and add custom colors and fonts to your site. Test all links!
 *   [ ] **Friday (Submission):** Ensure all 3 pages work. Create a zip file of your project or commit it to GitHub. Take the **[End-of-Week Math Quiz](./grade-7/math/quizzes/2026-04-03_quiz.md)** and **[Social Studies Quiz](./grade-7/social-studies/quizzes/2026-04-03_quiz.md)**.
+*   [ ] **STEM:** **[Week 03 STEM Quiz](./grade-7/stem/quizzes/week-03_quiz.md)**
+*   [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### April 10, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-04-10_quiz.md)**
 - [ ] **Math Prep:** Review the **[Quiz Hints](./grade-7/math/quizzes/2026-04-10_quiz_hints.md)** on rational numbers (negatives).
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-04-10_quiz.md)**
-- [ ] **STEM:** **[Week 01 STEM Quiz](./grade-7/stem/quizzes/week-01_quiz.md)**
-- [ ] **STEM:** Start the **[Responsive Navbar Challenge](../../assignments/responsive-navbar-challenge/README.md)** and test it at mobile and desktop sizes.
-- [ ] **Language Arts:** Draft a short blog post (6–8 sentences) for your portfolio homepage introducing who you are and what you’re building. Proofread once, then publish.
+ - [ ] **STEM:** **[Week 04 STEM Quiz](./grade-7/stem/quizzes/week-04_quiz.md)**
+ - [ ] **STEM:** Start the **[Responsive Navbar Challenge](../../assignments/responsive-navbar-challenge/README.md)** and test it at mobile and desktop sizes.
+ - [ ] **Language Arts:** Draft a short blog post (6–8 sentences) for your portfolio homepage introducing who you are and what you’re building. Proofread once, then publish.
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### April 17, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-04-17_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-04-17_quiz.md)**
- - [ ] **STEM:** **[Week 02 STEM Quiz](./grade-7/stem/quizzes/week-02_quiz.md)**
+ - [ ] **STEM:** **[Week 05 STEM Quiz](./grade-7/stem/quizzes/week-05_quiz.md)**
  - [ ] **STEM:** Finish and polish the navbar from last week (hover states, spacing, and colors). If ready, integrate it into your `my-portfolio` pages.
  - [ ] **Language Arts:** Revise last week’s blog post based on Mom/Dad feedback. Add one image and a proper caption.
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### April 24, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-04-24_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-04-24_quiz.md)**
-- [ ] **STEM:** **[Week 03 STEM Quiz](./grade-7/stem/quizzes/week-03_quiz.md)**
-- [ ] **Language Arts:** Do **[Archetypes: The Scarlet Letter](../../assignments/language-arts/archetypes-the-scarlet-letter/README.md)** and submit a **Relevance Reflection** with 2–3 modern examples.
+ - [ ] **STEM:** **[Week 03 STEM Quiz](./grade-7/stem/quizzes/week-03_quiz.md)**
+ - [ ] **Language Arts:** Do **[Archetypes: The Scarlet Letter](../../assignments/language-arts/archetypes-the-scarlet-letter/README.md)** and submit a **Relevance Reflection** with 2–3 modern examples.
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### May 01, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-01_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-01_quiz.md)**
-- [ ] **STEM:** **[Week 04 STEM Quiz](./grade-7/stem/quizzes/week-04_quiz.md)**
-- [ ] **Language Arts:** **[Shakespeare Overview: Romeo & Juliet](../../assignments/language-arts/shakespeare-overview-romeo-and-juliet/README.md)** — make a 5‑bullet plot map and a Relevance Reflection.
+ - [ ] **STEM:** **[Week 04 STEM Quiz](./grade-7/stem/quizzes/week-04_quiz.md)**
+ - [ ] **Language Arts:** **[Shakespeare Overview: Romeo & Juliet](../../assignments/language-arts/shakespeare-overview-romeo-and-juliet/README.md)** — make a 5‑bullet plot map and a Relevance Reflection.
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### May 08, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-08_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-08_quiz.md)**
-- [ ] **STEM:** **[Week 05 STEM Quiz](./grade-7/stem/quizzes/week-05_quiz.md)**
-- [ ] **Language Arts:** **[Poetry Focus: Langston Hughes & Maya Angelou](../../assignments/language-arts/harlem-renaissance-poetry/README.md)** — annotate 2 poems and complete one Relevance Reflection.
+ - [ ] **STEM:** **[Week 05 STEM Quiz](./grade-7/stem/quizzes/week-05_quiz.md)**
+ - [ ] **Language Arts:** **[Poetry Focus: Langston Hughes & Maya Angelou](../../assignments/language-arts/harlem-renaissance-poetry/README.md)** — annotate 2 poems and complete one Relevance Reflection.
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### May 15, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-15_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-15_quiz.md)**
-- [ ] **STEM:** **[Week 06 STEM Quiz](./grade-7/stem/quizzes/week-06_quiz.md)**
-- [ ] **Language Arts:** **[Shakespeare Overview: Hamlet](../../assignments/language-arts/shakespeare-overview-hamlet/README.md)** — plot map + Relevance Reflection.
+ - [ ] **STEM:** **[Week 06 STEM Quiz](./grade-7/stem/quizzes/week-06_quiz.md)**
+ - [ ] **Language Arts:** **[Shakespeare Overview: Hamlet](../../assignments/language-arts/shakespeare-overview-hamlet/README.md)** — plot map + Relevance Reflection.
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### May 22, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-22_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-22_quiz.md)**
-- [ ] **STEM:** **[Week 07 STEM Quiz](./grade-7/stem/quizzes/week-07_quiz.md)**
-- [ ] **Language Arts + Soc. Studies:** **[Archetypal Myths: Flood & Trinity](../../assignments/language-arts/archetypal-myths-flood-trinity/README.md)** — Venn diagram, symbol map, and one Relevance Reflection.
+ - [ ] **STEM:** **[Week 07 STEM Quiz](./grade-7/stem/quizzes/week-07_quiz.md)**
+ - [ ] **Language Arts + Soc. Studies:** **[Archetypal Myths: Flood & Trinity](../../assignments/language-arts/archetypal-myths-flood-trinity/README.md)** — Venn diagram, symbol map, and one Relevance Reflection.
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### May 29, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-05-29_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-05-29_quiz.md)**
-- [ ] **STEM:** **[Week 08 STEM Quiz](./grade-7/stem/quizzes/week-08_quiz.md)**
-- [ ] **Language Arts:** Pick any book or summary tied to a **World Facts** era (resources/world_facts.md:1). Complete one Relevance Reflection connecting themes to that era.
+ - [ ] **STEM:** **[Week 08 STEM Quiz](./grade-7/stem/quizzes/week-08_quiz.md)**
+ - [ ] **Language Arts:** Pick any book or summary tied to a **World Facts** era (resources/world_facts.md:1). Complete one Relevance Reflection connecting themes to that era.
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### June 05, 2026
 - [ ] **Math:** Complete your **[Weekly Math Quiz](./grade-7/math/quizzes/2026-06-05_quiz.md)**
 - [ ] **Social Studies:** Complete your **[Weekly Reading & Quiz](./grade-7/social-studies/quizzes/2026-06-05_quiz.md)**
-- [ ] **STEM:** **[Week 09 STEM Quiz](./grade-7/stem/quizzes/week-09_quiz.md)**
-- [ ] Other assignments to be determined...
+ - [ ] **STEM:** **[Week 09 STEM Quiz](./grade-7/stem/quizzes/week-09_quiz.md)**
+ - [ ] Other assignments to be determined...
+ - [ ] **Language Arts:** Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)
 
 ### June 12, 2026
 - [ ] **STEM:** **[Week 10 STEM Quiz](./grade-7/stem/quizzes/week-10_quiz.md)**
