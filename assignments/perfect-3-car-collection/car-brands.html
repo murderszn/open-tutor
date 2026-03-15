@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active US Car Brand Research Links</title>
+    <style>
+        :root {
+            --primary: #111827;      /* Tailwind Gray 900 */
+            --secondary: #4b5563;    /* Tailwind Gray 600 */
+            --accent: #2563eb;       /* Tailwind Blue 600 */
+            --border: #e5e7eb;       /* Tailwind Gray 200 */
+            --bg: #f3f4f6;           /* Tailwind Gray 100 */
+            --light-text: #9ca3af;   /* Tailwind Gray 400 */
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            line-height: 1.6; 
+            padding: 60px 40px; 
+            max-width: 1300px; 
+            margin: 0 auto; 
+            background-color: var(--bg); 
+            color: var(--primary); 
+            -webkit-font-smoothing: antialiased;
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        h1 { 
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: -0.025em;
+            color: var(--primary); 
+            margin-bottom: 8px;
+        }
+        h1 span {
+            color: var(--accent);
+        }
+        .subtitle {
+            color: var(--secondary);
+            font-size: 1.125rem;
+            font-weight: 400;
+        }
+        .grid-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        .grid-row {
+            display: grid;
+            grid-template-columns: 50px 80px 1.5fr 2fr 1.5fr 1fr 1.2fr;
+            align-items: center;
+            border-bottom: 1px solid var(--border);
+            padding: 0 24px;
+        }
+        .list-header {
+            background-color: #f9fafb;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            height: 48px;
+        }
+        .brand-card { 
+            height: 80px;
+            background: white;
+            transition: background-color 0.15s ease, opacity 0.2s ease;
+        }
+        .brand-card:last-child {
+            border-bottom: none;
+        }
+        .brand-card:hover { 
+            background-color: #f8fafc;
+        }
+        
+        .col {
+            padding: 0 12px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .col-center { text-align: center; }
+        .col-right { text-align: right; }
+
+        .custom-checkbox {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: var(--accent);
+        }
+
+        .rank-number {
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--accent);
+        }
+
+        .brand-name { 
+            font-weight: 700; 
+            font-size: 1.125rem; 
+            color: var(--primary); 
+            text-decoration: none; 
+            transition: color 0.15s ease;
+        }
+        .brand-name:hover { 
+            color: var(--accent); 
+        }
+        
+        .primary-data {
+            font-weight: 600;
+            color: var(--primary);
+            font-size: 0.95rem;
+            margin-bottom: 2px;
+        }
+        .sub-data {
+            font-size: 0.8rem;
+            color: var(--secondary);
+        }
+        
+        .price-badge {
+            display: inline-block;
+            background-color: #f3f4f6;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: var(--primary);
+            border: 1px solid var(--border);
+        }
+
+        .sales-data {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span>US Market</span> Car Brands</h1>
+        <p class="subtitle">Comprehensive research data for the 2024 active U.S. automotive market. Mark the checkbox when you have researched a brand.</p>
+    </header>
+
+    <div class="grid-container">
+        <div class="grid-row list-header">
+            <div class="col col-center"><input type="checkbox" disabled class="custom-checkbox" style="cursor: default; opacity: 0.6;"></div>
+            <div class="col col-center">Rank</div>
+            <div class="col">Brand Name</div>
+            <div class="col">Corporate & Origin</div>
+            <div class="col">Top Selling Model</div>
+            <div class="col col-center">Avg Price</div>
+            <div class="col col-right">2024 Sales</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Toyota"></div>
+            <div class="col col-center rank-number">1</div>
+            <div class="col"><a href="https://www.toyota.com" target="_blank" class="brand-name">Toyota</a></div>
+            <div class="col">
+                <div class="primary-data">Toyota Motor Corp</div>
+                <div class="sub-data">Japan</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">RAV4</div>
+            <div class="col col-center"><span class="price-badge">$38,000</span></div>
+            <div class="col col-right sales-data">1,986,954</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Ford"></div>
+            <div class="col col-center rank-number">2</div>
+            <div class="col"><a href="https://www.ford.com" target="_blank" class="brand-name">Ford</a></div>
+            <div class="col">
+                <div class="primary-data">Ford Motor Co</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">F-Series</div>
+            <div class="col col-center"><span class="price-badge">$48,000</span></div>
+            <div class="col col-right sales-data">1,960,338</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Chevrolet"></div>
+            <div class="col col-center rank-number">3</div>
+            <div class="col"><a href="https://www.chevrolet.com" target="_blank" class="brand-name">Chevrolet</a></div>
+            <div class="col">
+                <div class="primary-data">General Motors</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Silverado</div>
+            <div class="col col-center"><span class="price-badge">$45,000</span></div>
+            <div class="col col-right sales-data">1,730,075</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Honda"></div>
+            <div class="col col-center rank-number">4</div>
+            <div class="col"><a href="https://www.honda.com" target="_blank" class="brand-name">Honda</a></div>
+            <div class="col">
+                <div class="primary-data">Honda Motor Co</div>
+                <div class="sub-data">Japan</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">CR-V</div>
+            <div class="col col-center"><span class="price-badge">$32,000</span></div>
+            <div class="col col-right sales-data">1,291,490</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Nissan"></div>
+            <div class="col col-center rank-number">5</div>
+            <div class="col"><a href="https://www.nissanusa.com" target="_blank" class="brand-name">Nissan</a></div>
+            <div class="col">
+                <div class="primary-data">Renault-Nissan-Mitsubishi</div>
+                <div class="sub-data">Japan</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Rogue</div>
+            <div class="col col-center"><span class="price-badge">$34,000</span></div>
+            <div class="col col-right sales-data">865,938</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Hyundai"></div>
+            <div class="col col-center rank-number">6</div>
+            <div class="col"><a href="https://www.hyundaiusa.com" target="_blank" class="brand-name">Hyundai</a></div>
+            <div class="col">
+                <div class="primary-data">Hyundai Motor Group</div>
+                <div class="sub-data">South Korea</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Tucson</div>
+            <div class="col col-center"><span class="price-badge">$35,000</span></div>
+            <div class="col col-right sales-data">836,802</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Kia"></div>
+            <div class="col col-center rank-number">7</div>
+            <div class="col"><a href="https://www.kia.com/us/" target="_blank" class="brand-name">Kia</a></div>
+            <div class="col">
+                <div class="primary-data">Hyundai Motor Group</div>
+                <div class="sub-data">South Korea</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Sportage</div>
+            <div class="col col-center"><span class="price-badge">$34,000</span></div>
+            <div class="col col-right sales-data">782,451</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Subaru"></div>
+            <div class="col col-center rank-number">8</div>
+            <div class="col"><a href="https://www.subaru.com" target="_blank" class="brand-name">Subaru</a></div>
+            <div class="col">
+                <div class="primary-data">Subaru Corp</div>
+                <div class="sub-data">Japan</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Outback</div>
+            <div class="col col-center"><span class="price-badge">$36,000</span></div>
+            <div class="col col-right sales-data">667,725</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Tesla"></div>
+            <div class="col col-center rank-number">9</div>
+            <div class="col"><a href="https://www.tesla.com" target="_blank" class="brand-name">Tesla</a></div>
+            <div class="col">
+                <div class="primary-data">Tesla Inc</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Model Y</div>
+            <div class="col col-center"><span class="price-badge">$45,000</span></div>
+            <div class="col col-right sales-data">622,600</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="GMC"></div>
+            <div class="col col-center rank-number">10</div>
+            <div class="col"><a href="https://www.gmc.com" target="_blank" class="brand-name">GMC</a></div>
+            <div class="col">
+                <div class="primary-data">General Motors</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Sierra</div>
+            <div class="col col-center"><span class="price-badge">$60,000</span></div>
+            <div class="col col-right sales-data">614,177</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Jeep"></div>
+            <div class="col col-center rank-number">11</div>
+            <div class="col"><a href="https://www.jeep.com" target="_blank" class="brand-name">Jeep</a></div>
+            <div class="col">
+                <div class="primary-data">Stellantis</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Grand Cherokee</div>
+            <div class="col col-center"><span class="price-badge">$50,000</span></div>
+            <div class="col col-right sales-data">587,725</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Ram"></div>
+            <div class="col col-center rank-number">12</div>
+            <div class="col"><a href="https://www.ramtrucks.com" target="_blank" class="brand-name">Ram</a></div>
+            <div class="col">
+                <div class="primary-data">Stellantis</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">1500 Classic</div>
+            <div class="col col-center"><span class="price-badge">$55,000</span></div>
+            <div class="col col-right sales-data">439,039</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Mazda"></div>
+            <div class="col col-center rank-number">13</div>
+            <div class="col"><a href="https://www.mazdausa.com" target="_blank" class="brand-name">Mazda</a></div>
+            <div class="col">
+                <div class="primary-data">Mazda Motor Corp</div>
+                <div class="sub-data">Japan</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">CX-5</div>
+            <div class="col col-center"><span class="price-badge">$33,000</span></div>
+            <div class="col col-right sales-data">424,382</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Volkswagen"></div>
+            <div class="col col-center rank-number">14</div>
+            <div class="col"><a href="https://www.vw.com" target="_blank" class="brand-name">Volkswagen</a></div>
+            <div class="col">
+                <div class="primary-data">Volkswagen Group</div>
+                <div class="sub-data">Germany</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Tiguan</div>
+            <div class="col col-center"><span class="price-badge">$36,000</span></div>
+            <div class="col col-right sales-data">379,178</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="BMW"></div>
+            <div class="col col-center rank-number">15</div>
+            <div class="col"><a href="https://www.bmwusa.com" target="_blank" class="brand-name">BMW</a></div>
+            <div class="col">
+                <div class="primary-data">BMW Group</div>
+                <div class="sub-data">Germany</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">X5</div>
+            <div class="col col-center"><span class="price-badge">$65,000</span></div>
+            <div class="col col-right sales-data">371,346</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Lexus"></div>
+            <div class="col col-center rank-number">16</div>
+            <div class="col"><a href="https://www.lexus.com" target="_blank" class="brand-name">Lexus</a></div>
+            <div class="col">
+                <div class="primary-data">Toyota Motor Corp</div>
+                <div class="sub-data">Japan</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">RX</div>
+            <div class="col col-center"><span class="price-badge">$55,000</span></div>
+            <div class="col col-right sales-data">345,669</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Mercedes-Benz"></div>
+            <div class="col col-center rank-number">17</div>
+            <div class="col"><a href="https://www.mbusa.com" target="_blank" class="brand-name">Mercedes-Benz</a></div>
+            <div class="col">
+                <div class="primary-data">Mercedes-Benz Group</div>
+                <div class="sub-data">Germany</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">GLE</div>
+            <div class="col col-center"><span class="price-badge">$70,000</span></div>
+            <div class="col col-right sales-data">324,528</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Audi"></div>
+            <div class="col col-center rank-number">18</div>
+            <div class="col"><a href="https://www.audiusa.com" target="_blank" class="brand-name">Audi</a></div>
+            <div class="col">
+                <div class="primary-data">Volkswagen Group</div>
+                <div class="sub-data">Germany</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Q5</div>
+            <div class="col col-center"><span class="price-badge">$60,000</span></div>
+            <div class="col col-right sales-data">196,576</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Buick"></div>
+            <div class="col col-center rank-number">19</div>
+            <div class="col"><a href="https://www.buick.com" target="_blank" class="brand-name">Buick</a></div>
+            <div class="col">
+                <div class="primary-data">General Motors</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Encore GX</div>
+            <div class="col col-center"><span class="price-badge">$35,000</span></div>
+            <div class="col col-right sales-data">183,421</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Cadillac"></div>
+            <div class="col col-center rank-number">20</div>
+            <div class="col"><a href="https://www.cadillac.com" target="_blank" class="brand-name">Cadillac</a></div>
+            <div class="col">
+                <div class="primary-data">General Motors</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Escalade</div>
+            <div class="col col-center"><span class="price-badge">$70,000</span></div>
+            <div class="col col-right sales-data">160,204</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Dodge"></div>
+            <div class="col col-center rank-number">21</div>
+            <div class="col"><a href="https://www.dodge.com" target="_blank" class="brand-name">Dodge</a></div>
+            <div class="col">
+                <div class="primary-data">Stellantis</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Durango</div>
+            <div class="col col-center"><span class="price-badge">$45,000</span></div>
+            <div class="col col-right sales-data">141,730</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Acura"></div>
+            <div class="col col-center rank-number">22</div>
+            <div class="col"><a href="https://www.acura.com" target="_blank" class="brand-name">Acura</a></div>
+            <div class="col">
+                <div class="primary-data">Honda Motor Co</div>
+                <div class="sub-data">Japan</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">MDX</div>
+            <div class="col col-center"><span class="price-badge">$48,000</span></div>
+            <div class="col col-right sales-data">132,367</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Volvo"></div>
+            <div class="col col-center rank-number">23</div>
+            <div class="col"><a href="https://www.volvocars.com/us" target="_blank" class="brand-name">Volvo</a></div>
+            <div class="col">
+                <div class="primary-data">Geely</div>
+                <div class="sub-data">Sweden</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">XC60</div>
+            <div class="col col-center"><span class="price-badge">$55,000</span></div>
+            <div class="col col-right sales-data">125,243</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Chrysler"></div>
+            <div class="col col-center rank-number">24</div>
+            <div class="col"><a href="https://www.chrysler.com" target="_blank" class="brand-name">Chrysler</a></div>
+            <div class="col">
+                <div class="primary-data">Stellantis</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Pacifica</div>
+            <div class="col col-center"><span class="price-badge">$45,000</span></div>
+            <div class="col col-right sales-data">124,684</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Mitsubishi"></div>
+            <div class="col col-center rank-number">25</div>
+            <div class="col"><a href="https://www.mitsubishicars.com" target="_blank" class="brand-name">Mitsubishi</a></div>
+            <div class="col">
+                <div class="primary-data">Renault-Nissan-Mitsubishi</div>
+                <div class="sub-data">Japan</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Outlander</div>
+            <div class="col col-center"><span class="price-badge">$28,000</span></div>
+            <div class="col col-right sales-data">109,843</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Land Rover"></div>
+            <div class="col col-center rank-number">26</div>
+            <div class="col"><a href="https://www.landroverusa.com" target="_blank" class="brand-name">Land Rover</a></div>
+            <div class="col">
+                <div class="primary-data">Tata Motors</div>
+                <div class="sub-data">UK</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Defender</div>
+            <div class="col col-center"><span class="price-badge">$85,000</span></div>
+            <div class="col col-right sales-data">106,650</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Lincoln"></div>
+            <div class="col col-center rank-number">27</div>
+            <div class="col"><a href="https://www.lincoln.com" target="_blank" class="brand-name">Lincoln</a></div>
+            <div class="col">
+                <div class="primary-data">Ford Motor Co</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Corsair</div>
+            <div class="col col-center"><span class="price-badge">$65,000</span></div>
+            <div class="col col-right sales-data">104,823</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Porsche"></div>
+            <div class="col col-center rank-number">28</div>
+            <div class="col"><a href="https://www.porsche.com/usa/" target="_blank" class="brand-name">Porsche</a></div>
+            <div class="col">
+                <div class="primary-data">Volkswagen Group</div>
+                <div class="sub-data">Germany</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Macan</div>
+            <div class="col col-center"><span class="price-badge">$110,000</span></div>
+            <div class="col col-right sales-data">76,167</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Genesis"></div>
+            <div class="col col-center rank-number">29</div>
+            <div class="col"><a href="https://www.genesis.com/us/" target="_blank" class="brand-name">Genesis</a></div>
+            <div class="col">
+                <div class="primary-data">Hyundai Motor Group</div>
+                <div class="sub-data">South Korea</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">GV70</div>
+            <div class="col col-center"><span class="price-badge">$60,000</span></div>
+            <div class="col col-right sales-data">75,003</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Infiniti"></div>
+            <div class="col col-center rank-number">30</div>
+            <div class="col"><a href="https://www.infinitiusa.com" target="_blank" class="brand-name">Infiniti</a></div>
+            <div class="col">
+                <div class="primary-data">Renault-Nissan-Mitsubishi</div>
+                <div class="sub-data">Japan</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">QX60</div>
+            <div class="col col-center"><span class="price-badge">$55,000</span></div>
+            <div class="col col-right sales-data">58,070</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Rivian"></div>
+            <div class="col col-center rank-number">31</div>
+            <div class="col"><a href="https://www.rivian.com" target="_blank" class="brand-name">Rivian</a></div>
+            <div class="col">
+                <div class="primary-data">Rivian</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">R1S</div>
+            <div class="col col-center"><span class="price-badge">$85,000</span></div>
+            <div class="col col-right sales-data">54,524</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="MINI"></div>
+            <div class="col col-center rank-number">32</div>
+            <div class="col"><a href="https://www.miniusa.com" target="_blank" class="brand-name">MINI</a></div>
+            <div class="col">
+                <div class="primary-data">BMW Group</div>
+                <div class="sub-data">UK</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Countryman</div>
+            <div class="col col-center"><span class="price-badge">$35,000</span></div>
+            <div class="col col-right sales-data">26,299</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Jaguar"></div>
+            <div class="col col-center rank-number">33</div>
+            <div class="col"><a href="https://www.jaguarusa.com" target="_blank" class="brand-name">Jaguar</a></div>
+            <div class="col">
+                <div class="primary-data">Tata Motors</div>
+                <div class="sub-data">UK</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">F-PACE</div>
+            <div class="col col-center"><span class="price-badge">$75,000</span></div>
+            <div class="col col-right sales-data">13,210</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Polestar"></div>
+            <div class="col col-center rank-number">34</div>
+            <div class="col"><a href="https://www.polestar.com/us/" target="_blank" class="brand-name">Polestar</a></div>
+            <div class="col">
+                <div class="primary-data">Volvo/Geely</div>
+                <div class="sub-data">Sweden</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Polestar 2</div>
+            <div class="col col-center"><span class="price-badge">$55,000</span></div>
+            <div class="col col-right sales-data">9,175</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Alfa Romeo"></div>
+            <div class="col col-center rank-number">35</div>
+            <div class="col"><a href="https://www.alfaromeousa.com" target="_blank" class="brand-name">Alfa Romeo</a></div>
+            <div class="col">
+                <div class="primary-data">Stellantis</div>
+                <div class="sub-data">Italy</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Stelvio</div>
+            <div class="col col-center"><span class="price-badge">$50,000</span></div>
+            <div class="col col-right sales-data">8,865</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Maserati"></div>
+            <div class="col col-center rank-number">36</div>
+            <div class="col"><a href="https://www.maseratiusa.com" target="_blank" class="brand-name">Maserati</a></div>
+            <div class="col">
+                <div class="primary-data">Stellantis</div>
+                <div class="sub-data">Italy</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Grecale</div>
+            <div class="col col-center"><span class="price-badge">$100,000</span></div>
+            <div class="col col-right sales-data">6,320</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Bentley"></div>
+            <div class="col col-center rank-number">37</div>
+            <div class="col"><a href="https://www.bentleymotors.com" target="_blank" class="brand-name">Bentley</a></div>
+            <div class="col">
+                <div class="primary-data">Volkswagen Group</div>
+                <div class="sub-data">UK</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Bentayga</div>
+            <div class="col col-center"><span class="price-badge">$250,000</span></div>
+            <div class="col col-right sales-data">3,840</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Lamborghini"></div>
+            <div class="col col-center rank-number">38</div>
+            <div class="col"><a href="https://www.lamborghini.com" target="_blank" class="brand-name">Lamborghini</a></div>
+            <div class="col">
+                <div class="primary-data">Volkswagen Group</div>
+                <div class="sub-data">Italy</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Urus</div>
+            <div class="col col-center"><span class="price-badge">$300,000</span></div>
+            <div class="col col-right sales-data">3,826</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Lucid"></div>
+            <div class="col col-center rank-number">39</div>
+            <div class="col"><a href="https://www.lucidmotors.com" target="_blank" class="brand-name">Lucid</a></div>
+            <div class="col">
+                <div class="primary-data">Lucid Motors</div>
+                <div class="sub-data">USA</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Air</div>
+            <div class="col col-center"><span class="price-badge">$80,000</span></div>
+            <div class="col col-right sales-data">3,450</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Ferrari"></div>
+            <div class="col col-center rank-number">40</div>
+            <div class="col"><a href="https://www.ferrari.com" target="_blank" class="brand-name">Ferrari</a></div>
+            <div class="col">
+                <div class="primary-data">Ferrari N.V.</div>
+                <div class="sub-data">Italy</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">296 GTB</div>
+            <div class="col col-center"><span class="price-badge">$350,000+</span></div>
+            <div class="col col-right sales-data">3,000</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Rolls-Royce"></div>
+            <div class="col col-center rank-number">41</div>
+            <div class="col"><a href="https://www.rolls-roycemotorcars.com" target="_blank" class="brand-name">Rolls-Royce</a></div>
+            <div class="col">
+                <div class="primary-data">BMW Group</div>
+                <div class="sub-data">UK</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Cullinan</div>
+            <div class="col col-center"><span class="price-badge">$400,000+</span></div>
+            <div class="col col-right sales-data">1,765</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Fiat"></div>
+            <div class="col col-center rank-number">42</div>
+            <div class="col"><a href="https://www.fiatusa.com" target="_blank" class="brand-name">Fiat</a></div>
+            <div class="col">
+                <div class="primary-data">Stellantis</div>
+                <div class="sub-data">Italy</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">500e</div>
+            <div class="col col-center"><span class="price-badge">$30,000</span></div>
+            <div class="col col-right sales-data">1,528</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="McLaren"></div>
+            <div class="col col-center rank-number">43</div>
+            <div class="col"><a href="https://cars.mclaren.com/us-en" target="_blank" class="brand-name">McLaren</a></div>
+            <div class="col">
+                <div class="primary-data">McLaren Group</div>
+                <div class="sub-data">UK</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Artura</div>
+            <div class="col col-center"><span class="price-badge">$280,000+</span></div>
+            <div class="col col-right sales-data">1,270</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Aston Martin"></div>
+            <div class="col col-center rank-number">44</div>
+            <div class="col"><a href="https://www.astonmartin.com" target="_blank" class="brand-name">Aston Martin</a></div>
+            <div class="col">
+                <div class="primary-data">Aston Martin</div>
+                <div class="sub-data">UK</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">DBX</div>
+            <div class="col col-center"><span class="price-badge">$200,000+</span></div>
+            <div class="col col-right sales-data">1,000</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Lotus"></div>
+            <div class="col col-center rank-number">45</div>
+            <div class="col"><a href="https://www.lotuscars.com/en-US" target="_blank" class="brand-name">Lotus</a></div>
+            <div class="col">
+                <div class="primary-data">Geely</div>
+                <div class="sub-data">UK</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Eletre</div>
+            <div class="col col-center"><span class="price-badge">$100,000+</span></div>
+            <div class="col col-right sales-data">500</div>
+        </div>
+
+        <div class="grid-row brand-card">
+            <div class="col col-center"><input type="checkbox" class="custom-checkbox" data-brand="Bugatti"></div>
+            <div class="col col-center rank-number">46</div>
+            <div class="col"><a href="https://www.bugatti.com" target="_blank" class="brand-name">Bugatti</a></div>
+            <div class="col">
+                <div class="primary-data">Bugatti Rimac</div>
+                <div class="sub-data">France</div>
+            </div>
+            <div class="col primary-data" style="font-weight: 500;">Chiron</div>
+            <div class="col col-center"><span class="price-badge">$3,000,000+</span></div>
+            <div class="col col-right sales-data">20</div>
+        </div>
+
+    </div>
+    
+    <script>
+        document.addEventListener(DOMContentLoaded, () => {
+            const checkboxes = document.querySelectorAll(.custom-checkbox);
+            
+            checkboxes.forEach(cb => {
+                const brand = cb.getAttribute(data-brand);
+                const isChecked = localStorage.getItem(researched_ + brand) === true;
+                
+                if (isChecked) {
+                    cb.checked = true;
+                    cb.closest(.brand-card).style.opacity = 0.5;
+                    cb.closest(.brand-card).style.backgroundColor = #f9fafb;
+                }
+                
+                cb.addEventListener(change, (e) => {
+                    const checked = e.target.checked;
+                    localStorage.setItem(researched_ + brand, checked);
+                    
+                    const row = e.target.closest(.brand-card);
+                    if (checked) {
+                        row.style.opacity = 0.5;
+                        row.style.backgroundColor = #f9fafb;
+                    } else {
+                        row.style.opacity = 1;
+                        row.style.backgroundColor = white;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
