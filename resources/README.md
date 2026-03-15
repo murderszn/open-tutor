@@ -16,7 +16,7 @@ This folder contains educational materials, reference documents, and useful link
 ## 🧰 Essential Online Tools
 
 ### Productivity & Documents (Google Workspace)
-*We use Google Workspace as a free, collaborative proxy for the Microsoft Office suite.*
+*We use Google Workspace as a free, collaborative proxy for the Microsoft Office suite. **Before proceeding, please read the [Ultimate Guide to File Types](./file-types.md)** to understand the relationship between these tools and their file extensions (like `.docx` or `.xlsx`).*
 *   **[Google Docs](https://docs.google.com)**: For writing essays, notes, and word processing (proxy for Word).
 *   **[Google Sheets](https://sheets.google.com)**: For budgeting, data tracking, and spreadsheets (proxy for Excel).
 *   **[Google Slides](https://slides.google.com)**: For building presentations and pitch decks (proxy for PowerPoint).
