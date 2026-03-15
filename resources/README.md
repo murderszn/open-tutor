@@ -47,3 +47,6 @@ This folder contains educational materials, reference documents, and useful link
 *   **[Mark Rober](https://www.youtube.com/c/MarkRober)**: Former NASA engineer building incredible real-world engineering projects and experiments.
 *   **[Veritasium](https://www.youtube.com/c/veritasium)**: Deep dives into science, engineering, and the truth behind interesting phenomena.
 *   **[Numberphile](https://www.youtube.com/user/numberphile)**: Fascinating stories and explanations about numbers and mathematics.
+
+### Social Studies & Geography
+*   **[Seterra Maps Quizzes](https://www.geoguessr.com/seterra/)**: Excellent online interactive map quizzes for learning US States, world geography, capitols, and physical features.
