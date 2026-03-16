@@ -24,3 +24,20 @@ To take broad curriculum topics, monthly goals, or large projects and break them
 *   [Day] Checklist
     *   Reading/Input task
     *   Action/Output task
+
+---
+
+## Reference Links (align weekly plans with these)
+
+- Student Hubs
+  - Caleb (7th): ../../students/caleb/README.md
+  - Elijah (4th): ../../students/elijah/README.md
+  - Glory (Pre‑K): ../../students/glory/README.md
+- Core Resources
+  - World Facts: ../../resources/world_facts.md
+  - Weights & Measures: ../../resources/weights_and_measures.md
+  - Financial Tools & Principles: ../../resources/financial_tools_and_principles.md
+  - Government Basics: ../../resources/government_basics.md
+  - U.S. Understanding & Principles: ../../resources/united_states_understanding_and_principles.md
+  - Careers Guide: ../../resources/careers.md
+- Assignments directory: ../../assignments

@@ -24,3 +24,17 @@ To evaluate submitted work (essays, math tests, code snippets, project write-ups
 *   🌟 What Shined
 *   🛠️ What Needs Tinkering (with specific examples)
 *   📝 Next Steps (Revision tasks)
+
+---
+
+## Reference Links (grade against stated goals)
+
+- Student Hubs
+  - Caleb (7th): ../../students/caleb/README.md
+  - Elijah (4th): ../../students/elijah/README.md
+- Core Resources
+  - World Facts: ../../resources/world_facts.md
+  - Weights & Measures: ../../resources/weights_and_measures.md
+  - Financial Tools & Principles: ../../resources/financial_tools_and_principles.md
+  - Government Basics: ../../resources/government_basics.md
+  - Careers Guide: ../../resources/careers.md

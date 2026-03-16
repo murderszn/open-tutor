@@ -26,3 +26,20 @@ When the parents request a new assignment or lesson plan, you must generate a co
 *   The Project Details (Step-by-step instructions)
 *   Deliverables (What needs to be submitted to GitHub)
 *   [For Parents] Evaluation Checklist
+
+---
+
+## Reference Links (use when designing assignments)
+
+- Student Hubs
+  - Caleb (7th): ../../students/caleb/README.md
+  - Elijah (4th): ../../students/elijah/README.md
+  - Glory (Pre‑K): ../../students/glory/README.md
+- Core Resources
+  - World Facts: ../../resources/world_facts.md
+  - Weights & Measures: ../../resources/weights_and_measures.md
+  - Financial Tools & Principles: ../../resources/financial_tools_and_principles.md
+  - Government Basics: ../../resources/government_basics.md
+  - U.S. Understanding & Principles: ../../resources/united_states_understanding_and_principles.md
+  - Careers Guide: ../../resources/careers.md
+- Assignments directory: ../../assignments

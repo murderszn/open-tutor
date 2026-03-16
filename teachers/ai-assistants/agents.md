@@ -13,6 +13,26 @@ You can use these text files to turn any standard AI (like ChatGPT, Gemini, or C
 
 ---
 
+## 📚 Core Materials (Quick Links)
+
+- Student Hubs
+  - Caleb (7th): ../../students/caleb/README.md
+  - Elijah (4th): ../../students/elijah/README.md
+  - Glory (Pre‑K): ../../students/glory/README.md
+- Resources
+  - World Facts: ../../resources/world_facts.md
+  - Weights & Measures: ../../resources/weights_and_measures.md
+  - Financial Tools & Principles: ../../resources/financial_tools_and_principles.md
+  - Government Basics: ../../resources/government_basics.md
+  - U.S. Understanding & Principles: ../../resources/united_states_understanding_and_principles.md
+  - Careers Guide: ../../resources/careers.md
+  - UN Countries (CSV): ../../resources/un_countries.csv
+- Assignments: ../../assignments
+
+Agents should reference these when proposing tasks, examples, or links for students.
+
+---
+
 ## 👥 Meet the Team
 
 ### 1. [Curriculum Creator & Content Writer](curriculum_creator.md)
