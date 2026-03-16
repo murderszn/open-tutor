@@ -24,7 +24,7 @@ A clean, age‑appropriate guide to the three branches of the U.S. government an
 
 ## 🌿 The Three Branches — Overview
 
-Legislative (makes laws) · Executive (carries out laws) · Judicial (interprets laws)
+**Legislative** (makes laws) · **Executive** (carries out laws) · **Judicial** (interprets laws)
 
 Kid‑Friendly:
 - Legislative = writes laws (Congress).
@@ -42,10 +42,10 @@ Who’s in it
 - House of Representatives (by population) and Senate (2 per state).
 
 Key Legislative Branch agencies (with links)
-- GAO — Government Accountability Office: audits/reviews for Congress — [gao.gov](https://www.gao.gov/)
-- CBO — Congressional Budget Office: budget/economic analysis — [cbo.gov](https://www.cbo.gov/)
-- Library of Congress: research, archives, copyright — [loc.gov](https://www.loc.gov/)
-- CRS — Congressional Research Service (within LOC): nonpartisan policy research — [crsreports.congress.gov](https://crsreports.congress.gov/)
+- **GAO — Government Accountability Office**: audits/reviews for Congress — [gao.gov](https://www.gao.gov/)
+- **CBO — Congressional Budget Office**: budget/economic analysis — [cbo.gov](https://www.cbo.gov/)
+- **Library of Congress**: research, archives, copyright — [loc.gov](https://www.loc.gov/)
+- **CRS — Congressional Research Service** (within LOC): nonpartisan policy research — [crsreports.congress.gov](https://crsreports.congress.gov/)
 
 Learn more
 - Congress: [congress.gov](https://www.congress.gov/)
@@ -62,31 +62,31 @@ What it does
 - Enforces laws, runs federal programs, leads foreign policy, commands the armed forces (civilian control).
 
 Executive Departments (Cabinet) — examples with links
-- State — foreign policy — [state.gov](https://www.state.gov/)
-- Treasury — money, IRS — [home.treasury.gov](https://home.treasury.gov/) · IRS: [irs.gov](https://www.irs.gov/)
-- Defense — military (DoD) — [defense.gov](https://www.defense.gov/)
-- Justice — federal law (DOJ), FBI — [justice.gov](https://www.justice.gov/) · FBI: [fbi.gov](https://www.fbi.gov/)
-- Interior — public lands — [doi.gov](https://www.doi.gov/)
-- Agriculture — farming, food — [usda.gov](https://www.usda.gov/)
-- Commerce — business, census, NOAA — [commerce.gov](https://www.commerce.gov/)
-- Labor — workers, jobs — [dol.gov](https://www.dol.gov/)
-- HHS — health (CDC, FDA) — [hhs.gov](https://www.hhs.gov/) · CDC: [cdc.gov](https://www.cdc.gov/) · FDA: [fda.gov](https://www.fda.gov/)
-- HUD — housing — [hud.gov](https://www.hud.gov/)
-- Transportation — roads/air/rail — [transportation.gov](https://www.transportation.gov/)
-- Energy — energy, labs — [energy.gov](https://www.energy.gov/)
-- Education — schools — [ed.gov](https://www.ed.gov/)
-- VA — veterans — [va.gov](https://www.va.gov/)
-- DHS — homeland security (FEMA, TSA, CBP) — [dhs.gov](https://www.dhs.gov/) · FEMA: [fema.gov](https://www.fema.gov/)
+- **State** — foreign policy — [state.gov](https://www.state.gov/)
+- **Treasury** — money, IRS — [home.treasury.gov](https://home.treasury.gov/) · IRS: [irs.gov](https://www.irs.gov/)
+- **Defense** — military (DoD) — [defense.gov](https://www.defense.gov/)
+- **Justice** — federal law (DOJ), FBI — [justice.gov](https://www.justice.gov/) · FBI: [fbi.gov](https://www.fbi.gov/)
+- **Interior** — public lands — [doi.gov](https://www.doi.gov/)
+- **Agriculture** — farming, food — [usda.gov](https://www.usda.gov/)
+- **Commerce** — business, census, NOAA — [commerce.gov](https://www.commerce.gov/)
+- **Labor** — workers, jobs — [dol.gov](https://www.dol.gov/)
+- **HHS** — health (CDC, FDA) — [hhs.gov](https://www.hhs.gov/) · CDC: [cdc.gov](https://www.cdc.gov/) · FDA: [fda.gov](https://www.fda.gov/)
+- **HUD** — housing — [hud.gov](https://www.hud.gov/)
+- **Transportation** — roads/air/rail — [transportation.gov](https://www.transportation.gov/)
+- **Energy** — energy, labs — [energy.gov](https://www.energy.gov/)
+- **Education** — schools — [ed.gov](https://www.ed.gov/)
+- **VA** — veterans — [va.gov](https://www.va.gov/)
+- **DHS** — homeland security (FEMA, TSA, CBP) — [dhs.gov](https://www.dhs.gov/) · FEMA: [fema.gov](https://www.fema.gov/)
 
 Independent agencies and notable programs
-- EPA — environment — [epa.gov](https://www.epa.gov/)
-- NASA — space — [nasa.gov](https://www.nasa.gov/)
-- SEC — securities markets — [sec.gov](https://www.sec.gov/)
-- FTC — consumer/competition — [ftc.gov](https://www.ftc.gov/)
-- FCC — communications — [fcc.gov](https://www.fcc.gov/)
-- SBA — small business — [sba.gov](https://www.sba.gov/)
-- USPS — postal service — [usps.com](https://www.usps.com/)
-- Intelligence Community (Dir. of National Intelligence): [dni.gov](https://www.dni.gov/) · CIA: [cia.gov](https://www.cia.gov/)
+- **EPA** — environment — [epa.gov](https://www.epa.gov/)
+- **NASA** — space — [nasa.gov](https://www.nasa.gov/)
+- **SEC** — securities markets — [sec.gov](https://www.sec.gov/)
+- **FTC** — consumer/competition — [ftc.gov](https://www.ftc.gov/)
+- **FCC** — communications — [fcc.gov](https://www.fcc.gov/)
+- **SBA** — small business — [sba.gov](https://www.sba.gov/)
+- **USPS** — postal service — [usps.com](https://www.usps.com/)
+- **Intelligence Community** (Dir. of National Intelligence): [dni.gov](https://www.dni.gov/) · CIA: [cia.gov](https://www.cia.gov/)
 
 Learn more
 - White House: [whitehouse.gov](https://www.whitehouse.gov/)

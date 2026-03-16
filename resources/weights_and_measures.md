@@ -147,43 +147,43 @@ Currency values change every single day based on the global economy! Here are th
 
 ## ⏱️ Time Units (largest → smallest)
 
-- Year ≈ 365 days (avg. 365.24)
-- Month ≈ 30.44 days (avg.)
-- Week = 7 days
-- Day = 24 hours
-- Hour = 60 minutes
-- Minute = 60 seconds
-- Second (s)
-- Millisecond (ms) = 10⁻³ s
-- Microsecond (µs) = 10⁻⁶ s
-- Nanosecond (ns) = 10⁻⁹ s
-- Picosecond (ps) = 10⁻¹² s
+- **Year** ≈ 365 days (avg. 365.24)
+- **Month** ≈ 30.44 days (avg.)
+- **Week** = 7 days
+- **Day** = 24 hours
+- **Hour** = 60 minutes
+- **Minute** = 60 seconds
+- **Second (s)**
+- **Millisecond (ms)** = 10⁻³ s
+- **Microsecond (µs)** = 10⁻⁶ s
+- **Nanosecond (ns)** = 10⁻⁹ s
+- **Picosecond (ps)** = 10⁻¹² s
 
 ---
 
 ## 🕒 Time Zones (vs Chicago, Central Time)
 
 Chicago (CT)
-- CST = UTC−6 · CDT (summer) = UTC−5
+- **CST** = UTC−6 · **CDT** (summer) = UTC−5
 
 Common zones (difference shown vs Chicago during CST):
-- Pacific (US) UTC−8 — Chicago −2 h
-- Mountain (US) UTC−7 — Chicago −1 h
-- Central (US) UTC−6 — Chicago 0 h
-- Eastern (US) UTC−5 — Chicago +1 h
-- Atlantic (CA) UTC−4 — Chicago +2 h
-- Alaska UTC−9 — Chicago −3 h
-- Hawaii UTC−10 — Chicago −4 h
-- UTC±0 — Chicago +6 h
-- Central Europe (UTC+1) — Chicago +7 h
-- Eastern Europe (UTC+2) — Chicago +8 h
-- Moscow (UTC+3) — Chicago +9 h
-- Gulf (UTC+4) — Chicago +10 h
-- India (UTC+5:30) — Chicago +11 h 30 m
-- China/Singapore (UTC+8) — Chicago +14 h
-- Japan/Korea (UTC+9) — Chicago +15 h
-- Australia East (UTC+10) — Chicago +16 h
-- New Zealand (UTC+12) — Chicago +18 h
+- **Pacific (US)** UTC−8 — Chicago −2 h
+- **Mountain (US)** UTC−7 — Chicago −1 h
+- **Central (US)** UTC−6 — Chicago 0 h
+- **Eastern (US)** UTC−5 — Chicago +1 h
+- **Atlantic (CA)** UTC−4 — Chicago +2 h
+- **Alaska** UTC−9 — Chicago −3 h
+- **Hawaii** UTC−10 — Chicago −4 h
+- **UTC±0** — Chicago +6 h
+- **Central Europe** (UTC+1) — Chicago +7 h
+- **Eastern Europe** (UTC+2) — Chicago +8 h
+- **Moscow** (UTC+3) — Chicago +9 h
+- **Gulf** (UTC+4) — Chicago +10 h
+- **India** (UTC+5:30) — Chicago +11 h 30 m
+- **China/Singapore** (UTC+8) — Chicago +14 h
+- **Japan/Korea** (UTC+9) — Chicago +15 h
+- **Australia East** (UTC+10) — Chicago +16 h
+- **New Zealand** (UTC+12) — Chicago +18 h
 
 Note: Daylight‑saving rules vary; recheck offsets when planning.
 
@@ -191,24 +191,24 @@ Note: Daylight‑saving rules vary; recheck offsets when planning.
 
 ## ⚡ Electricity & Power (simple guide)
 
-Power (how fast)
+**Power (how fast)**
 - W, kW (×1,000), MW (×1,000,000), GW (×1,000,000,000)
 
-Energy (how much over time)
+**Energy (how much over time)**
 - Wh, kWh (1 kWh = 3.6 MJ)
 
-Everyday examples (ballpark)
-- Phone charge: ~10 Wh
-- Laptop charge: ~50–100 Wh
-- EV: battery ~60–100 kWh; ~0.25–0.30 kWh per mile
-- Home: ~700–1,200 kWh/month; live draw ~0.5–5 kW
+**Everyday examples** (ballpark)
+- **Phone charge**: ~10 Wh
+- **Laptop charge**: ~50–100 Wh
+- **EV**: battery ~60–100 kWh; ~0.25–0.30 kWh per mile
+- **Home**: ~700–1,200 kWh/month; live draw ~0.5–5 kW
 
-Bigger scale (approx.)
-- Small business: few kW to tens of kW peak
-- City (1M people): ~1–2 GW average
-- Nuclear plant unit: ~0.5–1.6 GW output
+**Bigger scale** (approx.)
+- **Small business**: few kW to tens of kW peak
+- **City (1M people)**: ~1–2 GW average
+- **Nuclear plant unit**: ~0.5–1.6 GW output
 
-Note (energy vs explosions)
+**Note (energy vs explosions)**
 - 1 kiloton TNT ≈ 4.184×10¹² J ≈ 1.16 GWh (single burst, not electric supply)
 
-Tip: Power = rate (kW). Energy = amount over time (kWh).
+**Tip**: Power = rate (kW). Energy = amount over time (kWh).

@@ -13,8 +13,8 @@ Speak up as an informed, respectful constituent. You will contact one or both cu
 
 ## 🧭 What You’ll Do (Step‑by‑Step)
 1) Choose your purpose
-- Appreciation (thank them for a vote, a bill, or something you value), or
-- Grievance (politely explain a problem and what you want them to do).
+- **Appreciation** (thank them for a vote, a bill, or something you value), or
+- **Grievance** (politely explain a problem and what you want them to do).
 
 2) Pick one issue
 - Examples: education, technology, the environment, healthcare, military families, small business, agriculture, transportation.
@@ -92,4 +92,3 @@ Kid‑Friendly (Elijah):
 - Constituency identified (city/ZIP), no sensitive data shared.
 - A clear “thank you” or a single, realistic “ask” is included.
 - Document(s) saved to the student’s folder.
-

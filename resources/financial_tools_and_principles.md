@@ -22,12 +22,12 @@ Keep everything in your student folder in a `/finance` subfolder.
 
 ## 💱 Currency & Conversion Rates
 
-- Exchange rate: price of one currency in terms of another (e.g., 1 USD = 0.92 EUR).
-- Base/quote: in “USD/EUR = 0.92”, USD is base, EUR is quote. 1 USD buys 0.92 EUR.
-- Convert: amount × exchange rate (mind direction!). Example: 250 USD to EUR at 0.92 → 230 EUR.
-- Cross‑rate idea: if USD/EUR and USD/JPY known, infer EUR/JPY. (Optional stretch)
-- Where to check live rates: central bank pages, major finance sites, or bank apps. Rates change throughout the day.
-- Pro tip: Always record the date and source for any rate you use in assignments.
+- **Exchange rate**: price of one currency in terms of another (e.g., 1 USD = 0.92 EUR).
+- **Base/quote**: in “USD/EUR = 0.92”, USD is base, EUR is quote. 1 USD buys 0.92 EUR.
+- **Convert**: amount × exchange rate (mind direction!). Example: 250 USD to EUR at 0.92 → 230 EUR.
+- **Cross‑rate** idea: if USD/EUR and USD/JPY known, infer EUR/JPY. (Optional stretch)
+- **Live rates**: central bank pages, major finance sites, or bank apps. Rates change throughout the day.
+- **Pro tip**: Always record the date and source for any rate you use in assignments.
 
 Kid‑Friendly:
 - Currency is like language for money. Sometimes a dollar can buy more or less of another country’s money. When that changes, the “exchange rate” has moved.
@@ -36,18 +36,18 @@ Kid‑Friendly:
 
 ## 🧾 Core Business Terms
 
-- Revenue: money a business earns from sales before costs.
-- Expenses (Costs): money spent to run the business (materials, wages, rent).
-- Profit: Revenue − Expenses. (Gross profit subtracts cost of goods; net profit subtracts all expenses.)
-- Cash Flow: money moving in/out (timing matters). Profit can differ from cash flow.
-- Asset: something valuable you own that can produce future benefit (cash, equipment, skills).
-- Liability: an obligation you owe (loans, unpaid bills).
-- Equity (Owners’ Equity): Assets − Liabilities.
-- Margin: ratio of profit to revenue (gross, operating, or net). Example: net margin = net profit ÷ revenue.
-- Interest: cost of borrowing money (or return for lending). APR (simple yearly rate). APY (compounds through the year).
-- Usury: charging interest regarded as excessively high or illegal under local laws.
-- Leverage: using borrowed money to invest. Increases both potential gains and losses.
-- Good Debt vs Bad Debt (rule of thumb):
+- **Revenue**: money a business earns from sales before costs.
+- **Expenses (Costs)**: money spent to run the business (materials, wages, rent).
+- **Profit**: Revenue − Expenses. (Gross profit subtracts cost of goods; net profit subtracts all expenses.)
+- **Cash flow**: money moving in/out (timing matters). Profit can differ from cash flow.
+- **Asset**: something valuable you own that can produce future benefit (cash, equipment, skills).
+- **Liability**: an obligation you owe (loans, unpaid bills).
+- **Equity (Owners’ Equity)**: Assets − Liabilities.
+- **Margin**: ratio of profit to revenue (gross, operating, or net). Example: net margin = net profit ÷ revenue.
+- **Interest**: cost of borrowing money (or return for lending). APR (simple yearly rate). APY (compounds through the year).
+- **Usury**: charging interest regarded as excessively high or illegal under local laws.
+- **Leverage**: using borrowed money to invest. Increases both potential gains and losses.
+- **Good Debt vs Bad Debt** (rule of thumb):
   - Good: used to acquire productive assets (education, modest home, business equipment) with a plan to repay.
   - Bad: high‑interest debt for consumables (e.g., revolving credit card balances) with no repayment plan.
 
@@ -59,19 +59,19 @@ Kid‑Friendly:
 
 ## 📈 Investment Building Blocks
 
-- Stock (Equity): partial ownership in a company. Upside from price increases and dividends; prices can drop.
-- Bond (Debt): a loan to a government/corporation that pays interest and returns principal at maturity. Prices change with rates/credit risk.
-- Mutual Fund: pooled money actively managed to buy many securities. Fees vary; check expense ratio.
-- ETF (Exchange‑Traded Fund): usually tracks an index; trades like a stock. Often lower fees than mutual funds.
-- Index Fund: mutual fund or ETF tracking a market index (e.g., S&P 500). Diversified and typically low cost.
-- REIT (Real Estate Investment Trust): invests in income‑producing real estate; must distribute most income as dividends.
-- CD / Money Market: low‑risk cash vehicles; compare APY and liquidity.
+- **Stock (Equity)**: partial ownership in a company. Upside from price increases and dividends; prices can drop.
+- **Bond (Debt)**: a loan to a government/corporation that pays interest and returns principal at maturity. Prices change with rates/credit risk.
+- **Mutual fund**: pooled money actively managed to buy many securities. Fees vary; check expense ratio.
+- **ETF (Exchange‑Traded Fund)**: usually tracks an index; trades like a stock. Often lower fees than mutual funds.
+- **Index fund**: mutual fund or ETF tracking a market index (e.g., S&P 500). Diversified and typically low cost.
+- **REIT (Real Estate Investment Trust)**: invests in income‑producing real estate; must distribute most income as dividends.
+- **CD / Money market**: low‑risk cash vehicles; compare APY and liquidity.
 
 Taxes & Accounts (US examples)
-- 401(k) / 403(b): employer retirement plans (traditional pretax or Roth after‑tax). Match = free money.
-- IRA / Roth IRA: individual retirement accounts. Tax advantages, contribution limits, penalties for early withdrawals.
-- 529 Plan: tax‑advantaged education savings.
-- HSA: tax‑advantaged health savings (with high‑deductible plans). Can invest with triple tax benefits.
+- **401(k) / 403(b)**: employer retirement plans (traditional pretax or Roth after‑tax). Match = free money.
+- **IRA / Roth IRA**: individual retirement accounts. Tax advantages, contribution limits, penalties for early withdrawals.
+- **529 Plan**: tax‑advantaged education savings.
+- **HSA**: tax‑advantaged health savings (with high‑deductible plans). Can invest with triple tax benefits.
 
 Note: Tax rules vary and change. Always check current IRS/state guidance.
 
@@ -83,11 +83,11 @@ Kid‑Friendly:
 
 ## 🏠 Credit, Loans, and Mortgages
 
-- Mortgage: a loan to buy property; repaid over time (e.g., 15 or 30 years). Payment includes principal + interest; escrow may include taxes/insurance.
-- Interest Rate: the cost of borrowing. Fixed stays the same; variable (adjustable) can change.
-- Amortization: schedule of payments over time showing decreasing interest and increasing principal portions.
-- LTV (Loan‑to‑Value): loan ÷ property value. Lower is safer.
-- DTI (Debt‑to‑Income): monthly debt payments ÷ monthly income. Lower is safer for borrowers.
+- **Mortgage**: a loan to buy property; repaid over time (e.g., 15 or 30 years). Payment includes principal + interest; escrow may include taxes/insurance.
+- **Interest rate**: the cost of borrowing. Fixed stays the same; variable (adjustable) can change.
+- **Amortization**: schedule of payments over time showing decreasing interest and increasing principal portions.
+- **LTV (Loan‑to‑Value)**: loan ÷ property value. Lower is safer.
+- **DTI (Debt‑to‑Income)**: monthly debt payments ÷ monthly income. Lower is safer for borrowers.
 
 Where to find current rates: lender/bank websites, central bank statements, trusted financial news. Document the date/source you used.
 
@@ -98,28 +98,28 @@ Kid‑Friendly:
 
 ## 📚 Principles to Live By
 
-- Pay cards in full every month. Never carry a balance you can’t pay off that month.
-- Build an emergency fund (e.g., 3–6 months of essentials) before taking big risks.
-- Invest monthly (pay yourself first). Automate contributions.
-- Use tax‑advantaged accounts (401k/403b, IRA/Roth, 529, HSA) when eligible.
-- Diversify; avoid putting all savings into one stock or idea.
-- Avoid high fees and high‑interest debt. Fees compound against you.
-- Learn continuously (skills are the ultimate asset) and review your plan quarterly.
+- **Pay cards in full** every month. Never carry a balance you can’t pay off that month.
+- **Build an emergency fund** (e.g., 3–6 months of essentials) before taking big risks.
+- **Invest monthly** (pay yourself first). Automate contributions.
+- **Use tax‑advantaged accounts** (401k/403b, IRA/Roth, 529, HSA) when eligible.
+- **Diversify**; avoid putting all savings into one stock or idea.
+- **Avoid high fees and high‑interest debt**. Fees compound against you.
+- **Keep learning** (skills are the ultimate asset) and review your plan quarterly.
 
 ---
 
 ## 🧮 Handy Formulas (quick reference)
 
-- Simple Interest: I = P × r × t
-- Compound Interest (annual): A = P × (1 + r)^t
-- Monthly Loan Payment (fixed rate):
+- **Simple interest**: I = P × r × t
+- **Compound interest (annual)**: A = P × (1 + r)^t
+- **Monthly loan payment (fixed rate)**:
   PMT ≈ P × [ r_m / (1 − (1 + r_m)^(−n)) ]
   where r_m = annual_rate/12, n = months
-- Profit: Revenue − Expenses
-- Net Margin: Net Profit ÷ Revenue
-- Dividend Yield: Annual Dividends ÷ Price
-- CAGR (approx): (Final/Initial)^(1/years) − 1
-- Currency Conversion: Foreign = Home × (Foreign per Home); Home = Foreign ÷ (Foreign per Home)
+- **Profit**: Revenue − Expenses
+- **Net margin**: Net Profit ÷ Revenue
+- **Dividend yield**: Annual Dividends ÷ Price
+- **CAGR (approx)**: (Final/Initial)^(1/years) − 1
+- **Currency conversion**: Foreign = Home × (Foreign per Home); Home = Foreign ÷ (Foreign per Home)
 
 ---
 

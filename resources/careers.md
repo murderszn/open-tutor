@@ -15,27 +15,27 @@ Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Asso
 ---
 
 ## Tech & Data
-- Software Engineer
+- **Software Engineer**
   - Education: BA/BS (CS/SE) or Cert/Bootcamp + portfolio
   - Specialty: web, mobile, backend, cloud, embedded
   - Pay (US est.): $85k–$180k
-- Cybersecurity Analyst
+- **Cybersecurity Analyst**
   - Education: BA/BS or AA + certs (Security+, CySA+, CISSP later)
   - Specialty: SOC analyst, threat detection, GRC, blue team
   - Pay (US est.): $80k–$150k
-- Data Analyst
+- **Data Analyst**
   - Education: BA/BS (stats/econ/IS) or AA + portfolio
   - Specialty: SQL, spreadsheets, dashboards, A/B testing
   - Pay (US est.): $60k–$100k
-- Data Scientist / ML Engineer
+- **Data Scientist / ML Engineer**
   - Education: MS/PhD preferred (stat/CS); strong portfolio
   - Specialty: ML, NLP, CV, MLOps
   - Pay (US est.): $110k–$220k
-- Cloud / DevOps Engineer
+- **Cloud / DevOps Engineer**
   - Education: BA/BS or AA + cloud certs (AWS/Azure/GCP)
   - Specialty: infra‑as‑code, CI/CD, SRE, containers
   - Pay (US est.): $95k–$170k
-- UX / Product Designer
+- **UX / Product Designer**
   - Education: BA/BS or design bootcamp + portfolio
   - Specialty: research, interaction design, prototyping
   - Pay (US est.): $75k–$140k
@@ -43,27 +43,27 @@ Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Asso
 ---
 
 ## Health & Life Sciences
-- Registered Nurse (RN)
+- **Registered Nurse (RN)**
   - Education: AA/AS (ADN) or BSN; pass NCLEX
   - Specialty: ER, ICU, pediatrics, oncology
   - Pay (US est.): $65k–$120k
-- Nurse Practitioner (NP)
+- **Nurse Practitioner (NP)**
   - Education: BSN + MSN/DNP; board certification
   - Specialty: family, acute care, psych
   - Pay (US est.): $100k–$160k
-- Physician (MD/DO)
+- **Physician (MD/DO)**
   - Education: BA/BS prereqs → MD/DO + residency
   - Specialty: internal med, surgery, pediatrics, radiology
   - Pay (US est.): $180k–$400k+
-- Physician Assistant (PA)
+- **Physician Assistant (PA)**
   - Education: BA/BS → PA Master’s + certification (PANCE)
   - Specialty: primary care, ortho, EM
   - Pay (US est.): $105k–$160k
-- Pharmacist
+- **Pharmacist**
   - Education: Pre‑pharm → PharmD + licensure
   - Specialty: retail, hospital, clinical
   - Pay (US est.): $110k–$150k
-- Medical Laboratory Technologist
+- **Medical Laboratory Technologist**
   - Education: AA/AS or BS + certification
   - Specialty: hematology, microbiology, pathology
   - Pay (US est.): $55k–$85k
@@ -71,23 +71,23 @@ Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Asso
 ---
 
 ## Skilled Trades & Field Work
-- Electrician
+- **Electrician**
   - Education: Apprenticeship/Cert; state license
   - Specialty: residential, industrial, controls
   - Pay (US est.): $45k–$90k
-- Plumber / Pipefitter
+- **Plumber / Pipefitter**
   - Education: Apprenticeship/Cert; state license
   - Specialty: residential, commercial, HVAC piping
   - Pay (US est.): $45k–$90k
-- HVAC Technician
+- **HVAC Technician**
   - Education: Cert/AA; EPA 608
   - Specialty: heating/cooling install & service
   - Pay (US est.): $45k–$80k
-- Welder
+- **Welder**
   - Education: Cert/Apprenticeship; AWS certs
   - Specialty: MIG/TIG, structural, pipeline
   - Pay (US est.): $40k–$80k
-- Commercial Driver (CDL)
+- **Commercial Driver (CDL)**
   - Education: HS + CDL program
   - Specialty: long‑haul, regional, tanker, hazmat
   - Pay (US est.): $45k–$95k
@@ -95,23 +95,23 @@ Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Asso
 ---
 
 ## Public Sector, Education & Law
-- K‑12 Teacher
+- **K‑12 Teacher**
   - Education: BA + state credential (varies by state)
   - Specialty: grade/subject, special education, ESL
   - Pay (US est.): $45k–$80k
-- Police Officer
+- **Police Officer**
   - Education: HS/AA/BA (varies) + academy; background
   - Specialty: patrol, investigations, cyber, K‑9
   - Pay (US est.): $50k–$100k
-- Firefighter / EMT / Paramedic
+- **Firefighter / EMT / Paramedic**
   - Education: HS + EMT/Paramedic certs; academy
   - Specialty: rescue, hazmat, wildland
   - Pay (US est.): $40k–$90k
-- Lawyer (JD)
+- **Lawyer (JD)**
   - Education: BA/BS → JD + bar exam
   - Specialty: corporate, criminal, IP, tax, public interest
   - Pay (US est.): $80k–$220k
-- Social Worker (LMSW/LCSW)
+- **Social Worker (LMSW/LCSW)**
   - Education: BA/BS → MSW + licensure
   - Specialty: clinical, school, community services
   - Pay (US est.): $50k–$90k
@@ -119,23 +119,23 @@ Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Asso
 ---
 
 ## Business & Finance
-- Accountant / CPA
+- **Accountant / CPA**
   - Education: BA/BS (accounting) + CPA exams
   - Specialty: audit, tax, corporate, forensic
   - Pay (US est.): $55k–$110k
-- Financial Analyst
+- **Financial Analyst**
   - Education: BA/BS (finance/econ/IS); CFA helpful
   - Specialty: FP&A, equity research, credit
   - Pay (US est.): $65k–$120k
-- Product Manager
+- **Product Manager**
   - Education: BA/BS; MBA helpful; portfolio of launches
   - Specialty: consumer, B2B, platform
   - Pay (US est.): $95k–$180k
-- Operations / Supply Chain Manager
+- **Operations / Supply Chain Manager**
   - Education: BA/BS; APICS/CSCP helpful
   - Specialty: logistics, procurement, planning
   - Pay (US est.): $70k–$140k
-- Real Estate Agent / Broker
+- **Real Estate Agent / Broker**
   - Education: HS + state license; broker license later
   - Specialty: residential, commercial, leasing
   - Pay (US est.): highly variable (commission‑based)
@@ -143,19 +143,19 @@ Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Asso
 ---
 
 ## Media, Design & Communications
-- Graphic Designer
+- **Graphic Designer**
   - Education: AA/BA or portfolio + tools (Adobe/Canva)
   - Specialty: brand, marketing, product
   - Pay (US est.): $45k–$85k
-- Video Editor / Producer
+- **Video Editor / Producer**
   - Education: AA/BA or portfolio; NLE tools
   - Specialty: post‑production, motion graphics
   - Pay (US est.): $50k–$120k
-- Technical Writer
+- **Technical Writer**
   - Education: BA/BS; writing samples
   - Specialty: docs, developer content, procedures
   - Pay (US est.): $60k–$110k
-- Marketing / Growth Specialist
+- **Marketing / Growth Specialist**
   - Education: BA/BS or portfolio; analytics tools
   - Specialty: SEO, ads, content, analytics
   - Pay (US est.): $50k–$120k
@@ -163,23 +163,23 @@ Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Asso
 ---
 
 ## Energy, Construction & Environment
-- Civil Engineer
+- **Civil Engineer**
   - Education: BA/BS (engineering) + EIT/PE track
   - Specialty: structures, transportation, water
   - Pay (US est.): $70k–$120k
-- Construction Project Manager
+- **Construction Project Manager**
   - Education: BA/BS or trade experience + PM certs
   - Specialty: scheduling, cost control, safety
   - Pay (US est.): $70k–$130k
-- Wind Turbine Technician
+- **Wind Turbine Technician**
   - Education: Cert/AA; climbing & safety quals
   - Specialty: maintenance, troubleshooting
   - Pay (US est.): $50k–$80k
-- Solar PV Installer / Designer
+- **Solar PV Installer / Designer**
   - Education: Cert/AA; NABCEP helpful
   - Specialty: residential/commercial PV, storage
   - Pay (US est.): $40k–$75k
-- Environmental Scientist
+- **Environmental Scientist**
   - Education: BA/BS; MS helpful
   - Specialty: remediation, compliance, GIS
   - Pay (US est.): $55k–$100k
@@ -187,27 +187,27 @@ Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Asso
 ---
 
 ## Emerging & Atypical
-- AI Prompt Engineer / AI Product Specialist
+- **AI Prompt Engineer / AI Product Specialist**
   - Education: BA/BS or portfolio; prompt/RAG/safety knowledge
   - Specialty: LLM apps, evals, policies
   - Pay (US est.): $100k–$250k
-- Drone Pilot (Part 107)
+- **Drone Pilot (Part 107)**
   - Education: HS + FAA Part 107 cert
   - Specialty: mapping, inspection, media
   - Pay (US est.): $45k–$100k
-- Creator / YouTuber / Streamer
+- **Creator / YouTuber / Streamer**
   - Education: HS+; portfolio; business skills
   - Specialty: content niche, community, monetization
   - Pay (US est.): highly variable ($0–>$200k+)
-- Esports Pro / Coach / Analyst
+- **Esports Pro / Coach / Analyst**
   - Education: HS+; team pipeline; coaching certs helpful
   - Specialty: game roles, VOD analysis, team ops
   - Pay (US est.): highly variable
-- Data Center Technician
+- **Data Center Technician**
   - Education: AA/AS or Cert; networking/electrical basics
   - Specialty: racks, cabling, troubleshooting, on‑call
   - Pay (US est.): $50k–$90k
-- Cyber Threat Hunter (Blue Team)
+- **Cyber Threat Hunter (Blue Team)**
   - Education: BA/BS or AA + certs; SOC background
   - Specialty: threat intel, detections, hunts
   - Pay (US est.): $95k–$160k
@@ -224,4 +224,3 @@ Notes
 - Salaries vary by geography, experience, industry, and company stage. Use multiple sources.
 - Many paths allow apprenticeships, military, or community college routes to reduce cost.
 - Building a portfolio (projects, internships, volunteering) increases opportunity.
-
