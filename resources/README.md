@@ -20,6 +20,7 @@ This folder contains educational materials, reference documents, and useful link
 *   **[Financial Tools & Principles](./financial_tools_and_principles.md)**: Currency conversion basics; what stocks/bonds/funds/REITs are; mortgages and interest; core business terms (revenue, profit, assets, liabilities); leverage and good vs bad debt; smart habits and tax‑advantaged accounts.
 *   **[Government Basics — Branches & Agencies](./government_basics.md)**: The three branches (Legislative, Executive, Judicial), major agencies and departments, official links, kid‑friendly bullets, and templates.
 *   **[United States — Understanding & Principles](./united_states_understanding_and_principles.md)**: Brief origins, why the U.S. rejected monarchy, how the Constitution works (and changes), rights and responsibilities, and trusted primary sources.
+*   **[Careers — Paths, Education, Pay](./careers.markdown)**: Typical and emerging roles with education levels, example specialties, and rough U.S. pay ranges; sources to verify outlook and compensation.
 
 ## 🧰 Essential Online Tools
 
