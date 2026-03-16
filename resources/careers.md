@@ -1,4 +1,6 @@
-# 🧭 Careers — Paths, Education, Specialties, Pay (Est.)
+# 🧭 Careers — Paths, Education, Specialties, Pay (US est.)
+
+[← Back to Resources Index](./README.md)
 
 A quick, student‑friendly guide to common and emerging careers. Ranges are rough U.S. estimates; always check current data (see Sources) and local markets.
 
@@ -215,9 +217,9 @@ Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Asso
 ---
 
 ## Sources & Tools (verify pay and outlook)
-- BLS Occupational Outlook Handbook: https://www.bls.gov/ooh/
-- O*NET Online (skills/tasks): https://www.onetonline.org/
-- Glassdoor / Levels / Payscale (market comps): https://www.glassdoor.com/ • https://www.levels.fyi/ • https://www.payscale.com/
+- [BLS Occupational Outlook Handbook](https://www.bls.gov/ooh/)
+- [O*NET Online — skills and tasks](https://www.onetonline.org/)
+- Market comps: [Glassdoor](https://www.glassdoor.com/), [Levels.fyi](https://www.levels.fyi/), [Payscale](https://www.payscale.com/)
 - State licensure boards (teachers, nurses, trades) for local requirements
 
 Notes
