@@ -23,6 +23,18 @@ Navigate the repository using the following folders:
 *   [`/students/glory`](./students/glory/): Glory's Pre-K structured workspace and tracking board.
 *   [`/teachers/ai-assistants`](./teachers/ai-assistants/): System prompts and personas for the AI Teaching Team (Lesson Planner, Grader, etc.).
 
+## 🤖 AI Teaching Team (Agents)
+
+Use these specialized prompts to generate lessons, plans, explanations, and grading aligned to our curriculum. Open each file for instructions and paste the full prompt into your AI tool.
+
+- Curriculum Creator & Content Writer — [teachers/ai-assistants/curriculum_creator.md](./teachers/ai-assistants/curriculum_creator.md)
+- Lesson Planner & Scheduler — [teachers/ai-assistants/lesson_planner.md](./teachers/ai-assistants/lesson_planner.md)
+- Teacher's Aide (The Unblocker) — [teachers/ai-assistants/teachers_aide.md](./teachers/ai-assistants/teachers_aide.md)
+- Subject Tutor (The Explainer) — [teachers/ai-assistants/subject_tutor.md](./teachers/ai-assistants/subject_tutor.md)
+- Assessment Grader — [teachers/ai-assistants/assessment_grader.md](./teachers/ai-assistants/assessment_grader.md)
+
+Quick access to all agents: [teachers/ai-assistants/agents.md](./teachers/ai-assistants/agents.md)
+
 ## 📝 Daily Workflow
 
 1.  **Log In**: Every morning, log into your GitHub accounts.
