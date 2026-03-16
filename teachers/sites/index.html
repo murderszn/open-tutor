@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en" data-theme="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>[JFD] Learning Center • Weekly Timeline</title>
+    <style>
+      :root {
+        --bg: #ffffff;
+        --surface: #ffffff;
+        --text: #111111;
+        --muted: #555555;
+        --border: #e5e7eb;
+        --code: #f6f8fa;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0a0a0a;
+          --surface: #0f0f0f;
+          --text: #f2f2f2;
+          --muted: #a1a1a1;
+          --border: #1f1f1f;
+          --code: #111315;
+        }
+      }
+      [data-theme="light"] {
+        --bg: #ffffff;
+        --surface: #ffffff;
+        --text: #111111;
+        --muted: #555555;
+        --border: #e5e7eb;
+        --code: #f6f8fa;
+      }
+      [data-theme="dark"] {
+        --bg: #0a0a0a;
+        --surface: #0f0f0f;
+        --text: #f2f2f2;
+        --muted: #a1a1a1;
+        --border: #1f1f1f;
+        --code: #111315;
+      }
+
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+      .wrap { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
+
+      /* Brand masthead */
+      .brand-masthead { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin: 0 0 12px; overflow: auto; }
+      .brand-masthead pre { margin: 0; padding: 12px; color: var(--text); background: var(--surface); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; line-height: 1.05; text-align: center; }
+      .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 1px, 1px); white-space: nowrap; border: 0; }
+
+      /* Header */
+      header.hero { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+      .hero h1 { font-size: 20px; margin: 0; }
+      .hero .meta { color: var(--muted); font-size: 13px; }
+      .controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+      .btn { padding: 6px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); cursor: pointer; text-decoration: none; }
+      .btn:hover { filter: brightness(0.95); }
+      .ghost { background: transparent; }
+
+      /* Links with animated underline */
+      a { color: var(--text); text-decoration: none; position: relative; }
+      a:visited { color: var(--text); }
+      a:not(.btn)::after { content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 1px; background: var(--text); transform: scaleX(0); transform-origin: left; transition: transform 180ms ease; }
+      a:not(.btn):hover::after, a:not(.btn):focus::after { transform: scaleX(1); }
+
+      /* Legend */
+      .legend { display: flex; flex-wrap: wrap; gap: 6px 8px; margin-top: 8px; color: var(--muted); font-size: 12px; }
+      .chip { padding: 2px 6px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); }
+
+      /* Timeline (weeks = rows; students = columns) */
+      .timeline-wrap { margin-top: 16px; border: 1px solid var(--border); border-radius: 10px; overflow: auto; background: var(--surface); }
+      table.timeline { width: 100%; border-collapse: collapse; }
+      .timeline th, .timeline td { border: 1px solid var(--border); padding: 10px 12px; vertical-align: top; text-align: left; }
+      .timeline thead th { position: sticky; top: 0; background: var(--surface); z-index: 2; }
+      .timeline tbody th { position: sticky; left: 0; background: var(--surface); z-index: 1; min-width: 160px; }
+      .week { white-space: nowrap; }
+      .cell ul { margin: 6px 0 0; padding-left: 18px; }
+      .small { color: var(--muted); font-size: 12px; }
+
+      /* Navigation overlay transition */
+      .nav-overlay { position: fixed; inset: 0; background: var(--bg); clip-path: circle(0 at var(--x, 50%) var(--y, 50%)); opacity: 0; transition: clip-path 420ms ease-in-out, opacity 120ms linear; pointer-events: none; z-index: 999; }
+      .nav-overlay.show { opacity: 1; pointer-events: auto; clip-path: circle(150% at var(--x, 50%) var(--y, 50%)); }
+
+      /* Code and footer */
+      pre { margin: 8px 0; padding: 10px; background: var(--code); border: 1px solid var(--border); border-radius: 8px; overflow: auto; }
+      footer { margin-top: 18px; color: var(--muted); font-size: 12px; }
+
+      /* Print */
+      @page { margin: 12mm; }
+      @media print {
+        :root { --bg:#ffffff; --surface:#ffffff; --text:#000000; --muted:#000000; --border:#000000; --code:#ffffff; }
+        body { background: #ffffff; color: #000000; }
+        .controls { display: none !important; }
+        .btn { display: none !important; }
+        .timeline-wrap { border: 1px solid #000; }
+        .timeline th, .timeline td { border-color: #000 !important; }
+        a { color: #000 !important; text-decoration: none; }
+        pre { border: 1px solid #000; background: #fff; }
+        tr { page-break-inside: avoid; }
+        header.hero { border: 0; }
+        .brand-masthead { border: 0; }
+        .nav-overlay { display: none !important; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="brand-masthead" role="img" aria-label="Johnson Family Dynasty Learning Center">
+        <span class="sr-only">[JFD] Learning Center</span>
+        <pre>
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║           [ J F D ]   L E A R N I N G   C E N T E R                ║
+║                                                                    ║
+║        ██╗███████╗██████╗     ██╗  ██╗██╗   ██╗██████╗             ║
+║        ██║██╔════╝██╔══██╗    ██║  ██║██║   ██║██╔══██╗            ║
+║        ██║█████╗  ██║  ██║    ███████║██║   ██║██████╔╝            ║
+║   ██   ██║██╔══╝  ██║  ██║    ██╔══██║██║   ██║██╔══██╗            ║
+║   ╚█████╔╝██║     ██████╔╝    ██║  ██║╚██████╔╝██████╔╝            ║
+║    ╚════╝ ╚═╝     ╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝             ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+        </pre>
+      </div>
+
+      <header class="hero">
+        <div>
+          <h1>[JFD] Learning Center — Weekly Timeline</h1>
+          <div class="meta">Weeks on rows; Elijah and Caleb in columns. Minimal B/W with light/dark toggle.</div>
+        </div>
+        <div class="controls">
+          <a class="btn ghost" href="../../../../README.md">Home</a>
+          <a class="btn ghost" href="../../../../assignments/">Assignments</a>
+          <a class="btn ghost" href="../../../../resources/">Resources</a>
+          <button id="printBtn" class="btn" title="Print this timeline">Print</button>
+          <button id="themeToggle" class="btn" title="Toggle theme">Toggle theme</button>
+        </div>
+      </header>
+
+      <div class="legend" aria-label="Legend">
+        <span class="chip">Math</span>
+        <span class="chip">STEM</span>
+        <span class="chip">LA</span>
+        <span class="chip">SS</span>
+        <span class="chip">CS/Web</span>
+        <span class="chip">Finance</span>
+      </div>
+
+      <div class="timeline-wrap" role="region" aria-label="Weekly Timeline">
+        <table class="timeline">
+          <thead>
+            <tr>
+              <th>Week</th>
+              <th>Elijah (4th)</th>
+              <th>Caleb (7th)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="week">Mar 20, 2026</th>
+              <td class="cell">
+                STEM: <a href="../../../../assignments/perfect-3-car-collection/README.md">3‑Car Collection</a> (<a href="../../../../assignments/perfect-3-car-collection/car-brands.html">demo</a>)
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-03-20_quiz.md">2026‑03‑20</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-03-20_quiz.md">2026‑03‑20</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-01_quiz.md">Week 01</a></li>
+                  <li>LA: Weekly Video Review (<a href="../../../../assignments/language-arts/video-review-template.md">template</a>)</li>
+                </ul>
+              </td>
+              <td class="cell">
+                STEM: <a href="../../../../assignments/perfect-3-car-collection/README.md">3‑Car Collection</a> (<a href="../../../../assignments/perfect-3-car-collection/car-brands.html">demo</a>)
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-03-20_quiz.md">2026‑03‑20</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-03-20_quiz.md">2026‑03‑20</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-01_quiz.md">Week 01</a></li>
+                  <li>LA: Weekly Video Review (<a href="../../../../assignments/language-arts/video-review-template.md">template</a>)</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">Mar 27, 2026</th>
+              <td class="cell">
+                Finance: <a href="../../../../assignments/how-i-spent-my-first-million/README.md">First Million</a> (<a href="../../../../assignments/how-i-spent-my-first-million/tracker.html">tracker</a>)
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-03-27_quiz.md">2026‑03‑27</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-03-27_quiz.md">2026‑03‑27</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-02_quiz.md">Week 02</a></li>
+                  <li>Resource: <a href="../../../../resources/financial_tools_and_principles.md">Financial Tools</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                Finance: <a href="../../../../assignments/how-i-spent-my-first-million/README.md">First Million</a> (<a href="../../../../assignments/how-i-spent-my-first-million/tracker.html">tracker</a>)
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-03-27_quiz.md">2026‑03‑27</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-03-27_quiz.md">2026‑03‑27</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-02_quiz.md">Week 02</a></li>
+                  <li>Resources: <a href="../../../../resources/financial_tools_and_principles.md">Financial Tools</a>, <a href="../../../../resources/careers.md">Careers</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">Apr 03, 2026</th>
+              <td class="cell">
+                Math: <a href="../../../../assignments/fraction-pizza-parlor/README.md">Fraction Pizza Parlor</a>
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-04-03_quiz.md">2026‑04‑03</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-04-03_quiz.md">2026‑04‑03</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-03_quiz.md">Week 03</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                CS/Web: <a href="../../../../assignments/personal-portfolio/README.md">Personal Portfolio</a>
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-04-03_quiz.md">2026‑04‑03</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-04-03_quiz.md">2026‑04‑03</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-03_quiz.md">Week 03</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">Apr 10, 2026</th>
+              <td class="cell">
+                Math: <a href="../../../../assignments/place-value-detective/README.md">Place Value Detective</a>
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-04-10_quiz.md">2026‑04‑10</a> · <a href="../../../../students/elijah/grade-4/math/quizzes/2026-04-10_quiz_hints.md">Hints</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-04-10_quiz.md">2026‑04‑10</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-04_quiz.md">Week 04</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                CS/Web: <a href="../../../../assignments/responsive-navbar-challenge/README.md">Responsive Navbar</a>
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-04-10_quiz.md">2026‑04‑10</a> · <a href="../../../../students/caleb/grade-7/math/quizzes/2026-04-10_quiz_hints.md">Hints</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-04-10_quiz.md">2026‑04‑10</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-04_quiz.md">Week 04</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">Apr 17, 2026</th>
+              <td class="cell">
+                Math: Factors & Multiples practice
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-04-17_quiz.md">2026‑04‑17</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-04-17_quiz.md">2026‑04‑17</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-05_quiz.md">Week 05</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                CS/Web: Navbar polish + integrate
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-04-17_quiz.md">2026‑04‑17</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-04-17_quiz.md">2026‑04‑17</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-05_quiz.md">Week 05</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">Apr 24, 2026</th>
+              <td class="cell">
+                Rotation: Social Studies monthly cycle
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-04-24_quiz.md">2026‑04‑24</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-04-24_quiz.md">2026‑04‑24</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-06_quiz.md">Week 06</a></li>
+                  <li>Resources: <a href="../../../../resources/world_facts.md">World Facts</a>, <a href="../../../../resources/weights_and_measures.md">Weights & Measures</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                Math/SS: Regular rotation + quizzes
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-04-24_quiz.md">2026‑04‑24</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-04-24_quiz.md">2026‑04‑24</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-06_quiz.md">Week 06</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">May 01, 2026</th>
+              <td class="cell">
+                Math: Review & mixed practice
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-05-01_quiz.md">2026‑05‑01</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-05-01_quiz.md">2026‑05‑01</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-07_quiz.md">Week 07</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                Math: Ratio/Proportion practice
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-05-01_quiz.md">2026‑05‑01</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-05-01_quiz.md">2026‑05‑01</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-07_quiz.md">Week 07</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">May 08, 2026</th>
+              <td class="cell">
+                SS: Capitals & Landmarks
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-05-08_quiz.md">2026‑05‑08</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-05-08_quiz.md">2026‑05‑08</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-08_quiz.md">Week 08</a></li>
+                  <li>Resource: <a href="../../../../resources/un_countries.csv">UN Countries (CSV)</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                Algebra: Expressions & Equations
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-05-08_quiz.md">2026‑05‑08</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-05-08_quiz.md">2026‑05‑08</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-08_quiz.md">Week 08</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">May 15, 2026</th>
+              <td class="cell">
+                Math: Fractions → Decimals
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-05-15_quiz.md">2026‑05‑15</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-05-15_quiz.md">2026‑05‑15</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-09_quiz.md">Week 09</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                Geometry: Area/Volume/Angles
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-05-15_quiz.md">2026‑05‑15</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-05-15_quiz.md">2026‑05‑15</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-09_quiz.md">Week 09</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">May 22, 2026</th>
+              <td class="cell">
+                STEM: Motion & Forces recap
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-05-22_quiz.md">2026‑05‑22</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-05-22_quiz.md">2026‑05‑22</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-10_quiz.md">Week 10</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                Stats: Data & Probability
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-05-22_quiz.md">2026‑05‑22</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-05-22_quiz.md">2026‑05‑22</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-10_quiz.md">Week 10</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">May 29, 2026</th>
+              <td class="cell">
+                LA: Weekly Video Review + summary
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-05-29_quiz.md">2026‑05‑29</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-05-29_quiz.md">2026‑05‑29</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-11_quiz.md">Week 11</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                LA: Archetypes & Poetry modules
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-05-29_quiz.md">2026‑05‑29</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-05-29_quiz.md">2026‑05‑29</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-11_quiz.md">Week 11</a></li>
+                  <li>Refs: <a href="../../../../assignments/language-arts/archetypes-the-scarlet-letter/README.md">Scarlet Letter</a>, <a href="../../../../assignments/language-arts/harlem-renaissance-poetry/README.md">Harlem Poetry</a></li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <th class="week">Jun 05, 2026</th>
+              <td class="cell">
+                Wrap‑Up: 12‑week review & quizzes
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/elijah/grade-4/math/quizzes/2026-06-05_quiz.md">2026‑06‑05</a></li>
+                  <li>SS Quiz: <a href="../../../../students/elijah/grade-4/social-studies/quizzes/2026-06-05_quiz.md">2026‑06‑05</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/elijah/grade-4/stem/quizzes/week-12_quiz.md">Week 12</a></li>
+                </ul>
+              </td>
+              <td class="cell">
+                Wrap‑Up: 12‑week review & quizzes
+                <ul>
+                  <li>Math Quiz: <a href="../../../../students/caleb/grade-7/math/quizzes/2026-06-05_quiz.md">2026‑06‑05</a></li>
+                  <li>SS Quiz: <a href="../../../../students/caleb/grade-7/social-studies/quizzes/2026-06-05_quiz.md">2026‑06‑05</a></li>
+                  <li>STEM Quiz: <a href="../../../../students/caleb/grade-7/stem/quizzes/week-12_quiz.md">Week 12</a></li>
+                </ul>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <section style="margin-top:12px">
+        <div class="small">Preview locally</div>
+        <pre><code>python3 -m http.server 8000</code></pre>
+      </section>
+
+      <footer>
+        Links come from student READMEs, assignments, and resources. Privacy: first names only.
+      </footer>
+    </div>
+    <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+    <script>
+      (function themeInit(){
+        const root = document.documentElement;
+        const saved = localStorage.getItem('admin-theme');
+        if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
+        const btn = document.getElementById('themeToggle');
+        btn?.addEventListener('click', () => {
+          const current = root.getAttribute('data-theme');
+          const next = current === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          localStorage.setItem('admin-theme', next);
+        });
+      })();
+      (function printInit(){ document.getElementById('printBtn')?.addEventListener('click', () => window.print()); })();
+      (function linkTransitions(){
+        const overlay = document.getElementById('navOverlay');
+        function eligible(a){
+          if (!a || a.classList.contains('btn')) return false;
+          const href = a.getAttribute('href') || '';
+          if (!href || href.startsWith('#')) return false;
+          if (a.target && a.target.toLowerCase() === '_blank') return false;
+          if (href.startsWith('http')) return false;
+          return true;
+        }
+        document.addEventListener('click', (e) => {
+          const a = e.target.closest('a');
+          if (!a || !eligible(a)) return;
+          if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
+          e.preventDefault();
+          const x = e.clientX, y = e.clientY;
+          if (overlay){
+            overlay.style.setProperty('--x', x + 'px');
+            overlay.style.setProperty('--y', y + 'px');
+            overlay.classList.add('show');
+            setTimeout(() => { window.location.href = a.href; }, 420);
+          } else {
+            window.location.href = a.href;
+          }
+        });
+      })();
+    </script>
+  </body>
+  </html>
+
