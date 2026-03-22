@@ -70,7 +70,7 @@
       .chip { padding: 2px 6px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--text); }
 
       /* Timeline (weeks = rows; students = columns) */
-      .timeline-wrap { margin-top: 16px; border: 1px solid var(--border); border-radius: 10px; overflow: auto; background: var(--surface); }
+      .timeline-wrap { margin-top: 16px; border: 1px solid var(--border); border-radius: 10px; overflow: auto; background: var(--surface); box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04); }
       table.timeline { width: 100%; border-collapse: collapse; }
       .timeline th, .timeline td { border: 1px solid var(--border); padding: 10px 12px; vertical-align: top; text-align: left; }
       .timeline thead th { position: sticky; top: 0; background: var(--surface); z-index: 2; }
@@ -78,6 +78,8 @@
       .week { white-space: nowrap; }
       .cell ul { margin: 6px 0 0; padding-left: 18px; }
       .small { color: var(--muted); font-size: 12px; }
+      .timeline tbody tr:nth-child(even) td { background: rgba(125,125,125,0.025); }
+      .timeline tbody tr:hover td { background: var(--code); }
 
       /* Navigation overlay transition */
       .nav-overlay { position: fixed; inset: 0; background: var(--bg); clip-path: circle(0 at var(--x, 50%) var(--y, 50%)); opacity: 0; transition: clip-path 420ms ease-in-out, opacity 120ms linear; pointer-events: none; z-index: 999; }
@@ -134,7 +136,7 @@
           <a class="btn ghost" href="../../../../README.md">Home</a>
           <a class="btn ghost" href="../../../../assignments/">Assignments</a>
           <a class="btn ghost" href="../../../../resources/">Resources</a>
-          <button id="printBtn" class="btn" title="Print this timeline">Print</button>
+          <a class="btn" href="../../students/sprint.html" title="Open the student Kanban sprint board">Student Sprint Board</a>
           <button id="themeToggle" class="btn" title="Toggle theme">Toggle theme</button>
         </div>
       </header>
@@ -336,7 +338,6 @@
           localStorage.setItem('admin-theme', next);
         });
       })();
-      (function printInit(){ document.getElementById('printBtn')?.addEventListener('click', () => window.print()); })();
       (function linkTransitions(){
         const overlay = document.getElementById('navOverlay');
         function eligible(a){
@@ -366,4 +367,3 @@
     </script>
   </body>
   </html>
-
