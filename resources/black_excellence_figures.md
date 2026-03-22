@@ -63,3 +63,16 @@ A research guide highlighting historic and modern Black excellence across variou
 * [**Katherine Johnson**](https://en.wikipedia.org/wiki/Katherine_Johnson) — Legendary NASA mathematician whose calculations were critical to early US crewed spaceflights.
 * [**Toni Morrison**](https://en.wikipedia.org/wiki/Toni_Morrison) — Nobel laureate and Pulitzer Prize-winning author (*Beloved*).
 * [**James Baldwin**](https://en.wikipedia.org/wiki/James_Baldwin) — Novelist, playwright, essayist, and prominent voice of the civil rights movement.
+
+---
+
+## 🏅 Sports Icons & Athletes
+*Focus on legendary athletes who broke barriers and dominated globally.*
+* [**Muhammad Ali**](https://en.wikipedia.org/wiki/Muhammad_Ali) — Legendary heavyweight boxing champion and global icon of the civil rights movement.
+* [**Serena Williams**](https://en.wikipedia.org/wiki/Serena_Williams) — Arguably the greatest tennis player of all time with 23 Grand Slam singles titles.
+* [**Michael Jordan**](https://en.wikipedia.org/wiki/Michael_Jordan) — Six-time NBA champion and global cultural and business icon.
+* [**LeBron James**](https://en.wikipedia.org/wiki/LeBron_James) — NBA all-time leading scorer, four-time NBA champion, and prominent philanthropist.
+* [**Simone Biles**](https://en.wikipedia.org/wiki/Simone_Biles) — The most decorated gymnast in history, renowned for extreme athletic dominance and mental health advocacy.
+* [**Jackie Robinson**](https://en.wikipedia.org/wiki/Jackie_Robinson) — Historic baseball player who broke the color barrier in Major League Baseball (MLB).
+* [**Arthur Ashe**](https://en.wikipedia.org/wiki/Arthur_Ashe) — Trailblazing tennis champion and dedicated social activist.
+* [**Jesse Owens**](https://en.wikipedia.org/wiki/Jesse_Owens) — Historic track and field athlete who shattered records at the 1936 Olympic Games.
