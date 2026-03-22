@@ -1,12 +1,12 @@
-# 🎬 Black Entertainers — Research Project
+# 🌟 Black Excellence — Research Project
 
 Subject: Social Studies (Arts & Culture)
 
 ## Overview
-Research influential Black entertainers and their impact on culture. Your goal is to learn who they are, what they contributed, and why their work matters.
+Research influential Black leaders, business people, government officials, and entertainers and their impact on culture. Your goal is to learn who they are, what they contributed, and why their work matters.
 
 ## Tasks
-- Pick 3 entertainers from different fields (e.g., music, film/TV, comedy). Try to include at least one from earlier history and one modern figure.
+- Pick 3 figures from completely different walks of life (e.g., business, politics, science, entertainment). Try to include at least one from earlier history and one modern figure.
 - For each person, include:
   - 5 bullet facts (signature works, awards, time period, notable firsts/barriers overcome, cultural impact)
   - 1–2 representative images or media references (title + year is fine)
@@ -18,8 +18,8 @@ Research influential Black entertainers and their impact on culture. Your goal i
 - OR a 3–6 slide mini‑deck (one or two slides per person) with a final comparison slide
 
 Save your work in your student folder:
-- Caleb: `students/caleb/grade-7/social-studies/black-entertainers/`
-- Elijah: `students/elijah/grade-4/social-studies/black-entertainers/`
+- Caleb: `students/caleb/grade-7/social-studies/black-excellence/`
+- Elijah: `students/elijah/grade-4/social-studies/black-excellence/`
 
 ## Suggested Starters (ideas only)
 - Music: Louis Armstrong, Aretha Franklin, Stevie Wonder, Whitney Houston, Beyoncé, Kendrick Lamar
