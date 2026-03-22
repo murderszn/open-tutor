@@ -13,6 +13,16 @@ Since Glory (born February 2021) isn't ready to push code to GitHub just yet, th
 
 ---
 
+## 🗓️ Daily Activities (Every School Day)
+
+Please complete short daily practice:
+- Duolingo (Spanish): 1 simple lesson
+- Chess: 1 short puzzle or mini game
+- Piano: brief practice session
+- Math: counting/shapes practice
+
+---
+
 ## 📅 Daily/Weekly Tracking Log
 
 ### 📅 Week of April 03, 2026

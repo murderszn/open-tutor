@@ -20,6 +20,14 @@ Welcome to 7th Grade! Here are your subject folders:
 
 *Have fun building and learning!*
 
+## 🗓️ Daily Activities (Every School Day)
+
+Please complete these each day:
+* Duolingo: 1 Spanish lesson
+* Chess: 1 lesson or game with review
+* Piano: 1 practice session
+* Math: 1 practice session
+
 ## Weekly Schedule & Assignments (Fridays)
 
 ### March 20, 2026
@@ -34,6 +42,7 @@ Welcome to 7th Grade! Here are your subject folders:
 ### 📅 Friday, March 27, 2026
 *   [ ] **Math**: Complete End-of-Week Review Quiz: **[March 27 Quiz](./grade-7/math/quizzes/2026-03-27_quiz.md)**.
 *   [ ] **Social Studies:** Complete **[March 27 Reading & Quiz](./grade-7/social-studies/quizzes/2026-03-27_quiz.md)**.
+*   [ ] **Social Studies:** **[Black Entertainers — Research Project](../../assignments/social-studies/black-entertainers-research/README.md)** (due this week)
 *   [ ] **Language Arts**: Submit Final Draft of Essay.
 *   [ ] **Curriculum**: Complete regular book learning.
 *   [ ] **Money Management**: Complete the **[How I Spent My First Million](../../assignments/how-i-spent-my-first-million/README.md)** budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.

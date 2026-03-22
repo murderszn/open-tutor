@@ -9,3 +9,7 @@ This folder contains shared assignments, homework, and challenges.
     *   Read the instructions carefully.
     *   If you need to write code or create documents for the assignment, do so in your personal workspace (`/students/your-name`), *unless* the instructions specify otherwise.
     *   If it's a collaborative project, work within the assignment folder or as directed.
+
+## Index
+
+- Social Studies: **[Black Entertainers — Research Project](./social-studies/black-entertainers-research/README.md)**
