@@ -1,276 +1,195 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-theme="">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>[JFD] Sprint Board</title>
     <!-- Confetti Library -->
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
     <style>
+      :root {
+        --bg: #ffffff;
+        --surface: #ffffff;
+        --text: #111111;
+        --muted: #555555;
+        --border: #e5e7eb;
+        --code: #f6f8fa;
+        --highlight: #f0fdf4;
+        --highlight-border: #16a34a;
+      }
+      @media (prefers-color-scheme: dark) {
         :root {
-            --bg-gradient: linear-gradient(135deg, #1e1e2f, #2a2a40);
-            --glass-bg: rgba(255, 255, 255, 0.05);
-            --glass-border: rgba(255, 255, 255, 0.1);
-            --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-            
-            --text-main: #fcfcfc;
-            --text-muted: #a0a0b0;
-            --accent: #6f42c1;
-            --accent-hover: #5a32a3;
-            --success: #10b981;
-            
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          --bg: #0a0a0a;
+          --surface: #0f0f0f;
+          --text: #f2f2f2;
+          --muted: #a1a1a1;
+          --border: #1f1f1f;
+          --code: #111315;
+          --highlight: #064e3b;
+          --highlight-border: #10b981;
         }
+      }
+      [data-theme="light"] {
+        --bg: #ffffff;
+        --surface: #ffffff;
+        --text: #111111;
+        --muted: #555555;
+        --border: #e5e7eb;
+        --code: #f6f8fa;
+        --highlight: #f0fdf4;
+        --highlight-border: #16a34a;
+      }
+      [data-theme="dark"] {
+        --bg: #0a0a0a;
+        --surface: #0f0f0f;
+        --text: #f2f2f2;
+        --muted: #a1a1a1;
+        --border: #1f1f1f;
+        --code: #111315;
+        --highlight: #064e3b;
+        --highlight-border: #10b981;
+      }
 
-        body {
-            background: var(--bg-gradient);
-            color: var(--text-main);
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+      .wrap { max-width: 1200px; margin: 0 auto; padding: 24px 16px 48px; }
 
-        header {
-            padding: 24px 32px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: var(--glass-bg);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid var(--glass-border);
-        }
+      /* Brand masthead */
+      .brand-masthead { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin: 0 0 12px; overflow: auto; }
+      .brand-masthead pre { margin: 0; padding: 12px; color: var(--text); background: var(--surface); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; line-height: 1.05; text-align: center; }
+      .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 1px, 1px); white-space: nowrap; border: 0; }
 
-        h1 {
-            margin: 0;
-            font-size: 24px;
-            font-weight: 700;
-            letter-spacing: -0.5px;
-            background: linear-gradient(90deg, #bb86fc, #7928ca);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+      /* Header */
+      header.hero { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+      .hero h1 { font-size: 20px; margin: 0; }
+      .hero .meta { color: var(--muted); font-size: 13px; }
+      .controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+      .btn { padding: 6px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); cursor: pointer; text-decoration: none; font-size: 13px; font-family: inherit;}
+      .btn:hover { filter: brightness(0.95); opacity: 0.8;}
+      .btn.active { background: var(--text); color: var(--bg); border-color: var(--text); }
+      .ghost { background: transparent; }
 
-        .week-display {
-            font-size: 14px;
-            color: var(--text-muted);
-            margin-top: 4px;
-        }
+      /* Links */
+      a { color: var(--text); text-decoration: none; position: relative; font-weight: 500;}
+      a:visited { color: var(--text); }
+      a:not(.btn)::after { content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 1px; background: var(--text); transform: scaleX(0); transform-origin: left; transition: transform 180ms ease; }
+      a:not(.btn):hover::after, a:not(.btn):focus::after { transform: scaleX(1); }
 
-        /* Tabs */
-        .tabs {
-            display: flex;
-            gap: 12px;
-            background: rgba(0, 0, 0, 0.2);
-            padding: 6px;
-            border-radius: 12px;
-        }
+      /* Kanban Board */
+      .board { display: flex; gap: 16px; margin-top: 16px; align-items: flex-start; overflow-x: auto; padding-bottom: 12px; }
+      @media (max-width: 768px) {
+        .board { flex-direction: column; align-items: stretch; }
+      }
+      .column { flex: 1; min-width: 280px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); padding: 12px; display: flex; flex-direction: column; }
+      .column-header { font-weight: 600; font-size: 14px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+      .column-count { background: var(--border); padding: 2px 8px; border-radius: 12px; font-size: 11px; }
+      
+      .task-list { min-height: 150px; display: flex; flex-direction: column; gap: 10px; }
+      .task-list.drag-over { background: var(--code); border-radius: 8px; }
 
-        .tab {
-            padding: 8px 24px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: 600;
-            font-size: 14px;
-            transition: all 0.2s ease;
-            color: var(--text-muted);
-        }
+      .task { padding: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; cursor: grab; font-size: 13px; transition: border-color 0.1s; }
+      .task:active { cursor: grabbing; }
+      .task:hover { border-color: var(--muted); }
+      .task.dragging { opacity: 0.5; border: 1px dashed var(--muted); }
+      .task b { font-weight: 600; }
+      
+      .task-tag { font-size: 11px; font-weight: 600; color: var(--muted); margin-bottom: 4px; display: block; text-transform: uppercase; letter-spacing: 0.5px;}
 
-        .tab.active {
-            background: var(--glass-bg);
-            color: var(--text-main);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            border: 1px solid var(--glass-border);
-        }
+      /* Close Sprint Action */
+      .actions-wrap { margin-top: 16px; display: flex; justify-content: flex-end; }
+      .btn-close { padding: 10px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--muted); cursor: not-allowed; font-weight: 600; font-size: 14px; transition: all 0.2s; }
+      .btn-close.ready { background: var(--highlight); color: var(--text); border-color: var(--highlight-border); cursor: pointer; }
+      .btn-close.ready:hover { filter: brightness(0.95); }
 
-        /* Board */
-        .board {
-            display: flex;
-            gap: 24px;
-            padding: 32px;
-            flex: 1;
-            overflow-x: auto;
-        }
-
-        .column {
-            flex: 1;
-            min-width: 300px;
-            background: var(--glass-bg);
-            backdrop-filter: blur(8px);
-            -webkit-backdrop-filter: blur(8px);
-            border: 1px solid var(--glass-border);
-            border-radius: 16px;
-            display: flex;
-            flex-direction: column;
-            box-shadow: var(--glass-shadow);
-        }
-
-        .column-header {
-            padding: 16px 20px;
-            font-weight: 600;
-            border-bottom: 1px solid var(--glass-border);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .column-count {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 2px 10px;
-            border-radius: 12px;
-            font-size: 12px;
-        }
-
-        .task-list {
-            flex: 1;
-            padding: 16px;
-            overflow-y: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            min-height: 100px;
-        }
-
-        /* Tasks */
-        .task {
-            background: rgba(255, 255, 255, 0.08);
-            border: 1px solid var(--glass-border);
-            padding: 16px;
-            border-radius: 12px;
-            cursor: grab;
-            transition: transform 0.2s, background 0.2s;
-            position: relative;
-        }
-
-        .task:active {
-            cursor: grabbing;
-        }
-
-        .task:hover {
-            background: rgba(255, 255, 255, 0.12);
-            transform: translateY(-2px);
-        }
-
-        .task.dragging {
-            opacity: 0.5;
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px dashed var(--text-muted);
-            transform: scale(0.98);
-        }
-
-        .task-tag {
-            font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            font-weight: 700;
-            color: #bb86fc;
-            margin-bottom: 8px;
-            display: inline-block;
-        }
-
-        .task-content {
-            font-size: 14px;
-            line-height: 1.5;
-        }
-
-        .task-content a {
-            color: #4da3ff;
-            text-decoration: none;
-        }
-
-        .task-content a:hover {
-            text-decoration: underline;
-        }
-
-        /* Close Sprint Action */
-        .actions {
-            padding: 0 32px 32px;
-            display: flex;
-            justify-content: flex-end;
-        }
-
-        .btn-close {
-            background: #2a2a40;
-            color: var(--text-muted);
-            border: 1px solid var(--glass-border);
-            padding: 12px 32px;
-            border-radius: 12px;
-            font-weight: 600;
-            font-size: 16px;
-            cursor: not-allowed;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .btn-close.ready {
-            background: var(--success);
-            color: #fff;
-            border-color: #0d9668;
-            cursor: pointer;
-            box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
-        }
-
-        .btn-close.ready:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 24px rgba(16, 185, 129, 0.6);
-        }
-
-        /* Drop Zones */
-        .task-list.drag-over {
-            background: rgba(255, 255, 255, 0.02);
-            border-radius: 12px;
-        }
+      /* Footer */
+      pre { margin: 8px 0; padding: 10px; background: var(--code); border: 1px solid var(--border); border-radius: 8px; overflow: auto; }
+      footer { margin-top: 24px; color: var(--muted); font-size: 12px; text-align: center; }
     </style>
 </head>
 <body>
+    <div class="wrap">
+      <div class="brand-masthead" role="img" aria-label="Johnson Family Dynasty Learning Center">
+        <span class="sr-only">[JFD] Learning Center</span>
+        <pre>
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║           [ J F D ]   L E A R N I N G   C E N T E R                ║
+║                                                                    ║
+║        ██╗███████╗██████╗     ██╗  ██╗██╗   ██╗██████╗             ║
+║        ██║██╔════╝██╔══██╗    ██║  ██║██║   ██║██╔══██╗            ║
+║        ██║█████╗  ██║  ██║    ███████║██║   ██║██████╔╝            ║
+║   ██   ██║██╔══╝  ██║  ██║    ██╔══██║██║   ██║██╔══██╗            ║
+║   ╚█████╔╝██║     ██████╔╝    ██║  ██║╚██████╔╝██████╔╝            ║
+║    ╚════╝ ╚═╝     ╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝             ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+        </pre>
+      </div>
 
-    <header>
+      <header class="hero">
         <div>
-            <h1>Sprint Board</h1>
-            <div class="week-display" id="weekDisplay">Loading current week...</div>
+          <h1>Sprint Board</h1>
+          <div class="meta" id="weekDisplay">Loading current week...</div>
         </div>
-        <div class="tabs" id="tabs">
-            <div class="tab active" data-student="elijah">Elijah (4th)</div>
-            <div class="tab" data-student="caleb">Caleb (7th)</div>
-            <div class="tab" data-student="glory">Glory (Pre-K)</div>
+        <div class="controls" id="tabs">
+          <button class="btn active tab" data-student="elijah">Elijah (4th)</button>
+          <button class="btn tab" data-student="caleb">Caleb (7th)</button>
+          <a class="btn ghost" href="../teachers/sites/index.html">Teacher View</a>
+          <button id="themeToggle" class="btn ghost" title="Toggle theme">Toggle Theme</button>
         </div>
-    </header>
+      </header>
 
-    <div class="board">
-        <div class="column">
-            <div class="column-header">
-                Backlog <span class="column-count" id="count-backlog">0</span>
-            </div>
-            <div class="task-list" id="backlog"></div>
-        </div>
+      <div class="board">
+          <div class="column">
+              <div class="column-header">
+                  Backlog <span class="column-count" id="count-backlog">0</span>
+              </div>
+              <div class="task-list" id="backlog"></div>
+          </div>
 
-        <div class="column">
-            <div class="column-header">
-                In Progress <span class="column-count" id="count-inprogress">0</span>
-            </div>
-            <div class="task-list" id="inprogress"></div>
-        </div>
+          <div class="column">
+              <div class="column-header">
+                  In Progress <span class="column-count" id="count-inprogress">0</span>
+              </div>
+              <div class="task-list" id="inprogress"></div>
+          </div>
 
-        <div class="column">
-            <div class="column-header">
-                Done <span class="column-count" id="count-done">0</span>
-            </div>
-            <div class="task-list" id="done"></div>
-        </div>
-    </div>
+          <div class="column">
+              <div class="column-header">
+                  Done <span class="column-count" id="count-done">0</span>
+              </div>
+              <div class="task-list" id="done"></div>
+          </div>
+      </div>
 
-    <div class="actions">
-        <button class="btn-close" id="btnClose">Close Sprint 🚀</button>
+      <div class="actions-wrap">
+          <button class="btn-close" id="btnClose">Close Sprint 🚀</button>
+      </div>
+
+      <footer>
+        Links connect directly to student READMEs, assignments, and core @resources. Drag and drop tasks. Progress is saved locally.
+      </footer>
     </div>
 
     <script>
         // --- DATA INJECTION SECTION ---
         // The python script will replace this string with actual JSON data.
         const SCHEDULE_DATA = /*DATA_INJECT_START*/ {"March 20, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete mom's assigned math work", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> Complete the <b><a href=\"../assignments/perfect-3-car-collection/README.md\" target=\"_blank\">Perfect 3-Car Collection</a></b> Assignment (Due today! Use <b><a href=\"../assignments/perfect-3-car-collection/car-brands.html\" target=\"_blank\">car-brands.html</a></b>)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-01_quiz.md\" target=\"_blank\">Week 01 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Complete mom's assigned reading and grammar work", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> <a href=\"./grade-4/social-studies/quizzes/2026-03-20_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Assessment:</b> <a href=\"./grade-4/math/quizzes/2026-03-20_quiz.md\" target=\"_blank\">Take the Weekly Math Quiz</a>", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete mom's assigned math work", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> Complete the <b><a href=\"../assignments/perfect-3-car-collection/README.md\" target=\"_blank\">Perfect 3-Car Collection</a></b> Assignment (Due today! Use <b><a href=\"../assignments/perfect-3-car-collection/car-brands.html\" target=\"_blank\">car-brands.html</a></b>)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-01_quiz.md\" target=\"_blank\">Week 01 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Complete mom's assigned reading and grammar work", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> <a href=\"./grade-7/social-studies/quizzes/2026-03-20_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Assessment:</b> <a href=\"./grade-7/math/quizzes/2026-03-20_quiz.md\" target=\"_blank\">Take the Weekly Math Quiz</a>", "status": "Pending"}], "glory": []}, "March 27, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math</b>: Complete End-of-Week Review Quiz: <b><a href=\"./grade-4/math/quizzes/2026-03-27_quiz.md\" target=\"_blank\">March 27 Quiz</a></b>.", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-02_quiz.md\" target=\"_blank\">Week 02 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts</b>: Submit Final Draft of Essay.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete <b><a href=\"./grade-4/social-studies/quizzes/2026-03-27_quiz.md\" target=\"_blank\">March 27 Reading & Quiz</a></b>.", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> <b><a href=\"../assignments/social-studies/black-excellence-research/README.md\" target=\"_blank\">Black Excellence \u2014 Research Project</a></b> (due this week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Curriculum</b>: Complete regular book learning.", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Money Management</b>: Complete the <b><a href=\"../assignments/how-i-spent-my-first-million/README.md\" target=\"_blank\">How I Spent My First Million</a></b> budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math</b>: Complete End-of-Week Review Quiz: <b><a href=\"./grade-7/math/quizzes/2026-03-27_quiz.md\" target=\"_blank\">March 27 Quiz</a></b>.", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-02_quiz.md\" target=\"_blank\">Week 02 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts</b>: Submit Final Draft of Essay.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete <b><a href=\"./grade-7/social-studies/quizzes/2026-03-27_quiz.md\" target=\"_blank\">March 27 Reading & Quiz</a></b>.", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> <b><a href=\"../assignments/social-studies/black-excellence-research/README.md\" target=\"_blank\">Black Excellence \u2014 Research Project</a></b> (due this week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Curriculum</b>: Complete regular book learning.", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Money Management</b>: Complete the <b><a href=\"../assignments/how-i-spent-my-first-million/README.md\" target=\"_blank\">How I Spent My First Million</a></b> budgeting assignment using the tracker. Must hit exactly $0. Submit final PDF ledger to Mom & Dad.", "status": "Pending"}], "glory": []}, "April 03, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-03_quiz.md\" target=\"_blank\">Week 03 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-04-03_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>.", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Monday (Input):</b> Read the <b><a href=\"../assignments/fraction-pizza-parlor/README.md\" target=\"_blank\">Fraction Pizza Parlor</a></b> instructions. Design your restaurant menu and logo.", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Tuesday (Action):</b> Draw Customer 1's pizza. Slice it into 8ths and color in the correct fractions.", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Wednesday (Action):</b> Solve Customer 2's party order. Convert the improper fraction to a mixed number!", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Thursday (Review):</b> Use your menu prices to calculate the total cost for Customer 3 using decimals.", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Friday (Submission):</b> Submit your menu, drawings, and math calculations to Mom & Dad. Take your spelling test and your <b><a href=\"./grade-4/math/quizzes/2026-04-03_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-03_quiz.md\" target=\"_blank\">Week 03 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Friday (Submission):</b> Ensure all 3 pages work. Create a zip file of your project or commit it to GitHub. Take the <b><a href=\"./grade-7/math/quizzes/2026-04-03_quiz.md\" target=\"_blank\">End-of-Week Math Quiz</a></b> and <b><a href=\"./grade-7/social-studies/quizzes/2026-04-03_quiz.md\" target=\"_blank\">Social Studies Quiz</a></b>.", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Monday (Input):</b> Read the <b><a href=\"../assignments/personal-portfolio/README.md\" target=\"_blank\">Personal Portfolio</a></b> instructions. Set up your folder structure (`index.html`, `style.css`).", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Tuesday (Action):</b> Build your Homepage (`index.html`). Add headings, paragraphs, and a navigation bar.", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Wednesday (Action):</b> Build your `projects.html` page and link your Car Collection and Budget Tracker.", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "<b>Thursday (Review):</b> Link your `style.css` file and add custom colors and fonts to your site. Test all links!", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday</b>: Phonics - Hide 5 physical letters around the living room. Have Glory hunt for them and make their sound when found!", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday</b>: Math - Trace 3 big shapes (Circle, Square, Triangle) on paper. Have Glory sort her toys into the matching shapes.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday</b>: Motor Skills - Practice using safety scissors to cut along a thick, straight line.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday</b>: Arts  - Finger painting! Focus on mixing two primary colors to make a secondary color.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday</b>: Social - Practice taking turns building a block tower with Caleb or Elijah.", "status": "Pending"}]}, "April 10, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-4/math/quizzes/2026-04-10_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Math", "text": "<b>Math Prep:</b> Read the <b><a href=\"./grade-4/math/quizzes/2026-04-10_quiz_hints.md\" target=\"_blank\">Rounding Hints</a></b> before you start.", "status": "Pending"}, {"subject": "Math", "text": "<b>Math Project:</b> Do the <b><a href=\"../assignments/place-value-detective/README.md\" target=\"_blank\">Place Value Detective</a></b> mini\u2011project. Turn in a photo or PDF.", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-04_quiz.md\" target=\"_blank\">Week 04 Science Quiz</a></b>", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM Fun (Optional):</b> Draw your own \u201capp icon\u201d for a pretend game. Write 2 sentences about what the game does.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-04-10_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-7/math/quizzes/2026-04-10_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Math", "text": "<b>Math Prep:</b> Review the <b><a href=\"./grade-7/math/quizzes/2026-04-10_quiz_hints.md\" target=\"_blank\">Quiz Hints</a></b> on rational numbers (negatives).", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-04_quiz.md\" target=\"_blank\">Week 04 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> Start the <b><a href=\"../assignments/responsive-navbar-challenge/README.md\" target=\"_blank\">Responsive Navbar Challenge</a></b> and test it at mobile and desktop sizes.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Draft a short blog post (6\u20138 sentences) for your portfolio homepage introducing who you are and what you\u2019re building. Proofread once, then publish.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-7/social-studies/quizzes/2026-04-10_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday</b>: Lunchbox practice (opening/closing containers independently).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday</b>: Sorting clothes by color/type into laundry bins.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday</b>: 'School Morning' relay (putting on coat, zipping, and shoes).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday</b>: Practice washing hands properly while singing the ABCs.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday</b>: Set the dinner table, counting plates and forks.", "status": "Pending"}]}, "April 17, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-4/math/quizzes/2026-04-17_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Math", "text": "<b>Math Practice:</b> Make 12 number cards (1\u201336). Sort three sets: \u201cAll Factors of 24\u201d, \u201cMultiples of 6\u201d, \u201cNumbers that are both\u201d. Take a photo of your sort.", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-05_quiz.md\" target=\"_blank\">Week 05 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-04-17_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-7/math/quizzes/2026-04-17_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-05_quiz.md\" target=\"_blank\">Week 05 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> Finish and polish the navbar from last week (hover states, spacing, and colors). If ready, integrate it into your `my-portfolio` pages.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Revise last week\u2019s blog post based on Mom/Dad feedback. Add one image and a proper caption.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-7/social-studies/quizzes/2026-04-17_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday</b>: Trace the letters of her first name using playdough.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday</b>: Hunt for the letters of her name in magazines and cut them out.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday</b>: Write her name in a salt or sand tray.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday</b>: Finger paint her name on a large poster.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday</b>: Practice holding a pencil with proper tripod grip to draw a self-portrait.", "status": "Pending"}]}, "April 24, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-4/math/quizzes/2026-04-24_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-06_quiz.md\" target=\"_blank\">Week 06 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-04-24_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Other assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-7/math/quizzes/2026-04-24_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-06_quiz.md\" target=\"_blank\">Week 06 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Do <b><a href=\"../assignments/language-arts/archetypes-the-scarlet-letter/README.md\" target=\"_blank\">Archetypes: The Scarlet Letter</a></b> and submit a <b>Relevance Reflection</b> with 2\u20133 modern examples.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-7/social-studies/quizzes/2026-04-24_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday (Intro)</b>: Introduce numbers 1-10. Count 10 snacks into a bowl.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday (Practice)</b>: Number hopscotch (jumping on chalk numbers 1-5).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday (Building)</b>: Build a tower with exactly 10 blocks.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday (Review)</b>: Go on a nature walk and review counting: find 5 leaves and 5 rocks.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday (Submission)</b>: Trace numbers 1-10 using a chunky crayon and show Mom/Dad.", "status": "Pending"}]}, "May 01, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-4/math/quizzes/2026-05-01_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-07_quiz.md\" target=\"_blank\">Week 07 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-05-01_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Other assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-7/math/quizzes/2026-05-01_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-07_quiz.md\" target=\"_blank\">Week 07 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> <b><a href=\"../assignments/language-arts/shakespeare-overview-romeo-and-juliet/README.md\" target=\"_blank\">Shakespeare Overview: Romeo & Juliet</a></b> \u2014 make a 5\u2011bullet plot map and a Relevance Reflection.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-7/social-studies/quizzes/2026-05-01_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday</b>: Play 'Simon Says' combining two steps (e.g., touch nose, then jump).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday</b>: Bake simple cookies (focus on measuring and waiting turns).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday</b>: Mini obstacle course (e.g., jump over pillow, touch the wall).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday</b>: Draw a picture following 3 specific steps from Mom/Dad.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday</b>: Pack her own activity bag for a car ride.", "status": "Pending"}]}, "May 08, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-4/math/quizzes/2026-05-08_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-08_quiz.md\" target=\"_blank\">Week 08 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-05-08_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Other assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-7/math/quizzes/2026-05-08_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-08_quiz.md\" target=\"_blank\">Week 08 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> <b><a href=\"../assignments/language-arts/harlem-renaissance-poetry/README.md\" target=\"_blank\">Poetry Focus: Langston Hughes & Maya Angelou</a></b> \u2014 annotate 2 poems and complete one Relevance Reflection.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-7/social-studies/quizzes/2026-05-08_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday (Intro)</b>: Introduce basic length measurement. Look at the `resources/weights_and_measures.md` guide and explore a ruler.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday (Practice)</b>: Measure 3 toys using the ruler. Record which is longest.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday (Building)</b>: Make an AB pattern (red, blue, red, blue) using blocks.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday (Review)</b>: Trace squares and triangles using the ruler.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday (Submission)</b>: Cut out the shapes and glue them together to make a 'shape house' to hang on the fridge.", "status": "Pending"}]}, "May 15, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-4/math/quizzes/2026-05-15_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-09_quiz.md\" target=\"_blank\">Week 09 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-05-15_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Other assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-7/math/quizzes/2026-05-15_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-09_quiz.md\" target=\"_blank\">Week 09 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> <b><a href=\"../assignments/language-arts/shakespeare-overview-hamlet/README.md\" target=\"_blank\">Shakespeare Overview: Hamlet</a></b> \u2014 plot map + Relevance Reflection.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-7/social-studies/quizzes/2026-05-15_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday</b>: Role-play 'how to ask to join a game' with Caleb or Elijah.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday</b>: Practice trading toys politely instead of grabbing.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday</b>: Play a board game focusing on taking turns and losing gracefully.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday</b>: Read a book about feelings and practice making sad/happy/mad faces.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday</b>: Draw a picture for someone else and practice saying 'Here you go'.", "status": "Pending"}]}, "May 22, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-4/math/quizzes/2026-05-22_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-10_quiz.md\" target=\"_blank\">Week 10 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-05-22_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Other assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-7/math/quizzes/2026-05-22_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-10_quiz.md\" target=\"_blank\">Week 10 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts + Soc. Studies:</b> <b><a href=\"../assignments/language-arts/archetypal-myths-flood-trinity/README.md\" target=\"_blank\">Archetypal Myths: Flood & Trinity</a></b> \u2014 Venn diagram, symbol map, and one Relevance Reflection.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-7/social-studies/quizzes/2026-05-22_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday</b>: Sing rhyming songs (e.g., <i>Down by the Bay</i>).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday</b>: Sort physical household items that start with 'A' and 'B'.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday</b>: Play I-Spy with beginning sounds (I spy something starting with /sss/).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday</b>: Match upper and lowercase letters A-M (using cards or printed sheets).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday</b>: Clap out the syllables of family members' names.", "status": "Pending"}]}, "May 29, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-4/math/quizzes/2026-05-29_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-11_quiz.md\" target=\"_blank\">Week 11 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-05-29_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Other assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-7/math/quizzes/2026-05-29_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-11_quiz.md\" target=\"_blank\">Week 11 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Pick any book or summary tied to a <b>World Facts</b> era (resources/world_facts.md:1). Complete one Relevance Reflection connecting themes to that era.", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-7/social-studies/quizzes/2026-05-29_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday</b>: Tweezer pickup (move cotton balls to a cup using tweezers or tongs).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday</b>: Cut along curvy and zig-zag lines drawn on paper.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday</b>: String large beads onto a thick shoelace.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday</b>: Peel and place small stickers onto specific targets on paper.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday</b>: Squish and roll playdough into tiny balls using just thumb and index finger.", "status": "Pending"}]}, "June 05, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-4/math/quizzes/2026-06-05_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>Science:</b> <b><a href=\"./grade-4/stem/quizzes/week-12_quiz.md\" target=\"_blank\">Week 12 Science Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-4/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-4/social-studies/quizzes/2026-06-05_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Other assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Math", "text": "<b>Math:</b> Complete your <b><a href=\"./grade-7/math/quizzes/2026-06-05_quiz.md\" target=\"_blank\">Weekly Math Quiz</a></b>", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "STEM", "text": "<b>STEM:</b> <b><a href=\"./grade-7/stem/quizzes/week-12_quiz.md\" target=\"_blank\">Week 12 STEM Quiz</a></b>", "status": "Pending"}, {"subject": "Language Arts", "text": "<b>Language Arts:</b> Weekly Video Review (save in `./grade-7/language-arts/video-reviews`, use template)", "status": "Pending"}, {"subject": "Social Studies", "text": "<b>Social Studies:</b> Complete your <b><a href=\"./grade-7/social-studies/quizzes/2026-06-05_quiz.md\" target=\"_blank\">Weekly Reading & Quiz</a></b>", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Other assignments to be determined...", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday</b>: Count out 20 pieces of cereal.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday</b>: Sing a counting-to-20 song and jump on each number.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday</b>: Sort 20 objects into two groups of 10.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday</b>: Trace the numbers 10, 11, and 12.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday</b>: Play hide and seek (practice counting to 20 before looking).", "status": "Pending"}]}, "June 12, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday (Intro)</b>: Look at the `resources/world_facts.md` guide. Pick one continent to focus on.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday (Practice)</b>: Listen to a folk tale from that continent and identify the main character.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday (Building)</b>: Retell the fairy tale using stuffed animals as props.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday (Review)</b>: Draw the ending of the story Mom/Dad read aloud.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday (Submission)</b>: 'Show and Tell' - present your drawing and the continent you learned about to the family.", "status": "Pending"}]}, "June 19, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": [{"subject": "Math", "text": "Math: counting/shapes practice (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 simple lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 short puzzle or mini game (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: brief practice session (5x/week)", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Monday</b>: Practice raising hand and waiting to be called on during family time.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Tuesday</b>: 'Carpet time' (sit 'criss-cross applesauce' and listen for 5 minutes).", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Wednesday</b>: Practice packing a backpack, putting it on, and unzipping it.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Thursday</b>: Eat lunch from a lunchbox completely independently at the table.", "status": "Pending"}, {"subject": "Other / Focus", "text": "<b>Friday</b>: Graduation day! Review the ABCs, count to 20, and get a special certificate.", "status": "Pending"}]}, "June 26, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "July 03, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "July 10, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "July 17, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "July 24, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "July 31, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "August 07, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "August 14, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "August 21, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "August 28, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "September 04, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "September 11, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "September 18, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}, "September 25, 2026": {"elijah": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "caleb": [{"subject": "Math", "text": "Math: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Spanish", "text": "Duolingo: 1 Spanish lesson (5x/week)", "status": "Pending"}, {"subject": "Logic / Chess", "text": "Chess: 1 lesson or game with review (5x/week)", "status": "Pending"}, {"subject": "Music / Piano", "text": "Piano: 1 practice session (5x/week)", "status": "Pending"}, {"subject": "Other Assignments / Focus", "text": "Assignments to be determined...", "status": "Pending"}], "glory": []}} /*DATA_INJECT_END*/;
+
+        // Theme Toggle Logic
+        (function themeInit(){
+          const root = document.documentElement;
+          const saved = localStorage.getItem('admin-theme');
+          if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
+          const btn = document.getElementById('themeToggle');
+          btn?.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            const next = current === 'dark' ? 'light' : 'dark';
+            root.setAttribute('data-theme', next);
+            localStorage.setItem('admin-theme', next);
+          });
+        })();
 
         // UI State
         let currentStudent = 'elijah';
@@ -349,18 +268,13 @@
             let minDiff = Infinity;
 
             for (const dateStr of Object.keys(SCHEDULE_DATA)) {
-                // Parsing "April 24, 2026"
                 const weekDate = new Date(dateStr);
                 const diffTime = now.getTime() - weekDate.getTime();
-                // If the week is in the past or exactly today (diff > 0), find the smallest diff
-                // This means we are currently in this sprint.
                 if (diffTime >= 0 && diffTime < minDiff) {
                     minDiff = diffTime;
                     closestWeek = dateStr;
                 }
             }
-            
-            // If all weeks are in the future, pick the first one
             if (!closestWeek) {
                 const dates = Object.keys(SCHEDULE_DATA).map(d => new Date(d)).sort((a,b) => a-b);
                 if (dates.length > 0) {
@@ -375,20 +289,18 @@
         }
 
         function renderBoard() {
-            // Clear lists
             Object.values(lists).forEach(l => l.innerHTML = '');
 
             const weekData = SCHEDULE_DATA[currentWeekStr] || {};
             const tasks = weekData[currentStudent] || [];
 
-            // Load saved state if exists (e.g. { "task-0": "inprogress", "task-1": "done" })
             let savedState = {};
             try {
                 savedState = JSON.parse(localStorage.getItem(getStorageKey())) || {};
             } catch (e) {}
 
             tasks.forEach((task, index) => {
-                if (task.status === 'Note') return; // Skip focus notes in the Kanban board itself
+                if (task.status === 'Note') return;
 
                 const taskId = `task-${currentStudent}-${index}`;
                 
@@ -398,7 +310,7 @@
                 el.id = taskId;
                 
                 el.innerHTML = `
-                    <div class="task-tag">${task.subject}</div>
+                    <span class="task-tag">${task.subject}</span>
                     <div class="task-content">${task.text}</div>
                 `;
 
@@ -411,7 +323,6 @@
                     el.classList.remove('dragging');
                 });
 
-                // Place in correct list based on state
                 const listId = savedState[taskId] || 'backlog';
                 if (lists[listId]) {
                     lists[listId].appendChild(el);
@@ -457,14 +368,11 @@
         }
 
         function congratulateAndEmail() {
-            // FIRE CONFETTI
             var duration = 3 * 1000;
             var animationEnd = Date.now() + duration;
             var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 0 };
 
-            function randomInRange(min, max) {
-                return Math.random() * (max - min) + min;
-            }
+            function randomInRange(min, max) { return Math.random() * (max - min) + min; }
 
             var interval = setInterval(function() {
                 var timeLeft = animationEnd - Date.now();
@@ -474,7 +382,6 @@
                 confetti(Object.assign({}, defaults, { particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } }));
             }, 250);
 
-            // Open Email
             setTimeout(() => {
                 const subject = encodeURIComponent(`${currentStudent.toUpperCase()} - Sprint Complete!`);
                 const body = encodeURIComponent(`Hi Mom & Dad,\n\nI have completed all my assigned Sprint tasks for the week of ${currentWeekStr} on my Jira board!\n\nCheck my GitHub Pull Requests for the work.\n\nLove,\n${currentStudent}`);
@@ -482,7 +389,6 @@
             }, 1000);
         }
 
-        // Initialize when DOM is ready
         document.addEventListener('DOMContentLoaded', init);
     </script>
 </body>
