@@ -13,3 +13,4 @@ This folder contains shared assignments, homework, and challenges.
 ## Index
 
 - Social Studies: **[Black Entertainers — Research Project](./social-studies/black-entertainers-research/README.md)**
+- STEM: **[Automotive Basics - Modern Cars & History](./stem/modern-cars-history/README.md)**
