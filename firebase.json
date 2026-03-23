@@ -21,8 +21,10 @@
         ]
       }
     ],
+    "rewrites": [
+      { "source": "/", "destination": "/teachers/sites/index.html" }
+    ],
     "redirects": [
-      { "source": "/", "destination": "/teachers/sites/index.html", "type": 302 },
       { "source": "/sprint", "destination": "/students/sprint.html", "type": 302 }
     ]
   }
