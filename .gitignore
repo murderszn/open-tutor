@@ -1,0 +1,24 @@
+# Ignore everything at repo root by default
+/*
+
+# Keep these root files/folders tracked
+!.gitignore
+!README.md
+!AGENTS.md
+!firebase.json
+!.firebaserc
+!.github/
+!.github/**
+
+# Keep primary content folders tracked
+!assignments/
+!resources/
+!students/
+!teachers/
+
+# Common OS/editor junk (ignored even inside whitelisted folders)
+**/.DS_Store
+**/Thumbs.db
+**/*.log
+**/~$*
+

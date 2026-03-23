@@ -108,6 +108,8 @@
       .small { color: var(--muted); font-size: 12px; }
       .timeline tbody tr:nth-child(even) td { background: rgba(125,125,125,0.025); }
       .timeline tbody tr:hover td { background: var(--code); }
+      .timeline tr.past-week th, .timeline tr.past-week td { text-decoration: line-through; opacity: 0.6; color: var(--muted); }
+      .timeline tr.past-week a { text-decoration: line-through; pointer-events: none; color: inherit; }
 
       /* Navigation overlay transition */
       .nav-overlay { position: fixed; inset: 0; background: var(--bg); clip-path: circle(0 at var(--x, 50%) var(--y, 50%)); opacity: 0; transition: clip-path 420ms ease-in-out, opacity 120ms linear; pointer-events: none; z-index: 999; }
@@ -140,7 +142,7 @@
       /* Login Overlay */
       .login-overlay { position: fixed; inset: 0; background: var(--bg); display: none; z-index: 2000; }
       .login-overlay.show { display: flex; align-items: stretch; }
-      .login-overlay::before { content: ""; flex: 0 0 61.8%; background: #000 url('../../assets/jfd_minimal_lockscreen.png') center/cover no-repeat; border-right: 1px solid var(--border); }
+      .login-overlay::before { content: ""; flex: 0 0 61.8%; background: #000 url('../config/assets/jfd_minimal_lockscreen.png') center/cover no-repeat; border-right: 1px solid var(--border); }
       .login-card { margin: auto; width: 100%; max-width: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04); }
       .login-card h2 { margin: 0 0 6px; font-size: 18px; }
       .login-card p.small { margin: 0 0 16px; color: var(--muted); font-size: 12px; }
@@ -153,7 +155,7 @@
       .btn-primary:active { opacity: 0.8; }
       .login-error { color: #b91c1c; font-size: 12px; min-height: 16px; }
       @media (max-width: 800px) {
-        .login-overlay { background: var(--bg) url('../../assets/jfd_minimal_lockscreen.png') center/cover no-repeat; padding: 16px; }
+        .login-overlay { background: var(--bg) url('../config/assets/jfd_minimal_lockscreen.png') center/cover no-repeat; padding: 16px; }
         .login-overlay.show { align-items: center; }
         .login-overlay::before { display: none; }
         .login-card { padding: 16px; }
@@ -477,6 +479,23 @@
           root.setAttribute('data-theme', next);
           localStorage.setItem('admin-theme', next);
           updateIcon();
+        });
+      })();
+      (function strikePastWeeks(){
+        const now = new Date();
+        document.querySelectorAll('.timeline tbody tr').forEach(tr => {
+          const weekTh = tr.querySelector('th.week');
+          if (weekTh) {
+            const dateStr = weekTh.textContent.trim();
+            const weekDate = new Date(dateStr);
+            if (!isNaN(weekDate.getTime())) {
+              // Set to the very end of that day (11:59:59 PM)
+              weekDate.setHours(23, 59, 59, 999);
+              if (now > weekDate) {
+                tr.classList.add('past-week');
+              }
+            }
+          }
         });
       })();
       (function authInit(){
