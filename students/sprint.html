@@ -146,17 +146,26 @@
       @media print { .theme-toggle { display: none !important; } }
 
       /* Login Overlay */
-      .login-overlay { position: fixed; inset: 0; background: var(--bg) url('../assets/jfd_minimal_lockscreen.png') center/cover no-repeat; display: none; align-items: center; justify-content: flex-end; flex-direction: column; z-index: 2000; padding: 16px; padding-bottom: 8vh; }
-      .login-overlay.show { display: flex; }
-      .login-card { width: 100%; max-width: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; box-shadow: var(--shadow-surface); }
+      .login-overlay { position: fixed; inset: 0; background: var(--bg); display: none; z-index: 2000; }
+      .login-overlay.show { display: flex; align-items: stretch; }
+      .login-overlay::before { content: ""; flex: 0 0 61.8%; background: #000 url('../assets/jfd_minimal_lockscreen.png') center/cover no-repeat; border-right: 1px solid var(--border); }
+      .login-card { margin: auto; width: 100%; max-width: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; box-shadow: var(--shadow-surface); }
       .login-card h2 { margin: 0 0 6px; font-size: 18px; }
-      .login-card p.small { margin: 0 0 12px; color: var(--muted); font-size: 12px; }
-      .field { margin-bottom: 10px; }
-      .field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
-      .field input { width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; }
-      .login-actions { display: flex; gap: 8px; align-items: center; justify-content: space-between; margin-top: 6px; }
-      .btn-primary { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--text); color: var(--bg); font-weight: 700; cursor: pointer; }
+      .login-card p.small { margin: 0 0 16px; color: var(--muted); font-size: 12px; }
+      .field { margin-bottom: 12px; }
+      .field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; font-weight: 500; }
+      .field input { width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; outline: none; transition: border-color 0.2s; }
+      .field input:focus { border-color: var(--text); }
+      .login-actions { display: flex; gap: 8px; align-items: center; justify-content: space-between; margin-top: 10px; }
+      .btn-primary { padding: 10px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--text); color: var(--bg); font-weight: 700; cursor: pointer; transition: opacity 0.2s; }
+      .btn-primary:active { opacity: 0.8; }
       .login-error { color: #b91c1c; font-size: 12px; min-height: 16px; }
+      @media (max-width: 800px) {
+        .login-overlay { background: var(--bg) url('../assets/jfd_minimal_lockscreen.png') center/cover no-repeat; padding: 16px; }
+        .login-overlay.show { align-items: center; }
+        .login-overlay::before { display: none; }
+        .login-card { padding: 16px; }
+      }
     </style>
 </head>
   <body>
