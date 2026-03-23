@@ -124,7 +124,7 @@
       }
 
       /* Login Overlay */
-      .login-overlay { position: fixed; inset: 0; background: var(--bg) url('../../assets/jfd_minimal_lockscreen.png') center/cover no-repeat; display: none; align-items: center; justify-content: center; z-index: 2000; padding: 16px; }
+      .login-overlay { position: fixed; inset: 0; background: var(--bg) url('../../assets/jfd_minimal_lockscreen.png') center/cover no-repeat; display: none; align-items: center; justify-content: flex-end; flex-direction: column; z-index: 2000; padding: 16px; padding-bottom: 8vh; }
       .login-overlay.show { display: flex; }
       .login-card { width: 100%; max-width: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04); }
       .login-card h2 { margin: 0 0 6px; font-size: 18px; }
