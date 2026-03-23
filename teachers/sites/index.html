@@ -142,7 +142,7 @@
       /* Login Overlay */
       .login-overlay { position: fixed; inset: 0; background: var(--bg); display: none; z-index: 2000; }
       .login-overlay.show { display: flex; align-items: stretch; }
-      .login-overlay::before { content: ""; flex: 0 0 61.8%; background-color: #000; background-image: url('../config/assets/jfd_minimal_lockscreen.png'), url('../config/assets/jfd_minimal_lockscreen.svg'); background-position: center; background-size: cover, contain; background-repeat: no-repeat; border-right: 1px solid var(--border); }
+      .login-overlay::before { content: ""; flex: 0 0 61.8%; background-color: #000; background-image: url('../assets/jfd_minimal_lockscreen.png'), url('../assets/jfd_minimal_lockscreen.svg'); background-position: center; background-size: cover, contain; background-repeat: no-repeat; border-right: 1px solid var(--border); }
       .login-card { margin: auto; width: 100%; max-width: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04); }
       .login-card h2 { margin: 0 0 6px; font-size: 18px; }
       .login-card p.small { margin: 0 0 16px; color: var(--muted); font-size: 12px; }
@@ -155,7 +155,7 @@
       .btn-primary:active { opacity: 0.8; }
       .login-error { color: #b91c1c; font-size: 12px; min-height: 16px; }
       @media (max-width: 800px) {
-        .login-overlay { background: var(--bg); background-image: url('../config/assets/jfd_minimal_lockscreen.png'), url('../config/assets/jfd_minimal_lockscreen.svg'); background-position: center; background-size: cover, contain; background-repeat: no-repeat; padding: 16px; }
+        .login-overlay { background: var(--bg); background-image: url('../assets/jfd_minimal_lockscreen.png'), url('../assets/jfd_minimal_lockscreen.svg'); background-position: center; background-size: cover, contain; background-repeat: no-repeat; padding: 16px; }
         .login-overlay.show { align-items: center; }
         .login-overlay::before { display: none; }
         .login-card { padding: 16px; }

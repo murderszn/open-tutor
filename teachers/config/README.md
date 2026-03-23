@@ -11,7 +11,7 @@ This folder mirrors deployment-related config so teachers can find everything in
   - `teachers/config/github/workflows/firebase-hosting.yml`
   - `teachers/config/firebase/firebase.json`
   - `teachers/config/firebase/.firebaserc`
-  - `teachers/config/assets/` (static assets referenced by the site)
+  - Assets used by the site live under `teachers/assets/` (served by Hosting)
 
 Notes
 - Keep root configs as the source of truth. If you change these reference copies, also update the root files.
@@ -19,4 +19,4 @@ Notes
 - Firebase CLI reads `/firebase.json` and `/.firebaserc` at the repo root by default.
 
 Assets
-- Static assets (e.g., lockscreen image) live under `teachers/config/assets/` and are served by Firebase Hosting. Paths in HTML/CSS are updated to point here.
+- Static assets (e.g., lockscreen image) live under `teachers/assets/` and are served by Firebase Hosting. Paths in HTML/CSS point here.
