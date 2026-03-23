@@ -60,6 +60,22 @@
       .brand-masthead pre { margin: 0; padding: 12px; color: var(--text); background: var(--surface); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; line-height: 1.05; text-align: center; }
       .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 1px, 1px); white-space: nowrap; border: 0; }
 
+      /* Accents */
+      :root {
+        --accent-backlog: #f59e0b; /* amber-500 */
+        --accent-progress: #3b82f6; /* blue-500 */
+        --accent-done: #10b981;    /* emerald-500 */
+        --shadow-surface: 0 6px 18px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04);
+        --shadow-card: 0 3px 10px rgba(0,0,0,0.08);
+      }
+      [data-theme="dark"] {
+        --accent-backlog: #fbbf24; /* amber-400 */
+        --accent-progress: #60a5fa; /* blue-400 */
+        --accent-done: #34d399;    /* emerald-400 */
+        --shadow-surface: 0 10px 28px rgba(0,0,0,0.45), 0 1px 1px rgba(0,0,0,0.25);
+        --shadow-card: 0 8px 20px rgba(0,0,0,0.35);
+      }
+
       /* Header */
       header.hero { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
       .hero h1 { font-size: 20px; margin: 0; }
@@ -69,6 +85,13 @@
       .btn:hover { filter: brightness(0.95); opacity: 0.8;}
       .btn.active { background: var(--text); color: var(--bg); border-color: var(--text); }
       .ghost { background: transparent; }
+
+      /* Floating theme toggle */
+      .theme-toggle { position: fixed; top: 12px; left: 12px; width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--border); border-radius: 50%; background: var(--surface); color: var(--text); cursor: pointer; z-index: 1000; box-shadow: var(--shadow-surface); }
+      .theme-toggle:hover { filter: brightness(0.97); }
+
+      .tip { margin-top: 10px; display: flex; gap: 8px; align-items: center; color: var(--muted); font-size: 12px; background: var(--surface); border: 1px dashed var(--border); border-radius: 8px; padding: 8px 10px; }
+      .tip .dot { width: 12px; height: 12px; border-radius: 2px; background: currentColor; display: inline-block; box-shadow: inset 0 0 0 2px var(--surface); }
 
       /* Links */
       a { color: var(--text); text-decoration: none; position: relative; font-weight: 500;}
@@ -81,33 +104,81 @@
       @media (max-width: 768px) {
         .board { flex-direction: column; align-items: stretch; }
       }
-      .column { flex: 1; min-width: 280px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); padding: 12px; display: flex; flex-direction: column; }
-      .column-header { font-weight: 600; font-size: 14px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+      .column { flex: 1; min-width: 280px; border: 1px solid var(--border); border-radius: 12px; background: var(--surface); padding: 12px; display: flex; flex-direction: column; box-shadow: var(--shadow-surface); position: relative; overflow: hidden; }
+      .column-header { font-weight: 700; font-size: 13px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 8px; letter-spacing: 0.3px; text-transform: uppercase; }
       .column-count { background: var(--border); padding: 2px 8px; border-radius: 12px; font-size: 11px; }
+      .column[data-col="backlog"] .column-header::before,
+      .column[data-col="inprogress"] .column-header::before,
+      .column[data-col="done"] .column-header::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+      .column[data-col="backlog"] .column-header::before { background: linear-gradient(90deg, var(--accent-backlog), transparent); }
+      .column[data-col="inprogress"] .column-header::before { background: linear-gradient(90deg, var(--accent-progress), transparent); }
+      .column[data-col="done"] .column-header::before { background: linear-gradient(90deg, var(--accent-done), transparent); }
       
-      .task-list { min-height: 150px; display: flex; flex-direction: column; gap: 10px; }
-      .task-list.drag-over { background: var(--code); border-radius: 8px; }
+      .task-list { min-height: 150px; display: flex; flex-direction: column; gap: 10px; position: relative; }
+      .task-list:empty::before { content: "Drag tasks here"; color: var(--muted); font-size: 12px; border: 1px dashed var(--border); border-radius: 8px; padding: 12px; text-align: center; display: block; }
+      .task-list.drag-over { outline: 2px dashed var(--border); background: linear-gradient(0deg, rgba(125,125,125,0.07), transparent); border-radius: 8px; }
 
-      .task { padding: 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; cursor: grab; font-size: 13px; transition: border-color 0.1s; }
+      .task { padding: 10px 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; cursor: grab; font-size: 13px; transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease; box-shadow: var(--shadow-card); }
       .task:active { cursor: grabbing; }
-      .task:hover { border-color: var(--muted); }
-      .task.dragging { opacity: 0.5; border: 1px dashed var(--muted); }
+      .task:hover { border-color: var(--muted); transform: translateY(-1px); }
+      .task.dragging { opacity: 0.9; border: 1px dashed var(--muted); transform: scale(1.03) rotate(0.6deg); box-shadow: 0 10px 26px rgba(0,0,0,0.18); }
+      .task.dropped { animation: taskPop 380ms ease; }
+      @keyframes taskPop {
+        0% { transform: scale(1.02); box-shadow: 0 12px 28px rgba(0,0,0,0.18); }
+        100% { transform: none; box-shadow: var(--shadow-card); }
+      }
       .task b { font-weight: 600; }
       
-      .task-tag { font-size: 11px; font-weight: 600; color: var(--muted); margin-bottom: 4px; display: block; text-transform: uppercase; letter-spacing: 0.5px;}
+      .task-header { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+      .task-handle { font-size: 16px; line-height: 1; color: var(--muted); user-select: none; }
+      .task-tag { font-size: 11px; font-weight: 700; color: var(--muted); display: block; text-transform: uppercase; letter-spacing: 0.5px;}
 
       /* Close Sprint Action */
-      .actions-wrap { margin-top: 16px; display: flex; justify-content: flex-end; }
-      .btn-close { padding: 10px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--muted); cursor: not-allowed; font-weight: 600; font-size: 14px; transition: all 0.2s; }
-      .btn-close.ready { background: var(--highlight); color: var(--text); border-color: var(--highlight-border); cursor: pointer; }
-      .btn-close.ready:hover { filter: brightness(0.95); }
+      .actions-wrap { margin-top: 16px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+      .actions-wrap .hint { color: var(--muted); font-size: 12px; }
+      .btn-close { padding: 10px 16px; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); color: var(--muted); cursor: not-allowed; font-weight: 700; font-size: 14px; transition: all 0.2s; box-shadow: var(--shadow-surface); }
+      .btn-close.ready { background: linear-gradient(180deg, var(--highlight), rgba(16,185,129,0.12)); color: var(--text); border-color: var(--highlight-border); cursor: pointer; }
+      .btn-close.ready:hover { filter: brightness(0.98); transform: translateY(-1px); }
 
       /* Footer */
       pre { margin: 8px 0; padding: 10px; background: var(--code); border: 1px solid var(--border); border-radius: 8px; overflow: auto; }
       footer { margin-top: 24px; color: var(--muted); font-size: 12px; text-align: center; }
+      @media print { .theme-toggle { display: none !important; } }
+
+      /* Login Overlay */
+      .login-overlay { position: fixed; inset: 0; background: var(--bg) url('../assets/jfd_kintsugi_lockscreen.png') center/cover no-repeat; display: none; align-items: center; justify-content: center; z-index: 2000; padding: 16px; }
+      .login-overlay.show { display: flex; }
+      .login-card { width: 100%; max-width: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; box-shadow: var(--shadow-surface); }
+      .login-card h2 { margin: 0 0 6px; font-size: 18px; }
+      .login-card p.small { margin: 0 0 12px; color: var(--muted); font-size: 12px; }
+      .field { margin-bottom: 10px; }
+      .field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+      .field input { width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; }
+      .login-actions { display: flex; gap: 8px; align-items: center; justify-content: space-between; margin-top: 6px; }
+      .btn-primary { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--text); color: var(--bg); font-weight: 700; cursor: pointer; }
+      .login-error { color: #b91c1c; font-size: 12px; min-height: 16px; }
     </style>
 </head>
-<body>
+  <body>
+    <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">☾</button>
+    <div class="login-overlay" id="loginOverlay" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+      <div class="login-card">
+        <h2 id="loginTitle">Sign In</h2>
+        <p class="small">Enter your username and password to continue.</p>
+        <div class="field">
+          <label for="loginUser">Username</label>
+          <input id="loginUser" name="user" autocomplete="username" placeholder="Username" />
+        </div>
+        <div class="field">
+          <label for="loginPass">Password</label>
+          <input id="loginPass" name="pass" type="password" autocomplete="current-password" placeholder="Password" />
+        </div>
+        <div class="login-actions">
+          <div class="login-error" id="loginError" role="alert" aria-live="polite"></div>
+          <button class="btn-primary" id="loginBtn">Sign in</button>
+        </div>
+      </div>
+    </div>
     <div class="wrap">
       <div class="brand-masthead" role="img" aria-label="Johnson Family Dynasty Learning Center">
         <span class="sr-only">[JFD] Learning Center</span>
@@ -136,34 +207,39 @@
           <button class="btn active tab" data-student="elijah">Elijah (4th)</button>
           <button class="btn tab" data-student="caleb">Caleb (7th)</button>
           <a class="btn ghost" href="../teachers/sites/index.html">Teacher View</a>
-          <button id="themeToggle" class="btn ghost" title="Toggle theme">Toggle Theme</button>
+          <button class="btn ghost" id="logoutBtn" title="Log out">Logout</button>
         </div>
       </header>
+      <div class="tip" aria-live="polite">
+        <span class="dot" aria-hidden="true"></span>
+        Drag cards between lanes. Hint: use the ⠿ handle or the entire card.
+      </div>
 
       <div class="board">
-          <div class="column">
+          <div class="column" data-col="backlog">
               <div class="column-header">
                   Backlog <span class="column-count" id="count-backlog">0</span>
               </div>
-              <div class="task-list" id="backlog"></div>
+              <div class="task-list" id="backlog" role="list" aria-label="Backlog tasks"></div>
           </div>
 
-          <div class="column">
+          <div class="column" data-col="inprogress">
               <div class="column-header">
                   In Progress <span class="column-count" id="count-inprogress">0</span>
               </div>
-              <div class="task-list" id="inprogress"></div>
+              <div class="task-list" id="inprogress" role="list" aria-label="In Progress tasks"></div>
           </div>
 
-          <div class="column">
+          <div class="column" data-col="done">
               <div class="column-header">
                   Done <span class="column-count" id="count-done">0</span>
               </div>
-              <div class="task-list" id="done"></div>
+              <div class="task-list" id="done" role="list" aria-label="Completed tasks"></div>
           </div>
       </div>
 
       <div class="actions-wrap">
+          <div class="hint">All progress saves in your browser.</div>
           <button class="btn-close" id="btnClose">Close Sprint 🚀</button>
       </div>
 
@@ -183,11 +259,26 @@
           const saved = localStorage.getItem('admin-theme');
           if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
           const btn = document.getElementById('themeToggle');
+          function updateIcon(){
+            const current = root.getAttribute('data-theme');
+            if (!btn) return;
+            if (current === 'dark') {
+              btn.textContent = '☀︎';
+              btn.setAttribute('aria-label','Switch to light theme');
+              btn.setAttribute('title','Switch to light theme');
+            } else {
+              btn.textContent = '☾';
+              btn.setAttribute('aria-label','Switch to dark theme');
+              btn.setAttribute('title','Switch to dark theme');
+            }
+          }
+          updateIcon();
           btn?.addEventListener('click', () => {
             const current = root.getAttribute('data-theme');
             const next = current === 'dark' ? 'light' : 'dark';
             root.setAttribute('data-theme', next);
             localStorage.setItem('admin-theme', next);
+            updateIcon();
           });
         })();
 
@@ -246,6 +337,8 @@
                     const draggedElement = document.getElementById(taskId);
                     if (draggedElement) {
                         list.appendChild(draggedElement);
+                        draggedElement.classList.add('dropped');
+                        setTimeout(() => draggedElement.classList.remove('dropped'), 420);
                         saveState();
                         updateCountsAndButton();
                     }
@@ -259,7 +352,52 @@
                 }
             });
 
+            // Auth bindings
+            bindAuth();
+
             renderBoard();
+        }
+
+        // --- Auth Logic ---
+        function bindAuth(){
+          const overlay = document.getElementById('loginOverlay');
+          const inputUser = document.getElementById('loginUser');
+          const inputPass = document.getElementById('loginPass');
+          const btn = document.getElementById('loginBtn');
+          const err = document.getElementById('loginError');
+          const logoutBtn = document.getElementById('logoutBtn');
+
+          function isAllowed(name){
+            const n = (name||'').trim().toLowerCase();
+            return n === 'josh' || n === 'loniaa' || n === 'caleb' || n === 'elijah';
+          }
+          function validate(u, p){
+            const user = (u||'').trim().toLowerCase();
+            const pass = (p||'').trim().toLowerCase();
+            return isAllowed(user) && pass === 'jfd';
+          }
+          function show(){ overlay.classList.add('show'); }
+          function hide(){ overlay.classList.remove('show'); }
+
+          // If already authed
+          const saved = localStorage.getItem('jfd_auth_user');
+          if (!saved || !isAllowed(saved)) show();
+
+          btn?.addEventListener('click', () => {
+            err.textContent = '';
+            const u = inputUser.value; const p = inputPass.value;
+            if (validate(u, p)) {
+              localStorage.setItem('jfd_auth_user', (u||'').trim().toLowerCase());
+              hide();
+            } else {
+              err.textContent = 'Invalid name or password.';
+            }
+          });
+          inputPass?.addEventListener('keydown', (e)=>{ if (e.key === 'Enter') btn.click(); });
+          logoutBtn?.addEventListener('click', () => {
+            localStorage.removeItem('jfd_auth_user');
+            show();
+          });
         }
 
         function findCurrentWeek() {
@@ -310,17 +448,22 @@
                 el.id = taskId;
                 
                 el.innerHTML = `
-                    <span class="task-tag">${task.subject}</span>
+                    <div class="task-header">
+                      <span class="task-handle" title="Drag to move" aria-hidden="true">⠿</span>
+                      <span class="task-tag">${task.subject}</span>
+                    </div>
                     <div class="task-content">${task.text}</div>
                 `;
 
                 el.addEventListener('dragstart', e => {
                     e.dataTransfer.setData('text/plain', taskId);
+                    el.setAttribute('aria-grabbed', 'true');
                     setTimeout(() => el.classList.add('dragging'), 0);
                 });
 
                 el.addEventListener('dragend', () => {
                     el.classList.remove('dragging');
+                    el.removeAttribute('aria-grabbed');
                 });
 
                 const listId = savedState[taskId] || 'backlog';

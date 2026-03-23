@@ -59,6 +59,20 @@
       .btn:hover { filter: brightness(0.95); }
       .ghost { background: transparent; }
 
+      /* Toolbar (chip links) */
+      .toolbar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+      .link-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--text); text-decoration: none; font-size: 13px; }
+      .link-chip:hover { filter: brightness(0.97); }
+      .link-chip .icon { font-size: 13px; line-height: 1; }
+      @media (max-width: 700px) {
+        .toolbar { flex-wrap: nowrap; overflow: auto; -webkit-overflow-scrolling: touch; }
+        .link-chip { white-space: nowrap; }
+      }
+
+      /* Floating theme toggle */
+      .theme-toggle { position: fixed; top: 12px; left: 12px; width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid var(--border); border-radius: 50%; background: var(--surface); color: var(--text); cursor: pointer; z-index: 1000; box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04); }
+      .theme-toggle:hover { filter: brightness(0.97); }
+
       /* Links with animated underline */
       a { color: var(--text); text-decoration: none; position: relative; }
       a:visited { color: var(--text); }
@@ -96,6 +110,9 @@
         body { background: #ffffff; color: #000000; }
         .controls { display: none !important; }
         .btn { display: none !important; }
+        .toolbar, .link-chip { display: none !important; }
+        .theme-toggle { display: none !important; }
+        .login-overlay { display: none !important; }
         .timeline-wrap { border: 1px solid #000; }
         .timeline th, .timeline td { border-color: #000 !important; }
         a { color: #000 !important; text-decoration: none; }
@@ -105,9 +122,41 @@
         .brand-masthead { border: 0; }
         .nav-overlay { display: none !important; }
       }
+
+      /* Login Overlay */
+      .login-overlay { position: fixed; inset: 0; background: var(--bg) url('../../assets/jfd_kintsugi_lockscreen.png') center/cover no-repeat; display: none; align-items: center; justify-content: center; z-index: 2000; padding: 16px; }
+      .login-overlay.show { display: flex; }
+      .login-card { width: 100%; max-width: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04); }
+      .login-card h2 { margin: 0 0 6px; font-size: 18px; }
+      .login-card p.small { margin: 0 0 12px; color: var(--muted); font-size: 12px; }
+      .field { margin-bottom: 10px; }
+      .field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+      .field input { width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; }
+      .login-actions { display: flex; gap: 8px; align-items: center; justify-content: space-between; margin-top: 6px; }
+      .btn-primary { padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; background: var(--text); color: var(--bg); font-weight: 700; cursor: pointer; }
+      .login-error { color: #b91c1c; font-size: 12px; min-height: 16px; }
     </style>
   </head>
   <body>
+    <div class="login-overlay" id="loginOverlay" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+      <div class="login-card">
+        <h2 id="loginTitle">Sign In</h2>
+        <p class="small">Enter your username and password to continue.</p>
+        <div class="field">
+          <label for="loginUser">Username</label>
+          <input id="loginUser" name="user" autocomplete="username" placeholder="Username" />
+        </div>
+        <div class="field">
+          <label for="loginPass">Password</label>
+          <input id="loginPass" name="pass" type="password" autocomplete="current-password" placeholder="Password" />
+        </div>
+        <div class="login-actions">
+          <div class="login-error" id="loginError" role="alert" aria-live="polite"></div>
+          <button class="btn-primary" id="loginBtn">Sign in</button>
+        </div>
+      </div>
+    </div>
+    <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">☾</button>
     <div class="wrap">
       <div class="brand-masthead" role="img" aria-label="Johnson Family Dynasty Learning Center">
         <span class="sr-only">[JFD] Learning Center</span>
@@ -132,13 +181,20 @@
           <h1>[JFD] Learning Center — Curriculum & Weekly Timeline</h1>
           <div class="meta">Program requirements, core curriculum, and a week-by-week schedule (rows = weeks; Elijah and Caleb in columns).</div>
         </div>
-        <div class="controls">
-          <a class="btn ghost" href="../../../../README.md">Home</a>
-          <a class="btn ghost" href="../../../../assignments/">Assignments</a>
-          <a class="btn ghost" href="../../../../resources/">Resources</a>
-          <a class="btn" href="../../students/sprint.html" title="Open the student Kanban sprint board">Student Sprint Board</a>
-          <button id="themeToggle" class="btn" title="Toggle theme">Toggle theme</button>
-        </div>
+        <nav class="toolbar" role="navigation" aria-label="Primary">
+          <a class="link-chip" href="../../../../assignments/" aria-label="Assignments">
+            <span class="icon" aria-hidden="true">🧩</span><span>Assignments</span>
+          </a>
+          <a class="link-chip" href="../../../../resources/" aria-label="Resources">
+            <span class="icon" aria-hidden="true">📚</span><span>Resources</span>
+          </a>
+          <a class="link-chip" href="../../students/sprint.html" title="Open the student Kanban sprint board" aria-label="Sprint Board">
+            <span class="icon" aria-hidden="true">🏁</span><span>Sprint</span>
+          </a>
+          <a class="link-chip" href="#" id="logoutChip" aria-label="Log out">
+            <span class="icon" aria-hidden="true">⎋</span><span>Logout</span>
+          </a>
+        </nav>
       </header>
 
       
@@ -378,12 +434,63 @@
         const saved = localStorage.getItem('admin-theme');
         if (saved === 'light' || saved === 'dark') root.setAttribute('data-theme', saved);
         const btn = document.getElementById('themeToggle');
+        function updateIcon(){
+          const current = root.getAttribute('data-theme');
+          if (!btn) return;
+          if (current === 'dark') {
+            btn.textContent = '☀︎';
+            btn.setAttribute('aria-label','Switch to light theme');
+            btn.setAttribute('title','Switch to light theme');
+          } else {
+            btn.textContent = '☾';
+            btn.setAttribute('aria-label','Switch to dark theme');
+            btn.setAttribute('title','Switch to dark theme');
+          }
+        }
+        updateIcon();
         btn?.addEventListener('click', () => {
           const current = root.getAttribute('data-theme');
           const next = current === 'dark' ? 'light' : 'dark';
           root.setAttribute('data-theme', next);
           localStorage.setItem('admin-theme', next);
+          updateIcon();
         });
+      })();
+      (function authInit(){
+        const overlay = document.getElementById('loginOverlay');
+        const inputUser = document.getElementById('loginUser');
+        const inputPass = document.getElementById('loginPass');
+        const btn = document.getElementById('loginBtn');
+        const err = document.getElementById('loginError');
+        const logout = document.getElementById('logoutChip');
+
+        function isAllowed(name){
+          const n = (name||'').trim().toLowerCase();
+          return n === 'josh' || n === 'loniaa' || n === 'caleb' || n === 'elijah';
+        }
+        function validate(u, p){
+          const user = (u||'').trim().toLowerCase();
+          const pass = (p||'').trim().toLowerCase();
+          return isAllowed(user) && pass === 'jfd';
+        }
+        function show(){ overlay.classList.add('show'); }
+        function hide(){ overlay.classList.remove('show'); }
+
+        const saved = localStorage.getItem('jfd_auth_user');
+        if (!saved || !isAllowed(saved)) show();
+
+        btn?.addEventListener('click', () => {
+          err.textContent = '';
+          const u = inputUser.value; const p = inputPass.value;
+          if (validate(u, p)) {
+            localStorage.setItem('jfd_auth_user', (u||'').trim().toLowerCase());
+            hide();
+          } else {
+            err.textContent = 'Invalid name or password.';
+          }
+        });
+        inputPass?.addEventListener('keydown', (e)=>{ if (e.key === 'Enter') btn.click(); });
+        logout?.addEventListener('click', (e) => { e.preventDefault(); localStorage.removeItem('jfd_auth_user'); show(); });
       })();
       (function linkTransitions(){
         const overlay = document.getElementById('navOverlay');
