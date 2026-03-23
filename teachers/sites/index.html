@@ -44,17 +44,18 @@
       html, body { margin: 0; padding: 0; }
       body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.618; font-size: 16px; }
       body.no-scroll { overflow: hidden; height: 100vh; }
-      .wrap { max-width: 61.8rem; margin: 0 auto; padding: 26px 16px 68px; }
+      .wrap { max-width: 84rem; margin: 0 auto; padding: 32px 24px 64px; }
 
       /* Brand masthead */
       .brand-masthead { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; margin: 0 0 26px; overflow: auto; }
-      .brand-masthead pre { margin: 0; padding: 16px; color: var(--text); background: var(--surface); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 12px; line-height: 1.05; text-align: center; }
+      .brand-masthead pre { margin: 0; padding: 10px; color: var(--text); background: var(--surface); font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 10px; line-height: 1.05; text-align: center; }
       .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 1px, 1px); white-space: nowrap; border: 0; }
 
-      /* Header */
-      header.hero { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 26px; display: flex; align-items: center; justify-content: space-between; gap: 26px; }
-      .hero h1 { font-size: 26px; margin: 0 0 8px; letter-spacing: -0.5px; }
-      .hero .meta { color: var(--muted); font-size: 16px; line-height: 1.618; }
+      /* Header / Hero */
+      header.hero { margin: 0 0 42px; padding: 0 0 24px; border-bottom: 1px solid var(--border); }
+      .hero-content { margin-bottom: 24px; max-width: 800px; }
+      .hero h1 { font-size: 32px; font-weight: 800; letter-spacing: -1px; margin: 0 0 12px; line-height: 1.2; }
+      .hero .meta { color: var(--muted); font-size: 18px; line-height: 1.5; }
       
       /* Content Sections */
       .content-section { margin: 26px 0; background: var(--surface); padding: 26px; border-radius: 10px; border: 1px solid var(--border); }
@@ -69,13 +70,16 @@
       .ghost { background: transparent; }
 
       /* Toolbar (chip links) */
-      .toolbar { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
-      .link-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface); color: var(--text); text-decoration: none; font-size: 13px; }
-      .link-chip:hover { filter: brightness(0.97); }
-      .link-chip .icon { font-size: 13px; line-height: 1; }
+      .toolbar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+      .link-chip { display: inline-flex; align-items: center; gap: 8px; padding: 10px 18px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); color: var(--text); text-decoration: none; font-size: 14px; font-weight: 600; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02); cursor: pointer; }
+      .link-chip:hover { background: var(--text); color: var(--bg); border-color: var(--text); transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+      .link-chip.logout { margin-left: auto; background: transparent; border: 1px dashed var(--border); box-shadow: none; }
+      .link-chip.logout:hover { background: #b91c1c; color: #fff; border-color: #b91c1c; }
+      .link-chip .icon { font-size: 16px; line-height: 1; }
       @media (max-width: 700px) {
-        .toolbar { flex-wrap: nowrap; overflow: auto; -webkit-overflow-scrolling: touch; }
-        .link-chip { white-space: nowrap; }
+        .toolbar { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 8px; margin-bottom: -8px; -webkit-overflow-scrolling: touch; }
+        .link-chip { white-space: nowrap; flex-shrink: 0; }
+        .link-chip.logout { margin-left: 0; }
       }
 
       /* Floating theme toggle */
@@ -95,11 +99,12 @@
       /* Timeline (weeks = rows; students = columns) */
       .timeline-wrap { margin-top: 26px; border: 1px solid var(--border); border-radius: 10px; overflow: auto; background: var(--surface); box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04); }
       table.timeline { width: 100%; border-collapse: collapse; }
-      .timeline th, .timeline td { border: 1px solid var(--border); padding: 10px 12px; vertical-align: top; text-align: left; }
+      .timeline th, .timeline td { border: 1px solid var(--border); padding: 12px 14px; vertical-align: top; text-align: left; }
       .timeline thead th { position: sticky; top: 0; background: var(--surface); z-index: 2; }
       .timeline tbody th { position: sticky; left: 0; background: var(--surface); z-index: 1; min-width: 160px; }
       .week { white-space: nowrap; }
-      .cell ul { margin: 6px 0 0; padding-left: 18px; }
+      .cell ul { margin: 6px 0 0; padding-left: 16px; }
+      .cell li { margin: 4px 0; }
       .small { color: var(--muted); font-size: 12px; }
       .timeline tbody tr:nth-child(even) td { background: rgba(125,125,125,0.025); }
       .timeline tbody tr:hover td { background: var(--code); }
@@ -195,7 +200,7 @@
       </div>
 
       <header class="hero">
-        <div>
+        <div class="hero-content">
           <h1>[JFD] Learning Center — Curriculum & Weekly Timeline</h1>
           <div class="meta">Program requirements, core curriculum, and a week-by-week schedule (rows = weeks; Elijah and Caleb in columns).</div>
         </div>
@@ -207,9 +212,9 @@
             <span class="icon" aria-hidden="true">📚</span><span>Resources</span>
           </a>
           <a class="link-chip" href="../../students/sprint.html" title="Open the student Kanban sprint board" aria-label="Sprint Board">
-            <span class="icon" aria-hidden="true">🏁</span><span>Sprint</span>
+            <span class="icon" aria-hidden="true">🏁</span><span>Sprint Board</span>
           </a>
-          <a class="link-chip" href="#" id="logoutChip" aria-label="Log out">
+          <a class="link-chip logout" id="logoutChip" aria-label="Log out">
             <span class="icon" aria-hidden="true">⎋</span><span>Logout</span>
           </a>
         </nav>
