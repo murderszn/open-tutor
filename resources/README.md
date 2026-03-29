@@ -22,6 +22,12 @@ This folder contains educational materials, reference documents, and useful link
 *   **[United States — Understanding & Principles](./united_states_understanding_and_principles.md)**: Brief origins, why the U.S. rejected monarchy, how the Constitution works (and changes), rights and responsibilities, and trusted primary sources.
 *   **[Careers — Paths, Education, Pay](./careers.md)**: Typical and emerging roles with education levels, example specialties, and rough U.S. pay ranges; sources to verify outlook and compensation.
 *   **[Automotive Basics — History & Mechanics](./automotive-basics.md)**: A complete study guide covering car history, the 4-stroke engine, drivetrains, tire sizing, and major global markets.
+*   **[Black Excellence: Study Them](./black_excellence_figures.md)**: A research guide highlighting historic and modern Black excellence across various industries and domains (Screen Icons, Music Titans, Business Leaders, Civil Rights Leaders, STEM Pioneers, and Sports Icons).
+
+## 📊 Datasets
+
+*   **[UN Countries (CSV)](./un_countries.csv)**: A structured dataset of world countries and territories containing facts like capitals, populations, geographical coordinates, regions, and Google Maps URLs.
+*   **[UN Countries (JSON)](./un_countries.json)**: A comprehensive machine-readable dataset of world countries featuring extensive data including translations, currencies, calling codes, languages, and bordering nations.
 
 ## 🧰 Essential Online Tools
 
