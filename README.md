@@ -45,6 +45,26 @@ Quick access to all agents: [teachers/ai-assistants/agents.md](./teachers/ai-ass
 3.  **Work**: Mom and Dad will dole out the actual assignments, which will be in your folder or the `/resources` folder.
 4.  **Commit**: Save your completed projects, notes, and coding assignments back into your personal GitHub folders.
 
+## ✅ Submitting Your Work
+
+Students should commit quizzes and assignments inside their subject folders:
+
+- Location: `students/<name>/grade-#/subject/{quizzes|assignments}`
+- Subjects: `language-arts`, `math`, `social-studies`, `stem`
+- Quizzes: use `YYYY-MM-DD_quiz.md` or `week-##_quiz.md` (zero‑padded)
+- Assignments: prefer short, hyphenated names (e.g., `character-analysis.md`, `lab-01-forces.md`)
+
+Examples:
+
+- Caleb Math Quiz: `students/caleb/grade-7/math/quizzes/2026-06-12_quiz.md`
+- Elijah LA Assignment: `students/elijah/grade-4/language-arts/assignments/poetry-reflection.md`
+
+Tips:
+
+- Keep filenames lowercase, hyphen-separated; avoid spaces/emojis.
+- Place any images or assets in the same folder and use relative links.
+- If a subject folder is missing an `assignments/` or `quizzes/` folder, create it.
+
 ## ⚠️ Help & Questions
 
 If you get stuck, have questions, or need help with a course:
