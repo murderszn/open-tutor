@@ -1,0 +1,122 @@
+name: Seed Grade Plans
+
+on:
+  workflow_dispatch:
+    inputs:
+      token:
+        description: 'Optional PAT (defaults to ACTIONS_PAT or GITHUB_TOKEN)'
+        required: false
+      project_name:
+        description: 'Repo Project name (classic)'
+        required: false
+        default: 'Learning Center – Improvements'
+
+permissions:
+  contents: read
+  issues: write
+  repository-projects: write
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    steps:
+      - name: Create/Update grade plan issues and add to project
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ inputs.token || secrets.ACTIONS_PAT || secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const projectName = core.getInput('project_name') || 'Learning Center – Improvements';
+
+            // Ensure labels exist
+            const wantedLabels = [
+              { name: 'curriculum', color: '0e8a16', description: 'Curriculum planning & content' },
+              { name: 'planning', color: '1d76db', description: 'Planning & roadmap items' },
+              { name: 'grade-8', color: '5319e7', description: '8th grade items' },
+              { name: 'grade-5', color: 'fbca04', description: '5th grade items' },
+            ];
+            const existingLabels = await github.rest.issues.listLabelsForRepo({ owner, repo, per_page: 100 });
+            const have = new Set(existingLabels.data.map(l => l.name.toLowerCase()));
+            for (const l of wantedLabels) {
+              if (!have.has(l.name.toLowerCase())) {
+                try { await github.rest.issues.createLabel({ owner, repo, name: l.name, color: l.color, description: l.description }); }
+                catch (e) { core.warning(`Could not create label ${l.name}: ${e.message}`); }
+              }
+            }
+
+            // Try to find classic repo Project
+            let project = null; let todoCol = null;
+            try {
+              const list = await github.rest.projects.listForRepo({ owner, repo, mediaType: { previews: ['inertia'] }});
+              project = list.data.find(p => p.name === projectName) || null;
+              if (!project) {
+                const created = await github.rest.projects.createForRepo({ owner, repo, name: projectName, body: 'Curriculum and improvements board', mediaType: { previews: ['inertia'] }});
+                project = created.data;
+              }
+              const cols = await github.rest.projects.listColumns({ project_id: project.id, mediaType: { previews: ['inertia'] }});
+              const need = ['To do','In progress','Done'];
+              const cmap = new Map(cols.data.map(c => [c.name, c]));
+              for (const n of need) if (!cmap.has(n)) { const res = await github.rest.projects.createColumn({ project_id: project.id, name: n, mediaType: { previews: ['inertia'] }}); cmap.set(n, res.data); }
+              todoCol = cmap.get('To do');
+              core.info(`Using project: ${project.html_url}`);
+            } catch (e) {
+              core.warning(`Projects classic not available. Issues will be created without cards. Error: ${e.message}`);
+            }
+
+            const quarter = 'Q3 2026';
+
+            const grade8Body = `## Overview\n
+This plan aligns with the JFD Learning Center: students log into GitHub daily, complete assignments from their hubs, and submit PRs. Discord is the help desk; AI Teaching Team assists (Subject Tutor, Teacher’s Aide, Resource Finder).\n
+## Weekly cadence (repeat)\n- Math: practice 5x/week + weekly quiz (Fri)\n- Language Arts: reading/grammar + Weekly Video Review\n- STEM: weekly topic/quiz or build\n- Social Studies: weekly reading/quiz or project\n- Spanish: Duolingo 5x/week\n- Logic/Chess + Music/Piano: 5x/week\n
+## Milestones\n- Week 4: checkpoint + portfolio update\n- Week 8: checkpoint + STEM/SS progress review\n- Week 12: wrap-up reflection + parent review PR\n
+## Tasks\n
+### Math\n- [ ] Set up Grade 8 weekly quizzes folder in student hub\n- [ ] 12× Weekly math quizzes (Fri) with step-by-step work\n
+### Language Arts\n- [ ] Weekly Video Review (kid-friendly classic summaries)\n- [ ] 2× Literature analysis (5–7 bullets each)\n
+### STEM — Biology thread (extended)\n- [ ] Water Cycle model: add human-impact note (urban runoff)\n- [ ] Plant/Animal cells: full organelles + energy pathways\n- [ ] Photosynthesis: equation + link to cellular respiration\n- [ ] Reproduction: mitosis vs meiosis + variation\n- [ ] Extension: Cellular Respiration (ATP, mitochondria) mini-brief\n
+### Social Studies — History of War\n- [ ] Complete horizontal timeline order (interactive)\n- [ ] Assign party flags for each war (side-by-side columns)\n- [ ] 400–600 word brief: WWII → modern echoes (verify current details)\n
+### Finance — Credit\n- [ ] Credit Scores 101 (APR, loans, access) — interactive + worksheet\n
+### CS/Web\n- [ ] Personal Portfolio v2 (projects, colors/typography, polished nav)\n
+### Use the Resource Finder\n- [ ] Add Resource Packs (videos/sites) for Math & LA weekly items\n
+## References\n- Agents: teachers/ai-assistants/agents.md\n- Biology: resources/biology_fundamentals.md\n- Wars: resources/wars_fundamentals.md\n- Credit: assignments/personal-finance/credit-scores-101/README.md\n`;
+
+            const grade5Body = `## Overview\n
+Follows the JFD Learning Center workflow (GitHub daily, PRs for parents, Discord for help, AI Teaching Team for age-appropriate guidance).\n
+## Weekly cadence (repeat)\n- Math: practice 5x/week + weekly quiz (Fri)\n- Language Arts: reading/grammar + Weekly Video Review\n- STEM: weekly topic/quiz or small build\n- Social Studies: weekly reading/quiz\n- Spanish: Duolingo 5x/week\n- Logic/Chess + Music/Piano: 5x/week\n
+## Milestones\n- Week 4: checkpoint + parent review\n- Week 8: checkpoint + SS/Science review\n- Week 12: reflection page + parent review PR\n
+## Tasks\n
+### Math\n- [ ] Set up Grade 5 weekly quizzes folder in student hub\n- [ ] 12× Weekly math quizzes (Fri) with neat work\n
+### Language Arts\n- [ ] Weekly Video Review (3–4 sentences)\n- [ ] 1× Short book response (5–7 sentences)\n
+### STEM — Biology thread\n- [ ] Water Cycle drawing: evaporation/condensation/precipitation/collection\n- [ ] Plant/Animal cells: draw & label basics (wall/membrane, nucleus, chloroplasts, mitochondria)\n- [ ] Photosynthesis: “what goes in/comes out” arrows\n- [ ] Reproduction: asexual vs sexual T-chart\n
+### Social Studies — History of War\n- [ ] Arrange wars in order (interactive)\n- [ ] Add at least one main flag per party for each war\n
+### Finance — Credit\n- [ ] Credit Scores 101 basics + APR explorer observations\n
+### Use the Resource Finder\n- [ ] Add Resource Packs for science/SS topics (kid-friendly)\n
+## References\n- Agents: teachers/ai-assistants/agents.md\n- Biology: resources/biology_fundamentals.md\n- Wars: resources/wars_fundamentals.md\n- Credit: assignments/personal-finance/credit-scores-101/README.md\n`;
+
+            const items = [
+              { title: `Grade 8 Plan — ${quarter}`, body: grade8Body, labels: ['curriculum','planning','grade-8'] },
+              { title: `Grade 5 Plan — ${quarter}`, body: grade5Body, labels: ['curriculum','planning','grade-5'] },
+            ];
+
+            const existing = await github.rest.issues.listForRepo({ owner, repo, state: 'open', per_page: 100 });
+            for (const it of items) {
+              let number;
+              const found = existing.data.find(i => i.title === it.title);
+              if (found) {
+                number = found.number;
+              } else {
+                const created = await github.rest.issues.create({ owner, repo, title: it.title, body: it.body, labels: it.labels });
+                number = created.data.number;
+              }
+              if (project && todoCol) {
+                const cards = await github.rest.projects.listCards({ column_id: todoCol.id, per_page: 100, mediaType: { previews: ['inertia'] }});
+                const already = cards.data.find(c => c.content_url && c.content_url.endsWith(`/issues/${number}`));
+                if (!already) {
+                  const issue = await github.rest.issues.get({ owner, repo, issue_number: number });
+                  await github.rest.projects.createCard({ column_id: todoCol.id, content_id: issue.data.id, content_type: 'Issue', mediaType: { previews: ['inertia'] }});
+                }
+              }
+            }
+            core.info('Grade plan issues created/updated. If Projects is enabled, cards were added to To do.');
