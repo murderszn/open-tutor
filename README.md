@@ -25,6 +25,7 @@ Navigate the repository using the following folders:
 *   [`/students/elijah`](./students/elijah/): Elijah's personal workspace for projects and work.
 *   [`/students/glory`](./students/glory/): Glory's Pre-K structured workspace and tracking board.
 *   [`/teachers/ai-assistants`](./teachers/ai-assistants/): System prompts and personas for the AI Teaching Team (Lesson Planner, Grader, etc.).
+*   [`/teachers/reports`](./teachers/reports/): Progress summaries and visual report cards.
 
 ## 🤖 AI Teaching Team (Agents)
 
