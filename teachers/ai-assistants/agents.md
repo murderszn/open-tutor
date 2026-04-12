@@ -25,6 +25,7 @@ You can use these text files to turn any standard AI (like ChatGPT, Gemini, or C
   - [Financial Tools & Principles](../../resources/financial_tools_and_principles.md)
   - [Biology Fundamentals](../../resources/biology_fundamentals.md)
   - [Global Conflicts & State-Building](../../resources/wars_fundamentals.md)
+  - [GitHub Actions Helper](./github_actions_helper.md)
   - [Government Basics](../../resources/government_basics.md)
   - [United States — Understanding & Principles](../../resources/united_states_understanding_and_principles.md)
   - [Careers — Paths, Education, Pay](../../resources/careers.md)
