@@ -1,5 +1,7 @@
 # 🔬 4th Grade STEM
 
+<p align="right"><a href="../../README.md">⬅️ Back to Elijah’s Workspace</a></p>
+
 Welcome to your STEM (Science, Technology, Engineering, and Mathematics) folder! Save your experiments, coding projects, and notes here.
 
 ## Curriculum Goals (End of Year Expectations)

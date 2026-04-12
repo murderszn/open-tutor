@@ -1,5 +1,7 @@
 # 📚 4th Grade Language Arts
 
+<p align="right"><a href="../../README.md">⬅️ Back to Elijah’s Workspace</a></p>
+
 Welcome to your Language Arts folder! Save your reading notes, essays, and writing projects here.
 
 ## Daily Requirement

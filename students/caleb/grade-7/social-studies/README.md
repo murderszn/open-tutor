@@ -1,5 +1,7 @@
 # 🌍 7th Grade Social Studies
 
+<p align="right"><a href="../../README.md">⬅️ Back to Caleb’s Workspace</a></p>
+
 Welcome to your Social Studies folder! Save your history notes, geography assignments, and projects here.
 
 ## Curriculum Goals (End of Year Expectations)
