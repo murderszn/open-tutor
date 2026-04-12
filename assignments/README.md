@@ -10,7 +10,12 @@ This folder contains shared assignments, homework, and challenges.
     *   If you need to write code or create documents for the assignment, do so in your personal workspace (`/students/your-name`), *unless* the instructions specify otherwise.
     *   If it's a collaborative project, work within the assignment folder or as directed.
 
+Tip: To quickly curate age‑appropriate videos and references for any assignment, use the Resource Finder agent: `teachers/ai-assistants/resource_finder.md`.
+
 ## Index
 
-- Social Studies: **[Black Entertainers — Research Project](./social-studies/black-entertainers-research/README.md)**
+- Social Studies: **[Black Excellence — Research Project](./social-studies/black-excellence-research/README.md)**
 - STEM: **[Automotive Basics - Modern Cars & History](./stem/modern-cars-history/README.md)**
+- STEM: Biology — **[Water Cycle](./stem/biology/water-cycle/README.md)** · **[Plant Cells](./stem/biology/plant-cells/README.md)** · **[Animal Cells](./stem/biology/animal-cells/README.md)** · **[Photosynthesis](./stem/biology/photosynthesis/README.md)** · **[Reproduction](./stem/biology/reproduction/README.md)**
+- Money Management: **[Credit Scores 101](./personal-finance/credit-scores-101/README.md)**
+- Money Management: **[Credit Scores 101](./personal-finance/credit-scores-101/README.md)**

@@ -24,3 +24,13 @@ Welcome to 4th Grade! Here are your subject folders:
 ## Weekly Schedule & Assignments
 
 See the **[schedule.csv](./schedule.csv)** file for your complete list of weekly tasks and daily activities.
+
+## Featured This Term
+- STEM Biology Thread: water cycle, cells, photosynthesis, reproduction — see `./grade-4/stem/assignments/`
+- Money Management: Credit Scores 101 — `assignments/personal-finance/credit-scores-101/README.md`
+- Need videos? Use the Resource Finder: `teachers/ai-assistants/resource_finder.md`
+
+## Help From AI Teachers
+- Subject Tutor (explainer): `teachers/ai-assistants/subject_tutor.md`
+- Teacher's Aide (hints, no answers): `teachers/ai-assistants/teachers_aide.md`
+- Resource Finder (videos/sites): `teachers/ai-assistants/resource_finder.md`

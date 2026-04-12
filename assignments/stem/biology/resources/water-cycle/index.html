@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Water Cycle Builder</title>
+    <style>
+      :root { --bg:#0b0b0c; --text:#f3f4f6; --muted:#a3a3a3; --card:#111315; --border:#1f2937; }
+      @media (prefers-color-scheme: light){ :root{ --bg:#ffffff; --text:#111827; --muted:#6b7280; --card:#f8fafc; --border:#e5e7eb; } }
+      body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); }
+      .wrap { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+      .card { background: var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin:12px 0; }
+      h1 { margin:0 0 8px; font-size:24px; }
+      .row { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+      .stage { display:flex; align-items:center; gap:8px; padding:8px 10px; border:1px dashed var(--border); border-radius:8px; background: transparent; }
+      button { padding:6px 10px; border-radius:8px; border:1px solid var(--border); background: transparent; color: var(--text); cursor:pointer; }
+      button:hover { filter: brightness(1.1); }
+      .hint { color: var(--muted); font-size: 13px; }
+      ol { list-style: none; padding:0; margin: 0; }
+      li { margin: 8px 0; }
+      .good { color: #22c55e; font-weight:700; }
+      .bad { color: #ef4444; font-weight:700; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Water Cycle Builder</h1>
+      <p class="hint">Reorder the stages into the usual cycle: Evaporation → Condensation → Precipitation → Collection. Then check your work.</p>
+      <div class="card">
+        <ol id="list"></ol>
+        <div class="row" style="margin-top:8px">
+          <button id="shuffle">Shuffle</button>
+          <button id="check">Check Order</button>
+          <div id="result" class="hint"></div>
+        </div>
+      </div>
+      <div class="card">
+        <strong>Hints</strong>
+        <ul>
+          <li>Sun warms water → vapor rises (evaporation).</li>
+          <li>Vapor cools → droplets form clouds (condensation).</li>
+          <li>Heavy droplets fall (precipitation).</li>
+          <li>Water gathers in lakes/rivers/ocean (collection).</li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      const correct = ['Evaporation','Condensation','Precipitation','Collection'];
+      let stages = [...correct];
+      const $ = (id)=>document.getElementById(id);
+      function render(){
+        const list = $('list'); list.innerHTML='';
+        stages.forEach((name, idx)=>{
+          const li = document.createElement('li');
+          const row = document.createElement('div'); row.className='stage';
+          const label = document.createElement('div'); label.textContent = `${idx+1}. ${name}`;
+          const up = document.createElement('button'); up.textContent='↑'; up.onclick=()=>{ if(idx>0){ [stages[idx-1], stages[idx]]=[stages[idx], stages[idx-1]]; render(); } };
+          const down = document.createElement('button'); down.textContent='↓'; down.onclick=()=>{ if(idx<stages.length-1){ [stages[idx+1], stages[idx]]=[stages[idx], stages[idx+1]]; render(); } };
+          row.appendChild(up); row.appendChild(down); row.appendChild(label);
+          li.appendChild(row); list.appendChild(li);
+        });
+      }
+      function shuffle(){ stages.sort(()=>Math.random()-0.5); render(); $('result').textContent=''; }
+      function check(){
+        const ok = stages.every((s,i)=>s===correct[i]);
+        $('result').innerHTML = ok ? '<span class="good">Great! That matches the typical cycle.</span>' : '<span class="bad">Not quite. Try again, or peek at the hints below.</span>';
+      }
+      $('shuffle').onclick = shuffle;
+      $('check').onclick = check;
+      shuffle();
+    </script>
+  </body>
+  </html>
+

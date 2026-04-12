@@ -37,3 +37,14 @@ Roadmap & Labs:
 - Fri: Show parents and file your page
 
 Quizzes: See weekly cumulative quizzes in `students/elijah/grade-4/stem/quizzes` (Weeks 01–12).
+
+## Biology Thread (This Term)
+- Assignments live in your STEM assignments folder:
+  - Water Cycle: `./assignments/water-cycle.md`
+  - Plant Cells: `./assignments/plant-cells.md`
+  - Animal Cells: `./assignments/animal-cells.md`
+  - Photosynthesis: `./assignments/photosynthesis.md`
+  - Reproduction: `./assignments/reproduction.md`
+- Quick reference: `resources/biology_fundamentals.md`
+- Interactives: Water Cycle Builder and Photosynthesis Equation Builder (linked inside each assignment)
+- Need videos? Use the Resource Finder agent: `teachers/ai-assistants/resource_finder.md`

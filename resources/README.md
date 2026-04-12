@@ -23,6 +23,7 @@ This folder contains educational materials, reference documents, and useful link
 *   **[Careers — Paths, Education, Pay](./careers.md)**: Typical and emerging roles with education levels, example specialties, and rough U.S. pay ranges; sources to verify outlook and compensation.
 *   **[Automotive Basics — History & Mechanics](./automotive-basics.md)**: A complete study guide covering car history, the 4-stroke engine, drivetrains, tire sizing, and major global markets.
 *   **[Black Excellence: Study Them](./black_excellence_figures.md)**: A research guide highlighting historic and modern Black excellence across various industries and domains (Screen Icons, Music Titans, Business Leaders, Civil Rights Leaders, STEM Pioneers, and Sports Icons).
+*   **[Biology Fundamentals — Water Cycle, Cells, Photosynthesis, Reproduction](./biology_fundamentals.md)**: A single, student‑friendly reference with diagrams and Wikipedia links to support the 12‑week STEM biology thread.
 
 ## 📊 Datasets
 

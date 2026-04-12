@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Photosynthesis Equation Builder</title>
+    <style>
+      :root { --bg:#0b0b0c; --text:#f3f4f6; --muted:#a3a3a3; --card:#111315; --border:#1f2937; --good:#22c55e; --bad:#ef4444; }
+      @media (prefers-color-scheme: light){ :root{ --bg:#ffffff; --text:#111827; --muted:#6b7280; --card:#f8fafc; --border:#e5e7eb; } }
+      body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); }
+      .wrap { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+      .card { background: var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin:12px 0; }
+      h1 { margin:0 0 8px; font-size:24px; }
+      input[type=number]{ width: 80px; padding:6px 8px; border:1px solid var(--border); border-radius:8px; background: transparent; color: var(--text); }
+      .hint { color: var(--muted); font-size: 13px; }
+      .good { color: var(--good); font-weight:700; }
+      .bad { color: var(--bad); font-weight:700; }
+      .row { display:flex; flex-wrap:wrap; gap:10px; align-items:center; }
+      .eq { font-size: 18px; display:flex; flex-wrap:wrap; gap:8px; align-items:center; }
+      code { background: rgba(148,163,184,0.15); padding: 2px 6px; border-radius: 6px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Photosynthesis Equation Builder</h1>
+      <p class="hint">Set the coefficients to balance the photosynthesis equation. Then check your work.</p>
+      <div class="card">
+        <div class="eq">
+          <input id="c1" type="number" min="1" step="1" value="1" /> CO +
+          <input id="c2" type="number" min="1" step="1" value="1" /> H2 →
+          <input id="c3" type="number" min="1" step="1" value="1" /> C	6H	12O	6 +
+          <input id="c4" type="number" min="1" step="1" value="1" /> O	2
+        </div>
+        <div class="row" style="margin-top:10px">
+          <button id="check">Check</button>
+          <button id="reset">Reset</button>
+          <div id="result" class="hint"></div>
+        </div>
+      </div>
+      <div class="card">
+        <strong>In words</strong>
+        <p>Carbon dioxide and water combine using light energy to make sugar (glucose) and oxygen.</p>
+        <p class="hint">Balanced answer: <code>6CO	2 + 6H	2O → C	6H	12O	6 + 6O	2</code></p>
+      </div>
+    </div>
+    <script>
+      const $ = (id)=>document.getElementById(id);
+      function check(){
+        const a=+$('c1').value, b=+$('c2').value, c=+$('c3').value, d=+$('c4').value;
+        const ok = (a===6 && b===6 && c===1 && d===6);
+        $('result').innerHTML = ok ? '<span class="good">Balanced! Great work.</span>' : '<span class="bad">Not balanced yet. Hint: try 6, 6, 1, 6.</span>';
+      }
+      function reset(){ ['c1','c2','c3','c4'].forEach(id=>$(id).value=1); $('result').textContent=''; }
+      $('check').onclick = check; $('reset').onclick = reset;
+    </script>
+  </body>
+  </html>
+
