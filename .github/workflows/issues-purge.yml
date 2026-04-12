@@ -1,0 +1,112 @@
+name: Issues: purge or close
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Action to perform on issues"
+        required: true
+        default: close
+        type: choice
+        options:
+          - close
+          - delete
+      state:
+        description: "Target which issues"
+        required: true
+        default: all
+        type: choice
+        options:
+          - open
+          - all
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close or delete issues
+        uses: actions/github-script@v7
+        with:
+          # Uses GITHUB_TOKEN by default; if you add a repo secret GH_ADMIN_TOKEN
+          # with admin rights, set it here instead to enable delete.
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const mode = core.getInput('mode');
+            const state = core.getInput('state');
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const per_page = 100;
+            let page = 1;
+            const items = [];
+
+            core.info(`Fetching issues (state=${state})...`);
+            while (true) {
+              const { data } = await github.rest.issues.listForRepo({
+                owner,
+                repo,
+                state,
+                per_page,
+                page,
+              });
+              if (!data.length) break;
+
+              for (const it of data) {
+                // Skip pull requests; REST lists them alongside issues
+                if (it.pull_request) continue;
+                items.push({ number: it.number, id: it.node_id });
+              }
+              page++;
+            }
+
+            core.info(`Found ${items.length} issue(s) to process`);
+
+            if (!items.length) {
+              core.info('Nothing to do.');
+              return;
+            }
+
+            if (mode === 'close') {
+              for (const it of items) {
+                await github.rest.issues.update({
+                  owner,
+                  repo,
+                  issue_number: it.number,
+                  state: 'closed',
+                });
+                core.info(`Closed #${it.number}`);
+              }
+              return;
+            }
+
+            // mode === 'delete' — try GraphQL delete, fall back to closing if forbidden
+            let deleted = 0;
+            let failed = 0;
+            for (const it of items) {
+              try {
+                await github.graphql(
+                  `mutation($id: ID!) {\n                    deleteIssue(input: { issueId: $id }) {\n                      clientMutationId\n                    }\n                  }`,
+                  { id: it.id }
+                );
+                deleted++;
+                core.info(`Deleted #${it.number}`);
+              } catch (e) {
+                failed++;
+                core.warning(`Delete failed for #${it.number}: ${e.message}. Falling back to close.`);
+                try {
+                  await github.rest.issues.update({
+                    owner,
+                    repo,
+                    issue_number: it.number,
+                    state: 'closed',
+                  });
+                } catch (e2) {
+                  core.warning(`Close failed for #${it.number}: ${e2.message}`);
+                }
+              }
+            }
+            core.info(`Done. Deleted: ${deleted}, attempted fallbacks: ${failed}`);
