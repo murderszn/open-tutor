@@ -4,73 +4,222 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>History of War • Timeline Builder (G7)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <style>
-      :root { --bg:#0b0b0c; --text:#f3f4f6; --muted:#a3a3a3; --card:#111315; --border:#1f2937; --good:#22c55e; --bad:#ef4444; --chip:#0f172a; --accent:#38bdf8; --slot-width: 220px; --slot-height: 90px; }
-      @media (prefers-color-scheme: light){ :root{ --bg:#ffffff; --text:#111827; --muted:#6b7280; --card:#f8fafc; --border:#e5e7eb; --chip:#eef2ff; } }
-      *{box-sizing:border-box}
-      html, body { height: 100%; }
-      body{margin:0;background: radial-gradient(1200px 600px at 20% -10%, rgba(56,189,248,0.12), transparent), radial-gradient(900px 500px at 120% 10%, rgba(34,197,94,0.10), transparent), var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6}
-      .wrap{max-width:100%;min-height:100vh;margin:0 auto;padding:16px}
-      h1{margin:0 0 6px;font-size:26px;letter-spacing:-0.3px}
-      p.small{color:var(--muted);font-size:13px;margin:0 0 12px}
-      .grid{display:grid;gap:12px}
-      .two{grid-template-columns:1fr 1fr}
+      :root {
+        --bg: #0b101e;
+        --bg-grad-1: rgba(34, 211, 238, 0.12);
+        --bg-grad-2: rgba(139, 92, 246, 0.12);
+        --bg-grad-3: rgba(14, 165, 233, 0.10);
+        --text: #f8fafc;
+        --muted: #94a3b8;
+        --card-bg: rgba(17, 24, 39, 0.55);
+        --card-border: rgba(255, 255, 255, 0.08);
+        --good: #34d399;
+        --bad: #f87171;
+        --chip-bg: rgba(255, 255, 255, 0.04);
+        --chip-hover: rgba(255, 255, 255, 0.08);
+        --chip-border: rgba(255, 255, 255, 0.12);
+        --accent: #22d3ee;
+        --slot-width: 220px;
+        --slot-height: 96px;
+      }
+
+      * { box-sizing: border-box; }
+      html, body { height: 100%; margin: 0; }
+      body {
+        background-color: var(--bg);
+        color: var(--text);
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+        position: relative;
+        overflow-x: hidden;
+      }
+
+      body::before {
+        content: ''; position: fixed; inset: 0; z-index: -1;
+        background: 
+          radial-gradient(circle at 15% 30%, var(--bg-grad-1), transparent 45%),
+          radial-gradient(circle at 85% 20%, var(--bg-grad-2), transparent 45%),
+          radial-gradient(circle at 50% 80%, var(--bg-grad-3), transparent 50%);
+        filter: blur(80px);
+        animation: breath 20s ease-in-out infinite alternate;
+        pointer-events: none;
+      }
+      @keyframes breath {
+        0% { transform: scale(1) translateY(0); }
+        100% { transform: scale(1.05) translateY(-5%); }
+      }
+
+      .wrap { max-width: 100%; min-height: 100vh; margin: 0 auto; padding: 24px; position: relative; z-index: 1; }
+      
+      h1, strong, summary { font-family: 'Outfit', sans-serif; }
+      h1 { margin: 0 0 8px; font-size: 32px; font-weight: 800; letter-spacing: -0.5px; background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+      strong { font-size: 18px; font-weight: 600; letter-spacing: 0.2px; color: #e2e8f0; }
+      
+      p.small { color: var(--muted); font-size: 14px; margin: 0 0 16px; font-family: 'Inter', sans-serif; }
+      
+      .grid { display: grid; gap: 20px; margin-bottom: 20px; }
+      .two { grid-template-columns: 1fr 1fr; }
       @media (max-width: 900px){ .two{grid-template-columns:1fr} }
-      .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:12px;box-shadow:0 8px 32px rgba(0,0,0,0.08)}
-      .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 0}
-      button{padding:8px 10px;border:1px solid var(--border);border-radius:10px;background:transparent;color:var(--text);cursor:pointer}
-      button:hover{filter:brightness(1.1)}
-      .war-pool,.flag-pool{display:flex;gap:8px;flex-wrap:wrap}
-      .chip{display:inline-flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid var(--border);border-radius:10px;background:var(--chip);cursor:grab;box-shadow:0 2px 6px rgba(0,0,0,0.08)}
-      .chip .emoji{font-size:18px;line-height:1}
-      .chip.dragging{opacity:0.6}
-      /* Horizontal timeline layout */
-      .hwrap{display:grid;grid-template-rows:40px 1fr;gap:8px}
-      .hscale{position:relative;height:40px}
-      .hscale .htick{position:absolute;top:0;bottom:0;width:1px;background:transparent}
-      .hscale .htick::before{content:"";position:absolute;top:18px;width:1px;height:8px;background:rgba(148,163,184,0.45)}
-      .hscale .htick label{position:absolute;top:0;transform:translateX(-50%);font-size:11px;color:var(--muted)}
-      .timeline{display:flex;gap:12px;margin-top:0;overflow-x:auto;align-items:center;padding:12px;border:1px dashed var(--border);border-radius:12px;position:relative;min-height:var(--slot-height)}
-      .timeline::before{content:"";position:absolute;left:0;right:0;top:50%;height:2px;background:linear-gradient(90deg, rgba(148,163,184,0.25) 0%, rgba(148,163,184,0.25) 100%);transform:translateY(-50%);pointer-events:none}
-      .slot{height:var(--slot-height);width:var(--slot-width);border:2px dashed var(--border);border-radius:12px;padding:6px;display:flex;align-items:center;justify-content:center;text-align:center;background:rgba(148,163,184,0.08)}
-      .slot .label{color:var(--muted);font-size:12px}
-      .slot.over{outline:2px solid var(--accent); outline-offset:2px}
-      .slot.correct{border-color:rgba(34,197,94,0.6)}
-      .slot.wrong{border-color:rgba(239,68,68,0.6)}
-      .war{background:var(--chip);border:1px solid var(--border);border-radius:12px;padding:8px 10px;cursor:grab;max-width:100%;box-shadow:0 2px 6px rgba(0,0,0,0.08)}
-      .war .name{font-weight:700}
-      .war .years{color:var(--muted);font-size:12px}
-      .flags-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
-      .flag-box{border:2px dashed var(--border);border-radius:12px;min-height:64px;padding:6px;background:rgba(148,163,184,0.06)}
-      .flag-box.over{outline:2px solid var(--accent); outline-offset:2px}
-      .flag-box .title{font-size:12px;color:var(--muted);margin-bottom:4px}
-      .flag-chip{display:inline-flex;align-items:center;gap:6px;padding:6px 8px;border:1px solid var(--border);border-radius:10px;background:var(--chip);margin:2px;cursor:grab;box-shadow:0 2px 6px rgba(0,0,0,0.08)}
-      .status{margin-top:8px;font-size:14px}
-      .good{color:var(--good)}
-      .bad{color:var(--bad)}
-      .hint{color:var(--muted);font-size:12px}
-      .war-section{margin-top:10px}
-      details{border:1px solid var(--border);border-radius:10px;background:var(--card);padding:8px}
-      summary{cursor:pointer;font-weight:700}
-      .sticky{position:sticky;top:0;background:linear-gradient(180deg, rgba(56,189,248,0.12), rgba(56,189,248,0.04));border:1px solid var(--border);border-radius:12px;margin-bottom:10px;z-index:2}
-      .sticky .toolbar{justify-content:flex-start}
-      .hud{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-top:6px}
-      .meter{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border:1px solid var(--border);border-radius:999px;background:var(--card);font-size:13px}
-      .meter b{font-size:14px}
-      .scale{position:relative; height:36px; margin-top:8px; overflow:hidden}
-      .scale .tick{position:absolute; top:0; bottom:0; width:1px; background:rgba(148,163,184,0.35)}
-      .scale .tick label{position:absolute; top:16px; transform:translateX(-50%); font-size:11px; color:var(--muted)}
-      /* Confetti */
-      .confetti{position:fixed; inset:0; pointer-events:none; overflow:hidden;}
-      .confetti i{position:absolute; font-size:18px; will-change:transform, opacity; animation: fall 1.6s ease-in forwards}
-      @keyframes fall{ from{ transform:translateY(-10vh) rotate(0deg); opacity:1 } to{ transform:translateY(110vh) rotate(540deg); opacity:0 } }
+      
+      .card {
+        background: var(--card-bg);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid var(--card-border);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+      }
+      
+      .toolbar { display: flex; gap: 12px; flex-wrap: wrap; margin: 12px 0 0; }
+      
+      button {
+        font-family: 'Outfit', sans-serif;
+        font-weight: 600;
+        padding: 10px 16px;
+        border: 1px solid rgba(34, 211, 238, 0.3);
+        border-radius: 12px;
+        background: linear-gradient(135deg, rgba(34, 211, 238, 0.1) 0%, rgba(14, 165, 233, 0.05) 100%);
+        color: var(--accent);
+        cursor: pointer;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        text-shadow: 0 0 10px rgba(34, 211, 238, 0.2);
+        backdrop-filter: blur(8px);
+      }
+      button:hover {
+        background: linear-gradient(135deg, rgba(34, 211, 238, 0.2) 0%, rgba(14, 165, 233, 0.15) 100%);
+        border-color: rgba(34, 211, 238, 0.6);
+        transform: translateY(-2px);
+        box-shadow: 0 8px 16px rgba(34, 211, 238, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+      }
+      button:active { transform: translateY(0); }
+
+      .war-pool, .flag-pool { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 10px; }
+      
+      .chip {
+        display: inline-flex; align-items: center; gap: 8px; 
+        padding: 10px 14px; 
+        border: 1px solid var(--chip-border); 
+        border-radius: 12px; 
+        background: var(--chip-bg); 
+        cursor: grab;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        backdrop-filter: blur(8px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .chip:hover {
+        background: var(--chip-hover);
+        border-color: rgba(255,255,255,0.25);
+        transform: translateY(-3px) scale(1.02);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 0 15px rgba(255,255,255,0.05);
+      }
+      .chip.dragging { opacity: 0.4; cursor: grabbing; transform: scale(1.05); }
+      .chip .emoji { font-size: 22px; line-height: 1; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3)); }
+      
+      .war {
+        background: var(--chip-bg); border: 1px solid var(--chip-border);
+        border-radius: 14px; padding: 10px 14px; cursor: grab;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        backdrop-filter: blur(8px);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.05);
+      }
+      .war:hover {
+        background: rgba(255, 255, 255, 0.08);
+        border-color: rgba(255,255,255,0.3);
+        transform: translateY(-4px) scale(1.03);
+        box-shadow: 0 12px 24px rgba(0,0,0,0.3), 0 0 20px rgba(255,255,255,0.08);
+        z-index: 10;
+        position: relative;
+      }
+      .war.dragging { opacity: 0.5; cursor: grabbing; transform: scale(1.05); box-shadow: 0 20px 40px rgba(0,0,0,0.4); }
+      .war .name { font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 15px; color: #f8fafc; }
+      .war .years { color: var(--accent); font-size: 13px; font-weight: 500; font-family: 'Outfit', sans-serif; letter-spacing: 0.5px; opacity: 0.9; }
+
+      .hwrap { display: grid; grid-template-rows: 40px 1fr; gap: 8px; margin-top: 20px; }
+      .hscale { position: relative; height: 40px; }
+      .hscale .htick { position: absolute; top: 0; bottom: 0; width: 1px; background: transparent; }
+      .hscale .htick::before { content: ""; position: absolute; top: 14px; width: 2px; height: 12px; background: rgba(148, 163, 184, 0.2); border-radius: 2px; }
+      .hscale .htick label { position: absolute; top: 0; transform: translateX(-50%); font-size: 12px; font-weight: 600; font-family: 'Outfit', sans-serif; color: var(--muted); }
+      
+      .timeline {
+        display: flex; gap: 16px; overflow-x: auto; align-items: center;
+        padding: 24px;
+        background: rgba(0, 0, 0, 0.2);
+        border: 1px solid var(--card-border); border-radius: 20px;
+        position: relative; min-height: calc(var(--slot-height) + 48px);
+        box-shadow: inset 0 10px 30px rgba(0,0,0,0.2);
+      }
+      .timeline::before {
+        content: ""; position: absolute; left: 0; right: 0; top: 50%; height: 3px;
+        background: linear-gradient(90deg, transparent 0%, rgba(34, 211, 238, 0.3) 10%, rgba(34, 211, 238, 0.3) 90%, transparent 100%);
+        transform: translateY(-50%); pointer-events: none; z-index: 0;
+      }
+      
+      .slot {
+        height: var(--slot-height); width: var(--slot-width);
+        border: 2px dashed rgba(255, 255, 255, 0.15); border-radius: 16px;
+        padding: 8px; display: flex; align-items: center; justify-content: center; text-align: center;
+        background: rgba(15, 23, 42, 0.4);
+        transition: all 0.3s ease;
+        position: relative; z-index: 1; flex-shrink: 0;
+      }
+      .slot .label { color: var(--muted); font-size: 13px; font-weight: 500; text-transform: uppercase; letter-spacing: 1px; font-family: 'Outfit', sans-serif; }
+      .slot.over {
+        outline: 2px solid var(--accent); outline-offset: 4px; border-style: solid;
+        background: rgba(34, 211, 238, 0.15); box-shadow: inset 0 0 20px rgba(34, 211, 238, 0.2), 0 0 15px rgba(34, 211, 238, 0.3); transform: scale(1.02);
+      }
+      .slot.correct { border-color: rgba(52, 211, 153, 0.6); background: rgba(52, 211, 153, 0.1); box-shadow: inset 0 0 15px rgba(52, 211, 153, 0.15); }
+      .slot.wrong { border-color: rgba(248, 113, 113, 0.6); background: rgba(248, 113, 113, 0.1); box-shadow: inset 0 0 15px rgba(248, 113, 113, 0.15); }
+
+      .flags-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 12px; }
+      .flag-box { border: 2px dashed rgba(255, 255, 255, 0.15); border-radius: 16px; min-height: 80px; padding: 12px; background: rgba(0, 0, 0, 0.15); transition: all 0.3s ease; }
+      .flag-box.over { outline: 2px solid var(--accent); outline-offset: 4px; border-style: solid; background: rgba(34, 211, 238, 0.15); }
+      .flag-box .title { font-size: 13px; font-weight: 600; color: var(--muted); margin-bottom: 8px; font-family: 'Outfit', sans-serif; text-transform: uppercase; letter-spacing: 0.5px; }
+      .flag-chip { display: inline-flex; align-items: center; gap: 6px; padding: 6px 10px; border: 1px solid var(--chip-border); border-radius: 10px; background: var(--chip-bg); margin: 4px; cursor: grab; box-shadow: 0 4px 8px rgba(0,0,0,0.15); transition: all 0.2s; }
+      .flag-chip:hover { transform: translateY(-2px) scale(1.05); background: var(--chip-hover); box-shadow: 0 6px 12px rgba(0,0,0,0.25); }
+      
+      .status { margin-top: 12px; font-size: 15px; font-weight: 500; font-family: 'Inter', sans-serif; }
+      .good { color: var(--good); text-shadow: 0 0 10px rgba(52, 211, 153, 0.3); }
+      .bad { color: var(--bad); text-shadow: 0 0 10px rgba(248, 113, 113, 0.3); }
+      .hint { color: var(--muted); font-size: 13px; font-style: italic; }
+      
+      .war-section { margin-top: 20px; }
+      details { border: 1px solid var(--card-border); border-radius: 16px; background: rgba(17, 24, 39, 0.4); padding: 12px 16px; margin-bottom: 12px; transition: all 0.3s ease; }
+      details[open] { background: rgba(17, 24, 39, 0.7); box-shadow: 0 8px 24px rgba(0,0,0,0.2); border-color: rgba(255,255,255,0.15); }
+      summary { cursor: pointer; font-size: 16px; font-weight: 600; color: #e2e8f0; list-style-position: inside; }
+      summary::marker { color: var(--accent); }
+      
+      .sticky { position: sticky; top: 12px; z-index: 20; background: rgba(17, 24, 39, 0.75); backdrop-filter: blur(24px); -webkit-backdrop-filter: blur(24px); border: 1px solid rgba(255, 255, 255, 0.1); margin-bottom: 20px; padding: 16px 24px; }
+      .sticky .toolbar { justify-content: flex-start; margin-top: 8px; }
+      
+      .hud { display: flex; gap: 16px; align-items: center; justify-content: space-between; margin-top: 12px; }
+      .meter { display: inline-flex; gap: 10px; align-items: center; padding: 8px 16px; border: 1px solid var(--card-border); border-radius: 999px; background: rgba(0, 0, 0, 0.3); font-size: 14px; font-weight: 500; font-family: 'Outfit', sans-serif; box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); }
+      .meter span { color: var(--muted); text-transform: uppercase; font-size: 12px; letter-spacing: 0.5px; }
+      .meter b { font-size: 16px; color: var(--accent); font-weight: 700; text-shadow: 0 0 10px rgba(34, 211, 238, 0.4); }
+
+      .confetti { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 100; }
+      .confetti i { position: absolute; font-size: 24px; will-change: transform, opacity; animation: fall 1.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.4)); }
+      @keyframes fall {
+        0% { transform: translateY(-10vh) rotate(0deg) scale(0); opacity: 0; }
+        10% { transform: translateY(-5vh) rotate(45deg) scale(1); opacity: 1; }
+        100% { transform: translateY(110vh) rotate(720deg) scale(1); opacity: 0; }
+      }
+      
+      ::-webkit-scrollbar { height: 10px; width: 10px; }
+      ::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); border-radius: 10px; }
+      ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 10px; border: 2px solid rgba(17, 24, 39, 1); }
+      ::-webkit-scrollbar-thumb:hover { background: rgba(34, 211, 238, 0.4); }
     </style>
   </head>
   <body>
     <div class="wrap">
       <div class="card sticky">
         <h1>History of War — Timeline Builder</h1>
-        <p class="small">Drag wars from the top War Cards into the vertical timeline (earliest → latest). Then open each war to drag flags of key participants onto opposing sides. Use the check buttons to see feedback.</p>
+        <p class="small">Drag wars from the top War Cards into the horizontal timeline (earliest → latest). Then open each war to drag flags of key participants into the correct party columns. Use the check buttons to see feedback.</p>
         <div class="toolbar">
           <button id="fullscreenBtn">Full Screen</button>
         </div>
@@ -116,17 +265,28 @@
     <div class="confetti" id="confetti"></div>
     <script>
       const WARS = [
-        { id:'thirty', name:"Thirty Years’ War", years:"1618–1648", start:1618, end:1648, sides:{A:['🇩🇪','🇪🇸','🇦🇹'], B:['🇸🇪','🇫🇷']} },
-        { id:'napoleon', name:"Napoleonic Wars", years:"1803–1815", start:1803, end:1815, sides:{A:['🇫🇷'], B:['🇬🇧']} },
-        { id:'ww1', name:"World War I", years:"1914–1918", start:1914, end:1918, sides:{A:['🇬🇧','🇫🇷','🇷🇺','🇺🇸'], B:['🇩🇪','🇦🇹']} },
-        { id:'ww2', name:"World War II", years:"1939–1945", start:1939, end:1945, sides:{A:['🇺🇸','🇬🇧','🇷🇺','🇫🇷'], B:['🇩🇪','🇮🇹','🇯🇵']} },
-        { id:'korea', name:"Korean War", years:"1950–1953", start:1950, end:1953, sides:{A:['🇰🇷','🇺🇸'], B:['🇰🇵','🇨🇳']} },
-        { id:'arab', name:"Arab–Israeli Wars", years:"1948–1973", start:1948, end:1973, sides:{A:['🇮🇱'], B:['🇪🇬','🇸🇾']} },
-        { id:'vietnam', name:"Vietnam War", years:"1955–1975", start:1955, end:1975, sides:{A:['🇻🇳'], B:['🇺🇸']} },
-        { id:'iraniraq', name:"Iran–Iraq War", years:"1980–1988", start:1980, end:1988, sides:{A:['🇮🇷'], B:['🇮🇶']} },
-        { id:'gulf', name:"Gulf War", years:"1990–1991", start:1990, end:1991, sides:{A:['🇰🇼','🇺🇸'], B:['🇮🇶']} },
-        { id:'yugo', name:"Yugoslav Wars", years:"1991–2001", start:1991, end:2001, sides:{A:['🇭🇷','🇧🇦'], B:['🇷🇸']} },
-        { id:'russiaukraine', name:"Russia–Ukraine War", years:"2014– ", start:2014, end:9999, sides:{A:['🇺🇦'], B:['🇷🇺']} },
+        { id:'thirty', name:"Thirty Years’ War", years:"1618–1648", start:1618, end:1648,
+          parties:[{name:'Habsburgs', flags:['🇩🇪','🇪🇸','🇦🇹']},{name:'Anti‑Habsburg/Allies', flags:['🇸🇪','🇫🇷']}] },
+        { id:'napoleon', name:"Napoleonic Wars", years:"1803–1815", start:1803, end:1815,
+          parties:[{name:'France', flags:['🇫🇷']},{name:'Coalition', flags:['🇬🇧']}] },
+        { id:'ww1', name:"World War I", years:"1914–1918", start:1914, end:1918,
+          parties:[{name:'Allies', flags:['🇬🇧','🇫🇷','🇷🇺','🇺🇸']},{name:'Central Powers', flags:['🇩🇪','🇦🇹']}] },
+        { id:'ww2', name:"World War II", years:"1939–1945", start:1939, end:1945,
+          parties:[{name:'Allies', flags:['🇺🇸','🇬🇧','🇷🇺','🇫🇷']},{name:'Axis', flags:['🇩🇪','🇮🇹','🇯🇵']}] },
+        { id:'korea', name:"Korean War", years:"1950–1953", start:1950, end:1953,
+          parties:[{name:'South Korea/UN', flags:['🇰🇷','🇺🇸']},{name:'North Korea/China', flags:['🇰🇵','🇨🇳']}] },
+        { id:'arab', name:"Arab–Israeli Wars", years:"1948–1973", start:1948, end:1973,
+          parties:[{name:'Israel', flags:['🇮🇱']},{name:'Arab States', flags:['🇪🇬','🇸🇾']}] },
+        { id:'vietnam', name:"Vietnam War", years:"1955–1975", start:1955, end:1975,
+          parties:[{name:'North Vietnam', flags:['🇻🇳']},{name:'US/South Vietnam', flags:['🇺🇸']}] },
+        { id:'iraniraq', name:"Iran–Iraq War", years:"1980–1988", start:1980, end:1988,
+          parties:[{name:'Iran', flags:['🇮🇷']},{name:'Iraq', flags:['🇮🇶']}] },
+        { id:'gulf', name:"Gulf War", years:"1990–1991", start:1990, end:1991,
+          parties:[{name:'Coalition/Kuwait', flags:['🇰🇼','🇺🇸']},{name:'Iraq', flags:['🇮🇶']}] },
+        { id:'yugo', name:"Yugoslav Wars", years:"1991–2001", start:1991, end:2001,
+          parties:[{name:'Croatia/Bosnia', flags:['🇭🇷','🇧🇦']},{name:'Serbia', flags:['🇷🇸']}] },
+        { id:'russiaukraine', name:"Russia–Ukraine War", years:"2014– ", start:2014, end:9999,
+          parties:[{name:'Ukraine', flags:['🇺🇦']},{name:'Russia', flags:['🇷🇺']}] },
       ];
 
       const FLAGS = [ '🇫🇷','🇬🇧','🇺🇸','🇷🇺','🇩🇪','🇮🇹','🇯🇵','🇨🇳','🇰🇵','🇰🇷','🇻🇳','🇮🇱','🇪🇬','🇸🇾','🇮🇷','🇮🇶','🇺🇦','🇷🇸','🇭🇷','🇧🇦','🇪🇸','🇸🇪','🇦🇹','🇰🇼' ];
@@ -295,16 +455,16 @@
       function checkFlags(){
         let ok=0, total=WARS.length;
         WARS.forEach(w=>{
-          const boxA = document.querySelector(`.flag-box[data-warid="${w.id}"][data-side="A"]`);
-          const boxB = document.querySelector(`.flag-box[data-warid="${w.id}"][data-side="B"]`);
-          const gotA = $$('.flag-chip', boxA).map(n=>n.dataset.flag);
-          const gotB = $$('.flag-chip', boxB).map(n=>n.dataset.flag);
-          // Accept if at least one expected flag for each side is present
-          const sideAok = w.sides.A.some(f=>gotA.includes(f));
-          const sideBok = w.sides.B.some(f=>gotB.includes(f));
-          if (sideAok && sideBok) ok++;
+          const parties = w.parties || [];
+          let partiesOk = 0;
+          parties.forEach((p, idx)=>{
+            const box = document.querySelector(`.flag-box[data-warid="${w.id}"][data-side="${idx}"]`);
+            const got = Array.from(box?.querySelectorAll('.flag-chip')||[]).map(n=>n.dataset.flag);
+            if (p.flags.some(f=>got.includes(f))) partiesOk++;
+          });
+          if (partiesOk === parties.length && parties.length>0) ok++;
         });
-        $('#flagsStatus').innerHTML = ok===0 ? 'Open a war and drop at least one principal flag on each side.' : (ok===total ? `<span class="good">Flags look good for all ${total} wars.</span>` : `<span class="bad">${ok}/${total} wars have flags for both sides.</span>`);
+        $('#flagsStatus').innerHTML = ok===0 ? 'Open a war and drop at least one principal flag for each party.' : (ok===total ? `<span class="good">Flags look good for all ${total} wars.</span>` : `<span class="bad">${ok}/${total} wars have flags for all parties.</span>`);
       }
 
       // Init
