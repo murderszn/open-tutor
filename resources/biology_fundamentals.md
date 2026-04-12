@@ -55,6 +55,16 @@ Simple diagram (not to scale):
 (  cytoplasm    )
 ```
 
+## 🔬 Cell Theory & Cell Types (Quick)
+
+- [Cell theory](https://en.wikipedia.org/wiki/Cell_theory):
+  - All living things are made of one or more cells.
+  - The cell is the basic unit of structure and function in life.
+  - All cells come from pre‑existing cells.
+- Cell types:
+  - [Prokaryotes](https://en.wikipedia.org/wiki/Prokaryote): no nucleus (bacteria). Simple, single‑celled.
+  - [Eukaryotes](https://en.wikipedia.org/wiki/Eukaryote): nucleus present (plants, animals, fungi, protists).
+
 ## ☀️ Photosynthesis
 
 How plants use sunlight to make food (sugar) and release oxygen.
@@ -68,6 +78,26 @@ Inputs → outputs diagram:
 ```
 Sunlight + CO₂ + H₂O  →  Glucose (sugar) + O₂
 ```
+
+## 🌱 Ecosystems & Food Chains (Quick)
+
+- Roles:
+  - [Producers](https://en.wikipedia.org/wiki/Primary_production): plants/algae make food via photosynthesis.
+  - [Consumers](https://en.wikipedia.org/wiki/Consumer_(ecology)): animals eat plants/other animals for energy.
+  - [Decomposers](https://en.wikipedia.org/wiki/Decomposer): fungi/bacteria break down dead material, recycle nutrients.
+- Flow of energy: Sun → producer → consumer → decomposer.
+- Habitats & ecosystems: living (biotic) + nonliving (abiotic: light, water, soil) parts interacting.
+
+Simple chain:
+```
+Sun → grass (producer) → rabbit (consumer) → fox (consumer) → fungi (decomposer)
+```
+
+## 🌍 Carbon Cycle (Very Brief)
+
+- Carbon moves between air, living things, soil, and water.
+- Photosynthesis pulls CO₂ from air into plants. Respiration and decomposition return CO₂ to air.
+- Human activities (burning fuels, deforestation) change carbon movement.
 
 ## 🧪 Reproduction
 
@@ -93,3 +123,4 @@ Meiosis: halves chromosomes for gametes
 Notes
 - This is a simplified guide to support assignments; see linked articles for deeper study.
 - Diagrams are conceptual and not scaled.
+ - Age‑appropriate tip: Focus on “what goes in / what comes out,” and “who eats whom,” before memorizing terms.
