@@ -15,6 +15,8 @@ permissions:
 jobs:
   create_project:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Create/Update repo project and seed issues
         uses: actions/github-script@v7
@@ -29,26 +31,34 @@ jobs:
             // Helper: sleep
             const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-            // Find or create repo project (classic)
-            const list = await github.rest.projects.listForRepo({ owner, repo, mediaType: { previews: ['inertia'] }});
-            let project = list.data.find(p => p.name === projectName);
-            if (!project) {
-              const created = await github.rest.projects.createForRepo({ owner, repo, name: projectName, body: projectBody, mediaType: { previews: ['inertia'] }});
-              project = created.data;
+            // Try to find or create a classic repo Project (gracefully degrade if Projects are disabled)
+            let project = null;
+            try {
+              const list = await github.rest.projects.listForRepo({ owner, repo, mediaType: { previews: ['inertia'] }});
+              project = list.data.find(p => p.name === projectName) || null;
+              if (!project) {
+                const created = await github.rest.projects.createForRepo({ owner, repo, name: projectName, body: projectBody, mediaType: { previews: ['inertia'] }});
+                project = created.data;
+              }
+              core.info(`Project available: ${project.html_url}`);
+            } catch (e) {
+              core.warning(`Projects classic may be disabled or insufficient permissions. Proceeding without a board. Error: ${e.message}`);
             }
 
-            // Ensure columns: To do, In progress, Done
-            const cols = await github.rest.projects.listColumns({ project_id: project.id, mediaType: { previews: ['inertia'] }});
-            const need = ['To do','In progress','Done'];
-            const have = new Map(cols.data.map(c => [c.name, c]));
-            for (const name of need) {
-              if (!have.has(name)) {
-                const res = await github.rest.projects.createColumn({ project_id: project.id, name, mediaType: { previews: ['inertia'] }});
-                have.set(name, res.data);
-                await sleep(300);
+            let todoCol = null;
+            if (project) {
+              const cols = await github.rest.projects.listColumns({ project_id: project.id, mediaType: { previews: ['inertia'] }});
+              const need = ['To do','In progress','Done'];
+              const have = new Map(cols.data.map(c => [c.name, c]));
+              for (const name of need) {
+                if (!have.has(name)) {
+                  const res = await github.rest.projects.createColumn({ project_id: project.id, name, mediaType: { previews: ['inertia'] }});
+                  have.set(name, res.data);
+                  await sleep(300);
+                }
               }
+              todoCol = have.get('To do');
             }
-            const todoCol = have.get('To do');
 
             // Seed tasks (idempotent by title)
             const tasks = [
@@ -99,15 +109,15 @@ jobs:
                 const found = existingIssues.data.find(i => i.title === t.title);
                 issueNumber = found.number;
               }
-              // Add issue to To do column (create project card)
-              // Need the GraphQL node id (content_id expects numeric id for classic projects)
-              const issue = await github.rest.issues.get({ owner, repo, issue_number: issueNumber });
-              // Guard: check if a card already exists for this issue in the column
-              const cards = await github.rest.projects.listCards({ column_id: todoCol.id, per_page: 100, mediaType: { previews: ['inertia'] }});
-              const already = cards.data.find(c => c.content_url && c.content_url.endsWith(`/issues/${issueNumber}`));
-              if (!already) {
-                await github.rest.projects.createCard({ column_id: todoCol.id, content_id: issue.data.id, content_type: 'Issue', mediaType: { previews: ['inertia'] }});
-                await sleep(200);
+              // If we have a project/column, add a card; else just leave issues open under the label
+              if (project && todoCol) {
+                const issue = await github.rest.issues.get({ owner, repo, issue_number: issueNumber });
+                const cards = await github.rest.projects.listCards({ column_id: todoCol.id, per_page: 100, mediaType: { previews: ['inertia'] }});
+                const already = cards.data.find(c => c.content_url && c.content_url.endsWith(`/issues/${issueNumber}`));
+                if (!already) {
+                  await github.rest.projects.createCard({ column_id: todoCol.id, content_id: issue.data.id, content_type: 'Issue', mediaType: { previews: ['inertia'] }});
+                  await sleep(200);
+                }
               }
             }
-            core.info(`Project ready: ${project.html_url}`);
+            core.info(project ? `Project ready: ${project.html_url}` : 'Seeded issues under label `improvements`. Enable Projects (classic) on this repo to get a board. Settings → General → Features → Projects');
