@@ -15,6 +15,7 @@ Tip: To quickly curate age‑appropriate videos and references for any assignmen
 ## Index
 
 - Social Studies: **[Black Excellence — Research Project](./social-studies/black-excellence-research/README.md)**
+- Social Studies: **[History of War — Turning Points & Institutions](./social-studies/history-of-war/README.md)**
 - STEM: **[Automotive Basics - Modern Cars & History](./stem/modern-cars-history/README.md)**
 - STEM: Biology — **[Water Cycle](./stem/biology/water-cycle/README.md)** · **[Plant Cells](./stem/biology/plant-cells/README.md)** · **[Animal Cells](./stem/biology/animal-cells/README.md)** · **[Photosynthesis](./stem/biology/photosynthesis/README.md)** · **[Reproduction](./stem/biology/reproduction/README.md)**
 - Money Management: **[Credit Scores 101](./personal-finance/credit-scores-101/README.md)**
