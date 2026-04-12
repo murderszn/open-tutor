@@ -27,6 +27,8 @@ permissions:
 jobs:
   purge:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Close or delete issues
         uses: actions/github-script@v7
@@ -35,32 +37,26 @@ jobs:
           # with admin rights, set it here instead to enable delete.
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const mode = core.getInput('mode');
-            const state = core.getInput('state');
+            // Sanitize inputs and provide robust defaults
+            const rawMode = core.getInput('mode') || 'close';
+            const mode = rawMode === 'delete' ? 'delete' : 'close';
+            const rawState = core.getInput('state') || 'open';
+            const listState = ['open','closed','all'].includes(rawState) ? rawState : 'open';
             const owner = context.repo.owner;
             const repo = context.repo.repo;
 
             const per_page = 100;
-            let page = 1;
             const items = [];
-
-            core.info(`Fetching issues (state=${state})...`);
-            while (true) {
-              const { data } = await github.rest.issues.listForRepo({
-                owner,
-                repo,
-                state,
-                per_page,
-                page,
-              });
-              if (!data.length) break;
-
-              for (const it of data) {
-                // Skip pull requests; REST lists them alongside issues
-                if (it.pull_request) continue;
-                items.push({ number: it.number, id: it.node_id });
-              }
-              page++;
+            core.info(`Fetching issues (state=${listState})...`);
+            const pages = await github.paginate(github.rest.issues.listForRepo, {
+              owner,
+              repo,
+              state: listState,
+              per_page,
+            });
+            for (const it of pages) {
+              if (it.pull_request) continue;
+              items.push({ number: it.number, id: it.node_id });
             }
 
             core.info(`Found ${items.length} issue(s) to process`);
