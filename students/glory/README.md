@@ -3,7 +3,7 @@
 # 🎀 Glory’s Workspace
 
 <p>
-  <img alt="Stage" src="https://img.shields.io/badge/Stage-Pre--K-pink?style=for-the-badge" />
+  <a href="./schedule.csv"><img alt="Stage" src="https://img.shields.io/badge/Stage-Pre--K-pink?style=for-the-badge" /></a>
   <a href="./schedule.csv"><img alt="Schedule" src="https://img.shields.io/badge/Open-Schedule.csv-FF7AB6?style=for-the-badge" /></a>
   <a href="../../resources/README.md"><img alt="Resources" src="https://img.shields.io/badge/Explore-Resources-059669?style=for-the-badge" /></a>
 </p>

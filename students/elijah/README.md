@@ -3,11 +3,11 @@
 # 🚀 Elijah’s Workspace
 
 <p>
-  <img alt="Grade" src="https://img.shields.io/badge/Grade-4-blue?style=for-the-badge" />
-  <img alt="Subjects" src="https://img.shields.io/badge/Math-✔︎-success?style=for-the-badge" />
-  <img alt="STEM" src="https://img.shields.io/badge/STEM-✔︎-success?style=for-the-badge" />
-  <img alt="Language Arts" src="https://img.shields.io/badge/LA-✔︎-success?style=for-the-badge" />
-  <img alt="Social Studies" src="https://img.shields.io/badge/Social_Studies-✔︎-success?style=for-the-badge" />
+  <a href="./grade-4/"><img alt="Grade" src="https://img.shields.io/badge/Grade-4-blue?style=for-the-badge" /></a>
+  <a href="./grade-4/math"><img alt="Math" src="https://img.shields.io/badge/Math-✔︎-success?style=for-the-badge" /></a>
+  <a href="./grade-4/stem"><img alt="STEM" src="https://img.shields.io/badge/STEM-✔︎-success?style=for-the-badge" /></a>
+  <a href="./grade-4/language-arts"><img alt="Language Arts" src="https://img.shields.io/badge/LA-✔︎-success?style=for-the-badge" /></a>
+  <a href="./grade-4/social-studies"><img alt="Social Studies" src="https://img.shields.io/badge/Social_Studies-✔︎-success?style=for-the-badge" /></a>
   <a href="./schedule.csv"><img alt="Schedule" src="https://img.shields.io/badge/Open-Schedule.csv-5B8DEF?style=for-the-badge" /></a>
   <a href="../../assignments/README.md"><img alt="Assignments" src="https://img.shields.io/badge/Browse-Assignments-7C3AED?style=for-the-badge" /></a>
   <a href="../../resources/README.md"><img alt="Resources" src="https://img.shields.io/badge/Explore-Resources-059669?style=for-the-badge" /></a>
