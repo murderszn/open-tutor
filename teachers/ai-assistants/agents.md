@@ -49,3 +49,6 @@ The deep-dive lecturer. Use this agent when you want the kids to learn a brand n
 
 ### 5. [Assessment Grader](assessment_grader.md)
 The objective evaluator. Paste the boys' completed essays, math worksheets, or project descriptions into this agent, and it will grade them against a parent-defined rubric, providing constructive praise and areas for improvement.
+
+### 6. [Report Card Generator & Progress Analyst](report_card_generator.md)
+Turns merged student work into report cards, charts, and a performance matrix. Computes accuracy, completion, and an interest/engagement index by subject using assignment volume, recency, and streaks.
