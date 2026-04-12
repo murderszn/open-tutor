@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>History of War • Timeline Builder (G7)</title>
     <style>
-      :root { --bg:#0b0b0c; --text:#f3f4f6; --muted:#a3a3a3; --card:#111315; --border:#1f2937; --good:#22c55e; --bad:#ef4444; --chip:#0f172a; --accent:#38bdf8; }
+      :root { --bg:#0b0b0c; --text:#f3f4f6; --muted:#a3a3a3; --card:#111315; --border:#1f2937; --good:#22c55e; --bad:#ef4444; --chip:#0f172a; --accent:#38bdf8; --slot-width: 220px; }
       @media (prefers-color-scheme: light){ :root{ --bg:#ffffff; --text:#111827; --muted:#6b7280; --card:#f8fafc; --border:#e5e7eb; --chip:#eef2ff; } }
       *{box-sizing:border-box}
       html, body { height: 100%; }
@@ -26,7 +26,7 @@
       .chip.dragging{opacity:0.6}
       .timeline{display:flex;gap:12px;margin-top:10px;overflow-x:auto;align-items:stretch;padding:12px;border:1px dashed var(--border);border-radius:12px;position:relative}
       .timeline::before{content:"";position:absolute;left:0;right:0;top:50%;height:2px;background:linear-gradient(90deg, rgba(148,163,184,0.25) 0%, rgba(148,163,184,0.25) 100%);transform:translateY(-50%);pointer-events:none}
-      .slot{min-height:110px;width:220px;border:2px dashed var(--border);border-radius:12px;padding:6px;display:flex;align-items:center;justify-content:center;text-align:center;background:rgba(148,163,184,0.08)}
+      .slot{min-height:110px;width:var(--slot-width);border:2px dashed var(--border);border-radius:12px;padding:6px;display:flex;align-items:center;justify-content:center;text-align:center;background:rgba(148,163,184,0.08)}
       .slot .label{color:var(--muted);font-size:12px}
       .slot.over{outline:2px solid var(--accent); outline-offset:2px}
       .slot.correct{border-color:rgba(34,197,94,0.6)}
@@ -48,7 +48,17 @@
       summary{cursor:pointer;font-weight:700}
       .sticky{position:sticky;top:0;background:linear-gradient(180deg, rgba(56,189,248,0.12), rgba(56,189,248,0.04));border:1px solid var(--border);border-radius:12px;margin-bottom:10px;z-index:2}
       .sticky .toolbar{justify-content:flex-start}
-   </style>
+      .hud{display:flex;gap:12px;align-items:center;justify-content:space-between;margin-top:6px}
+      .meter{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border:1px solid var(--border);border-radius:999px;background:var(--card);font-size:13px}
+      .meter b{font-size:14px}
+      .scale{position:relative; height:36px; margin-top:8px; overflow:hidden}
+      .scale .tick{position:absolute; top:0; bottom:0; width:1px; background:rgba(148,163,184,0.35)}
+      .scale .tick label{position:absolute; top:16px; transform:translateX(-50%); font-size:11px; color:var(--muted)}
+      /* Confetti */
+      .confetti{position:fixed; inset:0; pointer-events:none; overflow:hidden;}
+      .confetti i{position:absolute; font-size:18px; will-change:transform, opacity; animation: fall 1.6s ease-in forwards}
+      @keyframes fall{ from{ transform:translateY(-10vh) rotate(0deg); opacity:1 } to{ transform:translateY(110vh) rotate(540deg); opacity:0 } }
+    </style>
   </head>
   <body>
     <div class="wrap">
@@ -58,26 +68,35 @@
         <div class="toolbar">
           <button id="fullscreenBtn">Full Screen</button>
         </div>
+        <div class="hud">
+          <div class="meter"><span>Placed:</span> <b id="placedCount">0</b>/<span id="totalCount">0</span></div>
+          <div class="meter"><span>Correct order:</span> <b id="correctCount">0</b>/<span id="totalCount2">0</span></div>
+        </div>
       </div>
 
-      <div class="grid two">
+      <div class="card">
+        <strong>1) Arrange the Timeline</strong>
+        <div class="toolbar">
+          <button id="shuffleBtn">Shuffle</button>
+          <button id="resetBtn">Reset</button>
+        </div>
+        <div class="scale" id="scale"></div>
+        <div class="timeline" id="timeline" aria-label="Timeline slots"></div>
+        <div id="orderStatus" class="status hint"></div>
+      </div>
+
+      <div class="grid two" style="margin-top:12px">
         <div class="card">
-          <strong>1) Arrange the Timeline</strong>
-          <div class="toolbar">
-            <button id="shuffleBtn">Shuffle</button>
-            <button id="checkOrderBtn">Check Order</button>
-            <button id="resetBtn">Reset</button>
-          </div>
+          <strong>2) War Cards</strong>
+          <p class="small">Drag a war into a timeline slot. Drag again to another slot to reorder or back to the pool to remove.</p>
           <div id="warPool" class="war-pool" aria-label="Draggable wars pool"></div>
-          <div class="timeline" id="timeline" aria-label="Timeline slots"></div>
-          <div id="orderStatus" class="status hint"></div>
         </div>
 
         <div class="card">
-          <strong>2) Assign the Flags</strong>
-          <p class="small">Drag flags from the palette into each war’s Sides box. One or more flags per side is fine; focus on the principal states.</p>
+          <strong>3) Flag Palette</strong>
+          <p class="small">Open a war below and drop at least one principal flag on each side.</p>
           <div id="flagPool" class="flag-pool" aria-label="Flag palette"></div>
-          <div id="flagsStatus" class="status hint"></div>
+          <div class="toolbar"><button id="checkFlagsBtn">Check Flags</button><div id="flagsStatus" class="status hint"></div></div>
         </div>
       </div>
 
@@ -86,6 +105,7 @@
       <p class="hint" style="margin-top:10px">References: See the Global Conflicts guide for context — <a href="../../../../../resources/wars_fundamentals.md">wars_fundamentals.md</a></p>
     </div>
 
+    <div class="confetti" id="confetti"></div>
     <script>
       const WARS = [
         { id:'thirty', name:"Thirty Years’ War", years:"1618–1648", start:1618, end:1648, sides:{A:['🇩🇪','🇪🇸','🇦🇹'], B:['🇸🇪','🇫🇷']} },
@@ -137,6 +157,24 @@
         }
       }
 
+      function renderScale(){
+        const s = $('#scale'); s.innerHTML='';
+        const min = Math.min(...WARS.map(w=>w.start));
+        const max = Math.max(...WARS.map(w=> w.end===9999 ? new Date().getFullYear() : w.end));
+        const span = max - min;
+        const step = span > 300 ? 50 : 25;
+        const tl = $('#timeline');
+        const tlWidth = tl.clientWidth || window.innerWidth * 0.9;
+        for (let y=Math.ceil(min/step)*step; y<=max; y+=step){
+          const pct = (y - min) / span;
+          const x = pct * tlWidth;
+          const tick = el('div', {class:'tick'});
+          tick.style.left = x + 'px';
+          tick.append(el('label', {}, String(y)));
+          s.append(tick);
+        }
+      }
+
       function renderFlagPool(){
         const pool = $('#flagPool'); pool.innerHTML='';
         FLAGS.forEach(f => {
@@ -182,12 +220,18 @@
             const id = data.split(':')[1];
             // Only allow wars into timeline slots
             if (target.classList.contains('slot')){
-              // Remove existing child war if present
-              const existing = target.querySelector('.war'); if (existing) existing.remove();
+              const originCard = document.querySelector(`.war[data-warid="${id}"]`);
+              const originSlot = originCard?.closest('.slot');
+              const targetCard = target.querySelector('.war');
+              if (originSlot){
+                // Swap with target slot card (if exists)
+                if (targetCard){ originSlot.innerHTML=''; originSlot.append(targetCard); }
+              }
               const war = WARS.find(w=>w.id===id);
               const card = el('div', { class:'war', draggable:'true', dataset:{ warid:war.id }}, el('div', {class:'name'}, war.name), el('div', {class:'years'}, war.years));
               attachDnD(card);
               target.innerHTML=''; target.append(card);
+              updateProgress();
             }
           } else if (data.startsWith('flag:')){
             const flag = data.split(':')[1];
@@ -195,6 +239,8 @@
               const chip = el('div', { class:'flag-chip', draggable:'true', dataset:{ flag }}, el('span', {class:'emoji'}, flag));
               attachDnD(chip);
               target.append(chip);
+              // optional: show quick status
+              checkFlags();
             }
           }
         });
@@ -206,8 +252,9 @@
       }
 
       function resetAll(){
-        renderWarPool(); renderTimeline(); renderFlagPool(); renderFlagSections();
+        renderWarPool(); renderTimeline(); renderScale(); renderFlagPool(); renderFlagSections();
         $('#orderStatus').textContent = ''; $('#flagsStatus').textContent='';
+        updateProgress(true);
       }
 
       function checkOrder(){
@@ -228,7 +275,14 @@
           if (shouldBe && shouldBe.id === p.war.id){ correct++; slot.classList.add('correct'); } else { slot.classList.add('wrong'); }
         });
         $('#orderStatus').innerHTML = total===0 ? 'Drag wars into slots, earliest → latest.' : (correct===total ? `<span class="good">Great! ${correct}/${total} in correct order.</span>` : `<span class="bad">${correct}/${total} in correct order.</span> Drag to adjust.`);
+        $('#placedCount').textContent = String(total);
+        $('#correctCount').textContent = String(correct);
+        $('#totalCount').textContent = String(WARS.length);
+        $('#totalCount2').textContent = String(WARS.length);
+        if (total === WARS.length && correct === WARS.length) launchConfetti();
       }
+
+      function updateProgress(clear){ if (clear){ $('#placedCount').textContent='0'; $('#correctCount').textContent='0'; $('#totalCount').textContent=String(WARS.length); $('#totalCount2').textContent=String(WARS.length);} checkOrder(); }
 
       function checkFlags(){
         let ok=0, total=WARS.length;
@@ -246,7 +300,16 @@
       }
 
       // Init
-      renderWarPool(); renderTimeline(); renderFlagPool(); renderFlagSections();
+      function sizeSlots(){
+        const tl = $('#timeline'); if (!tl) return;
+        const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+        const available = vw - 64; // padding allowance
+        const ideal = Math.max(180, Math.min(320, Math.floor(available / (WARS.length + 2))));
+        document.documentElement.style.setProperty('--slot-width', ideal + 'px');
+      }
+
+      renderWarPool(); renderTimeline(); renderScale(); renderFlagPool(); renderFlagSections(); sizeSlots(); updateProgress(true);
+      window.addEventListener('resize', ()=>{ sizeSlots(); renderScale(); });
       $('#shuffleBtn').addEventListener('click', ()=>{ WARS.sort(()=>Math.random()-0.5); renderWarPool(); $('#orderStatus').textContent=''; });
       $('#checkOrderBtn').addEventListener('click', checkOrder);
       $('#resetBtn').addEventListener('click', resetAll);
@@ -257,7 +320,22 @@
         else { await document.exitFullscreen().catch(()=>{}); fsBtn.textContent='Full Screen'; }
       });
       // Check flags on click anywhere in flags card toolbar area
-      const flagsCard = $('#flagPool').parentElement; const btn = el('button', {}, 'Check Flags'); flagsCard.querySelector('.toolbar')?.append(btn) || flagsCard.append(el('div',{class:'toolbar'},btn)); btn.addEventListener('click', checkFlags);
+      const flagsCardBtn = document.getElementById('checkFlagsBtn'); flagsCardBtn?.addEventListener('click', checkFlags);
+
+      function launchConfetti(){
+        const box = $('#confetti');
+        if (!box) return; box.innerHTML='';
+        const EMO = ['🎉','✨','🟦','🟨','🟥','🟩','⭐️'];
+        for (let i=0;i<60;i++){
+          const iEl = document.createElement('i');
+          iEl.textContent = EMO[Math.floor(Math.random()*EMO.length)];
+          iEl.style.left = Math.random()*100 + 'vw';
+          iEl.style.animationDelay = (Math.random()*0.6) + 's';
+          iEl.style.opacity = '0.9';
+          box.append(iEl);
+        }
+        setTimeout(()=>{ box.innerHTML=''; }, 1800);
+      }
     </script>
   </body>
   </html>
