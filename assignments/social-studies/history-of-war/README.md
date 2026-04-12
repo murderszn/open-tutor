@@ -22,9 +22,12 @@ Core reference: ../../../../resources/wars_fundamentals.md
 - Prompt: “How did WWI and WWII redirect global leadership, and what echoes show up in today’s [chosen modern conflict]?”
 - Include one map or figure reference (describe it) and a 1–2 sentence note to verify current details with multiple reputable sources.
 
+4) Interactive Timeline (Drag & Drop)
+- Open the mini‑site and place the wars in chronological order, then assign flags to the two sides for each war: `./resources/timeline/index.html`
+
 ## Deliverables
 - Path: `students/caleb/grade-7/social-studies/assignments/history-of-war.md`
-- Structure: `# Timeline Thread` · `# Institutions One‑Pager` · `# Short Brief`
+- Structure: `# Timeline Thread` · `# Institutions One‑Pager` · `# Short Brief` · `# Interactive Timeline (screenshot + notes)`
 
 ## Rubric (10 pts)
 - 4 — Accurate timeline facts + clear cause/turning point/outcome bullets

@@ -13,3 +13,9 @@ Quick links
 ## Short Brief (400–600 words)
 
 Verification note: I will verify current details with multiple reputable sources.
+
+## Interactive Timeline (Drag & Drop)
+
+Open the mini‑site and complete the drag‑and‑drop: `assignments/social-studies/history-of-war/resources/timeline/index.html`
+
+- Add a screenshot of your completed timeline here and list any flags you weren’t sure about.
