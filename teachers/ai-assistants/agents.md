@@ -23,6 +23,8 @@ You can use these text files to turn any standard AI (like ChatGPT, Gemini, or C
   - [World Facts](../../resources/world_facts.md)
   - [Weights & Measures](../../resources/weights_and_measures.md)
   - [Financial Tools & Principles](../../resources/financial_tools_and_principles.md)
+  - [Physics Fundamentals](../../resources/physics_fundamentals.md)
+  - [Chemistry Fundamentals](../../resources/chemistry_fundamentals.md)
   - [Biology Fundamentals](../../resources/biology_fundamentals.md)
   - [Global Conflicts & State-Building](../../resources/wars_fundamentals.md)
   - [GitHub Actions Helper](./github_actions_helper.md)
@@ -75,3 +77,4 @@ Given an assignment and grade, proposes targeted search queries and returns a cu
 - Cite internal resources above with relative links.
 - Match tone and rigor to the specified student and grade.
 - When adding or updating an agent prompt, also update this file’s Core Materials list if new guides are added.
+ - When an internal guide is missing, include 1–2 Wikipedia links for high‑level concepts and vocabulary as click‑through references. Prefer .gov/.edu where available; keep links age‑appropriate.

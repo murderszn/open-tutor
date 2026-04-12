@@ -2,6 +2,16 @@
 
 A practical, age‑appropriate guide to money, markets, and smart habits. Use this for Social Studies, STEM math practice, and real‑life prep.
 
+## 🔗 Wikipedia Quick Links
+- Exchange rate — https://en.wikipedia.org/wiki/Exchange_rate · Inflation — https://en.wikipedia.org/wiki/Inflation
+- Compound interest — https://en.wikipedia.org/wiki/Compound_interest · Time value of money — https://en.wikipedia.org/wiki/Time_value_of_money
+- APR — https://en.wikipedia.org/wiki/Annual_percentage_rate · APY — https://en.wikipedia.org/wiki/Annual_percentage_yield
+- Stock — https://en.wikipedia.org/wiki/Stock · Bond — https://en.wikipedia.org/wiki/Bond_(finance)
+- Mutual fund — https://en.wikipedia.org/wiki/Mutual_fund · Exchange-traded fund — https://en.wikipedia.org/wiki/Exchange-traded_fund · Index fund — https://en.wikipedia.org/wiki/Index_fund
+- REIT — https://en.wikipedia.org/wiki/Real_estate_investment_trust
+- Mortgage — https://en.wikipedia.org/wiki/Mortgage_loan · Amortization — https://en.wikipedia.org/wiki/Amortization_calculator#Loan_amortization
+- Credit score — https://en.wikipedia.org/wiki/Credit_score_in_the_United_States · Budget — https://en.wikipedia.org/wiki/Budget
+
 ---
 
 ## 🧭 How To Use This (Age Tracks)

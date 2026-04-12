@@ -2,6 +2,26 @@
 
 Welcome to the ultimate cheat sheet for measuring, weighing, and converting! This guide will help you understand how different units relate to each other, both in the US Customary System (Standard) and the Metric System.
 
+## 🔗 Quick Links (Wikipedia)
+- Metric system — https://en.wikipedia.org/wiki/Metric_system
+- SI units — https://en.wikipedia.org/wiki/International_System_of_Units
+- Imperial/US customary units — https://en.wikipedia.org/wiki/United_States_customary_units
+- Unit conversion — https://en.wikipedia.org/wiki/Conversion_of_units
+- Dimensional analysis — https://en.wikipedia.org/wiki/Dimensional_analysis
+- Significant figures — https://en.wikipedia.org/wiki/Significant_figures
+- Fahrenheit — https://en.wikipedia.org/wiki/Fahrenheit · Celsius — https://en.wikipedia.org/wiki/Celsius · Kelvin — https://en.wikipedia.org/wiki/Kelvin
+- Digital storage — https://en.wikipedia.org/wiki/Data_storage
+- Time zone — https://en.wikipedia.org/wiki/Time_zone
+
+## 🗂️ Vocabulary (kid‑friendly)
+- Unit: an agreed amount used to measure something (meter m, liter L, gram g).
+- Prefix: word part that scales a unit (kilo = ×1000, milli = ÷1000).
+- Conversion factor: number you multiply/divide by to change units.
+- Accuracy vs precision: accurate = close to true value; precise = repeatable/clustered.
+- Significant figures: the digits that carry meaning about precision in a number.
+- Temperature scales: Fahrenheit (°F), Celsius (°C), Kelvin (K).
+- Dimensional analysis: method that tracks units to convert and check equations.
+
 ---
 
 ## 🥛 Volume & Liquid Measurements (US Customary)

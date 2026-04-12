@@ -1,5 +1,8 @@
 # 🔬 Science Quiz — Week 03 (Energy & Heat + Review)
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+
 1) Circle which is warmer: hot cocoa or ice water.
 2) Name one way heat can move (conduction, convection, or radiation).
 3) Give a real example of your answer to Q2.
@@ -10,4 +13,3 @@
 8) What happens to air when it gets hot (expand/rise or contract/fall)?
 9) Draw arrows to show heat moving from a hot object to a cold one.
 10) Bonus: Why do we wear oven mitts when taking hot food out of the oven?
-

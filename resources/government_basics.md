@@ -4,6 +4,13 @@ Context & origins: see [United States — Understanding & Principles](./united_s
 
 A clean, age‑appropriate guide to the three branches of the U.S. government and major agencies. Use this for Social Studies reference and projects.
 
+## 🔗 Wikipedia Quick Links
+- United States Constitution — https://en.wikipedia.org/wiki/United_States_Constitution
+- Separation of powers — https://en.wikipedia.org/wiki/Separation_of_powers · Checks and balances — https://en.wikipedia.org/wiki/Checks_and_balances
+- Federalism in the United States — https://en.wikipedia.org/wiki/Federalism_in_the_United_States
+- Congress — https://en.wikipedia.org/wiki/United_States_Congress · President of the United States — https://en.wikipedia.org/wiki/President_of_the_United_States · Supreme Court — https://en.wikipedia.org/wiki/Supreme_Court_of_the_United_States
+- Administrative law — https://en.wikipedia.org/wiki/Administrative_law · Executive order — https://en.wikipedia.org/wiki/Executive_order
+
 ---
 
  

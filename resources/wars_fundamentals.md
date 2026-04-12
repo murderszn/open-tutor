@@ -2,6 +2,23 @@
 
 This guide highlights major wars and conflicts that redirected world leadership, redrew borders, or created new institutions and governments. It’s a study companion for understanding why certain events loom large in history.
 
+## 🔗 Wikipedia Quick Links
+- List of wars — https://en.wikipedia.org/wiki/List_of_wars · Military alliance — https://en.wikipedia.org/wiki/Military_alliance
+- Balance of power — https://en.wikipedia.org/wiki/Balance_of_power_(international_relations)
+- State sovereignty — https://en.wikipedia.org/wiki/Westphalian_sovereignty
+- Treaty — https://en.wikipedia.org/wiki/Treaty · Armistice — https://en.wikipedia.org/wiki/Armistice · Ceasefire — https://en.wikipedia.org/wiki/Ceasefire
+- United Nations — https://en.wikipedia.org/wiki/United_Nations · NATO — https://en.wikipedia.org/wiki/NATO
+- Decolonization — https://en.wikipedia.org/wiki/Decolonization · Cold War — https://en.wikipedia.org/wiki/Cold_War · Proxy war — https://en.wikipedia.org/wiki/Proxy_war
+
+## 🗂️ Vocabulary (linked)
+- Sovereignty: the authority of a state to govern itself.
+- Alliance: agreement to cooperate for defense or other aims.
+- Armistice / Ceasefire: pause in fighting; can lead to a treaty.
+- Treaty: a formal agreement between states (borders, peace, trade).
+- Balance of power: strategy to prevent any one state from dominating.
+- Deterrence: discouraging action through the threat of retaliation.
+- Proxy war: outside powers fight indirectly via local groups.
+
 How to read wars
 - Causes: resources, ideology, power balance, alliances, colonialism.
 - Outcomes: borders, new states, treaties, institutions, economic orders.
@@ -84,4 +101,3 @@ Note on current events: Details in the 2020s change quickly. Always check multip
 
 ---
 This guide is a simplified overview for students. For depth, follow the Wikipedia links and compare with Britannica, PBS, and university sources.
-

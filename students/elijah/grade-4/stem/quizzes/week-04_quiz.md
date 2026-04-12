@@ -1,5 +1,8 @@
 # 🔬 Science Quiz — Week 04 (Motion & Forces + Review)
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+
 1) What is speed? (distance ÷ time)
 2) A toy car rolls 4 meters in 2 seconds. What is its average speed?
 3) Name one force that slows things down when they rub (friction).
@@ -10,4 +13,3 @@
 8) Draw arrows to show forces on a book resting on a table (down by gravity, up by table).
 9) Circle the better ramp for going faster: steep ramp OR gentle ramp (assume safe).
 10) Why is it easier to push a toy car than a heavy real car?
-

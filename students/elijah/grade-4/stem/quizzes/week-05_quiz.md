@@ -1,5 +1,8 @@
 # 🔬 Science Quiz — Week 05 (Waves & Light + Review)
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+
 1) Sound is made when something __________ (vibrates / melts).
 2) Light usually travels in straight lines until it __________ (reflects / freezes).
 3) Draw a simple wave and label one crest and one trough.
@@ -10,4 +13,3 @@
 8) Give one example of a reflection in everyday life.
 9) Circle: Can sound travel through space (vacuum)? Yes / No.
 10) Bonus: Name one color of visible light.
-

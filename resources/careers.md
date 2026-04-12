@@ -4,6 +4,24 @@
 
 A quick, student‑friendly guide to common and emerging careers. Ranges are rough U.S. estimates; always check current data (see Sources) and local markets.
 
+## 🔗 Wikipedia Quick Links
+- Career — https://en.wikipedia.org/wiki/Career · Vocation — https://en.wikipedia.org/wiki/Vocation
+- Apprenticeship — https://en.wikipedia.org/wiki/Apprenticeship · Vocational education — https://en.wikipedia.org/wiki/Vocational_education
+- Résumé — https://en.wikipedia.org/wiki/R%C3%A9sum%C3%A9 · Curriculum vitae — https://en.wikipedia.org/wiki/Curriculum_vitae · Portfolio — https://en.wikipedia.org/wiki/Portfolio_(professional)
+- Professional certification — https://en.wikipedia.org/wiki/Professional_certification · Accreditation — https://en.wikipedia.org/wiki/Accreditation
+- Soft skills — https://en.wikipedia.org/wiki/Soft_skills · Hard skills — https://en.wikipedia.org/wiki/Hard_skills
+- Internship — https://en.wikipedia.org/wiki/Internship · Mentorship — https://en.wikipedia.org/wiki/Mentorship
+
+## 🗂️ Vocabulary (linked)
+- Résumé/CV: a 1–2 page summary of skills, education, experience (CV longer for academia/research).
+- Portfolio: examples of your best work (designs, code, writing) to show employers.
+- Apprenticeship: paid on‑the‑job training toward a skilled trade.
+- Certification: recognized exam/credential proving knowledge (e.g., CompTIA, AWS, CPA).
+- Accreditation: outside quality check for schools/programs.
+- Soft skills: communication, teamwork, reliability; often the tie‑breaker.
+- Hard skills: specific abilities you can test or demo (Python, CAD, CPR).
+- Internship: short, supervised work experience to learn by doing.
+
 ---
 
 ## How To Read This

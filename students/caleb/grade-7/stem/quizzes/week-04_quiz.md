@@ -2,6 +2,10 @@
 
 New: Q1–Q6. Review: Q7–Q10.
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+- [Physical Science Roadmap](../../../../../assignments/science/physical-science-roadmap/README.md)
+
 1) Distinguish temperature vs heat with an example.
 2) Name the three heat transfer modes and give one real example of each.
 3) Define specific heat capacity in words.
@@ -12,4 +16,3 @@ New: Q1–Q6. Review: Q7–Q10.
 8) Classify: melting, dissolving, burning as physical/chemical changes.
 9) Convert 1.5 hours to seconds and to minutes.
 10) Convert 32°C to K (Kelvin).
-

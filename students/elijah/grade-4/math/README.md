@@ -15,6 +15,9 @@ This year will follow standard 4th-grade math concepts:
 ## 📝 Weekly Assessments
 *   **[12-Week Quiz Guide](./quizzes/)**: A folder containing 12 individual weekly quizzes, each with 20 questions covering all 4th-grade math topics. Have Elijah complete one quiz every Friday.
 
+## 📐 Featured Assignment
+*   **Golden Ratio — Explore and Draw**: See the shared spec at `assignments/math/golden-ratio/README.md` and your stub at `students/elijah/grade-4/math/assignments/golden-ratio.md`.
+
 ## 🎮 Interactive Math Games & Practice
 
 *   **[Prodigy Math](https://www.prodigygame.com/main-en/)**: An adventure game where you catch pets and battle monsters by correctly answering 4th-grade math questions!

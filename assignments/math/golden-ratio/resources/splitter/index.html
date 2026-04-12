@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Golden Ratio Splitter — Fullscreen</title>
+  <style>
+    :root { --bg:#0f1216; --fg:#f6f7f9; --muted:#98a2b3; --accent:#f59e0b; }
+    html, body { height: 100%; margin: 0; background: var(--bg); color: var(--fg); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; }
+    .topbar { position: fixed; top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 12px; padding: 10px 14px; background: rgba(15,18,22,0.6); backdrop-filter: blur(6px); border-bottom: 1px solid rgba(255,255,255,0.06); z-index: 10; }
+    .topbar a { color: var(--fg); text-decoration: none; border-bottom: 1px dotted var(--muted); }
+    .controls { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    button, input[type="range"] { cursor: pointer; }
+    button { background: #232933; color: var(--fg); border: 1px solid #394150; padding: 6px 10px; border-radius: 6px; }
+    button:hover { background: #2b3340; }
+    .stat { color: var(--muted); font-size: 13px; }
+    #stage { position: absolute; inset: 0; }
+    canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+    .hint { position: fixed; bottom: 10px; left: 14px; right: 14px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="controls">
+      <button id="play">Play</button>
+      <button id="pause" style="display:none">Pause</button>
+      <button id="stepBack">-1</button>
+      <input id="steps" type="range" min="0" max="12" step="1" value="0" />
+      <button id="stepFwd">+1</button>
+      <button id="reset">Reset</button>
+      <span class="stat" id="phiStat">φ ≈ 1.6180339887</span>
+      <span class="stat" id="ratioStat"></span>
+    </div>
+    <div style="margin-left:auto" class="stat">
+      <a href="https://en.wikipedia.org/wiki/Golden_ratio" target="_blank" rel="noopener">Golden ratio — Wikipedia</a>
+    </div>
+  </div>
+  <div id="stage"><canvas id="c"></canvas></div>
+  <div class="hint">Tip: Resize the window or use the slider to see how the rectangle splits into a square and a smaller golden rectangle at each step. Colors: square regions are highlighted; thin lines show split boundaries.</div>
+
+  <script>
+    const phi = (1 + Math.sqrt(5)) / 2;
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const stepsEl = document.getElementById('steps');
+    const playBtn = document.getElementById('play');
+    const pauseBtn = document.getElementById('pause');
+    const resetBtn = document.getElementById('reset');
+    const stepFwdBtn = document.getElementById('stepFwd');
+    const stepBackBtn = document.getElementById('stepBack');
+    const ratioStat = document.getElementById('ratioStat');
+
+    let anim = null;
+
+    function fitGoldenRect() {
+      const W = window.innerWidth, H = window.innerHeight;
+      // target aspect = phi (width / height)
+      let w, h;
+      if (W / H > phi) { // too wide; bound by height
+        h = Math.min(H - 40, H); // leave a bit under topbar
+        w = h * phi;
+      } else { // too tall; bound by width
+        w = Math.min(W, W);
+        h = w / phi;
+      }
+      const x = (W - w) / 2;
+      const y = (H - h) / 2 + 12; // nudge for topbar
+      return { x, y, w, h };
+    }
+
+    function clear() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--bg');
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+    }
+
+    function drawRect(x, y, w, h, stroke='#e5e7eb', line=2) {
+      ctx.lineWidth = line; ctx.strokeStyle = stroke; ctx.strokeRect(x, y, w, h);
+    }
+    function fillRect(x, y, w, h, fill='rgba(245,158,11,0.15)') {
+      ctx.fillStyle = fill; ctx.fillRect(x, y, w, h);
+    }
+
+    function drawSplitter(x, y, w, h, n, horizontal=true) {
+      // Base rectangle outline
+      drawRect(x, y, w, h, '#94a3b8', 2);
+      let cx = x, cy = y, cw = w, ch = h;
+      let dir = 0; // for color cycling
+
+      for (let i = 0; i < n; i++) {
+        ctx.lineWidth = 1.5;
+        ctx.strokeStyle = 'rgba(255,255,255,0.55)';
+        // Split into square + remaining rectangle
+        if (horizontal) {
+          const s = ch; // square size
+          // square on the left
+          fillRect(cx, cy, s, s, 'rgba(245,158,11,0.18)');
+          drawRect(cx, cy, s, s, '#f59e0b', 1.6);
+          // divider line
+          ctx.beginPath(); ctx.moveTo(cx + s, cy); ctx.lineTo(cx + s, cy + ch); ctx.stroke();
+          // remaining rectangle to the right
+          cx = cx + s; cw = cw - s; // ch unchanged
+        } else {
+          const s = cw; // square size across the top
+          fillRect(cx, cy, s, s, 'rgba(245,158,11,0.18)');
+          drawRect(cx, cy, s, s, '#f59e0b', 1.6);
+          // divider line
+          ctx.beginPath(); ctx.moveTo(cx, cy + s); ctx.lineTo(cx + cw, cy + s); ctx.stroke();
+          // remaining rectangle below
+          cy = cy + s; ch = ch - s; // cw unchanged
+        }
+        if (cw <= 1 || ch <= 1) break;
+        horizontal = !horizontal; dir++;
+      }
+    }
+
+    function draw() {
+      canvas.width = window.innerWidth * devicePixelRatio;
+      canvas.height = window.innerHeight * devicePixelRatio;
+      ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
+      clear();
+      const box = fitGoldenRect();
+      // Outer golden rectangle background
+      fillRect(box.x, box.y, box.w, box.h, 'rgba(99,102,241,0.10)');
+      drawSplitter(box.x, box.y, box.w, box.h, Number(stepsEl.value), (box.w >= box.h));
+      updateRatioStat(box);
+    }
+
+    function updateRatioStat(box) {
+      const long = Math.max(box.w, box.h);
+      const short = Math.min(box.w, box.h);
+      const r = long / short;
+      ratioStat.textContent = `Aspect ≈ ${r.toFixed(4)}  (target φ ≈ ${phi.toFixed(4)})`;
+    }
+
+    function play() {
+      playBtn.style.display = 'none';
+      pauseBtn.style.display = 'inline-block';
+      if (anim) cancelAnimationFrame(anim);
+      const max = Number(stepsEl.max);
+      function tick() {
+        const cur = Number(stepsEl.value);
+        if (cur < max) {
+          stepsEl.value = String(cur + 1);
+          draw();
+          anim = setTimeout(() => requestAnimationFrame(tick), 700);
+        } else {
+          pause();
+        }
+      }
+      tick();
+    }
+    function pause() {
+      playBtn.style.display = 'inline-block';
+      pauseBtn.style.display = 'none';
+      if (anim) { clearTimeout(anim); anim = null; }
+    }
+
+    // Events
+    window.addEventListener('resize', draw);
+    stepsEl.addEventListener('input', draw);
+    resetBtn.addEventListener('click', () => { stepsEl.value = '0'; draw(); });
+    stepFwdBtn.addEventListener('click', () => { stepsEl.value = String(Math.min(Number(stepsEl.max), Number(stepsEl.value) + 1)); draw(); });
+    stepBackBtn.addEventListener('click', () => { stepsEl.value = String(Math.max(Number(stepsEl.min), Number(stepsEl.value) - 1)); draw(); });
+    playBtn.addEventListener('click', play);
+    pauseBtn.addEventListener('click', pause);
+
+    draw();
+  </script>
+</body>
+</html>
+

@@ -1,5 +1,11 @@
 # 🔬 Science Quiz — Week 07 (Cumulative I)
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+- [Chemistry Fundamentals](../../../../../resources/chemistry_fundamentals.md)
+- [Biology Fundamentals](../../../../../resources/biology_fundamentals.md)
+- [Weights, Measures & Conversions](../../../../../resources/weights_and_measures.md)
+
 1) Convert 150 cm to meters.
 2) Three states of matter are: __________, __________, __________.
 3) Name one way heat moves and give an example.
@@ -10,4 +16,3 @@
 8) Draw a book sitting on a table and show arrows for forces.
 9) Why do we write units with numbers?
 10) Bonus: Which travels in space better: sound or light?
-

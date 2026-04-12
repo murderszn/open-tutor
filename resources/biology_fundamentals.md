@@ -2,6 +2,24 @@
 
 A single, student‑friendly reference that supports this term’s STEM biology assignments. Includes quick explanations, simple diagrams, and links to trusted sources.
 
+## 🔗 Quick Links (Wikipedia)
+- Biology — https://en.wikipedia.org/wiki/Biology · Cell — https://en.wikipedia.org/wiki/Cell_(biology)
+- Organelle — https://en.wikipedia.org/wiki/Organelle · Mitochondrion — https://en.wikipedia.org/wiki/Mitochondrion · Chloroplast — https://en.wikipedia.org/wiki/Chloroplast
+- Photosynthesis — https://en.wikipedia.org/wiki/Photosynthesis · Cellular respiration — https://en.wikipedia.org/wiki/Cellular_respiration
+- Water cycle — https://en.wikipedia.org/wiki/Water_cycle · Ecosystem — https://en.wikipedia.org/wiki/Ecosystem
+- Mitosis — https://en.wikipedia.org/wiki/Mitosis · Meiosis — https://en.wikipedia.org/wiki/Meiosis · Homeostasis — https://en.wikipedia.org/wiki/Homeostasis
+
+## 🗂️ Vocabulary (kid‑friendly)
+- Cell: the basic unit of life; smallest unit that can live and reproduce.
+- Organelle: tiny parts inside cells that do jobs (e.g., nucleus, mitochondria, chloroplasts).
+- Nucleus: control center of eukaryotic cells that holds DNA.
+- Mitochondria: “powerhouses” that release energy from food.
+- Chloroplasts: green parts in plant cells that capture sunlight for photosynthesis.
+- Photosynthesis: using sunlight to make sugar from water and carbon dioxide.
+- Cellular respiration: releasing energy from sugar using oxygen.
+- Mitosis vs meiosis: cell division for growth/repair vs making egg/sperm with half the DNA.
+- Homeostasis: keeping body/cell conditions steady (like temperature, water, pH).
+- Ecosystem: living things and nonliving environment working together.
 ## 💧 Water Cycle
 
 The continuous movement of water on, above, and below Earth’s surface driven by the Sun.

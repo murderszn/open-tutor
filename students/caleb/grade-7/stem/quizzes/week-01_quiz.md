@@ -2,6 +2,11 @@
 
 Instructions: Show units on every number. Round reasonably and include 1–2 sentences for explanations.
 
+Resources you may use (Learning Center):
+- [Weights, Measures & Conversions](../../../../../resources/weights_and_measures.md)
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+- [Physical Science Roadmap](../../../../../assignments/science/physical-science-roadmap/README.md)
+
 1) Identify the SI base unit for length, mass, time, and temperature.
 2) Convert 6.5 km to meters and centimeters.
 3) Convert 72 cm to meters and millimeters.
@@ -12,4 +17,3 @@ Instructions: Show units on every number. Round reasonably and include 1–2 sen
 8) Report 0.004520 with 3 significant figures in scientific notation.
 9) Perform dimensional analysis: (60 miles/hour) × (1.609 km/1 mile) × (1000 m/1 km). Give the final unit.
 10) Why do scientists prefer SI units for international collaboration?
-

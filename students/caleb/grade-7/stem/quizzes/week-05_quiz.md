@@ -2,6 +2,10 @@
 
 New: Q1–Q6. Review: Q7–Q10.
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+- [Physical Science Roadmap](../../../../../assignments/science/physical-science-roadmap/README.md)
+
 1) Define displacement, velocity, and acceleration.
 2) A runner goes from 0 to 8 m/s in 4 s. Average acceleration?
 3) On a velocity–time graph, what does the area under the curve represent?
@@ -12,4 +16,3 @@ New: Q1–Q6. Review: Q7–Q10.
 8) Name the three heat transfer modes.
 9) Covalent vs ionic: which shares electrons?
 10) Convert 18 km/h to m/s.
-

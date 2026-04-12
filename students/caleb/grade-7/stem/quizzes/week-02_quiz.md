@@ -2,6 +2,10 @@
 
 Instructions: Show work. New content Q1–Q6. Review Q7–Q10.
 
+Resources you may use (Learning Center):
+- [Chemistry Fundamentals](../../../../../resources/chemistry_fundamentals.md)
+- [Physical Science Roadmap](../../../../../assignments/science/physical-science-roadmap/README.md)
+
 1) Define: atom, element, isotope. Give an example isotope.
 2) A neutral atom has 11 protons and 12 neutrons. How many electrons? Name the element and write its isotope notation.
 3) Where are protons, neutrons, and electrons located? Which two contribute most to atomic mass?
@@ -12,4 +16,3 @@ Instructions: Show work. New content Q1–Q6. Review Q7–Q10.
 8) Convert 45 mph to m/s (1 mile ≈ 1609 m).
 9) Round 0.003406 to 2 significant figures; write in scientific notation.
 10) Explain the difference between accuracy and precision in a short scenario.
-

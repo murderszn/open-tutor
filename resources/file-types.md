@@ -4,6 +4,21 @@ When you work on a computer, save a document, download an image, or write code, 
 
 As you explore computer science, programming, and general productivity, you will encounter many different file types. Here is a master cheat sheet!
 
+## 🔗 Wikipedia Quick Links
+- File format — https://en.wikipedia.org/wiki/File_format · Filename extension — https://en.wikipedia.org/wiki/Filename_extension
+- MIME type — https://en.wikipedia.org/wiki/Media_type · Character encoding — https://en.wikipedia.org/wiki/Character_encoding
+- Compression — https://en.wikipedia.org/wiki/Data_compression · Lossy vs lossless — https://en.wikipedia.org/wiki/Lossy_compression
+- Raster graphics — https://en.wikipedia.org/wiki/Raster_graphics · Vector graphics — https://en.wikipedia.org/wiki/Vector_graphics
+- Container vs codec — https://en.wikipedia.org/wiki/Digital_container_format · https://en.wikipedia.org/wiki/Codec
+
+## 🗂️ Vocabulary (kid‑friendly)
+- Extension: the letters after a dot in a file name that hint how to open it.
+- Format: the rules for how data is stored inside a file.
+- MIME type: a standard label (like image/png) telling apps what a file is.
+- Encoding: how text is stored as bytes (UTF‑8 is common and safe).
+- Compression: shrinking file size; lossy (smaller but some quality lost) vs lossless (no quality lost).
+- Container vs codec: container holds streams (video, audio, captions). Codec is the method to encode/decode a stream.
+
 ---
 
 ## 📝 Word Processing & Documents

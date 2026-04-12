@@ -2,6 +2,10 @@
 
 New: Q1–Q6. Review: Q7–Q10.
 
+Resources you may use (Learning Center):
+- [Chemistry Fundamentals](../../../../../resources/chemistry_fundamentals.md)
+- [Physical Science Roadmap](../../../../../assignments/science/physical-science-roadmap/README.md)
+
 1) Compare ionic vs covalent bonding (particles involved, electron behavior, example compound).
 2) Draw simple Lewis dot structures for Na and Cl; show how NaCl forms.
 3) Identify the bond type in CO₂, H₂O, NaCl.
@@ -12,4 +16,3 @@ New: Q1–Q6. Review: Q7–Q10.
 8) Convert 12.0 g/cm³ to kg/m³ (1 g/cm³ = 1000 kg/m³).
 9) Physical vs chemical change: label 2 examples.
 10) Periodic table: What do elements in the same group often share?
-

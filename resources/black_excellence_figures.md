@@ -2,6 +2,14 @@
 
 A research guide highlighting historic and modern Black excellence across various industries and domains. This guide introduces students to figures who have broken barriers, set new records, and culturally defined their generations.
 
+## 🔗 Research Quick Links (Wikipedia)
+- African-American history — https://en.wikipedia.org/wiki/African-American_history
+- List of African-American inventors and scientists — https://en.wikipedia.org/wiki/List_of_African-American_inventors_and_scientists
+- Harlem Renaissance — https://en.wikipedia.org/wiki/Harlem_Renaissance · Civil rights movement — https://en.wikipedia.org/wiki/Civil_rights_movement
+- NAACP — https://en.wikipedia.org/wiki/NAACP · HBCU — https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities
+
+Tip: Click into the “Early life,” “Career,” and “Legacy” sections on each person’s page. Record 2–3 facts and one impact in your notes.
+
 ---
 
 ## 🎭 The Screen Icons & Entertainers

@@ -1,5 +1,12 @@
 # 🧪 STEM Quiz — Week 11 (Cumulative III)
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+- [Chemistry Fundamentals](../../../../../resources/chemistry_fundamentals.md)
+- [Biology Fundamentals](../../../../../resources/biology_fundamentals.md)
+- [Weights, Measures & Conversions](../../../../../resources/weights_and_measures.md)
+- [Physical Science Roadmap](../../../../../assignments/science/physical-science-roadmap/README.md)
+
 1) Convert 0.85 m to cm and mm.
 2) Define: atom, element, compound.
 3) Name the EM spectrum from low to high frequency (five bands).
@@ -10,4 +17,3 @@
 8) Explain why hot air rises (mention density).
 9) Identify the independent/dependent variable: testing pendulum period vs string length.
 10) Give one safety rule for chemistry labs and one for physics labs at home.
-

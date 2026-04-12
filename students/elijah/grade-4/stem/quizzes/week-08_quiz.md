@@ -1,5 +1,11 @@
 # 🔬 Science Quiz — Week 08 (Cumulative II)
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+- [Chemistry Fundamentals](../../../../../resources/chemistry_fundamentals.md)
+- [Biology Fundamentals](../../../../../resources/biology_fundamentals.md)
+- [Weights, Measures & Conversions](../../../../../resources/weights_and_measures.md)
+
 1) Convert 5 kilometers to meters.
 2) Circle: Melting butter is a physical change / chemical change.
 3) Which is warmer: 20°C or 10°C?
@@ -10,4 +16,3 @@
 8) Convert 90 minutes to hours.
 9) Why do oven mitts protect your hand from heat?
 10) Bonus: Name the unit we use to measure temperature (°C or °F are okay).
-

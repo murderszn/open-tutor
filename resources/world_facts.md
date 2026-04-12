@@ -10,6 +10,14 @@ A compact, easy‑reference guide to geography, countries, economies, and histor
 - UN Countries (SQL): [resources/un_countries.sql](./un_countries.sql)
 - UN Countries (JSON snapshot): [resources/un_countries.json](./un_countries.json)
 
+## 🔗 Wikipedia Quick Links
+- Continents — https://en.wikipedia.org/wiki/Continent · Oceans — https://en.wikipedia.org/wiki/Ocean
+- List of countries by population — https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population
+- Geography of trade — https://en.wikipedia.org/wiki/Sea_lane · Chokepoint — https://en.wikipedia.org/wiki/Chokepoint
+- Capital city — https://en.wikipedia.org/wiki/Capital_city · List of national capitals — https://en.wikipedia.org/wiki/List_of_national_capitals
+- Stock exchange — https://en.wikipedia.org/wiki/Stock_exchange · List of stock exchanges — https://en.wikipedia.org/wiki/List_of_stock_exchanges
+- Commodity — https://en.wikipedia.org/wiki/Commodity · Food security — https://en.wikipedia.org/wiki/Food_security
+
 ---
 
 ## 🗺️ Continents & Land

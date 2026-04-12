@@ -2,6 +2,12 @@
 
 A concise, age‑appropriate overview of how the United States came to be, why it rejects monarchy and tyranny, and how the Constitution enables a government that can be changed by the people.
 
+## 🔗 Wikipedia Quick Links
+- United States Constitution — https://en.wikipedia.org/wiki/United_States_Constitution · Bill of Rights — https://en.wikipedia.org/wiki/United_States_Bill_of_Rights
+- Declaration of Independence — https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence
+- Federalism — https://en.wikipedia.org/wiki/Federalism_in_the_United_States · Separation of powers — https://en.wikipedia.org/wiki/Separation_of_powers · Checks and balances — https://en.wikipedia.org/wiki/Checks_and_balances
+- Constitutional amendment — https://en.wikipedia.org/wiki/Amendment
+
 ---
 
 ## 1) From Colonies to a New Nation (Very Brief)
@@ -145,9 +151,9 @@ While there are 14 U.S. territories, five are permanently inhabited.
 - Congress overview and legislative process: https://www.congress.gov/legislative-process
 
 Words to Know (quick)
-- **Monarchy**: rule by a king/queen.
-- **Tyranny**: cruel, oppressive rule.
-- **Republic**: government where people elect leaders and power is limited by law.
-- **Federalism**: power shared by national and state governments.
-- **Separation of Powers & Checks and Balances**: splitting authority among branches so each can limit the others.
-- **Amendment**: a formal change to the Constitution.
+- **[Monarchy](https://en.wikipedia.org/wiki/Monarchy)**: rule by a king/queen.
+- **[Tyranny](https://en.wikipedia.org/wiki/Tyrant)**: cruel, oppressive rule.
+- **[Republic](https://en.wikipedia.org/wiki/Republic)**: government where people elect leaders and power is limited by law.
+- **[Federalism](https://en.wikipedia.org/wiki/Federalism_in_the_United_States)**: power shared by national and state governments.
+- **[Separation of powers](https://en.wikipedia.org/wiki/Separation_of_powers)** & **[Checks and balances](https://en.wikipedia.org/wiki/Checks_and_balances)**: splitting authority among branches so each can limit the others.
+- **[Amendment](https://en.wikipedia.org/wiki/Amendment)**: a formal change to the Constitution.

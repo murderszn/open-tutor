@@ -2,6 +2,10 @@
 
 New: Q1–Q6. Review: Q7–Q10.
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+- [Physical Science Roadmap](../../../../../assignments/science/physical-science-roadmap/README.md)
+
 1) Label wavelength (λ), frequency (f), and wave speed (v). Give the relation among them.
 2) Compare transverse vs longitudinal waves; give one example of each.
 3) Explain reflection vs refraction in one sentence each.
@@ -12,4 +16,3 @@ New: Q1–Q6. Review: Q7–Q10.
 8) State Newton’s second law and solve: F=10 N, m=2 kg → a=?
 9) Name one mode of heat transfer with an example.
 10) Write the SI units for length, mass, time, and temperature.
-

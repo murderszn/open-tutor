@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Golden Rectangle Builder</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 20px; }
+    .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    label { font-weight: 600; }
+    input { padding: 6px 8px; width: 120px; }
+    canvas { border: 1px solid #ddd; max-width: 100%; height: auto; background: #fafafa; }
+    small { color: #666; }
+  </style>
+</head>
+<body>
+  <h1>Golden Rectangle Builder</h1>
+  <p>Enter one side; this tool computes the other side using φ ≈ (1 + √5)/2. It draws the golden rectangle, tiles squares, and sketches a simple spiral.</p>
+  <div class="row">
+    <label for="long">Long side</label>
+    <input id="long" type="number" step="0.01" placeholder="e.g., 500" />
+    <span>or</span>
+    <label for="short">Short side</label>
+    <input id="short" type="number" step="0.01" placeholder="e.g., 309" />
+    <button id="draw">Draw</button>
+  </div>
+  <p><small>Tip: If you enter the long side L, the short side is S = L/φ. If you enter the short side S, the long side is L = φ·S.</small></p>
+  <canvas id="c" width="800" height="500"></canvas>
+  <script>
+    const phi = (1 + Math.sqrt(5)) / 2;
+    const longEl = document.getElementById('long');
+    const shortEl = document.getElementById('short');
+    const btn = document.getElementById('draw');
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+
+    function clear() {
+      ctx.clearRect(0,0,canvas.width, canvas.height);
+    }
+
+    function drawRect(x, y, w, h, color='#333') {
+      ctx.strokeStyle = color; ctx.lineWidth = 2; ctx.strokeRect(x, y, w, h);
+    }
+
+    function drawArc(cx, cy, r, start, end) {
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, start, end);
+      ctx.stroke();
+    }
+
+    function layoutAndDraw(L, S) {
+      clear();
+      // Fit into canvas with padding
+      const pad = 30;
+      const scale = Math.min((canvas.width - 2*pad) / L, (canvas.height - 2*pad) / S);
+      const W = L * scale, H = S * scale;
+      const ox = (canvas.width - W) / 2;
+      const oy = (canvas.height - H) / 2;
+
+      // Outer golden rectangle
+      drawRect(ox, oy, W, H, '#222');
+
+      // Tile squares and approximate spiral (4–6 steps)
+      ctx.strokeStyle = '#888';
+      ctx.lineWidth = 1.5;
+      let x = ox, y = oy, w = W, h = H, horizontal = true, dir = 0;
+      const steps = 6;
+      for (let i = 0; i < steps; i++) {
+        if (horizontal) {
+          // left square of size h
+          drawRect(x, y, h, h, '#888');
+          // spiral arc in this square
+          ctx.strokeStyle = '#c26';
+          switch (dir % 4) {
+            case 0: drawArc(x + h, y + h, h, Math.PI, 1.5 * Math.PI); break; // TL → TR
+            case 1: drawArc(x, y + h, h, 1.5 * Math.PI, 0); break;           // TR → BR
+            case 2: drawArc(x, y, h, 0, 0.5 * Math.PI); break;               // BR → BL
+            case 3: drawArc(x + h, y, h, 0.5 * Math.PI, Math.PI); break;     // BL → TL
+          }
+          ctx.strokeStyle = '#888';
+          x = x + h; w = w - h; // remaining right rectangle
+          dir++;
+        } else {
+          // top square of size w
+          drawRect(x, y, w, w, '#888');
+          // spiral arc in this square
+          ctx.strokeStyle = '#c26';
+          switch (dir % 4) {
+            case 0: drawArc(x + w, y + w, w, Math.PI, 1.5 * Math.PI); break;
+            case 1: drawArc(x, y + w, w, 1.5 * Math.PI, 0); break;
+            case 2: drawArc(x, y, w, 0, 0.5 * Math.PI); break;
+            case 3: drawArc(x + w, y, w, 0.5 * Math.PI, Math.PI); break;
+          }
+          ctx.strokeStyle = '#888';
+          y = y + w; h = h - w; // remaining bottom rectangle
+          dir++;
+        }
+        horizontal = !horizontal;
+        if (w <= 2 || h <= 2) break;
+      }
+
+      // Labels
+      ctx.fillStyle = '#333';
+      ctx.font = '13px system-ui, sans-serif';
+      ctx.fillText(`phi ≈ ${phi.toFixed(6)}`, 10, canvas.height - 10);
+      ctx.fillText(`L = ${L.toFixed(2)}, S = ${S.toFixed(2)} (units)`, 10, 20);
+    }
+
+    btn.addEventListener('click', () => {
+      let L = parseFloat(longEl.value);
+      let S = parseFloat(shortEl.value);
+      if (!isNaN(L) && isNaN(S)) S = L / phi;
+      else if (isNaN(L) && !isNaN(S)) L = S * phi;
+      if (isNaN(L) || isNaN(S) || L <= 0 || S <= 0) {
+        alert('Please enter a valid positive number for long or short side.');
+        return;
+      }
+      layoutAndDraw(L, S);
+    });
+  </script>
+</body>
+</html>
+

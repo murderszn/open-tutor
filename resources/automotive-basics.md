@@ -2,6 +2,27 @@
 
 Welcome to the ultimate guide on automobiles! In this guide, we won't just scratch the surface. We will dive deep into the fascinating history of cars, uncover the mechanical magic that happens under the hood when you press the gas pedal, learn how to identify the major structural parts of a vehicle using proper vocabulary, and explore the global automotive market and its most significant players.
 
+## 🔗 Quick Links (Wikipedia)
+- Automobile — https://en.wikipedia.org/wiki/Automobile · Car — https://en.wikipedia.org/wiki/Car
+- Internal combustion engine — https://en.wikipedia.org/wiki/Internal_combustion_engine · Four-stroke engine — https://en.wikipedia.org/wiki/Four-stroke_engine
+- Electric vehicle — https://en.wikipedia.org/wiki/Electric_vehicle · Hybrid electric vehicle — https://en.wikipedia.org/wiki/Hybrid_electric_vehicle
+- Transmission (mechanics) — https://en.wikipedia.org/wiki/Transmission_(mechanics) · Differential — https://en.wikipedia.org/wiki/Differential_(mechanical_device)
+- Drivetrain layouts (FWD/RWD/AWD) — https://en.wikipedia.org/wiki/Automobile_layout
+- Horsepower — https://en.wikipedia.org/wiki/Horsepower · Torque — https://en.wikipedia.org/wiki/Torque
+- Aerodynamics — https://en.wikipedia.org/wiki/Automobile_aerodynamics · Regenerative braking — https://en.wikipedia.org/wiki/Regenerative_brake
+- Tire code — https://en.wikipedia.org/wiki/Tire_code
+
+## 🗂️ Vocabulary (kid‑friendly)
+- Horsepower (hp): how fast work can be done (engine “strength”).
+- Torque (lb‑ft or N·m): twisting force that helps you accelerate and tow.
+- Displacement (L): size of engine cylinders; often linked to power.
+- Drivetrain: how power goes from engine/motor to the wheels (FWD, RWD, AWD/4WD).
+- Transmission: gear system that keeps the engine/motor in a useful range.
+- Differential: gear set that lets left/right wheels spin at different speeds in a turn.
+- ABS / Traction control / Stability control: electronic safety systems that help you stop and keep grip.
+- Aerodynamics: how air flows around a car; affects drag, stability, efficiency.
+- Regenerative braking: EV/Hybrid system that recovers energy when slowing down.
+- Range & charging (EV): how far on a charge and how quickly you can recharge.
 ---
 
 ## 🕰️ A Comprehensive History of Cars and Automobiles

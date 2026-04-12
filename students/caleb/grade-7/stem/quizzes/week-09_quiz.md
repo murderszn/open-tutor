@@ -2,6 +2,13 @@
 
 Answer succinctly; show units and steps.
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+- [Chemistry Fundamentals](../../../../../resources/chemistry_fundamentals.md)
+- [Biology Fundamentals](../../../../../resources/biology_fundamentals.md)
+- [Weights, Measures & Conversions](../../../../../resources/weights_and_measures.md)
+- [Physical Science Roadmap](../../../../../assignments/science/physical-science-roadmap/README.md)
+
 1) Convert 95 km/h to m/s.
 2) A 3 kg cart has a net force of 9 N. Acceleration?
 3) Name the three heat transfer modes with one example each.
@@ -12,4 +19,3 @@ Answer succinctly; show units and steps.
 8) What is specific heat (in words)?
 9) Balance coefficients (conceptually): H₂ + O₂ → H₂O. Why must O atoms match?
 10) Scientific method: give the roles of hypothesis and control.
-

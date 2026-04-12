@@ -15,6 +15,9 @@ This year will follow standard 7th-grade math concepts:
 ## 📝 Weekly Assessments
 *   **[12-Week Quiz Guide](./quizzes/)**: A folder containing 12 individual weekly quizzes, each with 20 questions covering all 7th-grade math topics. Have Caleb complete one quiz every Friday.
 
+## 📐 Featured Assignment
+*   **Golden Ratio — History, Meaning, and Uses**: See the shared spec at `assignments/math/golden-ratio/README.md` and your stub at `students/caleb/grade-7/math/assignments/golden-ratio.md`.
+
 ## 🎮 Interactive Math Games & Practice
 
 *   **[Prodigy Math (Middle School)](https://www.prodigygame.com/main-en/)**: An RPG-style game where you battle monsters by solving math problems. Great for practicing 7th-grade concepts.

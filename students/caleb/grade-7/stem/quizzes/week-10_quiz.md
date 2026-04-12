@@ -1,5 +1,12 @@
 # 🧪 STEM Quiz — Week 10 (Cumulative II)
 
+Resources you may use (Learning Center):
+- [Physics Fundamentals](../../../../../resources/physics_fundamentals.md)
+- [Chemistry Fundamentals](../../../../../resources/chemistry_fundamentals.md)
+- [Biology Fundamentals](../../../../../resources/biology_fundamentals.md)
+- [Weights, Measures & Conversions](../../../../../resources/weights_and_measures.md)
+- [Physical Science Roadmap](../../../../../assignments/science/physical-science-roadmap/README.md)
+
 1) Convert 2.5 hours to seconds and to minutes.
 2) Differentiate accuracy vs precision; give one example.
 3) Periodic table: what do elements in the same group often have in common?
@@ -10,4 +17,3 @@
 8) What does balancing a chemical equation represent physically?
 9) Velocity–time graph: what does slope represent? What does area represent?
 10) Dimensional analysis: (30 mi/h) to m/s (1 mi=1609 m).
-
