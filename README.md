@@ -46,10 +46,13 @@ Quick access to all agents: [teachers/ai-assistants/agents.md](./teachers/ai-ass
 
 ## Project: Improvements
 
-To bootstrap a GitHub Project board with common improvement tasks (UI polish, automation, resource packs), run the workflow manually:
+Bootstrap a GitHub Project board with common improvement tasks (UI polish, automation, resource packs) via the workflow:
 
-- Open GitHub → Actions → “Bootstrap Improvements Project” → Run workflow
-- This creates a repo Project named “Learning Center – Improvements” with To do/In progress/Done columns and seeds issues into “To do”.
+- Open GitHub → Actions → “Bootstrap Improvements Project” → Run workflow on `main`.
+- Optional: provide a one‑time token in the input field, or add a repo secret `ACTIONS_PAT` (recommended). If neither is provided, it uses the default `GITHUB_TOKEN`.
+- The workflow creates a repo Project named “Learning Center – Improvements” with To do/In progress/Done columns and seeds issues into “To do”.
+
+Security note: do not commit tokens in the repo. Prefer repository Secrets (`Settings → Secrets and variables → Actions`).
 
 ## 📝 Daily Workflow
 

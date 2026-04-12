@@ -2,6 +2,10 @@ name: Bootstrap Improvements Project
 
 on:
   workflow_dispatch:
+    inputs:
+      token:
+        description: 'Optional PAT (prefer using ACTIONS_PAT secret)'
+        required: false
 
 permissions:
   contents: read
@@ -15,7 +19,7 @@ jobs:
       - name: Create/Update repo project and seed issues
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ inputs.token || secrets.ACTIONS_PAT || secrets.GITHUB_TOKEN }}
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
