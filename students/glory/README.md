@@ -1,4 +1,21 @@
-# 🎀 Glory's Workspace
+<div align="center">
+
+# 🎀 Glory’s Workspace
+
+<p>
+  <img alt="Stage" src="https://img.shields.io/badge/Stage-Pre--K-pink?style=for-the-badge" />
+  <a href="./schedule.csv"><img alt="Schedule" src="https://img.shields.io/badge/Open-Schedule.csv-FF7AB6?style=for-the-badge" /></a>
+  <a href="../../resources/README.md"><img alt="Resources" src="https://img.shields.io/badge/Explore-Resources-059669?style=for-the-badge" /></a>
+</p>
+
+<p>
+<strong>Quick Nav:</strong>
+<a href="./schedule.csv">Weekly Tracker</a> · <a href="#-resources--printables">Resources</a>
+</p>
+
+</div>
+
+---
 
 Welcome to Glory's Pre-K tracking board!
 
@@ -22,3 +39,11 @@ See the **[schedule.csv](./schedule.csv)** file for your complete list of weekly
 
 *   [Example Link: ABC Mouse]
 *   [Example Link: Printable Tracing Sheets]
+
+---
+
+<div align="center">
+
+<sub>Made with ❤️ by Mom & Dad · Every day, a little stronger.</sub>
+
+</div>
