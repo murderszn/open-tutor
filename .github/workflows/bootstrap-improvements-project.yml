@@ -1,0 +1,109 @@
+name: Bootstrap Improvements Project
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  projects: write
+
+jobs:
+  create_project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create/Update repo project and seed issues
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const projectName = 'Learning Center – Improvements';
+            const projectBody = 'General improvements, UI polish, automation, and content curation tasks for the Learning Center.';
+
+            // Helper: sleep
+            const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+
+            // Find or create repo project (classic)
+            const list = await github.rest.projects.listForRepo({ owner, repo, mediaType: { previews: ['inertia'] }});
+            let project = list.data.find(p => p.name === projectName);
+            if (!project) {
+              const created = await github.rest.projects.createForRepo({ owner, repo, name: projectName, body: projectBody, mediaType: { previews: ['inertia'] }});
+              project = created.data;
+            }
+
+            // Ensure columns: To do, In progress, Done
+            const cols = await github.rest.projects.listColumns({ project_id: project.id, mediaType: { previews: ['inertia'] }});
+            const need = ['To do','In progress','Done'];
+            const have = new Map(cols.data.map(c => [c.name, c]));
+            for (const name of need) {
+              if (!have.has(name)) {
+                const res = await github.rest.projects.createColumn({ project_id: project.id, name, mediaType: { previews: ['inertia'] }});
+                have.set(name, res.data);
+                await sleep(300);
+              }
+            }
+            const todoCol = have.get('To do');
+
+            // Seed tasks (idempotent by title)
+            const tasks = [
+              {
+                title: 'Timeline: per‑century rows (compact view)',
+                body: 'Add optional per‑century mini‑tracks (1600s, 1800s, 1900s, 2000s) with their own scales; add a toggle to switch compact/continuous view.'
+              },
+              {
+                title: 'Timeline: snap to scale + proportional spacing',
+                body: 'Snap dropped wars to evenly space along scale; optionally reflect year distance proportionally for better temporal intuition.'
+              },
+              {
+                title: 'Interactive: save/restore progress (localStorage)',
+                body: 'Persist timeline order and flags per party locally with a Save/Load control; auto‑restore on page load.'
+              },
+              {
+                title: 'Sidebar: quick jump chips (Cards · Timeline · Flags)',
+                body: 'Add quick in‑page navigation to jump to War List, Timeline, and Flags sections with smooth scrolling.'
+              },
+              {
+                title: 'Flags: accessibility pass (labels, keyboard DnD fallbacks)',
+                body: 'Add ARIA labels to party areas, keyboard move buttons for flags, and improved focus styles for better accessibility.'
+              },
+              {
+                title: 'Teachers: auto‑render timeline from schedule.csv',
+                body: 'Add a small script or GitHub Action to regenerate a simplified teacher timeline directly from student schedule.csv files.'
+              },
+              {
+                title: 'Resource Finder: extend to Math & LA weekly tasks',
+                body: 'Add Resource Pack sections to Math and Language Arts weekly items using the Resource Finder format and curated sources.'
+              },
+              {
+                title: 'Link checks: add Action to validate internal links',
+                body: 'Create a CI job that scans Markdown/HTML for broken relative links and reports failures on PRs.'
+              }
+            ];
+
+            // List existing open issues to avoid duplicates
+            const existingIssues = await github.rest.issues.listForRepo({ owner, repo, state: 'open', per_page: 100 });
+            const existingTitles = new Set(existingIssues.data.map(i => i.title));
+
+            for (const t of tasks) {
+              let issueNumber;
+              if (!existingTitles.has(t.title)) {
+                const createdIssue = await github.rest.issues.create({ owner, repo, title: t.title, body: t.body, labels: ['improvements'] });
+                issueNumber = createdIssue.data.number;
+              } else {
+                const found = existingIssues.data.find(i => i.title === t.title);
+                issueNumber = found.number;
+              }
+              // Add issue to To do column (create project card)
+              // Need the GraphQL node id (content_id expects numeric id for classic projects)
+              const issue = await github.rest.issues.get({ owner, repo, issue_number: issueNumber });
+              // Guard: check if a card already exists for this issue in the column
+              const cards = await github.rest.projects.listCards({ column_id: todoCol.id, per_page: 100, mediaType: { previews: ['inertia'] }});
+              const already = cards.data.find(c => c.content_url && c.content_url.endsWith(`/issues/${issueNumber}`));
+              if (!already) {
+                await github.rest.projects.createCard({ column_id: todoCol.id, content_id: issue.data.id, content_type: 'Issue', mediaType: { previews: ['inertia'] }});
+                await sleep(200);
+              }
+            }
+            core.info(`Project ready: ${project.html_url}`);

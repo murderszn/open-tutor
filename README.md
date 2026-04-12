@@ -44,6 +44,13 @@ Use these specialized prompts to generate lessons, plans, explanations, grading,
 
 Quick access to all agents: [teachers/ai-assistants/agents.md](./teachers/ai-assistants/agents.md)
 
+## Project: Improvements
+
+To bootstrap a GitHub Project board with common improvement tasks (UI polish, automation, resource packs), run the workflow manually:
+
+- Open GitHub → Actions → “Bootstrap Improvements Project” → Run workflow
+- This creates a repo Project named “Learning Center – Improvements” with To do/In progress/Done columns and seeds issues into “To do”.
+
 ## 📝 Daily Workflow
 
 1. **Log in** to your GitHub accounts each morning.
