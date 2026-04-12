@@ -1,4 +1,4 @@
-name: Issues: purge or close
+name: "Issues: purge or close"
 
 on:
   workflow_dispatch:
