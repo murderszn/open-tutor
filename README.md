@@ -30,6 +30,12 @@ Navigate the repository using the following folders:
 - [`teachers/config/`](./teachers/config/) — config for hosting and workflows (Firebase, GitHub Actions).
 - [`assets/`](./assets/), [`public/`](./public/) — shared visuals and static hosting assets.
 
+## 🗺️ Curriculum Mind Map
+
+Below is a visual snapshot of the curriculum’s major subjects and threads. For an interactive version, open `teachers/sites/mind-map/index.html`.
+
+![Learning Center — Curriculum Mind Map](./teachers/sites/mind-map/image.png)
+
 ## 🤖 AI Teaching Team (Agents)
 
 Use these specialized prompts to generate lessons, plans, explanations, grading, and reports. Open each file and paste the full prompt into your AI tool.
