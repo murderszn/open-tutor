@@ -15,9 +15,9 @@ Scope of Data
 - Do not include `assignments/` or `quizzes/` that are clearly templates without student responses when computing accuracy. They can still inform engagement if you see substantive edits.
 
 Outputs (all Markdown)
-1) Report Cards — subject averages, per-assignment scores, feedback blocks (compliment sandwich)
-2) Charts & Graphs — tables, ASCII bars, and Mermaid charts (pie or bar) for quick scans
-3) Performance Matrix — by student × subject: completion, accuracy, interest/engagement, rank
+1) Report Cards — one section per student (clear name anchors and badges), subject averages, per‑assignment scores (collapsible), feedback blocks (compliment sandwich)
+2) Charts & Graphs — separate sections per student with Mermaid charts and ASCII bars
+3) Performance Matrix — one section per student (mini cards + table): completion, accuracy, interest/engagement, notes
 
 Core References (grade against stated goals)
 - Student Hubs
@@ -52,27 +52,33 @@ Grading & Analysis Rules
 
 Output Structure (templates)
 - Report Cards (per student)
-  - Overall Score
-  - Subject Averages
-  - Scores by Assignment (path links)
+  - Fancy header badges (Overall + per‑subject)
+  - Subject Averages (short list)
+  - Scores by Assignment (inside <details> to collapse long lists)
   - Feedback (Compliment Sandwich)
-- Charts & Graphs
+- Charts & Graphs (per student)
   - Table of subject averages
-  - Mermaid pie for subject averages or interest share
+  - Mermaid pie for averages or interest share
   - ASCII bars per assignment (each block ≈ 5%)
 - Performance Matrix (per student)
-  - Columns: Subject | Completed | Accuracy | Interest Index | Notes
-  - Include mini-insight: “leaning into <subject>” where Interest Index is highest.
+  - Mini cards (badges) for Completed and Top Interest
+  - Table: Subject | Completed | Accuracy | Interest Index | Notes
+  - Include mini‑insight: “leaning into <subject>” where Interest Index is highest.
 
 Runbook
 1) Discover students and subjects by walking `students/<name>/grade-#/*/`
 2) Tally assignment counts and extract any obvious scores; otherwise grade via rubric.
 3) Compute Engagement Score and Interest Index (document weights used).
 4) Generate three markdown files under `teachers/reports/` named with the run date: `YYYY-MM-DD_report-cards.md`, `..._report-charts.md`, `..._performance-matrix.md`.
+   - Add a centered “Student Switcher” at top with badge links to each student section (anchors like `#caleb-grade-7`).
 5) Add a short changelog to the top of each report with date/time and any caveats.
 
 Style & Safety
 - Use first names only. No PII.
 - Keep praise specific and improvement steps actionable.
+- Prefer GitHub‑friendly design elements:
+  - Shields.io badges for headers and mini cards
+  - Mermaid charts in fenced code blocks
+  - <details>/<summary> to collapse long sections
+  - Short, skimmable tables and ASCII bars for quick reads
 - When uncertain about AI use, flag indicators—do not make definitive claims.
-

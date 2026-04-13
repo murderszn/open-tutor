@@ -1,5 +1,12 @@
 # Performance Matrix — As of 2026-06-05
 
+<div align="center">
+
+<a href="#caleb-matrix"><img alt="Caleb" src="https://img.shields.io/badge/Caleb-Performance_Matrix-1f6feb?style=for-the-badge" /></a>
+<a href="#elijah-matrix"><img alt="Elijah" src="https://img.shields.io/badge/Elijah-Performance_Matrix-9333EA?style=for-the-badge" /></a>
+
+</div>
+
 This matrix blends completion (how much), accuracy (how well), and an interest/engagement index (where they’re leaning) using assignment volume and recency.
 
 Method summary
@@ -10,7 +17,14 @@ Method summary
 
 ---
 
+<a id="caleb-matrix"></a>
+
 ## Caleb (Grade 7)
+
+<p>
+  <img alt="Completed" src="https://img.shields.io/badge/Completed-8_items-64748b?style=flat" />
+  <img alt="Top Interest" src="https://img.shields.io/badge/Interest-Math_=_SS-22c55e?style=flat" />
+</p>
 
 - Completed counts
   - Math: 3  · Social Studies: 3  · STEM: 2  · Total: 8
@@ -36,7 +50,14 @@ STEM           | ████████░░░░░ (25.0%)
 
 ---
 
+<a id="elijah-matrix"></a>
+
 ## Elijah (Grade 4)
+
+<p>
+  <img alt="Completed" src="https://img.shields.io/badge/Completed-2_items-64748b?style=flat" />
+  <img alt="Top Interest" src="https://img.shields.io/badge/Interest-Math_=_SS-22c55e?style=flat" />
+</p>
 
 - Completed counts
   - Math: 1  · Social Studies: 1  · STEM: 0  · Total: 2
@@ -67,4 +88,3 @@ Social Studies | ██████████░░░░░░░░ (50%)
 - Elijah’s engagement is evenly split across Math and Social Studies, with room to grow in accuracy. Next pushes: show work on column operations and revise digital storage answers using the guide.
 
 > Parent note: The Interest Index is a relative measure per student. As weekly work accumulates, this will reflect clear lean-ins (e.g., if one subject’s count outruns the others in recent weeks).
-

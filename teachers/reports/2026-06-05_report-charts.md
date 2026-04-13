@@ -1,5 +1,12 @@
 # Progress Charts — As of 2026-06-05
 
+<div align="center">
+
+<a href="#caleb-charts"><img alt="Caleb" src="https://img.shields.io/badge/Caleb-Charts-1f6feb?style=for-the-badge" /></a>
+<a href="#elijah-charts"><img alt="Elijah" src="https://img.shields.io/badge/Elijah-Charts-9333EA?style=for-the-badge" /></a>
+
+</div>
+
 Visual summaries of scores and completion based on merged assignments.
 
 ---
@@ -15,6 +22,8 @@ Visual summaries of scores and completion based on merged assignments.
 
 ## Mermaid Pie Charts
 
+<a id="caleb-charts"></a>
+
 Caleb — Average by Subject
 
 ```mermaid
@@ -23,6 +32,8 @@ pie title Caleb — Average by Subject
   "Social Studies (100%)" : 100
   "STEM (90%)" : 90
 ```
+
+<a id="elijah-charts"></a>
 
 Elijah — Average by Subject
 
