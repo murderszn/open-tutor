@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>[JFD] Learning Map — Subjects & Resources (D3)</title>
+    <style>
+      :root {
+        --bg: #0b1117;
+        --panel: #0e1621;
+        --text: #e6edf3;
+        --muted: #9fb0c0;
+        --accent: #7c3aed;
+        --link: #5bb5f0;
+        --edge: #1b2735;
+        --node: #1f6feb;
+        --node2: #22c55e;
+        --node3: #f59e0b;
+        --node4: #ef4444;
+        --node5: #06b6d4;
+        --node6: #a855f7;
+        --shadow: 0 8px 30px rgba(0,0,0,0.35);
+      }
+      html, body { margin: 0; height: 100%; background: radial-gradient(1200px 800px at 20% 10%, #0f1723 0%, #0b1117 60%, #0a0f14 100%); color: var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+      #app { position: fixed; inset: 0; }
+      #scene { position: absolute; inset: 0; }
+
+      /* Top control bar */
+      .topbar { position: fixed; top: 12px; left: 50%; transform: translateX(-50%);
+        display: flex; gap: 10px; align-items: center; background: rgba(14, 22, 33, 0.8); border: 1px solid rgba(255,255,255,0.06);
+        padding: 8px 12px; border-radius: 12px; backdrop-filter: blur(6px); box-shadow: var(--shadow); z-index: 10; }
+      .btn { color: var(--text); background: #121b27; border: 1px solid #1b2735; border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+      .btn:hover { filter: brightness(1.1); }
+      .title { font-weight: 800; letter-spacing: 0.3px; margin-right: 6px; }
+      .legend { display: flex; gap: 10px; align-items: center; font-size: 13px; color: var(--muted); }
+      .key { display: inline-flex; align-items: center; gap: 6px; }
+      .swatch { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+
+      /* Tooltip */
+      .tooltip { position: fixed; pointer-events: none; background: #0b1220; color: var(--text); border: 1px solid #1e293b; padding: 10px 12px; border-radius: 10px; font-size: 13px; line-height: 1.4; max-width: 360px; box-shadow: var(--shadow); z-index: 20; opacity: 0; transform: translateY(4px); transition: opacity 0.12s ease, transform 0.12s ease; }
+      .tooltip h4 { margin: 0 0 6px; font-size: 15px; letter-spacing: 0.2px; }
+      .tooltip p { margin: 0 0 8px; color: var(--muted); }
+      .tooltip a { color: var(--link); text-decoration: none; }
+      .tooltip a:hover { text-decoration: underline; }
+      .tooltip .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+      .tooltip .tag { background: #101826; color: #b8c5d3; border: 1px solid #1b2735; padding: 2px 6px; border-radius: 999px; font-size: 12px; }
+
+      /* Footer hint */
+      .hint { position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); color: var(--muted); font-size: 12px; letter-spacing: 0.2px; background: rgba(14,22,33,0.6); border: 1px solid rgba(255,255,255,0.06); padding: 6px 8px; border-radius: 8px; backdrop-filter: blur(4px); }
+
+      /* Node labels */
+      .label { font-size: 12px; fill: #cdd9e5; paint-order: stroke; stroke: rgba(12,18,28,0.9); stroke-width: 3px; }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="topbar" role="toolbar" aria-label="Mind map controls">
+        <span class="title">[JFD] Learning Map</span>
+        <button class="btn" id="expandAll" title="Expand all">Expand All</button>
+        <button class="btn" id="collapseAll" title="Collapse all">Collapse All</button>
+        <button class="btn" id="resetView" title="Reset view">Center</button>
+        <div class="legend" aria-label="Legend">
+          <span class="key"><span class="swatch" style="background: var(--node)"></span> Assignments</span>
+          <span class="key"><span class="swatch" style="background: var(--node2)"></span> Resources</span>
+          <span class="key"><span class="swatch" style="background: var(--node3)"></span> Interactives</span>
+          <span class="key"><span class="swatch" style="background: var(--node5)"></span> Reference</span>
+        </div>
+      </div>
+      <svg id="scene"></svg>
+      <div class="tooltip" id="tooltip" aria-hidden="true"></div>
+      <div class="hint">Scroll to zoom · drag to pan · click to expand/collapse · click labels to open links</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script>
+      const data = {
+        name: "Learning Center",
+        type: "root",
+        description: "Subjects and resources mapped for quick exploration.",
+        children: [
+          {
+            name: "Math",
+            type: "category",
+            description: "Assignments and references for mathematics.",
+            children: [
+              {
+                name: "Golden Ratio (Lesson)",
+                type: "assignment",
+                url: "../../../assignments/math/golden-ratio/README.md",
+                description: "History, definition, Fibonacci link, and design uses; two interactives included.",
+                tags: ["ϕ", "Fibonacci", "geometry", "design"],
+                children: [
+                  { name: "Rectangle Builder (interactive)", type: "interactive", url: "../../../assignments/math/golden-ratio/resources/golden-rectangle/index.html", description: "Compute sides; tile squares; draw spiral." },
+                  { name: "Splitter (interactive)", type: "interactive", url: "../../../assignments/math/golden-ratio/resources/splitter/index.html", description: "Fullscreen splitting golden rectangle animation." }
+                ]
+              },
+              { name: "Weights & Measures", type: "reference", url: "../../../resources/weights_and_measures.md", description: "US↔Metric conversions, temperature, storage sizes, and more." },
+              { name: "File Types (tech literacy)", type: "reference", url: "../../../resources/file-types.md", description: "Understand .docx/.csv/.md/.html/.py and more." }
+            ]
+          },
+          {
+            name: "STEM",
+            type: "category",
+            description: "Science, technology, engineering, and math threads.",
+            children: [
+              { name: "Physics Fundamentals", type: "resource", url: "../../../resources/physics_fundamentals.md", description: "Units, motion, forces, energy/heat, waves/light; formulas with textbook layout.", tags: ["units","motion","forces","waves","heat"] },
+              { name: "Chemistry Fundamentals", type: "resource", url: "../../../resources/chemistry_fundamentals.md", description: "Atomic structure, bonds, reactions, balancing; linked vocab.", tags: ["atoms","bonds","reactions"] },
+              {
+                name: "Biology",
+                type: "category",
+                description: "Cells, photosynthesis, reproduction, ecosystems.",
+                children: [
+                  { name: "Biology Fundamentals", type: "resource", url: "../../../resources/biology_fundamentals.md", description: "Water cycle, cells, photosynthesis, reproduction (one-pager)." },
+                  { name: "Water Cycle", type: "assignment", url: "../../../assignments/stem/biology/water-cycle/README.md", description: "Evaporation → Condensation → Precipitation → Collection." },
+                  { name: "Plant Cells", type: "assignment", url: "../../../assignments/stem/biology/plant-cells/README.md", description: "Organelles and functions; wall + chloroplasts." },
+                  { name: "Animal Cells", type: "assignment", url: "../../../assignments/stem/biology/animal-cells/README.md", description: "Organelles and functions; no wall/chloroplasts." },
+                  { name: "Photosynthesis", type: "assignment", url: "../../../assignments/stem/biology/photosynthesis/README.md", description: "Equation, chlorophyll, chloroplasts; link to respiration." },
+                  { name: "Reproduction", type: "assignment", url: "../../../assignments/stem/biology/reproduction/README.md", description: "Asexual vs sexual; variation; meiosis vs mitosis." }
+                ]
+              }
+            ]
+          },
+          {
+            name: "Social Studies",
+            type: "category",
+            description: "History, civics, geography, and culture.",
+            children: [
+              {
+                name: "History of War",
+                type: "assignment",
+                url: "../../../assignments/social-studies/history-of-war/README.md",
+                description: "Turning points & institutions; interactive timeline.",
+                children: [ { name: "Timeline (interactive)", type: "interactive", url: "../../../assignments/social-studies/history-of-war/resources/timeline/index.html", description: "Drag flags; place on the timeline." } ]
+              },
+              { name: "Government Basics", type: "resource", url: "../../../resources/government_basics.md", description: "Branches, agencies, and links to official sites." },
+              { name: "U.S. Understanding & Principles", type: "resource", url: "../../../resources/united_states_understanding_and_principles.md", description: "Constitution, amendments, and the path from colonies to a republic." },
+              { name: "World Facts", type: "resource", url: "../../../resources/world_facts.md", description: "Continents, oceans, capitals, trade routes, commodities." },
+              { name: "Black Excellence Figures", type: "resource", url: "../../../resources/black_excellence_figures.md", description: "Historic and modern leaders across film, music, business, civil rights, STEM, sports." }
+            ]
+          },
+          {
+            name: "Language Arts",
+            type: "category",
+            description: "Reading, archetypes, Shakespeare, poetry, and writing.",
+            children: [
+              { name: "Relevance Reflection Template", type: "assignment", url: "../../../assignments/language-arts/relevance-reflection-template.md", description: "Connect works to themes and modern life." },
+              { name: "Video Review Template", type: "assignment", url: "../../../assignments/language-arts/video-review-template.md", description: "Weekly classic book/video reflection." },
+              { name: "Archetypes — Scarlet Letter", type: "assignment", url: "../../../assignments/language-arts/archetypes-the-scarlet-letter/README.md", description: "Symbols, themes, and archetypes." },
+              { name: "Archetypal Myths — Flood & Trinity", type: "assignment", url: "../../../assignments/language-arts/archetypal-myths-flood-trinity/README.md", description: "Shared myth patterns across cultures." },
+              { name: "Shakespeare — Romeo & Juliet", type: "assignment", url: "../../../assignments/language-arts/shakespeare-overview-romeo-and-juliet/README.md", description: "Overview, themes, and scenes." },
+              { name: "Shakespeare — Hamlet", type: "assignment", url: "../../../assignments/language-arts/shakespeare-overview-hamlet/README.md", description: "Overview, themes, and scenes." },
+              { name: "Harlem Renaissance Poetry", type: "assignment", url: "../../../assignments/language-arts/harlem-renaissance-poetry/README.md", description: "Langston Hughes, Maya Angelou, context." }
+            ]
+          },
+          {
+            name: "Money & Life",
+            type: "category",
+            description: "Financial literacy and career exposure.",
+            children: [
+              {
+                name: "Credit Scores 101",
+                type: "assignment",
+                url: "../../../assignments/personal-finance/credit-scores-101/README.md",
+                description: "What credit scores are and how to build wisely.",
+                children: [ { name: "Credit Explorer (interactive)", type: "interactive", url: "../../../assignments/personal-finance/credit-scores-101/index.html", description: "Interactive guide for score components." } ]
+              },
+              { name: "Financial Tools & Principles", type: "resource", url: "../../../resources/financial_tools_and_principles.md", description: "Currency, interest, accounts, budgeting, and investment building blocks." },
+              { name: "Careers — Paths & Pay", type: "resource", url: "../../../resources/careers.md", description: "Typical and emerging roles, education paths, and rough pay ranges." },
+              { name: "Automotive Basics", type: "resource", url: "../../../resources/automotive-basics.md", description: "History of cars, mechanics, markets, and modern EVs." },
+              { name: "Modern Cars & History (STEM)", type: "assignment", url: "../../../assignments/stem/modern-cars-history/README.md", description: "Project-based look at vehicles and tech." }
+            ]
+          }
+        ]
+      };
+
+      // --- Mind map (radial, collapsible) ---
+      const svg = d3.select('#scene');
+      const g = svg.append('g').attr('class', 'g-zoom');
+      const linkG = g.append('g').attr('class', 'links');
+      const nodeG = g.append('g').attr('class', 'nodes');
+
+      const tooltip = document.getElementById('tooltip');
+
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      svg.attr('width', width).attr('height', height);
+
+      const radius = Math.min(width, height) / 2 - 60;
+      const tree = d3.tree().size([2 * Math.PI, radius]);
+
+      const root = d3.hierarchy(data);
+      root.x0 = 0; root.y0 = 0;
+
+      // Collapse utility
+      function collapse(d) {
+        if (d.children) {
+          d._children = d.children;
+          d._children.forEach(collapse);
+          d.children = null;
+        }
+      }
+      // Start collapsed below top-level categories
+      root.children && root.children.forEach(cat => {
+        cat.children && cat.children.forEach(collapse);
+      });
+
+      function colorBy(d){
+        const t = d.data.type;
+        if (t === 'assignment') return getVar('--node');
+        if (t === 'resource' || t === 'resource') return getVar('--node2');
+        if (t === 'interactive') return getVar('--node3');
+        if (t === 'reference' || t === 'resource') return getVar('--node5');
+        if (t === 'category') return '#8896aa';
+        return '#9fb0c0';
+      }
+      function getVar(name){ return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
+
+      function update(source){
+        // Compute new layout
+        const nodes = root.descendants();
+        const links = root.links();
+        tree(root);
+
+        const radialPoint = (x, y) => [
+          (y) * Math.cos(x - Math.PI / 2),
+          (y) * Math.sin(x - Math.PI / 2)
+        ];
+
+        const link = linkG.selectAll('path').data(links, d => d.target.data.name + '-' + d.source.data.name);
+        link.join(
+          enter => enter.append('path')
+            .attr('fill', 'none')
+            .attr('stroke', getVar('--edge'))
+            .attr('stroke-width', 1.2)
+            .attr('d', d => {
+              const [sx, sy] = radialPoint(source.x0 || source.x, source.y0 || source.y);
+              return `M${sx},${sy}C${sx},${sy} ${sx},${sy} ${sx},${sy}`;
+            })
+            .transition().duration(450)
+            .attr('d', d => {
+              const [sx, sy] = radialPoint(d.source.x, d.source.y);
+              const [tx, ty] = radialPoint(d.target.x, d.target.y);
+              return `M${sx},${sy}C${sx},${sy} ${tx},${ty} ${tx},${ty}`;
+            }),
+          update => update.transition().duration(450)
+            .attr('d', d => {
+              const [sx, sy] = radialPoint(d.source.x, d.source.y);
+              const [tx, ty] = radialPoint(d.target.x, d.target.y);
+              return `M${sx},${sy}C${sx},${sy} ${tx},${ty} ${tx},${ty}`;
+            }),
+          exit => exit.transition().duration(300)
+            .attr('opacity', 0)
+            .remove()
+        );
+
+        const node = nodeG.selectAll('g.node')
+          .data(nodes, d => d.data.name);
+
+        const nodeEnter = node.enter().append('g').attr('class', 'node')
+          .attr('transform', d => {
+            const [x, y] = radialPoint(source.x0 || source.x, source.y0 || source.y);
+            return `translate(${x},${y})`;
+          })
+          .on('click', (event, d) => {
+            if (d.children) { d._children = d.children; d.children = null; }
+            else { d.children = d._children; d._children = null; }
+            update(d);
+          })
+          .on('mousemove', (event, d) => showTooltip(event, d))
+          .on('mouseleave', hideTooltip);
+
+        nodeEnter.append('circle')
+          .attr('r', d => d.depth === 0 ? 8 : 6)
+          .attr('fill', d => colorBy(d))
+          .attr('stroke', '#0b1117')
+          .attr('stroke-width', 1.6);
+
+        nodeEnter.append('text')
+          .attr('class', 'label')
+          .attr('dy', '0.32em')
+          .attr('x', d => d.x < Math.PI ? 10 : -10)
+          .attr('text-anchor', d => d.x < Math.PI ? 'start' : 'end')
+          .text(d => d.data.name)
+          .style('cursor', d => d.data.url ? 'pointer' : 'default')
+          .on('click', (event, d) => {
+            if (d.data.url) {
+              event.stopPropagation();
+              window.open(d.data.url, '_blank');
+            }
+          });
+
+        node.merge(nodeEnter).transition().duration(450)
+          .attr('transform', d => {
+            const [x, y] = radialPoint(d.x, d.y);
+            return `translate(${x},${y})`;
+          });
+
+        node.exit().transition().duration(300)
+          .attr('opacity', 0)
+          .remove();
+
+        // Stash positions
+        nodes.forEach(d => { d.x0 = d.x; d.y0 = d.y; });
+      }
+
+      function showTooltip(event, d){
+        const t = tooltip;
+        const lines = [];
+        lines.push(`<h4>${d.data.name}</h4>`);
+        if (d.data.description) lines.push(`<p>${escapeHTML(d.data.description)}</p>`);
+        if (d.data.url) lines.push(`<p><a href="${d.data.url}" target="_blank" rel="noopener">Open link ↗</a></p>`);
+        if (d.data.tags && d.data.tags.length){
+          lines.push('<div class="tags">' + d.data.tags.map(x => `<span class="tag">${escapeHTML(x)}</span>`).join('') + '</div>');
+        }
+        t.innerHTML = lines.join('\n');
+        const pad = 16;
+        const x = Math.min(window.innerWidth - 360 - pad, event.clientX + 16);
+        const y = Math.min(window.innerHeight - 140, event.clientY + 16);
+        t.style.left = x + 'px';
+        t.style.top = y + 'px';
+        t.style.opacity = 1;
+        t.style.transform = 'translateY(0)';
+        t.setAttribute('aria-hidden', 'false');
+      }
+      function hideTooltip(){
+        const t = tooltip; t.style.opacity = 0; t.style.transform = 'translateY(4px)'; t.setAttribute('aria-hidden', 'true');
+      }
+      function escapeHTML(s){ return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[m])); }
+
+      // Zoom/pan
+      const zoom = d3.zoom().scaleExtent([0.4, 2.5]).on('zoom', (e) => g.attr('transform', e.transform));
+      svg.call(zoom);
+
+      function center(){
+        const t = d3.zoomIdentity.translate(width/2, height/2).scale(1);
+        svg.transition().duration(500).call(zoom.transform, t);
+      }
+
+      // Buttons
+      document.getElementById('expandAll').addEventListener('click', () => {
+        root.descendants().forEach(d => { if (d._children) { d.children = d._children; d._children = null; } });
+        update(root); center();
+      });
+      document.getElementById('collapseAll').addEventListener('click', () => {
+        root.children && root.children.forEach(cat => {
+          if (cat.children) cat.children.forEach(collapse);
+        });
+        update(root); center();
+      });
+      document.getElementById('resetView').addEventListener('click', () => center());
+
+      // Initial render
+      update(root); center();
+
+      window.addEventListener('resize', () => {
+        svg.attr('width', window.innerWidth).attr('height', window.innerHeight);
+        center();
+      });
+    </script>
+  </body>
+</html>
+
