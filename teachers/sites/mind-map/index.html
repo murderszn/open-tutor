@@ -6,74 +6,65 @@
     <title>[JFD] Learning Map — Subjects & Resources (D3)</title>
     <style>
       :root {
-        --bg: #0b1117;
-        --panel: #0e1621;
-        --text: #e6edf3;
-        --muted: #9fb0c0;
-        --accent: #7c3aed;
-        --link: #5bb5f0;
-        --edge: #1b2735;
-        --node: #1f6feb;
-        --node2: #22c55e;
-        --node3: #f59e0b;
-        --node4: #ef4444;
-        --node5: #06b6d4;
-        --node6: #a855f7;
-        --shadow: 0 8px 30px rgba(0,0,0,0.35);
+        --bg: #ffffff;
+        --panel: rgba(255,255,255,0.96);
+        --text: #0f172a; /* slate-900 */
+        --muted: #64748b; /* slate-500 */
+        --accent: #7c3aed; /* purple-600 */
+        --link: #2563eb; /* blue-600 */
+        --edge: #e5e7eb; /* gray-200 */
+        --node: #2563eb; /* blue-600 */
+        --node2: #16a34a; /* green-600 */
+        --node3: #f59e0b; /* amber-500 */
+        --node4: #ef4444; /* red-500 */
+        --node5: #0891b2; /* cyan-600 */
+        --node6: #7c3aed; /* purple-600 */
+        --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
       }
-      html, body { margin: 0; height: 100%; background: radial-gradient(1200px 800px at 20% 10%, #0f1723 0%, #0b1117 60%, #0a0f14 100%); color: var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+      html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
       #app { position: fixed; inset: 0; }
       #scene { position: absolute; inset: 0; }
 
       /* Top control bar */
-      .topbar { position: fixed; top: 12px; left: 50%; transform: translateX(-50%);
-        display: flex; gap: 10px; align-items: center; background: rgba(14, 22, 33, 0.8); border: 1px solid rgba(255,255,255,0.06);
-        padding: 8px 12px; border-radius: 12px; backdrop-filter: blur(6px); box-shadow: var(--shadow); z-index: 10; }
-      .btn { color: var(--text); background: #121b27; border: 1px solid #1b2735; border-radius: 8px; padding: 6px 10px; cursor: pointer; }
-      .btn:hover { filter: brightness(1.1); }
+      .topbar { position: fixed; top: 0; left: 0; right: 0;
+        display: flex; justify-content: space-between; align-items: center; gap: 10px;
+        background: var(--panel); border-bottom: 1px solid #e5e7eb;
+        padding: 10px 16px; backdrop-filter: blur(6px); box-shadow: var(--shadow); z-index: 10; }
+      .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: 0.2px; }
+      .brand .logo { font-size: 18px; }
+      .actions { display: inline-flex; align-items: center; gap: 10px; }
+      .btn { color: var(--text); background: #ffffff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 6px 10px; cursor: pointer; }
+      .btn:hover { background: #f8fafc; }
       .title { font-weight: 800; letter-spacing: 0.3px; margin-right: 6px; }
-      .legend { display: flex; gap: 10px; align-items: center; font-size: 13px; color: var(--muted); }
-      .key { display: inline-flex; align-items: center; gap: 6px; }
-      .swatch { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
-      .search { display: inline-flex; align-items: center; gap: 6px; margin-left: 8px; }
-      .search input { background: #0b1220; color: var(--text); border: 1px solid #1b2735; border-radius: 8px; padding: 6px 10px; width: 200px; }
-      .depth { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); font-size: 13px; margin-left: 6px; }
+      .search { display: none; }
 
       /* Tooltip */
-      .tooltip { position: fixed; pointer-events: none; background: #0b1220; color: var(--text); border: 1px solid #1e293b; padding: 10px 12px; border-radius: 10px; font-size: 13px; line-height: 1.4; max-width: 360px; box-shadow: var(--shadow); z-index: 20; opacity: 0; transform: translateY(4px); transition: opacity 0.12s ease, transform 0.12s ease; }
+      .tooltip { position: fixed; pointer-events: none; background: #ffffff; color: var(--text); border: 1px solid #e5e7eb; padding: 10px 12px; border-radius: 10px; font-size: 13px; line-height: 1.4; max-width: 380px; box-shadow: var(--shadow); z-index: 20; opacity: 0; transform: translateY(4px); transition: opacity 0.12s ease, transform 0.12s ease; }
       .tooltip h4 { margin: 0 0 6px; font-size: 15px; letter-spacing: 0.2px; }
       .tooltip p { margin: 0 0 8px; color: var(--muted); }
       .tooltip a { color: var(--link); text-decoration: none; }
       .tooltip a:hover { text-decoration: underline; }
       .tooltip .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
-      .tooltip .tag { background: #101826; color: #b8c5d3; border: 1px solid #1b2735; padding: 2px 6px; border-radius: 999px; font-size: 12px; }
+      .tooltip .tag { background: #f8fafc; color: #475569; border: 1px solid #e5e7eb; padding: 2px 6px; border-radius: 999px; font-size: 12px; }
 
       /* Footer hint */
-      .hint { position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); color: var(--muted); font-size: 12px; letter-spacing: 0.2px; background: rgba(14,22,33,0.6); border: 1px solid rgba(255,255,255,0.06); padding: 6px 8px; border-radius: 8px; backdrop-filter: blur(4px); }
+      .hint { position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); color: var(--muted); font-size: 12px; letter-spacing: 0.2px; background: rgba(255,255,255,0.85); border: 1px solid #e5e7eb; padding: 6px 8px; border-radius: 8px; backdrop-filter: blur(4px); box-shadow: var(--shadow); }
 
       /* Node labels */
-      .label { font-size: 12px; fill: #cdd9e5; paint-order: stroke; stroke: rgba(12,18,28,0.9); stroke-width: 3px; }
-      .node circle { filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4)); }
-      .dim { opacity: 0.18; }
-      .links path { filter: drop-shadow(0 1px 6px rgba(0,0,0,0.4)); }
+      .label { font-size: 12px; fill: var(--text); paint-order: stroke; stroke: rgba(255,255,255,0.95); stroke-width: 4px; }
+      .node circle { filter: drop-shadow(0 1px 4px rgba(15,23,42,0.12)); }
+      .dim { opacity: 0.15; }
+      .links path { filter: none; }
     </style>
   </head>
   <body>
     <div id="app">
       <div class="topbar" role="toolbar" aria-label="Mind map controls">
-        <span class="title">[JFD] Learning Map</span>
-        <button class="btn" id="expandAll" title="Expand all">Expand All</button>
-        <button class="btn" id="collapseAll" title="Collapse all">Collapse All</button>
-        <button class="btn" id="resetView" title="Reset view">Center</button>
-        <div class="search" role="search">
-          <input id="searchBox" type="search" placeholder="Search nodes..." aria-label="Search nodes" />
-          <span class="depth">Depth <input id="depthRange" type="range" min="1" max="6" step="1" value="6" /></span>
-        </div>
-        <div class="legend" aria-label="Legend">
-          <span class="key"><span class="swatch" style="background: var(--node)"></span> Assignments</span>
-          <span class="key"><span class="swatch" style="background: var(--node2)"></span> Resources</span>
-          <span class="key"><span class="swatch" style="background: var(--node3)"></span> Interactives</span>
-          <span class="key"><span class="swatch" style="background: var(--node5)"></span> Reference</span>
+        <div class="brand"><span class="logo">🗺️</span><span class="title">Learning Map</span></div>
+        <div class="actions">
+          <button class="btn" id="expandAll" title="Expand all">⤢ Expand</button>
+          <button class="btn" id="collapseAll" title="Collapse all">⤡ Collapse</button>
+          <button class="btn" id="resetView" title="Center view">🎯 Center</button>
         </div>
       </div>
       <svg id="scene"></svg>
@@ -220,6 +211,7 @@
 
       // --- Mind map (radial, collapsible) ---
       const svg = d3.select('#scene');
+      const bg = svg.append('g').attr('class', 'bg');
       const g = svg.append('g').attr('class', 'g-zoom');
       const linkG = g.append('g').attr('class', 'links');
       const nodeG = g.append('g').attr('class', 'nodes');
@@ -230,8 +222,8 @@
       const height = window.innerHeight;
       svg.attr('width', width).attr('height', height);
 
-      const radius = Math.min(width, height) / 2 - 60;
-      const tree = d3.tree().separation((a,b)=>a.parent===b.parent?1.2:1.5).size([2 * Math.PI, radius]);
+      const radius = Math.min(width, height) / 2 - 80;
+      const tree = d3.cluster().separation((a,b)=>a.parent===b.parent?1.1:1.4).size([2 * Math.PI, radius]);
 
       const root = d3.hierarchy(data);
       root.x0 = 0; root.y0 = 0;
@@ -288,19 +280,19 @@
             .attr('stroke-width', 1.2)
             .attr('d', d => {
               const [sx, sy] = radialPoint(source.x0 || source.x, source.y0 || source.y);
-              return `M${sx},${sy}C${sx},${sy} ${sx},${sy} ${sx},${sy}`;
+              return `M${sx},${sy}L${sx},${sy}`;
             })
             .transition().duration(450)
             .attr('d', d => {
               const [sx, sy] = radialPoint(d.source.x, d.source.y);
               const [tx, ty] = radialPoint(d.target.x, d.target.y);
-              return `M${sx},${sy}C${sx},${sy} ${tx},${ty} ${tx},${ty}`;
+              return `M${sx},${sy}L${tx},${ty}`;
             }),
           update => update.transition().duration(450)
             .attr('d', d => {
               const [sx, sy] = radialPoint(d.source.x, d.source.y);
               const [tx, ty] = radialPoint(d.target.x, d.target.y);
-              return `M${sx},${sy}C${sx},${sy} ${tx},${ty} ${tx},${ty}`;
+              return `M${sx},${sy}L${tx},${ty}`;
             }),
           exit => exit.transition().duration(300)
             .attr('opacity', 0)
@@ -324,10 +316,10 @@
           .on('mouseleave', () => { clearHighlight(); hideTooltip(); });
 
         nodeEnter.append('circle')
-          .attr('r', d => d.depth === 0 ? 8 : 6)
+          .attr('r', d => d.depth === 0 ? 9 : 7)
           .attr('fill', d => colorBy(d))
-          .attr('stroke', '#0b1117')
-          .attr('stroke-width', 1.6);
+          .attr('stroke', '#ffffff')
+          .attr('stroke-width', 1.5);
 
         nodeEnter.append('text')
           .attr('class', 'label')
@@ -382,6 +374,30 @@
         svg.transition().duration(500).call(zoom.transform, t);
       }
 
+      // Golden spiral ornament (presentation polish)
+      function drawSpiral(){
+        bg.selectAll('*').remove();
+        const phi = (1 + Math.sqrt(5)) / 2;
+        const thetaEnd = 5.5 * Math.PI; // ~2.75 turns
+        const rMax = Math.min(width, height) / 2 - 40;
+        const b = (2 * Math.log(phi)) / Math.PI; // ensures growth by phi each 90°
+        const a = rMax / Math.exp(b * thetaEnd);
+        const points = [];
+        for (let t = 0; t <= thetaEnd; t += 0.02) {
+          const r = a * Math.exp(b * t);
+          const x = width/2 + r * Math.cos(t);
+          const y = height/2 + r * Math.sin(t);
+          points.push([x, y]);
+        }
+        const path = d3.line().curve(d3.curveCatmullRom.alpha(0.8));
+        bg.append('path')
+          .attr('d', path(points))
+          .attr('fill', 'none')
+          .attr('stroke', '#e5e7eb')
+          .attr('stroke-width', 1.2)
+          .attr('opacity', 0.6);
+      }
+
       // Buttons
       document.getElementById('expandAll').addEventListener('click', () => {
         root.descendants().forEach(d => { if (d._children) { d.children = d._children; d._children = null; } });
@@ -411,18 +427,10 @@
         });
       }
       const depthRange = document.getElementById('depthRange');
-      if (depthRange) {
-        depthRange.addEventListener('input', () => {
-          const maxDepth = +depthRange.value;
-          root.descendants().forEach(d => {
-            if (d.depth >= maxDepth && d.children) { d._children = d.children; d.children = null; }
-          });
-          update(root);
-        });
-      }
+      // Depth toggle removed to keep presentation simple and fully controllable via Expand/Collapse
 
       // Initial render
-      update(root); center();
+      update(root); center(); drawSpiral();
       var adjacency = buildAdjacency();
 
       function buildAdjacency(){
@@ -449,6 +457,7 @@
 
       window.addEventListener('resize', () => {
         svg.attr('width', window.innerWidth).attr('height', window.innerHeight);
+        drawSpiral();
         center();
       });
     </script>
