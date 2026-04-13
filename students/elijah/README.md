@@ -3,7 +3,6 @@
 # 🚀 Elijah’s Workspace
 
 <p>
-  <a href="./grade-4/"><img alt="Grade" src="https://img.shields.io/badge/Grade-4-blue?style=for-the-badge" /></a>
   <a href="./grade-4/math"><img alt="Math" src="https://img.shields.io/badge/Math-✔︎-success?style=for-the-badge" /></a>
   <a href="./grade-4/stem"><img alt="STEM" src="https://img.shields.io/badge/STEM-✔︎-success?style=for-the-badge" /></a>
   <a href="./grade-4/language-arts"><img alt="Language Arts" src="https://img.shields.io/badge/LA-✔︎-success?style=for-the-badge" /></a>
@@ -11,20 +10,9 @@
   <a href="./schedule.csv"><img alt="Schedule" src="https://img.shields.io/badge/Open-Schedule.csv-5B8DEF?style=for-the-badge" /></a>
   <a href="../../assignments/README.md"><img alt="Assignments" src="https://img.shields.io/badge/Browse-Assignments-7C3AED?style=for-the-badge" /></a>
   <a href="../../resources/README.md"><img alt="Resources" src="https://img.shields.io/badge/Explore-Resources-059669?style=for-the-badge" /></a>
-  <a href="../../teachers/ai-assistants/resource_finder.md"><img alt="Resource Finder" src="https://img.shields.io/badge/Agent-Resource_Finder-0EA5E9?style=for-the-badge" /></a>
 </p>
 
-<p>
-<strong>Quick Nav:</strong>
-<a href="./grade-4/math">Math</a> · 
-<a href="./grade-4/stem">STEM</a> · 
-<a href="./grade-4/language-arts">Language Arts</a> · 
-<a href="./grade-4/social-studies">Social Studies</a>
-</p>
-
-<p>
-<em>Tip:</em> Stuck? Open the Resource Finder agent and paste the assignment path to get kid‑safe videos and links.
-</p>
+<!-- Quick Nav removed to reduce redundancy -->
 
 </div>
 
