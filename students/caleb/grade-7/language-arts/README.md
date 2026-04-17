@@ -8,6 +8,23 @@ Welcome to your Language Arts folder! Save your reading notes, essays, and relev
 * **Read or watch a summary for at least 30 minutes daily.**
   - Acceptable inputs: book chapters, reputable summaries, teacher videos, or film scenes (parent‑approved).
   - Output: a short note, outline, or a filled **Relevance Reflection** for major works.
+* **Listening counts.** Audiobooks count toward reading time and pair well with classics, long novels, or when you want to study pacing and voice in dialogue.
+
+### Audiobooks & where to find them (4th–7th friendly)
+**Titles that tend to work for a wide range:**
+- *Holes* — Louis Sachar (mystery + humor)
+- *Bridge to Terabithia* — Katherine Paterson (powerful; have tissues ready)
+- *Because of Winn-Dixie* — Kate DiCamillo (heartwarming)
+- *The Wild Robot* — Peter Brown (adventure + heart)
+- *New Kid* — Jerry Craft (graphic novel; audio still works well)
+
+**Apps & platforms**
+- **[Libby](https://libbyapp.com)** — free with a library card; strong selection of YA and middle-grade fiction and nonfiction.
+- **Spotify** — **Sleep & Relax** includes full classic stories (e.g., *Alice in Wonderland*, *Treasure Island*); search **Pinna** for kid- and teen-leaning audio.
+- **[Epic](https://www.epicbooks.com)** — read-aloud + text on screen; useful for vocabulary and pacing when you want both listening and seeing the page.
+
+### Mini-project: Audiobook trailers
+Create a **30-second “trailer”** (script, voice memo, or short video) for a book you finished: hook, protagonist(s), conflict, theme in one line—enough to **sell** the book without a full essay. Save work in [`./audiobook-trailers/`](./audiobook-trailers/).
 
 ## Curriculum Goals
 

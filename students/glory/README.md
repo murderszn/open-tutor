@@ -23,7 +23,7 @@ Since Glory (born February 2021) isn't ready to push code to GitHub just yet, th
 
 ## 🎯 Kindergarten Readiness Goals
 
-*   **Phonics & Literacy**: Letter recognition, identifying name, basic sounds.
+*   **Phonics & Literacy**: Letter recognition, identifying name, basic sounds; short picture-book read-alouds or library audiobooks (e.g., via [Libby](https://libbyapp.com) with a card) for listening and vocabulary.
 *   **Math & Logic**: Counting 1-20, shape recognition, sorting objects.
 *   **Fine Motor Skills**: Holding a pencil/crayon correctly, using safety scissors, tracing.
 *   **Social & Emotional**: Sharing, following multi-step directions, expressing feelings.

@@ -6,6 +6,23 @@ Welcome to your Language Arts folder! Save your reading notes, essays, and writi
 
 ## Daily Requirement
 *   **Read for at least 30 minutes every day.**
+*   **Listening counts.** Audiobooks and read-alouds count toward that time—especially helpful for long books, series, or when you want to hear how dialogue sounds.
+
+### Audiobooks & where to find them (4th–7th friendly)
+**Titles that tend to work for a wide range:**
+- *Holes* — Louis Sachar (mystery + humor)
+- *Bridge to Terabithia* — Katherine Paterson (powerful; have tissues ready)
+- *Because of Winn-Dixie* — Kate DiCamillo (heartwarming)
+- *The Wild Robot* — Peter Brown (adventure + heart)
+- *New Kid* — Jerry Craft (graphic novel; audio still works well)
+
+**Apps & platforms**
+- **[Libby](https://libbyapp.com)** — free with a library card; many libraries carry series 4th–6th graders love (e.g., Dog Man, Wings of Fire, Dork Diaries).
+- **Spotify** — browse **Sleep & Relax** for full classic stories (e.g., *Alice in Wonderland*, *Treasure Island*); search for **Pinna** content for kid-focused audio.
+- **[Epic](https://www.epicbooks.com)** — strong read-aloud features for bridging listening and seeing text on screen (good for “middle” readers).
+
+### Mini-project: Audiobook trailers
+Record or write a **30-second “trailer”** for a book you finished (audio or print): hook the listener, name the main character(s), the central problem, and why someone should read it—**no formal essay**. Save scripts or links in [`./audiobook-trailers/`](./audiobook-trailers/).
 
 ## Curriculum Goals
 
