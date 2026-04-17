@@ -43,6 +43,7 @@ Welcome to 7th Grade! Here are your subject folders:
 See the **[schedule.csv](./schedule.csv)** file for your complete list of weekly tasks and daily activities.
 
 ## Featured This Term
+- **Language Arts:** Audiobook picks (Libby, Spotify, Epic), listening counts toward reading time, and **audiobook trailer** mini-project — see [`grade-7/language-arts/README.md`](./grade-7/language-arts/README.md)
 - STEM Biology Thread: water cycle, cells, photosynthesis, reproduction — see `./grade-7/stem/assignments/`
 - Money Management: Credit Scores 101 — `assignments/personal-finance/credit-scores-101/README.md`
 - Need videos? Use the Resource Finder: `teachers/ai-assistants/resource_finder.md`
