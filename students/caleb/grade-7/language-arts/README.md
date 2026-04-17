@@ -9,22 +9,54 @@ Welcome to your Language Arts folder! Save your reading notes, essays, and relev
   - Acceptable inputs: book chapters, reputable summaries, teacher videos, or film scenes (parent‑approved).
   - Output: a short note, outline, or a filled **Relevance Reflection** for major works.
 * **Listening counts.** Audiobooks count toward reading time and pair well with classics, long novels, or when you want to study pacing and voice in dialogue.
+* **Print counts.** Physical books from the library, Libby e-books, and audiobooks are all valid—rotate formats to match the week.
 
-### Audiobooks & where to find them (4th–7th friendly)
-**Titles that tend to work for a wide range:**
-- *Holes* — Louis Sachar (mystery + humor)
-- *Bridge to Terabithia* — Katherine Paterson (powerful; have tissues ready)
-- *Because of Winn-Dixie* — Kate DiCamillo (heartwarming)
-- *The Wild Robot* — Peter Brown (adventure + heart)
-- *New Kid* — Jerry Craft (graphic novel; audio still works well)
+### How to get books (audio or print)
+- **Public library** — browse **teen** and **young adult** (YA) sections with a parent or librarian; many labels also list **middle grade** (roughly ages 8–12) for slightly lighter picks.
+- **[Libby](https://libbyapp.com)** — filter by audiobook or e-book; use tags like *young adult*, *historical fiction*, *biography*.
+- **Spotify** — classics sometimes appear under **Sleep & Relax**; search **Pinna** for age-staged audio.
+- **[Epic](https://www.epicbooks.com)** — useful when you want narration plus on-screen text for tougher vocabulary.
 
-**Apps & platforms**
-- **[Libby](https://libbyapp.com)** — free with a library card; strong selection of YA and middle-grade fiction and nonfiction.
-- **Spotify** — **Sleep & Relax** includes full classic stories (e.g., *Alice in Wonderland*, *Treasure Island*); search **Pinna** for kid- and teen-leaning audio.
-- **[Epic](https://www.epicbooks.com)** — read-aloud + text on screen; useful for vocabulary and pacing when you want both listening and seeing the page.
+Parents: for supplemental videos or reputable articles tied to a book, use the [Resource Finder & Video Curator](../../../../teachers/ai-assistants/resource_finder.md). The AI teaching team index (including [Curriculum Creator & Content Writer](../../../../teachers/ai-assistants/curriculum_creator.md)) lives in [agents.md](../../../../teachers/ai-assistants/agents.md).
 
-### Mini-project: Audiobook trailers
-Create a **30-second “trailer”** (script, voice memo, or short video) for a book you finished: hook, protagonist(s), conflict, theme in one line—enough to **sell** the book without a full essay. Save work in [`./audiobook-trailers/`](./audiobook-trailers/).
+---
+
+## Age-appropriate reading list (7th grade — choose in print or audio)
+
+Seventh grade can span **upper middle grade through early YA**. Themes may include identity, justice, war, romance, and loss—**preview together** when a cover or blurb suggests mature content.
+
+### Contemporary & voice-driven (school, family, identity)
+- *The Crossover* / *Rebound* — Kwame Alexander (verse; sports & family)
+- *Ghost* (Track series) — Jason Reynolds
+- *The Hate U Give* — Angie Thomas (**mature**; police violence; read with parent guidance)
+- *Front Desk* (series) — Kelly Yang
+
+### Fantasy & speculative
+- *The Hunger Games* — Suzanne Collins (**violence**; common in middle school; parent decision)
+- *Percy Jackson* series or *Magnus Chase* — Rick Riordan
+- *The Giver* — Lois Lowry (classic dystopia; good for theme discussions)
+- *Children of Blood and Bone* — Tomi Adeyemi (longer; West African–inspired fantasy; check maturity)
+
+### Historical & war (cross-link with Social Studies when useful)
+- *Refugee* — Alan Gratz (parallel stories; intense)
+- *Salt to the Sea* — Ruta Sepetys (WWII; heavy)
+- *Roll of Thunder, Hear My Cry* — Mildred D. Taylor
+
+### Mystery & suspense
+- *One of Us Is Lying* — Karen M. McManus (**YA**; thriller; parent preview)
+- *Holes* — Louis Sachar (still a strong craft model for structure)
+
+### Nonfiction, biography & “big idea” books
+- *Hidden Figures* (young readers’ edition) — Margot Lee Shetterly
+- *March* (graphic trilogy) — John Lewis, Andrew Aydin, Nate Powell (**civil rights; violence**)
+- Pair biographies with [Black Excellence — Study Them](../../../../resources/black_excellence_figures.md) for independent reading + short summaries.
+
+### “Everyone should try once” shorter classics (library or audio)
+- *The Outsiders* — S.E. Hinton
+- *Animal Farm* — George Orwell (allegory; pairs with history/government)
+
+### Mini-project: Audiobook (or book) trailers
+Create a **30-second “trailer”** (script, voice memo, or short video) for a book you finished: hook, protagonist(s), conflict, one line on theme—enough to **sell** the book without a full essay. Save work in [`./audiobook-trailers/`](./audiobook-trailers/).
 
 ## Curriculum Goals
 

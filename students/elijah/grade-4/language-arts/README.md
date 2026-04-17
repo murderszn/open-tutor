@@ -7,22 +7,54 @@ Welcome to your Language Arts folder! Save your reading notes, essays, and writi
 ## Daily Requirement
 *   **Read for at least 30 minutes every day.**
 *   **Listening counts.** Audiobooks and read-alouds count toward that time—especially helpful for long books, series, or when you want to hear how dialogue sounds.
+*   **Print counts.** A physical library book, Libby e-book, or audiobook all satisfy this—pick what keeps you engaged.
 
-### Audiobooks & where to find them (4th–7th friendly)
-**Titles that tend to work for a wide range:**
-- *Holes* — Louis Sachar (mystery + humor)
-- *Bridge to Terabithia* — Katherine Paterson (powerful; have tissues ready)
-- *Because of Winn-Dixie* — Kate DiCamillo (heartwarming)
-- *The Wild Robot* — Peter Brown (adventure + heart)
-- *New Kid* — Jerry Craft (graphic novel; audio still works well)
+### How to get books (audio or print)
+- **Public library** — browse the **juvenile fiction** shelves (often labeled ages 8–12 or “middle grade”); ask a librarian for “read-alikes” if you loved a series.
+- **[Libby](https://libbyapp.com)** — place holds on audiobooks and e-books with a library card; filter by kids or middle-grade when searching.
+- **Spotify** — **Sleep & Relax** sometimes includes full classic stories; search **Pinna** for kid-focused audio (subscription varies).
+- **[Epic](https://www.epicbooks.com)** — read-aloud with text on screen (good when you want to hear and see words together).
 
-**Apps & platforms**
-- **[Libby](https://libbyapp.com)** — free with a library card; many libraries carry series 4th–6th graders love (e.g., Dog Man, Wings of Fire, Dork Diaries).
-- **Spotify** — browse **Sleep & Relax** for full classic stories (e.g., *Alice in Wonderland*, *Treasure Island*); search for **Pinna** content for kid-focused audio.
-- **[Epic](https://www.epicbooks.com)** — strong read-aloud features for bridging listening and seeing text on screen (good for “middle” readers).
+Parents: for extra video or site ideas tied to a title, use the [Resource Finder & Video Curator](../../../../teachers/ai-assistants/resource_finder.md). The full AI teaching team index is [agents.md](../../../../teachers/ai-assistants/agents.md).
 
-### Mini-project: Audiobook trailers
-Record or write a **30-second “trailer”** for a book you finished (audio or print): hook the listener, name the main character(s), the central problem, and why someone should read it—**no formal essay**. Save scripts or links in [`./audiobook-trailers/`](./audiobook-trailers/).
+---
+
+## Age-appropriate reading list (4th grade — choose in print or audio)
+
+Aim for **chapter books and strong illustrated / graphic novels** with clear characters and age-appropriate conflict. Preview or read reviews together if a topic feels heavy (family loss, bullying, etc.).
+
+### Laugh-out-loud & series (great for stamina)
+- *Dog Man* / *Cat Kid Comic Club* — Dav Pilkey
+- *The Bad Guys* — Aaron Blabey
+- *Dork Diaries* — Rachel Renée Russell
+- *Diary of a Wimpy Kid* — Jeff Kinney
+
+### Heart & realistic fiction
+- *Because of Winn-Dixie* — Kate DiCamillo
+- *The One and Only Ivan* — Katherine Applegate
+- *Front Desk* — Kelly Yang (immigration & family; discuss with a parent)
+- *El Deafo* — Cece Bell (graphic memoir; hearing loss; friendship)
+
+### Adventure & fantasy (check parent comfort with intensity)
+- *The Wild Robot* — Peter Brown
+- *The Tale of Despereaux* — Kate DiCamillo
+- *Percy Jackson and the Olympians: The Lightning Thief* — Rick Riordan (mythology; action)
+- *Wings of Fire* (series) — Tui T. Sutherland (dragons; longer arcs)
+
+### Mystery & puzzle
+- *Holes* — Louis Sachar
+- *The Mysterious Benedict Society* — Trenton Lee Stewart (thicker; can be a stretch goal)
+
+### Graphic novels & hybrid books
+- *New Kid* / *Class Act* — Jerry Craft
+- *Amulet* (series) — Kazu Kibuishi
+
+### Nonfiction & “true stories” (mix in across the year)
+- National Geographic Kids or Who Was… ? biographies (pick figures who match Social Studies or personal interest)
+- Pair with figures from [Black Excellence — Study Them](../../../../resources/black_excellence_figures.md) when you want a research thread.
+
+### Mini-project: Audiobook (or book) trailers
+Record or write a **30-second “trailer”** for something you finished: hook the listener, main character(s), central problem, why someone should read it—**no formal essay**. Save scripts or links in [`./audiobook-trailers/`](./audiobook-trailers/).
 
 ## Curriculum Goals
 
