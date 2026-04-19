@@ -4,7 +4,7 @@ Use this template when you watch a classic‑book summary or analysis on YouTube
 
 ---
 
-## Caleb (7th Grade)
+## Middle School (7th–8th Grade)
 
 Title: 
 Link: 
@@ -20,7 +20,7 @@ Channel:
 
 ---
 
-## Elijah (4th Grade)
+## Elementary (4th–5th Grade)
 
 Title: 
 Link: 

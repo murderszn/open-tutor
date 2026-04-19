@@ -1,6 +1,6 @@
 # 📜 Archetypal Myths: Flood Stories & Trinity Patterns
 
-**Grade Level:** 7th Grade (Caleb)
+**Grade Level:** Middle School (Grade 7–8)
 **Subject:** Language Arts + Social Studies (Comparative Myth & Culture)
 
 ## 🎯 Objective / What You Will Learn

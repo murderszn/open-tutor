@@ -1,10 +1,10 @@
-# 🔬 Physical Science Roadmap (Caleb Grade 9 Track • Elijah Grade 6 Track)
+# 🔬 Physical Science Roadmap (Accelerated Grade Track • Foundational Grade Track)
 
 Use this roadmap to cover core physical sciences with light chemistry, biology/anatomy, and physics. Pick one module per week; complete notes + one lab. Submit lab reports using the template.
 
 ---
 
-## 📘 Caleb — Grade 9 Track (Accelerated)
+## 📘 Accelerated Track (e.g., Grade 8-9)
 
 ### Module List (choose order or follow as written)
 1) Measurement & Units
@@ -40,13 +40,13 @@ Use this roadmap to cover core physical sciences with light chemistry, biology/a
 
 ### Deliverables per Module
 - 1–2 pages of notes in your own words.
-- 1 lab from the Caleb Lab Menu (below) with a completed lab report.
+- 1 lab from the Advanced Lab Menu with a completed lab report.
 
 ---
 
-## 📗 Elijah — Grade 6 Track (Catch‑Up)
+## 📗 Foundational Track (Catch‑Up)
 
-### Module List (mirrors Caleb at lighter depth)
+### Module List (same topics at lighter depth)
 1) Measurement & Units
 - Metric system basics (meter, liter, gram) and common prefixes.
 - Simple US↔metric conversions using resources/weights_and_measures.md.
@@ -68,17 +68,17 @@ Use this roadmap to cover core physical sciences with light chemistry, biology/a
 
 ### Deliverables per Module
 - Short notes (half page to one page) + labeled sketch if helpful.
-- 1 lab from the Elijah Lab Menu with a simplified lab sheet.
+- 1 lab from the Beginner Lab Menu with a simplified lab sheet.
 
 ---
 
 ## 🧪 Lab Menus & Template
 
-- Caleb Lab Menu → assignments/science/physical-science-roadmap/caleb-lab-menu.md
-- Elijah Lab Menu → assignments/science/physical-science-roadmap/elijah-lab-menu.md
+- Advanced Lab Menu → assignments/science/physical-science-roadmap/advanced-lab-menu.md
+- Beginner Lab Menu → assignments/science/physical-science-roadmap/beginner-lab-menu.md
 - Lab Report Template → assignments/science/physical-science-roadmap/lab-report-template.md
 
-Submit: place completed lab reports under your STEM folder (e.g., students/caleb/grade-7/stem/labs/).
+Submit: place completed lab reports under your STEM folder (e.g., students/[name]/grade-#/stem/labs/).
 
 ---
 
@@ -92,7 +92,7 @@ Submit: place completed lab reports under your STEM folder (e.g., students/caleb
 
 ## 🔗 Reference Links (by module)
 
-Use age‑appropriate choices; Caleb can use all links, Elijah should prefer the “kids/intro” options where listed.
+Use age‑appropriate choices; Advanced-track students can use all links; foundational-track students should prefer the “kids/intro” options where listed.
 
 1) Measurement & Units
 - NIST: SI Units Overview — https://www.nist.gov/pml/weights-and-measures/si-units

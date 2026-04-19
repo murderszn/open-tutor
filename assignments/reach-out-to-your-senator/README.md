@@ -67,7 +67,7 @@ Office addresses and phone numbers are listed on each Senator’s “Contact” 
 - Use 1–2 relevant facts or a short personal story.
 - Close with thanks and your first name (parents may add last name if they choose).
 
-Kid‑Friendly (Elijah):
+Younger students (elementary):
 - Say thank you or explain your problem in 3–5 short sentences.
 - Tell where you live (city/ZIP). Be polite. Ask for one thing.
 

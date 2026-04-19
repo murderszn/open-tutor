@@ -1,6 +1,6 @@
 # ✍🏾 Poetry Focus: Langston Hughes & Maya Angelou
 
-**Grade Level:** 7th Grade (Caleb)
+**Grade Level:** Middle School (Grade 7–8)
 **Subject:** Language Arts (Poetry & Culture)
 
 ## 🎯 Objective / What You Will Learn

@@ -18,8 +18,8 @@ Research influential Black leaders, business people, government officials, and e
 - OR a 3–6 slide mini‑deck (one or two slides per person) with a final comparison slide
 
 Save your work in your student folder:
-- Caleb: `students/caleb/grade-7/social-studies/black-excellence/`
-- Elijah: `students/elijah/grade-4/social-studies/black-excellence/`
+- Student A: `students/[name]/grade-#/social-studies/black-excellence/`
+- Student B: `students/[name]/grade-#/social-studies/black-excellence/`
 
 ## Suggested Starters & Resources
 We have compiled an extensive list of incredible historic and modern figures to research. 

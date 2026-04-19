@@ -21,7 +21,7 @@ You will build a website (using HTML, CSS, and basic JavaScript/Python as taught
 *   **Budget Constraint**: The total cost must be tracked against the **$250,000 budget**. If the user goes over budget, the website should alert them or prevent the addition of the car!
 
 ## 🚀 How to Start
-1. Create a folder inside your personal workspace (e.g., `/students/caleb/projects/car-collection`) to hold your code.
+1. Create a folder inside your personal workspace (e.g., `/students/<name>/projects/car-collection`) to hold your code.
 2. Start by sketching out what you want your website to look like.
 3. Write down a list of some of your favorite cars and see if they fit the budget!
 4. Ask for help if you need a starter template for your website.

@@ -116,8 +116,8 @@
         <h2>Quick Presets</h2>
         <p class="hint">Choose a preset to fill in the calculator with typical values used in the assignment.</p>
         <div class="row">
-          <button type="button" class="pill" onclick="setPreset('elijah')">Elijah (4th): Auto $15k · 5y</button>
-          <button type="button" class="pill" onclick="setPreset('caleb')">Caleb (7th): Auto $15k · 5y</button>
+          <button type="button" class="pill" onclick="setPreset('auto')">Elementary: Auto $15k · 5y</button>
+          <button type="button" class="pill" onclick="setPreset('auto')">Middle School: Auto $15k · 5y</button>
           <button type="button" class="pill" onclick="setPreset('mortgage')">Mortgage: $300k · 30y</button>
         </div>
       </section>
@@ -319,7 +319,7 @@
       }
 
       function setPreset(which){
-        if (which==='elijah' || which==='caleb'){
+        if (which==='auto'){
           $('product').value = 'auto';
           $('amount').value = 15000;
           $('years').value = 5;

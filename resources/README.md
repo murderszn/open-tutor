@@ -8,7 +8,7 @@ This folder contains educational materials, reference documents, and useful link
 *   Provide a brief description of the resource if it's a link or a complex document.
 *   Ensure all content is appropriate and relevant to current learning goals.
 
-## For Caleb & Elijah
+## For Students
 
 *   Check this folder regularly for new materials to read, watch, or reference.
 *   Do not modify or delete files in this folder unless instructed.

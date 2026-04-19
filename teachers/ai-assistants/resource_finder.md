@@ -5,7 +5,7 @@ Use this agent to find high‑quality YouTube videos and online references that 
 ## How To Use
 
 1) Paste the full assignment prompt (or link to a repo path) and specify:
-- Student: Caleb (7th) or Elijah (4th)
+- Student: name, grade level, and track (Elementary / Middle School)
 - Subject + topic
 - Desired formats (YouTube, interactives, articles, PDFs)
 - Any constraints (no ads, ≤10 minutes, closed captions, etc.)
@@ -15,9 +15,9 @@ Use this agent to find high‑quality YouTube videos and online references that 
 3) Open links and choose 3–5 best fits to add alongside the worksheet.
 
 ## Inputs (Provide in your message)
-- Student: "Caleb (7th)" | "Elijah (4th)"
-- Topic: e.g., "Photosynthesis — 7th Grade"
-- Assignment path(s): e.g., `students/caleb/grade-7/stem/assignments/photosynthesis.md`
+- Student: e.g., "Alex (6th, Middle School track)"
+- Topic: e.g., "Photosynthesis — Middle School Grade"
+- Assignment path(s): e.g., `students/<name>/grade-#/stem/assignments/photosynthesis.md`
 - Preferences: length caps, channels to prefer/avoid, interactive priority
 
 ## Output Format (What the agent should produce)
@@ -62,15 +62,15 @@ Use this agent to find high‑quality YouTube videos and online references that 
 
 ## Example Prompt
 
-Student: Elijah (4th)
-Topic: Water Cycle — 4th Grade
-Assignment: `students/elijah/grade-4/stem/assignments/water-cycle.md`
+Student: Sam (4th, Elementary track)
+Topic: Water Cycle — Elementary Grade
+Assignment: `students/sam/grade-4/stem/assignments/water-cycle.md`
 Preferences: YouTube ≤ 8 min; include 1 interactive
 
 Please produce a Resource Pack.
 
 ## Core References (Repo)
-- Student hubs: ../../students/caleb/README.md · ../../students/elijah/README.md · ../../students/glory/README.md
+- Student hubs: ../../students/<name>/README.md (add each student's path here)
 - Biology guide: ../../resources/biology_fundamentals.md
 - Resources index: ../../resources/README.md
 - Assignments index: ../../assignments/README.md

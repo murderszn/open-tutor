@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>[JFD] Learning Center • Weekly Timeline</title>
+    <title>OpenTutor • Weekly Timeline</title>
     <style>
       :root {
         --bg: #ffffff;
@@ -139,63 +139,24 @@
         .nav-overlay { display: none !important; }
       }
 
-      /* Login Overlay */
-      .login-overlay { position: fixed; inset: 0; background: var(--bg); display: none; z-index: 2000; }
-      .login-overlay.show { display: flex; align-items: stretch; }
-      .login-overlay::before { content: ""; flex: 0 0 61.8%; background-color: #000; background-image: url('../assets/jfd_minimal_lockscreen.svg'); background-position: center; background-size: contain; background-repeat: no-repeat; border-right: 1px solid var(--border); }
-      .login-card { margin: auto; width: 100%; max-width: 360px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; box-shadow: 0 6px 18px rgba(0,0,0,0.06), 0 1px 1px rgba(0,0,0,0.04); }
-      .login-card h2 { margin: 0 0 6px; font-size: 18px; }
-      .login-card p.small { margin: 0 0 16px; color: var(--muted); font-size: 12px; }
-      .field { margin-bottom: 12px; }
-      .field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; font-weight: 500; }
-      .field input { width: 100%; padding: 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; outline: none; transition: border-color 0.2s; }
-      .field input:focus { border-color: var(--text); }
-      .login-actions { display: flex; gap: 8px; align-items: center; justify-content: space-between; margin-top: 10px; }
-      .btn-primary { padding: 10px 16px; border: 1px solid var(--border); border-radius: 8px; background: var(--text); color: var(--bg); font-weight: 700; cursor: pointer; transition: opacity 0.2s; }
-      .btn-primary:active { opacity: 0.8; }
-      .login-error { color: #b91c1c; font-size: 12px; min-height: 16px; }
-      @media (max-width: 800px) {
-        .login-overlay { background: var(--bg); background-image: url('../assets/jfd_minimal_lockscreen.svg'); background-position: center; background-size: contain; background-repeat: no-repeat; padding: 16px; }
-        .login-overlay.show { align-items: center; }
-        .login-overlay::before { display: none; }
-        .login-card { padding: 16px; }
-      }
     </style>
   </head>
   <body>
-    <div class="login-overlay" id="loginOverlay" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
-      <div class="login-card">
-        <h2 id="loginTitle">Sign In</h2>
-        <p class="small">Enter your username and password to continue.</p>
-        <div class="field">
-          <label for="loginUser">Username</label>
-          <input id="loginUser" name="user" autocomplete="username" placeholder="Username" />
-        </div>
-        <div class="field">
-          <label for="loginPass">Password</label>
-          <input id="loginPass" name="pass" type="password" autocomplete="current-password" placeholder="Password" />
-        </div>
-        <div class="login-actions">
-          <div class="login-error" id="loginError" role="alert" aria-live="polite"></div>
-          <button class="btn-primary" id="loginBtn">Sign in</button>
-        </div>
-      </div>
-    </div>
     <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">☾</button>
     <div class="wrap">
-      <div class="brand-masthead" role="img" aria-label="Johnson Family Dynasty Learning Center">
-        <span class="sr-only">[JFD] Learning Center</span>
+      <div class="brand-masthead" role="img" aria-label="OpenTutor Learning Center">
+        <span class="sr-only">OpenTutor Learning Center</span>
         <pre aria-hidden="true">
 ╔════════════════════════════════════════════════════════════════════╗
 ║                                                                    ║
-║           [ J F D ]   L E A R N I N G   C E N T E R                ║
+║              O P E N T U T O R   L E A R N I N G                  ║
 ║                                                                    ║
-║        ██╗███████╗██████╗     ██╗  ██╗██╗   ██╗██████╗             ║
-║        ██║██╔════╝██╔══██╗    ██║  ██║██║   ██║██╔══██╗            ║
-║        ██║█████╗  ██║  ██║    ███████║██║   ██║██████╔╝            ║
-║   ██   ██║██╔══╝  ██║  ██║    ██╔══██║██║   ██║██╔══██╗            ║
-║   ╚█████╔╝██║     ██████╔╝    ██║  ██║╚██████╔╝██████╔╝            ║
-║    ╚════╝ ╚═╝     ╚═════╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝             ║
+║         ██████╗ ██████╗ ███████╗███╗   ██╗                         ║
+║        ██╔═══██╗██╔══██╗██╔════╝████╗  ██║                         ║
+║        ██║   ██║██████╔╝█████╗  ██╔██╗ ██║                         ║
+║        ██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║                         ║
+║        ╚██████╔╝██║     ███████╗██║ ╚████║                         ║
+║         ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝                         ║
 ║                                                                    ║
 ╚════════════════════════════════════════════════════════════════════╝
         </pre>
@@ -203,8 +164,8 @@
 
       <header class="hero">
         <div class="hero-content">
-          <h1>[JFD] Learning Center — Curriculum & Weekly Timeline</h1>
-          <div class="meta">Program requirements, core curriculum, and a week-by-week schedule (rows = weeks; Elijah and Caleb in columns).</div>
+          <h1>OpenTutor — Curriculum & Weekly Timeline</h1>
+          <div class="meta">Program requirements, core curriculum, and a week-by-week schedule (rows = weeks; students in columns). Replace column headers and task links with your own students and content.</div>
         </div>
         <nav class="toolbar" role="navigation" aria-label="Primary">
           <a class="link-chip" href="../../../../assignments/" aria-label="Assignments">
@@ -228,16 +189,13 @@
           <a class="link-chip" href="./mind-map/index.html" title="Open the subjects mind map" aria-label="Subjects Mind Map">
             <span class="icon" aria-hidden="true">🗺️</span><span>Subjects Mind Map</span>
           </a>
-          <a class="link-chip logout" id="logoutChip" aria-label="Log out">
-            <span class="icon" aria-hidden="true">⎋</span><span>Logout</span>
-          </a>
         </nav>
       </header>
 
       
       <section class="philosophy content-section">
-        <h2>Our Homeschool Operating System</h2>
-        <p>The [JFD] Learning Center uniquely relies on real-world tech stacks to foster profound independence and digital literacy:</p>
+        <h2>The OpenTutor Operating System</h2>
+        <p>OpenTutor relies on real-world tech stacks to foster profound independence and digital literacy:</p>
         <ul>
           <li><strong>GitHub (The Classroom):</strong> Our curriculum, assignments, and student hubs live here as Markdown files. Students complete their work and submit "Pull Requests" for Mom and Dad to review. This acts as our permanent, immutable portfolio and gradebook.</li>
           <li><strong>Discord (The Help Desk):</strong> Real-time, async communication. We use dedicated channels (e.g., `#math-help`, `#stem-projects`) integrated with custom AI "Teacher Bots". When students are stuck, they ping the bots for Socratic guidance—getting hints and analogies, never direct answers.</li>
@@ -319,8 +277,8 @@
           <thead>
             <tr>
               <th>Week</th>
-              <th>Elijah (4th)</th>
-              <th>Caleb (7th)</th>
+              <th>Student 1 (Grade)</th>
+              <th>Student 2 (Grade)</th>
             </tr>
           </thead>
           <tbody>
@@ -474,7 +432,7 @@
       </section>
 
       <footer>
-        Links come from student READMEs, assignments, and resources. Privacy: first names only.
+        OpenTutor — links connect to student hubs, assignments, and resources. Replace column headers and task links with your own students and content.
       </footer>
     </div>
     <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
@@ -522,42 +480,6 @@
             }
           }
         });
-      })();
-      (function authInit(){
-        const overlay = document.getElementById('loginOverlay');
-        const inputUser = document.getElementById('loginUser');
-        const inputPass = document.getElementById('loginPass');
-        const btn = document.getElementById('loginBtn');
-        const err = document.getElementById('loginError');
-        const logout = document.getElementById('logoutChip');
-
-        function isAllowed(name){
-          const n = (name||'').trim().toLowerCase();
-          return n === 'josh' || n === 'loniaa' || n === 'caleb' || n === 'elijah';
-        }
-        function validate(u, p){
-          const user = (u||'').trim().toLowerCase();
-          const pass = (p||'').trim().toLowerCase();
-          return isAllowed(user) && pass === 'jfd';
-        }
-        function show(){ overlay.classList.add('show'); document.body.classList.add('no-scroll'); }
-        function hide(){ overlay.classList.remove('show'); document.body.classList.remove('no-scroll'); }
-
-        const saved = localStorage.getItem('jfd_auth_user');
-        if (!saved || !isAllowed(saved)) show();
-
-        btn?.addEventListener('click', () => {
-          err.textContent = '';
-          const u = inputUser.value; const p = inputPass.value;
-          if (validate(u, p)) {
-            localStorage.setItem('jfd_auth_user', (u||'').trim().toLowerCase());
-            hide();
-          } else {
-            err.textContent = 'Invalid name or password.';
-          }
-        });
-        inputPass?.addEventListener('keydown', (e)=>{ if (e.key === 'Enter') btn.click(); });
-        logout?.addEventListener('click', (e) => { e.preventDefault(); localStorage.removeItem('jfd_auth_user'); show(); });
       })();
       (function linkTransitions(){
         const overlay = document.getElementById('navOverlay');

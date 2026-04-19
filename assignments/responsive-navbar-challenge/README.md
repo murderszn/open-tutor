@@ -1,6 +1,6 @@
 # 🧭 Responsive Navbar Challenge
 
-**Grade Level:** 7th Grade (Caleb)
+**Grade Level:** Middle School (adjust to your student)
 **Subject:** STEM / Web Development (HTML/CSS)
 
 ## 🎯 Objective / What You Will Learn

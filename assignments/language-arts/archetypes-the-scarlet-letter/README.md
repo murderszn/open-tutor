@@ -1,6 +1,6 @@
 # 📕 Archetypes: The Scarlet Letter (Relevance Study)
 
-**Grade Level:** 7th Grade (Caleb)
+**Grade Level:** Middle School (Grade 7–8)
 **Subject:** Language Arts (Literature & Culture)
 
 ## 🎯 Objective / What You Will Learn
@@ -36,7 +36,7 @@ Tip: You may also read selected chapters later, but understanding the archetype 
 
 ## 📦 Deliverables
 * A completed relevance reflection (Markdown or Google Doc/PDF). Suggested path:
-  - Copy `assignments/language-arts/relevance-reflection-template.md` into `students/caleb/grade-7/language-arts/` and fill it out.
+  - Copy `assignments/language-arts/relevance-reflection-template.md` into `students/<name>/grade-#/language-arts/` and fill it out.
 * 2–3 specific modern examples that mirror the archetype (one paragraph each).
 
 ---

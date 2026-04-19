@@ -13,11 +13,11 @@ Look up a labeled diagram of an animal cell. Focus on: cell membrane, nucleus, c
 ## Activities
 Choose the track for your grade.
 
-### 4th Grade (Elijah)
+### Elementary Grade
 - Draw an animal cell and label: membrane, nucleus, cytoplasm, mitochondria.
 - In 1–2 sentences each, explain what the nucleus and mitochondria do.
 
-### 7th Grade (Caleb)
+### Middle School Grade
 - Create a labeled diagram including: membrane, nucleus, cytoplasm, mitochondria, ribosomes, ER, Golgi, lysosomes.
 - Write a short paragraph comparing plant vs animal cells (no cell wall/chloroplasts in animals; different energy capture).
 

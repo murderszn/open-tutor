@@ -1,6 +1,6 @@
 # 🎭 Shakespeare Overview: Hamlet (Relevance Study)
 
-**Grade Level:** 7th Grade (Caleb)
+**Grade Level:** Middle School (Grade 7–8)
 **Subject:** Language Arts (Drama & Culture)
 
 ## 🎯 Objective / What You Will Learn

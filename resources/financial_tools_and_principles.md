@@ -16,8 +16,8 @@ A practical, age‑appropriate guide to money, markets, and smart habits. Use th
 
 ## 🧭 How To Use This (Age Tracks)
 
-- Caleb (Grade 7–9): Read each section, then complete one Practice Idea per week. Use the templates to write one page per concept (stock, bond, mortgage, etc.).
-- Elijah (Grade 4–6): Read the “Kid‑Friendly” bullets under each section (parents help as needed). Fill out the short templates (3–4 lines each) and do one small conversion or definition per week.
+- Middle School (Grade 6–9): Read each section, then complete one Practice Idea per week. Use the templates to write one page per concept (stock, bond, mortgage, etc.).
+- Elementary (Grade 3–6): Read the “Kid‑Friendly” bullets under each section (parents help as needed). Fill out the short templates (3–4 lines each) and do one small conversion or definition per week.
 
 Keep everything in your student folder in a `/finance` subfolder.
 

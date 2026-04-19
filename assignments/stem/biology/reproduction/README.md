@@ -13,11 +13,11 @@ Use a kid‑friendly source to review: asexual (budding, binary fission, runners
 ## Activities
 Choose the track for your grade.
 
-### 4th Grade (Elijah)
+### Elementary Grade
 - Make a T‑chart with two columns: Asexual vs Sexual. Add 2 examples in each column and 1 sentence to describe each.
 - In 2–3 sentences, explain why some species use one strategy or the other.
 
-### 7th Grade (Caleb)
+### Middle School Grade
 - Write a short comparison (6–8 sentences) of mitosis vs meiosis: purpose, number of divisions, chromosome number, and whether the cells are identical or varied.
 - Give a real example of asexual reproduction and one of sexual reproduction; explain a benefit of genetic variation.
 

@@ -1,6 +1,6 @@
 # 💻 Personal Portfolio Website
 
-**Grade Level:** 7th Grade (Caleb)
+**Grade Level:** Middle School (adjust to your student)
 **Subject:** STEM / Computer Science
 
 ## 🎯 Objective / What You Will Learn
@@ -32,7 +32,7 @@ Create a new folder called `my-portfolio`. Inside it, create the following files
 ### Step 2: The Homepage (`index.html`)
 1.  Set up your standard HTML boilerplate (`<html>`, `<head>`, `<body>`).
 2.  Link your `style.css` file in the `<head>`.
-3.  Add an `<h1>` tag with your name: "Welcome to Caleb's Portfolio".
+3.  Add an `<h1>` tag with your name: "Welcome to [Your Name]'s Portfolio".
 4.  Write a short paragraph `<p>` introducing yourself and your favorite subjects.
 5.  Create a navigation menu using `<ul>` and `<li>` lists. Use `<a>` tags to link to your `projects.html` and `contact.html` pages.
 
@@ -65,5 +65,5 @@ Create a new folder called `my-portfolio`. Inside it, create the following files
 *   [ ] Does the project contain 3 distinct HTML files and 1 CSS file?
 *   [ ] Can you successfully navigate between Home, Projects, and Contact using the menu links?
 *   [ ] Is the CSS file successfully linked? (i.e., The background color/fonts actually changed).
-*   [ ] Did Caleb write a custom introduction and project descriptions in his own words?
+*   [ ] Did the student write a custom introduction and project descriptions in his own words?
 *   [ ] *Challenge:* Did he successfully render a `<form>` tag on the contact page?

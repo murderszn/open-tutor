@@ -30,10 +30,10 @@ Create a short write‑up with clear headings. Save it to your student folder un
 - Path: `students/<name>/grade-#/social-studies/assignments/credit-scores-101.md`
 
 Use the worksheet that matches your grade:
-- 4th Grade (Elijah): [templates/elijah_worksheet.md](./templates/elijah_worksheet.md)
-- 7th Grade (Caleb): [templates/caleb_worksheet.md](./templates/caleb_worksheet.md)
+- Elementary (Grades 3–5): [templates/beginner-grade-worksheet.md](./templates/beginner-grade-worksheet.md)
+- Middle School (Grades 6–8): [templates/advanced-grade-worksheet.md](./templates/advanced-grade-worksheet.md)
 
-### 4th Grade (Elijah)
+### Elementary Grades (3–5)
 
 Keep it simple and clear. Use the site to help.
 
@@ -52,7 +52,7 @@ Rubric (10 pts)
 - 2 — Credit card explanation shows you understand interest
 - 1 — Organized write‑up in the right folder/name
 
-### 7th Grade (Caleb)
+### Middle School Grades (6–8)
 
 Use the calculators and show comparisons with numbers.
 

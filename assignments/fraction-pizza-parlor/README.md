@@ -1,6 +1,6 @@
 # 🍕 Fraction Pizza Parlor
 
-**Grade Level:** 4th Grade (Elijah)
+**Grade Level:** Elementary (Grade 3–5)
 **Subject:** Math (Fractions & Decimals)
 
 ## 🎯 Objective / What You Will Learn
@@ -19,7 +19,7 @@
 
 ## 🚀 The Project Details
 
-Welcome to Elijah's Pizzeria! You are the owner and head chef of the most popular pizza place in town. Business is booming, but the cash register is broken! You have to calculate the orders by hand using fractions and decimals.
+Welcome to Your Pizzeria! You are the owner and head chef of the most popular pizza place in town. Business is booming, but the cash register is broken! You have to calculate the orders by hand using fractions and decimals.
 
 ### Step 1: Design Your Menu
 Create a physical or digital menu for your parlor. You must include:
@@ -59,7 +59,7 @@ Look back at the menu you designed in Step 1.
 ---
 
 ## 📋 [For Parents] Evaluation Checklist
-*   [ ] Did Elijah correctly slice the pizza into 8ths and identify that 1/2 = 4 slices and 1/4 = 2 slices?
-*   [ ] Did Elijah correctly convert 14/6 into the mixed number 2 2/6 (or simplified to 2 1/3)?
-*   [ ] Did Elijah successfully halve a topping price and add up the final decimal cost of the pizza?
+*   [ ] Did the student correctly slice the pizza into 8ths and identify that 1/2 = 4 slices and 1/4 = 2 slices?
+*   [ ] Did the student correctly convert 14/6 into the mixed number 2 2/6 (or simplified to 2 1/3)?
+*   [ ] Did the student successfully halve a topping price and add up the final decimal cost of the pizza?
 *   [ ] Did he correctly calculate the change from a $20 bill?

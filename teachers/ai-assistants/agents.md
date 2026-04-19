@@ -1,27 +1,20 @@
-# 🤖 The [JFD] AI Teaching Team
+# The OpenTutor AI Teaching Team
 
-Welcome to the AI Teaching Team directory! This folder contains specialized "System Prompts" (also known as Agents) designed to help Mom and Dad run the homeschool learning center efficiently.
+Welcome to the AI Teaching Team directory! This folder contains specialized system prompts designed to help parents and teachers run a homeschool or small-classroom program efficiently using any AI assistant (Claude, ChatGPT, Gemini, etc.).
 
-## 🛠️ How to Use These Agents
+## How to Use These Agents
 
-You can use these text files to turn any standard AI (like ChatGPT, Gemini, or Claude) into a specialized homeschool assistant.
-
-1. **Choose your Assistant**: Look through the markdown files in this folder and pick the role that fits your current need.
-2. **Copy the Prompt**: Open the chosen file and copy the *entire* text inside.
-3. **Start a New Chat**: Go to your AI of choice and paste the text as your very first message.
-4. **Interact**: The AI has now adopted that specific persona and operating rules! You can now ask it to generate content, grade work, or explain concepts. *Always remember to tell the AI which child (Caleb, Elijah, or Glory) you are asking about so it adjusts its tone and difficulty!*
+1. **Choose your Assistant**: Pick the role that fits your current need.
+2. **Copy the Prompt**: Open the chosen file and copy the entire text.
+3. **Start a New Chat**: Paste the text as your very first message to the AI.
+4. **Interact**: The AI has now adopted that specific persona. Tell it which student, grade level, and subject you're working on.
 
 ---
 
-## 📚 Core Materials (Quick Links)
+## Core Materials (Quick Links)
 
 - Student Hubs
-  - [Caleb (7th) — Student Hub](../../students/caleb/README.md)
-  - [Elijah (4th) — Student Hub](../../students/elijah/README.md)
-  - [Glory (Pre‑K) — Student Hub](../../students/glory/README.md)
-- Language Arts (independent reading — print or audio)
-  - [Elijah — 4th Grade Language Arts](../../students/elijah/grade-4/language-arts/README.md)
-  - [Caleb — 7th Grade Language Arts](../../students/caleb/grade-7/language-arts/README.md)
+  - [Student Template Hub](../../students/student-template/README.md)
 - Resources (Guides)
   - [World Facts](../../resources/world_facts.md)
   - [Weights & Measures](../../resources/weights_and_measures.md)
@@ -45,39 +38,39 @@ You can use these text files to turn any standard AI (like ChatGPT, Gemini, or C
   - [Assignments Index](../../assignments/README.md)
   - [Weekly Timeline Dashboard](../sites/index.html)
 
-Agents should reference these when proposing tasks, examples, or links for students. Prefer relative links and keep responses grade‑appropriate.
+Agents should reference these when proposing tasks, examples, or links for students. Prefer relative links and keep responses grade-appropriate.
 
 ---
 
-## 👥 Meet the Team
+## Meet the Team
 
 ### 1. [Curriculum Creator & Content Writer](curriculum_creator.md)
 Your expert educational planner. Use this agent to dream up new, engaging, project-based assignments and define clear grading rubrics.
 
 ### 2. [Lesson Planner & Scheduler](lesson_planner.md)
-The logistics master. Give this agent a broad monthly goal or curriculum topic, and it will break it down into daily, bite-sized tasks formatted perfectly for the boys' weekly `README.md` schedules.
+The logistics master. Give this agent a broad monthly goal or curriculum topic and it will break it down into daily, bite-sized tasks formatted for a weekly schedule CSV.
 
 ### 3. [Teacher's Aide (The Unblocker)](teachers_aide.md)
-The Socratic guide. Use this when the boys are stuck on a coding bug or a tough math problem. It provides hints and real-world analogies, but is strictly programmed *never to give them the direct answers so they don't cheat*.
+The Socratic guide. Use this when a student is stuck on a coding bug or a tough math problem. It provides hints and real-world analogies but is strictly programmed *never to give direct answers*.
 
 ### 4. [Subject Tutor (The Explainer)](subject_tutor.md)
-The deep-dive lecturer. Use this agent when you want the kids to learn a brand new, complex topic from scratch (like "How does the stock market work?" or "Explain the branches of government"). It breaks big concepts down into highly digestible, age-appropriate stories.
+The deep-dive lecturer. Use this agent when you want a student to learn a brand new, complex topic from scratch. It breaks big concepts down into highly digestible, age-appropriate explanations.
 
 ### 5. [Assessment Grader](assessment_grader.md)
-The objective evaluator. Paste the boys' completed essays, math worksheets, or project descriptions into this agent, and it will grade them against a parent-defined rubric, providing constructive praise and areas for improvement.
+The objective evaluator. Paste a student's completed essay, math worksheet, or project description into this agent and it will grade it against a parent-defined rubric with constructive feedback.
 
 ### 6. [Report Card Generator & Progress Analyst](report_card_generator.md)
-Turns merged student work into report cards, charts, and a performance matrix. Computes accuracy, completion, and an interest/engagement index by subject using assignment volume, recency, and streaks.
+Turns student work into report cards, charts, and a performance matrix. Computes accuracy, completion, and an interest/engagement index by subject.
 
 ### 7. [Resource Finder & Video Curator](resource_finder.md)
-Given an assignment and grade, proposes targeted search queries and returns a curated set of YouTube videos and reputable online references with short rationales and worksheet mapping. Produces quick‑open search links and follows kid‑safe curation rules.
+Given an assignment and grade level, proposes targeted search queries and returns a curated set of YouTube videos and reputable online references. Follows kid-safe curation rules.
 
 ---
 
-## 🔒 Safety & Style Notes for Agents
+## Safety & Style Notes for Agents
 
 - Use first names only; do not include PII.
 - Cite internal resources above with relative links.
 - Match tone and rigor to the specified student and grade.
-- When adding or updating an agent prompt, also update this file’s Core Materials list if new guides are added.
- - When an internal guide is missing, include 1–2 Wikipedia links for high‑level concepts and vocabulary as click‑through references. Prefer .gov/.edu where available; keep links age‑appropriate.
+- When adding or updating an agent prompt, also update this file's Core Materials list if new guides are added.
+- When an internal guide is missing, include 1–2 Wikipedia links for high-level concepts as click-through references. Prefer .gov/.edu where available; keep links age-appropriate.

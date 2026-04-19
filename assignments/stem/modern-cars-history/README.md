@@ -4,7 +4,7 @@ Welcome to your STEM assignment for the week! Please refer to the **[Automotive 
 
 ---
 
-## 🧑‍🎓 7th Grade Assignment (Caleb)
+## 🧑‍🎓 Middle School Assignment
 
 ### Instructions
 Create a new file called `my-engine-report.md` in your `grade-7/stem/` folder. Answer the following fully in your own words:
@@ -16,7 +16,7 @@ Create a new file called `my-engine-report.md` in your `grade-7/stem/` folder. A
 
 ---
 
-## 👦 4th Grade Assignment (Elijah)
+## 👦 Elementary Assignment
 
 ### Instructions
 Create a new file called `car-basics.md` in your `grade-4/stem/` folder. Or, you can draw this on paper and take a photo to save in your folder!

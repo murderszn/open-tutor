@@ -9,7 +9,7 @@ Core reference: ../../../../resources/wars_fundamentals.md
 - Explain how WWI and WWII changed global leadership and everyday life.
 - Connect a contemporary conflict to longer‑term regional dynamics with a verification note.
 
-## Tasks (Caleb)
+## Tasks
 1) Timeline Thread (notes)
 - In your own words (bullet list), outline: Thirty Years’ War → Napoleonic Wars → WWI → WWII → one Cold War conflict (Korea or Vietnam) → one modern conflict (Russia–Ukraine or Iran–Israel context).
 - For each: causes, 1–2 turning points, outcomes (borders/institutions), and who rose/declined.
@@ -26,7 +26,7 @@ Core reference: ../../../../resources/wars_fundamentals.md
 - Open the mini‑site and place the wars in chronological order, then assign flags to the two sides for each war: `./resources/timeline/index.html`
 
 ## Deliverables
-- Path: `students/caleb/grade-7/social-studies/assignments/history-of-war.md`
+- Path: `students/<name>/grade-#/social-studies/assignments/history-of-war.md`
 - Structure: `# Timeline Thread` · `# Institutions One‑Pager` · `# Short Brief` · `# Interactive Timeline (screenshot + notes)`
 
 ## Rubric (10 pts)

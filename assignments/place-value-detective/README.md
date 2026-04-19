@@ -1,6 +1,6 @@
 # 🔎 Place Value Detective
 
-**Grade Level:** 4th Grade (Elijah)
+**Grade Level:** Elementary (adjust to your student)
 **Subject:** Math (Place Value & Rounding)
 
 ## 🎯 Objective / What You Will Learn

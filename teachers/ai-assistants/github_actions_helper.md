@@ -1,6 +1,6 @@
 # 🛠️ GitHub Actions Helper (Skill)
 
-Use this helper when drafting or fixing GitHub Actions for the JFD Learning Center. It captures common patterns, gotchas, and secure defaults that match our repo.
+Use this helper when drafting or fixing GitHub Actions for an OpenTutor Learning Center. It captures common patterns, gotchas, and secure defaults that match our repo.
 
 ## Principles
 - Prefer simple, explicit YAML with spaces (no tabs) and 2‑space indentation.

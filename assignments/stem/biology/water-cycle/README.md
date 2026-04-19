@@ -14,12 +14,12 @@ Understand and model how water moves through the environment (evaporation, conde
 ## Activities
 Choose the track for your grade.
 
-### 4th Grade (Elijah)
+### Elementary Grade
 - Draw the water cycle with arrows for evaporation, condensation, precipitation, and collection.
 - Add 1 real‑life example label for each stage (e.g., “clouds over the mountains”).
 - Write 3–4 sentences explaining how the Sun powers the cycle.
 
-### 7th Grade (Caleb)
+### Middle School Grade
 - Create a labeled diagram OR a one‑page summary that includes: evaporation, transpiration, condensation, precipitation, runoff, infiltration/groundwater.
 - Add a short paragraph (4–6 sentences) explaining how temperature, wind, and landscape affect the cycle in your region.
 - Include one human‑impact example (e.g., urban runoff) and its effect.

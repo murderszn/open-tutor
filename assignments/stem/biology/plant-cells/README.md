@@ -13,11 +13,11 @@ Look up a labeled diagram of a plant cell. Focus on: cell wall, cell membrane, n
 ## Activities
 Choose the track for your grade.
 
-### 4th Grade (Elijah)
+### Elementary Grade
 - Draw a plant cell and label: cell wall, cell membrane, nucleus, chloroplasts, vacuole.
 - In 1–2 sentences each, explain what the cell wall and chloroplasts do.
 
-### 7th Grade (Caleb)
+### Middle School Grade
 - Create a labeled diagram with: cell wall, membrane, nucleus, cytoplasm, chloroplasts, vacuole, mitochondria, ribosomes, endoplasmic reticulum, Golgi apparatus.
 - Write a short paragraph comparing energy in plants vs animals (chloroplasts/photosynthesis vs mitochondria/respiration).
 

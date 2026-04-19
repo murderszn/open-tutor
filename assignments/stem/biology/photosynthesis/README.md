@@ -13,11 +13,11 @@ Find a kid‑friendly explanation of photosynthesis. Focus on: sunlight, chlorop
 ## Activities
 Choose the track for your grade.
 
-### 4th Grade (Elijah)
+### Elementary Grade
 - Draw a plant with arrows for Sun → leaf, CO₂ in, O₂ out, water from roots.
 - Write 3–4 sentences: What goes in? What comes out? Why do we care?
 
-### 7th Grade (Caleb)
+### Middle School Grade
 - Write the photosynthesis equation: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (in words is fine if you can’t format).
 - In 5–7 sentences, explain: role of chlorophyll, where it happens (chloroplasts), and how photosynthesis links to cellular respiration.
 
