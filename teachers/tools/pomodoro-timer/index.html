@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OpenTutor • Pomodoro Flip Timer</title>
+    <style>
+      :root {
+        --bg: #05070f;
+        --card: rgba(16, 22, 40, 0.82);
+        --card-border: rgba(143, 170, 255, 0.2);
+        --text: #f8faff;
+        --muted: #a9b3cf;
+        --accent: #76a2ff;
+        --accent-2: #7ef0ff;
+        --danger: #ff6d91;
+        --success: #8bffbe;
+        --shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+      }
+
+      body {
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 15% 15%, rgba(118, 162, 255, 0.24), transparent 35%),
+          radial-gradient(circle at 85% 25%, rgba(126, 240, 255, 0.17), transparent 28%),
+          radial-gradient(circle at 50% 120%, rgba(255, 109, 145, 0.12), transparent 46%),
+          var(--bg);
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      .timer-app {
+        width: min(760px, 100%);
+        border-radius: 28px;
+        border: 1px solid var(--card-border);
+        background: var(--card);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(12px);
+        padding: clamp(20px, 3vw, 34px);
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 16px;
+        margin-bottom: 24px;
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: clamp(1.2rem, 2.4vw, 1.75rem);
+      }
+
+      .status {
+        font-size: 0.95rem;
+        color: var(--muted);
+      }
+
+      .mode-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        margin-bottom: 24px;
+      }
+
+      .mode-btn {
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: rgba(255, 255, 255, 0.03);
+        color: var(--text);
+        padding: 12px;
+        border-radius: 12px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
+      }
+
+      .mode-btn:hover {
+        transform: translateY(-1px);
+      }
+
+      .mode-btn.active {
+        background: linear-gradient(120deg, rgba(118, 162, 255, 0.25), rgba(126, 240, 255, 0.2));
+        border-color: rgba(126, 240, 255, 0.7);
+      }
+
+      .clock {
+        display: grid;
+        gap: 18px;
+        justify-items: center;
+        margin-bottom: 20px;
+      }
+
+      .time {
+        margin: 0;
+        font-size: clamp(3rem, 12vw, 6.8rem);
+        letter-spacing: 0.06em;
+        line-height: 1;
+        font-variant-numeric: tabular-nums;
+        text-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+      }
+
+      .progress-wrap {
+        width: 100%;
+        height: 10px;
+        border-radius: 99px;
+        background: rgba(255, 255, 255, 0.12);
+        overflow: hidden;
+      }
+
+      .progress {
+        width: 100%;
+        height: 100%;
+        transform-origin: left;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+        transition: transform 300ms linear;
+      }
+
+      .flip-zone {
+        display: grid;
+        place-items: center;
+        perspective: 1000px;
+        margin-bottom: 16px;
+      }
+
+      .flip-toggle {
+        border: 0;
+        width: min(360px, 90%);
+        min-height: 74px;
+        border-radius: 18px;
+        position: relative;
+        cursor: pointer;
+        background: transparent;
+        color: var(--text);
+        transform-style: preserve-3d;
+      }
+
+      .flip-face {
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        display: grid;
+        place-items: center;
+        font-size: 1.1rem;
+        font-weight: 750;
+        letter-spacing: 0.06em;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        backface-visibility: hidden;
+        transition: transform 550ms cubic-bezier(0.2, 0.7, 0.2, 1), background 250ms ease;
+      }
+
+      .flip-face.front {
+        background: linear-gradient(140deg, rgba(126, 240, 255, 0.3), rgba(118, 162, 255, 0.4));
+        transform: rotateX(0deg);
+      }
+
+      .flip-face.back {
+        background: linear-gradient(140deg, rgba(255, 109, 145, 0.35), rgba(118, 162, 255, 0.34));
+        transform: rotateX(-180deg);
+      }
+
+      .flip-toggle.running .front {
+        transform: rotateX(180deg);
+      }
+
+      .flip-toggle.running .back {
+        transform: rotateX(0deg);
+      }
+
+      .controls {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .btn {
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        background: rgba(255, 255, 255, 0.05);
+        color: var(--text);
+        padding: 10px 14px;
+        border-radius: 10px;
+        font-weight: 600;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        border-color: rgba(255, 255, 255, 0.3);
+      }
+
+      .btn.danger {
+        border-color: rgba(255, 109, 145, 0.45);
+      }
+
+      .session-note {
+        margin-top: 18px;
+        text-align: center;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 560px) {
+        .mode-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="timer-app" aria-label="Pomodoro timer">
+      <header class="header">
+        <h1>Pomodoro Flip Timer</h1>
+        <div id="status" class="status">Ready · Work Session</div>
+      </header>
+
+      <section class="mode-grid" aria-label="Timer modes">
+        <button class="mode-btn active" data-mode="work" data-minutes="25">Focus · 25 min</button>
+        <button class="mode-btn" data-mode="short" data-minutes="5">Short Break · 5 min</button>
+        <button class="mode-btn" data-mode="long" data-minutes="15">Long Break · 15 min</button>
+      </section>
+
+      <section class="clock" aria-live="polite">
+        <h2 class="time" id="time">25:00</h2>
+        <div class="progress-wrap" aria-hidden="true">
+          <div class="progress" id="progress"></div>
+        </div>
+      </section>
+
+      <div class="flip-zone">
+        <button id="flipToggle" class="flip-toggle" aria-label="Start or pause timer">
+          <span class="flip-face front">FLIP TO START</span>
+          <span class="flip-face back">FLIP TO PAUSE</span>
+        </button>
+      </div>
+
+      <section class="controls">
+        <button class="btn" id="resetBtn">Reset Session</button>
+        <button class="btn danger" id="stopBtn">Stop & Clear</button>
+      </section>
+
+      <p class="session-note" id="sessionNote">Tip: Use focus mode during direct instruction, then flip to breaks for transitions.</p>
+    </main>
+
+    <script>
+      const modeButtons = [...document.querySelectorAll('.mode-btn')];
+      const timeEl = document.getElementById('time');
+      const statusEl = document.getElementById('status');
+      const progressEl = document.getElementById('progress');
+      const flipToggle = document.getElementById('flipToggle');
+      const resetBtn = document.getElementById('resetBtn');
+      const stopBtn = document.getElementById('stopBtn');
+      const sessionNote = document.getElementById('sessionNote');
+
+      const modeLabels = {
+        work: 'Work Session',
+        short: 'Short Break',
+        long: 'Long Break'
+      };
+
+      let mode = 'work';
+      let totalSeconds = 25 * 60;
+      let remainingSeconds = totalSeconds;
+      let timerId = null;
+      let running = false;
+
+      function format(seconds) {
+        const mins = Math.floor(seconds / 60).toString().padStart(2, '0');
+        const secs = (seconds % 60).toString().padStart(2, '0');
+        return `${mins}:${secs}`;
+      }
+
+      function updateView() {
+        timeEl.textContent = format(remainingSeconds);
+        const progress = remainingSeconds / totalSeconds;
+        progressEl.style.transform = `scaleX(${Math.max(progress, 0)})`;
+        statusEl.textContent = `${running ? 'Running' : 'Ready'} · ${modeLabels[mode]}`;
+      }
+
+      function playTone(type = 'tick') {
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        const oscillator = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+
+        oscillator.type = type === 'done' ? 'triangle' : 'sine';
+        oscillator.frequency.value = type === 'done' ? 880 : 620;
+        gain.gain.setValueAtTime(0.0001, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.08, audioCtx.currentTime + 0.01);
+        gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + (type === 'done' ? 0.55 : 0.18));
+
+        oscillator.connect(gain);
+        gain.connect(audioCtx.destination);
+        oscillator.start();
+        oscillator.stop(audioCtx.currentTime + (type === 'done' ? 0.6 : 0.2));
+      }
+
+      function stopTimer() {
+        if (timerId) {
+          clearInterval(timerId);
+          timerId = null;
+        }
+        running = false;
+        flipToggle.classList.remove('running');
+        updateView();
+      }
+
+      function tick() {
+        if (remainingSeconds === 0) {
+          stopTimer();
+          playTone('done');
+          sessionNote.textContent = 'Session complete. Choose a new mode and flip to start again.';
+          return;
+        }
+
+        remainingSeconds -= 1;
+        updateView();
+      }
+
+      function startTimer() {
+        if (running) {
+          return;
+        }
+
+        running = true;
+        flipToggle.classList.add('running');
+        sessionNote.textContent = 'Timer is live. Flip again any time to pause.';
+        playTone('tick');
+        timerId = setInterval(tick, 1000);
+        updateView();
+      }
+
+      function resetCurrentMode() {
+        remainingSeconds = totalSeconds;
+        sessionNote.textContent = `Reset to ${modeLabels[mode]}.`;
+        updateView();
+      }
+
+      function chooseMode(nextMode, minutes) {
+        mode = nextMode;
+        totalSeconds = minutes * 60;
+        remainingSeconds = totalSeconds;
+
+        modeButtons.forEach((btn) => btn.classList.toggle('active', btn.dataset.mode === mode));
+
+        stopTimer();
+        sessionNote.textContent = `Loaded ${modeLabels[mode]} (${minutes} minutes).`;
+        updateView();
+      }
+
+      flipToggle.addEventListener('click', () => {
+        if (running) {
+          stopTimer();
+          sessionNote.textContent = 'Paused. Flip to continue.';
+          return;
+        }
+        startTimer();
+      });
+
+      modeButtons.forEach((button) => {
+        button.addEventListener('click', () => {
+          chooseMode(button.dataset.mode, Number(button.dataset.minutes));
+        });
+      });
+
+      resetBtn.addEventListener('click', () => {
+        stopTimer();
+        resetCurrentMode();
+      });
+
+      stopBtn.addEventListener('click', () => {
+        stopTimer();
+        remainingSeconds = totalSeconds;
+        sessionNote.textContent = 'Stopped and cleared.';
+        updateView();
+      });
+
+      updateView();
+    </script>
+  </body>
+</html>
