@@ -67,6 +67,7 @@ Useful entry points:
 - [Weekly Timeline Dashboard](./teachers/sites/index.html)
 - [Curriculum Mind Map](./teachers/sites/mind-map/index.html)
 - [AI Teaching Team](./teachers/ai-assistants/agents.md)
+- [Teacher Tools](./teachers/tools/README.md)
 - [Assignments Index](./assignments/README.md)
 - [Resources Index](./resources/README.md)
 
@@ -140,7 +141,8 @@ open-tutor/
 ├── teachers/
 │   ├── ai-assistants/    reusable prompts for planning, tutoring, grading
 │   ├── reports/          generated report materials
-│   └── sites/            dashboards and visual planning tools
+│   ├── sites/            dashboards and visual planning tools
+│   └── tools/            classroom-ready interactive teacher tools
 └── .github/workflows/    optional hosting automation
 ```
 
