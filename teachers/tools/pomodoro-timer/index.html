@@ -6,16 +6,18 @@
     <title>OpenTutor • Pomodoro Flip Timer</title>
     <style>
       :root {
-        --bg: #05070f;
-        --card: rgba(16, 22, 40, 0.82);
-        --card-border: rgba(143, 170, 255, 0.2);
-        --text: #f8faff;
-        --muted: #a9b3cf;
-        --accent: #76a2ff;
-        --accent-2: #7ef0ff;
-        --danger: #ff6d91;
-        --success: #8bffbe;
-        --shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        --bg: #091023;
+        --bg-2: #111f3f;
+        --surface: rgba(11, 19, 38, 0.82);
+        --surface-solid: #0f1b36;
+        --surface-border: rgba(167, 198, 255, 0.26);
+        --text: #f4f8ff;
+        --muted: #b8c5e4;
+        --focus: #4ec4ff;
+        --break: #3be7b4;
+        --long: #ffa95c;
+        --alert: #ff6f7f;
+        --shadow: 0 24px 64px rgba(0, 0, 0, 0.44);
       }
 
       * {
@@ -32,90 +34,124 @@
         font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
         color: var(--text);
         background:
-          radial-gradient(circle at 15% 15%, rgba(118, 162, 255, 0.24), transparent 35%),
-          radial-gradient(circle at 85% 25%, rgba(126, 240, 255, 0.17), transparent 28%),
-          radial-gradient(circle at 50% 120%, rgba(255, 109, 145, 0.12), transparent 46%),
-          var(--bg);
+          radial-gradient(circle at 12% 14%, rgba(78, 196, 255, 0.3), transparent 36%),
+          radial-gradient(circle at 86% 15%, rgba(59, 231, 180, 0.22), transparent 30%),
+          radial-gradient(circle at 50% 120%, rgba(255, 169, 92, 0.18), transparent 48%),
+          linear-gradient(160deg, var(--bg), var(--bg-2));
+      }
+
+      .page {
+        min-height: 100svh;
         display: grid;
         place-items: center;
-        padding: 24px;
+        padding: clamp(16px, 2.5vw, 32px);
       }
 
       .timer-app {
-        width: min(760px, 100%);
-        border-radius: 28px;
-        border: 1px solid var(--card-border);
-        background: var(--card);
+        width: min(1120px, 100%);
+        min-height: min(860px, calc(100svh - 40px));
+        border-radius: 34px;
+        border: 1px solid var(--surface-border);
+        background: var(--surface);
         box-shadow: var(--shadow);
-        backdrop-filter: blur(12px);
-        padding: clamp(20px, 3vw, 34px);
+        backdrop-filter: blur(14px);
+        display: grid;
+        grid-template-rows: auto auto 1fr auto auto;
+        gap: 20px;
+        padding: clamp(20px, 3.2vw, 44px);
+      }
+
+      .timer-app:fullscreen {
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        min-height: 100svh;
+        border-radius: 0;
+        border: 0;
       }
 
       .header {
         display: flex;
         justify-content: space-between;
-        align-items: baseline;
-        gap: 16px;
-        margin-bottom: 24px;
+        align-items: center;
+        gap: 14px;
       }
 
-      .header h1 {
+      .title-wrap h1 {
         margin: 0;
-        font-size: clamp(1.2rem, 2.4vw, 1.75rem);
+        font-size: clamp(1.4rem, 2vw, 2rem);
       }
 
       .status {
-        font-size: 0.95rem;
+        margin-top: 4px;
         color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .header-actions {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: flex-end;
       }
 
       .mode-grid {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 10px;
-        margin-bottom: 24px;
+        gap: 12px;
       }
 
-      .mode-btn {
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        background: rgba(255, 255, 255, 0.03);
+      .mode-btn,
+      .btn,
+      .face-btn,
+      .fullscreen-btn {
+        border: 1px solid rgba(255, 255, 255, 0.2);
         color: var(--text);
-        padding: 12px;
+        background: rgba(255, 255, 255, 0.06);
         border-radius: 12px;
-        font-weight: 600;
+        padding: 11px 14px;
+        font-weight: 650;
         cursor: pointer;
-        transition: transform 150ms ease, border-color 150ms ease, background 150ms ease;
+        transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
       }
 
-      .mode-btn:hover {
+      .mode-btn:hover,
+      .btn:hover,
+      .face-btn:hover,
+      .fullscreen-btn:hover {
         transform: translateY(-1px);
+        border-color: rgba(255, 255, 255, 0.46);
       }
 
       .mode-btn.active {
-        background: linear-gradient(120deg, rgba(118, 162, 255, 0.25), rgba(126, 240, 255, 0.2));
-        border-color: rgba(126, 240, 255, 0.7);
+        background: linear-gradient(125deg, rgba(78, 196, 255, 0.35), rgba(59, 231, 180, 0.35));
+        border-color: rgba(78, 196, 255, 0.95);
       }
 
-      .clock {
+      .timer-center {
+        border-radius: 26px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.015));
         display: grid;
-        gap: 18px;
+        align-content: center;
         justify-items: center;
-        margin-bottom: 20px;
+        gap: 22px;
+        padding: clamp(20px, 3vw, 38px);
       }
 
       .time {
         margin: 0;
-        font-size: clamp(3rem, 12vw, 6.8rem);
+        font-size: clamp(3.4rem, 16vw, 10rem);
+        line-height: 0.9;
         letter-spacing: 0.06em;
-        line-height: 1;
         font-variant-numeric: tabular-nums;
-        text-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+        text-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
       }
 
       .progress-wrap {
-        width: 100%;
-        height: 10px;
-        border-radius: 99px;
+        width: min(780px, 96%);
+        height: 14px;
+        border-radius: 999px;
         background: rgba(255, 255, 255, 0.12);
         overflow: hidden;
       }
@@ -124,59 +160,96 @@
         width: 100%;
         height: 100%;
         transform-origin: left;
-        background: linear-gradient(90deg, var(--accent), var(--accent-2));
-        transition: transform 300ms linear;
+        background: linear-gradient(90deg, var(--focus), var(--break));
+        transition: transform 250ms linear;
       }
 
-      .flip-zone {
+      .flip-console {
+        width: min(700px, 100%);
         display: grid;
-        place-items: center;
-        perspective: 1000px;
-        margin-bottom: 16px;
+        gap: 16px;
+        justify-items: center;
       }
 
-      .flip-toggle {
-        border: 0;
-        width: min(360px, 90%);
-        min-height: 74px;
-        border-radius: 18px;
+      .cube-label {
+        margin: 0;
+        font-size: 0.92rem;
+        color: var(--muted);
+      }
+
+      .cube-wrap {
+        width: min(320px, 76vw);
+        aspect-ratio: 1;
+        perspective: 1200px;
+      }
+
+      .cube {
+        width: 100%;
+        height: 100%;
         position: relative;
-        cursor: pointer;
-        background: transparent;
-        color: var(--text);
         transform-style: preserve-3d;
+        transition: transform 680ms cubic-bezier(0.22, 0.68, 0.14, 1.01);
       }
 
-      .flip-face {
+      .cube[data-mode='work'] {
+        transform: rotateX(0deg) rotateY(0deg);
+      }
+
+      .cube[data-mode='short'] {
+        transform: rotateX(-90deg) rotateY(0deg);
+      }
+
+      .cube[data-mode='long'] {
+        transform: rotateY(90deg) rotateX(0deg);
+      }
+
+      .cube-face {
         position: absolute;
         inset: 0;
-        border-radius: inherit;
+        border-radius: 22px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
         display: grid;
         place-items: center;
-        font-size: 1.1rem;
-        font-weight: 750;
-        letter-spacing: 0.06em;
-        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 20px;
+        text-align: center;
         backface-visibility: hidden;
-        transition: transform 550ms cubic-bezier(0.2, 0.7, 0.2, 1), background 250ms ease;
       }
 
-      .flip-face.front {
-        background: linear-gradient(140deg, rgba(126, 240, 255, 0.3), rgba(118, 162, 255, 0.4));
-        transform: rotateX(0deg);
+      .cube-face strong {
+        display: block;
+        font-size: 1.26rem;
+        margin-bottom: 6px;
       }
 
-      .flip-face.back {
-        background: linear-gradient(140deg, rgba(255, 109, 145, 0.35), rgba(118, 162, 255, 0.34));
-        transform: rotateX(-180deg);
+      .cube-face span {
+        font-size: 0.95rem;
       }
 
-      .flip-toggle.running .front {
-        transform: rotateX(180deg);
+      .cube-face.work {
+        background: linear-gradient(145deg, rgba(78, 196, 255, 0.4), rgba(65, 96, 255, 0.38));
+        transform: translateZ(160px);
       }
 
-      .flip-toggle.running .back {
-        transform: rotateX(0deg);
+      .cube-face.short {
+        background: linear-gradient(145deg, rgba(59, 231, 180, 0.42), rgba(37, 169, 146, 0.42));
+        transform: rotateX(90deg) translateZ(160px);
+      }
+
+      .cube-face.long {
+        background: linear-gradient(145deg, rgba(255, 169, 92, 0.44), rgba(220, 108, 70, 0.42));
+        transform: rotateY(90deg) translateZ(160px);
+      }
+
+      .face-controls {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+      }
+
+      .face-btn.active {
+        border-color: rgba(255, 255, 255, 0.95);
+        box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.35);
       }
 
       .controls {
@@ -186,75 +259,79 @@
         flex-wrap: wrap;
       }
 
-      .btn {
-        border: 1px solid rgba(255, 255, 255, 0.18);
-        background: rgba(255, 255, 255, 0.05);
-        color: var(--text);
-        padding: 10px 14px;
-        border-radius: 10px;
-        font-weight: 600;
-        cursor: pointer;
-      }
-
-      .btn:hover {
-        border-color: rgba(255, 255, 255, 0.3);
-      }
-
-      .btn.danger {
-        border-color: rgba(255, 109, 145, 0.45);
+      .btn.alert {
+        border-color: rgba(255, 111, 127, 0.6);
       }
 
       .session-note {
-        margin-top: 18px;
+        margin: 0;
         text-align: center;
         color: var(--muted);
-        font-size: 0.95rem;
       }
 
-      @media (max-width: 560px) {
-        .mode-grid {
+      @media (max-width: 840px) {
+        .mode-grid,
+        .face-controls {
           grid-template-columns: 1fr;
         }
       }
     </style>
   </head>
   <body>
-    <main class="timer-app" aria-label="Pomodoro timer">
-      <header class="header">
-        <h1>Pomodoro Flip Timer</h1>
-        <div id="status" class="status">Ready · Work Session</div>
-      </header>
+    <div class="page">
+      <main class="timer-app" id="timerApp" aria-label="Pomodoro timer">
+        <header class="header">
+          <div class="title-wrap">
+            <h1>Pomodoro Flip Cube Timer</h1>
+            <div id="status" class="status">Ready · Work Session</div>
+          </div>
+          <div class="header-actions">
+            <button class="fullscreen-btn" id="fullscreenBtn" aria-label="Toggle full screen mode">Enter Full Screen</button>
+          </div>
+        </header>
 
-      <section class="mode-grid" aria-label="Timer modes">
-        <button class="mode-btn active" data-mode="work" data-minutes="25">Focus · 25 min</button>
-        <button class="mode-btn" data-mode="short" data-minutes="5">Short Break · 5 min</button>
-        <button class="mode-btn" data-mode="long" data-minutes="15">Long Break · 15 min</button>
-      </section>
+        <section class="mode-grid" aria-label="Timer modes">
+          <button class="mode-btn active" data-mode="work" data-minutes="25">Focus · 25 min</button>
+          <button class="mode-btn" data-mode="short" data-minutes="5">Short Break · 5 min</button>
+          <button class="mode-btn" data-mode="long" data-minutes="15">Long Break · 15 min</button>
+        </section>
 
-      <section class="clock" aria-live="polite">
-        <h2 class="time" id="time">25:00</h2>
-        <div class="progress-wrap" aria-hidden="true">
-          <div class="progress" id="progress"></div>
-        </div>
-      </section>
+        <section class="timer-center" aria-live="polite">
+          <h2 class="time" id="time">25:00</h2>
+          <div class="progress-wrap" aria-hidden="true">
+            <div class="progress" id="progress"></div>
+          </div>
 
-      <div class="flip-zone">
-        <button id="flipToggle" class="flip-toggle" aria-label="Start or pause timer">
-          <span class="flip-face front">FLIP TO START</span>
-          <span class="flip-face back">FLIP TO PAUSE</span>
-        </button>
-      </div>
+          <section class="flip-console" aria-label="Physical style timer faces">
+            <p class="cube-label">Rotate to the side you want, then press Start/Pause.</p>
+            <div class="cube-wrap" id="cubeWrap">
+              <div class="cube" id="timerCube" data-mode="work">
+                <div class="cube-face work"><div><strong>FOCUS</strong><span>Side A • 25 minutes</span></div></div>
+                <div class="cube-face short"><div><strong>SHORT BREAK</strong><span>Side B • 5 minutes</span></div></div>
+                <div class="cube-face long"><div><strong>LONG BREAK</strong><span>Side C • 15 minutes</span></div></div>
+              </div>
+            </div>
+            <div class="face-controls">
+              <button class="face-btn active" data-mode="work" data-minutes="25">Show Focus Face</button>
+              <button class="face-btn" data-mode="short" data-minutes="5">Show Short Face</button>
+              <button class="face-btn" data-mode="long" data-minutes="15">Show Long Face</button>
+            </div>
+          </section>
+        </section>
 
-      <section class="controls">
-        <button class="btn" id="resetBtn">Reset Session</button>
-        <button class="btn danger" id="stopBtn">Stop & Clear</button>
-      </section>
+        <section class="controls">
+          <button class="btn" id="flipToggle">Start / Pause</button>
+          <button class="btn" id="resetBtn">Reset Session</button>
+          <button class="btn alert" id="stopBtn">Stop &amp; Clear</button>
+        </section>
 
-      <p class="session-note" id="sessionNote">Tip: Use focus mode during direct instruction, then flip to breaks for transitions.</p>
-    </main>
+        <p class="session-note" id="sessionNote">Tip: Rotate to a timer face like a physical Pomodoro cube, then start.</p>
+      </main>
+    </div>
 
     <script>
       const modeButtons = [...document.querySelectorAll('.mode-btn')];
+      const faceButtons = [...document.querySelectorAll('.face-btn')];
       const timeEl = document.getElementById('time');
       const statusEl = document.getElementById('status');
       const progressEl = document.getElementById('progress');
@@ -262,6 +339,9 @@
       const resetBtn = document.getElementById('resetBtn');
       const stopBtn = document.getElementById('stopBtn');
       const sessionNote = document.getElementById('sessionNote');
+      const timerApp = document.getElementById('timerApp');
+      const timerCube = document.getElementById('timerCube');
+      const fullscreenBtn = document.getElementById('fullscreenBtn');
 
       const modeLabels = {
         work: 'Work Session',
@@ -281,20 +361,13 @@
         return `${mins}:${secs}`;
       }
 
-      function updateView() {
-        timeEl.textContent = format(remainingSeconds);
-        const progress = remainingSeconds / totalSeconds;
-        progressEl.style.transform = `scaleX(${Math.max(progress, 0)})`;
-        statusEl.textContent = `${running ? 'Running' : 'Ready'} · ${modeLabels[mode]}`;
-      }
-
       function playTone(type = 'tick') {
         const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
         const oscillator = audioCtx.createOscillator();
         const gain = audioCtx.createGain();
 
         oscillator.type = type === 'done' ? 'triangle' : 'sine';
-        oscillator.frequency.value = type === 'done' ? 880 : 620;
+        oscillator.frequency.value = type === 'done' ? 840 : 620;
         gain.gain.setValueAtTime(0.0001, audioCtx.currentTime);
         gain.gain.exponentialRampToValueAtTime(0.08, audioCtx.currentTime + 0.01);
         gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + (type === 'done' ? 0.55 : 0.18));
@@ -305,13 +378,24 @@
         oscillator.stop(audioCtx.currentTime + (type === 'done' ? 0.6 : 0.2));
       }
 
+      function updateFullscreenLabel() {
+        fullscreenBtn.textContent = document.fullscreenElement ? 'Exit Full Screen' : 'Enter Full Screen';
+      }
+
+      function updateView() {
+        timeEl.textContent = format(remainingSeconds);
+        const progress = remainingSeconds / totalSeconds;
+        progressEl.style.transform = `scaleX(${Math.max(progress, 0)})`;
+        statusEl.textContent = `${running ? 'Running' : 'Ready'} · ${modeLabels[mode]}`;
+      }
+
       function stopTimer() {
         if (timerId) {
           clearInterval(timerId);
           timerId = null;
         }
+
         running = false;
-        flipToggle.classList.remove('running');
         updateView();
       }
 
@@ -319,7 +403,7 @@
         if (remainingSeconds === 0) {
           stopTimer();
           playTone('done');
-          sessionNote.textContent = 'Session complete. Choose a new mode and flip to start again.';
+          sessionNote.textContent = 'Session complete. Rotate to another side and start again.';
           return;
         }
 
@@ -333,8 +417,7 @@
         }
 
         running = true;
-        flipToggle.classList.add('running');
-        sessionNote.textContent = 'Timer is live. Flip again any time to pause.';
+        sessionNote.textContent = 'Timer is live. Press Start/Pause to pause.';
         playTone('tick');
         timerId = setInterval(tick, 1000);
         updateView();
@@ -346,28 +429,42 @@
         updateView();
       }
 
+      function syncModeButtons() {
+        modeButtons.forEach((btn) => btn.classList.toggle('active', btn.dataset.mode === mode));
+        faceButtons.forEach((btn) => btn.classList.toggle('active', btn.dataset.mode === mode));
+        timerCube.dataset.mode = mode;
+      }
+
       function chooseMode(nextMode, minutes) {
         mode = nextMode;
         totalSeconds = minutes * 60;
         remainingSeconds = totalSeconds;
-
-        modeButtons.forEach((btn) => btn.classList.toggle('active', btn.dataset.mode === mode));
-
         stopTimer();
+        syncModeButtons();
         sessionNote.textContent = `Loaded ${modeLabels[mode]} (${minutes} minutes).`;
         updateView();
+      }
+
+      async function toggleFullscreen() {
+        if (document.fullscreenElement) {
+          await document.exitFullscreen();
+          return;
+        }
+
+        await timerApp.requestFullscreen();
       }
 
       flipToggle.addEventListener('click', () => {
         if (running) {
           stopTimer();
-          sessionNote.textContent = 'Paused. Flip to continue.';
+          sessionNote.textContent = 'Paused. Press Start/Pause to continue.';
           return;
         }
+
         startTimer();
       });
 
-      modeButtons.forEach((button) => {
+      [...modeButtons, ...faceButtons].forEach((button) => {
         button.addEventListener('click', () => {
           chooseMode(button.dataset.mode, Number(button.dataset.minutes));
         });
@@ -385,6 +482,18 @@
         updateView();
       });
 
+      fullscreenBtn.addEventListener('click', async () => {
+        try {
+          await toggleFullscreen();
+        } catch (error) {
+          sessionNote.textContent = 'Full screen is blocked by this browser. Try again after a direct click.';
+        }
+      });
+
+      document.addEventListener('fullscreenchange', updateFullscreenLabel);
+
+      syncModeButtons();
+      updateFullscreenLabel();
       updateView();
     </script>
   </body>
