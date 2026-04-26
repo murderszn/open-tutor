@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nimbus — Pomodoro Timer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=DM+Sans:wght@200;300;400&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --work-a: #1a2a4a; --work-b: #0e3a6e; --work-c: #1c5ea8;
+      --work-d: #4a9de8; --work-e: #8dc8f8;
+      --work-text: #d6edff; --work-muted: rgba(180,220,255,0.55); --work-border: rgba(140,200,255,0.18);
+
+      --short-a: #0f2e28; --short-b: #0c4035; --short-c: #0e6b52;
+      --short-d: #26b88a; --short-e: #7de8c0;
+      --short-text: #c8f5e4; --short-muted: rgba(150,230,200,0.55); --short-border: rgba(100,220,170,0.18);
+
+      --long-a: #2c1a10; --long-b: #4a2810; --long-c: #8b4a1a;
+      --long-d: #d4843a; --long-e: #f0bf80;
+      --long-text: #fde8c8; --long-muted: rgba(240,190,130,0.55); --long-border: rgba(220,160,90,0.18);
+
+      --bg-a: var(--work-a); --bg-b: var(--work-b);
+      --cloud-c: var(--work-c); --cloud-d: var(--work-d); --cloud-e: var(--work-e);
+      --tx: var(--work-text); --muted: var(--work-muted); --border: var(--work-border);
+      --trans: 2.4s cubic-bezier(.4,0,.2,1);
+      --sidebar-w: 320px;
+    }
+
+    html, body { width: 100%; height: 100%; overflow: hidden; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      background: var(--bg-a);
+      transition: background var(--trans);
+      color: var(--tx);
+    }
+
+    #canvas {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      transition: width .55s cubic-bezier(.4,0,.2,1);
+    }
+    body.sidebar-open #canvas { width: calc(100% - var(--sidebar-w)); }
+
+    /* ── SCENE ── */
+    .scene {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      pointer-events: none;
+      transition: right .55s cubic-bezier(.4,0,.2,1);
+      right: 0;
+    }
+    body.sidebar-open .scene { right: var(--sidebar-w); }
+
+    .wordmark {
+      position: absolute; top: 36px; left: 50%; transform: translateX(-50%);
+      font-family: 'Cormorant Garamond', serif; font-size: 15px; font-weight: 300;
+      letter-spacing: .32em; text-transform: uppercase;
+      color: var(--muted); transition: color var(--trans);
+      pointer-events: none; white-space: nowrap;
+    }
+
+    .time-wrap {
+      position: relative; display: flex; flex-direction: column;
+      align-items: center; gap: 10px; z-index: 10; pointer-events: none;
+    }
+
+    .time-display {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(72px, 10vw, 148px); font-weight: 300;
+      letter-spacing: .06em; line-height: 1; color: var(--tx);
+      transition: color var(--trans);
+      text-shadow: 0 0 80px rgba(255,255,255,.12), 0 0 160px rgba(255,255,255,.06);
+    }
+
+    .mode-label {
+      font-family: 'DM Sans', sans-serif; font-size: 11px; font-weight: 200;
+      letter-spacing: .28em; text-transform: uppercase;
+      color: var(--muted); transition: color var(--trans);
+    }
+
+    .session-name-display {
+      font-family: 'Cormorant Garamond', serif; font-size: 16px; font-weight: 300;
+      letter-spacing: .1em; color: var(--muted); transition: color var(--trans), opacity .4s;
+      opacity: 0; max-width: 260px; text-align: center; font-style: italic;
+    }
+    .session-name-display.visible { opacity: .8; }
+
+    .session-done-msg {
+      font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 300;
+      letter-spacing: .12em; color: var(--muted);
+      transition: color var(--trans), opacity .6s; opacity: 0; margin-top: 4px;
+    }
+    .session-done-msg.visible { opacity: 1; }
+
+    /* ── CONTROLS ── */
+    .controls {
+      position: absolute; bottom: 48px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 20px;
+      pointer-events: all;
+      transition: left .55s cubic-bezier(.4,0,.2,1), transform .55s cubic-bezier(.4,0,.2,1);
+    }
+    body.sidebar-open .controls {
+      left: calc(50% - var(--sidebar-w) / 2);
+    }
+
+    .mode-pills { display: flex; gap: 8px; }
+
+    .pill {
+      background: transparent; border: 1px solid var(--border); border-radius: 999px;
+      color: var(--muted); font-family: 'DM Sans', sans-serif; font-size: 11px;
+      font-weight: 300; letter-spacing: .18em; text-transform: uppercase;
+      padding: 7px 18px; cursor: pointer; outline: none;
+      transition: all .3s ease, border-color var(--trans), color var(--trans);
+    }
+    .pill:hover { border-color: rgba(255,255,255,.35); color: var(--tx); }
+    .pill.active { border-color: rgba(255,255,255,.5); background: rgba(255,255,255,.08); color: var(--tx); }
+
+    .btn-row { display: flex; gap: 12px; align-items: center; }
+
+    .main-btn {
+      background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.22);
+      border-radius: 999px; color: var(--tx); font-family: 'DM Sans', sans-serif;
+      font-size: 12px; font-weight: 300; letter-spacing: .22em; text-transform: uppercase;
+      padding: 12px 36px; cursor: pointer; outline: none; backdrop-filter: blur(8px);
+      transition: all .25s ease, color var(--trans);
+    }
+    .main-btn:hover { background: rgba(255,255,255,.14); border-color: rgba(255,255,255,.4); }
+    .main-btn:active { transform: scale(.97); }
+
+    .ghost-btn {
+      background: transparent; border: 1px solid var(--border); border-radius: 999px;
+      color: var(--muted); font-family: 'DM Sans', sans-serif; font-size: 11px;
+      font-weight: 300; letter-spacing: .18em; text-transform: uppercase;
+      padding: 9px 22px; cursor: pointer; outline: none;
+      transition: all .25s ease, border-color var(--trans), color var(--trans);
+    }
+    .ghost-btn:hover { border-color: rgba(255,255,255,.3); color: var(--tx); }
+
+    .dots { display: flex; gap: 6px; align-items: center; }
+    .dot {
+      width: 5px; height: 5px; border-radius: 50%;
+      background: var(--muted); transition: background var(--trans), opacity .4s; opacity: .35;
+    }
+    .dot.filled { opacity: 1; background: var(--cloud-e); }
+
+    .session-count {
+      font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 200;
+      letter-spacing: .22em; text-transform: uppercase;
+      color: var(--muted); transition: color var(--trans);
+    }
+
+    /* ── LOG TOGGLE BUTTON ── */
+    .log-toggle {
+      position: absolute; top: 32px; right: 36px;
+      background: transparent; border: 1px solid var(--border);
+      border-radius: 999px; color: var(--muted);
+      font-family: 'DM Sans', sans-serif; font-size: 10px; font-weight: 300;
+      letter-spacing: .2em; text-transform: uppercase; padding: 8px 18px;
+      cursor: pointer; outline: none; z-index: 100;
+      transition: all .25s ease, border-color var(--trans), color var(--trans), right .55s cubic-bezier(.4,0,.2,1);
+      display: flex; align-items: center; gap: 8px;
+    }
+    .log-toggle:hover { border-color: rgba(255,255,255,.3); color: var(--tx); }
+    body.sidebar-open .log-toggle { right: calc(var(--sidebar-w) + 36px); }
+    .log-toggle-pip {
+      width: 6px; height: 6px; border-radius: 50%;
+      background: var(--cloud-e); opacity: 0;
+      transition: opacity .4s, background var(--trans);
+    }
+    .log-toggle-pip.has-data { opacity: 1; }
+
+    /* ── SIDEBAR ── */
+    .sidebar {
+      position: fixed; top: 0; right: 0; width: var(--sidebar-w); height: 100%;
+      background: rgba(8, 14, 30, 0.72);
+      backdrop-filter: blur(28px) saturate(1.4);
+      border-left: 1px solid rgba(255,255,255,.09);
+      transform: translateX(100%);
+      transition: transform .55s cubic-bezier(.4,0,.2,1);
+      z-index: 200;
+      display: flex; flex-direction: column;
+      overflow: hidden;
+    }
+    body.sidebar-open .sidebar { transform: translateX(0); }
+
+    .sidebar-header {
+      padding: 32px 28px 20px;
+      border-bottom: 1px solid rgba(255,255,255,.07);
+      flex-shrink: 0;
+    }
+
+    .sidebar-title {
+      font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 300;
+      letter-spacing: .08em; color: var(--tx); transition: color var(--trans);
+      margin-bottom: 4px;
+    }
+
+    .sidebar-subtitle {
+      font-size: 10px; font-weight: 200; letter-spacing: .2em;
+      text-transform: uppercase; color: var(--muted); transition: color var(--trans);
+    }
+
+    /* ── METRICS STRIP ── */
+    .metrics-strip {
+      display: grid; grid-template-columns: 1fr 1fr 1fr;
+      gap: 1px; background: rgba(255,255,255,.07);
+      border-bottom: 1px solid rgba(255,255,255,.07); flex-shrink: 0;
+    }
+    .metric-cell {
+      background: rgba(8,14,30,.5); padding: 14px 16px; text-align: center;
+    }
+    .metric-val {
+      font-family: 'Cormorant Garamond', serif; font-size: 26px; font-weight: 300;
+      color: var(--tx); transition: color var(--trans); line-height: 1;
+    }
+    .metric-label {
+      font-size: 9px; font-weight: 200; letter-spacing: .18em; text-transform: uppercase;
+      color: var(--muted); transition: color var(--trans); margin-top: 4px;
+    }
+
+    /* ── STREAK SECTION ── */
+    .streak-row {
+      padding: 16px 28px 12px;
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(255,255,255,.06); flex-shrink: 0;
+    }
+    .streak-label {
+      font-size: 10px; letter-spacing: .18em; text-transform: uppercase;
+      color: var(--muted); transition: color var(--trans);
+    }
+    .streak-pips { display: flex; gap: 5px; }
+    .streak-pip {
+      width: 8px; height: 8px; border-radius: 50%;
+      border: 1px solid rgba(255,255,255,.2);
+      background: transparent; transition: background .4s, border-color var(--trans);
+    }
+    .streak-pip.lit { background: var(--cloud-e); border-color: var(--cloud-e); }
+
+    /* ── SESSION LOG ── */
+    .log-section { flex: 1; overflow-y: auto; padding: 0 0 20px; }
+    .log-section::-webkit-scrollbar { width: 3px; }
+    .log-section::-webkit-scrollbar-track { background: transparent; }
+    .log-section::-webkit-scrollbar-thumb { background: rgba(255,255,255,.12); border-radius: 999px; }
+
+    .log-section-label {
+      font-size: 9px; letter-spacing: .22em; text-transform: uppercase;
+      color: var(--muted); padding: 16px 28px 10px;
+      transition: color var(--trans); border-bottom: 1px solid rgba(255,255,255,.05);
+    }
+
+    .log-empty {
+      padding: 32px 28px; text-align: center;
+      font-family: 'Cormorant Garamond', serif; font-size: 15px; font-style: italic;
+      color: var(--muted); opacity: .6; line-height: 1.7;
+      transition: color var(--trans);
+    }
+
+    .log-entry {
+      padding: 14px 28px; border-bottom: 1px solid rgba(255,255,255,.05);
+      cursor: default; transition: background .2s;
+      position: relative;
+    }
+    .log-entry:hover { background: rgba(255,255,255,.03); }
+
+    .log-entry-header {
+      display: flex; align-items: flex-start; justify-content: space-between; gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .log-entry-name {
+      font-family: 'Cormorant Garamond', serif; font-size: 15px; font-weight: 400;
+      color: var(--tx); transition: color var(--trans); line-height: 1.2;
+      flex: 1; word-break: break-word;
+    }
+    .log-entry-name-input {
+      font-family: 'Cormorant Garamond', serif; font-size: 15px; font-weight: 400;
+      color: var(--tx); background: transparent; border: none;
+      border-bottom: 1px solid rgba(255,255,255,.2); outline: none;
+      padding: 0 0 2px; width: 100%; letter-spacing: .02em;
+      transition: border-color .2s, color var(--trans);
+    }
+    .log-entry-name-input:focus { border-color: rgba(255,255,255,.5); }
+    .log-entry-name-input::placeholder { color: rgba(255,255,255,.25); font-style: italic; }
+
+    .log-mode-badge {
+      font-size: 8px; letter-spacing: .16em; text-transform: uppercase;
+      padding: 3px 8px; border-radius: 999px; flex-shrink: 0; margin-top: 2px;
+      font-weight: 400;
+    }
+    .log-mode-badge.work  { background: rgba(74,157,232,.18); color: #8dc8f8; }
+    .log-mode-badge.short { background: rgba(38,184,138,.16); color: #7de8c0; }
+    .log-mode-badge.long  { background: rgba(212,132,58,.18); color: #f0bf80; }
+
+    .log-entry-meta {
+      display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+    }
+    .log-meta-item {
+      font-size: 10px; font-weight: 200; letter-spacing: .1em;
+      color: var(--muted); transition: color var(--trans);
+    }
+    .log-meta-sep { color: rgba(255,255,255,.15); font-size: 10px; }
+
+    .log-stops {
+      margin-top: 8px; display: flex; flex-direction: column; gap: 3px;
+    }
+    .log-stop-item {
+      font-size: 9px; letter-spacing: .12em; color: var(--muted);
+      transition: color var(--trans); padding-left: 10px;
+      position: relative; opacity: .75;
+    }
+    .log-stop-item::before {
+      content: ''; position: absolute; left: 0; top: 50%;
+      transform: translateY(-50%); width: 3px; height: 3px;
+      border-radius: 50%; background: var(--muted); opacity: .5;
+    }
+
+    .log-edit-btn {
+      background: transparent; border: none; cursor: pointer;
+      color: rgba(255,255,255,.2); font-size: 11px; padding: 2px 4px;
+      transition: color .2s; line-height: 1; flex-shrink: 0;
+    }
+    .log-edit-btn:hover { color: rgba(255,255,255,.6); }
+
+    /* ── SIDEBAR FOOTER ── */
+    .sidebar-footer {
+      padding: 16px 28px; border-top: 1px solid rgba(255,255,255,.07); flex-shrink: 0;
+      display: flex; gap: 10px;
+    }
+    .sidebar-foot-btn {
+      flex: 1; background: transparent; border: 1px solid rgba(255,255,255,.1);
+      border-radius: 8px; color: var(--muted); font-family: 'DM Sans', sans-serif;
+      font-size: 10px; font-weight: 300; letter-spacing: .16em; text-transform: uppercase;
+      padding: 10px 8px; cursor: pointer; outline: none;
+      transition: all .2s, border-color var(--trans), color var(--trans);
+    }
+    .sidebar-foot-btn:hover { border-color: rgba(255,255,255,.25); color: var(--tx); }
+
+    /* ── NAME CURRENT SESSION ── */
+    .name-current {
+      padding: 12px 28px; border-bottom: 1px solid rgba(255,255,255,.06); flex-shrink: 0;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .name-current input {
+      flex: 1; background: transparent; border: none;
+      border-bottom: 1px solid rgba(255,255,255,.14); outline: none;
+      font-family: 'Cormorant Garamond', serif; font-size: 14px; font-weight: 300;
+      color: var(--tx); padding: 4px 0; letter-spacing: .04em;
+      transition: border-color .2s, color var(--trans);
+    }
+    .name-current input:focus { border-color: rgba(255,255,255,.4); }
+    .name-current input::placeholder { color: rgba(255,255,255,.2); font-style: italic; }
+    .name-current-label {
+      font-size: 9px; letter-spacing: .18em; text-transform: uppercase;
+      color: var(--muted); white-space: nowrap; transition: color var(--trans);
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<div class="scene">
+  <div class="wordmark">Nimbus</div>
+  <div class="time-wrap">
+    <div class="time-display" id="timeDisplay">25:00</div>
+    <div class="mode-label" id="modeLabel">Focus session</div>
+    <div class="session-name-display" id="sessionNameDisplay"></div>
+    <div class="session-done-msg" id="doneMsg">Session complete — breathe</div>
+  </div>
+</div>
+
+<button class="log-toggle" id="logToggle">
+  <span class="log-toggle-pip" id="logPip"></span>
+  Session log
+</button>
+
+<div class="controls">
+  <div class="mode-pills">
+    <button class="pill active" data-mode="work" data-minutes="25">Focus</button>
+    <button class="pill" data-mode="short" data-minutes="5">Short break</button>
+    <button class="pill" data-mode="long" data-minutes="15">Long break</button>
+  </div>
+  <div class="btn-row">
+    <button class="ghost-btn" id="resetBtn">Reset</button>
+    <button class="main-btn" id="playBtn">Begin</button>
+    <button class="ghost-btn" id="stopBtn">Clear</button>
+  </div>
+  <div style="display:flex;flex-direction:column;align-items:center;gap:8px">
+    <div class="dots" id="dots">
+      <div class="dot"></div><div class="dot"></div>
+      <div class="dot"></div><div class="dot"></div>
+    </div>
+    <div class="session-count" id="sessCount">0 of 4 sessions</div>
+  </div>
+</div>
+
+<!-- ── SIDEBAR ── -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <div class="sidebar-title">Session log</div>
+    <div class="sidebar-subtitle" id="sidebarDate"></div>
+  </div>
+
+  <div class="metrics-strip">
+    <div class="metric-cell">
+      <div class="metric-val" id="metricTotal">0</div>
+      <div class="metric-label">Sessions</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-val" id="metricFocus">0m</div>
+      <div class="metric-label">Focus time</div>
+    </div>
+    <div class="metric-cell">
+      <div class="metric-val" id="metricStreak">0</div>
+      <div class="metric-label">Streak</div>
+    </div>
+  </div>
+
+  <div class="streak-row">
+    <div class="streak-label">Current run</div>
+    <div class="streak-pips" id="streakPips">
+      <div class="streak-pip"></div><div class="streak-pip"></div>
+      <div class="streak-pip"></div><div class="streak-pip"></div>
+      <div class="streak-pip"></div><div class="streak-pip"></div>
+      <div class="streak-pip"></div><div class="streak-pip"></div>
+    </div>
+  </div>
+
+  <div class="name-current">
+    <div class="name-current-label">Label</div>
+    <input type="text" id="currentSessionName" placeholder="Name this session…" maxlength="48" />
+  </div>
+
+  <div class="log-section-label">History</div>
+
+  <div class="log-section" id="logSection">
+    <div class="log-empty" id="logEmpty">No sessions yet.<br>Begin a focus block to start your log.</div>
+  </div>
+
+  <div class="sidebar-footer">
+    <button class="sidebar-foot-btn" id="exportBtn">Export CSV</button>
+    <button class="sidebar-foot-btn" id="clearLogBtn">Clear log</button>
+  </div>
+</aside>
+
+<script>
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+
+const palettes = {
+  work:  { a:'#1a2a4a', b:'#0e3a6e', c:'#1c5ea8', d:'#4a9de8', e:'#8dc8f8', text:'#d6edff', muted:'rgba(180,220,255,0.55)', border:'rgba(140,200,255,0.18)' },
+  short: { a:'#0f2e28', b:'#0c4035', c:'#0e6b52', d:'#26b88a', e:'#7de8c0', text:'#c8f5e4', muted:'rgba(150,230,200,0.55)', border:'rgba(100,220,170,0.18)' },
+  long:  { a:'#2c1a10', b:'#4a2810', c:'#8b4a1a', d:'#d4843a', e:'#f0bf80', text:'#fde8c8', muted:'rgba(240,190,130,0.55)', border:'rgba(220,160,90,0.18)' }
+};
+
+const root = document.documentElement;
+let mode = 'work', total = 25*60, remain = total, running = false, tid = null;
+let sessions = 0, sessionTarget = 4;
+let pal = palettes.work;
+let dissolve = 0;
+
+// ── SESSION LOG DATA ──
+let sessionLog = [];       // completed sessions
+let currentStreak = 0;
+let sessionStartTime = null;
+let sessionStops = [];     // pauses within current session: [{at, elapsed}]
+let sessionStartElapsed = 0;
+
+function setPalette(p) {
+  pal = p;
+  root.style.setProperty('--bg-a', p.a);
+  root.style.setProperty('--bg-b', p.b);
+  root.style.setProperty('--cloud-c', p.c);
+  root.style.setProperty('--cloud-d', p.d);
+  root.style.setProperty('--cloud-e', p.e);
+  root.style.setProperty('--tx', p.text);
+  root.style.setProperty('--muted', p.muted);
+  root.style.setProperty('--border', p.border);
+}
+
+function fmt(s) {
+  return String(Math.floor(s/60)).padStart(2,'0') + ':' + String(s%60).padStart(2,'0');
+}
+
+function fmtTime(date) {
+  return date.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+}
+
+function fmtDuration(seconds) {
+  if(seconds < 60) return `${seconds}s`;
+  const m = Math.floor(seconds/60), s = seconds%60;
+  return s > 0 ? `${m}m ${s}s` : `${m}m`;
+}
+
+function tone(type) {
+  try {
+    const ac = new (window.AudioContext||window.webkitAudioContext)();
+    const o = ac.createOscillator(), g = ac.createGain();
+    o.type = type==='done'?'triangle':'sine';
+    o.frequency.value = type==='done'?620:880;
+    g.gain.setValueAtTime(.0001, ac.currentTime);
+    g.gain.exponentialRampToValueAtTime(.05, ac.currentTime+.02);
+    g.gain.exponentialRampToValueAtTime(.0001, ac.currentTime+(type==='done'?.9:.14));
+    o.connect(g); g.connect(ac.destination);
+    o.start(); o.stop(ac.currentTime+(type==='done'?1:.18));
+    if(type==='done') {
+      const o2=ac.createOscillator(),g2=ac.createGain();
+      o2.type='sine'; o2.frequency.value=780;
+      g2.gain.setValueAtTime(.0001,ac.currentTime+.28);
+      g2.gain.exponentialRampToValueAtTime(.04,ac.currentTime+.32);
+      g2.gain.exponentialRampToValueAtTime(.0001,ac.currentTime+.9);
+      o2.connect(g2); g2.connect(ac.destination);
+      o2.start(ac.currentTime+.28); o2.stop(ac.currentTime+1);
+    }
+  } catch(e){}
+}
+
+function getCurrentName() {
+  return document.getElementById('currentSessionName').value.trim();
+}
+
+function updateUI() {
+  document.getElementById('timeDisplay').textContent = fmt(remain);
+  const labels = {work:'Focus session', short:'Short break', long:'Long break'};
+  document.getElementById('modeLabel').textContent = labels[mode];
+  document.getElementById('playBtn').textContent = running ? 'Pause' : (remain < total ? 'Resume' : 'Begin');
+  const ds = document.querySelectorAll('.dot');
+  ds.forEach((d,i) => d.classList.toggle('filled', i < sessions));
+  document.getElementById('sessCount').textContent = `${sessions} of ${sessionTarget} sessions`;
+
+  // Session name on canvas
+  const nm = getCurrentName();
+  const nd = document.getElementById('sessionNameDisplay');
+  if(nm && running) {
+    nd.textContent = nm;
+    nd.classList.add('visible');
+  } else {
+    nd.classList.remove('visible');
+  }
+}
+
+function commitSession(completed) {
+  if(!sessionStartTime) return;
+  const endTime = new Date();
+  const elapsed = total - remain;
+  if(elapsed < 3) return;
+
+  const entry = {
+    id: Date.now(),
+    mode,
+    name: getCurrentName() || null,
+    startTime: sessionStartTime,
+    endTime,
+    planned: total,
+    elapsed,
+    completed,
+    stops: [...sessionStops],
+  };
+
+  sessionLog.unshift(entry);
+  if(mode === 'work') {
+    currentStreak = completed ? currentStreak + 1 : Math.max(0, currentStreak);
+    sessions = Math.min(sessions + 1, sessionTarget);
+  }
+
+  sessionStartTime = null;
+  sessionStops = [];
+  document.getElementById('currentSessionName').value = '';
+  renderLog();
+  updateMetrics();
+  updateUI();
+}
+
+function stopTimer(userPause) {
+  if(running && userPause && sessionStartTime) {
+    sessionStops.push({
+      at: new Date(),
+      elapsed: total - remain,
+      remaining: remain,
+    });
+  }
+  clearInterval(tid); tid=null; running=false; updateUI();
+}
+
+function startTimer() {
+  if(running) return;
+  if(!sessionStartTime) { sessionStartTime = new Date(); sessionStops = []; }
+  running = true;
+  document.getElementById('doneMsg').classList.remove('visible');
+  tone('tick');
+  tid = setInterval(()=>{
+    if(remain <= 0){
+      stopTimer(false);
+      commitSession(true);
+      dissolve = 1;
+      tone('done');
+      document.getElementById('doneMsg').classList.add('visible');
+      return;
+    }
+    remain--; updateUI();
+  }, 1000);
+  updateUI();
+}
+
+function setMode(m, mins) {
+  if(running || (sessionStartTime && total - remain > 2)) {
+    commitSession(false);
+  }
+  stopTimer(false);
+  mode = m; total = mins*60; remain = total;
+  sessionStartTime = null; sessionStops = [];
+  document.getElementById('doneMsg').classList.remove('visible');
+  document.getElementById('currentSessionName').value = '';
+  setPalette(palettes[m]);
+  dissolve = 0;
+  document.querySelectorAll('.pill').forEach(b=>b.classList.toggle('active',b.dataset.mode===m));
+  updateUI();
+}
+
+// ── METRICS ──
+function updateMetrics() {
+  const focusSessions = sessionLog.filter(e=>e.mode==='work');
+  const focusSecs = focusSessions.reduce((a,e)=>a+e.elapsed, 0);
+  const focusMins = Math.round(focusSecs/60);
+
+  document.getElementById('metricTotal').textContent = sessionLog.length;
+  document.getElementById('metricFocus').textContent = focusMins >= 60
+    ? `${Math.floor(focusMins/60)}h${focusMins%60 ? focusMins%60+'m' : ''}`
+    : `${focusMins}m`;
+  document.getElementById('metricStreak').textContent = currentStreak;
+
+  const pips = document.querySelectorAll('.streak-pip');
+  pips.forEach((p,i) => p.classList.toggle('lit', i < currentStreak % 8));
+
+  document.getElementById('logPip').classList.toggle('has-data', sessionLog.length > 0);
+  document.getElementById('sidebarDate').textContent = new Date().toLocaleDateString([], {weekday:'long', month:'long', day:'numeric'});
+}
+
+// ── LOG RENDERING ──
+function renderLog() {
+  const section = document.getElementById('logSection');
+  const empty = document.getElementById('logEmpty');
+
+  if(sessionLog.length === 0) {
+    empty.style.display = '';
+    while(section.children.length > 1) section.removeChild(section.lastChild);
+    return;
+  }
+  empty.style.display = 'none';
+
+  while(section.children.length > 1) section.removeChild(section.lastChild);
+
+  sessionLog.forEach((entry, idx) => {
+    const div = document.createElement('div');
+    div.className = 'log-entry';
+
+    const modeNames = {work:'Focus', short:'Short break', long:'Long break'};
+    const displayName = entry.name || (modeNames[entry.mode] + ' #' + (sessionLog.length - idx));
+    const completedTag = entry.completed ? '' : ' · cut short';
+
+    div.innerHTML = `
+      <div class="log-entry-header">
+        <div class="log-entry-name" data-idx="${idx}">${esc(displayName)}</div>
+        <span class="log-mode-badge ${entry.mode}">${modeNames[entry.mode]}</span>
+        <button class="log-edit-btn" data-idx="${idx}" title="Rename">✎</button>
+      </div>
+      <div class="log-entry-meta">
+        <span class="log-meta-item">${fmtTime(new Date(entry.startTime))} – ${fmtTime(new Date(entry.endTime))}</span>
+        <span class="log-meta-sep">·</span>
+        <span class="log-meta-item">${fmtDuration(entry.elapsed)}${completedTag}</span>
+      </div>
+      ${entry.stops.length > 0 ? `<div class="log-stops">${entry.stops.map((s,si) =>
+        `<div class="log-stop-item">Paused at ${fmtTime(new Date(s.at))} — ${fmtDuration(s.elapsed)} elapsed</div>`
+      ).join('')}</div>` : ''}
+    `;
+
+    div.querySelector('.log-edit-btn').addEventListener('click', e => {
+      e.stopPropagation();
+      startInlineEdit(div, idx);
+    });
+
+    section.appendChild(div);
+  });
+}
+
+function esc(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function startInlineEdit(div, idx) {
+  const nameEl = div.querySelector('.log-entry-name');
+  const current = sessionLog[idx].name || '';
+  const input = document.createElement('input');
+  input.className = 'log-entry-name-input';
+  input.value = current;
+  input.placeholder = 'Session name…';
+  input.maxLength = 48;
+  nameEl.replaceWith(input);
+  input.focus(); input.select();
+
+  function save() {
+    const val = input.value.trim();
+    sessionLog[idx].name = val || null;
+    renderLog();
+  }
+  input.addEventListener('blur', save);
+  input.addEventListener('keydown', e => {
+    if(e.key==='Enter') { e.preventDefault(); input.blur(); }
+    if(e.key==='Escape') { input.value = current; input.blur(); }
+  });
+}
+
+// ── EVENT LISTENERS ──
+document.getElementById('playBtn').addEventListener('click', () => {
+  running ? stopTimer(true) : startTimer();
+});
+
+document.getElementById('resetBtn').addEventListener('click', () => {
+  if(running || (sessionStartTime && total - remain > 2)) commitSession(false);
+  stopTimer(false); remain=total; dissolve=0;
+  sessionStartTime=null; sessionStops=[];
+  document.getElementById('doneMsg').classList.remove('visible');
+  document.getElementById('currentSessionName').value = '';
+  updateUI();
+});
+
+document.getElementById('stopBtn').addEventListener('click', () => {
+  if(running || (sessionStartTime && total - remain > 2)) commitSession(false);
+  stopTimer(false); remain=total; sessions=0; dissolve=0;
+  sessionStartTime=null; sessionStops=[];
+  document.getElementById('doneMsg').classList.remove('visible');
+  document.getElementById('currentSessionName').value = '';
+  updateUI();
+});
+
+document.querySelectorAll('.pill').forEach(b => {
+  b.addEventListener('click', () => setMode(b.dataset.mode, +b.dataset.minutes));
+});
+
+document.getElementById('logToggle').addEventListener('click', () => {
+  document.body.classList.toggle('sidebar-open');
+  updateMetrics();
+});
+
+document.getElementById('currentSessionName').addEventListener('input', updateUI);
+
+document.getElementById('clearLogBtn').addEventListener('click', () => {
+  if(confirm('Clear all session history?')) {
+    sessionLog = []; currentStreak = 0; sessions = 0;
+    renderLog(); updateMetrics(); updateUI();
+  }
+});
+
+document.getElementById('exportBtn').addEventListener('click', () => {
+  if(!sessionLog.length) return;
+  const rows = [['Name','Mode','Start','End','Elapsed (s)','Completed','Pauses']];
+  sessionLog.forEach(e => {
+    rows.push([
+      e.name || '',
+      e.mode,
+      new Date(e.startTime).toISOString(),
+      new Date(e.endTime).toISOString(),
+      e.elapsed,
+      e.completed ? 'yes' : 'no',
+      e.stops.length,
+    ]);
+  });
+  const csv = rows.map(r=>r.map(v=>`"${String(v).replace(/"/g,'""')}"`).join(',')).join('\n');
+  const a = document.createElement('a');
+  a.href = 'data:text/csv,' + encodeURIComponent(csv);
+  a.download = 'nimbus-sessions.csv';
+  a.click();
+});
+
+// ── CLOUD CANVAS ──
+let W, H;
+function resize() {
+  W = canvas.width = window.innerWidth;
+  H = canvas.height = window.innerHeight;
+}
+window.addEventListener('resize', resize);
+resize();
+
+const t0 = performance.now();
+
+const blobs = Array.from({length:14}, () => ({
+  ox: Math.random(),
+  oy: Math.random() * .6 + .2,
+  phase: Math.random()*Math.PI*2,
+  speed: .00018 + Math.random()*.00014,
+  r: .13 + Math.random()*.19,
+  vy: (Math.random()-.5)*.00006,
+  breathAmp: .04 + Math.random()*.07,
+  breathSpeed: .0008 + Math.random()*.0006,
+}));
+
+const stars = Array.from({length:80}, () => ({
+  x: Math.random(), y: Math.random(),
+  r: .5 + Math.random()*1.2,
+  op: .08 + Math.random()*.22,
+  tw: .0004+Math.random()*.0004,
+  phase: Math.random()*Math.PI*2,
+}));
+
+function hexToRgb(hex) {
+  return [parseInt(hex.slice(1,3),16), parseInt(hex.slice(3,5),16), parseInt(hex.slice(5,7),16)];
+}
+function lerpColor(c1,c2,t) {
+  return c1.map((v,i)=>Math.round(v+(c2[i]-v)*t));
+}
+
+function draw(ts) {
+  requestAnimationFrame(draw);
+  const t = ts - t0;
+  const progress = remain / total;
+  const vitality = running ? 1 : 0.55;
+  const cd = dissolve;
+
+  const sidebarW = document.body.classList.contains('sidebar-open') ? 320 : 0;
+  const drawW = W - sidebarW;
+
+  ctx.clearRect(0,0,W,H);
+
+  const pa = hexToRgb(pal.a), pb = hexToRgb(pal.b), pc = hexToRgb(pal.c);
+  const pd = hexToRgb(pal.d), pe = hexToRgb(pal.e);
+
+  const bgGrad = ctx.createRadialGradient(drawW*.5,H*.3,0,drawW*.5,H*.5,Math.max(drawW,H)*.8);
+  bgGrad.addColorStop(0, `rgb(${pb})`);
+  bgGrad.addColorStop(.6, `rgb(${pa})`);
+  bgGrad.addColorStop(1, `rgb(${pa})`);
+  ctx.fillStyle = bgGrad;
+  ctx.fillRect(0,0,W,H);
+
+  stars.forEach(s => {
+    const tw = Math.sin(t*s.tw+s.phase)*.5+.5;
+    const op = s.op * tw * (1 - cd*.4);
+    ctx.beginPath();
+    ctx.arc(s.x*drawW, s.y*H, s.r, 0, Math.PI*2);
+    ctx.fillStyle = `rgba(255,255,255,${op})`;
+    ctx.fill();
+  });
+
+  blobs.forEach((b, i) => {
+    const breath = 1 + Math.sin(t*b.breathSpeed+b.phase)*b.breathAmp*vitality;
+    const ds = cd * (i%2===0 ? .3 : -.3);
+    const cx = (b.ox + Math.sin(t*b.speed+b.phase)*.12 + ds) * drawW;
+    const cy = (b.oy + Math.cos(t*b.vy*1000+b.phase)*.06) * H;
+    const radius = b.r * Math.min(drawW,H) * breath * progress * (1-cd*.85);
+    if(radius < 1) return;
+    const depth = i/blobs.length;
+    const rgb = lerpColor(pc, pd, depth);
+    const alpha = (.22 + depth*.12) * vitality * (1-cd*.9);
+    const grad = ctx.createRadialGradient(cx,cy,0,cx,cy,radius);
+    grad.addColorStop(0, `rgba(${pe.join(',')},${alpha*.9})`);
+    grad.addColorStop(.45, `rgba(${rgb.join(',')},${alpha})`);
+    grad.addColorStop(1, `rgba(${pc.join(',')},0)`);
+    ctx.beginPath();
+    ctx.arc(cx, cy, radius, 0, Math.PI*2);
+    ctx.fillStyle = grad;
+    ctx.fill();
+  });
+
+  const coreLife = progress * vitality * (1-cd);
+  if(coreLife > 0) {
+    const pulse = 1 + Math.sin(t*.0012)*.04;
+    const coreR = Math.min(drawW,H) * .22 * coreLife * pulse;
+    const coreGrad = ctx.createRadialGradient(drawW*.5, H*.46, 0, drawW*.5, H*.46, coreR);
+    coreGrad.addColorStop(0, `rgba(${pe.join(',')},${.16*coreLife})`);
+    coreGrad.addColorStop(.5, `rgba(${pd.join(',')},${.09*coreLife})`);
+    coreGrad.addColorStop(1, `rgba(${pc.join(',')},0)`);
+    ctx.beginPath();
+    ctx.arc(drawW*.5, H*.46, coreR, 0, Math.PI*2);
+    ctx.fillStyle = coreGrad;
+    ctx.fill();
+  }
+
+  const veilGrad = ctx.createLinearGradient(0, H*.5, 0, H);
+  veilGrad.addColorStop(0, 'transparent');
+  veilGrad.addColorStop(1, `rgba(${pa},.55)`);
+  ctx.fillStyle = veilGrad;
+  ctx.fillRect(0, H*.5, W, H*.5);
+
+  if(cd > 0) {
+    stars.forEach((s,i) => {
+      const rise = (t * .00004 * (i%3+1)) % 1;
+      const wx = s.x*drawW + Math.sin(t*.0005+s.phase)*30*cd;
+      const wy = s.y*H - rise * H * .4 * cd;
+      const op = s.op * cd * (1-rise);
+      if(op<.01) return;
+      ctx.beginPath();
+      ctx.arc(wx, wy, s.r*1.8*cd, 0, Math.PI*2);
+      ctx.fillStyle = `rgba(${pe.join(',')},${op})`;
+      ctx.fill();
+    });
+  }
+}
+
+requestAnimationFrame(draw);
+setPalette(palettes.work);
+renderLog();
+updateMetrics();
+updateUI();
+</script>
+</body>
+</html>
