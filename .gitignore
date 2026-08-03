@@ -21,4 +21,11 @@
 **/Thumbs.db
 **/*.log
 **/~$*
-
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
