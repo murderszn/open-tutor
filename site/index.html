@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>OpenTutor — A manifesto for visible learning</title>
+<meta name="description" content="OpenTutor is a modular AI homeschool platform leveraging a GitHub curriculum, an AI tutor, and a Discord classroom.">
+<meta name="author" content="Josh Johnson">
+<link rel="canonical" href="https://discord-vibe-bot.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="OpenTutor — A manifesto for visible learning">
+<meta property="og:description" content="A modular AI homeschool platform leveraging a GitHub curriculum, an AI tutor, and a Discord classroom.">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='4' fill='%23f343bc'/%3E%3Cpath d='M8 10h24v5H8zm0 9h17v5H8zm0 9h24v5H8z' fill='black'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#ff00b7;--ink:#090909;--mut:#090909;--line:#09090944;--soft:#00000006;--acc:#090909;--on:#ff00b7;color-scheme:light;
+--serif:'Instrument Serif','Iowan Old Style',Georgia,serif;--sans:'Geist','Helvetica Neue',Arial,system-ui,sans-serif;--mono:'Geist Mono',ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(70px + env(safe-area-inset-top,0px));background:var(--bg)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration-color:var(--mut);text-underline-offset:3px}
+a:hover{color:var(--acc);text-decoration-color:var(--acc)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.w{max-width:1160px;margin:0 auto;padding:0 24px}
+.col{max-width:700px}
+.mono{font-family:var(--mono);font-size:.8rem;color:var(--mut)}
+h1,h2,h3{font-family:var(--serif);font-weight:400;margin:0;letter-spacing:-.015em;line-height:1.02}
+h1{font-size:clamp(3.2rem,10.5vw,9.4rem);letter-spacing:-.035em;line-height:.93}
+h2{font-size:clamp(2.2rem,5vw,3.8rem);margin-bottom:28px}
+h3{font-family:var(--sans);font-weight:600;font-size:1.05rem;letter-spacing:0;line-height:1.3;margin-bottom:6px}
+p{margin:0 0 1.2em}
+em{font-family:var(--serif);font-size:1.12em}
+code{font-family:var(--mono);font-size:.84em;background:var(--soft);border:1px solid var(--line);border-radius:5px;padding:.08em .4em}
+section{padding:110px 0 0}
+.g{color:var(--acc);font-family:var(--mono);margin-right:.5em}
+/* nav */
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .w{display:flex;align-items:center;gap:22px;height:56px;overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+nav .b{font:600 1rem var(--sans);text-decoration:none;margin-right:auto}
+nav a:not(.b){font-size:.9rem;color:var(--mut);text-decoration:none}
+nav a:not(.b):hover{color:var(--ink)}
+.pill{display:inline-block;font:500 .92rem var(--sans);padding:.65em 1.2em;border-radius:999px;border:1px solid var(--ink);text-decoration:none;color:var(--ink);background:none;cursor:pointer}
+.pill.p{background:var(--ink);color:var(--bg)}
+.pill:hover{background:var(--acc);border-color:var(--acc);color:#fff}
+/* hero */
+.hero{min-height:calc(100svh - 56px);display:flex;flex-direction:column;justify-content:space-between;padding:40px 0 44px}
+.meta{display:flex;flex-wrap:wrap;gap:6px 28px}
+.hero h1{margin:8vh 0 36px;max-width:11.5ch}
+.hero .row{display:grid;gap:26px;align-items:end}
+@media(min-width:860px){.hero .row{grid-template-columns:1fr auto}}
+.hero p.l{font-size:1.28rem;line-height:1.5;max-width:34em;margin:0}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+/* essay */
+.big{font-family:var(--serif);font-size:clamp(1.6rem,3.2vw,2.35rem);line-height:1.2;max-width:23em;margin:0 0 .8em;letter-spacing:-.01em}
+.three{display:grid;gap:0;margin-top:44px;border-top:1px solid var(--ink)}
+@media(min-width:820px){.three{grid-template-columns:repeat(3,1fr)}.three>div+div{border-left:1px solid var(--line)}.three>div{padding-right:28px}.three>div+div{padding-left:28px}}
+.three>div{padding-top:20px;padding-bottom:20px}
+.three>div+div{border-top:1px solid var(--line)}
+@media(min-width:820px){.three>div+div{border-top:0}}
+.three p{color:var(--mut);margin:0}
+/* table */
+.tw{overflow-x:auto;margin-top:34px;border-top:1px solid var(--ink)}
+table{border-collapse:collapse;width:100%;min-width:680px;font-size:.95rem}
+th,td{text-align:left;vertical-align:top;padding:16px 18px 16px 0;border-bottom:1px solid var(--line)}
+th{font-weight:500;color:var(--mut);width:17%}
+thead th{font:500 .8rem var(--mono);color:var(--mut);padding-top:14px}
+td.n{color:var(--mut)}
+td.o{font-weight:500}
+thead th.o{color:var(--acc)}
+.nuance{margin-top:34px;padding:2px 0 2px 18px;border-left:2px solid var(--acc);color:var(--mut);font-size:.95rem;max-width:64ch}
+.nuance .mono{display:block;margin-bottom:4px;color:var(--acc)}
+.nuance p{margin:0 0 .6em}
+/* repo */
+pre{margin:0;font:400 .85rem/1.7 var(--mono);background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:20px 22px;overflow-x:auto}
+.cols{display:grid;gap:30px 40px;margin-top:34px}
+@media(min-width:820px){.cols{grid-template-columns:1fr 1fr}}
+.cols p{color:var(--mut);margin:12px 0 0;font-size:.95rem}
+/* demo */
+.demo{margin-top:36px;border:1px solid var(--ink);border-radius:14px;overflow:hidden;background:var(--soft)}
+.demo .bar{padding:10px 18px;border-bottom:1px solid var(--line);font:500 .8rem var(--mono);color:var(--mut)}
+.log{padding:22px 18px;min-height:210px;display:flex;flex-direction:column;gap:16px}
+.m b{display:block;font:500 .75rem var(--mono);color:var(--mut);margin-bottom:2px}
+.m.s{align-self:flex-end;text-align:right;max-width:80%}
+.m.s span{background:var(--ink);color:var(--bg);padding:6px 12px;border-radius:14px 14px 2px 14px;display:inline-block;text-align:left}
+.m.v{max-width:88%}
+.m.v span{display:block;border-left:2px solid var(--acc);padding-left:14px}
+.picks{display:flex;flex-wrap:wrap;gap:8px;padding:14px 18px;border-top:1px solid var(--line)}
+.picks button{font:400 .88rem var(--sans);padding:.45em .9em;border-radius:999px;border:1px solid var(--line);background:var(--bg);color:var(--ink);cursor:pointer}
+.picks button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+/* lists */
+.rows>div{display:grid;gap:4px 32px;padding:20px 0;border-top:1px solid var(--line)}
+.rows{margin-top:30px;border-bottom:1px solid var(--line)}
+@media(min-width:820px){.rows>div{grid-template-columns:230px 1fr}}
+.rows h3{margin:0}
+.rows p{margin:0;color:var(--mut)}
+.rows .links{display:flex;flex-direction:column;gap:2px;font-size:.92rem;margin-top:10px}
+ol.s{list-style:none;padding:0;margin:30px 0 0;counter-reset:n}
+ol.s>li{counter-increment:n;display:grid;gap:6px 32px;padding:26px 0;border-top:1px solid var(--line)}
+@media(min-width:820px){ol.s>li{grid-template-columns:60px 230px 1fr}}
+ol.s>li::before{content:counter(n,decimal-leading-zero);font:400 .85rem var(--mono);color:var(--acc);padding-top:3px}
+ol.s p{margin:0;color:var(--mut)}
+/* faq */
+details{border-top:1px solid var(--line);padding:18px 0}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font:500 1.05rem var(--sans);list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:var(--mono);color:var(--acc)}
+details[open] summary::after{content:"\2212"}
+details p{margin:12px 0 0;color:var(--mut);max-width:62ch}
+.addr{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:10px}
+.addr code{overflow-wrap:anywhere;padding:.5em .7em}
+.addr button{font:500 .82rem var(--sans);padding:.5em .9em;border-radius:999px;border:1px solid var(--ink);background:none;color:var(--ink);cursor:pointer}
+footer{margin-top:130px;border-top:1px solid var(--line);padding:30px 0 60px;color:var(--mut);font-size:.9rem}
+footer .w{display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center}
+footer .mk{font:400 1.4rem var(--mono);color:var(--ink);margin-right:auto}
+</style>
+<link rel="preload" href="assets/instrument-serif.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="manifesto.css?v=8">
+</head>
+<body>
+<a class="skip" href="#thesis">Skip to manifesto</a>
+<header class="site-header"><div class="w header-inner">
+<a class="wordmark" href="#top" aria-label="OpenTutor home">OpenTutor</a>
+<nav class="header-links" aria-label="Main navigation">
+<a href="#thesis"><span>01</span>Manifesto</a>
+<a href="#vibe"><span>02</span>Vibe</a>
+<a href="#setup"><span>03</span>Setup</a>
+<a href="https://github.com/murderszn/vibe"><span>04</span>Source</a>
+</nav></div></header>
+
+<main id="top">
+<div class="w hero">
+<h1>AI can tutor.<br>Can you see<br><span class="hero-question">what it taught?</span></h1>
+<p class="tagline">AI can explain almost anything. So where is the learning record?</p>
+<div class="row">
+<p class="l">A parent-led learning system. GitHub holds the curriculum. Discord hosts the classroom. Vibe tutors. The work stays reviewable.</p>
+<div class="reading-links"><a href="#thesis">Read the manifesto</a><a href="https://github.com/murderszn/vibe">Read the source</a></div>
+</div>
+</div>
+
+<section id="thesis"><div class="w">
+<p class="mono section-kicker">01 / THE THESIS</p>
+<h2>A supervised learning<br>operating system.</h2>
+<div class="col">
+<p class="big">Home education needs one place where <strong>curriculum, conversation, tutoring, and student work</strong> all stay in view.</p>
+<p>OpenTutor is a working white paper for AI-assisted, parent-supervised learning. <strong>GitHub is the record. Discord is the classroom. Vibe is the tutor.</strong> A human sets the guardrails.</p>
+</div>
+<div class="three">
+<div><h3>Governance before automation</h3><p><strong>Parent oversight is a design requirement.</strong> It belongs in the system from the beginning.</p></div>
+<div><h3>Transparency by default</h3><p>Assignments, revisions, feedback, and progress live in open tools, not a proprietary dashboard.</p></div>
+<div><h3>Continuity of evidence</h3><p>Daily tutoring connects to a long-term portfolio that is easy to audit and support.</p></div>
+</div>
+</div></section>
+
+<section id="compare"><div class="w">
+<p class="mono section-kicker">02 / THE DIFFERENCE</p>
+<h2>Closed dashboard.<br>Open workflow.</h2>
+<div class="tw"><table>
+<thead><tr><th></th><th class="n">Typical AI learning apps</th><th class="o">OpenTutor</th></tr></thead>
+<tbody>
+<tr><th>Where the work lives</th><td class="n">Inside the vendor's dashboard.</td><td class="o">In a GitHub repo <strong>you own</strong>, with a full revision history.</td></tr>
+<tr><th>Where help happens</th><td class="n">In a separate chat window.</td><td class="o">In Discord, next to the channels, assignments, and family conversation.</td></tr>
+<tr><th>Who is in charge</th><td class="n">The product decides what the tutor does.</td><td class="o"><strong>The parent.</strong> Roles, channels, prompts, and pacing are all theirs to set.</td></tr>
+<tr><th>Can you inspect it</th><td class="n">Rarely. Prompts and logic are hidden.</td><td class="o">Yes. Prompt files, skills, and bot code are <strong>visible and reviewable.</strong></td></tr>
+<tr><th>Evidence of growth</th><td class="n">Progress scores inside the app.</td><td class="o">A portfolio of commits, drafts, projects, and notes.</td></tr>
+<tr><th>Best for</th><td class="n">Families who want something turnkey.</td><td class="o">Parents and small programs comfortable operating their own tools.</td></tr>
+</tbody></table></div>
+<div class="nuance"><span class="mono">Nuance</span>
+<p>The left column describes a common pattern, not every product. Plenty of tools do some of these things well.</p>
+<p>OpenTutor is an experimental operating model. It is not a turnkey accredited school or a compliance platform, and it asks more of the parent than an app would.</p></div>
+
+<h2 style="margin-top:84px">Who it's for</h2>
+<div class="rows">
+<div><h3>Homeschool families</h3><p>Primary. Parent-led families who want visible, reviewable AI-assisted instruction and a long-term record of growth.</p></div>
+<div><h3>Microschools and pods</h3><p>Secondary. Independent tutors and small programs coordinating several students on lightweight, open infrastructure.</p></div>
+<div><h3>Schools and institutions</h3><p>Emerging. Schools piloting supervised AI and portfolio-based documentation before wider adoption.</p></div>
+</div>
+</div></section>
+
+<section id="vibe"><div class="w">
+<p class="mono section-kicker">03 / THE TUTOR</p>
+<h2>The tutor belongs<br>where class happens.</h2>
+<div class="col">
+<p>Vibe answers inside Discord. It reads who is asking and which channel they are in, calls a tool only when the answer depends on one, then replies plainly with a next step.</p>
+<p>It teaches by explaining, quizzing, and scaffolding without taking over the learning. It finds the right student, schedule, or folder, reads repo files, and checks the web or weather when facts may have changed.</p>
+</div>
+<div class="demo" role="group" aria-label="Interactive Vibe demo">
+<div class="bar">ILLUSTRATIVE EXCHANGE / #math-help</div>
+<div class="log" id="log" aria-live="polite"></div>
+<div class="picks" id="picks"></div>
+</div>
+<div class="nuance"><span class="mono">Nuance</span>
+<p>These replies are illustrative examples, not recorded output.</p>
+<p><strong>Vibe has no server-management role.</strong> Cooldowns, short replies, and scoped tools keep it a helper while the parent remains the operator.</p></div>
+</div></section>
+
+
+<section id="repo"><div class="w">
+<p class="mono section-kicker">04 / THE RECORD</p>
+<h2>The work needs<br>a place to live.</h2>
+<div class="col"><p>Assignments, student folders, teacher tools, references, and datasets sit side by side, so adults and Vibe can both find them. It is a maintained library, not a fixed curriculum.</p></div>
+<div class="cols">
+<div><pre>learning-center/
+  assignments/
+  resources/
+  students/
+  teachers/
+  .github/workflows/</pre><p>Shared material, student work, teacher tools, and dashboards each get their own place.</p></div>
+<div><pre>students/student-name/
+  grade-5/
+    math/
+    stem/
+    language-arts/
+    social-studies/
+  schedule.csv
+  README.md</pre><p>Each learner gets a durable folder for subjects, schedules, and portfolio work.</p></div>
+</div>
+<div class="col" style="margin-top:34px"><p>Adults stage the program in folders they can inspect, like <code>assignments/social-studies/</code> and <code>teachers/ai-assistants/</code>. Reference material such as formulas, grammar rules, and datasets lives under <code>/math</code>, <code>/science</code>, <code>/reading</code>, and <code>/projects</code>. AI helps turn it into rubrics, worksheets, and review materials.</p></div>
+</div></section>
+
+<section id="setup"><div class="w">
+<p class="mono section-kicker">05 / THE SETUP</p>
+<h2>From first commit<br>to classroom.</h2>
+<ol class="s">
+<li><h3>Accounts and repos</h3><div><p>Start with parent-owned GitHub accounts and repositories, so work and revision history stay under your control. Check account age requirements before creating student accounts.</p><div class="rows"><div class="links" style="border:0;padding:0;margin:8px 0 0;display:flex"><a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">Create a GitHub account</a><a href="https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account">GitHub account onboarding</a><a href="https://docs.github.com/en/education/quickstart">GitHub educator quickstart</a></div></div></div></li>
+<li><h3>The classroom server</h3><div><p>Create a Discord server with clear subject channels, plus admin and logs channels reserved for oversight. Check account age requirements for your learners.</p><div class="rows"><div class="links" style="border:0;padding:0;margin:8px 0 0;display:flex"><a href="https://support.discord.com/hc/en-us/articles/31676852332439-Discord-Sign-Up-and-Registration-Guide">Create a Discord account</a><a href="https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server">Create a Discord server</a></div></div></div></li>
+<li><h3>Install the tutor</h3><div><p>Create the Discord application and bot user, grant only the permissions the classroom needs, then run the Vibe repo with your bot token and Anthropic key.</p><div class="rows"><div class="links" style="border:0;padding:0;margin:8px 0 0;display:flex"><a href="https://discord.com/developers/docs/topics/oauth2">Discord OAuth2 and installation</a><a href="https://discord.com/developers/docs/topics/permissions">Discord permissions reference</a><a href="https://github.com/murderszn/vibe">Vibe source repository</a></div></div></div></li>
+<li><h3>Optional: a coding agent</h3><div><p>Agentic coding tools can help draft unit plans, assignment templates, and rubrics. You stay the final reviewer and standards owner.</p><div class="rows"><div class="links" style="border:0;padding:0;margin:8px 0 0;display:flex"><a href="https://antigravity.google/">Antigravity</a><a href="https://platform.openai.com/docs/codex">OpenAI Codex docs</a></div></div></div></li>
+</ol>
+</div></section>
+
+<section id="day"><div class="w">
+<p class="mono section-kicker">06 / THE DAY</p>
+<h2>One school day.<br>A visible trail.</h2>
+<ol class="s">
+<li><h3>Morning check-in</h3><p>The parent posts priorities and links to the right subject folders. Students know today's tasks and expected commits.</p></li>
+<li><h3>Subject work</h3><p>Students move through folders and materials. Notes, drafts, and responses land where they belong.</p></li>
+<li><h3>Tutor window</h3><p>Vibe rephrases directions, explains concepts, and helps students restart, so questions become next steps.</p></li>
+<li><h3>Progress review</h3><p>The parent checks completed work and blockers, and can redirect without losing the day's trail.</p></li>
+<li><h3>Projects</h3><p>Coding, design, research, or portfolio work. Code, websites, drafts, and assets become durable evidence.</p></li>
+<li><h3>Commit and plan</h3><p>Students save finished work, note what changed, and name the next step. The parent gets a clean record.</p></li>
+</ol>
+</div></section>
+
+<section id="faq"><div class="w">
+<p class="mono section-kicker">07 / THE GUARDRAILS</p>
+<h2>Keep asking<br>the hard questions.</h2>
+<div class="col">
+<details><summary>Does Vibe run the classroom?</summary><p>No. Parents keep authority over curriculum, pacing, permissions, and structure. Vibe supports learning and has no server-management role.</p></details>
+<details><summary>Can I see how Vibe behaves?</summary><p>Yes. Prompt rules and skill files are visible and reviewable, and the bot's code is open source.</p></details>
+<details><summary>What can Vibe reach outside Discord?</summary><p>Only scoped, explicit tools: schedules, GitHub files, web and URL lookup, and weather. Each is reviewable.</p></details>
+<details><summary>Is the AI making decisions for my child?</summary><p>It explains and scaffolds. The parent sets the standards and reviews the work, and repositories keep revisions and growth visible.</p></details>
+<details><summary>Is this an accredited curriculum?</summary><p>No. It is an experimental operating model, not a turnkey accredited school or compliance platform.</p></details>
+</div>
+</div></section>
+
+<section id="support"><div class="w">
+<p class="mono section-kicker">08 / IN THE OPEN</p>
+<h2>Keep it open.</h2>
+<div class="col"><p>OpenTutor and Vibe are open-source homeschool infrastructure. Stars and forks help others find and improve it. Donations fund API costs, curriculum upkeep, documentation, and development.</p></div>
+<div class="cta" style="margin-top:6px"><a class="pill p" href="https://github.com/murderszn/vibe">Star the repo</a><a class="pill" href="https://github.com/murderszn/vibe/fork">Fork the project</a></div>
+<div class="cols" style="margin-top:40px">
+<div><h3>Bitcoin</h3><div class="addr"><code>3AWfncSFKENu47mDUhyZU1tvAULPzkSdZ8</code><button type="button" data-copy="3AWfncSFKENu47mDUhyZU1tvAULPzkSdZ8">Copy address</button></div></div>
+<div><h3>Ethereum / EVM</h3><div class="addr"><code>0x6B71F8F87F7eA31628149D70B9d178cB3E357A90</code><button type="button" data-copy="0x6B71F8F87F7eA31628149D70B9d178cB3E357A90">Copy address</button></div></div>
+</div>
+</div></section>
+</main>
+
+<footer class="site-footer"><div class="w footer-inner">
+<a class="footer-wordmark" href="#top">OpenTutor</a>
+<nav class="footer-links" aria-label="Project resources">
+<a href="https://github.com/murderszn/vibe"><span>01</span>Vibe source</a>
+<a href="https://github.com/murderszn/open-tutor"><span>02</span>OpenTutor source</a>
+<a href="#setup"><span>03</span>Setup guides</a>
+<a href="#support"><span>04</span>Support the project</a>
+</nav>
+<div class="footer-end"><a href="#thesis">Read the manifesto</a><a href="#top">Back to top</a></div>
+</div></footer>
+
+<script src="manifesto.js" defer></script>
+</body>
+</html>

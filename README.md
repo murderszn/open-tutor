@@ -64,6 +64,8 @@ The larger system framing comes from the OpenTutor white paper in the Vibe proje
 
 Useful entry points:
 
+- [OpenTutor Manifesto](./site/index.html) · [preview and deployment instructions](./site/README.md)
+
 - [Weekly Timeline Dashboard](./teachers/sites/index.html)
 - [Curriculum Mind Map](./teachers/sites/mind-map/index.html)
 - [AI Teaching Team](./teachers/ai-assistants/agents.md)

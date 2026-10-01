@@ -15,6 +15,7 @@
 !resources/
 !students/
 !teachers/
+!site/
 
 # Common OS/editor junk (ignored even inside whitelisted folders)
 **/.DS_Store
