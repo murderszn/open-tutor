@@ -63,6 +63,8 @@ Useful entry points:
 - [Content Privacy, Quality & Hosting Review](./docs/content-review.md)
 - [Using the Independent Grade Tracks](./docs/teaching-library-usage.md)
 - [K–12 Curriculum Expansion Plan & GitHub Backlog](./docs/curriculum-expansion/README.md)
+- [Repository License Status](./LICENSE)
+- [Security and Privacy Reporting](./SECURITY.md)
 
 ## Daily Workflow
 
