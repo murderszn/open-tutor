@@ -2,7 +2,7 @@
 
 ## Select one grade track
 
-1. Choose one folder: `curriculum/grade-4`, `grade-5`, `grade-7`, or `grade-8`.
+1. Choose one developed grade folder: currently `curriculum/grade-4`, `grade-5`, `grade-7`, or `grade-8`. The [K–12 expansion plan](curriculum-expansion/README.md) identifies placeholder and planned tracks; these are not ready to assign merely because an issue or grade hub exists.
 2. Work only inside that grade folder for that learner. Do not reference, assign, or compare with another grade’s folder.
 3. Select a subject overview, then a blank assignment or assessment in that same folder.
 4. Preview sources, check prerequisites and safety, and adapt accommodations.

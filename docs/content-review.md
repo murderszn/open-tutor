@@ -1,6 +1,6 @@
 # Public Content Review
 
-The public library has four independent, anonymous grade tracks: 4, 5, 7, and 8. Track content belongs only in `curriculum/grade-<n>/`. Do not refer a learner to another grade, combine grade tracks, share work between learners, compare results, or use sibling/peer language. Shared `assignments/` material is grade-neutral only.
+The public library currently has substantive independent, anonymous grade tracks for 4, 5, 7, and 8, plus placeholder hubs for K, 1, 2, 3, and 6. The [K–12 expansion plan](curriculum-expansion/README.md) adds four core subjects for all grades; planned or drafted material must be labeled honestly. Track content belongs only in `curriculum/grade-<k|1..12>/`. Do not refer a learner to another grade, combine grade tracks, share work between learners, compare results, or use sibling/peer language. Shared `assignments/` material is grade-neutral only.
 
 ## Privacy boundaries
 

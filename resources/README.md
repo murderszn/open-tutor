@@ -56,5 +56,6 @@ Reusable reference guides, datasets, and links for instructor-selected lessons. 
 
 - [Grade-based curriculum and blank assessments](../curriculum/README.md)
 - [Assignments catalog](../assignments/README.md)
+- [K–12 expansion resource reuse map](../docs/curriculum-expansion/resource-map.md)
 
 Religious-study guides are optional modules; they do not replace evidence-based science instruction.

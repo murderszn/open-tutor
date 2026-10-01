@@ -62,6 +62,7 @@ Useful entry points:
 - [Grade-Based Curriculum & Blank Assessments](./curriculum/README.md)
 - [Content Privacy, Quality & Hosting Review](./docs/content-review.md)
 - [Using the Independent Grade Tracks](./docs/teaching-library-usage.md)
+- [K–12 Curriculum Expansion Plan & GitHub Backlog](./docs/curriculum-expansion/README.md)
 
 ## Daily Workflow
 
@@ -159,8 +160,11 @@ This repo includes a reusable prompt library for running the program with any ma
 | Assessment Grader | [assessment_grader.md](./teachers/ai-assistants/assessment_grader.md) | Review individual work against a rubric |
 | Report Card Generator | [report_card_generator.md](./teachers/ai-assistants/report_card_generator.md) | Prepare private reports from authorized records |
 | Resource Finder | [resource_finder.md](./teachers/ai-assistants/resource_finder.md) | Curate age-appropriate videos and references |
+| Curriculum Worker | [curriculum-worker.md](./teachers/ai-assistants/curriculum-worker.md) | Deliver one section of the K–12 GitHub backlog per run |
 
 Full directory: [teachers/ai-assistants/agents.md](./teachers/ai-assistants/agents.md)
+
+The [K–12 expansion backlog](./docs/curriculum-expansion/README.md) plans math, science, language arts, and social studies for every grade. Existing grade 4, 5, 7, and 8 material will be audited and expanded; other tracks are placeholders or planned additions. The recurring worker prompt requires complete Markdown instruction, worked examples, practice, teacher keys, verified resource packs, and generated teaching images. Its intended cadence is every three hours; the schedule is prepared but has not been activated.
 
 ## Learning Resources
 

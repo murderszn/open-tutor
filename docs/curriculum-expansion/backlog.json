@@ -1,0 +1,2838 @@
+{
+  "format_version": 1,
+  "repository": "murderszn/open-tutor",
+  "scope": "Kindergarten through Grade 12; four core subjects; eight units per track",
+  "created_on": "2026-10-01",
+  "schedule": {
+    "name": "opentutor-curriculum-worker",
+    "interval_hours": 3,
+    "rrule": "RRULE:FREQ=HOURLY;INTERVAL=3",
+    "timezone": "America/Chicago",
+    "activation_status": "not-created"
+  },
+  "roadmap_issue": {
+    "number": 5,
+    "title": "[Curriculum] K\u201312 expansion roadmap: four subjects, 52 tracks, 416 units",
+    "url": "https://github.com/murderszn/open-tutor/issues/5"
+  },
+  "tracks": [
+    {
+      "key": "grade-k/math",
+      "grade": "k",
+      "subject": "math",
+      "path": "curriculum/grade-k/math",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Counting and classifying objects"
+        },
+        {
+          "id": "U02",
+          "title": "Numbers to 10 and one-to-one correspondence"
+        },
+        {
+          "id": "U03",
+          "title": "Comparing numbers and quantities"
+        },
+        {
+          "id": "U04",
+          "title": "Teen numbers and ten frames"
+        },
+        {
+          "id": "U05",
+          "title": "Addition stories within 10"
+        },
+        {
+          "id": "U06",
+          "title": "Subtraction stories within 10"
+        },
+        {
+          "id": "U07",
+          "title": "Shapes and spatial relationships"
+        },
+        {
+          "id": "U08",
+          "title": "Measurement comparison and data sorting"
+        }
+      ],
+      "issue_number": 6,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/6"
+    },
+    {
+      "key": "grade-k/science",
+      "grade": "k",
+      "subject": "science",
+      "path": "curriculum/grade-k/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Observing describing and asking questions"
+        },
+        {
+          "id": "U02",
+          "title": "Pushes pulls and moving objects"
+        },
+        {
+          "id": "U03",
+          "title": "Comparing materials and designing simple solutions"
+        },
+        {
+          "id": "U04",
+          "title": "Plant needs and growth observations"
+        },
+        {
+          "id": "U05",
+          "title": "Animal needs habitats and patterns"
+        },
+        {
+          "id": "U06",
+          "title": "Weather observations and daily patterns"
+        },
+        {
+          "id": "U07",
+          "title": "Sunlight shade and warming surfaces"
+        },
+        {
+          "id": "U08",
+          "title": "Caring for local environments and engineering solutions"
+        }
+      ],
+      "issue_number": 7,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/7"
+    },
+    {
+      "key": "grade-k/language-arts",
+      "grade": "k",
+      "subject": "language-arts",
+      "path": "curriculum/grade-k/language-arts",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Oral language listening and print concepts"
+        },
+        {
+          "id": "U02",
+          "title": "Rhyme syllables and phonemic awareness"
+        },
+        {
+          "id": "U03",
+          "title": "Letter recognition and sound correspondences"
+        },
+        {
+          "id": "U04",
+          "title": "Blending segmenting and regular CVC words"
+        },
+        {
+          "id": "U05",
+          "title": "Shared reading retelling and sequence"
+        },
+        {
+          "id": "U06",
+          "title": "Decodable reading and sentence foundations"
+        },
+        {
+          "id": "U07",
+          "title": "Informational text questions and drawing-to-writing"
+        },
+        {
+          "id": "U08",
+          "title": "Opinion narrative and informational oral-written sharing"
+        }
+      ],
+      "issue_number": 8,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/8"
+    },
+    {
+      "key": "grade-k/social-studies",
+      "grade": "k",
+      "subject": "social-studies",
+      "path": "curriculum/grade-k/social-studies",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Identity belonging and classroom community without personal disclosure"
+        },
+        {
+          "id": "U02",
+          "title": "Rules fairness and cooperative choices"
+        },
+        {
+          "id": "U03",
+          "title": "Community helpers roles and responsibilities"
+        },
+        {
+          "id": "U04",
+          "title": "Maps symbols and nearby places"
+        },
+        {
+          "id": "U05",
+          "title": "Needs wants and simple exchanges"
+        },
+        {
+          "id": "U06",
+          "title": "Time sequence and change"
+        },
+        {
+          "id": "U07",
+          "title": "Cultures traditions and respectful curiosity"
+        },
+        {
+          "id": "U08",
+          "title": "Caring for shared places and community inquiry"
+        }
+      ],
+      "issue_number": 9,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/9"
+    },
+    {
+      "key": "grade-1/math",
+      "grade": "1",
+      "subject": "math",
+      "path": "curriculum/grade-1/math",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Counting place value and tens"
+        },
+        {
+          "id": "U02",
+          "title": "Addition strategies within 20"
+        },
+        {
+          "id": "U03",
+          "title": "Subtraction strategies within 20"
+        },
+        {
+          "id": "U04",
+          "title": "Addition and subtraction story problems"
+        },
+        {
+          "id": "U05",
+          "title": "Two-digit addition and subtraction foundations"
+        },
+        {
+          "id": "U06",
+          "title": "Length measurement and comparison"
+        },
+        {
+          "id": "U07",
+          "title": "Time and data displays"
+        },
+        {
+          "id": "U08",
+          "title": "Shapes equal shares and fractions foundations"
+        }
+      ],
+      "issue_number": 10,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/10"
+    },
+    {
+      "key": "grade-1/science",
+      "grade": "1",
+      "subject": "science",
+      "path": "curriculum/grade-1/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Questions observations and safe investigations"
+        },
+        {
+          "id": "U02",
+          "title": "Sound vibration and communication"
+        },
+        {
+          "id": "U03",
+          "title": "Light visibility shadows and materials"
+        },
+        {
+          "id": "U04",
+          "title": "External structures of plants and animals"
+        },
+        {
+          "id": "U05",
+          "title": "Parent offspring similarities and behavior"
+        },
+        {
+          "id": "U06",
+          "title": "Sun Moon and observable sky patterns"
+        },
+        {
+          "id": "U07",
+          "title": "Seasonal daylight and weather observations"
+        },
+        {
+          "id": "U08",
+          "title": "Engineering solutions inspired by living things"
+        }
+      ],
+      "issue_number": 11,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/11"
+    },
+    {
+      "key": "grade-1/language-arts",
+      "grade": "1",
+      "subject": "language-arts",
+      "path": "curriculum/grade-1/language-arts",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Phonemic review short vowels and decoding"
+        },
+        {
+          "id": "U02",
+          "title": "Consonant blends digraphs and spelling"
+        },
+        {
+          "id": "U03",
+          "title": "Long-vowel patterns and high-frequency word practice"
+        },
+        {
+          "id": "U04",
+          "title": "Fluency retelling characters and key details"
+        },
+        {
+          "id": "U05",
+          "title": "Informational reading topics and text features"
+        },
+        {
+          "id": "U06",
+          "title": "Sentences capitalization punctuation and grammar"
+        },
+        {
+          "id": "U07",
+          "title": "Opinion explanatory and narrative writing"
+        },
+        {
+          "id": "U08",
+          "title": "Speaking listening research and revised reading-writing portfolio"
+        }
+      ],
+      "issue_number": 12,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/12"
+    },
+    {
+      "key": "grade-1/social-studies",
+      "grade": "1",
+      "subject": "social-studies",
+      "path": "curriculum/grade-1/social-studies",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Community membership rights and responsibilities"
+        },
+        {
+          "id": "U02",
+          "title": "Local maps land water and location"
+        },
+        {
+          "id": "U03",
+          "title": "Past present timelines and family-neutral histories"
+        },
+        {
+          "id": "U04",
+          "title": "Community leaders rules and decision making"
+        },
+        {
+          "id": "U05",
+          "title": "Needs wants producers and consumers"
+        },
+        {
+          "id": "U06",
+          "title": "Cultures celebrations and diverse perspectives"
+        },
+        {
+          "id": "U07",
+          "title": "Historical figures stories and simple sources"
+        },
+        {
+          "id": "U08",
+          "title": "Community problem solving and civic inquiry"
+        }
+      ],
+      "issue_number": 13,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/13"
+    },
+    {
+      "key": "grade-2/math",
+      "grade": "2",
+      "subject": "math",
+      "path": "curriculum/grade-2/math",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Place value to 1000 and number comparison"
+        },
+        {
+          "id": "U02",
+          "title": "Addition and subtraction within 100"
+        },
+        {
+          "id": "U03",
+          "title": "Three-digit addition and subtraction"
+        },
+        {
+          "id": "U04",
+          "title": "Word problems and unknowns"
+        },
+        {
+          "id": "U05",
+          "title": "Equal groups arrays and repeated addition"
+        },
+        {
+          "id": "U06",
+          "title": "Length and standard units"
+        },
+        {
+          "id": "U07",
+          "title": "Time money and data"
+        },
+        {
+          "id": "U08",
+          "title": "Shapes partitions and equal shares"
+        }
+      ],
+      "issue_number": 14,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/14"
+    },
+    {
+      "key": "grade-2/science",
+      "grade": "2",
+      "subject": "science",
+      "path": "curriculum/grade-2/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Measurement fair comparisons and recording evidence"
+        },
+        {
+          "id": "U02",
+          "title": "Material properties and uses"
+        },
+        {
+          "id": "U03",
+          "title": "Heating cooling and reversible changes"
+        },
+        {
+          "id": "U04",
+          "title": "Seed dispersal plant needs and habitats"
+        },
+        {
+          "id": "U05",
+          "title": "Biodiversity and local living things"
+        },
+        {
+          "id": "U06",
+          "title": "Landforms maps and bodies of water"
+        },
+        {
+          "id": "U07",
+          "title": "Rapid slow Earth changes and erosion"
+        },
+        {
+          "id": "U08",
+          "title": "Engineering protection from wind and water"
+        }
+      ],
+      "issue_number": 15,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/15"
+    },
+    {
+      "key": "grade-2/language-arts",
+      "grade": "2",
+      "subject": "language-arts",
+      "path": "curriculum/grade-2/language-arts",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Phonics vowel teams syllables and word parts"
+        },
+        {
+          "id": "U02",
+          "title": "Fluency vocabulary and comprehension monitoring"
+        },
+        {
+          "id": "U03",
+          "title": "Story structure characters and multiple perspectives"
+        },
+        {
+          "id": "U04",
+          "title": "Informational main topics details and text features"
+        },
+        {
+          "id": "U05",
+          "title": "Grammar sentence expansion and conventions"
+        },
+        {
+          "id": "U06",
+          "title": "Narrative writing description and sequence"
+        },
+        {
+          "id": "U07",
+          "title": "Opinion explanatory writing and evidence"
+        },
+        {
+          "id": "U08",
+          "title": "Research poetry speaking and portfolio revision"
+        }
+      ],
+      "issue_number": 16,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/16"
+    },
+    {
+      "key": "grade-2/social-studies",
+      "grade": "2",
+      "subject": "social-studies",
+      "path": "curriculum/grade-2/social-studies",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Geographic tools directions and community maps"
+        },
+        {
+          "id": "U02",
+          "title": "Landforms environments and human choices"
+        },
+        {
+          "id": "U03",
+          "title": "Local history timelines and evidence"
+        },
+        {
+          "id": "U04",
+          "title": "Rules laws leadership and citizenship"
+        },
+        {
+          "id": "U05",
+          "title": "Work resources trade and economic choices"
+        },
+        {
+          "id": "U06",
+          "title": "Migration cultural diversity and communities"
+        },
+        {
+          "id": "U07",
+          "title": "Public historical figures change and multiple viewpoints"
+        },
+        {
+          "id": "U08",
+          "title": "Community inquiry and evidence-based civic project"
+        }
+      ],
+      "issue_number": 17,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/17"
+    },
+    {
+      "key": "grade-3/math",
+      "grade": "3",
+      "subject": "math",
+      "path": "curriculum/grade-3/math",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Place value rounding and multi-digit operations"
+        },
+        {
+          "id": "U02",
+          "title": "Multiplication concepts and facts"
+        },
+        {
+          "id": "U03",
+          "title": "Division concepts and facts"
+        },
+        {
+          "id": "U04",
+          "title": "Multiplication division and two-step problems"
+        },
+        {
+          "id": "U05",
+          "title": "Fractions on models and number lines"
+        },
+        {
+          "id": "U06",
+          "title": "Measurement time and liquid volume"
+        },
+        {
+          "id": "U07",
+          "title": "Area perimeter and rectilinear shapes"
+        },
+        {
+          "id": "U08",
+          "title": "Geometry and scaled data displays"
+        }
+      ],
+      "issue_number": 18,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/18"
+    },
+    {
+      "key": "grade-3/science",
+      "grade": "3",
+      "subject": "science",
+      "path": "curriculum/grade-3/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Fair tests measurement data and explanations"
+        },
+        {
+          "id": "U02",
+          "title": "Balanced unbalanced forces and motion"
+        },
+        {
+          "id": "U03",
+          "title": "Magnetic and electric interactions"
+        },
+        {
+          "id": "U04",
+          "title": "Life cycles growth and reproduction"
+        },
+        {
+          "id": "U05",
+          "title": "Inherited traits environmental effects and variation"
+        },
+        {
+          "id": "U06",
+          "title": "Habitats adaptations and survival"
+        },
+        {
+          "id": "U07",
+          "title": "Weather climate patterns and natural hazards"
+        },
+        {
+          "id": "U08",
+          "title": "Engineering investigations and evidence-based solutions"
+        }
+      ],
+      "issue_number": 19,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/19"
+    },
+    {
+      "key": "grade-3/language-arts",
+      "grade": "3",
+      "subject": "language-arts",
+      "path": "curriculum/grade-3/language-arts",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Word analysis morphology vocabulary and fluency"
+        },
+        {
+          "id": "U02",
+          "title": "Literary comprehension character and theme"
+        },
+        {
+          "id": "U03",
+          "title": "Informational text main idea structures and evidence"
+        },
+        {
+          "id": "U04",
+          "title": "Sentence structure grammar and conventions"
+        },
+        {
+          "id": "U05",
+          "title": "Narrative writing dialogue and revision"
+        },
+        {
+          "id": "U06",
+          "title": "Opinion writing reasons and linked evidence"
+        },
+        {
+          "id": "U07",
+          "title": "Research explanatory writing and source use"
+        },
+        {
+          "id": "U08",
+          "title": "Poetry speaking listening and reading-writing portfolio"
+        }
+      ],
+      "issue_number": 20,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/20"
+    },
+    {
+      "key": "grade-3/social-studies",
+      "grade": "3",
+      "subject": "social-studies",
+      "path": "curriculum/grade-3/social-studies",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Maps regions continents and geographic inquiry"
+        },
+        {
+          "id": "U02",
+          "title": "Environment settlement and resource use"
+        },
+        {
+          "id": "U03",
+          "title": "Communities over time and historical evidence"
+        },
+        {
+          "id": "U04",
+          "title": "Local government participation and public services"
+        },
+        {
+          "id": "U05",
+          "title": "Production trade scarcity and interdependence"
+        },
+        {
+          "id": "U06",
+          "title": "Cultures perspectives migration and global communities"
+        },
+        {
+          "id": "U07",
+          "title": "Rights responsibilities fairness and historical change"
+        },
+        {
+          "id": "U08",
+          "title": "Regional comparative inquiry and civic capstone"
+        }
+      ],
+      "issue_number": 21,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/21"
+    },
+    {
+      "key": "grade-4/math",
+      "grade": "4",
+      "subject": "math",
+      "path": "curriculum/grade-4/math",
+      "existing_markdown_files": 28,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Multi-digit place value rounding and operations"
+        },
+        {
+          "id": "U02",
+          "title": "Factors multiples and multiplication strategies"
+        },
+        {
+          "id": "U03",
+          "title": "Multi-digit multiplication and division"
+        },
+        {
+          "id": "U04",
+          "title": "Fraction equivalence and comparison"
+        },
+        {
+          "id": "U05",
+          "title": "Fraction addition subtraction and whole-number products"
+        },
+        {
+          "id": "U06",
+          "title": "Decimals fractions and measurement conversions"
+        },
+        {
+          "id": "U07",
+          "title": "Lines angles shapes and symmetry"
+        },
+        {
+          "id": "U08",
+          "title": "Area perimeter line plots and applications"
+        }
+      ],
+      "issue_number": 22,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/22"
+    },
+    {
+      "key": "grade-4/science",
+      "grade": "4",
+      "subject": "science",
+      "path": "curriculum/grade-4/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 33,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Evidence measurement and scientific models"
+        },
+        {
+          "id": "U02",
+          "title": "Energy transfer collisions and motion"
+        },
+        {
+          "id": "U03",
+          "title": "Waves patterns and information"
+        },
+        {
+          "id": "U04",
+          "title": "Plant animal structures and functions"
+        },
+        {
+          "id": "U05",
+          "title": "Sense information processing and responses"
+        },
+        {
+          "id": "U06",
+          "title": "Earth history fossils and landscape change"
+        },
+        {
+          "id": "U07",
+          "title": "Weathering erosion natural resources and hazards"
+        },
+        {
+          "id": "U08",
+          "title": "Engineering energy and community protection designs"
+        }
+      ],
+      "issue_number": 23,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/23"
+    },
+    {
+      "key": "grade-4/language-arts",
+      "grade": "4",
+      "subject": "language-arts",
+      "path": "curriculum/grade-4/language-arts",
+      "existing_markdown_files": 21,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Reading evidence inference and vocabulary"
+        },
+        {
+          "id": "U02",
+          "title": "Literary theme characters setting and point of view"
+        },
+        {
+          "id": "U03",
+          "title": "Informational main ideas structures and source comparison"
+        },
+        {
+          "id": "U04",
+          "title": "Grammar sentence combining punctuation and spelling"
+        },
+        {
+          "id": "U05",
+          "title": "Narrative craft description dialogue and revision"
+        },
+        {
+          "id": "U06",
+          "title": "Opinion writing evidence reasons and organization"
+        },
+        {
+          "id": "U07",
+          "title": "Research notes paraphrase and explanatory writing"
+        },
+        {
+          "id": "U08",
+          "title": "Poetry figurative language presentations and portfolio"
+        }
+      ],
+      "issue_number": 24,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/24"
+    },
+    {
+      "key": "grade-4/social-studies",
+      "grade": "4",
+      "subject": "social-studies",
+      "path": "curriculum/grade-4/social-studies",
+      "existing_markdown_files": 22,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Geographic tools U.S. regions and map evidence"
+        },
+        {
+          "id": "U02",
+          "title": "Indigenous nations geography and historical perspectives"
+        },
+        {
+          "id": "U03",
+          "title": "Exploration encounters exchange and consequences"
+        },
+        {
+          "id": "U04",
+          "title": "Colonial regions communities and economic life"
+        },
+        {
+          "id": "U05",
+          "title": "State local government rights and responsibilities"
+        },
+        {
+          "id": "U06",
+          "title": "Resources migration industry and regional economies"
+        },
+        {
+          "id": "U07",
+          "title": "Historical sources timelines and regional change"
+        },
+        {
+          "id": "U08",
+          "title": "Regional history and community inquiry capstone"
+        }
+      ],
+      "issue_number": 25,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/25"
+    },
+    {
+      "key": "grade-5/math",
+      "grade": "5",
+      "subject": "math",
+      "path": "curriculum/grade-5/math",
+      "existing_markdown_files": 19,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Place value decimal patterns and powers of ten"
+        },
+        {
+          "id": "U02",
+          "title": "Multi-digit multiplication and division"
+        },
+        {
+          "id": "U03",
+          "title": "Decimal operations and applications"
+        },
+        {
+          "id": "U04",
+          "title": "Fraction addition subtraction and unlike denominators"
+        },
+        {
+          "id": "U05",
+          "title": "Fraction multiplication division and models"
+        },
+        {
+          "id": "U06",
+          "title": "Measurement conversions and volume"
+        },
+        {
+          "id": "U07",
+          "title": "Coordinate planes patterns and numerical expressions"
+        },
+        {
+          "id": "U08",
+          "title": "Data line plots and cumulative problem solving"
+        }
+      ],
+      "issue_number": 26,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/26"
+    },
+    {
+      "key": "grade-5/science",
+      "grade": "5",
+      "subject": "science",
+      "path": "curriculum/grade-5/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 21,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Models measurement and controlled investigations"
+        },
+        {
+          "id": "U02",
+          "title": "Particle models properties and mixtures"
+        },
+        {
+          "id": "U03",
+          "title": "Matter conservation and chemical-change evidence"
+        },
+        {
+          "id": "U04",
+          "title": "Energy in food plants and ecosystems"
+        },
+        {
+          "id": "U05",
+          "title": "Earth systems spheres and water distribution"
+        },
+        {
+          "id": "U06",
+          "title": "Water cycle and human resource stewardship"
+        },
+        {
+          "id": "U07",
+          "title": "Gravity stars and observable sky patterns"
+        },
+        {
+          "id": "U08",
+          "title": "Engineering ecosystem and Earth-system solutions"
+        }
+      ],
+      "issue_number": 27,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/27"
+    },
+    {
+      "key": "grade-5/language-arts",
+      "grade": "5",
+      "subject": "language-arts",
+      "path": "curriculum/grade-5/language-arts",
+      "existing_markdown_files": 22,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Reading fluency morphology and precise vocabulary"
+        },
+        {
+          "id": "U02",
+          "title": "Literary theme perspective and character development"
+        },
+        {
+          "id": "U03",
+          "title": "Informational text synthesis structure and evidence"
+        },
+        {
+          "id": "U04",
+          "title": "Grammar sentence variety conventions and editing"
+        },
+        {
+          "id": "U05",
+          "title": "Narrative pacing dialogue and description"
+        },
+        {
+          "id": "U06",
+          "title": "Opinion writing claims reasons and source evidence"
+        },
+        {
+          "id": "U07",
+          "title": "Research informational writing and citation foundations"
+        },
+        {
+          "id": "U08",
+          "title": "Poetry multimedia speaking and revised portfolio"
+        }
+      ],
+      "issue_number": 28,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/28"
+    },
+    {
+      "key": "grade-5/social-studies",
+      "grade": "5",
+      "subject": "social-studies",
+      "path": "curriculum/grade-5/social-studies",
+      "existing_markdown_files": 20,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "North American geography Indigenous histories and sources"
+        },
+        {
+          "id": "U02",
+          "title": "Colonial societies labor trade and diverse perspectives"
+        },
+        {
+          "id": "U03",
+          "title": "Revolution causes events and competing viewpoints"
+        },
+        {
+          "id": "U04",
+          "title": "Founding documents Constitution and citizenship"
+        },
+        {
+          "id": "U05",
+          "title": "Early republic expansion displacement and resistance"
+        },
+        {
+          "id": "U06",
+          "title": "Nineteenth-century change abolition and reform"
+        },
+        {
+          "id": "U07",
+          "title": "Civil War Reconstruction and rights foundations"
+        },
+        {
+          "id": "U08",
+          "title": "Historical inquiry U.S. geography and civic capstone"
+        }
+      ],
+      "issue_number": 29,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/29"
+    },
+    {
+      "key": "grade-6/math",
+      "grade": "6",
+      "subject": "math",
+      "path": "curriculum/grade-6/math",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Ratios unit rates and ratio reasoning"
+        },
+        {
+          "id": "U02",
+          "title": "Fraction and decimal operations"
+        },
+        {
+          "id": "U03",
+          "title": "Integers rational numbers and coordinate planes"
+        },
+        {
+          "id": "U04",
+          "title": "Expressions properties and variable meaning"
+        },
+        {
+          "id": "U05",
+          "title": "Equations inequalities and quantitative relationships"
+        },
+        {
+          "id": "U06",
+          "title": "Area surface area and volume"
+        },
+        {
+          "id": "U07",
+          "title": "Statistical questions distributions and variability"
+        },
+        {
+          "id": "U08",
+          "title": "Percent data and integrated modeling"
+        }
+      ],
+      "issue_number": 30,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/30"
+    },
+    {
+      "key": "grade-6/science",
+      "grade": "6",
+      "subject": "science",
+      "path": "curriculum/grade-6/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Measurement graphing models and investigation design"
+        },
+        {
+          "id": "U02",
+          "title": "Earth Sun Moon systems and seasons"
+        },
+        {
+          "id": "U03",
+          "title": "Solar system gravity and scale"
+        },
+        {
+          "id": "U04",
+          "title": "Earth materials rocks minerals and cycles"
+        },
+        {
+          "id": "U05",
+          "title": "Plate tectonics Earth history and geologic evidence"
+        },
+        {
+          "id": "U06",
+          "title": "Water atmosphere and weather systems"
+        },
+        {
+          "id": "U07",
+          "title": "Climate resources and human impacts"
+        },
+        {
+          "id": "U08",
+          "title": "Natural hazards engineering and Earth-data capstone"
+        }
+      ],
+      "issue_number": 31,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/31"
+    },
+    {
+      "key": "grade-6/language-arts",
+      "grade": "6",
+      "subject": "language-arts",
+      "path": "curriculum/grade-6/language-arts",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Close reading inference and textual evidence"
+        },
+        {
+          "id": "U02",
+          "title": "Literature theme character plot and narrator"
+        },
+        {
+          "id": "U03",
+          "title": "Informational argument structure and author purpose"
+        },
+        {
+          "id": "U04",
+          "title": "Grammar pronouns sentence variety and vocabulary"
+        },
+        {
+          "id": "U05",
+          "title": "Narrative craft dialogue pacing and revision"
+        },
+        {
+          "id": "U06",
+          "title": "Argument writing claims reasons and credible evidence"
+        },
+        {
+          "id": "U07",
+          "title": "Research explanatory synthesis and source evaluation"
+        },
+        {
+          "id": "U08",
+          "title": "Poetry discussion presentations and portfolio reflection"
+        }
+      ],
+      "issue_number": 32,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/32"
+    },
+    {
+      "key": "grade-6/social-studies",
+      "grade": "6",
+      "subject": "social-studies",
+      "path": "curriculum/grade-6/social-studies",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Historical inquiry archaeology maps and chronology"
+        },
+        {
+          "id": "U02",
+          "title": "Early humans agriculture and settlements"
+        },
+        {
+          "id": "U03",
+          "title": "Mesopotamia Egypt and river-valley civilizations"
+        },
+        {
+          "id": "U04",
+          "title": "Ancient South and East Asian societies"
+        },
+        {
+          "id": "U05",
+          "title": "Ancient Greece civic ideas and Mediterranean exchange"
+        },
+        {
+          "id": "U06",
+          "title": "Ancient Rome republic empire and social life"
+        },
+        {
+          "id": "U07",
+          "title": "African and American civilizations in context"
+        },
+        {
+          "id": "U08",
+          "title": "Belief systems exchange networks and ancient-world inquiry"
+        }
+      ],
+      "issue_number": 33,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/33"
+    },
+    {
+      "key": "grade-7/math",
+      "grade": "7",
+      "subject": "math",
+      "path": "curriculum/grade-7/math",
+      "existing_markdown_files": 27,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Rational number operations"
+        },
+        {
+          "id": "U02",
+          "title": "Ratios rates and proportional relationships"
+        },
+        {
+          "id": "U03",
+          "title": "Percent change discounts and simple interest"
+        },
+        {
+          "id": "U04",
+          "title": "Expressions equations and inequalities"
+        },
+        {
+          "id": "U05",
+          "title": "Scale drawings angles and geometric constructions"
+        },
+        {
+          "id": "U06",
+          "title": "Circles area surface area and volume"
+        },
+        {
+          "id": "U07",
+          "title": "Sampling comparative statistics and inference"
+        },
+        {
+          "id": "U08",
+          "title": "Probability models experiments and simulation"
+        }
+      ],
+      "issue_number": 34,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/34"
+    },
+    {
+      "key": "grade-7/science",
+      "grade": "7",
+      "subject": "science",
+      "path": "curriculum/grade-7/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 43,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Scientific evidence microscopy and cell models"
+        },
+        {
+          "id": "U02",
+          "title": "Cell structures functions and organism organization"
+        },
+        {
+          "id": "U03",
+          "title": "Photosynthesis respiration and matter-energy flow"
+        },
+        {
+          "id": "U04",
+          "title": "Reproduction inheritance and genetic variation"
+        },
+        {
+          "id": "U05",
+          "title": "Natural selection adaptation and evolutionary evidence"
+        },
+        {
+          "id": "U06",
+          "title": "Ecosystem interactions populations and biodiversity"
+        },
+        {
+          "id": "U07",
+          "title": "Human body systems and homeostasis"
+        },
+        {
+          "id": "U08",
+          "title": "Life-science investigations environmental change and engineering"
+        }
+      ],
+      "issue_number": 35,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/35"
+    },
+    {
+      "key": "grade-7/language-arts",
+      "grade": "7",
+      "subject": "language-arts",
+      "path": "curriculum/grade-7/language-arts",
+      "existing_markdown_files": 18,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Close reading theme and interacting story elements"
+        },
+        {
+          "id": "U02",
+          "title": "Literary perspective figurative language and poetry"
+        },
+        {
+          "id": "U03",
+          "title": "Informational structure rhetoric and argument evaluation"
+        },
+        {
+          "id": "U04",
+          "title": "Grammar clauses sentence structure and vocabulary"
+        },
+        {
+          "id": "U05",
+          "title": "Narrative craft scene dialogue and revision"
+        },
+        {
+          "id": "U06",
+          "title": "Argument writing counterclaims evidence and reasoning"
+        },
+        {
+          "id": "U07",
+          "title": "Research source credibility paraphrase and synthesis"
+        },
+        {
+          "id": "U08",
+          "title": "Speaking listening media analysis and portfolio revision"
+        }
+      ],
+      "issue_number": 36,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/36"
+    },
+    {
+      "key": "grade-7/social-studies",
+      "grade": "7",
+      "subject": "social-studies",
+      "path": "curriculum/grade-7/social-studies",
+      "existing_markdown_files": 24,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Medieval geography sources and historical inquiry"
+        },
+        {
+          "id": "U02",
+          "title": "Byzantine Islamic and Mediterranean societies"
+        },
+        {
+          "id": "U03",
+          "title": "African kingdoms trade knowledge and cultural exchange"
+        },
+        {
+          "id": "U04",
+          "title": "South East Asian and Pacific societies"
+        },
+        {
+          "id": "U05",
+          "title": "Medieval Europe institutions and everyday life"
+        },
+        {
+          "id": "U06",
+          "title": "Indigenous American societies and regional networks"
+        },
+        {
+          "id": "U07",
+          "title": "Renaissance Reformation and early-modern change"
+        },
+        {
+          "id": "U08",
+          "title": "Global encounters colonization resistance and historical synthesis"
+        }
+      ],
+      "issue_number": 37,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/37"
+    },
+    {
+      "key": "grade-8/math",
+      "grade": "8",
+      "subject": "math",
+      "path": "curriculum/grade-8/math",
+      "existing_markdown_files": 20,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Real numbers roots and irrational approximations"
+        },
+        {
+          "id": "U02",
+          "title": "Integer exponents and scientific notation"
+        },
+        {
+          "id": "U03",
+          "title": "Linear equations and solution types"
+        },
+        {
+          "id": "U04",
+          "title": "Proportional relationships slope and linear graphs"
+        },
+        {
+          "id": "U05",
+          "title": "Systems of linear equations"
+        },
+        {
+          "id": "U06",
+          "title": "Functions and nonlinear relationships"
+        },
+        {
+          "id": "U07",
+          "title": "Transformations similarity and Pythagorean reasoning"
+        },
+        {
+          "id": "U08",
+          "title": "Volume bivariate data and modeling"
+        }
+      ],
+      "issue_number": 38,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/38"
+    },
+    {
+      "key": "grade-8/science",
+      "grade": "8",
+      "subject": "science",
+      "path": "curriculum/grade-8/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 20,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Physical quantities units motion and graphs"
+        },
+        {
+          "id": "U02",
+          "title": "Forces Newtonian reasoning and momentum"
+        },
+        {
+          "id": "U03",
+          "title": "Energy work simple machines and conservation"
+        },
+        {
+          "id": "U04",
+          "title": "Waves sound light and information"
+        },
+        {
+          "id": "U05",
+          "title": "Electric magnetic interactions and circuits"
+        },
+        {
+          "id": "U06",
+          "title": "Atomic structure elements and periodic patterns"
+        },
+        {
+          "id": "U07",
+          "title": "Bonding reactions and conservation of matter"
+        },
+        {
+          "id": "U08",
+          "title": "Thermal energy chemical applications and engineering"
+        }
+      ],
+      "issue_number": 39,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/39"
+    },
+    {
+      "key": "grade-8/language-arts",
+      "grade": "8",
+      "subject": "language-arts",
+      "path": "curriculum/grade-8/language-arts",
+      "existing_markdown_files": 22,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Close reading inference theme and evidence synthesis"
+        },
+        {
+          "id": "U02",
+          "title": "Literature drama character foils and adaptation"
+        },
+        {
+          "id": "U03",
+          "title": "Informational rhetoric argument and conflicting accounts"
+        },
+        {
+          "id": "U04",
+          "title": "Grammar voice verbals punctuation and style"
+        },
+        {
+          "id": "U05",
+          "title": "Narrative perspective pacing and crafted scenes"
+        },
+        {
+          "id": "U06",
+          "title": "Argument writing counterclaims rebuttals and reasoning"
+        },
+        {
+          "id": "U07",
+          "title": "Research synthesis attribution and explanatory essays"
+        },
+        {
+          "id": "U08",
+          "title": "Poetry comparative analysis presentations and portfolio"
+        }
+      ],
+      "issue_number": 40,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/40"
+    },
+    {
+      "key": "grade-8/social-studies",
+      "grade": "8",
+      "subject": "social-studies",
+      "path": "curriculum/grade-8/social-studies",
+      "existing_markdown_files": 21,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Colonial societies Atlantic exchange labor and resistance"
+        },
+        {
+          "id": "U02",
+          "title": "Revolution independence and contested ideals"
+        },
+        {
+          "id": "U03",
+          "title": "Constitution ratification rights and institutions"
+        },
+        {
+          "id": "U04",
+          "title": "Early republic politics expansion and displacement"
+        },
+        {
+          "id": "U05",
+          "title": "Industry reform abolition and social change"
+        },
+        {
+          "id": "U06",
+          "title": "Sectionalism slavery secession and Civil War"
+        },
+        {
+          "id": "U07",
+          "title": "Reconstruction amendments citizenship and resistance"
+        },
+        {
+          "id": "U08",
+          "title": "U.S. history through 1877 primary-source capstone"
+        }
+      ],
+      "issue_number": 41,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/41"
+    },
+    {
+      "key": "grade-9/math",
+      "grade": "9",
+      "subject": "math",
+      "path": "curriculum/grade-9/math",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Algebra foundations expressions and equations"
+        },
+        {
+          "id": "U02",
+          "title": "Linear functions graphs and modeling"
+        },
+        {
+          "id": "U03",
+          "title": "Systems inequalities and constraints"
+        },
+        {
+          "id": "U04",
+          "title": "Exponents polynomials and operations"
+        },
+        {
+          "id": "U05",
+          "title": "Quadratic functions and factoring"
+        },
+        {
+          "id": "U06",
+          "title": "Quadratic equations and applications"
+        },
+        {
+          "id": "U07",
+          "title": "Exponential functions and sequences"
+        },
+        {
+          "id": "U08",
+          "title": "Descriptive statistics residuals and model comparison"
+        }
+      ],
+      "issue_number": 42,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/42"
+    },
+    {
+      "key": "grade-9/science",
+      "grade": "9",
+      "subject": "science",
+      "path": "curriculum/grade-9/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Biological investigation evidence and biomolecules"
+        },
+        {
+          "id": "U02",
+          "title": "Cells membranes and transport"
+        },
+        {
+          "id": "U03",
+          "title": "Photosynthesis respiration and energy transformations"
+        },
+        {
+          "id": "U04",
+          "title": "Cell cycle mitosis and meiosis"
+        },
+        {
+          "id": "U05",
+          "title": "Inheritance molecular genetics and gene expression"
+        },
+        {
+          "id": "U06",
+          "title": "Evolution population genetics and evidence"
+        },
+        {
+          "id": "U07",
+          "title": "Ecology ecosystems and matter cycling"
+        },
+        {
+          "id": "U08",
+          "title": "Human systems homeostasis and biology capstone"
+        }
+      ],
+      "issue_number": 43,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/43"
+    },
+    {
+      "key": "grade-9/language-arts",
+      "grade": "9",
+      "subject": "language-arts",
+      "path": "curriculum/grade-9/language-arts",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Literary close reading theme and evidence"
+        },
+        {
+          "id": "U02",
+          "title": "Narrative structure characterization and author choices"
+        },
+        {
+          "id": "U03",
+          "title": "Informational rhetoric argument and media literacy"
+        },
+        {
+          "id": "U04",
+          "title": "Grammar precision syntax vocabulary and style"
+        },
+        {
+          "id": "U05",
+          "title": "Narrative and creative writing workshop"
+        },
+        {
+          "id": "U06",
+          "title": "Argument essays source integration and revision"
+        },
+        {
+          "id": "U07",
+          "title": "Research inquiry credibility citation and synthesis"
+        },
+        {
+          "id": "U08",
+          "title": "Poetry drama seminar and comparative portfolio"
+        }
+      ],
+      "issue_number": 44,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/44"
+    },
+    {
+      "key": "grade-9/social-studies",
+      "grade": "9",
+      "subject": "social-studies",
+      "path": "curriculum/grade-9/social-studies",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "World-history inquiry geography and global connections circa 1450"
+        },
+        {
+          "id": "U02",
+          "title": "Empires exchange colonization and resistance"
+        },
+        {
+          "id": "U03",
+          "title": "Enlightenment revolutions rights and consequences"
+        },
+        {
+          "id": "U04",
+          "title": "Industrialization capitalism imperialism and social change"
+        },
+        {
+          "id": "U05",
+          "title": "World wars ideologies genocide and historical evidence"
+        },
+        {
+          "id": "U06",
+          "title": "Decolonization Cold War and new nations"
+        },
+        {
+          "id": "U07",
+          "title": "Globalization migration development and environmental pressures"
+        },
+        {
+          "id": "U08",
+          "title": "Contemporary world inquiry comparative sources and civic reasoning"
+        }
+      ],
+      "issue_number": 45,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/45"
+    },
+    {
+      "key": "grade-10/math",
+      "grade": "10",
+      "subject": "math",
+      "path": "curriculum/grade-10/math",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Geometry foundations definitions and proof"
+        },
+        {
+          "id": "U02",
+          "title": "Congruence rigid motions and triangle reasoning"
+        },
+        {
+          "id": "U03",
+          "title": "Similarity dilations and proportional reasoning"
+        },
+        {
+          "id": "U04",
+          "title": "Right-triangle trigonometry and applications"
+        },
+        {
+          "id": "U05",
+          "title": "Quadrilaterals polygons and coordinate proofs"
+        },
+        {
+          "id": "U06",
+          "title": "Circles chords tangents and angles"
+        },
+        {
+          "id": "U07",
+          "title": "Area surface area volume and geometric modeling"
+        },
+        {
+          "id": "U08",
+          "title": "Geometric probability and cumulative design proofs"
+        }
+      ],
+      "issue_number": 46,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/46"
+    },
+    {
+      "key": "grade-10/science",
+      "grade": "10",
+      "subject": "science",
+      "path": "curriculum/grade-10/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Chemical measurement lab methods and uncertainty"
+        },
+        {
+          "id": "U02",
+          "title": "Atomic models isotopes and periodicity"
+        },
+        {
+          "id": "U03",
+          "title": "Chemical bonding structure and properties"
+        },
+        {
+          "id": "U04",
+          "title": "Reactions balancing and stoichiometry"
+        },
+        {
+          "id": "U05",
+          "title": "Gases intermolecular forces and phases"
+        },
+        {
+          "id": "U06",
+          "title": "Solutions concentration and aqueous chemistry"
+        },
+        {
+          "id": "U07",
+          "title": "Thermochemistry kinetics and equilibrium"
+        },
+        {
+          "id": "U08",
+          "title": "Acids bases oxidation-reduction and chemistry capstone"
+        }
+      ],
+      "issue_number": 47,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/47"
+    },
+    {
+      "key": "grade-10/language-arts",
+      "grade": "10",
+      "subject": "language-arts",
+      "path": "curriculum/grade-10/language-arts",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "World literature cultural context and interpretation"
+        },
+        {
+          "id": "U02",
+          "title": "Comparative theme structure and perspective"
+        },
+        {
+          "id": "U03",
+          "title": "Nonfiction rhetoric reasoning and source evaluation"
+        },
+        {
+          "id": "U04",
+          "title": "Language syntax tone vocabulary and conventions"
+        },
+        {
+          "id": "U05",
+          "title": "Narrative craft and literary analysis essays"
+        },
+        {
+          "id": "U06",
+          "title": "Argument synthesis and counterargument workshop"
+        },
+        {
+          "id": "U07",
+          "title": "Research across perspectives and multimodal composition"
+        },
+        {
+          "id": "U08",
+          "title": "Poetry drama discussion and revised portfolio"
+        }
+      ],
+      "issue_number": 48,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/48"
+    },
+    {
+      "key": "grade-10/social-studies",
+      "grade": "10",
+      "subject": "social-studies",
+      "path": "curriculum/grade-10/social-studies",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Reconstruction industrialization and contested citizenship"
+        },
+        {
+          "id": "U02",
+          "title": "Immigration urbanization labor and reform"
+        },
+        {
+          "id": "U03",
+          "title": "U.S. expansion imperialism and World War I"
+        },
+        {
+          "id": "U04",
+          "title": "1920s Great Depression and New Deal"
+        },
+        {
+          "id": "U05",
+          "title": "World War II home front rights and global role"
+        },
+        {
+          "id": "U06",
+          "title": "Cold War civil rights and social movements"
+        },
+        {
+          "id": "U07",
+          "title": "Late twentieth-century politics economy and culture"
+        },
+        {
+          "id": "U08",
+          "title": "Recent U.S. history evidence media and historical inquiry"
+        }
+      ],
+      "issue_number": 49,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/49"
+    },
+    {
+      "key": "grade-11/math",
+      "grade": "11",
+      "subject": "math",
+      "path": "curriculum/grade-11/math",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Function transformations composition and inverses"
+        },
+        {
+          "id": "U02",
+          "title": "Polynomial functions zeros and complex numbers"
+        },
+        {
+          "id": "U03",
+          "title": "Rational expressions functions and asymptotes"
+        },
+        {
+          "id": "U04",
+          "title": "Radical functions and equations"
+        },
+        {
+          "id": "U05",
+          "title": "Exponential logarithmic functions and models"
+        },
+        {
+          "id": "U06",
+          "title": "Trigonometric functions and periodic models"
+        },
+        {
+          "id": "U07",
+          "title": "Sequences series and financial models"
+        },
+        {
+          "id": "U08",
+          "title": "Probability inference and statistical modeling"
+        }
+      ],
+      "issue_number": 50,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/50"
+    },
+    {
+      "key": "grade-11/science",
+      "grade": "11",
+      "subject": "science",
+      "path": "curriculum/grade-11/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Measurement vectors motion and uncertainty"
+        },
+        {
+          "id": "U02",
+          "title": "Forces free-body diagrams and dynamics"
+        },
+        {
+          "id": "U03",
+          "title": "Energy work power and conservation"
+        },
+        {
+          "id": "U04",
+          "title": "Momentum collisions and impulse"
+        },
+        {
+          "id": "U05",
+          "title": "Circular motion gravitation and orbital models"
+        },
+        {
+          "id": "U06",
+          "title": "Waves sound and optics"
+        },
+        {
+          "id": "U07",
+          "title": "Electric circuits fields and electromagnetism"
+        },
+        {
+          "id": "U08",
+          "title": "Thermal systems modern-physics concepts and engineering capstone"
+        }
+      ],
+      "issue_number": 51,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/51"
+    },
+    {
+      "key": "grade-11/language-arts",
+      "grade": "11",
+      "subject": "language-arts",
+      "path": "curriculum/grade-11/language-arts",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "American literature contexts themes and close reading"
+        },
+        {
+          "id": "U02",
+          "title": "Founding rhetoric speeches and primary texts"
+        },
+        {
+          "id": "U03",
+          "title": "Literary movements diverse voices and interpretation"
+        },
+        {
+          "id": "U04",
+          "title": "Language rhetoric syntax and stylistic analysis"
+        },
+        {
+          "id": "U05",
+          "title": "Literary criticism and analytical writing"
+        },
+        {
+          "id": "U06",
+          "title": "Argument evidence synthesis and public reasoning"
+        },
+        {
+          "id": "U07",
+          "title": "Independent research documentation and ethical source use"
+        },
+        {
+          "id": "U08",
+          "title": "Poetry drama seminar and capstone portfolio"
+        }
+      ],
+      "issue_number": 52,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/52"
+    },
+    {
+      "key": "grade-11/social-studies",
+      "grade": "11",
+      "subject": "social-studies",
+      "path": "curriculum/grade-11/social-studies",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Foundations of constitutional government and political ideas"
+        },
+        {
+          "id": "U02",
+          "title": "Constitution federalism and institutional powers"
+        },
+        {
+          "id": "U03",
+          "title": "Civil liberties civil rights and equal protection"
+        },
+        {
+          "id": "U04",
+          "title": "Elections representation participation and political parties"
+        },
+        {
+          "id": "U05",
+          "title": "Congress presidency courts and policy making"
+        },
+        {
+          "id": "U06",
+          "title": "State local tribal governments and civic institutions"
+        },
+        {
+          "id": "U07",
+          "title": "Media public opinion comparative government and civic evidence"
+        },
+        {
+          "id": "U08",
+          "title": "Public-policy inquiry and nonpartisan civic capstone"
+        }
+      ],
+      "issue_number": 53,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/53"
+    },
+    {
+      "key": "grade-12/math",
+      "grade": "12",
+      "subject": "math",
+      "path": "curriculum/grade-12/math",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/math_fundamentals.md",
+        "resources/weights_and_measures.md",
+        "resources/financial_tools_and_principles.md",
+        "resources/us_states.csv",
+        "resources/un_countries.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/Math/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Advanced function analysis and mathematical modeling"
+        },
+        {
+          "id": "U02",
+          "title": "Trigonometric identities equations and applications"
+        },
+        {
+          "id": "U03",
+          "title": "Vectors parametric equations and polar representations"
+        },
+        {
+          "id": "U04",
+          "title": "Sequences series and discrete models"
+        },
+        {
+          "id": "U05",
+          "title": "Probability distributions and statistical inference"
+        },
+        {
+          "id": "U06",
+          "title": "Optimization and modeling with algebraic methods"
+        },
+        {
+          "id": "U07",
+          "title": "Limits and rates of change as optional calculus bridge"
+        },
+        {
+          "id": "U08",
+          "title": "Capstone comparing models and defending conclusions"
+        }
+      ],
+      "issue_number": 54,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/54"
+    },
+    {
+      "key": "grade-12/science",
+      "grade": "12",
+      "subject": "science",
+      "path": "curriculum/grade-12/science",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/biology_fundamentals.md",
+        "resources/physics_fundamentals.md",
+        "resources/chemistry_fundamentals.md",
+        "resources/astronomy_fundamentals.md",
+        "resources/thermodynamics_laws.md",
+        "resources/periodic_table_elements.csv",
+        "resources/solar_system_planets.csv"
+      ],
+      "alignment_source": "https://www.nextgenscience.org/search-standards",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Earth-system evidence geologic time and quantitative models"
+        },
+        {
+          "id": "U02",
+          "title": "Plate tectonics resources and landscape processes"
+        },
+        {
+          "id": "U03",
+          "title": "Atmosphere ocean circulation and weather"
+        },
+        {
+          "id": "U04",
+          "title": "Climate evidence feedbacks and uncertainty"
+        },
+        {
+          "id": "U05",
+          "title": "Biodiversity ecosystem services and conservation"
+        },
+        {
+          "id": "U06",
+          "title": "Water soil land use and pollution"
+        },
+        {
+          "id": "U07",
+          "title": "Energy systems sustainability and risk tradeoffs"
+        },
+        {
+          "id": "U08",
+          "title": "Environmental investigation and Earth-space science capstone"
+        }
+      ],
+      "issue_number": 55,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/55"
+    },
+    {
+      "key": "grade-12/language-arts",
+      "grade": "12",
+      "subject": "language-arts",
+      "path": "curriculum/grade-12/language-arts",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/language_arts_parts_of_speech.md",
+        "resources/language_arts_sentence_structure.md",
+        "resources/language_arts_literary_terms.md",
+        "resources/language_arts_great_books_and_stories.md"
+      ],
+      "alignment_source": "https://www.thecorestandards.org/ELA-Literacy/",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Advanced close reading critical lenses and interpretation"
+        },
+        {
+          "id": "U02",
+          "title": "Comparative world literature and historical context"
+        },
+        {
+          "id": "U03",
+          "title": "Rhetorical analysis argument and media criticism"
+        },
+        {
+          "id": "U04",
+          "title": "Precision style grammar and vocabulary refinement"
+        },
+        {
+          "id": "U05",
+          "title": "Advanced analytical argumentative and creative writing"
+        },
+        {
+          "id": "U06",
+          "title": "Research synthesis methodology and source evaluation"
+        },
+        {
+          "id": "U07",
+          "title": "Professional civic and postsecondary communication"
+        },
+        {
+          "id": "U08",
+          "title": "Independent reading seminar and revised capstone portfolio"
+        }
+      ],
+      "issue_number": 56,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/56"
+    },
+    {
+      "key": "grade-12/social-studies",
+      "grade": "12",
+      "subject": "social-studies",
+      "path": "curriculum/grade-12/social-studies",
+      "existing_markdown_files": 0,
+      "legacy_stem_markdown_files": 0,
+      "resources": [
+        "resources/world_facts.md",
+        "resources/government_basics.md",
+        "resources/united_states_understanding_and_principles.md",
+        "resources/black_excellence_figures.md",
+        "resources/wars_fundamentals.md",
+        "resources/supply_and_demand_economics.md",
+        "resources/us_states.csv",
+        "resources/us_presidents.csv",
+        "resources/un_countries.csv",
+        "resources/un_countries.json"
+      ],
+      "alignment_source": "https://www.socialstudies.org/standards/c3",
+      "units": [
+        {
+          "id": "U01",
+          "title": "Economic reasoning scarcity incentives and opportunity cost"
+        },
+        {
+          "id": "U02",
+          "title": "Supply demand markets and price signals"
+        },
+        {
+          "id": "U03",
+          "title": "Firms labor competition and market structures"
+        },
+        {
+          "id": "U04",
+          "title": "Market failures public goods and policy tradeoffs"
+        },
+        {
+          "id": "U05",
+          "title": "Macroeconomic indicators growth inflation and unemployment"
+        },
+        {
+          "id": "U06",
+          "title": "Fiscal monetary policy and economic institutions"
+        },
+        {
+          "id": "U07",
+          "title": "International trade finance development and inequality"
+        },
+        {
+          "id": "U08",
+          "title": "Personal-finance models economic evidence and policy capstone"
+        }
+      ],
+      "issue_number": 57,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/57"
+    }
+  ],
+  "reviews": [
+    {
+      "key": "progression",
+      "issue_number": 58,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/58",
+      "title": "K\u201312 progression and standards crosswalk review",
+      "eligibility": "Eligible only after A00 is delivered for all 52 track issues. Inspect the actual linked drafts, not checklist counts alone. Build an educator-facing progression map for all four subjects; identify omissions, unnecessary repetition, misplaced prerequisites, and band/course assumptions. Verify standards codes against official documents. Keep learner-facing links within each grade. Report actionable corrections by track and update their scope-and-sequence drafts; do not certify state alignment."
+    },
+    {
+      "key": "resources",
+      "issue_number": 59,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/59",
+      "title": "Resource reuse, source quality, and generated-image review",
+      "eligibility": "Eligible only after U01 is delivered for all 52 track issues. Inspect references and image assets across actual unit drafts. Audit internal resource reuse, dated facts, text rights, free/no-account alternatives, video labels, source check dates, dataset units, and broken links. Review image accuracy, alt text, captions, generation records, activity use, and text alternatives. Improve shared guide gaps and the anonymous grade/subject resource shelf, update resources/README.md, and file specific defects against affected tracks. Never count a placeholder image as delivered."
+    },
+    {
+      "key": "final",
+      "issue_number": 60,
+      "issue_url": "https://github.com/murderszn/open-tutor/issues/60",
+      "title": "Final K\u201312 content, assessment, accessibility, and navigation review",
+      "eligibility": "Eligible only after all ten sections of all 52 track issues are delivered and their content is merged. Review coverage, full-year pacing, factual accuracy, worked examples, every assessment/key pair, lab safety, public-content boundaries, generated assets, keyboard/text alternatives, and index/manifest coverage. Run validation and representative browser/render checks. Record per-track readiness and unresolved issues honestly. Complete review only after blockers are fixed; readiness remains educator-supervised."
+    }
+  ]
+}
