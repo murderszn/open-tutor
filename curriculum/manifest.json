@@ -1576,12 +1576,20 @@
     {
       "path": "grade-k/math/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/science/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 4,
-    "subject-index": 22,
+    "subject-index": 24,
     "new-assignment": 31,
     "assignment": 91,
     "quiz": 227,
