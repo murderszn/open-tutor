@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Basic trend reading example</title>
+  <desc id="desc">Three small charts showing uptrend, downtrend, and sideways range.</desc>
+  <rect width="900" height="420" fill="#f7f2e8"/>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(55 58)">
+      <rect width="240" height="238" fill="#fffdf7" stroke="#d8cdbb" stroke-width="2"/>
+      <g stroke="#eadfcd" stroke-width="1">
+        <line x1="0" y1="58" x2="240" y2="58"/>
+        <line x1="0" y1="116" x2="240" y2="116"/>
+        <line x1="0" y1="174" x2="240" y2="174"/>
+      </g>
+      <polyline points="20,194 60,156 98,170 132,116 166,130 206,70" fill="none" stroke="#207868" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="42" y="272" fill="#196657" font-size="26" font-weight="700">Uptrend</text>
+      <text x="22" y="304" fill="#4f5b66" font-size="17">Higher highs and higher lows</text>
+    </g>
+
+    <g transform="translate(330 58)">
+      <rect width="240" height="238" fill="#fffdf7" stroke="#d8cdbb" stroke-width="2"/>
+      <g stroke="#eadfcd" stroke-width="1">
+        <line x1="0" y1="58" x2="240" y2="58"/>
+        <line x1="0" y1="116" x2="240" y2="116"/>
+        <line x1="0" y1="174" x2="240" y2="174"/>
+      </g>
+      <polyline points="20,62 58,102 96,86 132,140 170,128 210,190" fill="none" stroke="#d85140" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="30" y="272" fill="#9a342b" font-size="26" font-weight="700">Downtrend</text>
+      <text x="18" y="304" fill="#4f5b66" font-size="17">Lower highs and lower lows</text>
+    </g>
+
+    <g transform="translate(605 58)">
+      <rect width="240" height="238" fill="#fffdf7" stroke="#d8cdbb" stroke-width="2"/>
+      <g stroke="#eadfcd" stroke-width="1">
+        <line x1="0" y1="58" x2="240" y2="58"/>
+        <line x1="0" y1="116" x2="240" y2="116"/>
+        <line x1="0" y1="174" x2="240" y2="174"/>
+      </g>
+      <line x1="18" y1="82" x2="222" y2="82" stroke="#b33d31" stroke-width="4" stroke-dasharray="10 8"/>
+      <line x1="18" y1="178" x2="222" y2="178" stroke="#207868" stroke-width="4" stroke-dasharray="10 8"/>
+      <polyline points="20,168 52,104 86,154 124,92 156,146 190,108 218,158" fill="none" stroke="#243b53" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="16" y="272" fill="#243b53" font-size="26" font-weight="700">Sideways</text>
+      <text x="18" y="304" fill="#4f5b66" font-size="17">Price moves in a range</text>
+    </g>
+
+    <text x="70" y="384" fill="#4f5b66" font-size="20">Start with trend direction before naming a bigger pattern.</text>
+  </g>
+</svg>

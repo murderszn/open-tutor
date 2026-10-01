@@ -64,6 +64,7 @@ Summary: Core chemistry ideas for grades 4–8: matter and atomic structure, the
 - Khan Academy — Chemical Reactions & Stoichiometry — https://www.khanacademy.org/science/chemistry/chemical-reactions-stoichiome
 - PhET — Build an Atom — https://phet.colorado.edu/en/simulations/build-an-atom
 - PhET — Balancing Chemical Equations — https://phet.colorado.edu/en/simulations/balancing-chemical-equations
+- MolView — 3D molecule viewer and drawing tool — https://app.molview.com/
 - Britannica — Chemistry topics — https://www.britannica.com/science/chemistry
 
 ## Mapping — Assignments/Quizzes → Links
@@ -76,6 +77,7 @@ Summary: Core chemistry ideas for grades 4–8: matter and atomic structure, the
 - Google: atomic structure for kids — https://www.google.com/search?q=atomic+structure+for+kids
 - Google: ionic vs covalent bond examples — https://www.google.com/search?q=ionic+vs+covalent+bond+examples
 - Google: balancing chemical equations practice — https://www.google.com/search?q=balancing+chemical+equations+practice
+- MolView: open interactive molecule builder — https://app.molview.com/
 - YouTube: atoms and molecules for kids — https://www.youtube.com/results?search_query=atoms+and+molecules+for+kids
 
 ## Equations & Formats (textbook layout)

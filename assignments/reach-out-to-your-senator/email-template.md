@@ -4,7 +4,7 @@ Subject: [Appreciation/Concern] about [Issue] from a constituent in [City, ZIP]
 
 Dear Senator [Durbin/Duckworth],
 
-My name is [First Name], and I live in [City, ZIP] in Illinois. I’m writing to share my [appreciation/concern] about [issue].
+My name is [First Name], and I live in [City, ZIP] in [Your State]. I’m writing to share my [appreciation/concern] about [issue].
 
 [1–2 sentences: what happened or what the issue is, and why it matters to me/my family/community.]
 
@@ -16,7 +16,7 @@ Thank you for your time and service. I appreciate your attention to this matter.
 
 Sincerely,
 [First Name]
-[City, Illinois ZIP]
+[City, [Your State] ZIP]
 [Parent/guardian email CC if applicable]
 
 Safety: Do not include sensitive personal information.

@@ -1,15 +1,15 @@
-# 🌍 History of War — Turning Points & Institutions (Grade 7)
+# 🌍 History of War — Turning Points & Institutions (Grade 8)
 
 Study how major wars reshaped borders, leadership, and the rules of the world. Produce a concise, evidence‑based brief connecting one early turning point, the two World Wars, and one modern conflict.
 
-Core reference: ../../../../resources/wars_fundamentals.md
+Core reference: ../../resources/wars_fundamentals.md
 
 ## Objectives
 - Identify causes and outcomes of key wars and the institutions they created or changed.
 - Explain how WWI and WWII changed global leadership and everyday life.
 - Connect a contemporary conflict to longer‑term regional dynamics with a verification note.
 
-## Tasks
+## Tasks (Grade 8)
 1) Timeline Thread (notes)
 - In your own words (bullet list), outline: Thirty Years’ War → Napoleonic Wars → WWI → WWII → one Cold War conflict (Korea or Vietnam) → one modern conflict (Russia–Ukraine or Iran–Israel context).
 - For each: causes, 1–2 turning points, outcomes (borders/institutions), and who rose/declined.
@@ -26,7 +26,7 @@ Core reference: ../../../../resources/wars_fundamentals.md
 - Open the mini‑site and place the wars in chronological order, then assign flags to the two sides for each war: `./resources/timeline/index.html`
 
 ## Deliverables
-- Path: `students/<name>/grade-#/social-studies/assignments/history-of-war.md`
+- Path: `your-private-workspace/`
 - Structure: `# Timeline Thread` · `# Institutions One‑Pager` · `# Short Brief` · `# Interactive Timeline (screenshot + notes)`
 
 ## Rubric (10 pts)
@@ -52,7 +52,7 @@ Core reference: ../../../../resources/wars_fundamentals.md
   - Iran–Israel context — https://www.youtube.com/results?search_query=iran+israel+proxy+conflict+explained
 
 - Web References
-  - Wars guide (repo): ../../../../resources/wars_fundamentals.md
+  - Wars guide (repo): ../../resources/wars_fundamentals.md
   - Thirty Years’ War — https://en.wikipedia.org/wiki/Thirty_Years%27_War
   - Napoleonic Wars — https://en.wikipedia.org/wiki/Napoleonic_Wars
   - World War I — https://en.wikipedia.org/wiki/World_War_I

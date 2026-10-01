@@ -1,6 +1,6 @@
 # 🎭 Shakespeare Overview: Hamlet (Relevance Study)
 
-**Grade Level:** Middle School (Grade 7–8)
+**Grade Level:** 8th Grade (Grade 8)
 **Subject:** Language Arts (Drama & Culture)
 
 ## 🎯 Objective / What You Will Learn
@@ -10,11 +10,34 @@
 
 ---
 
+## 📖 Story Synopsis
+*Hamlet* (Shakespeare, ~1600) is set in the cold castle of **Elsinore in Denmark**. Prince **Hamlet** is grieving his father, the recently dead King. His uncle **Claudius** has already grabbed the throne *and* married Hamlet’s mother, **Queen Gertrude**. Then the **ghost** of Hamlet’s father appears on the castle walls and drops a bombshell: Claudius poisoned him. The ghost demands revenge.
+
+Hamlet can’t decide what to do. To buy time, he pretends to be insane — confusing his girlfriend **Ophelia**, her father **Polonius**, and his old friends **Rosencrantz and Guildenstern** (whom Claudius is using to spy on him). Hamlet stages a play that re-enacts the murder to watch Claudius’s reaction — *“The play’s the thing wherein I’ll catch the conscience of the king.”* Claudius freaks out, confirming his guilt.
+
+Things spiral fast. Hamlet stabs Polonius by mistake through a curtain. Ophelia goes mad with grief and drowns. a fictional person **Laertes** comes back hungry for revenge and teams up with Claudius to kill Hamlet with a poisoned sword and a poisoned cup. In the final scene, almost everyone dies: Gertrude drinks the poison meant for Hamlet, Laertes and Hamlet wound each other with the poisoned blade, and Hamlet finally kills Claudius before dying himself. Hamlet’s friend **Horatio** survives to tell the story.
+
+**Famous lines you’ll recognize:** *“To be, or not to be — that is the question”* (Hamlet wondering whether life is worth living), *“Something is rotten in the state of Denmark,”* and *“The lady doth protest too much.”*
+
+**Big themes:** revenge vs. justice, indecision and overthinking, appearance vs. reality, corruption at the top, and how grief can twist a person.
+
+---
+
 ## 🛠️ Viewing/Reading Options
-Choose ONE:
-1) Watch a short plot summary or teacher explainer video.
-2) Read a plot/character overview with theme analysis.
-3) Watch select scenes or a parent‑approved film adaptation.
+Pick ONE; add a second for depth.
+
+**Watch (YouTube):**
+* CrashCourse Literature — *Ghosts, Murder, and More Murder (Hamlet, Part 1)*: https://www.youtube.com/watch?v=eRMP2zb3IXk
+* CrashCourse Literature — *Ophelia, Gertrude, and Regicide (Hamlet, Part 2)*: https://www.youtube.com/watch?v=Lh4yoBJguHc
+* TED-Ed — *Why should you read Shakespeare’s “Hamlet”?* (Iseult Gillespie): https://www.youtube.com/watch?v=jH_aojNJM3E
+* SparkNotes video summary search: https://www.youtube.com/results?search_query=SparkNotes+Hamlet+summary
+
+**Read (web):**
+* SparkNotes plot overview: https://www.sparknotes.com/shakespeare/hamlet/summary/
+* No Fear Shakespeare (original + modern translation, side by side): https://www.sparknotes.com/nofear/shakespeare/hamlet/
+* Folger Shakespeare Library (free, trusted text): https://www.folger.edu/explore/shakespeares-works/hamlet/
+* Britannica article: https://www.britannica.com/topic/Hamlet-by-Shakespeare
+* Wikipedia (great for archetype/theme notes): https://en.wikipedia.org/wiki/Hamlet
 
 ---
 

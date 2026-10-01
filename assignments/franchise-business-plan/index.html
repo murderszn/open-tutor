@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🏪 Franchise Business Plan Builder</title>
+  <style>
+    :root {
+      --bg: #ffffff; --text: #111; --muted: #666; --border: #e5e7eb; --surface: #fafafa;
+      --accent: #f59e0b; --accent2: #10b981; --danger: #ef4444;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0b0c; --text: #f2f2f2; --muted: #a1a1a1; --border: #222; --surface: #111213;
+        --accent: #fbbf24; --accent2: #34d399; --danger: #f87171;
+      }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background: radial-gradient(1200px 600px at 20% -10%, rgba(245,158,11,0.07), transparent), radial-gradient(900px 500px at 110% 10%, rgba(16,185,129,0.07), transparent), var(--bg); color: var(--text); line-height: 1.6; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 24px 16px 80px; }
+    header { background: linear-gradient(180deg, rgba(245,158,11,0.12), rgba(245,158,11,0.04)); border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin-bottom: 16px; }
+    header h1 { margin: 0 0 6px; font-size: 28px; letter-spacing: -0.5px; }
+    header p { margin: 0; color: var(--muted); }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 20px; margin: 14px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.04); }
+    .card h2 { margin: 0 0 14px; font-size: 20px; display: flex; align-items: center; gap: 8px; }
+    .card h3 { margin: 14px 0 8px; font-size: 16px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; }
+    label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 4px; }
+    input[type="number"], select { width: 100%; padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--bg); color: var(--text); font: inherit; font-size: 14px; }
+    input[type="range"] { width: 100%; height: 28px; }
+    .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+    .grid4 { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 12px; }
+    @media (max-width: 700px) { .grid2, .grid3, .grid4 { grid-template-columns: 1fr 1fr; } }
+    @media (max-width: 480px) { .grid2, .grid3, .grid4 { grid-template-columns: 1fr; } }
+    .field { display: flex; flex-direction: column; }
+    .stat-row { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 12px; }
+    .stat { flex: 1; min-width: 140px; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 12px; }
+    .stat .label { font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+    .stat .val { font-size: 20px; font-weight: 700; }
+    .stat.green .val { color: var(--accent2); }
+    .stat.amber .val { color: var(--accent); }
+    .stat.red .val { color: var(--danger); }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 8px; }
+    th { background: rgba(245,158,11,0.1); padding: 8px 10px; text-align: left; font-size: 13px; border-bottom: 2px solid var(--border); }
+    td { padding: 8px 10px; border-bottom: 1px solid var(--border); }
+    .profit { font-weight: 600; }
+    .pos { color: var(--accent2); }
+    .neg { color: var(--danger); }
+    .breakeven { background: rgba(245,158,11,0.08); }
+    .hint { font-size: 13px; color: var(--muted); margin-top: 6px; }
+    .chip { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; border: 1px solid var(--border); margin-right: 6px; }
+    .chip.on { background: rgba(16,185,129,0.12); border-color: rgba(16,185,129,0.4); color: var(--accent2); }
+    .section-note { background: rgba(245,158,11,0.07); border: 1px solid rgba(245,158,11,0.25); border-radius: 10px; padding: 12px; margin-top: 12px; font-size: 13px; }
+    .print-btn { display: inline-block; margin-top: 20px; padding: 10px 22px; background: var(--accent); color: #000; border: none; border-radius: 8px; font: inherit; font-weight: 700; cursor: pointer; font-size: 15px; }
+    @media print {
+      .print-btn { display: none; }
+      body { background: white; }
+      .card { box-shadow: none; border: 1px solid #ccc; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>🏪 Franchise Business Plan Builder</h1>
+    <p>Pick a real franchise, enter your numbers, and build a complete 5-year financial forecast — startup costs, operating costs, revenue projections, and total profit.</p>
+  </header>
+
+  <!-- STEP 1: FRANCHISE PICKER -->
+  <div class="card">
+    <h2>📋 Step 1 — Choose Your Franchise</h2>
+    <div class="grid2">
+      <div class="field">
+        <label for="franchisePicker">Select a franchise to auto-fill data</label>
+        <select id="franchisePicker" onchange="loadFranchise()">
+          <option value="custom">✏️ Custom (enter your own values)</option>
+          <optgroup label="🍔 Restaurant Franchises">
+            <option value="mcdonalds">McDonald's</option>
+            <option value="subway">Subway</option>
+            <option value="tacoBell">Taco Bell</option>
+            <option value="dunkin">Dunkin'</option>
+            <option value="dominos">Domino's</option>
+            <option value="wingstop">Wingstop</option>
+          </optgroup>
+          <optgroup label="🏢 Non-Restaurant Franchises">
+            <option value="anytimeFitness">Anytime Fitness</option>
+            <option value="upsStore">The UPS Store</option>
+            <option value="kumon">Kumon</option>
+            <option value="hrBlock">H&amp;R Block</option>
+          </optgroup>
+        </select>
+      </div>
+      <div id="franchiseInfo" class="section-note">Select a franchise above to see its real-world data loaded automatically.</div>
+    </div>
+  </div>
+
+  <!-- STEP 2: STARTUP COSTS -->
+  <div class="card">
+    <h2>🏗️ Step 2 — Startup Costs <small style="font-weight:400;font-size:14px;color:var(--muted)">(one-time, Year 1 only)</small></h2>
+    <div class="grid3">
+      <div class="field"><label>Franchise Fee ($)</label><input type="number" id="franchiseFee" value="20000" min="0" step="500" oninput="calc()"></div>
+      <div class="field"><label>Equipment &amp; Fixtures ($)</label><input type="number" id="equipment" value="50000" min="0" step="1000" oninput="calc()"></div>
+      <div class="field"><label>Buildout / Renovation ($)</label><input type="number" id="buildout" value="80000" min="0" step="1000" oninput="calc()"></div>
+      <div class="field"><label>Initial Inventory ($)</label><input type="number" id="inventory" value="15000" min="0" step="500" oninput="calc()"></div>
+      <div class="field"><label>Working Capital ($)</label><input type="number" id="workingCapital" value="30000" min="0" step="1000" oninput="calc()"></div>
+      <div class="field"><label>Other Startup Costs ($)</label><input type="number" id="otherStartup" value="5000" min="0" step="500" oninput="calc()"></div>
+    </div>
+    <div class="stat-row">
+      <div class="stat amber"><div class="label">Total Startup Investment</div><div class="val" id="totalStartup">$0</div></div>
+    </div>
+    <p class="hint">This money is spent before you open. You only pay this once, in Year 1.</p>
+  </div>
+
+  <!-- STEP 3: ANNUAL OPERATING COSTS -->
+  <div class="card">
+    <h2>📊 Step 3 — Annual Operating Costs <small style="font-weight:400;font-size:14px;color:var(--muted)">(every year)</small></h2>
+    <h3>Fixed Costs (same every year)</h3>
+    <div class="grid3">
+      <div class="field"><label>Annual Rent / Lease ($)</label><input type="number" id="rent" value="36000" min="0" step="500" oninput="calc()"></div>
+      <div class="field"><label>Annual Labor / Wages ($)</label><input type="number" id="labor" value="120000" min="0" step="1000" oninput="calc()"></div>
+      <div class="field"><label>Annual Utilities ($)</label><input type="number" id="utilities" value="12000" min="0" step="500" oninput="calc()"></div>
+      <div class="field"><label>Annual Insurance ($)</label><input type="number" id="insurance" value="8000" min="0" step="500" oninput="calc()"></div>
+      <div class="field"><label>Other Fixed Costs ($)</label><input type="number" id="otherFixed" value="6000" min="0" step="500" oninput="calc()"></div>
+    </div>
+    <h3>Revenue-Based Costs (% of sales — auto-calculated)</h3>
+    <div class="grid3">
+      <div class="field"><label>Food / Inventory Cost (% of revenue)</label><input type="number" id="foodCostPct" value="30" min="0" max="80" step="0.5" oninput="calc()"></div>
+      <div class="field"><label>Royalty Fee (% of revenue)</label><input type="number" id="royaltyPct" value="6" min="0" max="50" step="0.1" oninput="calc()"></div>
+      <div class="field"><label>Advertising Fund (% of revenue)</label><input type="number" id="adPct" value="4" min="0" max="10" step="0.1" oninput="calc()"></div>
+    </div>
+    <p class="hint">Revenue-based costs are calculated automatically as percentages of each year's revenue.</p>
+  </div>
+
+  <!-- STEP 4: REVENUE PROJECTIONS -->
+  <div class="card">
+    <h2>📈 Step 4 — Revenue Projections</h2>
+    <div class="grid2">
+      <div class="field">
+        <label for="year1Rev">Year 1 Revenue ($)</label>
+        <input type="number" id="year1Rev" value="450000" min="0" step="5000" oninput="calc()">
+        <p class="hint">Tip: Year 1 is usually 70–80% of the franchise's average annual sales. New locations take time to build a customer base.</p>
+      </div>
+      <div class="field">
+        <label for="growthRate">Annual Revenue Growth Rate (%)</label>
+        <input type="number" id="growthRate" value="5" min="0" max="30" step="0.5" oninput="calc()">
+        <p class="hint">Typical franchise growth: 3–8% per year. Be realistic — don't assume 20% growth without a reason.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 5: 5-YEAR SUMMARY -->
+  <div class="card">
+    <h2>📅 Step 5 — Your 5-Year Financial Plan</h2>
+    <div style="overflow-x:auto">
+      <table id="planTable">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Revenue</th>
+            <th>Operating Costs</th>
+            <th>Operating Profit</th>
+            <th>Startup Cost</th>
+            <th>Net Profit / Loss</th>
+            <th>Cumulative P/L</th>
+          </tr>
+        </thead>
+        <tbody id="planBody"></tbody>
+        <tfoot id="planFoot"></tfoot>
+      </table>
+    </div>
+    <p class="hint">🔴 Red = losing money that year. 🟢 Green = profitable that year. The <strong>Cumulative P/L</strong> column shows whether you've paid back your startup investment yet.</p>
+  </div>
+
+  <!-- STEP 6: KEY METRICS -->
+  <div class="card">
+    <h2>🎯 Step 6 — Key Metrics</h2>
+    <div class="stat-row">
+      <div class="stat amber">
+        <div class="label">Total Startup Investment</div>
+        <div class="val" id="metricStartup">$0</div>
+      </div>
+      <div class="stat">
+        <div class="label">Total 5-Year Revenue</div>
+        <div class="val" id="metricRevenue">$0</div>
+      </div>
+      <div class="stat">
+        <div class="label">Total 5-Year Costs</div>
+        <div class="val" id="metricCosts">$0</div>
+      </div>
+      <div class="stat" id="metricProfitCard">
+        <div class="label">Total 5-Year Net Profit</div>
+        <div class="val" id="metricProfit">$0</div>
+      </div>
+      <div class="stat" id="metricRoiCard">
+        <div class="label">5-Year ROI</div>
+        <div class="val" id="metricRoi">0%</div>
+      </div>
+      <div class="stat">
+        <div class="label">Break-Even Year</div>
+        <div class="val" id="metricBreakeven">—</div>
+      </div>
+    </div>
+    <div class="section-note" id="roiNote">ROI (Return on Investment) = Total Net Profit ÷ Startup Investment × 100. A positive ROI means you made more than you spent over 5 years.</div>
+  </div>
+
+  <button class="print-btn" onclick="window.print()">🖨️ Print My Plan</button>
+  <p class="hint" style="margin-top:10px">Print this page or save as PDF to submit your assignment. All numbers will appear in the printout.</p>
+
+</div>
+
+<script>
+  const franchiseData = {
+    custom:         { name: 'Custom',           fee: 0,      invest: 200000,  royalty: 6,   ad: 4,    food: 30, rent: 36000,  labor: 100000, yr1: 450000 },
+    mcdonalds:      { name: "McDonald's",        fee: 45000,  invest: 1500000, royalty: 4,   ad: 4,    food: 32, rent: 120000, labor: 250000, yr1: 2400000 },
+    subway:         { name: 'Subway',            fee: 15000,  invest: 190000,  royalty: 8,   ad: 4.5,  food: 33, rent: 36000,  labor: 120000, yr1: 380000  },
+    tacoBell:       { name: 'Taco Bell',         fee: 45000,  invest: 1000000, royalty: 5.5, ad: 4.25, food: 28, rent: 80000,  labor: 200000, yr1: 1350000 },
+    dunkin:         { name: "Dunkin'",           fee: 65000,  invest: 600000,  royalty: 5.9, ad: 5,    food: 30, rent: 60000,  labor: 160000, yr1: 850000  },
+    dominos:        { name: "Domino's",          fee: 17500,  invest: 200000,  royalty: 5.5, ad: 6,    food: 28, rent: 30000,  labor: 100000, yr1: 1050000 },
+    wingstop:       { name: 'Wingstop',          fee: 20000,  invest: 400000,  royalty: 6,   ad: 4,    food: 35, rent: 42000,  labor: 130000, yr1: 1050000 },
+    anytimeFitness: { name: 'Anytime Fitness',   fee: 42500,  invest: 200000,  royalty: 0,   ad: 0,    food: 0,  rent: 60000,  labor: 80000,  yr1: 360000  },
+    upsStore:       { name: 'The UPS Store',     fee: 29950,  invest: 200000,  royalty: 5,   ad: 2.5,  food: 25, rent: 30000,  labor: 90000,  yr1: 290000  },
+    kumon:          { name: 'Kumon',             fee: 1000,   invest: 80000,   royalty: 0,   ad: 0,    food: 0,  rent: 18000,  labor: 40000,  yr1: 100000  },
+    hrBlock:        { name: 'H&R Block',         fee: 30000,  invest: 80000,   royalty: 20,  ad: 5,    food: 0,  rent: 18000,  labor: 50000,  yr1: 150000  },
+  };
+
+  function loadFranchise() {
+    const key = document.getElementById('franchisePicker').value;
+    const d = franchiseData[key];
+    if (!d) return;
+
+    // Calculate individual startup costs from total invest
+    const remaining = Math.max(0, d.invest - d.fee);
+    const eq   = Math.round(remaining * 0.28);
+    const bld  = Math.round(remaining * 0.42);
+    const inv  = Math.round(remaining * 0.10);
+    const wc   = Math.round(remaining * 0.14);
+    const oth  = Math.max(0, remaining - eq - bld - inv - wc);
+
+    setVal('franchiseFee', d.fee);
+    setVal('equipment', eq);
+    setVal('buildout', bld);
+    setVal('inventory', inv);
+    setVal('workingCapital', wc);
+    setVal('otherStartup', oth);
+    setVal('royaltyPct', d.royalty);
+    setVal('adPct', d.ad);
+    setVal('foodCostPct', d.food);
+    setVal('rent', d.rent);
+    setVal('labor', d.labor);
+    setVal('year1Rev', d.yr1);
+
+    const info = document.getElementById('franchiseInfo');
+    if (key === 'custom') {
+      info.innerHTML = 'Entering custom values. Fill in all fields manually.';
+    } else {
+      info.innerHTML = `<strong>${d.name}</strong> — estimated data loaded.<br>` +
+        `Franchise fee: ${fmt(d.fee)} &nbsp;|&nbsp; Est. total investment: ~${fmt(d.invest)}<br>` +
+        `Royalty: ${d.royalty}% &nbsp;|&nbsp; Ad fund: ${d.ad}% &nbsp;|&nbsp; Food cost: ~${d.food}% of sales`;
+    }
+    calc();
+  }
+
+  function setVal(id, val) {
+    const el = document.getElementById(id);
+    if (el) el.value = val;
+  }
+
+  function getNum(id) {
+    return Math.max(0, parseFloat(document.getElementById(id).value) || 0);
+  }
+
+  function fmt(n) {
+    return n.toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
+  }
+
+  function fmtPct(n) {
+    return (n >= 0 ? '+' : '') + n.toFixed(1) + '%';
+  }
+
+  function calc() {
+    const franchiseFee    = getNum('franchiseFee');
+    const equipment       = getNum('equipment');
+    const buildout        = getNum('buildout');
+    const inventory       = getNum('inventory');
+    const workingCapital  = getNum('workingCapital');
+    const otherStartup    = getNum('otherStartup');
+    const totalStartup    = franchiseFee + equipment + buildout + inventory + workingCapital + otherStartup;
+
+    const rent            = getNum('rent');
+    const labor           = getNum('labor');
+    const utilities       = getNum('utilities');
+    const insurance       = getNum('insurance');
+    const otherFixed      = getNum('otherFixed');
+    const fixedCosts      = rent + labor + utilities + insurance + otherFixed;
+
+    const foodCostPct     = getNum('foodCostPct') / 100;
+    const royaltyPct      = getNum('royaltyPct') / 100;
+    const adPct           = getNum('adPct') / 100;
+    const variablePct     = foodCostPct + royaltyPct + adPct;
+
+    const year1Rev        = getNum('year1Rev');
+    const growthRate      = getNum('growthRate') / 100;
+
+    document.getElementById('totalStartup').textContent = fmt(totalStartup);
+
+    const body = document.getElementById('planBody');
+    const foot = document.getElementById('planFoot');
+    body.innerHTML = '';
+    foot.innerHTML = '';
+
+    let cumulative = -totalStartup;
+    let breakevenYear = null;
+    let totalRevenue = 0;
+    let totalOpCosts = 0;
+    let totalNetProfit = 0;
+
+    for (let yr = 1; yr <= 5; yr++) {
+      const rev = year1Rev * Math.pow(1 + growthRate, yr - 1);
+      const variableCost = rev * variablePct;
+      const opCosts = fixedCosts + variableCost;
+      const opProfit = rev - opCosts;
+      const startup = yr === 1 ? totalStartup : 0;
+      const netProfit = opProfit - startup;
+      const prevCumulative = cumulative;
+      cumulative += netProfit;
+
+      totalRevenue += rev;
+      totalOpCosts += opCosts;
+      totalNetProfit += netProfit;
+
+      if (prevCumulative < 0 && cumulative >= 0 && breakevenYear === null) {
+        breakevenYear = yr;
+      }
+
+      const posOp = opProfit >= 0;
+      const posNet = netProfit >= 0;
+      const posCum = cumulative >= 0;
+      const isBreakeven = (breakevenYear === yr);
+
+      const tr = document.createElement('tr');
+      if (isBreakeven) tr.className = 'breakeven';
+      tr.innerHTML = [
+        `<td><strong>Year ${yr}</strong>${isBreakeven ? ' <span class="chip on">Break-Even!</span>' : ''}</td>`,
+        `<td>${fmt(rev)}</td>`,
+        `<td>${fmt(opCosts)}</td>`,
+        `<td class="profit ${posOp ? 'pos' : 'neg'}">${fmt(opProfit)}</td>`,
+        `<td>${yr === 1 ? fmt(totalStartup) : '—'}</td>`,
+        `<td class="profit ${posNet ? 'pos' : 'neg'}">${fmt(netProfit)}</td>`,
+        `<td class="profit ${posCum ? 'pos' : 'neg'}">${fmt(cumulative)}</td>`,
+      ].join('');
+      body.appendChild(tr);
+    }
+
+    // Totals row
+    const totalFinalCumul = cumulative;
+    const tf = document.createElement('tr');
+    tf.style.fontWeight = '700';
+    tf.style.background = 'rgba(245,158,11,0.06)';
+    tf.innerHTML = [
+      `<td>TOTAL (5 yr)</td>`,
+      `<td>${fmt(totalRevenue)}</td>`,
+      `<td>${fmt(totalOpCosts + totalStartup)}</td>`,
+      `<td></td>`,
+      `<td>${fmt(totalStartup)}</td>`,
+      `<td class="profit ${totalFinalCumul >= 0 ? 'pos' : 'neg'}">${fmt(totalFinalCumul)}</td>`,
+      `<td></td>`,
+    ].join('');
+    foot.appendChild(tf);
+
+    // Key metrics
+    document.getElementById('metricStartup').textContent = fmt(totalStartup);
+    document.getElementById('metricRevenue').textContent = fmt(totalRevenue);
+    document.getElementById('metricCosts').textContent = fmt(totalOpCosts + totalStartup);
+    document.getElementById('metricProfit').textContent = fmt(totalFinalCumul);
+
+    const roiPct = totalStartup > 0 ? (totalFinalCumul / totalStartup * 100) : 0;
+    document.getElementById('metricRoi').textContent = fmtPct(roiPct);
+    document.getElementById('metricBreakeven').textContent = breakevenYear ? `Year ${breakevenYear}` : (totalFinalCumul >= 0 ? 'Year 1' : 'Not in 5 yrs');
+
+    const profitCard = document.getElementById('metricProfitCard');
+    profitCard.className = 'stat ' + (totalFinalCumul >= 0 ? 'green' : 'red');
+    const roiCard = document.getElementById('metricRoiCard');
+    roiCard.className = 'stat ' + (roiPct >= 0 ? 'green' : 'red');
+
+    const note = document.getElementById('roiNote');
+    if (roiPct > 50) note.textContent = `ROI = ${fmtPct(roiPct)} over 5 years. Strong return! This franchise earns back more than half your investment as profit.`;
+    else if (roiPct > 0) note.textContent = `ROI = ${fmtPct(roiPct)} over 5 years. Positive return — you earned back your startup costs and made additional profit.`;
+    else note.textContent = `ROI = ${fmtPct(roiPct)} over 5 years. The franchise hasn't paid back the startup costs yet in this 5-year window. Try adjusting revenue or reducing costs.`;
+  }
+
+  // Run initial calculation on load
+  loadFranchise();
+  calc();
+</script>
+</body>
+</html>

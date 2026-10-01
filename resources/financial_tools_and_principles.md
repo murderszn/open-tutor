@@ -16,17 +16,17 @@ A practical, age‑appropriate guide to money, markets, and smart habits. Use th
 
 ## 🧭 How To Use This (Age Tracks)
 
-- Middle School (Grade 6–9): Read each section, then complete one Practice Idea per week. Use the templates to write one page per concept (stock, bond, mortgage, etc.).
-- Elementary (Grade 3–6): Read the “Kid‑Friendly” bullets under each section (parents help as needed). Fill out the short templates (3–4 lines each) and do one small conversion or definition per week.
+- Advanced learner (Grade 8–9): Read each section, then complete one Practice Idea per week. Use the templates to write one page per concept (stock, bond, mortgage, etc.).
+- Core learner (Grade 5–6): Read the “Kid‑Friendly” bullets under each section (parents help as needed). Fill out the short templates (3–4 lines each) and do one small conversion or definition per week.
 
 Keep everything in your student folder in a `/finance` subfolder.
 
 ---
 
 ## 🔗 Quick Links
-- World Facts (markets, leaders, trade routes): [resources/world_facts.md](./world_facts.md)
-- Weights & Measures (unit conversions): [resources/weights_and_measures.md](./weights_and_measures.md)
-- UN Countries (for currency/country lookups): [resources/un_countries.csv](./un_countries.csv)
+- World Facts (markets, leaders, trade routes): [resources/world_facts.md](world_facts.md)
+- Weights & Measures (unit conversions): [resources/weights_and_measures.md](weights_and_measures.md)
+- UN Countries (for currency/country lookups): [resources/un_countries.csv](un_countries.csv)
 
 ---
 

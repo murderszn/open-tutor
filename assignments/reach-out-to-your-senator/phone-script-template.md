@@ -1,6 +1,6 @@
 # ☎️ Phone Script Template (Optional)
 
-Hello, my name is [First Name], and I live in [City, ZIP] in Illinois.
+Hello, my name is [First Name], and I live in [City, ZIP] in [Your State].
 
 I’m calling to share my [appreciation/concern] about [issue]. My request is [one clear ask].
 

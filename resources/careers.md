@@ -1,6 +1,6 @@
 # 🧭 Careers — Paths, Education, Specialties, Pay (US est.)
 
-[← Back to Resources Index](./README.md)
+[← Back to Resources Index](../README.md)
 
 A quick, student‑friendly guide to common and emerging careers. Ranges are rough U.S. estimates; always check current data (see Sources) and local markets.
 

@@ -138,7 +138,7 @@ While there are 14 U.S. territories, five are permanently inhabited.
 
 ## 6) Learn the Machinery of Today’s Government
 
-- Read the companion reference for branches and agencies: [**Government Basics — Branches & Agencies**](./government_basics.md)
+- Read the companion reference for branches and agencies: [**Government Basics — Branches & Agencies**](government_basics.md)
 
 ---
 

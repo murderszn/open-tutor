@@ -382,7 +382,7 @@
 
     <script>
         const STARTING_BALANCE = 1000000;
-        let expenses = JSON.parse(localStorage.getItem('jfd_million_expenses')) || [];
+        let expenses = JSON.parse(localStorage.getItem('opentutor_million_expenses')) || [];
 
         const form = document.getElementById('expenseForm');
         const itemNameInput = document.getElementById('itemName');
@@ -443,7 +443,7 @@
         };
 
         const saveAndRender = () => {
-            localStorage.setItem('jfd_million_expenses', JSON.stringify(expenses));
+            localStorage.setItem('opentutor_million_expenses', JSON.stringify(expenses));
             updateDashboard();
             renderLedger();
         };

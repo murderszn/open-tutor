@@ -2,9 +2,6 @@
 
 This diagram shows the big picture of our curriculum: subjects, key threads, and where interactives/resources live. Use it for quick orientation and planning.
 
-## Snapshot (Expanded)
-
-![Curriculum Mind Map (Expanded)](./image.png)
 
 ## Interactive Version
 

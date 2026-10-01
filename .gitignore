@@ -13,9 +13,16 @@
 # Keep primary content folders tracked
 !assignments/
 !resources/
+# Track the anonymous workspace starter only. Never commit real learner folders.
 !students/
+!students/student-template/
+!students/student-template/**
+
 !teachers/
 !site/
+!curriculum/
+!docs/
+!scripts/
 
 # Common OS/editor junk (ignored even inside whitelisted folders)
 **/.DS_Store
