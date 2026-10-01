@@ -1568,18 +1568,26 @@
     {
       "path": "grade-8/weekly-rhythm.md",
       "kind": "rhythm"
+    },
+    {
+      "path": "grade-k/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/math/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
+    "curriculum-index": 1,
+    "grade-index": 4,
+    "subject-index": 22,
+    "new-assignment": 31,
     "assignment": 91,
     "quiz": 227,
     "template": 14,
-    "subject-index": 20,
     "hints": 2,
-    "rhythm": 2,
-    "new-assignment": 31,
-    "grade-index": 4,
-    "curriculum-index": 1
+    "rhythm": 2
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
