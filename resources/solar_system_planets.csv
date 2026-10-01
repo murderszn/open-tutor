@@ -1,0 +1,9 @@
+planet_order_from_sun,name,distance_from_sun_million_km,orbital_period_days,equatorial_diameter_km,surface_gravity_m_s2,known_moons,fact,google_maps_url
+1,Mercury,57.9,88,4879,3.7,0,Smallest planet and closest to the Sun,https://www.google.com/search?q=Mercury+planet
+2,Venus,108.2,225,12104,8.87,0,Hottest planet because of its thick atmosphere,https://www.google.com/search?q=Venus+planet
+3,Earth,149.6,365,12742,9.81,1,Only known planet with life and liquid oceans,https://www.google.com/search?q=Earth+planet
+4,Mars,227.9,687,6779,3.71,2,Called the Red Planet because of iron oxide dust,https://www.google.com/search?q=Mars+planet
+5,Jupiter,778.6,4333,139820,24.79,95,Largest planet in the solar system,https://www.google.com/search?q=Jupiter+planet
+6,Saturn,1433.5,10759,116460,10.44,146,Famous for its bright ring system,https://www.google.com/search?q=Saturn+planet
+7,Uranus,2872.5,30687,50724,8.69,27,Rotates on its side compared with most planets,https://www.google.com/search?q=Uranus+planet
+8,Neptune,4495.1,60190,49244,11.15,14,Has some of the fastest winds in the solar system,https://www.google.com/search?q=Neptune+planet

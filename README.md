@@ -2,7 +2,7 @@
 
 # OpenTutor
 
-**A parent-operated homeschool system built from GitHub, structured resources, teacher workflows, and optional AI support.**
+**An educator-supervised learning library with independent grade tracks, structured resources, and optional AI support.**
 
 <p>
   <a href="https://github.com/murderszn/open-tutor"><img src="https://img.shields.io/badge/OpenTutor-Curriculum_Repo-111827?style=for-the-badge&logo=github&logoColor=white" alt="OpenTutor Curriculum Repo" /></a>
@@ -13,40 +13,28 @@
 
 </div>
 
-![OpenTutor homeschool systems overview](https://raw.githubusercontent.com/murderszn/vibe/main/site/images/modern_homeschool_flow.png)
 
 ## Overview
 
-OpenTutor is not a single app. It is a parent-operated homeschool system assembled from open tools on purpose.
+OpenTutor is a public teaching-material library, designed for educator-led adaptation. It does not host student records.
 
-- **This repo is the homeschool operating repo** for curriculum, resources, assignments, schedules, dashboards, and student work.
-- **The companion Vibe repo** runs the Discord tutor, teacher assistant, and server admin layer.
-- **GitHub** acts as the record of structure, revisions, and portfolio output.
-- **Discord** can act as the daily classroom surface when you want live tutor support.
-- **AI is optional and teacher-directed**. Adults define the work. AI helps draft, explain, organize, and review.
+- **This repo holds reusable curriculum, assignments, public resources, and teacher tools.** Personalized learner records stay private.
+- **GitHub** acts as the record for public content and revisions, not as a public student portfolio or gradebook.
+- **AI is optional and educator-directed**. Adults define the work. AI can help draft, explain, organize, and review.
 
-The point is not to buy into a canned curriculum platform. The point is to run a flexible, inspectable learning system that parents and teachers can shape over time.
+The library is flexible and inspectable. Educators select, adapt, and review each grade track independently.
 
-## Two-Repo Model
+## Optional Integrations
 
-OpenTutor works best when you treat the system as two connected repositories:
-
-1. **OpenTutor repo**: the content system
-   Curriculum areas, resources, assignments, student folders, schedules, dashboards, and teacher prompts live here.
-2. **Vibe repo**: the tutor layer
-   The Discord bot lives there and handles student tutoring, teacher assistance, and admin-gated classroom actions.
-
-That separation matters. The content repo should stay understandable without the bot, and the bot should support the classroom without owning the curriculum.
-
-![OpenTutor integration map](https://raw.githubusercontent.com/murderszn/vibe/main/site/images/opentutor-integration-map.png)
+The content library is usable on its own. Educators may connect an AI tutor or classroom platform, subject to local safeguarding, access-control, and privacy requirements. Integrations should not read public learner records because none belong in this repository.
 
 ## What This Repo Does
 
-This repository is the maintained learning library and workflow engine for the homeschool.
+This repository is a maintained teaching library, not a student-record system.
 
 - **Assignments** hold project briefs, labs, writing prompts, and interactive activities.
 - **Resources** hold quick-reference guides, datasets, and reusable support material.
-- **Students** hold personal workspaces, subject folders, and weekly schedules.
+- **Curriculum** holds four independent, anonymous grade-specific tracks; learner work and schedules belong in private storage.
 - **Teachers** hold dashboards, planning tools, and reusable AI assistant prompts.
 
 This is deliberately **teacher-driven and AI-assisted**.
@@ -60,35 +48,37 @@ This is deliberately **teacher-driven and AI-assisted**.
 
 The larger system framing comes from the OpenTutor white paper in the Vibe project. Inside this repo, the closest curriculum-level graphic is the learning-center mind map.
 
-![OpenTutor curriculum mind map](./teachers/sites/mind-map/image.png)
 
 Useful entry points:
 
 - [OpenTutor Manifesto](./site/index.html) · [preview and deployment instructions](./site/README.md)
 
-- [Weekly Timeline Dashboard](./teachers/sites/index.html)
-- [Curriculum Mind Map](./teachers/sites/mind-map/index.html)
+- [Faculty Planning Dashboard](./teachers/sites/index.html)
+
 - [AI Teaching Team](./teachers/ai-assistants/agents.md)
 - [Teacher Tools](./teachers/tools/README.md)
 - [Assignments Index](./assignments/README.md)
 - [Resources Index](./resources/README.md)
+- [Grade-Based Curriculum & Blank Assessments](./curriculum/README.md)
+- [Content Privacy, Quality & Hosting Review](./docs/content-review.md)
+- [Using the Independent Grade Tracks](./docs/teaching-library-usage.md)
 
 ## Daily Workflow
 
 OpenTutor is built around a repeatable teacher workflow rather than a locked product flow:
 
-1. **Plan the week**
-   Define goals, edit `schedule.csv`, choose assignments, and decide what resources matter now.
+1. **Choose one grade track**
+   Select materials from exactly one grade directory and keep personalized plans private.
 2. **Stage the materials**
    Pull from `resources/`, create or revise assignments, and add links, datasets, or guides students will need.
-3. **Run the day**
-   Students open their workspace, check the schedule, complete work in subject folders, and ask for help when blocked.
+3. **Assign privately**
+   Copy the selected blank task into a private workspace for one learner.
 4. **Review and respond**
    Teachers give feedback, adjust pacing, add follow-up work, and refine the next set of tasks.
-5. **Build the portfolio**
-   Student output stays in folders and commits, creating a visible academic record over time.
+5. **Protect records**
+   Keep learner work and progress out of the public repository.
 
-If you use Vibe, Discord becomes the live help desk. If you do not, this repo still works as a structured homeschool system on its own.
+The content library works independently of any tutor or classroom platform.
 
 ## Quick Start
 
@@ -101,37 +91,24 @@ cd open-tutor
 
 ### 2. Set up the core accounts
 
-Each participant should have:
+For local adaptation, educators need:
 
 - a GitHub account: <https://github.com/signup>
 - a code editor, preferably VS Code: <https://code.visualstudio.com/Download>
-- a Discord account if you plan to use the Vibe tutor: <https://discord.com>
+- an optional, school-approved learning platform if using AI tutoring
 
-### 3. Create a student workspace
+### 3. Choose one grade track
 
 ```bash
-cp -r students/student-template students/your-student-name
+open curriculum/grade-4/README.md  # or grade-5, grade-7, grade-8
 ```
 
-Then update the copied workspace:
-
-- replace `[STUDENT_NAME]` in the student's `README.md`
-- rename `grade-N/` to the actual grade
-- adjust subject folders to match that student's program
-- edit `students/<name>/schedule.csv` with the week's work
-
-Example schedule row:
-
-```csv
-Week,Study Area,Task,Status
-"September 6, 2026",Math,Complete weekly math practice,Pending
-```
+Select work only from the chosen grade directory. Keep real learner names, schedules, submissions, grades, and progress in private storage. Never combine grade tracks in a shared assignment.
 
 ### 4. Open the dashboards
 
-- [Weekly Timeline Dashboard](./teachers/sites/index.html)
-- [Curriculum Mind Map](./teachers/sites/mind-map/index.html)
-- [Student Sprint Board](./students/sprint.html)
+- [Faculty Planning Dashboard](./teachers/sites/index.html)
+
 
 ## Repository Structure
 
@@ -139,7 +116,9 @@ Week,Study Area,Task,Status
 open-tutor/
 ├── assignments/          shared assignments, projects, and interactives
 ├── resources/            reference guides, study docs, and datasets
-├── students/             one workspace per student
+├── curriculum/           four independent grade tracks
+├── students/student-template/ anonymous workspace starter
+├── docs/                  privacy and teaching guides
 ├── teachers/
 │   ├── ai-assistants/    reusable prompts for planning, tutoring, grading
 │   ├── reports/          generated report materials
@@ -148,30 +127,9 @@ open-tutor/
 └── .github/workflows/    optional hosting automation
 ```
 
-### Student Workspace Model
+### Independent Grade Tracks
 
-Each student gets a durable workspace that can accumulate real work over time:
-
-```text
-students/student-name/
-  grade-5/
-    math/
-    stem/
-    language-arts/
-    social-studies/
-  schedule.csv
-  README.md
-```
-
-This repo structure is meant to produce actual artifacts:
-
-- essays
-- worksheets
-- lab reports
-- presentations
-- code projects
-- research notes
-- portfolio pieces
+Choose one grade-specific directory in `curriculum/`. The public repository contains blank instructional content, not student names, completed work, schedules, grades, or sibling comparisons. Use private, access-controlled storage for learner records.
 
 ## Teacher Workflow
 
@@ -192,14 +150,14 @@ OpenTutor is not trying to replace the teacher. It is trying to give the teacher
 
 This repo includes a reusable prompt library for running the program with any major AI assistant.
 
-| Agent | File | Primary use |
+| Assistant | File | Primary use |
 |---|---|---|
-| Curriculum Creator | [curriculum_creator.md](./teachers/ai-assistants/curriculum_creator.md) | Design units, projects, and prompts |
-| Lesson Planner | [lesson_planner.md](./teachers/ai-assistants/lesson_planner.md) | Turn goals into daily and weekly tasks |
-| Teacher's Aide | [teachers_aide.md](./teachers/ai-assistants/teachers_aide.md) | Unblock students without giving answers |
-| Subject Tutor | [subject_tutor.md](./teachers/ai-assistants/subject_tutor.md) | Explain new topics clearly and step by step |
-| Assessment Grader | [assessment_grader.md](./teachers/ai-assistants/assessment_grader.md) | Grade work against a rubric |
-| Report Card Generator | [report_card_generator.md](./teachers/ai-assistants/report_card_generator.md) | Turn work into progress reports |
+| Curriculum Creator | [curriculum_creator.md](./teachers/ai-assistants/curriculum_creator.md) | Draft one grade-specific unit at a time |
+| Lesson Planner | [lesson_planner.md](./teachers/ai-assistants/lesson_planner.md) | Plan for an individual learner privately |
+| Teacher's Aide | [teachers_aide.md](./teachers/ai-assistants/teachers_aide.md) | Support an individual learner without giving answers |
+| Subject Tutor | [subject_tutor.md](./teachers/ai-assistants/subject_tutor.md) | Explain topics clearly and step by step |
+| Assessment Grader | [assessment_grader.md](./teachers/ai-assistants/assessment_grader.md) | Review individual work against a rubric |
+| Report Card Generator | [report_card_generator.md](./teachers/ai-assistants/report_card_generator.md) | Prepare private reports from authorized records |
 | Resource Finder | [resource_finder.md](./teachers/ai-assistants/resource_finder.md) | Curate age-appropriate videos and references |
 
 Full directory: [teachers/ai-assistants/agents.md](./teachers/ai-assistants/agents.md)
@@ -226,25 +184,11 @@ The `assignments/` folder holds the work students actually do.
 
 Start here: [assignments/README.md](./assignments/README.md)
 
-## Optional Discord Tutor Layer
-
-If you want live tutor support inside a classroom server, use the companion Vibe repo:
-
-- Vibe repo: <https://github.com/murderszn/vibe>
-- Project site / white paper: <https://discord-vibe-bot.vercel.app>
-
-Vibe is designed to operate as:
-
-- a tutor for students
-- an assistant for teachers
-- an admin-gated helper for the Discord server
-
-That means OpenTutor can stay focused on content and workflow while Vibe handles real-time help inside Discord.
 
 ## Privacy and Safety
 
-- Use first names only in student folders and content.
-- Keep sensitive student records in a private fork or private repository.
+- Do not store real learner work, grades, names, or schedules in this public repository.
+- Use private, access-controlled storage for individually identifiable records.
 - Do not commit secrets, `.env` files, or real PII.
 - Keep adult review in the loop when using AI-generated materials.
 - Treat AI output as draft support, not automatic truth.
@@ -268,4 +212,4 @@ Firebase hosting is also preconfigured in `.github/workflows/firebase-hosting.ym
 
 ## Summary
 
-OpenTutor is the curriculum and workflow repo in a larger parent-operated learning system. It gives teachers and families a structured way to organize resources, design assignments, manage schedules, and preserve student work, while optionally connecting to Vibe for live AI tutoring inside Discord.
+OpenTutor is a public library of educational resources and four independent, anonymous grade tracks. Personalized schedules, grades, and learner work belong in private, access-controlled storage.

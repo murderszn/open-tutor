@@ -46,7 +46,6 @@ Use this roadmap to cover core physical sciences with light chemistry, biology/a
 
 ## 📗 Foundational Track (Catch‑Up)
 
-### Module List (same topics at lighter depth)
 1) Measurement & Units
 - Metric system basics (meter, liter, gram) and common prefixes.
 - Simple US↔metric conversions using resources/weights_and_measures.md.
@@ -82,7 +81,7 @@ Submit: place completed lab reports under your STEM folder (e.g., students/[name
 
 ---
 
-## ✅ Parent Evaluation Checklist (per module)
+## ✅ instructor evaluation checklist (per module)
 - Notes capture key ideas and vocabulary (clear, in student’s own words).
 - Lab chosen is appropriate and safely executed; data recorded.
 - Calculations (if any) are shown and units labeled.

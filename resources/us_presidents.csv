@@ -1,0 +1,48 @@
+presidency_number,president_name,term_start,term_end,status,party,home_state,days_in_office_approx,years_in_office_approx,fact,google_maps_url
+1,George Washington,1789-04-30,1797-03-04,completed,None,Virginia,2865,7.84,George Washington served as the 1st U.S. presidency.,https://www.google.com/maps/place/Virginia
+2,John Adams,1797-03-04,1801-03-04,completed,Federalist,Massachusetts,1460,4.0,John Adams served as the 2nd U.S. presidency.,https://www.google.com/maps/place/Massachusetts
+3,Thomas Jefferson,1801-03-04,1809-03-04,completed,Democratic-Republican,Virginia,2922,8.0,Thomas Jefferson served as the 3rd U.S. presidency.,https://www.google.com/maps/place/Virginia
+4,James Madison,1809-03-04,1817-03-04,completed,Democratic-Republican,Virginia,2922,8.0,James Madison served as the 4th U.S. presidency.,https://www.google.com/maps/place/Virginia
+5,James Monroe,1817-03-04,1825-03-04,completed,Democratic-Republican,Virginia,2922,8.0,James Monroe served as the 5th U.S. presidency.,https://www.google.com/maps/place/Virginia
+6,John Quincy Adams,1825-03-04,1829-03-04,completed,Democratic-Republican,Massachusetts,1461,4.0,John Quincy Adams served as the 6th U.S. presidency.,https://www.google.com/maps/place/Massachusetts
+7,Andrew Jackson,1829-03-04,1837-03-04,completed,Democratic,Tennessee,2922,8.0,Andrew Jackson served as the 7th U.S. presidency.,https://www.google.com/maps/place/Tennessee
+8,Martin Van Buren,1837-03-04,1841-03-04,completed,Democratic,New York,1461,4.0,Martin Van Buren served as the 8th U.S. presidency.,https://www.google.com/maps/place/New%20York
+9,William Henry Harrison,1841-03-04,1841-04-04,completed,Whig,Ohio,31,0.08,William Henry Harrison served as the 9th U.S. presidency.,https://www.google.com/maps/place/Ohio
+10,John Tyler,1841-04-04,1845-03-04,completed,Whig,Virginia,1430,3.92,John Tyler served as the 10th U.S. presidency.,https://www.google.com/maps/place/Virginia
+11,James K. Polk,1845-03-04,1849-03-04,completed,Democratic,Tennessee,1461,4.0,James K. Polk served as the 11th U.S. presidency.,https://www.google.com/maps/place/Tennessee
+12,Zachary Taylor,1849-03-04,1850-07-09,completed,Whig,Louisiana,492,1.35,Zachary Taylor served as the 12th U.S. presidency.,https://www.google.com/maps/place/Louisiana
+13,Millard Fillmore,1850-07-09,1853-03-04,completed,Whig,New York,969,2.65,Millard Fillmore served as the 13th U.S. presidency.,https://www.google.com/maps/place/New%20York
+14,Franklin Pierce,1853-03-04,1857-03-04,completed,Democratic,New Hampshire,1461,4.0,Franklin Pierce served as the 14th U.S. presidency.,https://www.google.com/maps/place/New%20Hampshire
+15,James Buchanan,1857-03-04,1861-03-04,completed,Democratic,Pennsylvania,1461,4.0,James Buchanan served as the 15th U.S. presidency.,https://www.google.com/maps/place/Pennsylvania
+16,Abraham Lincoln,1861-03-04,1865-04-15,completed,Republican,Illinois,1503,4.11,Abraham Lincoln served as the 16th U.S. presidency.,https://www.google.com/maps/place/Illinois
+17,Andrew Johnson,1865-04-15,1869-03-04,completed,National Union,Tennessee,1419,3.89,Andrew Johnson served as the 17th U.S. presidency.,https://www.google.com/maps/place/Tennessee
+18,Ulysses S. Grant,1869-03-04,1877-03-04,completed,Republican,Illinois,2922,8.0,Ulysses S. Grant served as the 18th U.S. presidency.,https://www.google.com/maps/place/Illinois
+19,Rutherford B. Hayes,1877-03-04,1881-03-04,completed,Republican,Ohio,1461,4.0,Rutherford B. Hayes served as the 19th U.S. presidency.,https://www.google.com/maps/place/Ohio
+20,James A. Garfield,1881-03-04,1881-09-19,completed,Republican,Ohio,199,0.54,James A. Garfield served as the 20th U.S. presidency.,https://www.google.com/maps/place/Ohio
+21,Chester A. Arthur,1881-09-19,1885-03-04,completed,Republican,New York,1262,3.46,Chester A. Arthur served as the 21st U.S. presidency.,https://www.google.com/maps/place/New%20York
+22,Grover Cleveland,1885-03-04,1889-03-04,completed,Democratic,New York,1461,4.0,Grover Cleveland served as the 22nd U.S. presidency.,https://www.google.com/maps/place/New%20York
+23,Benjamin Harrison,1889-03-04,1893-03-04,completed,Republican,Indiana,1461,4.0,Benjamin Harrison served as the 23rd U.S. presidency.,https://www.google.com/maps/place/Indiana
+24,Grover Cleveland,1893-03-04,1897-03-04,completed,Democratic,New York,1461,4.0,Grover Cleveland served as the 24th U.S. presidency.,https://www.google.com/maps/place/New%20York
+25,William McKinley,1897-03-04,1901-09-14,completed,Republican,Ohio,1654,4.53,William McKinley served as the 25th U.S. presidency.,https://www.google.com/maps/place/Ohio
+26,Theodore Roosevelt,1901-09-14,1909-03-04,completed,Republican,New York,2728,7.47,Theodore Roosevelt served as the 26th U.S. presidency.,https://www.google.com/maps/place/New%20York
+27,William Howard Taft,1909-03-04,1913-03-04,completed,Republican,Ohio,1461,4.0,William Howard Taft served as the 27th U.S. presidency.,https://www.google.com/maps/place/Ohio
+28,Woodrow Wilson,1913-03-04,1921-03-04,completed,Democratic,New Jersey,2922,8.0,Woodrow Wilson served as the 28th U.S. presidency.,https://www.google.com/maps/place/New%20Jersey
+29,Warren G. Harding,1921-03-04,1923-08-02,completed,Republican,Ohio,881,2.41,Warren G. Harding served as the 29th U.S. presidency.,https://www.google.com/maps/place/Ohio
+30,Calvin Coolidge,1923-08-02,1929-03-04,completed,Republican,Massachusetts,2041,5.59,Calvin Coolidge served as the 30th U.S. presidency.,https://www.google.com/maps/place/Massachusetts
+31,Herbert Hoover,1929-03-04,1933-03-04,completed,Republican,Iowa,1461,4.0,Herbert Hoover served as the 31st U.S. presidency.,https://www.google.com/maps/place/Iowa
+32,Franklin D. Roosevelt,1933-03-04,1945-04-12,completed,Democratic,New York,4422,12.11,Franklin D. Roosevelt served as the 32nd U.S. presidency.,https://www.google.com/maps/place/New%20York
+33,Harry S. Truman,1945-04-12,1953-01-20,completed,Democratic,Missouri,2840,7.78,Harry S. Truman served as the 33rd U.S. presidency.,https://www.google.com/maps/place/Missouri
+34,Dwight D. Eisenhower,1953-01-20,1961-01-20,completed,Republican,Kansas,2922,8.0,Dwight D. Eisenhower served as the 34th U.S. presidency.,https://www.google.com/maps/place/Kansas
+35,John F. Kennedy,1961-01-20,1963-11-22,completed,Democratic,Massachusetts,1036,2.84,John F. Kennedy served as the 35th U.S. presidency.,https://www.google.com/maps/place/Massachusetts
+36,Lyndon B. Johnson,1963-11-22,1969-01-20,completed,Democratic,Texas,1886,5.16,Lyndon B. Johnson served as the 36th U.S. presidency.,https://www.google.com/maps/place/Texas
+37,Richard Nixon,1969-01-20,1974-08-09,completed,Republican,California,2027,5.55,Richard Nixon served as the 37th U.S. presidency.,https://www.google.com/maps/place/California
+38,Gerald Ford,1974-08-09,1977-01-20,completed,Republican,Michigan,895,2.45,Gerald Ford served as the 38th U.S. presidency.,https://www.google.com/maps/place/Michigan
+39,Jimmy Carter,1977-01-20,1981-01-20,completed,Democratic,Georgia,1461,4.0,Jimmy Carter served as the 39th U.S. presidency.,https://www.google.com/maps/place/Georgia
+40,Ronald Reagan,1981-01-20,1989-01-20,completed,Republican,California,2922,8.0,Ronald Reagan served as the 40th U.S. presidency.,https://www.google.com/maps/place/California
+41,George H. W. Bush,1989-01-20,1993-01-20,completed,Republican,Texas,1461,4.0,George H. W. Bush served as the 41st U.S. presidency.,https://www.google.com/maps/place/Texas
+42,Bill Clinton,1993-01-20,2001-01-20,completed,Democratic,Arkansas,2922,8.0,Bill Clinton served as the 42nd U.S. presidency.,https://www.google.com/maps/place/Arkansas
+43,George W. Bush,2001-01-20,2009-01-20,completed,Republican,Texas,2922,8.0,George W. Bush served as the 43rd U.S. presidency.,https://www.google.com/maps/place/Texas
+44,Barack Obama,2009-01-20,2017-01-20,completed,Democratic,Illinois,2922,8.0,Barack Obama served as the 44th U.S. presidency.,https://www.google.com/maps/place/Illinois
+45,Donald Trump,2017-01-20,2021-01-20,completed,Republican,Florida,1461,4.0,Donald Trump served as the 45th U.S. presidency.,https://www.google.com/maps/place/Florida
+46,Joe Biden,2021-01-20,2025-01-20,completed,Democratic,Delaware,1461,4.0,Joe Biden served as the 46th U.S. presidency.,https://www.google.com/maps/place/Delaware
+47,Donald Trump,2025-01-20,present,in_office,Republican,Florida,460,1.26,Donald Trump served as the 47th U.S. presidency.,https://www.google.com/maps/place/Florida

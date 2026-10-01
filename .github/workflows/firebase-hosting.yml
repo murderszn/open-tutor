@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   deploy_live:
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' && vars.FIREBASE_PROJECT_ID != ''
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -27,11 +27,11 @@ jobs:
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          projectId: jfd-learning-center
+          projectId: ${{ vars.FIREBASE_PROJECT_ID }}
           channelId: live
 
   deploy_preview:
-    if: github.event_name == 'pull_request'
+    if: github.event_name == 'pull_request' && vars.FIREBASE_PROJECT_ID != ''
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -41,6 +41,6 @@ jobs:
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          projectId: jfd-learning-center
+          projectId: ${{ vars.FIREBASE_PROJECT_ID }}
           expires: 7d
 

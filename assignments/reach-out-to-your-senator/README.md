@@ -1,6 +1,6 @@
-# 🇺🇸 Assignment: Reach Out to Your Senator (Illinois)
+# 🇺🇸 Assignment: Reach Out to Your Senator ([Your State])
 
-Speak up as an informed, respectful constituent. You will contact one or both current U.S. Senators from Illinois to either express appreciation or share a constructive concern (grievance) about an issue that matters to you.
+Speak up as an informed, respectful constituent. You will contact one or both current U.S. Senators from [Your State] to either express appreciation or share a constructive concern (grievance) about an issue that matters to you.
 
 ---
 
@@ -38,7 +38,7 @@ Speak up as an informed, respectful constituent. You will contact one or both cu
 
 ---
 
-## 🔗 Illinois Senators — Official Sites & Contact
+## 🔗 [Your State] Senators — Official Sites & Contact
 - Sen. Dick Durbin
   - Website: https://www.durbin.senate.gov/
   - Contact: https://www.durbin.senate.gov/contact
@@ -65,9 +65,9 @@ Office addresses and phone numbers are listed on each Senator’s “Contact” 
 - Be respectful and specific: “I’m a constituent from [City, ZIP]. I appreciate/concerned about …”
 - One clear point: appreciation or a single, focused ask.
 - Use 1–2 relevant facts or a short personal story.
-- Close with thanks and your first name (parents may add last name if they choose).
+- Close with thanks and an instructor-approved signature; keep real contact information out of public repositories.
 
-Younger students (elementary):
+Kid‑Friendly (Grade 5):
 - Say thank you or explain your problem in 3–5 short sentences.
 - Tell where you live (city/ZIP). Be polite. Ask for one thing.
 
