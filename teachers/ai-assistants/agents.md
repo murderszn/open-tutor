@@ -34,6 +34,8 @@ Welcome to the AI Teaching Team directory! This folder contains specialized syst
   - [UN Countries (CSV)](../../resources/un_countries.csv)
   - [UN Countries (JSON)](../../resources/un_countries.json)
 - Indexes & Dashboards
+  - [K–12 Curriculum Expansion Plan and Issue Backlog](../../docs/curriculum-expansion/README.md)
+  - [Curriculum Unit Requirements](../../docs/curriculum-expansion/unit-requirements.md)
   - [Resources Index](../../resources/README.md)
   - [Assignments Index](../../assignments/README.md)
   - [Weekly Timeline Dashboard](../sites/index.html)
@@ -64,6 +66,9 @@ Turns student work into report cards, charts, and a performance matrix. Computes
 
 ### 7. [Resource Finder & Video Curator](resource_finder.md)
 Given an assignment and grade level, proposes targeted search queries and returns a curated set of YouTube videos and reputable online references. Follows kid-safe curation rules.
+
+### 8. [Curriculum Worker — One Section per Run](curriculum-worker.md)
+Works through structured GitHub issues to expand Kindergarten–Grade 12 math, science, language arts, and social studies. Each invocation delivers one audit, instructional unit, or review section with worked examples, exercises, separate answer keys, verified resources, and generated teaching images. See the [expansion plan](../../docs/curriculum-expansion/README.md) for backlog links and the intended every-three-hour schedule; scheduling must be activated separately.
 
 ---
 

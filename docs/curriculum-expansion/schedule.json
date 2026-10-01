@@ -1,0 +1,15 @@
+{
+  "format_version": 1,
+  "task_name": "opentutor-curriculum-worker",
+  "activation_status": "not-created",
+  "enabled": false,
+  "reason": "No scheduled-task creation tool was exposed in the setup session; Codex UI access was blocked.",
+  "repository": "murderszn/open-tutor",
+  "local_project": "/Users/jahflyx/opentutor",
+  "execution_mode": "isolated-worktree",
+  "timezone": "America/Chicago",
+  "rrule": "RRULE:FREQ=HOURLY;INTERVAL=3",
+  "model": "use-current-project-default",
+  "max_sections_per_run": 1,
+  "prompt": "Work in the murderszn/open-tutor repository associated with /Users/jahflyx/opentutor, using the supplied isolated worktree when present. Read AGENTS.md and teachers/ai-assistants/curriculum-worker.md, then follow that worker prompt and docs/curriculum-expansion/README.md. Fetch the open curriculum-queue GitHub issues and their comments/PRs. Deliver exactly one eligible section: a track audit, a complete unit, or a dependency-eligible review. Use verified existing resources, write full Markdown explanations and worked examples/exercises with separate teacher keys, generate and inspect the required teaching image, validate links/content, and publish or update a scoped draft PR with an issue progress comment. Leave incomplete sections unchecked. Preserve other edits and keep all learner records private. Stop after one section and report issue, PR, assets, validation, blockers, and next action."
+}
