@@ -18,7 +18,7 @@ The [expansion plan and structured GitHub backlog](../docs/curriculum-expansion/
 Current placeholder grade hubs:
 
 - [Kindergarten](grade-k/README.md) — math track audit/scope-and-sequence delivered as draft (units not yet written); other subjects still placeholder
-- [Grade 1](grade-1/README.md)
+- [Grade 1](grade-1/README.md) — language arts track audit/scope-and-sequence delivered as draft (math audit likewise in draft; units not yet written); other subjects still placeholder
 - [Grade 2](grade-2/README.md)
 - [Grade 3](grade-3/README.md)
 - [Grade 6](grade-6/README.md)
