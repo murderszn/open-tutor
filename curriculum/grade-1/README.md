@@ -2,10 +2,10 @@
 
 This folder is an anonymous, grade-specific track in the public OpenTutor curriculum library.
 
-**Contents:** The [language arts track](language-arts/README.md) audit and
-scope-and-sequence are delivered as a validated draft (units not yet written);
-the math track audit is likewise in draft (unmerged); other subjects still
-placeholder.
+**Contents:** The [language arts track](language-arts/README.md) and
+[social studies track](social-studies/README.md) audits and scope-and-sequences
+are delivered as validated drafts (units not yet written); the math track audit
+is likewise in draft (unmerged); the science track is still placeholder.
 
 **Do not refer learners to other grade tracks.** Each track is self-contained.
 
