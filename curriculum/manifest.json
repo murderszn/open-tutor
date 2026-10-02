@@ -1576,6 +1576,62 @@
     {
       "path": "grade-k/math/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-01-touch-and-count-to-5.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-02-sorting-by-color-and-size.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-03-counting-to-10-how-many.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-04-count-out-a-requested-number.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-05-sort-groups-and-compare-counts.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assets/README.md",
+      "kind": "assets"
     }
   ],
   "counts_by_kind": {
@@ -1584,10 +1640,19 @@
     "subject-index": 22,
     "new-assignment": 31,
     "assignment": 91,
-    "quiz": 227,
+    "quiz": 228,
     "template": 14,
     "hints": 2,
-    "rhythm": 2
+    "rhythm": 2,
+    "unit-index": 1,
+    "lesson": 5,
+    "practice": 1,
+    "project": 1,
+    "resource-pack": 1,
+    "assessment": 1,
+    "teacher-guide": 1,
+    "answer-key": 1,
+    "assets": 1
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
