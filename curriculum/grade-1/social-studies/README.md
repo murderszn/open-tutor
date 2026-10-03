@@ -102,3 +102,7 @@ personal or family timelines are kept in private storage, never in this public
 repository. All read-alouds and figure stories are vetted by the adult for age
 suitability and advertising-free access, and every unit will ship with its own
 teacher guide and answer key.
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.
