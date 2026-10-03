@@ -4,21 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>OpenTutor — A manifesto for visible learning</title>
-<meta name="description" content="An educator-supervised, privacy-conscious library for independent grade-specific curriculum and AI-assisted learning.">
+<meta name="description" content="Parent-led K–8 teaching library with independent grade tracks; coverage varies by grade, with optional AI tutoring.">
 <meta name="author" content="OpenTutor contributors">
+<link rel="canonical" href="https://discord-vibe-bot.vercel.app/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="OpenTutor — A manifesto for visible learning">
-<meta property="og:description" content="A parent-led learning system with an open curriculum, an AI tutor, and a visible record of growth.">
-<meta property="og:image:alt" content="An abstract learning atlas in orange, yellow, periwinkle, and navy, with topographic contours and school geometry.">
+<meta property="og:description" content="A parent-led K–8 teaching library with grade-specific curriculum tracks and optional AI tutoring. Coverage varies by grade.">
+<meta property="og:image" content="https://discord-vibe-bot.vercel.app/assets/academy-of-knowledge-stipple.webp">
+<meta property="og:image:alt" content="A detailed stipple ink academy connecting gardens, laboratories, astronomy, mathematics, economics, and art.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#ff00b7">
+<meta name="theme-color" content="#b2f522">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800;900&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='4' fill='%23ffffff'/%3E%3Cpath d='M8 10h24v5H8zm0 9h17v5H8zm0 9h24v5H8z' fill='black'/%3E%3C/svg%3E">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="preload" href="assets/instrument-serif.ttf" as="font" type="font/ttf" crossorigin>
-<link rel="preload" href="assets/solar-stipple-atlas.webp" as="image" type="image/webp">
-<link rel="stylesheet" href="manifesto.css?v=28">
+<link rel="preload" href="assets/academy-of-knowledge-stipple.webp" as="image" type="image/webp">
+<link rel="stylesheet" href="manifesto.css?v=20261002">
 </head>
 <body>
 <a class="skip" href="#thesis">Skip to manifesto</a>
@@ -26,19 +28,28 @@
 <a class="wordmark" href="#top" aria-label="OpenTutor home"><img class="micro" src="assets/micro/m16-ot-mark.png" alt="" width="144" height="144">OpenTutor</a>
 <nav class="header-links" aria-label="Main navigation">
 <a href="#thesis"><span>01</span>Manifesto</a>
-<a href="#vibe"><span>02</span>Vibe</a>
-<a href="#setup"><span>03</span>Setup</a>
-<a href="https://github.com/murderszn/open-tutor"><span>04</span>Source</a>
+<a href="#compare"><span>02</span>Difference</a>
+<a href="#vibe"><span>03</span>Tutor</a>
+<a href="#repo"><span>04</span>Record</a>
+<a href="#curriculum"><span>05</span>Curriculum</a>
+<a href="#setup"><span>06</span>Setup</a>
+<a href="#day"><span>07</span>A day</a>
+<a href="#faq"><span>08</span>Oversight</a>
+<a href="#support"><span>09</span>In the open</a>
 </nav>
 </div></header>
 
 <main id="top">
 <div class="hero"><div class="w">
 <div class="hero-composition">
-<span class="hero-vertical" aria-hidden="true">OpenTutor</span>
-<img class="hero-register micro" src="assets/micro/m02-crosshair.png" alt="" width="144" height="144">
+<span class="hero-vertical" aria-hidden="true"><img class="micro" src="assets/micro/m16-ot-mark.png" alt="" width="144" height="144">OpenTutor</span>
 <div class="hero-copy">
 <h1><span class="hero-line">AI can tutor.</span><span class="hero-line offset-line">Can you see</span><span class="hero-question">what it taught?</span></h1>
+<div class="hero-specimens" aria-hidden="true">
+<div><svg viewBox="0 0 160 48" fill="none"><path d="M8 38H152M8 8V38M8 30L40 27L72 32L104 17L136 8" stroke="currentColor"/><circle cx="40" cy="27" r="3" fill="currentColor"/><circle cx="72" cy="32" r="3" fill="currentColor"/><circle cx="104" cy="17" r="3" fill="currentColor"/><circle cx="136" cy="8" r="3" fill="currentColor"/></svg><span>01 Think</span></div>
+<div><svg viewBox="0 0 160 48" fill="none"><rect x="12" y="10" width="136" height="28" stroke="currentColor"/><path d="M35 10V38M58 10V38M80 10V38M103 10V38M125 10V38" stroke="currentColor"/><path d="M13 11H79V37H13Z" fill="currentColor" opacity=".8"/></svg><span>02 Try</span></div>
+<div><svg viewBox="0 0 160 48" fill="none"><path d="M18 24H142M56 24V10H92M100 24V38H130" stroke="currentColor"/><circle cx="18" cy="24" r="4" fill="currentColor"/><circle cx="56" cy="24" r="4" fill="currentColor"/><circle cx="92" cy="10" r="4" stroke="currentColor"/><circle cx="100" cy="24" r="4" fill="currentColor"/><circle cx="130" cy="38" r="4" stroke="currentColor"/><circle cx="142" cy="24" r="4" fill="currentColor"/></svg><span>03 Keep</span></div>
+</div>
 </div>
 </div>
 <div class="hero-atlas">
@@ -48,183 +59,302 @@
 </div>
 <a class="atlas-entry" href="#thesis"><img class="micro atlas-ot" src="assets/micro/m16-ot-mark.png" alt="" width="144" height="144"><span>Read the manifesto<img class="micro" src="assets/micro/m13-arrow-down.png" alt="" width="144" height="144"></span></a>
 </div>
-<div class="hero-welcome"><p><strong>Here from Reddit or Hacker News?</strong> Thanks for stopping by.<br>We’d love to work with you.</p><a href="#support">Build with us<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a><button class="atlas-motion" type="button" aria-label="Pause background animation" aria-pressed="false" hidden><span aria-hidden="true">Ⅱ</span></button></div>
+<div class="hero-welcome"><p><strong>Here from Reddit or Hacker News?</strong> Thanks for stopping by.<br>We’d love to work with you.</p><a href="#support">Build with us<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
 </div></div>
 
-<div class="sectors" role="navigation" aria-label="Section index">
-<div class="w sectors-row">
-<a href="#thesis"><span>01</span>Thesis</a>
-<a href="#compare"><span>02</span>Difference</a>
-<a href="#vibe"><span>03</span>Tutor</a>
-<a href="#repo"><span>04</span>Record</a>
-<a href="#setup"><span>05</span>Setup</a>
-<a href="#day"><span>06</span>Day</a>
-<a href="#faq"><span>07</span>Guardrails</a>
-<a href="#support"><span>08</span>Open</a>
-</div>
-</div>
-
 <section id="thesis"><div class="section-art" aria-hidden="true"></div><div class="w">
-<p class="mono section-kicker"><img class="micro" src="assets/micro/m17-num-01.png" alt="01" width="144" height="144">THE THESIS</p>
-<h2>A supervised learning<br>operating system.</h2>
-<div class="col">
-<p class="big">Home education needs one place where <strong>curriculum, conversation, tutoring, and student work</strong> all stay in view.</p>
-<p>OpenTutor is a working white paper for AI-assisted, educator-supervised learning. A version-controlled library can hold the curriculum; schools and families choose suitable classroom tools and set clear guardrails.</p>
-</div>
+<p class="mono section-kicker"><img class="micro" src="assets/micro/m17-num-01.png" alt="" width="144" height="144"><span class="sr-only">01 / </span>THE MANIFESTO</p>
+<h2>Learning you can<br>stay close to.</h2>
+<div class="col section-lede"><p>You choose what your child learns, set the pace, and review their work. OpenTutor brings the lessons, tutoring, and saved work together so you can see what is happening.</p></div>
+<div class="cols academy-intro"><div class="col">
+<p class="big">One place for <strong>lessons, questions, and the work your child makes.</strong></p>
+<p><strong>GitHub keeps the files and their history. Discord holds classroom conversations. Vibe helps explain the lessons.</strong> The parent chooses the work and makes the decisions.</p>
+</div><figure class="academy-figure"><div class="academy-crop academy-botany"><img src="assets/academy-of-knowledge-stipple.webp" alt="A stippled botanical greenhouse with students tending plants and roots visible beneath the garden." width="1536" height="1024" loading="lazy" decoding="async"></div><figcaption class="mono">01 / A place to explore</figcaption></figure></div>
 <div class="three">
-<div><div class="principle-mark" aria-hidden="true"><span>01 / OVERSIGHT</span></div><h3>Governance before automation</h3><p><strong>Parent oversight is a design requirement.</strong> It belongs in the system from the beginning.</p></div>
-<div><div class="principle-mark" aria-hidden="true"><span>02 / VISIBILITY</span></div><h3>Transparency by default</h3><p>Assignments, revisions, feedback, and progress live in open tools, not a proprietary dashboard.</p></div>
-<div><div class="principle-mark" aria-hidden="true"><span>03 / CONTINUITY</span></div><h3>Continuity of evidence</h3><p>Daily tutoring connects to a long-term portfolio that is easy to audit and support.</p></div>
+<div><div class="principle-mark" aria-hidden="true"><span>01 / OVERSIGHT</span></div><h3>You set the direction</h3><p><strong>You set the pace and learning goals.</strong> AI supports those choices; it does not make them for your child.</p></div>
+<div><div class="principle-mark" aria-hidden="true"><span>02 / VISIBILITY</span></div><h3>You can see the work</h3><p>Read the assignment, check the draft, and review the feedback in files you can open.</p></div>
+<div><div class="principle-mark" aria-hidden="true"><span>03 / CONTINUITY</span></div><h3>You keep the history</h3><p>Saved drafts and revisions become a portfolio you can return to as your child grows.</p></div>
 </div>
+<div class="col section-bridge"><p>What changes when you can follow the work?</p><a href="#compare">See the difference<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
 </div></section>
 
-<section id="compare" class="on-dark"><div class="w">
-<p class="mono section-kicker"><img class="micro" src="assets/micro/m18-num-02.png" alt="02" width="144" height="144">THE DIFFERENCE</p>
-<h2>Closed dashboard.<br>Open workflow.</h2>
-<div class="tw" tabindex="0" role="region" aria-label="Comparison of typical AI learning apps and OpenTutor"><table role="table">
-<thead><tr><th scope="col">Learning system</th><th class="n" scope="col">Typical AI learning apps</th><th class="o" scope="col">OpenTutor</th></tr></thead>
-<tbody role="rowgroup">
-<tr role="row"><th scope="row" role="rowheader">Where the work lives</th><td class="n" role="cell" data-label="Typical AI learning apps">Inside the vendor's dashboard.</td><td class="o" role="cell" data-label="OpenTutor">In a GitHub repo <strong>you own</strong>, with a full revision history.</td></tr>
-<tr role="row"><th scope="row" role="rowheader">Where help happens</th><td class="n" role="cell" data-label="Typical AI learning apps">In a separate chat window.</td><td class="o" role="cell" data-label="OpenTutor">In a teacher-approved learning space, next to assignments and lesson discussion.</td></tr>
-<tr role="row"><th scope="row" role="rowheader">Who is in charge</th><td class="n" role="cell" data-label="Typical AI learning apps">The product decides what the tutor does.</td><td class="o" role="cell" data-label="OpenTutor"><strong>The educator.</strong> Access, prompts, safeguards, and pacing are set by the responsible adults.</td></tr>
-<tr role="row"><th scope="row" role="rowheader">Can you inspect it</th><td class="n" role="cell" data-label="Typical AI learning apps">Rarely. Prompts and logic are hidden.</td><td class="o" role="cell" data-label="OpenTutor">Yes. Prompt files, skills, and bot code are <strong>visible and reviewable.</strong></td></tr>
-<tr role="row"><th scope="row" role="rowheader">Evidence of growth</th><td class="n" role="cell" data-label="Typical AI learning apps">Progress scores inside the app.</td><td class="o" role="cell" data-label="OpenTutor">A portfolio of commits, drafts, projects, and notes.</td></tr>
-<tr role="row"><th scope="row" role="rowheader">Best for</th><td class="n" role="cell" data-label="Typical AI learning apps">Families who want something turnkey.</td><td class="o" role="cell" data-label="OpenTutor">Parents and small programs comfortable operating their own tools.</td></tr>
-</tbody></table></div>
-
-<h2 style="margin-top:84px">Who it's for?</h2>
-<div class="rows">
-<div><h3>Homeschool families</h3><p>Primary. Parent-led families who want visible, reviewable AI-assisted instruction and a long-term record of growth.</p></div>
-<div><h3>Microschools and pods</h3><p>Secondary. Independent tutors and small programs coordinating several students on lightweight, open infrastructure.</p></div>
-<div><h3>Schools and institutions</h3><p>Emerging. Schools piloting supervised AI and portfolio-based documentation before wider adoption.</p></div>
+<section id="compare" class="on-dark"><div class="section-art" aria-hidden="true"></div><div class="w">
+<p class="mono section-kicker"><img class="micro" src="assets/micro/m18-num-02.png" alt="" width="144" height="144"><span class="sr-only">02 / </span>THE DIFFERENCE</p>
+<h2>A classroom<br>you can inspect.</h2>
+<div class="col section-lede"><p>Your files, the tutor's instructions, and the next learning step stay in view. Three things make that possible.</p></div>
+<div class="comparison-cards">
+<article><p class="mono">01 / THE WORK</p><h3>You own<br>the record.</h3><p>Lessons, drafts, and revisions live in a GitHub repo you manage. Open the work and see what changed.</p></article>
+<article><p class="mono">02 / THE HELP</p><h3>You can inspect<br>the tutor.</h3><p>Vibe's public repository includes its code and prompt files. Review the current instructions before use.</p></article>
+<article><p class="mono">03 / THE DIRECTION</p><h3>You set<br>the pace.</h3><p>Choose the assignments, review the attempts, and decide when to move on or spend more time.</p></article>
 </div>
+<div class="comparison-tradeoff"><h3>The tradeoff: you run the tools.</h3><p>Best for families and small learning groups ready to manage the files, any classroom tools they choose, and regular review.</p><a href="#setup">See the setup and costs<span aria-hidden="true">↗</span></a></div>
+<div class="col section-bridge"><p>What does that help look like during a lesson?</p><a href="#vibe">Meet the tutor<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
 </div></section>
 
-<section id="vibe"><div class="w">
-<p class="mono section-kicker"><img class="micro" src="assets/micro/m19-num-03.png" alt="03" width="144" height="144">THE TUTOR</p>
-<div class="tutor-intro">
-<h2>The tutor belongs<br>where class happens.</h2>
-<div class="col">
-<p>An optional AI tutor can respond in an approved learning space, use tools only when needed, and offer a clear next step.</p>
-<p>It supports learning through explanation, practice, and scaffolding without replacing an educator. Access to learner information must remain limited to authorized adults and systems.</p>
+<section id="vibe"><div class="section-art" aria-hidden="true"></div><div class="w">
+<p class="mono section-kicker"><img class="micro" src="assets/micro/m19-num-03.png" alt="" width="144" height="144"><span class="sr-only">03 / </span>THE TUTOR</p>
+<h2>Help, right where<br>class happens.</h2>
+<div class="col section-lede reading-surface"><p>Vibe can explain an idea or offer a hint. Younger learners work with you; eligible teens can ask in Discord.</p></div>
+<div class="cols academy-tutor">
+<figure class="academy-figure"><div class="academy-crop academy-astronomy"><img src="assets/academy-of-knowledge-stipple.webp" alt="Students studying planetary models and looking through a telescope in an illustrated observatory." width="1536" height="1024" loading="lazy" decoding="async"></div><figcaption class="mono">02 / Make room for questions</figcaption></figure>
+<div class="col reading-surface">
+<p>With the assignment or schedule you provide, Vibe can offer a hint, explanation, or next step. The learner still does the work, and you stay close to the conversation.</p>
 </div>
 </div>
-<div class="demo" role="group" aria-label="Interactive Vibe demo">
-<div class="bar"><span class="demo-channel"><img class="micro" src="assets/micro/m05-antenna.png" alt="" width="144" height="144">ILLUSTRATIVE EXCHANGE / #math-help</span><span class="sig">SIG <img src="assets/micro/m27-sig-3.png" alt="signal strong" width="288" height="144"> // SIMULATED</span></div>
-<div class="log" id="log" aria-live="polite" aria-atomic="true"><div class="m s"><b>Learner</b><span>@Vibe I don't get why 1/2 + 1/3 isn't 2/5.</span></div><div class="m v"><b>Vibe</b><span>Cut a pizza in halves, then in thirds. Can you add slices of different sizes? What would you change so every slice is the same size?</span></div></div>
-<div class="picks" id="picks"></div>
+<div class="demo" role="group" aria-label="Illustrative Vibe classroom examples">
+<div class="demo-heading"><p class="mono">A LOOK INSIDE THE CLASSROOM <span>Illustrative / not a live chat</span></p><h3>A hint. An attempt.<br>A way forward.</h3><p>See how a conversation can turn into something a parent can review.</p></div>
+<div class="demo-choices" id="picks" role="group" aria-label="Choose a classroom example"></div>
+<div class="demo-example" id="example-understand" data-example="Understand an idea">
+<div class="demo-conversation"><p class="mono demo-channel">01 / #math-help</p>
+<ol class="conversation">
+<li class="learner-message"><b><span class="speaker-mark" aria-hidden="true">L</span>Learner</b><p>I don't get why 1/2 + 1/3 isn't 2/5.</p></li>
+<li><b><span class="speaker-mark vibe-mark" aria-hidden="true">V</span>Vibe <span class="message-note">A hint</span></b><p>A half and a third are different-sized pieces. Split the same whole into six equal pieces. How many sixths make a half? How many make a third?</p></li>
+<li class="learner-message"><b><span class="speaker-mark" aria-hidden="true">L</span>Learner <span class="message-note">The attempt</span></b><p>Half is 3/6 and a third is 2/6. So it's 5/6. The pieces have to be the same size first.</p></li>
+<li><b><span class="speaker-mark vibe-mark" aria-hidden="true">V</span>Vibe <span class="message-note">The next step</span></b><p>Exactly. The denominator names the size of the pieces. Try 1/4 + 1/2, and explain which size you choose.</p></li>
+</ol></div>
+<aside class="demo-evidence" aria-label="Fraction model and learning takeaway"><p class="mono">THE LEARNER'S WORK</p><h4>Same whole.<br>Same-sized pieces.</h4>
+<div class="fraction-model" role="img" aria-label="One half is three sixths. One third is two sixths. Together they make five sixths.">
+<div class="fraction-row"><span>1/2</span><div class="fraction-strip"><i class="filled"></i><i class="filled"></i><i class="filled"></i><i></i><i></i><i></i></div><span>3/6</span></div>
+<div class="fraction-row"><span>1/3</span><div class="fraction-strip"><i class="filled"></i><i class="filled"></i><i></i><i></i><i></i><i></i></div><span>2/6</span></div>
+<div class="fraction-row fraction-total"><span>+</span><div class="fraction-strip"><i class="filled"></i><i class="filled"></i><i class="filled"></i><i class="filled"></i><i class="filled"></i><i></i></div><span>5/6</span></div>
+</div><div class="demo-takeaway"><p class="mono">WHAT A PARENT CAN CHECK</p><p>The learner explains <strong>why the pieces must match</strong>, then tries another problem.</p></div></aside>
 </div>
+<div class="demo-example" id="example-plan" data-example="Plan the work" hidden>
+<div class="demo-conversation"><p class="mono demo-channel">02 / #daily-plan</p><ol class="conversation">
+<li class="learner-message"><b><span class="speaker-mark" aria-hidden="true">L</span>Learner</b><p>What should we do on Monday?</p></li>
+<li><b><span class="speaker-mark vibe-mark" aria-hidden="true">V</span>Vibe <span class="message-note">Start with the plan</span></b><p>Open your schedule with your parent. Which assignment is due next, and which part would you like help breaking into steps?</p></li>
+<li class="learner-message"><b><span class="speaker-mark" aria-hidden="true">L</span>Learner</b><p>We chose the fractions assignment. I want to draw the pieces first, then write my explanation.</p></li>
+<li><b><span class="speaker-mark vibe-mark" aria-hidden="true">V</span>Vibe <span class="message-note">A manageable next step</span></b><p>Good plan. Draw two equal-sized wholes, divide both into sixths, and label the pieces. Show your parent before moving to the written explanation.</p></li>
+</ol></div><aside class="demo-evidence"><p class="mono">AN EXAMPLE WORK PLAN</p><h4>A clear start.<br>A place to check in.</h4><ol class="demo-plan"><li><span>01</span><div><strong>Choose together</strong><p>Parent and learner pick the assignment.</p></div></li><li><span>02</span><div><strong>Make a first attempt</strong><p>Draw and label the fraction model.</p></div></li><li><span>03</span><div><strong>Check in</strong><p>Review the drawing before writing.</p></div></li></ol><div class="demo-takeaway"><p class="mono">WHAT A PARENT CAN CHECK</p><p>The work has a <strong>specific first step</strong> and a review point the family agrees on.</p></div></aside>
+</div>
+<div class="demo-example" id="example-review" data-example="Review an explanation" hidden>
+<div class="demo-conversation"><p class="mono demo-channel">03 / #work-review</p><ol class="conversation">
+<li class="learner-message"><b><span class="speaker-mark" aria-hidden="true">L</span>Learner</b><p>My answer is 5/6. I wrote: “Add the tops and keep the bottom.” Is that enough?</p></li>
+<li><b><span class="speaker-mark vibe-mark" aria-hidden="true">V</span>Vibe <span class="message-note">Look at the reasoning</span></b><p>That describes the last step. What did you change before adding? Explain why 1/2 became 3/6 and 1/3 became 2/6.</p></li>
+<li class="learner-message"><b><span class="speaker-mark" aria-hidden="true">L</span>Learner</b><p>I split both wholes into sixths so every piece was the same size. Then I added three pieces and two pieces.</p></li>
+<li><b><span class="speaker-mark vibe-mark" aria-hidden="true">V</span>Vibe <span class="message-note">Make the revision visible</span></b><p>That explains your thinking. Put it beside your drawing, keep the first draft, and ask your parent to review the revision.</p></li>
+</ol></div><aside class="demo-evidence"><p class="mono">A REVISION TO KEEP</p><h4>More than<br>a right answer.</h4><div class="demo-revision"><p class="mono">FIRST DRAFT</p><p>“Add the tops and keep the bottom.”</p><p class="mono">REVISED EXPLANATION</p><p>“I made equal-sized sixths, then added three pieces and two pieces.”</p></div><div class="demo-takeaway"><p class="mono">WHAT A PARENT CAN CHECK</p><p>Compare both drafts to see <strong>how the explanation changed</strong>.</p></div></aside>
+</div>
+<p class="demo-footnote">Example conversations and work, not live student data. You decide what to save and review.</p>
+</div>
+<div class="col section-bridge"><p>A helpful conversation is only one part of learning. Keep the student's attempt and correction too.</p><a href="#repo">See where the work lives<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
 </div></section>
 
 
 <section id="repo" class="on-dark"><div class="section-art" aria-hidden="true"></div><div class="w">
-<p class="mono section-kicker"><img class="micro" src="assets/micro/m20-num-04.png" alt="04" width="144" height="144">THE RECORD</p>
-<h2>The work needs<br>a place to live.</h2>
-<div class="col"><p>Assignments, teacher tools, references, and datasets sit together in a maintained library, not a fixed curriculum. Keep identifiable learner folders and submissions in private, access-controlled storage.</p></div>
-<div class="cols">
-<div><pre>learning-center/
-  assignments/
-  resources/
-  students/
-  teachers/
-  .github/workflows/</pre><div class="repo-caption"><img class="micro" src="assets/micro/m29-bars.png" alt="" width="288" height="144">FIG. A / SHARED STACK</div><p>Shared material, student work, teacher tools, and dashboards each get their own place.</p></div>
-<div><pre>students/student-name/
-  grade-5/
-    math/
-    stem/
-    language-arts/
-    social-studies/
-  schedule.csv
-  README.md</pre><div class="repo-caption"><img class="micro" src="assets/micro/m09-check.png" alt="" width="144" height="144">FIG. B / LEARNER STACK</div><p>Each learner gets a durable folder for subjects, schedules, and portfolio work.</p></div>
+<p class="mono section-kicker"><img class="micro" src="assets/micro/m20-num-04.png" alt="" width="144" height="144"><span class="sr-only">04 / </span>THE RECORD</p>
+<h2>A little structure.<br>A lot less searching.</h2>
+<div class="col section-lede"><p>A repo is a shared folder with a history. Give plans, grade-specific curriculum, assignments, private student work, and agent instructions a clear home so everyone can find what they need.</p></div>
+<div class="demo repo-board" role="group" aria-label="How an organized repo helps your classroom">
+<div class="demo-heading"><p class="mono">AN ORGANIZED CLASSROOM <span>One repo / a shared starting point</span></p><h3>Clear places.<br>Clear next steps.</h3><p>Choose a view to see how the same structure helps each person &mdash; and the agents helping them.</p></div>
+<div class="demo-choices" id="repo-choices" role="group" aria-label="Choose whose view to explore"></div>
+<div class="repo-layout">
+<div class="repo-map"><p class="mono">YOUR CLASSROOM REPO</p>
+<ul class="repo-folders" aria-label="Places for your classroom files">
+<li data-repo-folder="hub" class="is-relevant"><a href="https://github.com/murderszn/open-tutor/blob/main/README.md"><span class="repo-file-mark" aria-hidden="true"></span><span><strong>README.md</strong><small>The front door. Start here.</small></span><span class="repo-file-arrow" aria-hidden="true">↗</span></a></li>
+<li data-repo-folder="students" class="is-relevant"><a href="https://github.com/murderszn/open-tutor/tree/main/students/student-template"><span class="repo-folder-mark" aria-hidden="true"></span><span><strong>students/student-template/</strong><small>A starting layout for private learner plans and work.</small></span><span class="repo-file-arrow" aria-hidden="true">↗</span></a></li>
+<li data-repo-folder="curriculum" class="is-relevant"><a href="https://github.com/murderszn/open-tutor/tree/main/curriculum"><span class="repo-folder-mark" aria-hidden="true"></span><span><strong>curriculum/</strong><small>Independent grade hubs; choose the learner's grade.</small></span><span class="repo-file-arrow" aria-hidden="true">↗</span></a></li>
+<li data-repo-folder="assignments" class="is-relevant"><a href="https://github.com/murderszn/open-tutor/tree/main/assignments"><span class="repo-folder-mark" aria-hidden="true"></span><span><strong>assignments/</strong><small>The task and what finished looks like.</small></span><span class="repo-file-arrow" aria-hidden="true">↗</span></a></li>
+<li data-repo-folder="resources"><a href="https://github.com/murderszn/open-tutor/tree/main/resources"><span class="repo-folder-mark" aria-hidden="true"></span><span><strong>resources/</strong><small>Shared guides and reference material.</small></span><span class="repo-file-arrow" aria-hidden="true">↗</span></a></li>
+<li data-repo-folder="agents"><a href="https://github.com/murderszn/open-tutor/tree/main/teachers/ai-assistants"><span class="repo-folder-mark" aria-hidden="true"></span><span><strong>teachers/ai-assistants/</strong><small>Your agents' roles and instructions.</small></span><span class="repo-file-arrow" aria-hidden="true">↗</span></a></li>
+</ul><p class="repo-map-note">Highlighted places connect to the selected example. Links open the real repo.</p></div>
+<div class="repo-view" id="repo-parent" data-repo-view="For you" data-repo-uses="hub students curriculum assignments">
+<p class="mono">FOR PARENTS &amp; TEACHERS</p><h4>Plan it once.<br>Find it again.</h4><p>Set the week and review the work from one place. A clear structure makes it easier to pick up where you left off.</p>
+<ol class="repo-route"><li><span aria-hidden="true">01</span><div><h5>Start at the front door</h5><p>Use the README to find the learner's workspace and the shared lessons.</p></div></li><li><span aria-hidden="true">02</span><div><h5>Set a clear next step</h5><p>Put the assignment in the learner's schedule, with a link to the brief.</p></div></li><li><span aria-hidden="true">03</span><div><h5>Review without the hunt</h5><p>Open their subject folder to compare the attempt, feedback, and revision.</p></div></li></ol>
+<div class="repo-payoff"><p class="mono">WHAT GETS EASIER</p><p><strong>You know what's planned, where the work is, and what changed.</strong></p></div>
 </div>
-<div class="col" style="margin-top:34px"><p>Adults stage the program in folders they can inspect, like <code>assignments/social-studies/</code> and <code>teachers/ai-assistants/</code>. Reference material such as formulas, grammar rules, and datasets lives under <code>/math</code>, <code>/science</code>, <code>/reading</code>, and <code>/projects</code>. AI helps turn it into rubrics, worksheets, and review materials.</p></div>
+<div class="repo-view" id="repo-student" data-repo-view="For students" data-repo-uses="students curriculum assignments resources" hidden>
+<p class="mono">FOR YOUR STUDENTS</p><h4>Know what to do.<br>Know where to save it.</h4><p>In a local or adult-managed private copy, the learner's schedule and subject work stay together. An adult picks the grade track and next task. Printed files work too.</p>
+<ol class="repo-route"><li><span aria-hidden="true">01</span><div><h5>Open the plan together</h5><p>Check the schedule for the next assignment an adult chose.</p></div></li><li><span aria-hidden="true">02</span><div><h5>Find the lesson and task</h5><p>Open the selected grade lesson or assignment brief, then use its guide or reference.</p></div></li><li><span aria-hidden="true">03</span><div><h5>Keep attempts together</h5><p>Save notes, drafts, and revisions in the matching subject folder or portfolio.</p></div></li></ol>
+<div class="repo-payoff"><p class="mono">WHAT GETS EASIER</p><p><strong>Less time finding the task. More time working through it.</strong></p></div>
+</div>
+<div class="repo-view" id="repo-agent" data-repo-view="For agents" data-repo-uses="agents curriculum assignments resources students" hidden>
+<p class="mono">FOR YOUR AI AGENTS</p><h4>Better context.<br>More useful help.</h4><p>Point your agent to the task, the reference, and the learner's attempt. Organized files make that context easier to share.</p>
+<ol class="repo-route"><li><span aria-hidden="true">01</span><div><h5>Give it a role</h5><p>Use the teacher prompts to set how it should tutor, plan, or help review.</p></div></li><li><span aria-hidden="true">02</span><div><h5>Give it the right material</h5><p>Share the assignment brief and relevant reference so its help fits the task.</p></div></li><li><span aria-hidden="true">03</span><div><h5>Show it the current attempt</h5><p>Include the learner's draft and the part they are stuck on. You review the advice.</p></div></li></ol>
+<div class="repo-payoff"><p class="mono">WHAT GETS EASIER</p><p><strong>The agent has a clearer task, useful references, and work to respond to.</strong></p></div>
+</div>
+</div>
+<p class="demo-footnote"><strong>Keep the history, too.</strong> A GitHub commit is a saved version with a note. Save one as work changes so you can return to earlier drafts. Keep identifiable learner work in private, access-controlled storage.</p>
+</div>
+<div class="col section-bridge"><p>Start with this structure, then fill it with lessons that fit your learners.</p><a href="#curriculum">Explore the K–8 planning guides<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
 </div></section>
 
-<section id="setup"><div class="w">
-<p class="mono section-kicker"><img class="micro" src="assets/micro/m21-num-05.png" alt="05" width="144" height="144">THE SETUP</p>
-<h2>From first commit<br>to classroom.</h2>
-<ol class="s">
-<li><h3>Accounts and repos</h3><div><p>Start with parent-owned GitHub accounts and repositories, so work and revision history stay under your control. Check account age requirements before creating student accounts.</p>
-<div class="setup-links">
-<a href="https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github"><img class="brand-icon" src="assets/brands/github.svg" alt="" width="24" height="24">Create a GitHub account</a>
-<a href="https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account"><img class="brand-icon" src="assets/brands/github.svg" alt="" width="24" height="24">GitHub account onboarding</a>
-<a href="https://docs.github.com/en/education/quickstart"><img class="brand-icon" src="assets/brands/github.svg" alt="" width="24" height="24">GitHub educator quickstart</a>
-</div></div></li>
-<li><h3>The classroom server</h3><div><p>Create a Discord server with clear subject channels, plus admin and logs channels reserved for oversight. Check account age requirements for your learners.</p>
-<div class="setup-links">
-<a href="https://support.discord.com/hc/en-us/articles/31676852332439-Discord-Sign-Up-and-Registration-Guide"><img class="brand-icon" src="assets/brands/discord.svg" alt="" width="24" height="24">Create a Discord account</a>
-<a href="https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server"><img class="brand-icon" src="assets/brands/discord.svg" alt="" width="24" height="24">Create a Discord server</a>
-</div></div></li>
-<li><h3>Install the tutor</h3><div><p>Create the Discord application and bot user, grant only the permissions the classroom needs, then run the tutor with your bot token and Anthropic key.</p>
-<div class="setup-links">
-<a href="https://docs.discord.com/developers/topics/oauth2"><img class="brand-icon" src="assets/brands/discord.svg" alt="" width="24" height="24">Discord OAuth2 and installation</a>
-<a href="https://docs.discord.com/developers/topics/permissions"><img class="brand-icon" src="assets/brands/discord.svg" alt="" width="24" height="24">Discord permissions reference</a>
-<a href="https://github.com/murderszn/vibe"><img class="brand-icon" src="assets/brands/github.svg" alt="" width="24" height="24">Vibe tutor source</a>
-</div></div></li>
-<li><h3>Optional: a coding agent</h3><div><p>Agentic coding tools can help draft unit plans, assignment templates, and rubrics. You stay the final reviewer and standards owner.</p>
-<div class="setup-links">
-<a href="https://antigravity.google/"><img class="micro" src="assets/micro/m08-bolt.png" alt="" width="144" height="144">Antigravity</a>
-<a href="https://learn.chatgpt.com/docs/cloud"><img class="micro" src="assets/micro/m30-slashes.png" alt="" width="288" height="144">OpenAI Codex docs</a>
-</div></div></li>
-</ol>
+<section id="curriculum"><div class="section-art" aria-hidden="true"></div><div class="w">
+<p class="mono section-kicker"><img class="micro" src="assets/micro/m21-num-05.png" alt="" width="144" height="144"><span class="sr-only">05 / </span>K–8 TEACHING LIBRARY</p>
+<h2>Choose a grade.<br>Start from there.</h2>
+<div class="col section-lede reading-surface"><p>A working K–8 teaching library: expanded assignment libraries, scope drafts, and starter lessons, with coverage varying by grade. Open one grade hub to see what is ready and what still needs adult planning.</p></div>
+<div class="pathway-grid" role="group" aria-label="Grade-specific teaching library">
+<article class="pathway-card"><p class="mono">01 / K–2</p><h3>Early foundations.</h3><div class="pathway-links"><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-k/README.md">Kindergarten <span>Starter lessons / draft</span></a><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-1/README.md">Grade 1 <span>Starter lessons / draft</span></a><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-2/README.md">Grade 2 <span>Starter lessons / draft</span></a></div></article>
+<article class="pathway-card"><p class="mono">02 / GRADES 3–5</p><h3>Practice and explain.</h3><div class="pathway-links"><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-3/README.md">Grade 3 <span>Starter lessons / draft</span></a><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-4/README.md">Grade 4 <span>Expanded draft library</span></a><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-5/README.md">Grade 5 <span>Expanded draft library</span></a></div></article>
+<article class="pathway-card"><p class="mono">03 / GRADES 6–8</p><h3>Connect ideas and evidence.</h3><div class="pathway-links"><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-6/README.md">Grade 6 <span>Starter lessons / draft</span></a><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-7/README.md">Grade 7 <span>Expanded draft library</span></a><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-8/README.md">Grade 8 <span>Expanded draft library</span></a></div></article>
+</div>
+<p class="pathway-note">Choose one grade folder for one learner at a time. These planning materials do not promise a complete school year or standards coverage. <a href="https://github.com/murderszn/open-tutor/blob/main/resources/k-8/coverage.md">Check current coverage and gaps</a> before planning.</p>
+<h3 class="library-picks-title">More from the existing library</h3>
+<div class="curriculum-starters">
+<article class="starter-card"><div class="starter-copy"><p class="mono">01 / READ</p><h3>Biology basics.</h3><p>A shared guide to cells, photosynthesis, and how living things work.</p><a href="https://github.com/murderszn/open-tutor/blob/main/resources/biology_fundamentals.md">Open the biology guide<span aria-hidden="true">↗</span></a></div></article>
+<article class="starter-card"><div class="starter-copy"><p class="mono">02 / GRADE 4 SCIENCE</p><h3>Photosynthesis.</h3><p>Turn a science idea into a diagram and explanation you can review.</p><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-4/stem/assignments/photosynthesis.md">Open the assignment brief<span aria-hidden="true">↗</span></a></div></article>
+<article class="starter-card"><div class="starter-copy"><p class="mono">03 / GRADE 4 MATH</p><h3>Golden rectangles.</h3><p>Explore proportions, tiling, and spirals with the Golden Rectangle Builder.</p><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-4/math/assignments/golden-ratio.md">Read the lesson<span aria-hidden="true">↗</span></a></div></article>
+</div>
+<details class="library-details"><summary><span>Browse more subjects and planning tools</span><span class="library-count">15 sample files</span></summary><div class="curriculum-expanded"><p>These links open source files on GitHub. HTML tools run from your checkout.</p><div class="curriculum-library">
+<div><h3>Reference guides</h3><ul class="curriculum-items">
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/resources/biology_fundamentals.md"><strong>Biology fundamentals</strong><span>Water, cells, photosynthesis, and reproduction.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/resources/chemistry_fundamentals.md"><strong>Chemistry fundamentals</strong><span>Atoms, the periodic table, bonds, and reactions.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/resources/physics_fundamentals.md"><strong>Physics fundamentals</strong><span>Measurement, motion, energy, heat, and waves.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/resources/financial_tools_and_principles.md"><strong>Financial tools &amp; principles</strong><span>Money, investments, borrowing, and business terms.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/resources/government_basics.md"><strong>Government basics</strong><span>Branches, agencies, and civic research templates.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/resources/world_facts.md"><strong>World facts</strong><span>Oceans, capitals, trade routes, and commodities.</span></a></li>
+</ul></div>
+<div><h3>Assignments</h3><ul class="curriculum-items">
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/assignments/math/golden-ratio/README.md"><strong>Math / The golden ratio</strong><span>Calculate phi, draw a spiral, and apply it to design.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-4/stem/assignments/photosynthesis.md"><strong>Grade 4 / Science / Photosynthesis</strong><span>Explain the inputs and outputs with a diagram or equation.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/assignments/language-arts/harlem-renaissance-poetry/README.md"><strong>Language arts / Poetry &amp; culture</strong><span>Annotate Hughes and Angelou; reflect on voice and theme.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/assignments/social-studies/history-of-war/README.md"><strong>Social studies / History of war</strong><span>Connect turning points to institutions; the brief includes an interactive timeline.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-7/social-studies/assignments/credit-cost-comparison.md"><strong>Grade 7 / Credit cost comparison</strong><span>Compare borrowing costs using clear assumptions.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/curriculum/grade-5/stem/assignments/app-design-introduction.md"><strong>Grade 5 / App design</strong><span>Plan an interface around a user need.</span></a></li>
+</ul></div>
+<div><h3>Datasets & tools</h3><ul class="curriculum-items">
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/resources/un_countries.csv"><strong>UN countries / CSV</strong><span>Country and territory facts in a spreadsheet-friendly format.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/resources/un_countries.json"><strong>UN countries / JSON</strong><span>Structured geography, languages, currencies, and borders.</span></a></li>
+<li><a href="https://github.com/murderszn/open-tutor/blob/main/assignments/math/golden-ratio/resources/golden-rectangle/index.html"><strong>Golden Rectangle Builder</strong><span>Change a side length and explore the tiling and spiral.</span></a></li>
+</ul></div>
+</div><div class="curriculum-planning"><h3>Plan and review the week</h3><div class="curriculum-workflow-links">
+<a href="https://github.com/murderszn/open-tutor/blob/main/students/student-template/schedule.csv">Student schedule template</a>
+<a href="https://github.com/murderszn/open-tutor/blob/main/students/student-template/README.md">Student workspace template</a>
+<a href="https://github.com/murderszn/open-tutor/blob/main/teachers/ai-assistants/lesson_planner.md">Lesson planner prompt</a>
+<a href="https://github.com/murderszn/open-tutor/blob/main/teachers/ai-assistants/assessment_grader.md">Assessment and feedback prompt</a>
+<a href="https://github.com/murderszn/open-tutor/blob/main/teachers/ai-assistants/report_card_generator.md">Report card prompt</a>
+<a href="https://github.com/murderszn/open-tutor/blob/main/assignments/README.md">All assignments</a>
+<a href="https://github.com/murderszn/open-tutor/blob/main/resources/README.md">All resources</a>
+</div></div></div></details>
+<p class="curriculum-note">You choose the lessons and review the work.</p>
+<div class="col section-bridge"><p>Start with one lesson. Add the tools when you're ready.</p><a href="#setup">Set up your classroom<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
 </div></section>
 
-<section id="day" class="on-dark"><div class="section-art" aria-hidden="true"></div><div class="w">
-<p class="mono section-kicker"><img class="micro" src="assets/micro/m22-num-06.png" alt="06" width="144" height="144">THE DAY</p>
-<h2>One school day.<br>A visible trail.</h2>
-<ol class="s">
-<li><h3>Morning check-in</h3><p>The parent posts priorities and links to the right subject folders. Students know today's tasks and expected commits.</p></li>
-<li><h3>Subject work</h3><p>Students move through folders and materials. Notes, drafts, and responses land where they belong.</p></li>
-<li><h3>Tutor window</h3><p>Vibe rephrases directions, explains concepts, and helps students restart, so questions become next steps.</p></li>
-<li><h3>Progress review</h3><p>The parent checks completed work and blockers, and can redirect without losing the day's trail.</p></li>
-<li><h3>Projects</h3><p>Coding, design, research, or portfolio work. Code, websites, drafts, and assets become durable evidence.</p></li>
-<li><h3>Commit and plan</h3><p>Students save finished work, note what changed, and name the next step. The parent gets a clean record.</p></li>
+<section id="setup" class="on-dark"><div class="section-art" aria-hidden="true"></div><div class="w">
+<p class="mono section-kicker"><img class="micro" src="assets/micro/m22-num-06.png" alt="" width="144" height="144"><span class="sr-only">06 / </span>THE SETUP</p>
+<h2>Set up the tools.<br>Keep a hand on them.</h2>
+<div class="col section-lede reading-surface"><p>Start with the files on a device or on paper. Add an adult-operated classroom chat and tutor only if they fit your family; the adult manages access and reviews any help each week.</p><p><strong>Time and cost:</strong> Vibe needs API keys and usage-based API charges; hosting may add costs. The learning files can be used without Discord or an AI tutor.</p></div>
+<ol class="s setup-steps">
+<li><h3>Get the learning files</h3><div><p><a href="https://github.com/murderszn/open-tutor/tree/main/docs/teaching-library-usage.md">Browse the teaching library</a>, then download or print the guides and assignments. For online work, copy only the materials you need into an adult-managed private workspace.</p><p><strong>GitHub forks are public.</strong> Keep identifiable learner work in separate, private, access-controlled storage; do not put it in a public fork.</p></div></li>
+<li><h3>Choose how to use chat</h3><div><p>Discord is optional. If you use it, an adult creates and manages the server and decides whether a learner may use it under the platform's age rules and local requirements.</p><div class="setup-links"><a href="https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server">Create an adult-managed server<span aria-hidden="true">↗</span></a></div></div></li>
+<li><h3>Connect the tutor</h3><div><p>Follow Vibe's instructions to configure the bot, permissions, and API keys. Keep it running and review its replies.</p><div class="setup-links"><a href="https://github.com/murderszn/vibe">Open the Vibe setup instructions<span aria-hidden="true">↗</span></a></div></div></li>
 </ol>
+<details class="setup-guides"><summary>Account guides and optional coding help</summary><div class="setup-guide-groups">
+<div><h3>Adult-managed GitHub</h3><div class="setup-links">
+<a href="https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github">Create an adult account</a>
+<a href="https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account">Account onboarding</a>
+<a href="https://docs.github.com/en/education/quickstart">Educator quickstart</a></div></div>
+<div><h3>Adult-managed Discord</h3><div class="setup-links">
+<a href="https://support.discord.com/hc/en-us/articles/31676852332439-Discord-Sign-Up-and-Registration-Guide">Create an adult account</a>
+<a href="https://docs.discord.com/developers/topics/oauth2">Bot installation and OAuth2</a>
+<a href="https://docs.discord.com/developers/topics/permissions">Permissions reference</a></div></div>
+<div><h3>Optional: a coding agent</h3><p>Get help drafting plans and templates. You check the content before using it.</p><div class="setup-links">
+<a href="https://antigravity.google/">Antigravity</a>
+<a href="https://learn.chatgpt.com/docs/cloud">OpenAI Codex docs</a></div></div>
+</div></details>
+<div class="col section-bridge"><p>Use a simple routine to turn the tools into a school day.</p><a href="#day">Walk through a school day<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
+</div></section>
+
+<section id="day"><div class="section-art" aria-hidden="true"></div><div class="w">
+<p class="mono section-kicker"><img class="micro" src="assets/micro/m23-num-07.png" alt="" width="144" height="144"><span class="sr-only">07 / </span>THE DAY</p>
+<h2>A school day,<br>one step at a time.</h2>
+<div class="col section-lede"><p>This is an example rhythm, with breaks between blocks. Adjust the times and workload for your child's age and needs. Each block ends with something you can read, check, or discuss.</p></div>
+<ol class="s day-itinerary">
+<li><h3>Morning check-in<span class="mono day-time">10 min / Parent + learner</span></h3><p>Choose today's tasks together. The learner writes a short checklist and opens the assignment files. <strong>Done:</strong> they can explain what they will make.</p></li>
+<li><h3>Subject work<span class="mono day-time">30–45 min / Learner</span></h3><p>Read a reference, solve the assigned problems, or draw and explain a science idea. <strong>Done:</strong> a first attempt is saved in the subject folder.</p></li>
+<li><h3>Tutor window<span class="mono day-time">10–15 min / Adult-led, optional</span></h3><p>If you use Vibe, an adult operates or supervises the chat according to the learner's age and platform rules. The learner then explains the help in their own words. <strong>Done:</strong> a corrected attempt and a note about what clicked.</p></li>
+<li><h3>Progress review<span class="mono day-time">10–15 min / Parent</span></h3><p>Read the saved work and compare it with the assignment's grading criteria. <strong>Done:</strong> a feedback note and one clear next step.</p></li>
+<li><h3>Projects<span class="mono day-time">30–45 min / Learner</span></h3><p>Build a webpage, revise a research brief, or make a diagram. <strong>Done:</strong> a saved draft or finished artifact, with a sentence explaining the choices.</p></li>
+<li><h3>Save and plan<span class="mono day-time">5–10 min / Learner + parent</span></h3><p>Save a commit with a short note about what changed. The parent checks the day's checklist and chooses the next task together with the learner.</p></li>
+</ol>
+<div class="cols academy-studies">
+<figure class="academy-figure"><div class="academy-crop academy-economics"><img src="assets/academy-of-knowledge-stipple.webp" alt="A market beneath stock charts and supply-and-demand diagrams, drawn in fine black ink." width="1536" height="1024" loading="lazy" decoding="async"></div><figcaption class="mono">Life skills / Connect ideas to everyday decisions</figcaption></figure>
+<figure class="academy-figure"><div class="academy-crop academy-art"><img src="assets/academy-of-knowledge-stipple.webp" alt="Students drawing and making prints among easels, books, and a sculptural bust." width="1536" height="1024" loading="lazy" decoding="async"></div><figcaption class="mono">Projects / Make something worth keeping</figcaption></figure>
+</div>
 <div class="journey-banner"><span>SMALL STEPS. VISIBLE GROWTH.</span><div class="journey-marks" aria-hidden="true"><img class="micro trail-mark" src="assets/micro/m32-zigzag.png" alt="" width="288" height="144"><img class="micro" src="assets/micro/m25-sig-1.png" alt="" width="288" height="144"><img class="micro" src="assets/micro/m26-sig-2.png" alt="" width="288" height="144"><img class="micro" src="assets/micro/m27-sig-3.png" alt="" width="288" height="144"><img class="micro" src="assets/micro/m09-check.png" alt="" width="144" height="144"></div></div>
+<div class="col section-bridge"><p>The saved work gives you something concrete to discuss. You decide when to move on or spend more time.</p><a href="#faq">See how parent oversight works<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
 </div></section>
 
-<section id="faq" class="on-dark"><div class="w">
-<p class="mono section-kicker"><img class="micro" src="assets/micro/m23-num-07.png" alt="07" width="144" height="144">THE GUARDRAILS</p>
-<h2>Keep asking<br>the hard questions.</h2>
-<div class="col">
-<details><summary>Does Vibe run the classroom?</summary><p>No. Parents keep authority over curriculum, pacing, permissions, and structure. Vibe supports learning and has no server-management role.</p></details>
-<details><summary>Can I see how Vibe behaves?</summary><p>Yes. Prompt rules and skill files are visible and reviewable, and the bot's code is open source.</p></details>
-<details><summary>What can Vibe reach outside Discord?</summary><p>Only scoped, explicit tools: schedules, GitHub files, web and URL lookup, and weather. Each is reviewable.</p></details>
-<details><summary>Is the AI making decisions for my child?</summary><p>It explains and scaffolds. The parent sets the standards and reviews the work, and repositories keep revisions and growth visible.</p></details>
-<details><summary>Is this an accredited curriculum?</summary><p>No. It is an experimental operating model, not a turnkey accredited school or compliance platform.</p></details>
+<section id="faq" class="on-dark"><div class="section-art" aria-hidden="true"></div><div class="w">
+<p class="mono section-kicker"><img class="micro" src="assets/micro/m24-num-08.png" alt="" width="144" height="144"><span class="sr-only">08 / </span>PARENT OVERSIGHT</p>
+<h2>You stay<br>in charge.</h2>
+<div class="col section-lede"><p>You choose the lessons, set the pace, and check the learning. Use your child's attempt and explanation to decide what happens next.</p></div>
+<div class="demo oversight-board">
+<div class="demo-heading"><p class="mono">PARENT OVERSIGHT, IN PRACTICE <span>Choose / check / adjust</span></p><h3>The work is visible.<br>The next step is yours.</h3><p>A helpful tutor exchange gives you something to review. Your check-in turns that work into a decision about the next lesson.</p></div>
+<div class="oversight-layout">
+<aside class="oversight-review" aria-labelledby="oversight-review-title"><p class="mono">AN EXAMPLE CHECK-IN / FRACTIONS</p><h4 id="oversight-review-title">Look at<br>the thinking.</h4>
+<div class="oversight-work"><p class="mono">THE LEARNER'S EXPLANATION</p><blockquote><p>“I made equal-sized sixths, then added three pieces and two pieces. That makes 5/6.”</p></blockquote><p class="oversight-work-caption">An explanation you can discuss together.</p></div>
+<ol class="oversight-checks">
+<li><span aria-hidden="true">01</span><div><h5>Can they explain it?</h5><p>Ask why the pieces need to be the same size. Listen to how they describe it.</p></div></li>
+<li><span aria-hidden="true">02</span><div><h5>Can they try it again?</h5><p>Try 1/4 + 1/2. Ask them to show the pieces and explain their choice.</p></div></li>
+<li><span aria-hidden="true">03</span><div><h5>What should come next?</h5><p>Move on, practice more, or try a different explanation. You choose the next step.</p></div></li>
+</ol><p class="oversight-review-note">Illustrative work, not live student data. The point is to hear the learner's reasoning.</p>
+</aside>
+<div class="oversight-faq"><p class="mono">COMMON QUESTIONS</p><h4>Questions<br>parents ask.</h4>
+<div class="oversight-questions">
+<details open><summary><span><span class="faq-number" aria-hidden="true">01</span>Who sets the lessons and pace?</span></summary><p>You do. You choose the work, the pace, and the access rules. Vibe helps with explanations and questions; adults run the classroom.</p></details>
+<details><summary><span><span class="faq-number" aria-hidden="true">02</span>Does every learner need an account?</span></summary><p>No. The guides and assignments can be downloaded, printed, or used in local files. An adult manages online accounts and operates tools for younger learners; never share an adult's login with a child. GitHub and Discord require users to be at least 13, and local rules may require a higher age. Check the <a href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">GitHub Terms</a> and <a href="https://support.discord.com/hc/en-us/articles/360040724612-Why-is-Discord-asking-for-my-birthday">Discord age requirements</a>.</p></details>
+<details><summary><span><span class="faq-number" aria-hidden="true">03</span>Can I inspect the tutor?</span></summary><p>Yes. Vibe's public repository contains prompt rules, skill files, and bot code. Read the current instructions and check how the tools are configured before use.</p></details>
+<details><summary><span><span class="faq-number" aria-hidden="true">04</span>What can the tutor access?</span></summary><p>Its configured tools can read schedules and GitHub files, look up web pages, and check weather. Review the tool configuration and permissions before connecting it to your classroom.</p></details>
+<details><summary><span><span class="faq-number" aria-hidden="true">05</span>What should I share with the tutor?</span></summary><p>Share only the assignment and learner work needed for the question. Avoid unnecessary personal details, and review the privacy settings and terms of each service you connect.</p></details>
+<details><summary><span><span class="faq-number" aria-hidden="true">06</span>How do I check understanding?</span></summary><p>Ask your child to explain their thinking and try another example. Keep drafts and corrections so you can see what changed. The tutor can offer hints; you decide whether to move on.</p></details>
+<details><summary><span><span class="faq-number" aria-hidden="true">07</span>Is this a complete curriculum?</span></summary><p>No. Some grades have expanded assignment libraries; others have planning guides or draft starter lessons. Coverage varies, and these materials do not promise a complete school year or standards coverage. Review the <a href="https://github.com/murderszn/open-tutor/blob/main/resources/k-8/coverage.md">current coverage notes</a> and each grade hub; adults select and review materials and check local requirements.</p></details>
 </div>
+<a class="oversight-source" href="https://github.com/murderszn/vibe">Read the Vibe tutor source<span aria-hidden="true">↗</span></a>
+</div>
+</div>
+<p class="demo-footnote"><strong>Start with one assignment and one check-in.</strong> You can change the lesson, the pace, or the plan as you learn together.</p>
+</div>
+<div class="col section-bridge"><p>You can inspect the tools, follow the work, and adapt the classroom to your family.</p><a href="#support">Help build in the open<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
 </div></section>
 
-<section id="support"><div class="w">
-<p class="mono section-kicker"><img class="micro" src="assets/micro/m24-num-08.png" alt="08" width="144" height="144">IN THE OPEN</p>
-<div class="build-invitation"><h2 class="build-brand"><img class="micro" src="assets/micro/m16-ot-mark.png" alt="" width="144" height="144">OpenTutor</h2><div class="build-action"><p>Make learning visible.</p><a href="#setup"><span class="build-arrows" aria-hidden="true"><img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"><img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></span>Build your classroom</a></div></div>
-<div class="col"><p>OpenTutor and Vibe are open-source homeschool infrastructure. Stars and forks help others find and improve it. Donations fund API costs, curriculum upkeep, documentation, and development.</p></div>
-<div class="cta" style="margin-top:6px"><a class="pill p" href="https://github.com/murderszn/open-tutor">Star the repo<img class="micro" src="assets/micro/m07-star.png" alt="" width="144" height="144"></a><a class="pill" href="https://github.com/murderszn/open-tutor/fork">Fork the project<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
-<div class="cols" style="margin-top:40px">
-<div><h3>Bitcoin</h3><div class="addr"><code>3AWfncSFKENu47mDUhyZU1tvAULPzkSdZ8</code><button type="button" data-copy="3AWfncSFKENu47mDUhyZU1tvAULPzkSdZ8">Copy address</button></div></div>
-<div><h3>Ethereum / EVM</h3><div class="addr"><code>0x6B71F8F87F7eA31628149D70B9d178cB3E357A90</code><button type="button" data-copy="0x6B71F8F87F7eA31628149D70B9d178cB3E357A90">Copy address</button></div></div>
+<section id="support"><div class="section-art" aria-hidden="true"></div><div class="w">
+<p class="mono section-kicker"><span class="micro section-number">09</span>IN THE OPEN</p>
+<h2>Build a classroom<br>you can care for.</h2>
+<div class="col section-lede reading-surface"><p>OpenTutor and Vibe are open tools for parent-led teaching. Start with a lesson, share improvements, or help fund API costs and curriculum upkeep.</p></div>
+<div class="build-invitation"><div class="build-action"><p>Make learning visible.</p><a href="#setup"><span class="build-arrows" aria-hidden="true"><img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"><img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></span>Build your classroom</a></div></div>
+<div class="col support-note reading-surface"><p>Stars help other families find the project. Review the lesson drafts and share improvements. Donations support API costs, curriculum upkeep, documentation, and development.</p></div>
+<div class="cta"><a class="pill p" href="https://github.com/murderszn/open-tutor">Star the repo<img class="micro" src="assets/micro/m07-star.png" alt="" width="144" height="144"></a><a class="pill" href="https://github.com/murderszn/open-tutor">Explore the source<img class="micro" src="assets/micro/m12-arrow-right.png" alt="" width="144" height="144"></a></div>
+<div class="cols donation-options">
+<div><h3>Bitcoin</h3><div class="addr"><code>3AWfncSFKENu47mDUhyZU1tvAULPzkSdZ8</code><button type="button" data-copy="3AWfncSFKENu47mDUhyZU1tvAULPzkSdZ8" aria-label="Copy Bitcoin donation address" hidden>Copy address</button></div></div>
+<div><h3>Ethereum / EVM</h3><div class="addr"><code>0x6B71F8F87F7eA31628149D70B9d178cB3E357A90</code><button type="button" data-copy="0x6B71F8F87F7eA31628149D70B9d178cB3E357A90" aria-label="Copy Ethereum donation address" hidden>Copy address</button></div></div>
 </div>
 </div></section>
 
 </main>
 
 <footer class="site-footer on-dark"><div class="w footer-inner">
-<div class="footer-brand"><a class="footer-wordmark" href="#top">OpenTutor</a>
+<div class="footer-brand"><a class="footer-wordmark" href="#top"><img class="micro" src="assets/micro/m16-ot-mark.png" alt="" width="144" height="144">OpenTutor</a>
+<p>A parent-led K–8 teaching library with grade-specific materials, optional classroom tools, and a visible record of learning. Coverage varies by grade.</p>
 <nav class="footer-socials" aria-label="GitHub and Discord">
 <a href="https://github.com/murderszn/open-tutor" aria-label="OpenTutor on GitHub" title="OpenTutor on GitHub"><img class="brand-icon" src="assets/brands/github.svg" alt="" width="24" height="24"></a>
-<a href="https://discord.com/" aria-label="Discord" title="Discord"><img class="brand-icon" src="assets/brands/discord.svg" alt="" width="24" height="24"></a>
+<a href="https://discord.com/" aria-label="Discord platform" title="Discord platform"><img class="brand-icon" src="assets/brands/discord.svg" alt="" width="24" height="24"></a>
 </nav></div>
-<nav class="footer-links" aria-label="Project resources">
-<a href="https://github.com/murderszn/open-tutor"><span>01</span>OpenTutor source</a>
-<a href="#setup"><span>02</span>Setup guides</a>
-<a href="#support"><span>03</span>Support the project</a>
+<nav class="footer-links footer-explore" aria-label="Explore OpenTutor"><h3 class="mono">Explore</h3>
+<a href="#thesis"><span>01</span>Manifesto</a>
+<a href="#compare"><span>02</span>Difference</a>
+<a href="#vibe"><span>03</span>Tutor</a>
+<a href="#repo"><span>04</span>Record</a>
+<a href="#curriculum"><span>05</span>Curriculum</a>
+<a href="#setup"><span>06</span>Setup</a>
+<a href="#day"><span>07</span>A day</a>
+<a href="#faq"><span>08</span>Oversight</a>
+<a href="#support"><span>09</span>In the open</a>
 </nav>
+<nav class="footer-links footer-project" aria-label="Project resources"><h3 class="mono">Project</h3>
+<a href="https://github.com/murderszn/open-tutor">OpenTutor source</a>
+<a href="https://github.com/murderszn/vibe">Vibe tutor source</a>
+<a href="https://github.com/murderszn/open-tutor/blob/main/assignments/README.md">Assignments index</a>
+<a href="https://github.com/murderszn/open-tutor/blob/main/resources/README.md">Resources index</a>
+<a href="https://github.com/murderszn/open-tutor/blob/main/teachers/ai-assistants/agents.md">AI Teaching Team</a>
+</nav>
+<div class="footer-legal mono"><p>© 2026 OpenTutor</p><a class="back-to-top" href="#top">Back to top<img class="micro" src="assets/micro/m11-arrow-up.png" alt="" width="144" height="144"></a></div>
 </div>
 <div class="footer-panorama" aria-hidden="true">
 <img src="assets/footer-world-map.webp" alt="" width="1697" height="927" loading="lazy" decoding="async">
 </div></footer>
 
-<script src="manifesto.js" defer></script>
-<script src="hero-atlas.js?v=2" defer></script>
+<script src="manifesto.js?v=0104246e1b" defer></script>
+<script src="hero-atlas.js?v=6c134ac864" defer></script>
 </body>
 </html>

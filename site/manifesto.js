@@ -2,7 +2,7 @@
   'use strict';
   var header = document.querySelector('.site-header');
   var hero = document.querySelector('.hero');
-  var sectors = document.querySelector('.sectors');
+  var specimens = document.querySelector('.hero-specimens');
   var composition = document.querySelector('.hero-composition');
   var atlas = document.querySelector('.hero-atlas');
   var welcome = document.querySelector('.hero-welcome');
@@ -11,78 +11,61 @@
     return parseFloat(style.paddingTop) + parseFloat(style.paddingBottom);
   }
   function fitHero() {
-    var chromeHeight = header.getBoundingClientRect().height + sectors.getBoundingClientRect().height;
+    var chromeHeight = header.getBoundingClientRect().height;
     hero.style.setProperty('--opening-chrome-height', chromeHeight + 'px');
-    var contentHeight = verticalPadding(hero) + verticalPadding(composition) + atlas.getBoundingClientRect().height + welcome.getBoundingClientRect().height;
+    var contentHeight = verticalPadding(hero) + verticalPadding(composition) + atlas.getBoundingClientRect().height + welcome.getBoundingClientRect().height + specimens.getBoundingClientRect().height + 24;
     hero.style.setProperty('--opening-content-height', contentHeight + 'px');
   }
   fitHero();
   if ('ResizeObserver' in window) {
     var openingObserver = new ResizeObserver(fitHero);
     openingObserver.observe(header);
-    openingObserver.observe(sectors);
+    openingObserver.observe(specimens);
     openingObserver.observe(atlas);
     openingObserver.observe(welcome);
   } else {
     window.addEventListener('resize', fitHero);
   }
-  var examples = [
-    ["I don't get why 1/2 + 1/3 isn't 2/5.", 'Good thing to question. Cut a pizza in halves, then in thirds. Can you add slices of different sizes? What would you change so every slice is the same size?'],
-    ['What should we do on Monday?', 'Monday has a math block on fractions, 30 minutes of reading, and a STEM project. I linked each folder. Commit your math notes before lunch so your parent can review them.'],
-    ['Summarize the math folder.', "The math folder has six assignments and a fractions reference sheet. Three are marked done. Unit 4 hasn't been started, so that's the next one to open."],
-    ["What's the weather today?", 'I checked the live forecast. It cools off after 3 pm, so bring a jacket for the walk. You could plan outdoor science for the morning and check the schedule with your parent.']
-  ];
-  var log = document.getElementById('log');
-  var picks = document.getElementById('picks');
-  var timer;
-  function addMessage(kind, who, text, icon) {
-    var message = document.createElement('div');
-    message.className = 'm ' + kind;
-    var label = document.createElement('b');
-    var mark = document.createElement('img');
-    mark.src = 'assets/micro/' + icon;
-    mark.alt = '';
-    mark.className = 'micro';
-    mark.width = 144;
-    mark.height = 144;
-    label.appendChild(mark);
-    label.appendChild(document.createTextNode(who));
-    var content = document.createElement('span');
-    content.textContent = text;
-    message.append(label, content);
-    log.appendChild(message);
-    return content;
-  }
-  function ask(index, button, immediate) {
-    clearTimeout(timer);
-    Array.from(picks.children).forEach(function (choice) {
-      choice.setAttribute('aria-pressed', String(choice === button));
+  function initExamplePicker(attribute, choicesId, onSelect) {
+    var examples = Array.from(document.querySelectorAll('[' + attribute + ']'));
+    var choices = document.getElementById(choicesId);
+    if (!choices || !examples.length) return;
+    var announcement = document.createElement('p');
+    announcement.className = 'sr-only';
+    announcement.setAttribute('role', 'status');
+    choices.after(announcement);
+    examples.forEach(function (example, index) {
+      var button = document.createElement('button');
+      button.type = 'button';
+      var number = document.createElement('span');
+      number.textContent = '0' + (index + 1);
+      number.setAttribute('aria-hidden', 'true');
+      button.append(number, document.createTextNode(example.getAttribute(attribute)));
+      button.setAttribute('aria-pressed', String(index === 0));
+      button.setAttribute('aria-controls', example.id);
+      button.addEventListener('click', function () {
+        examples.forEach(function (panel, panelIndex) {
+          panel.hidden = panel !== example;
+          choices.children[panelIndex].setAttribute('aria-pressed', String(panel === example));
+        });
+        if (onSelect) onSelect(example);
+        announcement.textContent = 'Showing example: ' + example.getAttribute(attribute) + '.';
+      });
+      choices.appendChild(button);
     });
-    log.setAttribute('aria-busy', 'true');
-    log.replaceChildren();
-    addMessage('s', 'Learner', '@Vibe ' + examples[index][0], 'm06-pennant.png');
-    var reply = addMessage('v', 'Vibe', immediate ? examples[index][1] : 'Thinking…', 'm08-bolt.png');
-    if (immediate) {
-      log.setAttribute('aria-busy', 'false');
-    } else {
-      timer = setTimeout(function () {
-        reply.textContent = examples[index][1];
-        log.setAttribute('aria-busy', 'false');
-      }, window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 450);
-    }
+    if (onSelect) onSelect(examples[0]);
   }
-  examples.forEach(function (example, index) {
-    var button = document.createElement('button');
-    button.type = 'button';
-    button.textContent = example[0];
-    button.setAttribute('aria-pressed', 'false');
-    button.addEventListener('click', function () { ask(index, button, false); });
-    picks.appendChild(button);
+  initExamplePicker('data-example', 'picks');
+  initExamplePicker('data-repo-view', 'repo-choices', function (view) {
+    var usedFolders = view.dataset.repoUses.split(' ');
+    document.querySelectorAll('[data-repo-folder]').forEach(function (folder) {
+      folder.classList.toggle('is-relevant', usedFolders.includes(folder.dataset.repoFolder));
+    });
   });
-  ask(0, picks.children[0], true);
 
   document.querySelectorAll('[data-copy]').forEach(function (button) {
     var resetTimer;
+    button.hidden = false;
     button.setAttribute('aria-live', 'polite');
     button.addEventListener('click', async function () {
       clearTimeout(resetTimer);
