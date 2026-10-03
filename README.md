@@ -34,7 +34,7 @@ This repository is a maintained teaching library, not a student-record system.
 
 - **Assignments** hold project briefs, labs, writing prompts, and interactive activities.
 - **Resources** hold quick-reference guides, datasets, and reusable support material.
-- **Curriculum** holds four independent, anonymous grade-specific tracks; learner work and schedules belong in private storage.
+- **Curriculum** holds independent, anonymous grade-specific tracks in different stages of development; learner work and schedules belong in private storage.
 - **Teachers** hold dashboards, planning tools, and reusable AI assistant prompts.
 
 This is deliberately **teacher-driven and AI-assisted**.
@@ -93,13 +93,13 @@ git clone https://github.com/murderszn/open-tutor.git
 cd open-tutor
 ```
 
-### 2. Set up the core accounts
+### 2. Choose an adult-operated learning path
 
-For local adaptation, educators need:
+For local adaptation, educators may use their own GitHub account and a code editor such as [VS Code](https://code.visualstudio.com/Download). Both are optional for offline use. Any online classroom or AI tutoring platform is optional and should be selected by the adult.
 
-- a GitHub account: <https://github.com/signup>
-- a code editor, preferably VS Code: <https://code.visualstudio.com/Download>
-- an optional, school-approved learning platform if using AI tutoring
+For K–8, start at the [K–8 planning hub](./resources/k-8/README.md), then use the matching grade track in [curriculum](./curriculum/README.md). This hub offers planning and placement guidance; it is not a complete or accredited curriculum. The family selects and supplies full-year materials, especially early systematic reading instruction and cumulative math practice. The curriculum tracks and new starter lessons are drafts; their coverage is described in the [K–8 coverage note](./resources/k-8/coverage.md).
+
+An adult operates the repository, their own accounts, the schedule, and review. Young learners can work on paper, with manipulatives, outdoors, or in conversation while an adult records evidence. Do not require children to create or share platform accounts. [GitHub's terms](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) require a user to be at least 13 in the U.S.; local minimum ages can be higher. [Discord's age requirements](https://support.discord.com/hc/en-us/articles/360040724612-Why-is-Discord-asking-for-my-birthday) vary by country. Adults should check current terms before involving a learner. Discord is optional; see the [Vibe repo](https://github.com/murderszn/vibe) for its separate tutor setup.
 
 ### 3. Choose one grade track
 
@@ -120,7 +120,7 @@ Select work only from the chosen grade directory. Keep real learner names, sched
 open-tutor/
 ├── assignments/          shared assignments, projects, and interactives
 ├── resources/            reference guides, study docs, and datasets
-├── curriculum/           four independent grade tracks
+├── curriculum/           independent grade tracks and lesson drafts
 ├── students/student-template/ anonymous workspace starter
 ├── docs/                  privacy and teaching guides
 ├── teachers/
@@ -179,6 +179,10 @@ The `resources/` folder is a maintained library, not a locked curriculum.
 
 Start here: [resources/README.md](./resources/README.md)
 
+### K–8 planning and current coverage
+
+Use the [K–8 planning hub](./resources/k-8/README.md) for adult placement and sequence guidance; use only the learner's matching folder under [curriculum](./curriculum/README.md) for instruction. The hub is supplementary and does not establish standards coverage. Grades 4, 5, 7, and 8 contain expanded draft assignment and quiz libraries that still need teaching-sequence, key, prerequisite, and grade-placement review. Grades K, 1, 2, 3, and 6 each have one draft starter lesson per subject; K math and Grade 1 language arts also have draft scope-and-sequence documents. These are supplements, not complete units or courses. Families must review each track and choose or provide full-year materials, especially cumulative early reading instruction and math practice. See the [coverage note](./resources/k-8/coverage.md) for current limits.
+
 ## Assignments and Projects
 
 The `assignments/` folder holds the work students actually do.
@@ -219,4 +223,4 @@ Firebase hosting is also preconfigured in `.github/workflows/firebase-hosting.ym
 
 ## Summary
 
-OpenTutor is a public library of educational resources and four independent, anonymous grade tracks. Personalized schedules, grades, and learner work belong in private, access-controlled storage.
+OpenTutor is a public library of educational resources and independent, anonymous grade-specific draft tracks. Personalized schedules, grades, and learner work belong in private, access-controlled storage.

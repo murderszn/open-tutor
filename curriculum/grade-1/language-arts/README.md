@@ -13,6 +13,9 @@ See also: [Grade 1 track](../README.md), [curriculum index](../../README.md).
 
 ## What this track covers
 
+The [starter lesson](starter-lesson.md) is a limited early decoding and retelling
+draft; the full planned sequence remains unwritten.
+
 A full-year (about 36 weeks) grade-1 language arts course organized around
 phonemic review and short-vowel decoding, consonant blends and digraphs, long-vowel
 patterns and high-frequency words, fluent reading with retelling, informational

@@ -132,3 +132,7 @@ short independent written practice (6–8 tasks) that the adult reviews the same
 day. All reading passages in future units will be original or lawful
 public-domain texts, and every unit will include its own teacher guide and
 answer key.
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.
