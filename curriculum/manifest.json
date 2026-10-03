@@ -1820,12 +1820,16 @@
     {
       "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assets/counting-sorting-tray.png",
       "kind": "asset"
+    },
+    {
+      "path": "grade-k/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 43,
+    "subject-index": 44,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 228,
