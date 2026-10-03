@@ -33,3 +33,7 @@ Grade-specific assignments live in exactly one of the four independent grade fol
 - [🧬 Biology — 12‑Week Thread (Index)](stem/biology/README.md)
 - [💪 STEM Assignment: Strength Training Basics](strength-training/README.md)
 - [🖥️ STEM Assignment: Windows File System & Permissions](windows-file-system-permissions/README.md)
+
+## App
+
+Assignment specs are browsable in the [OpenTutor frontend](../frontend/README.md) at the `/browse` route (curriculum explorer + spec viewer) and runnable at `/student/assignments/:id`.

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "assignments",
+    "title": "Assignments & Projects",
+    "path": "assignments/README.md",
+    "summary": "Grade-specific assignments live in exactly one of the four independent grade folders under [curriculum](../curriculum/README.md). This catalog contains only grade-neutral references and activities. Do not cross-assign between grades, compare learners, or publish learner responses."
+  },
+  {
+    "id": "assignments/cmd-vs-powershell",
+    "title": "STEM Assignment: Windows Command Prompt vs PowerShell",
+    "path": "assignments/cmd-vs-powershell/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 8th Grade (Grade 8)"
+  },
+  {
+    "id": "assignments/daily-outdoor-activity",
+    "title": "STEM Assignment: Daily Outdoor Activity",
+    "path": "assignments/daily-outdoor-activity/README.md",
+    "summary": "**Subject:** STEM / Physical Health **Grade Level:** 5th\u20138th Grade"
+  },
+  {
+    "id": "assignments/franchising-in-america",
+    "title": "Franchising in America \u2014 Research Assignment",
+    "path": "assignments/franchising-in-america/README.md",
+    "summary": "Explore the world of American franchises: what they are, how they work, who runs them, and why they matter for understanding business and the economy. Resource: [Franchising in America](../../resources/franchising_in_america.md)"
+  },
+  {
+    "id": "assignments/git-bash-pc-navigation",
+    "title": "STEM Assignment: Git Bash PC Navigation",
+    "path": "assignments/git-bash-pc-navigation/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 8th Grade (Grade 8)"
+  },
+  {
+    "id": "assignments/git-workflow-basics",
+    "title": "STEM Assignment: Git Workflow Basics",
+    "path": "assignments/git-workflow-basics/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 8th Grade (Grade 8)"
+  },
+  {
+    "id": "assignments/intro-to-algorithms",
+    "title": "Intro to Algorithms",
+    "path": "assignments/intro-to-algorithms/README.md",
+    "summary": "**Subject**: STEM (Computer Science) **Goal**: Understand that computers need exact, step-by-step instructions by writing a real-world algorithm and drawing a simple flowchart."
+  },
+  {
+    "id": "assignments/language-arts/archetypal-myths-flood-trinity",
+    "title": "Archetypal Myths: Flood Stories & Trinity Patterns",
+    "path": "assignments/language-arts/archetypal-myths-flood-trinity/README.md",
+    "summary": "> **Optional faith/literature module:** Instructor-selected religious study; not part of the secular science requirements. **Grade Level:** 8th Grade (Grade 8)"
+  },
+  {
+    "id": "assignments/language-arts/archetypes-the-scarlet-letter",
+    "title": "Archetypes: The Scarlet Letter (Relevance Study)",
+    "path": "assignments/language-arts/archetypes-the-scarlet-letter/README.md",
+    "summary": "**Grade Level:** 8th Grade (Grade 8) **Subject:** Language Arts (Literature & Culture)"
+  },
+  {
+    "id": "assignments/language-arts/harlem-renaissance-poetry",
+    "title": "Poetry Focus: Langston Hughes & Maya Angelou",
+    "path": "assignments/language-arts/harlem-renaissance-poetry/README.md",
+    "summary": "**Grade Level:** 8th Grade (Grade 8) **Subject:** Language Arts (Poetry & Culture)"
+  },
+  {
+    "id": "assignments/language-arts/shakespeare-overview-hamlet",
+    "title": "Shakespeare Overview: Hamlet (Relevance Study)",
+    "path": "assignments/language-arts/shakespeare-overview-hamlet/README.md",
+    "summary": "**Grade Level:** 8th Grade (Grade 8) **Subject:** Language Arts (Drama & Culture)"
+  },
+  {
+    "id": "assignments/language-arts/shakespeare-overview-romeo-and-juliet",
+    "title": "Shakespeare Overview: Romeo & Juliet (Relevance Study)",
+    "path": "assignments/language-arts/shakespeare-overview-romeo-and-juliet/README.md",
+    "summary": "**Grade Level:** 8th Grade (Grade 8) **Subject:** Language Arts (Drama & Culture)"
+  },
+  {
+    "id": "assignments/mac-shell-scripting-intro",
+    "title": "STEM Assignment: Intro to Shell Scripting on Mac",
+    "path": "assignments/mac-shell-scripting-intro/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 5th Grade (Grade 5)"
+  },
+  {
+    "id": "assignments/mac-terminal-file-management",
+    "title": "STEM Assignment: Mac Terminal File Management",
+    "path": "assignments/mac-terminal-file-management/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 5th Grade (Grade 5)"
+  },
+  {
+    "id": "assignments/macbook-friendly-bash",
+    "title": "STEM Assignment: MacBook-Friendly Bash Basics",
+    "path": "assignments/macbook-friendly-bash/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 5th Grade (Grade 5)"
+  },
+  {
+    "id": "assignments/math/golden-ratio",
+    "title": "The Golden Ratio \u2014 History, Meaning, and Uses",
+    "path": "assignments/math/golden-ratio/README.md",
+    "summary": "Age fit: Grades 4\u20138 (scaled). This lesson explores what the Golden Ratio is (\u03d5 \u2248 1.618), where it comes from, why it matters, and how people see and use it in nature, science, design, and art. Quick Links"
+  },
+  {
+    "id": "assignments/minecraft-scripting-intro",
+    "title": "STEM Assignment: Minecraft Java \u2014 Scripting Basics",
+    "path": "assignments/minecraft-scripting-intro/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 5th Grade (Grade 5)"
+  },
+  {
+    "id": "assignments/powershell-basic-cron-scheduling",
+    "title": "STEM Assignment: PowerShell Basic Task Scheduling",
+    "path": "assignments/powershell-basic-cron-scheduling/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 8th Grade (Grade 8)"
+  },
+  {
+    "id": "assignments/powershell-execution-basics",
+    "title": "STEM Assignment: PowerShell Execution Basics",
+    "path": "assignments/powershell-execution-basics/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 8th Grade (Grade 8)"
+  },
+  {
+    "id": "assignments/powershell-pc-navigation",
+    "title": "STEM Assignment: PowerShell Navigation on Windows",
+    "path": "assignments/powershell-pc-navigation/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 8th Grade (Grade 8)"
+  },
+  {
+    "id": "assignments/punctuation-periods-and-question-marks",
+    "title": "Language Arts Assignment: Punctuation \u2014 Periods & Question Marks",
+    "path": "assignments/punctuation-periods-and-question-marks/README.md",
+    "summary": "**Subject:** Language Arts **Grade Level:** 5th Grade (Grade 5)"
+  },
+  {
+    "id": "assignments/reach-out-to-your-senator",
+    "title": "Assignment: Reach Out to Your Senator ([Your State])",
+    "path": "assignments/reach-out-to-your-senator/README.md",
+    "summary": "Speak up as an informed, respectful constituent. You will contact one or both current U.S. Senators from [Your State] to either express appreciation or share a constructive concern (grievance) about an issue that matters to you. 1) Choose your purpose"
+  },
+  {
+    "id": "assignments/responsive-navbar-challenge",
+    "title": "Responsive Navbar Challenge",
+    "path": "assignments/responsive-navbar-challenge/README.md",
+    "summary": "**Grade Level:** Middle School (adjust to your student) **Subject:** STEM / Web Development (HTML/CSS)"
+  },
+  {
+    "id": "assignments/roblox-shaders-and-meshes",
+    "title": "STEM Assignment: Roblox Studio \u2014 Shaders & Meshes",
+    "path": "assignments/roblox-shaders-and-meshes/README.md",
+    "summary": "**Subject:** STEM / Game Development **Grade Level:** 8th Grade (Grade 8)"
+  },
+  {
+    "id": "assignments/science/physical-science-roadmap",
+    "title": "Physical Science Roadmap (Accelerated Grade Track \u2022 Foundational Grade Track)",
+    "path": "assignments/science/physical-science-roadmap/README.md",
+    "summary": "Use this roadmap to cover core physical sciences with light chemistry, biology/anatomy, and physics. Pick one module per week; complete notes + one lab. Submit lab reports using the template. 1) Measurement & Units"
+  },
+  {
+    "id": "assignments/social-studies/history-of-war",
+    "title": "History of War \u2014 Turning Points & Institutions (Grade 8)",
+    "path": "assignments/social-studies/history-of-war/README.md",
+    "summary": "Study how major wars reshaped borders, leadership, and the rules of the world. Produce a concise, evidence\u2011based brief connecting one early turning point, the two World Wars, and one modern conflict. Core reference: ../../resources/wars_fundamentals.md"
+  },
+  {
+    "id": "assignments/solar-system-tour",
+    "title": "Solar System Tour",
+    "path": "assignments/solar-system-tour/README.md",
+    "summary": "**Subject**: STEM (Astronomy) **Goal**: Design a travel brochure for three planets in our solar system, explaining their unique characteristics to future \"tourists\"."
+  },
+  {
+    "id": "assignments/stem/biology",
+    "title": "Biology \u2014 12\u2011Week Thread (Index)",
+    "path": "assignments/stem/biology/README.md",
+    "summary": "This folder hosts short, hands\u2011on biology assignments sprinkled through the 12\u2011week plan. Topics build from systems and cycles to cells and processes. Each assignment includes grade\u2011appropriate tasks for 4th and 7th grade and a simple rubric. Submit work under your STEM assignments folder as noted i"
+  },
+  {
+    "id": "assignments/strength-training",
+    "title": "STEM Assignment: Strength Training Basics",
+    "path": "assignments/strength-training/README.md",
+    "summary": "**Subject:** STEM / Physical Health **Grade Level:** 5th\u20138th Grade"
+  },
+  {
+    "id": "assignments/windows-file-system-permissions",
+    "title": "STEM Assignment: Windows File System & Permissions",
+    "path": "assignments/windows-file-system-permissions/README.md",
+    "summary": "**Subject:** STEM / Computer Science **Grade Level:** 8th Grade (Grade 8)"
+  }
+]

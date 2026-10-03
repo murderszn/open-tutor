@@ -52,6 +52,10 @@ Reusable reference guides, datasets, and links for instructor-selected lessons. 
 - [us_presidents.csv](us_presidents.csv)
 - [us_states.csv](us_states.csv)
 
+## App
+
+Guides and datasets are searchable in the [OpenTutor frontend](../frontend/README.md) at the `/library` route (resource center).
+
 ## Curriculum
 
 - [Grade-based curriculum and blank assessments](../curriculum/README.md)

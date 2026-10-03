@@ -52,6 +52,7 @@ The larger system framing comes from the OpenTutor white paper in the Vibe proje
 Useful entry points:
 
 - [OpenTutor Manifesto](./site/index.html) · [preview and deployment instructions](./site/README.md)
+- [OpenTutor App (React frontend)](./frontend/README.md) — run `cd frontend && npm install && npm run dev`
 
 - [Faculty Planning Dashboard](./teachers/sites/index.html)
 
