@@ -131,3 +131,7 @@ catch-up, and review weeks that keep pacing humane. All reading passages in
 future units will be original or lawful public-domain texts (fables, folktales,
 and myths from diverse cultures for Unit 02), and every unit will include its
 own teacher guide and answer key.
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.
