@@ -79,3 +79,7 @@ Read the scope-and-sequence before starting; it lists safe household materials,
 accessibility supports, and the diagnostic, catch-up, and review weeks that keep
 pacing humane. Fluency is strategy-based — no timed speed tests. Each future unit
 will include its own teacher guide and answer key.
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.

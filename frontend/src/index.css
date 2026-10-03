@@ -1,0 +1,231 @@
+@import "tailwindcss";
+
+/* Solar Atlas + Modern WebUI Platform Tokens:
+   Pure white surfaces, crisp architectural lines, balanced spacing,
+   neon lime brand accent #b2f522, cobalt #2146e0, dark ink #090d18. */
+@theme {
+  --color-brand: #b2f522;
+  --color-cobalt: #2146e0;
+  --color-ink: #090d18;
+  --color-paper: #ffffff;
+  --color-subtle: #f8fafc;
+  --font-sans: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* Subject color tokens */
+:root {
+  --subject-math: #2563eb;
+  --subject-la: #059669;
+  --subject-stem: #7c3aed;
+  --subject-ss: #d97706;
+  --subject-other: #475569;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-cobalt);
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.03em;
+}
+
+.font-serif-headings h1,
+.font-serif-headings h2,
+.font-serif-headings h3,
+.heading-serif {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* Brand masthead: neon lime band with dark ink typography and sharp hairline border */
+.masthead {
+  background: var(--color-brand);
+  color: var(--color-ink);
+  border-bottom: 1px solid rgba(9, 13, 24, 0.20);
+}
+.masthead a {
+  text-decoration: none;
+}
+.masthead .wordmark {
+  font-family: var(--font-sans);
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+/* Modern Platform Card panels (Cartographer / OpenWebUI style) */
+.card {
+  background: #ffffff;
+  border: 1px solid rgba(9, 13, 24, 0.10);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px 0 rgba(9, 13, 24, 0.03), 0 1px 2px -1px rgba(9, 13, 24, 0.03);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  border-color: rgba(9, 13, 24, 0.16);
+}
+
+.card-dark {
+  background: var(--color-ink);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+}
+
+/* Primary actions */
+.btn-brand, a.btn-brand, button.btn-brand {
+  background: var(--color-cobalt);
+  color: #ffffff !important;
+  border: 1px solid var(--color-cobalt);
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+.btn-brand:hover, a.btn-brand:hover, button.btn-brand:hover {
+  background: #173ecc;
+  border-color: #173ecc;
+  color: #ffffff !important;
+}
+
+.btn-dark, a.btn-dark, button.btn-dark {
+  background: var(--color-ink);
+  color: #ffffff !important;
+  border: 1px solid var(--color-ink);
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: 600;
+  font-size: 14px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+.btn-dark:hover, a.btn-dark:hover, button.btn-dark:hover {
+  background: #1a2236;
+  border-color: #1a2236;
+  color: #ffffff !important;
+}
+
+/* Distinct secondary/outline button that never vanishes on white surfaces */
+.btn-outline, a.btn-outline, button.btn-outline {
+  background: #f1f5f9;
+  color: var(--color-ink) !important;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 10px 18px;
+  font-weight: 600;
+  font-size: 14px;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 2px rgba(9, 13, 24, 0.04);
+}
+.btn-outline:hover, a.btn-outline:hover, button.btn-outline:hover {
+  background: #e2e8f0;
+  border-color: #94a3b8;
+  color: var(--color-ink) !important;
+}
+
+/* Eyebrow / Section kicker */
+.section-kicker {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(9, 13, 24, 0.65);
+  margin-bottom: 8px;
+}
+
+.on-dark .section-kicker {
+  color: rgba(255, 255, 255, 0.70);
+}
+
+/* Micro icons */
+.micro {
+  display: inline-block;
+  object-fit: contain;
+  filter: brightness(0);
+  flex: none;
+}
+.on-dark .micro {
+  filter: brightness(0) invert(1);
+}
+
+/* Clean, crisp form elements */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+  background-color: #ffffff;
+  border: 1px solid rgba(9, 13, 24, 0.16);
+  border-radius: 8px;
+  color: var(--color-ink);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--color-cobalt);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(36, 85, 255, 0.12);
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+a {
+  color: inherit;
+}
