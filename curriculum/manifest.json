@@ -1586,184 +1586,20 @@
       "kind": "subject-index"
     },
     {
-      "path": "grade-1/README.md",
-      "kind": "grade-index"
-    },
-    {
-      "path": "grade-1/language-arts/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-1/math/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-1/math/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-1/science/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-1/science/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-1/social-studies/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-1/social-studies/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-2/README.md",
-      "kind": "grade-index"
-    },
-    {
-      "path": "grade-2/language-arts/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-2/language-arts/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-2/math/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-2/math/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-2/science/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-2/science/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-2/social-studies/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-2/social-studies/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-3/README.md",
-      "kind": "grade-index"
-    },
-    {
-      "path": "grade-3/language-arts/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-3/language-arts/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-3/math/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-3/math/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-3/science/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-3/science/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
       "path": "grade-3/social-studies/README.md",
       "kind": "subject-index"
     },
     {
-      "path": "grade-3/social-studies/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-6/README.md",
-      "kind": "grade-index"
-    },
-    {
-      "path": "grade-6/language-arts/README.md",
+      "path": "grade-3/social-studies/scope-and-sequence.md",
       "kind": "subject-index"
-    },
-    {
-      "path": "grade-6/language-arts/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-6/math/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-6/math/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-6/science/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-6/science/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-6/social-studies/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-6/social-studies/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-k/README.md",
-      "kind": "grade-index"
-    },
-    {
-      "path": "grade-k/language-arts/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-k/language-arts/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-k/math/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-k/science/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-k/science/starter-lesson.md",
-      "kind": "assignment"
-    },
-    {
-      "path": "grade-k/social-studies/README.md",
-      "kind": "subject-index"
-    },
-    {
-      "path": "grade-k/social-studies/starter-lesson.md",
-      "kind": "assignment"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
-    "grade-index": 9,
-    "subject-index": 42,
+    "grade-index": 4,
+    "subject-index": 26,
     "new-assignment": 31,
-    "assignment": 111,
+    "assignment": 91,
     "quiz": 227,
     "template": 14,
     "hints": 2,
