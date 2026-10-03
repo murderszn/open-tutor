@@ -136,3 +136,7 @@ Full weekly goals are in the scope-and-sequence.
   adult-supervised and stays private — no learner names, photos, addresses, or
   schedules enter this repository. Capstone presentations are shared only with
   the guiding adult's approval, never published from this track.
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.

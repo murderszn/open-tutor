@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 is delivered as a validated draft; Units 02–08 are planned, not yet written.
+See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one kindergarten learner at a time; a guiding adult adapts pacing, materials, and
@@ -60,15 +61,15 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Counting and classifying objects
-  2. Numbers to 10 and one-to-one correspondence
-  3. Comparing numbers and quantities
-  4. Teen numbers and ten frames
-  5. Addition stories within 10
-  6. Subtraction stories within 10
-  7. Shapes and spatial relationships
-  8. Measurement comparison and data sorting
+- `units/` — eight units:
+  1. [Counting and classifying objects](units/unit-01-counting-and-classifying-objects/README.md) — **delivered as validated draft** (issue #6, U01)
+  2. Numbers to 10 and one-to-one correspondence — planned
+  3. Comparing numbers and quantities — planned
+  4. Teen numbers and ten frames — planned
+  5. Addition stories within 10 — planned
+  6. Subtraction stories within 10 — planned
+  7. Shapes and spatial relationships — planned
+  8. Measurement comparison and data sorting — planned
 
 ## For the guiding adult
 
