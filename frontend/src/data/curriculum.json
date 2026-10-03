@@ -1,0 +1,90 @@
+{
+  "4": {
+    "bible": {
+      "assignments": 0,
+      "quizzes": 0
+    },
+    "language-arts": {
+      "assignments": 10,
+      "quizzes": 8
+    },
+    "math": {
+      "assignments": 15,
+      "quizzes": 11
+    },
+    "social-studies": {
+      "assignments": 4,
+      "quizzes": 16
+    },
+    "stem": {
+      "assignments": 19,
+      "quizzes": 12
+    }
+  },
+  "5": {
+    "bible": {
+      "assignments": 0,
+      "quizzes": 0
+    },
+    "language-arts": {
+      "assignments": 4,
+      "quizzes": 15
+    },
+    "math": {
+      "assignments": 6,
+      "quizzes": 12
+    },
+    "social-studies": {
+      "assignments": 4,
+      "quizzes": 14
+    },
+    "stem": {
+      "assignments": 5,
+      "quizzes": 15
+    }
+  },
+  "7": {
+    "bible": {
+      "assignments": 0,
+      "quizzes": 0
+    },
+    "language-arts": {
+      "assignments": 7,
+      "quizzes": 8
+    },
+    "math": {
+      "assignments": 11,
+      "quizzes": 14
+    },
+    "social-studies": {
+      "assignments": 5,
+      "quizzes": 17
+    },
+    "stem": {
+      "assignments": 18,
+      "quizzes": 23
+    }
+  },
+  "8": {
+    "bible": {
+      "assignments": 0,
+      "quizzes": 0
+    },
+    "language-arts": {
+      "assignments": 3,
+      "quizzes": 16
+    },
+    "math": {
+      "assignments": 4,
+      "quizzes": 15
+    },
+    "social-studies": {
+      "assignments": 4,
+      "quizzes": 15
+    },
+    "stem": {
+      "assignments": 3,
+      "quizzes": 16
+    }
+  }
+}

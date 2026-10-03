@@ -1,6 +1,6 @@
 # Public Content Review
 
-The public library currently has substantive independent, anonymous grade tracks for 4, 5, 7, and 8, plus placeholder hubs for K, 1, 2, 3, and 6. The [K–12 expansion plan](curriculum-expansion/README.md) adds four core subjects for all grades; planned or drafted material must be labeled honestly. Track content belongs only in `curriculum/grade-<k|1..12>/`. Do not refer a learner to another grade, combine grade tracks, share work between learners, compare results, or use sibling/peer language. Shared `assignments/` material is grade-neutral only.
+The public library has expanded draft assignment and quiz collections for grades 4, 5, 7, and 8; these still need teaching-sequence, answer-key, prerequisite, and grade-placement review. Grades K, 1, 2, 3, and 6 each have one draft starter lesson in four core subjects, not completed units or courses. Grade K math and Grade 1 language arts also have draft audit/scope-and-sequence material. The [K–12 expansion plan](curriculum-expansion/README.md) describes planned coverage; plans, issue checkboxes, and starter drafts must not be described as finished curriculum. Track content belongs only in `curriculum/grade-<k|1..12>/`. Do not refer a learner to another grade, combine grade tracks, share work between learners, compare results, or use sibling/peer language. Shared `assignments/` material is grade-neutral only.
 
 ## Privacy boundaries
 
@@ -21,7 +21,7 @@ The public library currently has substantive independent, anonymous grade tracks
 
 ## Validation
 
-Run `python3 scripts/validate-library.py` to check local links and structured data. Interactive HTML should be browser-tested as well; passing link checks alone does not prove an activity works.
+Run `python3 scripts/test-validate-library.py` for focused validator regression checks, then `python3 scripts/validate-library.py` to check local links, grade-track boundaries, curriculum manifest coverage, CSV/JSON structure, and private learner-path safeguards. Interactive HTML should be browser-tested as well; passing link checks alone does not prove an activity works. The [sampled curriculum review](curriculum-spot-review.md) covers eight named assignments only; its findings do not validate the full library.
 
 ## Git-history limitation
 

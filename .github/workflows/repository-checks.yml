@@ -21,6 +21,17 @@ jobs:
             echo "A likely secret file is tracked. Remove it from the repository." >&2
             exit 1
           fi
+      - name: Test repository validator
+        run: python3 scripts/test-validate-library.py
+      - name: Validate public library links and metadata
+        run: python3 scripts/validate-library.py
+      - name: Check site JavaScript syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+          for file in site/*.js; do
+            node --check "$file"
+          done
       - name: Validate repository metadata
         shell: bash
         run: |

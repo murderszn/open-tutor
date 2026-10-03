@@ -13,6 +13,10 @@ See also: [Grade K track](../README.md), [curriculum index](../../README.md).
 
 ## What this track covers
 
+The [starter lesson](starter-lesson.md) is a separate, limited practice draft on
+counting, comparing, and composing teen numbers. It does not replace the units
+planned below.
+
 A full-year (about 36 weeks) kindergarten math course organized around counting,
 number sense to 20, addition and subtraction within 10, shapes, measurement
 comparison, and early data sorting. Sessions are short (15–20 minutes, about

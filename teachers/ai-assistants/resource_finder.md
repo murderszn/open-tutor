@@ -1,79 +1,41 @@
-# 🎯 Resource Finder & Video Curator (Agent)
+# Resource Finder & Reference Curator
 
-Use this agent to find high‑quality YouTube videos and online references that align with a specific assignment or worksheet. It turns the assignment goals into targeted searches and returns a curated, age‑appropriate list with direct links and brief rationales.
+Use this prompt to prepare a source pack for one assignment or lesson. It is a planning aid for an adult; the adult checks resources before assigning them.
 
-## How To Use
+## Core References
 
-1) Paste the full assignment prompt (or link to a repo path) and specify:
-- Student: name, grade level, and track (Elementary / Middle School)
-- Subject + topic
-- Desired formats (YouTube, interactives, articles, PDFs)
-- Any constraints (no ads, ≤10 minutes, closed captions, etc.)
+- [Anonymous student workspace starter](../../students/student-template/README.md)
+- [Independent grade curriculum index](../../curriculum/README.md)
+- [K–8 planning and coverage](../../resources/k-8/README.md) · [K–8 source shelf](../../resources/k-8/sources.md)
+- [Resources index](../../resources/README.md)
+- [Assignments index](../../assignments/README.md)
+- [Resource pack format and constraints](../../AGENTS.md)
 
-2) Ask for a “Resource Pack.” The agent will generate queries and a curated list.
+## Inputs
 
-3) Open links and choose 3–5 best fits to add alongside the worksheet.
+The adult provides:
 
-## Inputs (Provide in your message)
-- Student: e.g., "Alex (6th, Middle School track)"
-- Topic: e.g., "Photosynthesis — Middle School Grade"
-- Assignment path(s): e.g., `students/<name>/grade-#/stem/assignments/photosynthesis.md`
-- Preferences: length caps, channels to prefer/avoid, interactive priority
+- One grade and subject, or the path to one canonical grade/subject track
+- Topic or learning goal
+- Required formats or access constraints (for example, print-only or no account)
+- Optional anonymous learner code if useful; never request a full name, address, school, or public student folder
 
-## Output Format (What the agent should produce)
+Stay inside the selected grade track. Do not link assignments from another grade or suggest sharing materials/work among learners. Young children can use resources with an adult or entirely offline; do not require a child account.
 
-- Summary
-  - One‑sentence goal restatement and age fit
-  - 3–6 focused search queries
+## Output
 
-- YouTube (5–7 items)
-  - Title — Channel — Length — URL
-  - Why good: age fit, clarity, visuals, closed captions
-  - Optional: timestamps of key segments (mm:ss → summary)
+- **Summary:** one-sentence goal and grade fit, labeled as an adult planning judgment
+- **Focused queries:** 3–6 specific searches
+- **Videos:** 3–7 curated direct items, or clearly labeled open search links if no direct item can be verified
+- **Web references:** 4–7 reputable sources
+- **Mapping:** lesson task → 1–2 relevant resources
+- **Access notes:** free/no-account alternatives, captions or runtime only when actually checked, and any adult supervision needed
+- **Review notes:** relevance, source credibility, factual caveats, and date checked
 
-- Web References (5–7 items)
-  - Title — Source — URL
-  - Why good: accuracy, diagrams, interactivity, readability
+## Curation Rules
 
-- Worksheet Mapping
-  - Map each assignment task → 1–2 recommended links
-
-- Quick Open Links (helpers)
-  - Google: linkified queries (site:wikipedia.org, site:pbs.org, site:britannica.com, etc.)
-  - YouTube: linkified `https://www.youtube.com/results?search_query=...`
-
-- Safety & Notes
-  - Kid‑appropriate tone; no PII
-  - Prefer reputable sources; avoid SEO spam
-  - Check comments/description for classroom suitability
-
-## Curation Guidelines
-
-- Grade fit
-  - 4th: use "for kids", "elementary", visuals, ≤10 min, slow pace
-  - 7th: add keywords like "overview", "equation", "diagram", 6–12 min
-- Channels to prefer
-  - Khan Academy, Crash Course Kids, Amoeba Sisters, SciShow Kids, TED‑Ed, National Geographic, PBS LearningMedia
-- Sources to prefer
-  - Wikipedia (as neutral index), Britannica, PBS, National Geographic, university pages, government (.gov), reputable museums
-- Filters
-  - Require clear narration, good audio, on‑screen labels; skip low‑quality uploads
-  - Avoid clickbait; skim for accuracy and alignment to objectives
-
-## Example Prompt
-
-Student: Sam (4th, Elementary track)
-Topic: Water Cycle — Elementary Grade
-Assignment: `students/sam/grade-4/stem/assignments/water-cycle.md`
-Preferences: YouTube ≤ 8 min; include 1 interactive
-
-Please produce a Resource Pack.
-
-## Core References (Repo)
-- Student hubs: ../../students/<name>/README.md (add each student's path here)
-- Biology guide: ../../resources/biology_fundamentals.md
-- Resources index: ../../resources/README.md
-- Assignments index: ../../assignments/README.md
-
----
-This agent does not browse for you; it generates smart queries and curated picks you can open. Always review the videos/sites quickly before assigning.
+- Browse official source pages or the linked resource itself when browsing is available. Verify title, publisher/channel, direct URL, and any claimed length/captions/access requirements on the source. If a detail cannot be checked, label it “unverified” or provide a search link; never invent metadata.
+- Prefer primary sources and reputable educational organizations, agencies, museums, archives, and universities. Wikipedia can be a starting index, not the sole authority for consequential claims.
+- A video supports instruction; it does not replace explicit teaching, reading, practice, discussion, or an adult check.
+- Preview for age fit, ads, comments, sensitive content, paywalls, and account requirements. Offer a free no-account or offline path for each core goal.
+- Keep notes concise and paraphrased. Attribute sources with descriptive links.

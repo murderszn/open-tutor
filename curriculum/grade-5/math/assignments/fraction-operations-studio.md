@@ -59,9 +59,8 @@ Each small celebration cup holds exactly **$\frac{1}{4}$ quart** of lemonade.
 - Model and solve: $4 \div \frac{1}{4} = \text{?}$
 
 #### 5. Sharing the Leftover Batch (Unit Fraction Divided by Whole Number)
-At the end of dinner, there is only **$\frac{1}{3}$ of a dessert pan** left.
-- You want to share this leftover dessert equally among yourself, Learner, and Learner (3 kids).
-- What fraction of the original pan does each equal portion represent? Show the division that supports your answer.
+After serving lemonade, **$\frac{1}{3}$ quart** remains in the pitcher. Share it equally among three people.
+- How many quarts of lemonade does each person get? Show the division that supports your answer.
 - Model and solve: $\frac{1}{3} \div 3 = \text{?}$
 
 ---
@@ -85,9 +84,9 @@ At the end of dinner, there is only **$\frac{1}{3}$ of a dessert pan** left.
 - Flour: 2 1/2 x 2 = ___ cups
 - Water: 3/4 x 2 = ___ cups
 
-### Task 4 & 5: Lemonade & Dessert Splitting
+### Task 4 & 5: Lemonade Pitcher Division
 - Cups poured (4 ÷ 1/4): ___ cups
-- Dessert share (1/3 ÷ 3): ___ of the pan
+- Lemonade share (1/3 ÷ 3): ___ quart per person
 ```
 
 ---

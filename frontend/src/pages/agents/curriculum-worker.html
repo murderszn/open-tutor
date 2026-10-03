@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CurriculumWorker — issue tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;800&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+:root { --brand: #b2f522; --cobalt: #2146e0; --ink: #090d18; --paper: #ffffff; --card-border: rgba(9,13,24,0.18); }
+* { box-sizing: border-box; }
+body { font-family: 'Geist', ui-sans-serif, system-ui, sans-serif; background: var(--paper); color: var(--ink); max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+h1, h2, h3 { font-family: 'Instrument Serif', Georgia, serif; font-weight: normal; letter-spacing: -0.01em; color: var(--ink); }
+h1 { font-size: 2.25rem; margin: 0.5rem 0 1rem; }
+a { color: var(--cobalt); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.back-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
+.card { background: #fff; border: 1px solid var(--card-border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+select { font-family: inherit; font-size: 14px; color: var(--ink); background: #fff; border: 1px solid var(--card-border); border-radius: 8px; padding: 8px 12px; min-height: 44px; }
+select:focus { outline: 2px solid var(--cobalt); border-color: var(--cobalt); }
+label { font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+table { border-collapse: collapse; width: 100%; margin-top: 1rem; background: #fff; border: 1px solid var(--card-border); border-radius: 10px; overflow: hidden; }
+th { background: var(--ink); color: #fff; font-weight: 600; text-align: left; padding: 10px 14px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; border: none; }
+td { border-bottom: 1px solid var(--card-border); padding: 10px 14px; color: var(--ink); font-size: 14px; border-top: none; border-left: none; border-right: none; }
+[data-aud] { background: #fff; border: 1px solid var(--card-border); border-left: 4px solid var(--brand); padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 1rem 0; font-size: 14px; }
+</style>
+</head>
+<body>
+<a href="index.html" class="back-link">&larr; Cockpit</a>
+<div class="card">
+  <h1>CurriculumWorker</h1>
+  <label>Filter: <select id="f"><option value="all">all</option><option value="open">open</option><option value="in-progress">in-progress</option><option value="delivered">delivered</option></select></label>
+  <table id="t"><tr><th>#</th><th>Track</th><th>Section</th><th>Status</th><th>Updated</th></tr></table>
+  <p data-aud="student">Student view: tracker internals hidden — ask a parent for status.</p>
+</div>
+<script type="module">
+import { runAgent, agentClient } from '../../lib/agentClient.js';
+agentClient.audience = localStorage.getItem('aud')||'parent';
+if (agentClient.audience==='student') document.getElementById('t').style.display='none';
+async function load(){ const issues = await runAgent('CurriculumWorker', {});
+  document.querySelectorAll('#t tr:not(:first-child)').forEach(r=>r.remove());
+  for (const i of issues.filter(x=>f.value==='all'||x.status===f.value)) { const tr=document.createElement('tr');
+    [i.id,i.track,i.section,i.status,i.updated].forEach(c=>{const td=document.createElement('td');td.textContent=c;tr.appendChild(td);}); t.appendChild(tr); } }
+f.onchange=load; load();
+</script>
+</body></html>
