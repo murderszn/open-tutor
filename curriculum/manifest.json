@@ -1584,12 +1584,28 @@
     {
       "path": "grade-1/language-arts/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/science/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 4,
-    "subject-index": 24,
+    "subject-index": 28,
     "new-assignment": 31,
     "assignment": 91,
     "quiz": 227,
