@@ -1824,12 +1824,16 @@
     {
       "path": "grade-k/language-arts/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 44,
+    "subject-index": 45,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 228,
