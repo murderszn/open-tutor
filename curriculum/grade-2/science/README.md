@@ -91,3 +91,7 @@ learner's short written practice (6–8 tasks) the same day. Investigations use
 household or dollar-store materials; the adult previews every procedure for
 safety and substitutes an observation or simulation alternative whenever the
 real thing is unsafe, unavailable, or inaccessible.
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.

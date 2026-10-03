@@ -2,11 +2,15 @@
 
 ## Select one grade track
 
-1. Choose one developed grade folder: currently `curriculum/grade-4`, `grade-5`, `grade-7`, or `grade-8`. The [K–12 expansion plan](curriculum-expansion/README.md) identifies placeholder and planned tracks; these are not ready to assign merely because an issue or grade hub exists.
+1. Read the [curriculum index](../curriculum/README.md) and the matching [K–8 planning guidance](../resources/k-8/README.md). Grades 4, 5, 7, and 8 have expanded draft assignment/quiz libraries that still need instructional review. K, 1, 2, 3, and 6 have limited developing material. A grade hub, plan, or starter lesson does not by itself make a complete unit ready to teach.
 2. Work only inside that grade folder for that learner. Do not reference, assign, or compare with another grade’s folder.
 3. Select a subject overview, then a blank assignment or assessment in that same folder.
 4. Preview sources, check prerequisites and safety, and adapt accommodations.
-5. Keep responses and progress in an access-controlled private workspace.
+5. Keep responses and progress in a local/offline or access-controlled private workspace.
+
+## Create a private workspace
+
+Public GitHub forks remain public; do not put learner work, grades, real schedules, or identifying information in a fork, even temporarily. Download or copy only the blank instructional files you need, then keep actual learner records in local storage with appropriate device access controls or in a separately created private repository with carefully reviewed collaborators. If creating a private repository, start it independently and copy selected blank files; do not copy the public repository's Git history into a learner workspace. Verify the destination's visibility and collaborator list before adding any records. See [GitHub's fork documentation](https://docs.github.com/en/pull-requests/reference/forks).
 
 ## Individual weekly planning template
 

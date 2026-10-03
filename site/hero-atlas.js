@@ -1,12 +1,11 @@
-/* Native cartographic shader. No libraries, network calls, or pointer tracking. */
+/* Transparent ink halftone shader. Motion follows scrolling, then settles. */
 (function () {
   'use strict';
   var canvas = document.getElementById('hero-shader');
-  var button = document.querySelector('.atlas-motion');
-  if (!canvas || !button) return;
+  if (!canvas) return;
   var gl;
   try {
-    gl = canvas.getContext('webgl', { alpha: false, antialias: false, depth: false, powerPreference: 'low-power' });
+    gl = canvas.getContext('webgl', { alpha: true, premultipliedAlpha: false, antialias: false, depth: false, powerPreference: 'low-power' });
   } catch (error) { return; }
   if (!gl) return;
 
@@ -22,19 +21,18 @@
     'vec2 p=(gl_FragCoord.xy/u_resolution-0.5)*vec2(u_resolution.x/u_resolution.y,1.0);',
     'vec2 flow=vec2(sin(u_time*0.12)*0.24,cos(u_time*0.09)*0.18);',
     'float h=terrain(p*1.4+flow+vec2(2.4,0.7));',
-    'vec3 ink=vec3(0.035,0.051,0.094), blue=vec3(0.141,0.333,1.0);',
-    'vec3 pink=vec3(1.0,0.0,0.718), white=vec3(1.0);',
-    'vec3 color=mix(ink,blue,smoothstep(0.24,0.59,h));',
-    'color=mix(color,pink,smoothstep(0.55,0.72,h));',
+    'vec3 ink=vec3(0.035,0.051,0.094), white=vec3(1.0,0.976,0.929);',
+    'vec3 color=mix(ink,white,smoothstep(0.24,0.72,h)*0.3);',
     'float contour=1.0-smoothstep(0.025,0.09,abs(fract(h*19.0)-0.5));',
-    'color=mix(color,white,contour*0.75);',
+    'color=mix(color,white,contour*0.34);',
     'vec2 dotCell=fract(gl_FragCoord.xy/3.6)-0.5;',
     'float stipple=smoothstep(0.18,0.44,length(dotCell));',
     'color=mix(color,ink,stipple*0.48);',
     'vec2 grid=abs(fract((p+vec2(0.4))*4.0)-0.5);',
     'float drafting=1.0-smoothstep(0.006,0.02,min(grid.x,grid.y));',
     'color=mix(color,vec3(1.0,0.976,0.929),drafting*0.15);',
-    'gl_FragColor=vec4(color,1.0);',
+    'float density=smoothstep(0.18,0.52,dot(color,vec3(0.2126,0.7152,0.0722)));',
+    'gl_FragColor=vec4(ink,density*0.16);',
     '}'
   ].join('\n');
 
@@ -68,11 +66,9 @@
   var resolution = gl.getUniformLocation(program, 'u_resolution');
   var time = gl.getUniformLocation(program, 'u_time');
   var reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
-  var paused = false;
   var visible = true;
   var lost = false;
   var frame = 0;
-  var last = 0;
   var elapsed = 0;
 
   function draw() {
@@ -93,25 +89,26 @@
     }
     draw();
   }
-  function tick(stamp) {
-    frame = window.requestAnimationFrame(tick);
-    if (stamp - last < 1000 / 24) return;
-    elapsed += last ? Math.min((stamp - last) / 1000, 0.1) : 0;
-    last = stamp;
+  function tick() {
+    frame = 0;
+    elapsed = reduced.matches ? 0 : window.scrollY * 0.025;
     draw();
+  }
+  function schedule() {
+    if (!frame && !reduced.matches && visible && !document.hidden && !lost) {
+      frame = window.requestAnimationFrame(tick);
+    }
   }
   function sync() {
     window.cancelAnimationFrame(frame);
     frame = 0;
-    last = 0;
-    button.hidden = reduced.matches || lost;
-    button.setAttribute('aria-pressed', String(paused));
-    button.setAttribute('aria-label', paused ? 'Resume background animation' : 'Pause background animation');
-    button.firstElementChild.textContent = paused ? '▶' : 'Ⅱ';
-    if (!paused && !reduced.matches && visible && !document.hidden && !lost) frame = window.requestAnimationFrame(tick);
-    else draw();
+    if (reduced.matches) elapsed = 0;
+    if (visible && !document.hidden && !lost) {
+      draw();
+      schedule();
+    }
   }
-  button.addEventListener('click', function () { paused = !paused; sync(); });
+  window.addEventListener('scroll', schedule, { passive: true });
   document.addEventListener('visibilitychange', sync);
   if (reduced.addEventListener) reduced.addEventListener('change', sync);
   else reduced.addListener(sync);
