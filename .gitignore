@@ -7,6 +7,7 @@
 !AGENTS.md
 !LICENSE
 !SECURITY.md
+!CONTRIBUTING.md
 !firebase.json
 !.firebaserc
 !.github/
@@ -17,6 +18,7 @@
 !resources/
 # Track the anonymous workspace starter only. Never commit real learner folders.
 !students/
+/students/*
 !students/student-template/
 !students/student-template/**
 
@@ -26,6 +28,7 @@
 !frontend/**
 frontend/node_modules/
 frontend/dist/
+frontend/.vite/
 !curriculum/
 !docs/
 !scripts/
@@ -35,6 +38,8 @@ frontend/dist/
 **/Thumbs.db
 **/*.log
 **/~$*
+__pycache__/
+*.py[cod]
 # Secrets and local credentials
 .env
 .env.*

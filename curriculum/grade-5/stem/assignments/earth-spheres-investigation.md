@@ -1,7 +1,7 @@
 # 🌍 Science Project: Earth's Spheres Investigation Lab
 
 **Course:** Grade 5 STEM (Earth Science Track)  
-**Deliverables:** Investigation Journal, Sphere Interaction Diagram, Terrarium/Model Photo, and Optional YouTube Episode  
+**Deliverables:** Four field notes, a sphere-interaction diagram, a three-day observation log, and an optional private explanation.
 
 ---
 
@@ -17,7 +17,7 @@
 ---
 ## 🧭 Mission Background: Planet Earth's Four Spheres
 
-Earth is not just a giant ball of rock — it is a living, breathing system made up of four interconnected "spheres" that work together 24 hours a day, 7 days a week:
+Earth's solid ground, water, air, and living things interact as four connected parts of the Earth system:
 
 ```
                ┌──────────────────────────────────────────────┐
@@ -35,9 +35,9 @@ Earth is not just a giant ball of rock — it is a living, breathing system made
   └───────────┘      └───────────┘         └───────────┘      └───────────┘
 ```
 
-When rain (Hydrosphere) falls from clouds (Atmosphere) onto rocky soil (Geosphere), plants sprout and drink the water (Biosphere). None of these spheres could survive alone!
+When rain (hydrosphere) falls from clouds (atmosphere) onto soil (geosphere), plants (biosphere) can take up water. The spheres interact, but they are not all alive and can exist separately.
 
-In this project, you will become an Earth Systems Detective. You will track and document sphere interactions in your own backyard or neighborhood, build a closed mini-world terrarium to watch the water cycle inside a bottle, and explain how these spheres keep our planet alive.
+In this project, you will document sphere interactions in your neighborhood, use a small terrarium model to observe water moving through a plant-soil system, and explain connections among Earth's spheres.
 
 ---
 
@@ -50,25 +50,22 @@ Take a field notebook outdoors for 20 minutes. Find and describe at least **four
 *   *Example Interaction 3:* Wind shaking autumn leaves off an oak tree (**Atmosphere** interacting with **Biosphere**).
 *   *Example Interaction 4:* Puddle water evaporating into the warm afternoon air (**Hydrosphere** interacting with **Atmosphere**).
 
-### Step 2: Build a Closed Tabletop Terrarium ("Earth in a Jar")
-Create your own mini-biosphere to observe the water cycle and sphere interactions in real-time:
-1.  **Materials**: A clean clear glass mason jar (or clear 2-liter soda bottle with lid), small pebbles/gravel, activated charcoal (or small crushed dried leaves), potting soil, moss or small weeds/plants, and water.
+### Step 2: Build a Tabletop Terrarium Model ("Earth in a Jar")
+Create a small planted jar to observe water moving through the system over time:
+1.  **Materials**: A clean clear jar or clear bottle with a lid, small pebbles/gravel, potting soil, moss or small plants, and water. A thin layer of sand or activated charcoal is optional; it is not needed to keep the water safe or sterile.
 2.  **Layer 1 (Drainage)**: Put 1 inch of small pebbles at the bottom (Geosphere).
-3.  **Layer 2 (Filter)**: Add a thin sprinkle of charcoal/sand to keep the water fresh.
+3.  **Layer 2 (Optional)**: Add a thin sprinkle of sand or activated charcoal if available; this is not a water purifier.
 4.  **Layer 3 (Soil)**: Add 2–3 inches of rich potting soil (Geosphere).
 5.  **Layer 4 (Life)**: Plant 2–3 small weeds, moss, or seedlings gently into the soil (Biosphere).
 6.  **Layer 5 (Water & Air)**: Mist lightly with 2–3 tablespoons of water (Hydrosphere), leaving air space at top (Atmosphere).
-7.  **Seal It**: Screw the lid on tight! Place it near a sunny window (not in boiling direct sun).
+7.  **Close It**: Fit the lid loosely or close it, then place the jar in bright indirect light. Check that it does not become hot.
 8.  **Observe**: Watch water droplets condense on the glass walls and "rain" back down on the soil!
 
 ### Step 3: Draw a Sphere Interaction Diagram
 On paper (or using digital drawing tools), sketch a diagram showing arrows connecting all 4 spheres. Label how energy from the Sun drives the whole system.
 
-### Step 4: Optional YouTube Creator Segment (Learner’s Channel!)
-Film a 60–90 second mini-segment for your YouTube channel:
-*   Show your sealed jar terrarium up close on camera (great B-roll!).
-*   Explain the 4 spheres in simple, energetic terms.
-*   Show where condensation has formed on the glass.
+### Step 4: Optional Explanation
+Make a private 60–90 second narration, or write a short storyboard, explaining how the four spheres connect in your model. A video is optional; no face, identifying details, or public upload is needed.
 
 ---
 
@@ -88,7 +85,7 @@ Film a 60–90 second mini-segment for your YouTube channel:
 | **Sphere Understanding** | Correctly defines all 4 spheres and gives accurate examples of each. | Clearly explains complex interactions where 3 or 4 spheres connect simultaneously. |
 | **Terrarium Lab Build** | Builds a functional layered jar with soil, plants, and moisture. | Explains the mini water cycle inside the jar (evaporation $\to$ condensation $\to$ precipitation). |
 | **Field Notes & Observations** | Completes 4 outdoor observations with descriptive sentences. | Detailed sensory notes, drawings, and connects observations to energy from the Sun. |
-| **Presentation & Creativity** | Clear diagrams and neatly written responses. | Polished diagrams or enthusiastic video segment demonstrating science communication! |
+| **Presentation & Creativity** | Clear diagrams and neatly written responses. | A polished diagram or clear private narration explaining the model. |
 
 ---
 
@@ -111,10 +108,10 @@ Film a 60–90 second mini-segment for your YouTube channel:
 *   **Plants Used:** 
 *   **Day 1 Observation:** (What does the jar look like after 2 hours in the light?)
 *   **Day 2 Observation:** (Do you see "rain" or water drops on the glass?)
-*   **Day 3 Observation:** (How are the plants doing inside their sealed world?)
+*   **Day 3 Observation:** (How are the plants doing in the jar?)
 
-### 3. Science Explanation: Why Earth is Unique
-*In 3–4 sentences, explain why life could not survive on Mars or the Moon if one of these four spheres were missing:*
+### 3. Science Explanation: Connected Spheres
+*In 3–4 sentences, describe one way two or more Earth spheres interact and what might change if that interaction were disrupted:*
 
 ## Safety
-An educator must approve the setup. Use small, light objects on a stable low surface, keep people clear of moving objects, and stop if anything is unsafe. Use warm—not hot—water; no flames, lasers, pressurized containers, sharp tools, or mains electricity. Substitute provided data or diagrams when equipment or supervision is unavailable. Keep observations and identifying images private.
+An adult should prepare a clean, unchipped container and fresh potting mix, supervise handling, and wash hands afterward. Use only plants an adult has identified as suitable; do not taste plants or soil. Keep the jar in bright indirect light, not direct sun. If mold appears, ask the adult to remove affected material; discard the setup if mold persists. Use an adult-provided diagram or observations if the materials are unavailable. Keep notes and any images private. See [Penn State Extension's closed-terrarium guidance](https://extension.psu.edu/creating-a-closed-terrarium) and [child gardening safety notes](https://extension.psu.edu/programs/betterkidcare/early-care/tip-pages/all/gardening).
