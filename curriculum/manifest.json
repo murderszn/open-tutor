@@ -1756,12 +1756,16 @@
     {
       "path": "grade-k/social-studies/starter-lesson.md",
       "kind": "assignment"
+    },
+    {
+      "path": "grade-k/science/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 42,
+    "subject-index": 43,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 227,

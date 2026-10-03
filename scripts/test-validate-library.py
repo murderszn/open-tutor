@@ -14,7 +14,7 @@ SPEC.loader.exec_module(validator)
 class LibraryValidatorTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
-        validator.ROOT = Path(self.temp.name)
+        validator.ROOT = Path(self.temp.name).resolve()
         validator.errors.clear()
 
     def tearDown(self):
