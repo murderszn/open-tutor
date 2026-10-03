@@ -52,10 +52,15 @@ Reusable reference guides, datasets, and links for instructor-selected lessons. 
 - [us_presidents.csv](us_presidents.csv)
 - [us_states.csv](us_states.csv)
 
+## App
+
+Guides and datasets are searchable in the [OpenTutor frontend](../frontend/README.md) at the `/library` route (resource center).
+
 ## Curriculum
 
 - [Grade-based curriculum and blank assessments](../curriculum/README.md)
 - [Assignments catalog](../assignments/README.md)
+- [K–8 planning, coverage, and assessment guidance](./k-8/README.md): supplementary adult planning notes; the matching independent grade track in `curriculum/` is the instructional source.
 - [K–12 expansion resource reuse map](../docs/curriculum-expansion/resource-map.md)
 
 Religious-study guides are optional modules; they do not replace evidence-based science instruction.

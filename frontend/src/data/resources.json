@@ -1,0 +1,407 @@
+[
+  {
+    "id": "r001",
+    "title": "Learning Resources",
+    "subject": "General",
+    "grades": "4-8",
+    "type": "index",
+    "path": "resources/README.md",
+    "summary": "Reusable reference guides, datasets, and links for instructor-selected lessons. External resources are linked, not redistributed; their licenses and terms remain with their owners. Preview videos and confirm current financial or scientific claims before teaching. Religious-study guides are optional "
+  },
+  {
+    "id": "r002",
+    "title": "Astronomy Fundamentals",
+    "subject": "Science",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/astronomy_fundamentals.md",
+    "summary": "This guide covers the basics of our solar system, stars, and galaxies. Our solar system consists of a central star (the Sun), eight planets, dwarf planets, moons, asteroids, and comets."
+  },
+  {
+    "id": "r003",
+    "title": "Automotive Basics: History & Mechanics of Cars",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/automotive-basics.md",
+    "summary": "Welcome to the ultimate guide on automobiles! In this guide, we won't just scratch the surface. We will dive deep into the fascinating history of cars, uncover the mechanical magic that happens under the hood when you press the gas pedal, learn how to identify the major structural parts of a vehicle"
+  },
+  {
+    "id": "r004",
+    "title": "Bible Fundamentals \u2014 Overview, Study Habits, and Core Themes",
+    "subject": "Bible",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/bible_fundamentals.md",
+    "summary": "> **Optional faith/literature module:** Instructor-selected religious study; not part of the secular science requirements. A family-friendly Bible study guide with age-appropriate structure for upper elementary and middle school learners."
+  },
+  {
+    "id": "r005",
+    "title": "Biology Fundamentals \u2014 Water Cycle, Cells, Photosynthesis, Reproduction",
+    "subject": "Science",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/biology_fundamentals.md",
+    "summary": "A single, student\u2011friendly reference that supports this term\u2019s STEM biology assignments. Includes quick explanations, simple diagrams, and links to trusted sources. The continuous movement of water on, above, and below Earth\u2019s surface driven by the Sun."
+  },
+  {
+    "id": "r006",
+    "title": "Black Panther Party: History and the 1970s",
+    "subject": "Social Studies",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/black-panther-party-rise-1970s.md",
+    "summary": "The Black Panther Party (BPP) was founded in Oakland, California, in 1966 by Huey P. Newton and Bobby Seale. The group started as a response to police brutality and racial injustice, then grew into a national organization known for community programs, political education, and self-defense activism. "
+  },
+  {
+    "id": "r007",
+    "title": "Black Excellence: Study Them",
+    "subject": "Social Studies",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/black_excellence_figures.md",
+    "summary": "A research guide highlighting historic and modern Black excellence across various industries and domains. This guide introduces students to figures who have broken barriers, set new records, and culturally defined their generations. Tip: Click into the \u201cEarly life,\u201d \u201cCareer,\u201d and \u201cLegacy\u201d sections o"
+  },
+  {
+    "id": "r008",
+    "title": "Careers \u2014 Paths, Education, Specialties, Pay (US est.)",
+    "subject": "Careers",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/careers.md",
+    "summary": "A quick, student\u2011friendly guide to common and emerging careers. Ranges are rough U.S. estimates; always check current data (see Sources) and local markets. Education key: HS = High School; Cert = Certificate/Apprenticeship; AA/AS = Associate (2\u2011yr); BA/BS = Bachelor (4\u2011yr); MS/MEng/MBA = Master; PhD"
+  },
+  {
+    "id": "r009",
+    "title": "Chemistry Fundamentals \u2014 Middle School Guide",
+    "subject": "Science",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/chemistry_fundamentals.md",
+    "summary": "Summary: Core chemistry ideas for grades 4\u20138: matter and atomic structure, the periodic table, bonding (ionic vs covalent), and simple reactions/balancing. Use alongside weekly STEM quizzes. Balanced reaction (conservation of mass)"
+  },
+  {
+    "id": "r010",
+    "title": "Computer Parts & Custom PC Basics",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/computer-parts-custom-pc.md",
+    "summary": "Learn the core parts of a modern desktop computer, what each part does, and how they work together in a complete system. 1. **CPU (Central Processing Unit)**"
+  },
+  {
+    "id": "r011",
+    "title": "Computer Science Basics",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/computer_science_fundamentals.md",
+    "summary": "This guide introduces fundamental concepts of how computers process information and how we give them instructions (coding). At their core, computers only understand two states: **ON (1)** and **OFF (0)**. This is called binary. Everything a computer does\u2014from playing a video game to writing an essay"
+  },
+  {
+    "id": "r012",
+    "title": "Cooking & Nutrition \u2014 Biology of Food",
+    "subject": "Health",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/cooking_and_nutrition.md",
+    "summary": "A student-friendly reference covering macronutrients, how the body uses food, reading nutrition labels, and the basic science of what happens when you cook. Supports the **What's Really in Your Food?** assignment and any future nutrition or cooking-science work. **What they are:** Long chains of sug"
+  },
+  {
+    "id": "r013",
+    "title": "The Ultimate Guide to File Types",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/file-types.md",
+    "summary": "When you work on a computer, save a document, download an image, or write code, you are working with **files**. Every file has an **extension** (the letters after the dot in the file name, like `.jpg` or `.txt`) that tells the computer what kind of data is inside it and what program should open it. "
+  },
+  {
+    "id": "r014",
+    "title": "Financial Tools & Principles",
+    "subject": "Financial Literacy",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/financial_tools_and_principles.md",
+    "summary": "A practical, age\u2011appropriate guide to money, markets, and smart habits. Use this for Social Studies, STEM math practice, and real\u2011life prep. Keep everything in your student folder in a `/finance` subfolder."
+  },
+  {
+    "id": "r015",
+    "title": "Flutter & Mobile App Development",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/flutter-mobile-development.md",
+    "summary": "> **What you'll learn:** What Flutter is, how to use DartPad (a free in-browser tool), and how to build your first app without installing anything. Flutter is Google's **free, open-source** toolkit for building apps for phones, tablets, websites, and desktop computers \u2014 all from **one set of code**."
+  },
+  {
+    "id": "r016",
+    "title": "Franchising in America",
+    "subject": "Economics",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/franchising_in_america.md",
+    "summary": "A practical guide to how franchise businesses work \u2014 from fast food giants to fitness studios, from convenience stores to tutoring centers. Use this for Social Studies, Economics, and Financial Literacy. Linked assignments:"
+  },
+  {
+    "id": "r017",
+    "title": "Game Development Fundamentals",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/game-development-fundamentals.md",
+    "summary": "A student-friendly reference covering core concepts for Roblox Studio and Minecraft scripting \u2014 the two game platforms in Advanced learner and Core learner\u2019s curriculum. Game development is the process of designing, building, and testing interactive games. It combines:"
+  },
+  {
+    "id": "r018",
+    "title": "U.S. Government Basics \u2014 Branches & Agencies",
+    "subject": "Social Studies",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/government_basics.md",
+    "summary": "Context & origins: see [United States \u2014 Understanding & Principles](united_states_understanding_and_principles.md) A clean, age\u2011appropriate guide to the three branches of the U.S. government and major agencies. Use this for Social Studies reference and projects."
+  },
+  {
+    "id": "r019",
+    "title": "Language Arts \u2014 Great Books & Classic Stories",
+    "subject": "Language Arts",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/language_arts_great_books_and_stories.md",
+    "summary": "A student guide to the stories, novels, poems, and myths that shaped literature and that every educated person should know. Read the summaries, then read (or listen to) the real thing. **Why it matters:** Greek and Roman myths are the foundation of Western literature. Allusions to these stories appe"
+  },
+  {
+    "id": "r020",
+    "title": "Language Arts \u2014 Literary Terms & Devices",
+    "subject": "Language Arts",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/language_arts_literary_terms.md",
+    "summary": "A student guide to the essential vocabulary of literature \u2014 the tools writers use to tell powerful stories and the terms readers use to talk about them. Figurative language uses words in creative, non-literal ways to create images, emotion, and emphasis."
+  },
+  {
+    "id": "r021",
+    "title": "Language Arts \u2014 Parts of Speech",
+    "subject": "Language Arts",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/language_arts_parts_of_speech.md",
+    "summary": "A complete, student-friendly guide to the eight parts of speech in the English language. Every word you speak or write belongs to one of these categories. A noun answers the question **Who?** or **What?**"
+  },
+  {
+    "id": "r022",
+    "title": "Language Arts \u2014 Parts of a Sentence",
+    "subject": "Language Arts",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/language_arts_sentence_structure.md",
+    "summary": "A student-friendly guide to how sentences are built \u2014 from the smallest pieces to full, complex thoughts. Every complete sentence must have two things: a **subject** and a **predicate**."
+  },
+  {
+    "id": "r023",
+    "title": "Math Fundamentals \u2014 Grades 4\u20137",
+    "subject": "Math",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/math_fundamentals.md",
+    "summary": "A student-friendly reference covering core math topics used across Advanced learner and Core learner\u2019s assignments: place value, fractions, ratios, probability, and geometry. Place value tells us what a digit is worth based on its position."
+  },
+  {
+    "id": "r024",
+    "title": "Micronutrients \u2014 Vitamins & Minerals",
+    "subject": "Health",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/micronutrients.md",
+    "summary": "A student-friendly reference covering vitamins and minerals: what they are, what each one does, how much you need, where to find it in food, and what happens when you don't get enough. Supports the **Vitamin & Mineral Detective** assignment and any future nutrition work. These dissolve in fat, are s"
+  },
+  {
+    "id": "r025",
+    "title": "Minecraft Java \u2014 Scripting & Datapacks",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/minecraft-scripting-intro.md",
+    "summary": "A student-friendly reference covering Minecraft Java Edition datapacks, `.mcfunction` files, and command automation. This supports the **Minecraft Java \u2014 Scripting Basics** assignment. A **datapack** is a folder structure inside your Minecraft world that adds custom commands, functions, loot tables,"
+  },
+  {
+    "id": "r026",
+    "title": "periodic_table_elements.csv",
+    "subject": "Science",
+    "grades": "K-12",
+    "type": "dataset",
+    "path": "resources/periodic_table_elements.csv",
+    "summary": "Dataset (118 records)."
+  },
+  {
+    "id": "r027",
+    "title": "Physical Activity Fundamentals",
+    "subject": "Health",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/physical-activity-fundamentals.md",
+    "summary": "A student-friendly reference covering daily outdoor activity, vitamin D, heart rate, and strength training basics with proper form. Regular physical activity helps:"
+  },
+  {
+    "id": "r028",
+    "title": "Physics Fundamentals \u2014 Middle School Guide",
+    "subject": "Science",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/physics_fundamentals.md",
+    "summary": "Summary: Core physics concepts for grades 4\u20138: measurement & units, motion & forces, energy & heat, and waves & light. Use alongside labs and weekly STEM quizzes. Speed / velocity"
+  },
+  {
+    "id": "r029",
+    "title": "Roblox Lua Fundamentals",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/roblox-lua-fundamentals.md",
+    "summary": "A reference guide for scripting in Roblox Studio using **Luau** (Roblox's version of Lua). Roblox uses a scripting language called **Luau** \u2014 a fast, safe dialect of Lua 5.1. Every script you write in Roblox Studio is Luau. With it you can:"
+  },
+  {
+    "id": "r030",
+    "title": "Roblox Studio \u2014 Shaders & Meshes",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/roblox-shaders-and-meshes.md",
+    "summary": "A student-friendly reference covering mesh parts, importing custom 3D models, and shader-like material effects in Roblox Studio. This supports the **Roblox Studio \u2014 Shaders & Meshes** assignment. In Roblox, most objects are **Parts**: blocks, spheres, wedges. A **Mesh** is a custom 3D shape made out"
+  },
+  {
+    "id": "r031",
+    "title": "Semester Curriculum Resource Library",
+    "subject": "General",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/semester-resource-library.md",
+    "summary": "This is the shared, parent-reviewed resource shelf for Advanced learner\u2019s 8th-grade semester, Core learner\u2019s 5th-grade semester, and Early learner\u2019s kindergarten semester. Each quiz and project links back here and also includes a topic-specific video search. > **Family viewing note:** Preview videos"
+  },
+  {
+    "id": "r032",
+    "title": "solar_system_planets.csv",
+    "subject": "Science",
+    "grades": "K-12",
+    "type": "dataset",
+    "path": "resources/solar_system_planets.csv",
+    "summary": "Dataset (8 records)."
+  },
+  {
+    "id": "r033",
+    "title": "Supply & Demand \u2014 Micro and Macro Economics",
+    "subject": "Economics",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/supply_and_demand_economics.md",
+    "summary": "A practical guide to understanding how markets work, why prices change, and how the economy affects everyday life. Use this for Social Studies, real-life math practice, and business thinking. **Economics** is the study of how people, businesses, and governments make decisions about resources that ar"
+  },
+  {
+    "id": "r034",
+    "title": "Laws of Thermodynamics - Student Guide",
+    "subject": "Science",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/thermodynamics_laws.md",
+    "summary": "Summary: Age-appropriate guide for grades 4-8 explaining heat, temperature, energy, entropy, and the four laws of thermodynamics with everyday examples and safe mini-activities. Thermodynamics is the study of how heat, work, temperature, and energy are connected. The laws of thermodynamics explain w"
+  },
+  {
+    "id": "r035",
+    "title": "un_countries.csv",
+    "subject": "Social Studies",
+    "grades": "K-12",
+    "type": "dataset",
+    "path": "resources/un_countries.csv",
+    "summary": "Dataset (195 records)."
+  },
+  {
+    "id": "r036",
+    "title": "un_countries.json",
+    "subject": "Social Studies",
+    "grades": "K-12",
+    "type": "dataset",
+    "path": "resources/un_countries.json",
+    "summary": "Dataset (250 records)."
+  },
+  {
+    "id": "r037",
+    "title": "United States: Understanding & Principles",
+    "subject": "Social Studies",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/united_states_understanding_and_principles.md",
+    "summary": "A concise, age\u2011appropriate overview of how the United States came to be, why it rejects monarchy and tyranny, and how the Constitution enables a government that can be changed by the people. Kid\u2011Friendly: People wanted a say in their own rules. They didn\u2019t want a king telling them what to do from fa"
+  },
+  {
+    "id": "r038",
+    "title": "us_presidents.csv",
+    "subject": "Social Studies",
+    "grades": "K-12",
+    "type": "dataset",
+    "path": "resources/us_presidents.csv",
+    "summary": "Dataset (47 records)."
+  },
+  {
+    "id": "r039",
+    "title": "us_states.csv",
+    "subject": "Social Studies",
+    "grades": "K-12",
+    "type": "dataset",
+    "path": "resources/us_states.csv",
+    "summary": "Dataset (50 records)."
+  },
+  {
+    "id": "r040",
+    "title": "Global Conflicts & State-Building \u2014 A Quick Guide",
+    "subject": "Social Studies",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/wars_fundamentals.md",
+    "summary": "This guide highlights major wars and conflicts that redirected world leadership, redrew borders, or created new institutions and governments. It\u2019s a study companion for understanding why certain events loom large in history. How to read wars"
+  },
+  {
+    "id": "r041",
+    "title": "Web Design Fundamentals",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/web-design-fundamentals.md",
+    "summary": "A student-friendly reference covering HTML, CSS, responsive design, and basic web layouts. This supports assignments like **Personal Portfolio Website**, **Responsive Navbar Challenge**, and other web project work. Websites are built with:"
+  },
+  {
+    "id": "r042",
+    "title": "Weekly Scripture Guide \u2014 Full Year (52 Weeks)",
+    "subject": "Bible",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/weekly_scriptures.md",
+    "summary": "> **Optional faith/literature module:** Instructor-selected religious study; not part of the secular science requirements. One scripture per week for study, memorization, and reflection. Read it on Monday, carry it through the week, and talk about what it means for your everyday life."
+  },
+  {
+    "id": "r043",
+    "title": "Weights, Measures, and Conversions Guide",
+    "subject": "Math",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/weights_and_measures.md",
+    "summary": "Welcome to the ultimate cheat sheet for measuring, weighing, and converting! This guide will help you understand how different units relate to each other, both in the US Customary System (Standard) and the Metric System. When you're cooking or measuring liquids in the US, you'll use these units."
+  },
+  {
+    "id": "r044",
+    "title": "Windows CLI & Shell Fundamentals",
+    "subject": "Technology",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/windows-cli-and-shell-fundamentals.md",
+    "summary": "A student-friendly reference covering Windows Command Prompt, PowerShell, Git Bash, and basic file-system concepts used across Advanced learner\u2019s tech assignments. | Shell | How to Open | Best For |"
+  },
+  {
+    "id": "r045",
+    "title": "World Facts & ASCII Visuals",
+    "subject": "Social Studies",
+    "grades": "4-8",
+    "type": "guide",
+    "path": "resources/world_facts.md",
+    "summary": "A compact, easy\u2011reference guide to geography, countries, economies, and history. Snapshot lists provide quick context; see Data & Practice for authoritative sources. Note: Country counts vary by recognition and how trans\u2011continental states are grouped. Populations are 2025 estimates, rounded."
+  }
+]
