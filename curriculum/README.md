@@ -21,7 +21,7 @@ Developing grade tracks with starter material:
 
 - [Kindergarten](grade-k/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; math Unit 01 draft available; no complete subject tracks
 - [Grade 1](grade-1/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 2](grade-2/README.md) — four subject starter lessons; no complete subject tracks
+- [Grade 2](grade-2/README.md) — four subject starter lessons; draft audits for mathematics; no complete subject tracks
 - [Grade 3](grade-3/README.md) — four subject starter lessons; no complete subject tracks
 - [Grade 6](grade-6/README.md) — four subject starter lessons; no complete subject tracks
 
