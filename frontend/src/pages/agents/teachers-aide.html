@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TeachersAide (Socratic — never gives answers)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;800&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+:root { --brand: #b2f522; --cobalt: #2146e0; --ink: #090d18; --paper: #ffffff; --card-border: rgba(9,13,24,0.18); }
+* { box-sizing: border-box; }
+body { font-family: 'Geist', ui-sans-serif, system-ui, sans-serif; background: var(--paper); color: var(--ink); max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+h1, h2, h3 { font-family: 'Instrument Serif', Georgia, serif; font-weight: normal; letter-spacing: -0.01em; color: var(--ink); }
+h1 { font-size: 2.25rem; margin: 0.5rem 0 1rem; }
+a { color: var(--cobalt); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.back-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
+.card { background: #fff; border: 1px solid var(--card-border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+input { font-family: inherit; font-size: 14px; color: var(--ink); background: #fff; border: 1px solid var(--card-border); border-radius: 8px; padding: 8px 12px; min-height: 44px; }
+input:focus { outline: 2px solid var(--cobalt); border-color: var(--cobalt); }
+button { background: var(--cobalt); color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-weight: 600; cursor: pointer; min-height: 44px; font-family: inherit; font-size: 14px; }
+button:hover { filter: brightness(0.92); }
+#log { margin-bottom: 1rem; }
+#log div { background: #fff; border: 1px solid var(--card-border); border-radius: 8px; padding: 10px 14px; margin: 8px 0; font-size: 14px; }
+.input-row { display: flex; gap: 8px; flex-wrap: wrap; }
+.input-row input { flex: 1; min-width: 240px; }
+</style>
+</head>
+<body>
+<a href="index.html" class="back-link">&larr; Cockpit</a>
+<div class="card">
+  <h1>TeachersAide</h1>
+  <p style="font-size:14px;color:rgba(9,13,24,0.7);margin-top:0">Socratic hints only — never gives direct answers.</p>
+  <div id="log"></div>
+  <div class="input-row">
+    <input id="q" size="60" placeholder="Ask for a hint (not the answer)">
+    <button id="go">Ask</button>
+  </div>
+</div>
+<script type="module">
+import { runAgent } from '../../lib/agentClient.js';
+go.onclick = async () => { const d=document.createElement('div'); d.textContent='You: '+q.value; log.appendChild(d);
+  const r=document.createElement('div'); r.textContent='Aide: '+await runAgent('TeachersAide',{message:q.value}); log.appendChild(r); q.value=''; };
+</script>
+</body></html>
