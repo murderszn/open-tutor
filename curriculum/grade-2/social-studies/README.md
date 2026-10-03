@@ -75,3 +75,7 @@ Public historical figures, change, and multiple viewpoints; U08 Community
 inquiry and evidence-based civic project; R00 diagnostic, midyear/final review,
 and cumulative assessments with keys. Each will follow
 `docs/curriculum-expansion/unit-requirements.md`.
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.
