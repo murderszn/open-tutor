@@ -1860,12 +1860,16 @@
     {
       "path": "grade-3/math/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/science/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 53,
+    "subject-index": 54,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 228,
