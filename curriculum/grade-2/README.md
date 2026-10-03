@@ -2,7 +2,9 @@
 
 This folder is an anonymous, grade-specific track in the public OpenTutor curriculum library.
 
-**Contents:** Blank, educator-adaptable prompts and assessments.
+**Contents:** The [math track](math/README.md) and [science track](science/README.md)
+audits and scope-and-sequences are delivered as validated drafts (units not yet
+written); other subjects still placeholder.
 
 **Do not refer learners to other grade tracks.** Each track is self-contained.
 
