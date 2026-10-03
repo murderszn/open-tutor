@@ -56,3 +56,7 @@ By the end of the year the learner will be able to:
    constraints, generate and compare multiple solutions, and run fair tests
    that control variables and consider failure points to improve a prototype
    (3-5-ETS1-1, 3-5-ETS1-2, 3-5-ETS1-3).
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.

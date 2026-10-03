@@ -38,7 +38,7 @@ Three vertices of a regional cell tower network are plotted on a city grid (each
 - Tower B: $(2, -3)$
 - Tower C: $(-4, -3)$
 
-1. Plot the points conceptually or in GeoGebra/Desmos. What type of triangle is formed by $\\Delta ABC$?
+1. Plot the points conceptually or in GeoGebra/Desmos. What type of triangle is formed by $\Delta ABC$?
 2. Determine the exact length of vertical leg $AC$ and horizontal leg $BC$ using coordinate subtractions ($|y_2 - y_1|$ and $|x_2 - x_1|$).
 3. Use the Pythagorean Theorem to find the direct distance between Tower A and Tower B ($AB$).
 4. Compute the total perimeter of the cell tower triangle.
