@@ -1868,12 +1868,16 @@
     {
       "path": "grade-3/language-arts/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 55,
+    "subject-index": 56,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 228,
