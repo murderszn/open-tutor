@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ReportCard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;800&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+:root { --brand: #b2f522; --cobalt: #2146e0; --ink: #090d18; --paper: #ffffff; --card-border: rgba(9,13,24,0.18); }
+* { box-sizing: border-box; }
+body { font-family: 'Geist', ui-sans-serif, system-ui, sans-serif; background: var(--paper); color: var(--ink); max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+h1, h2, h3 { font-family: 'Instrument Serif', Georgia, serif; font-weight: normal; letter-spacing: -0.01em; color: var(--ink); }
+h1 { font-size: 2.25rem; margin: 0.5rem 0 1rem; }
+a { color: var(--cobalt); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.back-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
+.card { background: #fff; border: 1px solid var(--card-border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+button { background: var(--cobalt); color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-weight: 600; cursor: pointer; min-height: 44px; font-family: inherit; font-size: 14px; }
+button:hover { filter: brightness(0.92); }
+#out { margin-top: 1rem; display: flex; flex-direction: column; gap: 8px; }
+#out div { background: var(--paper); border: 1px solid var(--card-border); border-radius: 8px; padding: 12px 16px; font-size: 14px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.bar { background: var(--cobalt); height: 1em; display: inline-block; border-radius: 4px; vertical-align: middle; }
+[data-aud] { background: #fff; border: 1px solid var(--card-border); border-left: 4px solid var(--brand); padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 1rem 0; font-size: 14px; }
+</style>
+</head>
+<body>
+<a href="index.html" class="back-link">&larr; Cockpit</a>
+<div class="card">
+  <h1>ReportCard</h1>
+  <button id="go">Generate report</button>
+  <div id="out"></div>
+  <div data-aud="parent"><p>Parent view: full averages, completion %, and interest index.</p></div>
+  <div data-aud="student" style="display:none"><p>Student view: your averages and encouragement — detailed matrix hidden.</p></div>
+</div>
+<script type="module">
+import { runAgent, agentClient } from '../../lib/agentClient.js';
+agentClient.audience = localStorage.getItem('aud')||'parent';
+document.querySelector('[data-aud="parent"]').style.display = agentClient.audience==='parent'?'':'none';
+document.querySelector('[data-aud="student"]').style.display = agentClient.audience==='student'?'':'none';
+go.onclick = async () => { const rows = await runAgent('ReportCard', {}); out.innerHTML='';
+  for (const r of rows) { const d=document.createElement('div');
+    const detail = agentClient.audience==='parent' ? `completion ${r.completion}% · interest ${r.interest}` : 'keep it up!';
+    d.innerHTML=`<b>${r.subject}</b> ${r.average}% <span class="bar" style="width:${r.average*2}px"></span> <small style="color:rgba(9,13,24,0.7);margin-left:auto">${detail}</small>`; out.appendChild(d); } };
+</script>
+</body></html>

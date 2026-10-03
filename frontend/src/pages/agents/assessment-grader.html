@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AssessmentGrader</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;800&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+:root { --brand: #b2f522; --cobalt: #2146e0; --ink: #090d18; --paper: #ffffff; --card-border: rgba(9,13,24,0.18); }
+* { box-sizing: border-box; }
+body { font-family: 'Geist', ui-sans-serif, system-ui, sans-serif; background: var(--paper); color: var(--ink); max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+h1, h2, h3 { font-family: 'Instrument Serif', Georgia, serif; font-weight: normal; letter-spacing: -0.01em; color: var(--ink); }
+h1 { font-size: 2.25rem; margin: 0.5rem 0 1rem; }
+a { color: var(--cobalt); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.back-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
+.card { background: #fff; border: 1px solid var(--card-border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+textarea, input { font-family: inherit; font-size: 14px; color: var(--ink); background: #fff; border: 1px solid var(--card-border); border-radius: 8px; padding: 8px 12px; box-sizing: border-box; }
+textarea { width: 100%; min-height: 140px; margin-bottom: 12px; }
+input { min-height: 44px; }
+textarea:focus, input:focus { outline: 2px solid var(--cobalt); border-color: var(--cobalt); }
+label { font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; margin-right: 12px; }
+button { background: var(--cobalt); color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-weight: 600; cursor: pointer; min-height: 44px; font-family: inherit; font-size: 14px; }
+button:hover { filter: brightness(0.92); }
+pre { white-space: pre-wrap; background: #fff; border: 1px solid var(--card-border); border-radius: 10px; padding: 1rem; font-family: 'Geist Mono', ui-monospace, monospace; font-size: 13px; margin-top: 1rem; color: var(--ink); }
+[data-aud] { background: #fff; border: 1px solid var(--card-border); border-left: 4px solid var(--brand); padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 1rem 0; font-size: 14px; }
+</style>
+</head>
+<body>
+<a href="index.html" class="back-link">&larr; Cockpit</a>
+<div class="card">
+  <h1>AssessmentGrader</h1>
+  <textarea id="work" rows="6" cols="70" placeholder="Paste student work here..."></textarea>
+  <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px">
+    <label>Rubric: <input id="rubric" value="accuracy, effort, clarity" size="30"></label>
+    <button id="go">Grade</button>
+  </div>
+  <pre id="out"></pre>
+  <p data-aud="student"><b>Student view:</b> scores shown with encouragement; raw rubric weights hidden.</p>
+</div>
+<script type="module">
+import { runAgent, agentClient } from '../../lib/agentClient.js';
+agentClient.audience = localStorage.getItem('aud')||'parent';
+document.getElementById('go').onclick = async () => { out.textContent = await runAgent('AssessmentGrader', { work: work.value, rubric: agentClient.audience==='parent' ? rubric.value : 'effort, clarity' }); };
+</script>
+</body></html>

@@ -94,3 +94,7 @@ that keep pacing humane. Each future unit will include its own teacher guide and
 answer key. Nothing in this track asks the child to put their name, address, or
 identifying details into a shared or public product — keep all personal work
 private.
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.

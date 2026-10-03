@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ResourceFinder — topic to videos + links</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;800&family=Instrument+Serif&display=swap" rel="stylesheet">
+<style>
+:root { --brand: #b2f522; --cobalt: #2146e0; --ink: #090d18; --paper: #ffffff; --card-border: rgba(9,13,24,0.18); }
+* { box-sizing: border-box; }
+body { font-family: 'Geist', ui-sans-serif, system-ui, sans-serif; background: var(--paper); color: var(--ink); max-width: 900px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+h1, h2, h3 { font-family: 'Instrument Serif', Georgia, serif; font-weight: normal; letter-spacing: -0.01em; color: var(--ink); }
+h1 { font-size: 2.25rem; margin: 0.5rem 0 1rem; }
+h3 { font-size: 1.35rem; margin: 1.25rem 0 0.5rem; }
+a { color: var(--cobalt); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.back-link { display: inline-flex; align-items: center; min-height: 44px; font-weight: 600; }
+.card { background: #fff; border: 1px solid var(--card-border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+input { font-family: inherit; font-size: 14px; color: var(--ink); background: #fff; border: 1px solid var(--card-border); border-radius: 8px; padding: 8px 12px; min-height: 44px; }
+input:focus { outline: 2px solid var(--cobalt); border-color: var(--cobalt); }
+label { font-weight: 600; font-size: 14px; display: inline-flex; align-items: center; gap: 8px; margin-right: 12px; }
+button { background: var(--cobalt); color: #fff; border: none; border-radius: 8px; padding: 10px 18px; font-weight: 600; cursor: pointer; min-height: 44px; font-family: inherit; font-size: 14px; }
+button:hover { filter: brightness(0.92); }
+ul { list-style: none; padding: 0; margin: 0.5rem 0 1rem; display: flex; flex-direction: column; gap: 6px; }
+li { background: var(--paper); border: 1px solid var(--card-border); border-radius: 8px; padding: 10px 14px; font-size: 14px; }
+</style>
+</head>
+<body>
+<a href="index.html" class="back-link">&larr; Cockpit</a>
+<div class="card">
+  <h1>ResourceFinder</h1>
+  <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-bottom:12px">
+    <label>Topic <input id="topic" value="Photosynthesis" size="30"></label>
+    <button id="go">Find resources</button>
+  </div>
+  <div id="out"></div>
+</div>
+<script type="module">
+import { runAgent } from '../../lib/agentClient.js';
+go.onclick = async () => { const r = await runAgent('ResourceFinder', { topic: topic.value }); out.innerHTML='';
+  const h=(t)=>{const e=document.createElement('h3');e.textContent=t;out.appendChild(e);};
+  h('Search queries'); const q=document.createElement('ul'); r.queries.forEach(x=>{const li=document.createElement('li');li.textContent=x;q.appendChild(li);}); out.appendChild(q);
+  h('Videos (3)'); const v=document.createElement('ul'); r.videos.forEach(x=>{const li=document.createElement('li');const a=document.createElement('a');a.href=x.url;a.textContent=`${x.title} — ${x.channel} (${x.length})`;a.target='_blank';li.appendChild(a);v.appendChild(li);}); out.appendChild(v);
+  h('Web references (2)'); const w=document.createElement('ul'); r.links.forEach(x=>{const li=document.createElement('li');const a=document.createElement('a');a.href=x.url;a.textContent=x.title;a.target='_blank';li.appendChild(a);w.appendChild(li);}); out.appendChild(w); };
+</script>
+</body></html>
