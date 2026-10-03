@@ -100,3 +100,7 @@ diagnostic, catch-up, and review weeks that keep pacing humane. Oral, pointing,
 drawing, and adult-scribed responses count as evidence throughout — writing
 independently is not required to do science. Each future unit will include its
 own teacher guide and answer key.
+
+## Starter lesson
+
+The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, not a complete unit or subject course.
