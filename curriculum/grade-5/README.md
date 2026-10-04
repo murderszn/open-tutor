@@ -5,7 +5,7 @@ Reusable Grade 5 learning materials. Quizzes and assignments remain blank; compl
 ## Core Subjects
 - [Math](math/README.md)
 - [Stem](stem/README.md)
-- [Language Arts](language-arts/README.md)
+- [Language Arts](language-arts/README.md) — draft audit and scope-and-sequence delivered (2026-10-04); legacy assignment/quiz/template library re-audited, units planned; no complete subject tracks
 - [Social Studies](social-studies/README.md)
 
 ## Optional Enrichment
