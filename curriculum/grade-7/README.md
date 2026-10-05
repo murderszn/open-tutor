@@ -1,6 +1,6 @@
 # Grade 7 Curriculum
 
-Reusable Grade 7 learning materials. Quizzes and assignments remain blank; completed responses belong in private learning records. Review readiness and accommodations before assigning.
+Reusable Grade 7 learning materials. Quizzes and assignments remain blank; completed responses belong in private learning records. Review readiness and accommodations before assigning. The language arts track has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written — see [language-arts/scope-and-sequence.md](language-arts/scope-and-sequence.md).
 
 ## Core Subjects
 - [Math](math/README.md)
