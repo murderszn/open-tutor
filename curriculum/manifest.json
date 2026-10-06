@@ -1406,6 +1406,10 @@
       "kind": "subject-index"
     },
     {
+      "path": "grade-8/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
       "path": "grade-8/social-studies/assignments/bill-of-rights-scenarios.md",
       "kind": "assignment"
     },
@@ -1877,7 +1881,7 @@
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 56,
+    "subject-index": 57,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 228,
