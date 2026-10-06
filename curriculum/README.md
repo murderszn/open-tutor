@@ -9,7 +9,7 @@ Four grade tracks have expanded legacy draft assignment and quiz libraries: **Gr
 - [Grade 4](grade-4/README.md)
 - [Grade 5](grade-5/README.md)
 - [Grade 7](grade-7/README.md)
-- [Grade 8](grade-8/README.md)
+- [Grade 8](grade-8/README.md) — math track audit/scope-and-sequence delivered as draft (units not yet written); other subjects unaudited
 
 For K–8 adult planning, placement, and a candid coverage snapshot, see [K–8 planning guidance](../resources/k-8/README.md). The matching grade folder remains the canonical source of instruction. Profiles in the resource guide do not override its grade-specific audit or scope and sequence.
 
