@@ -24,8 +24,9 @@ Developing grade tracks with starter material:
 - [Grade 2](grade-2/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 3](grade-3/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 6](grade-6/README.md) — four subject starter lessons; no complete subject tracks
+- [Grade 9](grade-9/README.md) — draft audits and scope-and-sequences for mathematics, science, and language arts (units planned, not written); social studies planned; no complete subject tracks
 
-Each listed starter is one supplemental lesson only. It is not an eight-unit course, and its presence does not establish full subject coverage. Grades 9–12 are planned additions and do not yet have curriculum folders. New core science content will use `science/`; existing `stem/` material remains available and will be reviewed for reuse. Each developing track must publish its status truthfully until its lessons, resources, assessments, keys, and review are complete.
+Each listed starter is one supplemental lesson only. It is not an eight-unit course, and its presence does not establish full subject coverage. Grades 10–12 are planned additions and do not yet have curriculum folders. New core science content will use `science/`; existing `stem/` material remains available and will be reviewed for reuse. Each developing track must publish its status truthfully until its lessons, resources, assessments, keys, and review are complete.
 
 ## Using a Track
 

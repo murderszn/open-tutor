@@ -1570,6 +1570,18 @@
       "kind": "rhythm"
     },
     {
+      "path": "grade-9/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-9/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
       "path": "grade-k/math/README.md",
       "kind": "subject-index"
     },
@@ -1876,8 +1888,8 @@
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
-    "grade-index": 9,
-    "subject-index": 56,
+    "grade-index": 10,
+    "subject-index": 58,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 228,
