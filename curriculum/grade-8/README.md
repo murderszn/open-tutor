@@ -5,7 +5,7 @@ Reusable Grade 8 learning materials. Quizzes and assignments remain blank; compl
 ## Core Subjects
 - [Math](math/README.md)
 - [Stem](stem/README.md)
-- [Language Arts](language-arts/README.md)
+- [Language Arts](language-arts/README.md) — draft audit and scope-and-sequence delivered (eight units planned, not yet written)
 - [Social Studies](social-studies/README.md)
 
 ## Optional Enrichment
