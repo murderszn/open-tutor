@@ -1,6 +1,6 @@
 # Independent Grade Curriculum
 
-Four grade tracks have expanded legacy draft assignment and quiz libraries: **Grade 4, Grade 5, Grade 7, and Grade 8**. The collections are not complete, validated lesson sequences; they still need instructional, answer-key, prerequisite, and grade-placement review. The developing **K, 1, 2, 3, and 6** folders contain limited audit or starter material, not full units or courses. Select one grade folder for one learner at a time.
+Four grade tracks have expanded legacy draft assignment and quiz libraries: **Grade 4, Grade 5, Grade 7, and Grade 8**. The collections are not complete, validated lesson sequences; they still need instructional, answer-key, prerequisite, and grade-placement review. Grade 7 social studies has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. The developing **K, 1, 2, 3, and 6** folders contain limited audit or starter material, not full units or courses. Select one grade folder for one learner at a time.
 
 **Do not refer a learner to another grade's folder. Do not combine assignments across grades, ask learners to work together, compare their results, or refer to siblings/peers.** These are reusable teaching materials, not learner profiles or records.
 
