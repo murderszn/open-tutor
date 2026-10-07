@@ -121,26 +121,16 @@ README):
 
 Reference framework: **Common Core State Standards for Mathematics**, High
 School conceptual categories. The G-CO, G-SRT, G-C, G-GPE, G-GMD, and G-MG
-domain pages plus the HSS/CP page on
-[thecorestandards.org](https://www.thecorestandards.org/Math/) were opened and
-read 2026-10-07 (live browser; URL pattern
-`https://www.thecorestandards.org/Math/Content/HSG/<domain>/`). The HSN/Q page
-was behind a request-verification interstitial on 2026-10-07, so N-Q.1–3 are
-carried from the grade-9 audit's 2026-10-06 verification (documented in open
-draft PR #106). Descriptions below are paraphrases, not reproductions. No
-state adoption, accreditation, or alignment certification claimed.
-
-**Render-gap note.** Several per-domain renders omitted codes the published
-document contains — the same truncation the grade-9 audit recorded on
-2026-10-06. Following its practice, topics for codes absent from today's
-render are described in prose under their visible cluster rather than
-assigned unseen sub-codes:
-
-- G-SRT rendered 1.a, 2, 3, 4, 5, 6, 8, 9, 11 — not 1.b, 7, or 10.
-- G-C rendered A.2, A.3, B.5 — not A.1 or B.4.
-- G-GPE rendered A.1, A.3, B.4, B.5, B.6, B.7 — not A.2.
-- G-GMD rendered A.1, A.2, B.4 — not A.3.
-- G-CO, G-MG, and S-CP rendered completely.
+domain pages plus the HSS/CP and HSN/Q pages on
+[thecorestandards.org](https://www.thecorestandards.org/Math/) were opened
+and read 2026-10-07 (live browser; URL pattern
+`https://www.thecorestandards.org/Math/Content/HSG/<domain>/`). The first
+pass used text-fetch renders that truncated some sub-codes (the same
+truncation the grade-9 audit recorded on 2026-10-06); a second full-text
+browser read the same day confirmed **every** code below with its official
+description, so the crosswalk cites the full published code set.
+Descriptions below are paraphrases, not reproductions. No state adoption,
+accreditation, or alignment certification claimed.
 
 Standards marked **(+)** are advanced in the published document; the track
 teaches them as enrichment where marked.
@@ -194,9 +184,9 @@ its grade-9 prerequisites explicitly so a guiding adult can re-sequence.
 ### Geometry: Similarity, Right Triangles, and Trigonometry — U03, U04
 
 - **G-SRT.1.a** — a dilation sends a line not through the center to a
-  parallel line and leaves a line through the center unchanged. (G-SRT.1.b —
-  dilations scale segment lengths by the scale factor — did not render
-  today; taught in prose under the dilation cluster in U03.)
+  parallel line and leaves a line through the center unchanged.
+- **G-SRT.1.b** — a dilation scales a line segment by the scale factor
+  (experimentally verified with the center and scale factor in U03).
 - **G-SRT.2** — decide similarity of two figures by similarity
   transformations; triangles are similar exactly when corresponding angles
   are equal and corresponding sides proportional.
@@ -209,40 +199,40 @@ its grade-9 prerequisites explicitly so a guiding adult can re-sequence.
 - **G-SRT.6** — by similarity, side ratios in right triangles are
   properties of the angles, giving the definitions of the trigonometric
   ratios for acute angles.
-- (G-SRT.7 did not render today — sine and cosine of complementary angles —
-  taught in prose under the right-triangle cluster in U04.)
+- **G-SRT.7** — explain and use the relationship between the sine and
+  cosine of complementary angles.
 - **G-SRT.8** — use trigonometric ratios and the Pythagorean Theorem to
   solve applied right triangles.
 - **G-SRT.9 (+)** — derive the triangle area formula A = (1/2)ab·sin C with
   an auxiliary altitude.
-- (G-SRT.10 did not render today — proving the laws of sines and cosines —
-  taught in prose under the general-triangle cluster in U04.)
+- **G-SRT.10 (+)** — prove the laws of sines and cosines and use them to
+  solve problems.
 - **G-SRT.11 (+)** — apply the laws of sines and cosines to find unknown
   measurements in right and non-right triangles.
 
 ### Geometry: Circles — U06
 
-- (G-C.1 did not render today — all circles are similar — proved in prose
-  under the circle-theorems cluster in U06.)
+- **G-C.1** — prove that all circles are similar.
 - **G-C.2** — identify and describe relationships among inscribed angles,
   radii, and chords, including central/inscribed/circumscribed angle
   relationships, right angles inscribed on a diameter, and the radius
   perpendicular to a tangent at the point of tangency.
 - **G-C.3** — construct the inscribed and circumscribed circles of a
   triangle; prove angle properties of cyclic quadrilaterals.
-- (G-C.4 did not render today — the dissection argument for the circle
-  area formula — taught in prose under the arc/sector cluster in U06.)
+- **G-C.4 (+)** — construct a tangent line from a point outside a given
+  circle to the circle.
 - **G-C.5** — derive from similarity that intercepted arc length is
   proportional to the radius; define radian measure as that constant of
-  proportionality; derive the sector-area formula.
+  proportionality; derive the sector-area formula. (The circle-area
+  dissection argument belongs to G-GMD.1, covered in U07.)
 
 ### Geometry: Expressing Geometric Properties with Equations — U02, U05, U06
 
 - **G-GPE.1** — derive a circle's equation from the Pythagorean Theorem;
   complete the square to find a circle's center and radius from its
   equation.
-- (G-GPE.2 did not render today — deriving the parabola equation from its
-  focus/directrix definition — taught in prose as U06 enrichment.)
+- **G-GPE.2** — derive the equation of a parabola from its focus and
+  directrix (U06 enrichment).
 - **G-GPE.3 (+)** — derive ellipse and hyperbola equations from the foci
   (optional enrichment in U06).
 - **G-GPE.4** — prove simple geometric theorems algebraically with
@@ -261,9 +251,8 @@ its grade-9 prerequisites explicitly so a guiding adult can re-sequence.
   principle, and informal limits.
 - **G-GMD.2 (+)** — informal Cavalieri argument for the sphere volume
   formula.
-- (G-GMD.3 did not render today — using the volume formulas for
-  cylinders, pyramids, cones, and spheres in problems — taught in prose
-  under the volume cluster in U07.)
+- **G-GMD.3** — use the volume formulas for cylinders, pyramids, cones,
+  and spheres to solve problems.
 - **G-GMD.4** — identify 2-D cross-sections of 3-D objects and 3-D objects
   generated by rotating 2-D objects.
 
@@ -407,7 +396,7 @@ for catch-up. Objectives numbered below are the track objectives from
 
 ### Unit 06 — Circles: chords, tangents, and angles (Weeks 23–26)
 
-- **Standards:** G-C.1–G-C.5; G-GPE.1–G-GPE.2; G-CO.12, G-CO.13
+- **Standards:** G-C.1–G-C.5 (4 is (+) advanced); G-GPE.1–G-GPE.2 (A.2 enrichment); G-CO.12, G-CO.13
 - **Week 23 goal:** all circles are similar (proof); chord–radius–diameter
   relationships; tangent perpendicular to the radius; two tangents from an
   exterior point.
