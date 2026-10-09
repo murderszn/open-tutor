@@ -1968,12 +1968,16 @@
     {
       "path": "grade-5/science/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 64,
+    "subject-index": 65,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 229,
