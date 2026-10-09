@@ -2288,12 +2288,20 @@
     {
       "path": "grade-12/science/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/social-studies/README.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 13,
-    "subject-index": 110,
+    "subject-index": 112,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 231,
