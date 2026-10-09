@@ -2356,28 +2356,88 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-01-testable-questions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-02-observing-with-senses.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-03-tools-extend-senses.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-04-recording-observations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-05-safe-investigations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/assets/scientist-observation-table.png",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {
+    "answer-key": 6,
+    "assessment": 6,
+    "asset": 6,
+    "assets": 6,
+    "assignment": 111,
     "curriculum-index": 1,
     "grade-index": 13,
-    "subject-index": 112,
-    "new-assignment": 31,
-    "assignment": 111,
-    "quiz": 232,
-    "template": 14,
     "hints": 2,
+    "lesson": 31,
+    "new-assignment": 31,
+    "practice": 6,
+    "project": 6,
+    "quiz": 233,
+    "resource-pack": 6,
     "rhythm": 2,
-    "unit-index": 5,
-    "lesson": 26,
-    "practice": 5,
-    "project": 5,
-    "resource-pack": 5,
-    "assessment": 5,
-    "teacher-guide": 5,
-    "answer-key": 5,
-    "assets": 5,
-    "asset": 5
+    "subject-index": 112,
+    "teacher-guide": 6,
+    "template": 14,
+    "unit-index": 6
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
