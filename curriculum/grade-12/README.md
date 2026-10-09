@@ -2,10 +2,7 @@
 
 This folder is an anonymous, grade-specific track in the public OpenTutor curriculum library.
 
-**Contents:** The social studies track's audit and scope-and-sequence are a
-validated draft in this run's draft PR (issue #57); its eight units are
-planned, not yet written. No subject track is complete. All materials still
-require educator review.
+**Contents:** Draft audits and scope-and-sequences are available for mathematics, language arts, science, social studies. The eight units and review package for each subject are planned, not yet written. No subject track is complete. All materials still require educator review.
 
 **Do not refer a learner to another grade's track.** Each track is
 self-contained for one learner at a time; a guiding adult adapts pacing,
@@ -19,4 +16,14 @@ See also: [curriculum index](../README.md).
 - [Social studies](social-studies/README.md) — economics and policy inquiry
   pathway; audit and scope-and-sequence delivered as a validated draft in this
   run's draft PR (issue #57); units planned.
-- Mathematics, science, language arts — planned; no curriculum folders yet.
+- [Mathematics](math/README.md) — Precalculus, statistics, and modeling
+  pathway with optional calculus bridge; audit and scope-and-sequence are a
+  validated draft (issue #54); units planned.
+- [Language arts](language-arts/README.md) — Advanced literature, writing,
+  and communication pathway; audit and scope-and-sequence delivered as a
+  validated draft in this run's draft PR (issue #56); units planned.
+- [Science](science/README.md) — Earth and Space Science pathway (geologic
+  time, plate tectonics, atmosphere and ocean, climate, biodiversity, water
+  and land, energy systems, capstone investigation); audit and
+  scope-and-sequence delivered as a validated draft in this run's draft PR
+  (issue #55); units planned.
