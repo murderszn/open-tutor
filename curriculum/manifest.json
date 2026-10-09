@@ -214,6 +214,10 @@
       "kind": "subject-index"
     },
     {
+      "path": "grade-4/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
       "path": "grade-4/social-studies/assignments/civic-voting-research.md",
       "kind": "new-assignment"
     },
@@ -1874,6 +1878,98 @@
       "kind": "subject-index"
     },
     {
+      "path": "grade-4/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-01-five-senses-noticing.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-03-describing-what-you-see.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-05-i-notice-i-wonder.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-02-tools-help-us-look-closer.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assets/observation-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-06-observation-walk-review.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-04-sorting-by-what-you-notice.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
       "path": "grade-5/language-arts/scope-and-sequence.md",
       "kind": "subject-index"
     }
@@ -1881,23 +1977,23 @@
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 57,
+    "subject-index": 65,
     "new-assignment": 31,
     "assignment": 111,
-    "quiz": 228,
+    "quiz": 229,
     "template": 14,
     "hints": 2,
     "rhythm": 2,
-    "unit-index": 1,
-    "lesson": 5,
-    "practice": 1,
-    "project": 1,
-    "resource-pack": 1,
-    "assessment": 1,
-    "teacher-guide": 1,
-    "answer-key": 1,
-    "assets": 1,
-    "asset": 1
+    "unit-index": 2,
+    "lesson": 11,
+    "practice": 2,
+    "project": 2,
+    "resource-pack": 2,
+    "assessment": 2,
+    "teacher-guide": 2,
+    "answer-key": 2,
+    "assets": 2,
+    "asset": 2
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
