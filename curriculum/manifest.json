@@ -1960,12 +1960,20 @@
     {
       "path": "grade-5/math/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/science/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 62,
+    "subject-index": 64,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 229,
