@@ -76,11 +76,24 @@ sources — classifying kinds, detecting limitations, inferring maker/audience/
 purpose (D3.1–3.2.6-8; D2.His.9–13.6-8); and communicating conclusions with
 claims, counterclaims, and noted limitations (D3.3–3.4.6-8; D4.1–4.8.6-8).
 
+**Content foundation — the grade-5 U.S. history track (draft PR #95).** Grade 5
+already taught this track's full chronological arc: North American geography
+and Indigenous histories, colonial societies, the Revolution, founding
+documents, the early republic, abolition and reform, the Civil War, and
+Reconstruction. Grade 8 is the deeper second pass over the same eras —
+primary sources instead of narrative survey, multiple perspectives instead of
+a single storyline, historiographic argument instead of chronology. Nothing in
+U01–U07 re-teaches the narrative from scratch, and nothing assumes grade-5
+mastery either: the diagnostic re-checks it (see below).
+
 The diagnostic weeks (Weeks 1–2) verify these — especially timeline sequencing
 across centuries, map-scale reading, source maker/audience inference, and
-claim-with-evidence writing. U01 re-teaches Atlantic-world map reading and
-labor-system vocabulary before assuming they are secure; U03 re-teaches
-founding-document close reading before the ratification debate.
+claim-with-evidence writing — plus retention of the grade-5 arc (placing the
+Revolution, founding, Civil War, and Reconstruction on a timeline; the 13th–
+15th Amendments in plain language; colonial labor systems). U01 re-teaches
+Atlantic-world map reading and labor-system vocabulary before assuming they
+are secure; U03 re-teaches founding-document close reading before the
+ratification debate.
 
 ## 3. Track objectives
 
