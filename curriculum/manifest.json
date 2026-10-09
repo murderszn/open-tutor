@@ -1872,6 +1872,18 @@
     {
       "path": "grade-3/social-studies/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-12/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
