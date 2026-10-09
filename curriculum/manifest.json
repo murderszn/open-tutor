@@ -98,10 +98,6 @@
       "kind": "template"
     },
     {
-      "path": "grade-4/language-arts/scope-and-sequence.md",
-      "kind": "subject-index"
-    },
-    {
       "path": "grade-4/math/README.md",
       "kind": "subject-index"
     },
@@ -215,6 +211,10 @@
     },
     {
       "path": "grade-4/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/social-studies/scope-and-sequence.md",
       "kind": "subject-index"
     },
     {
@@ -1876,12 +1876,28 @@
     {
       "path": "grade-3/social-studies/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 9,
-    "subject-index": 57,
+    "subject-index": 61,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 228,
