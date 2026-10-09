@@ -214,6 +214,10 @@
       "kind": "subject-index"
     },
     {
+      "path": "grade-4/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
       "path": "grade-4/social-studies/assignments/civic-voting-research.md",
       "kind": "new-assignment"
     },
@@ -1722,6 +1726,10 @@
       "kind": "subject-index"
     },
     {
+      "path": "grade-6/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
       "path": "grade-6/social-studies/starter-lesson.md",
       "kind": "assignment"
     },
@@ -1874,12 +1882,472 @@
       "kind": "subject-index"
     },
     {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/README.md",
+      "path": "grade-4/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-01-five-senses-noticing.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-03-describing-what-you-see.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/README.md",
       "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-05-i-notice-i-wonder.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-02-tools-help-us-look-closer.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assets/observation-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-06-observation-walk-review.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-04-sorting-by-what-you-notice.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-6/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-01-how-books-work.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assets/big-book-tracking.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-02-reading-goes-this-way.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-04-questions-help-us-understand.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-05-letters-a-to-m.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-03-words-have-spaces.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-6/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-9/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-02-welcome-to-our-circle.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-03-classroom-helper-roles.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-05-fixing-hurt-feelings.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-04-kindness-in-action.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-01-what-makes-me-me.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assets/belonging-circle.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-10/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-11/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-12/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-12/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-05-comparing-two-digit-numbers.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assets/tens-and-ones-compare.png",
+      "kind": "asset"
     },
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-01-ten-is-a-bundle.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-04-counting-from-any-number.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/resource-pack.md",
+      "kind": "resource-pack"
     },
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-02-counting-by-tens-to-120.md",
@@ -1888,72 +2356,28 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-04-counting-from-any-number.md",
-      "kind": "lesson"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-05-comparing-two-digit-numbers.md",
-      "kind": "lesson"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/practice.md",
-      "kind": "practice"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/project.md",
-      "kind": "project"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/resource-pack.md",
-      "kind": "resource-pack"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assessments/week-04_quiz.md",
-      "kind": "quiz"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assessments/unit-assessment.md",
-      "kind": "assessment"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/teacher-guide.md",
-      "kind": "teacher-guide"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/answer-key.md",
-      "kind": "answer-key"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assets/README.md",
-      "kind": "assets"
-    },
-    {
-      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assets/tens-and-ones-compare.png",
-      "kind": "asset"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
-    "grade-index": 9,
-    "subject-index": 56,
+    "grade-index": 13,
+    "subject-index": 112,
     "new-assignment": 31,
     "assignment": 111,
-    "quiz": 228,
+    "quiz": 232,
     "template": 14,
     "hints": 2,
     "rhythm": 2,
-    "unit-index": 1,
-    "lesson": 5,
-    "practice": 1,
-    "project": 1,
-    "resource-pack": 1,
-    "assessment": 1,
-    "teacher-guide": 1,
-    "answer-key": 1,
-    "assets": 1,
-    "asset": 1
+    "unit-index": 5,
+    "lesson": 26,
+    "practice": 5,
+    "project": 5,
+    "resource-pack": 5,
+    "assessment": 5,
+    "teacher-guide": 5,
+    "answer-key": 5,
+    "assets": 5,
+    "asset": 5
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
