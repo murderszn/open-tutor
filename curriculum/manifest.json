@@ -1,1965 +1,2221 @@
 {
- "format_version": 1,
- "files": [
-  {
-   "path": "README.md",
-   "kind": "curriculum-index"
-  },
-  {
-   "path": "grade-4/README.md",
-   "kind": "grade-index"
-  },
-  {
-   "path": "grade-4/bible/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-4/language-arts/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/character-description.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/claim-evidence-commentary-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/context-clues-word-detective.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/main-idea-and-details.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/opinion-writing-with-evidence.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/parts-of-speech-practice.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/reading-podcast-response-log.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/rhyme-poem-workshop.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/sentence-parts-practice.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/language-arts/assignments/source-evaluation.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/language-arts/quizzes/great-books-ancient-stories-myths-shakespeare-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/language-arts/quizzes/great-books-classic-novels-poems-short-stories-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/language-arts/quizzes/literary-terms-figurative-language-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/language-arts/quizzes/literary-terms-story-elements-narrative-devices-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/language-arts/quizzes/parts-of-a-sentence-phrases-clauses-sentence-types-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/language-arts/quizzes/parts-of-a-sentence-subject-predicate-objects-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/language-arts/quizzes/parts-of-speech-adjectives-adverbs-prepositions-conjunctions-interjections-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/language-arts/quizzes/parts-of-speech-nouns-pronouns-verbs-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/language-arts/templates/audiobook-trailers.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-4/language-arts/templates/video-reviews.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-4/math/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-4/math/assignments/data-graphs-and-comparisons.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/data-story-mini-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/decimal-money-math-market.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/factors-and-multiples.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/fraction-word-problem-workshop.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/fractions-and-equivalent-models.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/golden-ratio.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/may-market-ratios.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/measurement-and-line-plots.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/multi-digit-math-workshop.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/multi-digit-multiplication-practice.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/perimeter-area-city-plan.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/probability-experiment-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/rounding-place-value.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/math/assignments/triangle-spotting-field-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/math/quizzes/adding-subtracting-fractions-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/adding-subtracting-fractions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/addition-subtraction-multi-digit-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/decimals-fractions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/division-concepts-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/fraction-fundamentals-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/geometry-lines-angles-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/geometry-shapes-symmetry-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/hints-for-hints.md",
-   "kind": "hints"
-  },
-  {
-   "path": "grade-4/math/quizzes/measurement-length-weight-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/measurement-time-money-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/math/quizzes/summer-mixed-review-place-value-fractions-operations-measurement-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-4/social-studies/assignments/civic-voting-research.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/social-studies/assignments/creed-five-states-report.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/social-studies/assignments/currency-history-research.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/social-studies/assignments/time-zones-explanation.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/digital-storage-sizes-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/from-colonies-to-the-constitution-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/global-agriculture-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/global-chokepoints-strategic-fairways-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/global-energy-precious-metals-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/government-agencies-departments-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/major-global-capitals-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/major-global-stock-exchanges-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/major-oceans-seas-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/rights-responsibilities-u-s-states-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/standard-to-metric-conversions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/temperature-foreign-exchange-forex-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/the-metric-system-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/the-three-branches-of-government-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/volume-liquid-measurements-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/quizzes/weight-distance-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/social-studies/templates/civil-rights-movement.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-4/stem/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-4/stem/assignments/animal-cells.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/cooking-and-nutrition.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/custom-pc-build.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/earth-layers-model.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/ecosystem-habitat-model.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/intro-to-algorithms.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/micronutrients.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/paper-bridge-engineering-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/photosynthesis.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/physical-science-roadmap/README.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/physical-science-roadmap/lab-menu.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/physical-science-roadmap/lab-report-template.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-4/stem/assignments/plant-cells.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/reproduction.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/simple-machines-at-home.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/solar-system-tour.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/thermodynamics-cooling-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/volcano-explanation.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/water-cycle.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/assignments/weather-observer-journal.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-01-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-02-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-03-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-04-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-05-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-06-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-07-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-08-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-09-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-10-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-11-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-4/stem/quizzes/week-12-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/README.md",
-   "kind": "grade-index"
-  },
-  {
-   "path": "grade-5/bible/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-5/language-arts/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-5/language-arts/assignments/dialogue-story-studio.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/language-arts/assignments/fact-opinion-topic-sentences.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/language-arts/assignments/figurative-language-hunt.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/language-arts/assignments/opinion-writing-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/book-reviews-critical-critique-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/dialogue-rules-quotation-punctuation-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/editing-conventions-commas-capitalization-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/fall-semester-final-language-arts-showcase-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/figurative-language-personification-hyperbole-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/figurative-language-similes-metaphors-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/idioms-adages-cultural-sayings-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/main-idea-key-details-paraphrasing-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/narrative-elements-the-story-mountain-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/nonfiction-text-structures-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/sensory-imagery-creative-voice-workshop-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/sentence-structures-fanboys-compound-sentences-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/the-oreo-writing-method-strong-evidence-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/word-morphology-essential-suffixes-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/quizzes/word-morphology-power-prefixes-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/language-arts/templates/audiobook-trailers.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-5/language-arts/templates/video-reviews.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-5/math/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-5/math/assignments/decimal-products-practice.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/math/assignments/fraction-operations-studio.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-5/math/assignments/multi-digit-division-practice.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/math/assignments/multi-digit-multiplication.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/math/assignments/powers-of-ten-practice.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/math/assignments/volume-and-coordinate-planes.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-5/math/quizzes/adding-subtracting-decimals-with-regrouping-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/adding-subtracting-fractions-with-unlike-denominators-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/adding-subtracting-mixed-numbers-with-regrouping-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/comprehensive-semester-1-final-review-math-celebration-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/decimal-operations-review-mid-semester-check-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/decimal-place-value-comparing-to-thousandths-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/dividing-decimals-by-whole-numbers-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/equivalent-fractions-finding-common-denominators-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/multiplying-fractions-visual-area-models-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/the-coordinate-plane-in-quadrant-i-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/unit-fraction-division-story-problems-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/math/quizzes/volume-of-rectangular-prisms-v-l-times-w-times-h-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-5/social-studies/assignments/fifty-states-and-capitals-challenge.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-5/social-studies/assignments/regional-geography-review.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/social-studies/assignments/road-to-revolution-journal.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-5/social-studies/assignments/thirteen-colonies-life.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/indigenous-peoples-first-nations-of-north-america-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/lexington-concord-the-bunker-hill-courage-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/no-taxation-without-representation-boston-protests-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/roanoke-jamestown-early-virginia-16071619-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/the-declaration-of-independence-july-4-1776-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/the-french-indian-war-the-royal-proclamation-of-1763-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/the-middle-colonies-trade-tolerance-wheat-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/the-midwest-region-breadbasket-states-the-great-lakes-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/the-new-england-colonies-pilgrim-life-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/the-southern-colonies-plantations-labor-life-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/the-southwest-region-states-deserts-canyons-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/the-west-pacific-region-mountains-oceans-capitals-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/valley-forge-washington-s-crossing-the-french-alliance-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/quizzes/victory-at-yorktown-black-patriots-a-new-nation-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/social-studies/templates/civil-rights-movement.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-5/stem/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-5/stem/assignments/app-design-introduction.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/stem/assignments/earth-spheres-investigation.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-5/stem/assignments/earth-spheres-scratch-review.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-5/stem/assignments/scratch-game-challenge.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-5/stem/assignments/simple-machines-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-5/stem/quizzes/asteroids-comets-meteors-python-loops-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/atmosphere-layers-air-pressure-scratch-broadcast-events-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/earth-s-rotation-revolution-seasons-python-user-input-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/earth-spheres-check-in-scratch-variables-scorekeeping-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/fall-semester-science-tech-showcase-capstone-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/moon-phases-tides-gravity-python-if-else-conditions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/pulleys-wheel-axle-scratch-collision-detection-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/scratch-game-challenge-check-in-ecosystem-energy-flow-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/severe-weather-levers-classes-1-2-3-video-storyboarding-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/simple-machines-lab-review-intro-to-python-print-variables-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/sphere-interactions-the-water-cycle-scratch-motion-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/states-of-matter-sound-light-waves-video-production-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/the-engineering-design-process-python-number-guessing-game-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/the-solar-system-rocky-inner-vs-gas-giant-outer-planets-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/stem/quizzes/weather-vs-climate-cloud-types-the-inclined-plane-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-5/weekly-rhythm.md",
-   "kind": "rhythm"
-  },
-  {
-   "path": "grade-7/README.md",
-   "kind": "grade-index"
-  },
-  {
-   "path": "grade-7/bible/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-7/language-arts/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-7/language-arts/assignments/argument-paragraph-builder.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/language-arts/assignments/claim-evidence-commentary-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/language-arts/assignments/context-clues-vocabulary-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/language-arts/assignments/narrative-scene-revision.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/language-arts/assignments/parts-of-speech-practice.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/language-arts/assignments/reading-podcast-response-log.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/language-arts/assignments/sentence-structure-and-combining.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/language-arts/quizzes/great-books-ancient-stories-myths-shakespeare-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/language-arts/quizzes/great-books-classic-novels-poems-short-stories-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/language-arts/quizzes/literary-terms-figurative-language-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/language-arts/quizzes/literary-terms-story-elements-narrative-devices-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/language-arts/quizzes/parts-of-a-sentence-phrases-clauses-sentence-types-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/language-arts/quizzes/parts-of-a-sentence-subject-predicate-objects-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/language-arts/quizzes/parts-of-speech-adjectives-adverbs-prepositions-conjunctions-interjections-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/language-arts/quizzes/parts-of-speech-nouns-pronouns-verbs-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/language-arts/templates/audiobook-trailers.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-7/language-arts/templates/video-reviews.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-7/math/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-7/math/assignments/data-story-mini-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/expressions-and-equations-checkpoint.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/geometry-scale-drawing-studio.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/golden-ratio.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/inequalities-budget-challenge.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/probability-experiment-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/probability-game-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/proportional-relationships-shop.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/statistics-sports-analytics.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/surface-area-design-studio.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-7/math/assignments/triangle-spotting-field-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/math/quizzes/equivalent-expressions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/geometry-angles-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/geometry-area-circumference-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/geometry-volume-surface-area-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/hints-for-hints.md",
-   "kind": "hints"
-  },
-  {
-   "path": "grade-7/math/quizzes/operations-with-fractions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/probability-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/proportional-relationships-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/rational-numbers-negatives-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/rational-numbers-negatives-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/ratios-rates-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/solving-equations-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/solving-inequalities-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/statistics-sampling-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/math/quizzes/summer-mixed-review-expressions-equations-ratios-geometry-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-7/social-studies/assignments/city-planning-design-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/social-studies/assignments/credit-cost-comparison.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-7/social-studies/assignments/creed-five-states-report.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/social-studies/assignments/history-of-war.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/social-studies/assignments/landmark-court-case.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/digital-storage-sizes-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/from-colonies-to-the-constitution-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/global-agriculture-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/global-chokepoints-strategic-fairways-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/global-energy-precious-metals-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/government-agencies-departments-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/major-global-capitals-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/major-global-stock-exchanges-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/major-oceans-seas-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/rights-responsibilities-u-s-states-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/standard-to-metric-conversions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/temperature-foreign-exchange-forex-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/the-metric-system-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/the-three-branches-of-government-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/volume-liquid-measurements-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/weight-distance-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/quizzes/weight-distance-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/social-studies/templates/civil-rights-movement.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-7/stem/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-7/stem/assignments/animal-cells.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/cooking-and-nutrition.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/custom-pc-build.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/earth-systems-data-story.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/ecosystems-energy-flow.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/engine-systems-investigation.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/forces-and-motion-design.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/intro-to-algorithms.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/micronutrients.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/photosynthesis.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/physical-science-roadmap/README.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/physical-science-roadmap/lab-menu.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/physical-science-roadmap/lab-report-template.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-7/stem/assignments/plant-cells.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/reproduction.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/roblox-lua-intro.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/solar-system-tour.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/thermodynamics-cooling-lab.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/assignments/water-cycle.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-01-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-01-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-02-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-02-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-03-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-03-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-04-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-04-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-05-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-05-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-06-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-06-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-07-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-08-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-08-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-09-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-09-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-10-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-10-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-11-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-11-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-12-quiz-set-02.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-7/stem/quizzes/week-12-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/README.md",
-   "kind": "grade-index"
-  },
-  {
-   "path": "grade-8/bible/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-8/language-arts/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-8/language-arts/assignments/argumentative-essay-studio.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/language-arts/assignments/hamlet-soliloquy-analysis.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/language-arts/assignments/romeo-and-juliet-foils.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/argumentative-foundations-claims-evidence-reasoning-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/classical-rhetoric-ethos-pathos-and-logos-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/comparative-rhetoric-literary-synthesis-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/counterclaims-rebuttals-logical-fallacies-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/fall-semester-final-mastery-examination-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/harlem-renaissance-claude-mckay-countee-cullen-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/harlem-renaissance-langston-hughes-jazz-poetry-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/mechanics-active-vs-passive-voice-action-verbs-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/mechanics-semicolons-colons-conjunctive-adverbs-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/rhetorical-masterwork-frederick-douglass-the-fourth-of-july-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/rhetorical-masterwork-lincoln-the-gettysburg-address-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/shakespeare-drama-the-globe-theater-iambic-pentameter-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/shakespeare-hamlet-revenge-madness-corruption-tragic-flaws-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/shakespeare-hamlet-soliloquy-analysis-to-be-or-not-to-be-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/shakespeare-romeo-juliet-character-foils-dramatic-irony-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/quizzes/shakespeare-romeo-juliet-soliloquy-monologue-motif-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/language-arts/templates/audiobook-trailers.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-8/language-arts/templates/video-reviews.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-8/math/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-8/math/assignments/bivariate-scatter-plots.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/math/assignments/linear-equations-lab.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-8/math/assignments/pythagorean-theorem-studio.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/math/assignments/scientific-notation-practice.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-8/math/quizzes/bivariate-data-scatter-plots-trendlines-outliers-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/comprehensive-semester-1-final-exam-cumulative-assessment-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/graphing-interpreting-linear-equations-y-mx-b-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/integer-exponent-properties-laws-of-powers-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/introduction-to-functions-linear-vs-non-linear-relations-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/pythagorean-theorem-applications-in-2d-3d-space-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/real-number-system-square-roots-cube-roots-irrationals-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/slope-rate-of-change-proportional-relationships-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/solving-multi-step-linear-equations-in-one-variable-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/systems-of-linear-equations-by-elimination-word-problems-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/systems-of-linear-equations-by-graphing-substitution-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/the-pythagorean-theorem-distance-on-the-coordinate-plane-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/variables-on-both-sides-classifying-solutions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/volume-of-cylinders-cones-and-spheres-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/math/quizzes/writing-linear-equations-midterm-cumulative-review-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-8/social-studies/assignments/bill-of-rights-scenarios.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/social-studies/assignments/constitutional-convention-debate.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/social-studies/assignments/constitutional-convention-review.md",
-   "kind": "new-assignment"
-  },
-  {
-   "path": "grade-8/social-studies/assignments/reconstruction-amendments-legacy.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/appomattox-lincoln-s-vision-the-13th-amendment-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/civil-war-turning-points-the-emancipation-proclamation-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/federalists-vs-anti-federalists-the-ratification-debate-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/manifest-destiny-sectionalism-legislative-compromises-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/presidential-vs-congressional-reconstruction-the-freedmen-s-bureau-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-abolitionist-movement-freedom-fighters-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-articles-of-confederation-shays-rebellion-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-bill-of-rights-liberties-protections-federalism-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-deepening-divide-kansas-nebraska-act-dred-scott-john-brown-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-early-industrial-market-revolution-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-early-republic-hamilton-vs-jefferson-the-louisiana-purchase-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-election-of-1860-secession-the-outbreak-of-the-civil-war-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-reconstruction-amendments-black-political-leadership-legacy-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-three-branches-of-government-checks-and-balances-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/quizzes/the-war-of-1812-the-monroe-doctrine-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/templates/civil-rights-movement.md",
-   "kind": "template"
-  },
-  {
-   "path": "grade-8/stem/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-8/stem/assignments/newtons-laws-investigation.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/stem/assignments/python-oop-bank-simulation.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/stem/assignments/web-calculator-interactive.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-8/stem/quizzes/advanced-git-branching-merge-conflicts-types-of-chemical-reactions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/code-architecture-refactoring-clean-code-chemistry-in-everyday-life-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/comprehensive-semester-capstone-review-systems-synthesis-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/css3-box-model-flexbox-layouts-optics-reflection-refraction-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/git-workflow-intro-to-python-classes-kinematics-motion-speed-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/javascript-dom-manipulation-electrical-circuits-current-ohm-s-law-v-ir-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/js-event-handling-state-atomic-structure-protons-neutrons-electrons-isotopes-ions-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/newton-s-laws-lab-data-analysis-solutions-acids-bases-the-ph-scale-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/polymorphism-bank-sim-checkpoint-conservation-of-energy-simple-machines-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/python-attributes-methods-newton-s-first-law-inertia-second-law-f-ma-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/python-encapsulation-validation-newton-s-third-law-momentum-p-mv-impulse-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/python-file-i-o-json-writing-balancing-chemical-equations-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/python-inheritance-work-power-kinetic-vs-potential-energy-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/responsive-web-media-queries-valence-electrons-chemical-bonding-ionic-vs-covalent-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/semantic-html5-wave-properties-sound-waves-the-electromagnetic-spectrum-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/stem/quizzes/web-calculator-logic-parsing-the-periodic-table-element-families-quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/weekly-rhythm.md",
-   "kind": "rhythm"
-  },
-  {
-   "path": "grade-k/math/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-k/math/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-1/language-arts/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-1/language-arts/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-1/README.md",
-   "kind": "grade-index"
-  },
-  {
-   "path": "grade-1/language-arts/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-1/math/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-1/math/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-1/science/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-1/science/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-1/social-studies/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-1/social-studies/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-2/README.md",
-   "kind": "grade-index"
-  },
-  {
-   "path": "grade-2/language-arts/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-2/language-arts/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-2/math/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-2/math/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-2/science/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-2/science/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-2/social-studies/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-2/social-studies/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-3/README.md",
-   "kind": "grade-index"
-  },
-  {
-   "path": "grade-3/language-arts/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-3/language-arts/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-3/math/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-3/math/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-3/science/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-3/science/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-3/social-studies/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-3/social-studies/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-6/README.md",
-   "kind": "grade-index"
-  },
-  {
-   "path": "grade-6/language-arts/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-6/language-arts/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-6/math/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-6/math/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-6/science/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-6/science/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-6/social-studies/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-6/social-studies/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-k/README.md",
-   "kind": "grade-index"
-  },
-  {
-   "path": "grade-k/language-arts/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-k/language-arts/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-k/math/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-k/science/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-k/science/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-k/social-studies/README.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-k/social-studies/starter-lesson.md",
-   "kind": "assignment"
-  },
-  {
-   "path": "grade-k/science/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/README.md",
-   "kind": "unit-index"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-01-touch-and-count-to-5.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-02-sorting-by-color-and-size.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-03-counting-to-10-how-many.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-04-count-out-a-requested-number.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-05-sort-groups-and-compare-counts.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/practice.md",
-   "kind": "practice"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/project.md",
-   "kind": "project"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/resource-pack.md",
-   "kind": "resource-pack"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assessments/week-04_quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assessments/unit-assessment.md",
-   "kind": "assessment"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/teacher-guide.md",
-   "kind": "teacher-guide"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/answer-key.md",
-   "kind": "answer-key"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assets/README.md",
-   "kind": "assets"
-  },
-  {
-   "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assets/counting-sorting-tray.png",
-   "kind": "asset"
-  },
-  {
-   "path": "grade-k/language-arts/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-k/social-studies/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-1/math/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-1/science/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-1/social-studies/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-2/math/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-2/science/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-2/language-arts/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-2/social-studies/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-3/math/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-3/science/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-3/language-arts/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-3/social-studies/scope-and-sequence.md",
-   "kind": "subject-index"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/README.md",
-   "kind": "unit-index"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-01-what-makes-me-me.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-02-welcome-to-our-circle.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-03-classroom-helper-roles.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-04-kindness-in-action.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-05-fixing-hurt-feelings.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/practice.md",
-   "kind": "practice"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/project.md",
-   "kind": "project"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/resource-pack.md",
-   "kind": "resource-pack"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assessments/week-04_quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assessments/unit-assessment.md",
-   "kind": "assessment"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/teacher-guide.md",
-   "kind": "teacher-guide"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/answer-key.md",
-   "kind": "answer-key"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assets/README.md",
-   "kind": "assets"
-  },
-  {
-   "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assets/belonging-circle.png",
-   "kind": "asset"
-  }
- ],
- "counts_by_kind": {
-  "curriculum-index": 1,
-  "grade-index": 9,
-  "subject-index": 56,
-  "new-assignment": 31,
-  "assignment": 111,
-  "quiz": 229,
-  "template": 14,
-  "hints": 2,
-  "rhythm": 2,
-  "unit-index": 2,
-  "lesson": 10,
-  "practice": 2,
-  "project": 2,
-  "resource-pack": 2,
-  "assessment": 2,
-  "teacher-guide": 2,
-  "answer-key": 2,
-  "assets": 2,
-  "asset": 2
- },
- "review_notes": [
-  "Directory grade retained; review retitled and accelerated prompts.",
-  "Upper-grade copied archives consolidated to earlier grade.",
-  "Teacher answer keys are not student responses.",
-  "Faith-based enrichment explicitly optional.",
-  "Current data and pedagogical coverage require educator review."
- ]
+  "format_version": 1,
+  "files": [
+    {
+      "path": "README.md",
+      "kind": "curriculum-index"
+    },
+    {
+      "path": "grade-4/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-4/bible/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/character-description.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/claim-evidence-commentary-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/context-clues-word-detective.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/main-idea-and-details.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/opinion-writing-with-evidence.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/parts-of-speech-practice.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/reading-podcast-response-log.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/rhyme-poem-workshop.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/sentence-parts-practice.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/language-arts/assignments/source-evaluation.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/language-arts/quizzes/great-books-ancient-stories-myths-shakespeare-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/quizzes/great-books-classic-novels-poems-short-stories-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/quizzes/literary-terms-figurative-language-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/quizzes/literary-terms-story-elements-narrative-devices-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/quizzes/parts-of-a-sentence-phrases-clauses-sentence-types-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/quizzes/parts-of-a-sentence-subject-predicate-objects-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/quizzes/parts-of-speech-adjectives-adverbs-prepositions-conjunctions-interjections-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/quizzes/parts-of-speech-nouns-pronouns-verbs-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/templates/audiobook-trailers.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-4/language-arts/templates/video-reviews.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-4/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/math/assignments/data-graphs-and-comparisons.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/data-story-mini-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/decimal-money-math-market.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/factors-and-multiples.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/fraction-word-problem-workshop.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/fractions-and-equivalent-models.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/golden-ratio.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/may-market-ratios.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/measurement-and-line-plots.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/multi-digit-math-workshop.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/multi-digit-multiplication-practice.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/perimeter-area-city-plan.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/probability-experiment-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/rounding-place-value.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/math/assignments/triangle-spotting-field-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/math/quizzes/adding-subtracting-fractions-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/adding-subtracting-fractions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/addition-subtraction-multi-digit-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/decimals-fractions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/division-concepts-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/fraction-fundamentals-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/geometry-lines-angles-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/geometry-shapes-symmetry-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/hints-for-hints.md",
+      "kind": "hints"
+    },
+    {
+      "path": "grade-4/math/quizzes/measurement-length-weight-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/measurement-time-money-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/quizzes/summer-mixed-review-place-value-fractions-operations-measurement-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/social-studies/assignments/civic-voting-research.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/social-studies/assignments/creed-five-states-report.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/social-studies/assignments/currency-history-research.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/social-studies/assignments/time-zones-explanation.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/digital-storage-sizes-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/from-colonies-to-the-constitution-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/global-agriculture-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/global-chokepoints-strategic-fairways-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/global-energy-precious-metals-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/government-agencies-departments-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/major-global-capitals-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/major-global-stock-exchanges-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/major-oceans-seas-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/rights-responsibilities-u-s-states-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/standard-to-metric-conversions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/temperature-foreign-exchange-forex-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/the-metric-system-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/the-three-branches-of-government-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/volume-liquid-measurements-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/quizzes/weight-distance-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/social-studies/templates/civil-rights-movement.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-4/stem/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/stem/assignments/animal-cells.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/cooking-and-nutrition.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/custom-pc-build.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/earth-layers-model.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/ecosystem-habitat-model.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/intro-to-algorithms.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/micronutrients.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/paper-bridge-engineering-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/photosynthesis.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/physical-science-roadmap/README.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/physical-science-roadmap/lab-menu.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/physical-science-roadmap/lab-report-template.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-4/stem/assignments/plant-cells.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/reproduction.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/simple-machines-at-home.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/solar-system-tour.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/thermodynamics-cooling-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/volcano-explanation.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/water-cycle.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/assignments/weather-observer-journal.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-01-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-02-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-03-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-04-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-05-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-06-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-07-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-08-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-09-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-10-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-11-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/stem/quizzes/week-12-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-5/bible/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/language-arts/assignments/dialogue-story-studio.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/language-arts/assignments/fact-opinion-topic-sentences.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/language-arts/assignments/figurative-language-hunt.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/language-arts/assignments/opinion-writing-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/book-reviews-critical-critique-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/dialogue-rules-quotation-punctuation-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/editing-conventions-commas-capitalization-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/fall-semester-final-language-arts-showcase-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/figurative-language-personification-hyperbole-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/figurative-language-similes-metaphors-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/idioms-adages-cultural-sayings-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/main-idea-key-details-paraphrasing-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/narrative-elements-the-story-mountain-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/nonfiction-text-structures-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/sensory-imagery-creative-voice-workshop-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/sentence-structures-fanboys-compound-sentences-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/the-oreo-writing-method-strong-evidence-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/word-morphology-essential-suffixes-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/quizzes/word-morphology-power-prefixes-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/templates/audiobook-trailers.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-5/language-arts/templates/video-reviews.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-5/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/math/assignments/decimal-products-practice.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/math/assignments/fraction-operations-studio.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-5/math/assignments/multi-digit-division-practice.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/math/assignments/multi-digit-multiplication.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/math/assignments/powers-of-ten-practice.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/math/assignments/volume-and-coordinate-planes.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-5/math/quizzes/adding-subtracting-decimals-with-regrouping-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/adding-subtracting-fractions-with-unlike-denominators-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/adding-subtracting-mixed-numbers-with-regrouping-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/comprehensive-semester-1-final-review-math-celebration-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/decimal-operations-review-mid-semester-check-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/decimal-place-value-comparing-to-thousandths-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/dividing-decimals-by-whole-numbers-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/equivalent-fractions-finding-common-denominators-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/multiplying-fractions-visual-area-models-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/the-coordinate-plane-in-quadrant-i-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/unit-fraction-division-story-problems-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/math/quizzes/volume-of-rectangular-prisms-v-l-times-w-times-h-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/social-studies/assignments/fifty-states-and-capitals-challenge.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-5/social-studies/assignments/regional-geography-review.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/social-studies/assignments/road-to-revolution-journal.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-5/social-studies/assignments/thirteen-colonies-life.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/indigenous-peoples-first-nations-of-north-america-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/lexington-concord-the-bunker-hill-courage-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/no-taxation-without-representation-boston-protests-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/roanoke-jamestown-early-virginia-16071619-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/the-declaration-of-independence-july-4-1776-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/the-french-indian-war-the-royal-proclamation-of-1763-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/the-middle-colonies-trade-tolerance-wheat-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/the-midwest-region-breadbasket-states-the-great-lakes-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/the-new-england-colonies-pilgrim-life-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/the-southern-colonies-plantations-labor-life-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/the-southwest-region-states-deserts-canyons-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/the-west-pacific-region-mountains-oceans-capitals-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/valley-forge-washington-s-crossing-the-french-alliance-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/quizzes/victory-at-yorktown-black-patriots-a-new-nation-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/templates/civil-rights-movement.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-5/stem/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/stem/assignments/app-design-introduction.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/stem/assignments/earth-spheres-investigation.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-5/stem/assignments/earth-spheres-scratch-review.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-5/stem/assignments/scratch-game-challenge.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-5/stem/assignments/simple-machines-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-5/stem/quizzes/asteroids-comets-meteors-python-loops-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/atmosphere-layers-air-pressure-scratch-broadcast-events-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/earth-s-rotation-revolution-seasons-python-user-input-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/earth-spheres-check-in-scratch-variables-scorekeeping-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/fall-semester-science-tech-showcase-capstone-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/moon-phases-tides-gravity-python-if-else-conditions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/pulleys-wheel-axle-scratch-collision-detection-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/scratch-game-challenge-check-in-ecosystem-energy-flow-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/severe-weather-levers-classes-1-2-3-video-storyboarding-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/simple-machines-lab-review-intro-to-python-print-variables-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/sphere-interactions-the-water-cycle-scratch-motion-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/states-of-matter-sound-light-waves-video-production-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/the-engineering-design-process-python-number-guessing-game-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/the-solar-system-rocky-inner-vs-gas-giant-outer-planets-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/stem/quizzes/weather-vs-climate-cloud-types-the-inclined-plane-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/weekly-rhythm.md",
+      "kind": "rhythm"
+    },
+    {
+      "path": "grade-7/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-7/bible/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/language-arts/assignments/argument-paragraph-builder.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/language-arts/assignments/claim-evidence-commentary-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/language-arts/assignments/context-clues-vocabulary-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/language-arts/assignments/narrative-scene-revision.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/language-arts/assignments/parts-of-speech-practice.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/language-arts/assignments/reading-podcast-response-log.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/language-arts/assignments/sentence-structure-and-combining.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/language-arts/quizzes/great-books-ancient-stories-myths-shakespeare-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/quizzes/great-books-classic-novels-poems-short-stories-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/quizzes/literary-terms-figurative-language-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/quizzes/literary-terms-story-elements-narrative-devices-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/quizzes/parts-of-a-sentence-phrases-clauses-sentence-types-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/quizzes/parts-of-a-sentence-subject-predicate-objects-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/quizzes/parts-of-speech-adjectives-adverbs-prepositions-conjunctions-interjections-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/quizzes/parts-of-speech-nouns-pronouns-verbs-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/templates/audiobook-trailers.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-7/language-arts/templates/video-reviews.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-7/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/math/assignments/data-story-mini-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/expressions-and-equations-checkpoint.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/geometry-scale-drawing-studio.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/golden-ratio.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/inequalities-budget-challenge.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/probability-experiment-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/probability-game-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/proportional-relationships-shop.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/statistics-sports-analytics.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/surface-area-design-studio.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-7/math/assignments/triangle-spotting-field-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/math/quizzes/equivalent-expressions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/geometry-angles-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/geometry-area-circumference-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/geometry-volume-surface-area-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/hints-for-hints.md",
+      "kind": "hints"
+    },
+    {
+      "path": "grade-7/math/quizzes/operations-with-fractions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/probability-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/proportional-relationships-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/rational-numbers-negatives-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/rational-numbers-negatives-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/ratios-rates-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/solving-equations-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/solving-inequalities-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/statistics-sampling-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/quizzes/summer-mixed-review-expressions-equations-ratios-geometry-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/social-studies/assignments/city-planning-design-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/social-studies/assignments/credit-cost-comparison.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-7/social-studies/assignments/creed-five-states-report.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/social-studies/assignments/history-of-war.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/social-studies/assignments/landmark-court-case.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/digital-storage-sizes-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/from-colonies-to-the-constitution-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/global-agriculture-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/global-chokepoints-strategic-fairways-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/global-energy-precious-metals-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/government-agencies-departments-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/major-global-capitals-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/major-global-stock-exchanges-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/major-oceans-seas-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/rights-responsibilities-u-s-states-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/standard-to-metric-conversions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/temperature-foreign-exchange-forex-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/the-metric-system-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/the-three-branches-of-government-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/volume-liquid-measurements-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/weight-distance-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/quizzes/weight-distance-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/templates/civil-rights-movement.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-7/stem/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/stem/assignments/animal-cells.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/cooking-and-nutrition.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/custom-pc-build.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/earth-systems-data-story.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/ecosystems-energy-flow.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/engine-systems-investigation.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/forces-and-motion-design.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/intro-to-algorithms.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/micronutrients.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/photosynthesis.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/physical-science-roadmap/README.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/physical-science-roadmap/lab-menu.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/physical-science-roadmap/lab-report-template.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-7/stem/assignments/plant-cells.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/reproduction.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/roblox-lua-intro.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/solar-system-tour.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/thermodynamics-cooling-lab.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/assignments/water-cycle.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-01-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-01-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-02-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-02-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-03-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-03-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-04-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-04-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-05-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-05-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-06-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-06-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-07-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-08-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-08-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-09-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-09-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-10-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-10-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-11-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-11-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-12-quiz-set-02.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/stem/quizzes/week-12-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-8/bible/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/language-arts/assignments/argumentative-essay-studio.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/language-arts/assignments/hamlet-soliloquy-analysis.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/language-arts/assignments/romeo-and-juliet-foils.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/argumentative-foundations-claims-evidence-reasoning-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/classical-rhetoric-ethos-pathos-and-logos-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/comparative-rhetoric-literary-synthesis-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/counterclaims-rebuttals-logical-fallacies-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/fall-semester-final-mastery-examination-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/harlem-renaissance-claude-mckay-countee-cullen-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/harlem-renaissance-langston-hughes-jazz-poetry-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/mechanics-active-vs-passive-voice-action-verbs-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/mechanics-semicolons-colons-conjunctive-adverbs-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/rhetorical-masterwork-frederick-douglass-the-fourth-of-july-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/rhetorical-masterwork-lincoln-the-gettysburg-address-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/shakespeare-drama-the-globe-theater-iambic-pentameter-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/shakespeare-hamlet-revenge-madness-corruption-tragic-flaws-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/shakespeare-hamlet-soliloquy-analysis-to-be-or-not-to-be-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/shakespeare-romeo-juliet-character-foils-dramatic-irony-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/quizzes/shakespeare-romeo-juliet-soliloquy-monologue-motif-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/templates/audiobook-trailers.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-8/language-arts/templates/video-reviews.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-8/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/math/assignments/bivariate-scatter-plots.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/math/assignments/linear-equations-lab.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-8/math/assignments/pythagorean-theorem-studio.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/math/assignments/scientific-notation-practice.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-8/math/quizzes/bivariate-data-scatter-plots-trendlines-outliers-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/comprehensive-semester-1-final-exam-cumulative-assessment-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/graphing-interpreting-linear-equations-y-mx-b-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/integer-exponent-properties-laws-of-powers-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/introduction-to-functions-linear-vs-non-linear-relations-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/pythagorean-theorem-applications-in-2d-3d-space-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/real-number-system-square-roots-cube-roots-irrationals-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/slope-rate-of-change-proportional-relationships-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/solving-multi-step-linear-equations-in-one-variable-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/systems-of-linear-equations-by-elimination-word-problems-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/systems-of-linear-equations-by-graphing-substitution-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/the-pythagorean-theorem-distance-on-the-coordinate-plane-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/variables-on-both-sides-classifying-solutions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/volume-of-cylinders-cones-and-spheres-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/quizzes/writing-linear-equations-midterm-cumulative-review-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/social-studies/assignments/bill-of-rights-scenarios.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/social-studies/assignments/constitutional-convention-debate.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/social-studies/assignments/constitutional-convention-review.md",
+      "kind": "new-assignment"
+    },
+    {
+      "path": "grade-8/social-studies/assignments/reconstruction-amendments-legacy.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/appomattox-lincoln-s-vision-the-13th-amendment-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/civil-war-turning-points-the-emancipation-proclamation-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/federalists-vs-anti-federalists-the-ratification-debate-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/manifest-destiny-sectionalism-legislative-compromises-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/presidential-vs-congressional-reconstruction-the-freedmen-s-bureau-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-abolitionist-movement-freedom-fighters-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-articles-of-confederation-shays-rebellion-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-bill-of-rights-liberties-protections-federalism-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-deepening-divide-kansas-nebraska-act-dred-scott-john-brown-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-early-industrial-market-revolution-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-early-republic-hamilton-vs-jefferson-the-louisiana-purchase-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-election-of-1860-secession-the-outbreak-of-the-civil-war-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-reconstruction-amendments-black-political-leadership-legacy-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-three-branches-of-government-checks-and-balances-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/quizzes/the-war-of-1812-the-monroe-doctrine-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/templates/civil-rights-movement.md",
+      "kind": "template"
+    },
+    {
+      "path": "grade-8/stem/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/stem/assignments/newtons-laws-investigation.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/stem/assignments/python-oop-bank-simulation.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/stem/assignments/web-calculator-interactive.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-8/stem/quizzes/advanced-git-branching-merge-conflicts-types-of-chemical-reactions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/code-architecture-refactoring-clean-code-chemistry-in-everyday-life-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/comprehensive-semester-capstone-review-systems-synthesis-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/css3-box-model-flexbox-layouts-optics-reflection-refraction-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/git-workflow-intro-to-python-classes-kinematics-motion-speed-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/javascript-dom-manipulation-electrical-circuits-current-ohm-s-law-v-ir-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/js-event-handling-state-atomic-structure-protons-neutrons-electrons-isotopes-ions-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/newton-s-laws-lab-data-analysis-solutions-acids-bases-the-ph-scale-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/polymorphism-bank-sim-checkpoint-conservation-of-energy-simple-machines-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/python-attributes-methods-newton-s-first-law-inertia-second-law-f-ma-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/python-encapsulation-validation-newton-s-third-law-momentum-p-mv-impulse-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/python-file-i-o-json-writing-balancing-chemical-equations-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/python-inheritance-work-power-kinetic-vs-potential-energy-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/responsive-web-media-queries-valence-electrons-chemical-bonding-ionic-vs-covalent-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/semantic-html5-wave-properties-sound-waves-the-electromagnetic-spectrum-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/stem/quizzes/web-calculator-logic-parsing-the-periodic-table-element-families-quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/weekly-rhythm.md",
+      "kind": "rhythm"
+    },
+    {
+      "path": "grade-k/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-1/language-arts/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-1/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/math/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-1/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/science/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-1/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/social-studies/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-2/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-2/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/language-arts/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-2/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/math/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-2/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/science/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-2/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/social-studies/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-3/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-3/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/language-arts/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-3/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/math/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-3/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/science/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-3/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/social-studies/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-6/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-6/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-6/language-arts/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-6/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-6/math/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-6/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-6/science/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-6/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-6/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-6/social-studies/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-k/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-k/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/language-arts/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-k/math/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-k/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/science/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-k/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/social-studies/starter-lesson.md",
+      "kind": "assignment"
+    },
+    {
+      "path": "grade-k/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-01-touch-and-count-to-5.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-02-sorting-by-color-and-size.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-03-counting-to-10-how-many.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-04-count-out-a-requested-number.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/lessons/lesson-05-sort-groups-and-compare-counts.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/math/units/unit-01-counting-and-classifying-objects/assets/counting-sorting-tray.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-2/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-3/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-4/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-01-five-senses-noticing.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-03-describing-what-you-see.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-05-i-notice-i-wonder.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-02-tools-help-us-look-closer.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/assets/observation-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-06-observation-walk-review.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-01-observing-describing-asking-questions/lessons/lesson-04-sorting-by-what-you-notice.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-5/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-6/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-01-how-books-work.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assets/big-book-tracking.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-02-reading-goes-this-way.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-04-questions-help-us-understand.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-05-letters-a-to-m.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-03-words-have-spaces.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-6/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-7/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-9/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/math/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/science/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-9/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-02-welcome-to-our-circle.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-03-classroom-helper-roles.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-05-fixing-hurt-feelings.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-04-kindness-in-action.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-01-what-makes-me-me.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assets/belonging-circle.png",
+      "kind": "asset"
+    }
+  ],
+  "counts_by_kind": {
+    "curriculum-index": 1,
+    "grade-index": 10,
+    "subject-index": 88,
+    "new-assignment": 31,
+    "assignment": 111,
+    "quiz": 231,
+    "template": 14,
+    "hints": 2,
+    "rhythm": 2,
+    "unit-index": 4,
+    "lesson": 21,
+    "practice": 4,
+    "project": 4,
+    "resource-pack": 4,
+    "assessment": 4,
+    "teacher-guide": 4,
+    "answer-key": 4,
+    "assets": 4,
+    "asset": 4
+  },
+  "review_notes": [
+    "Directory grade retained; review retitled and accelerated prompts.",
+    "Upper-grade copied archives consolidated to earlier grade.",
+    "Teacher answer keys are not student responses.",
+    "Faith-based enrichment explicitly optional.",
+    "Current data and pedagogical coverage require educator review."
+  ]
 }
