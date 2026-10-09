@@ -38,7 +38,8 @@ and no teaching images exist anywhere in `curriculum/grade-12/science/`.
 Learners typically enter grade-12 science with the grade-11 track's stated
 end-of-year objectives (Physics pathway, currently in unmerged draft PR #118),
 the grade-10 track's chemistry objectives (draft PR #115), the grade-9 track's
-biology objectives (draft PR #107), and grade-12 math in progress (draft
+biology objectives (draft PR #107), the grade-6 track's Earth/space science
+objectives (draft PR #98), and grade-12 math in progress (draft
 PR #122):
 
 - **From grade-11 science:** measuring with correct instruments and reporting
@@ -49,6 +50,12 @@ PR #122):
   concentration basics; safe handling of simple test kits.
 - **From grade-9 science:** ecosystem vocabulary; photosynthesis and cellular
   respiration as carbon-cycle processes.
+- **From grade-6 science:** plate-tectonic evidence and boundary types; rock
+  types and the rock cycle; water distribution and the water cycle; weather
+  versus climate; natural hazards and human responses — all at the conceptual
+  level. Grade 12 makes each of these quantitative (radiometric dating,
+  seafloor-spreading rates, convection models, flux estimates, climate
+  feedbacks) and re-teaches none of the concepts from scratch.
 - **From grade-12 math:** algebraic modeling; evaluating and rearranging
   formulas; spreadsheet calculations; interpreting slopes, rates, and
   exponential change at a conceptual level.
