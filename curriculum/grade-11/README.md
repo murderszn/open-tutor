@@ -2,7 +2,7 @@
 
 This folder is an anonymous, grade-specific track in the public OpenTutor curriculum library.
 
-**Contents:** Draft audits and scope-and-sequences are available for mathematics, language arts, science. The eight units and review package for each subject are planned, not yet written. Tracks for social studies are planned and do not yet have folders. No subject track is complete. All materials still require educator review.
+**Contents:** Draft audits and scope-and-sequences are available for mathematics, language arts, science, social studies. The eight units and review package for each subject are planned, not yet written. No subject track is complete. All materials still require educator review.
 
 **Do not refer a learner to another grade's track.** Each track is
 self-contained for one learner at a time; a guiding adult adapts pacing,
@@ -21,4 +21,6 @@ See also: [curriculum index](../README.md).
 - [Language arts](language-arts/README.md) — American literature, rhetoric,
   and research pathway; audit and scope-and-sequence delivered as a validated
   draft in this run's draft PR (issue #52); units planned.
-- Social studies — planned (issue #53).
+- [Social studies](social-studies/README.md) — U.S. government and civics
+  pathway; audit and scope-and-sequence delivered as a validated draft in
+  this run's draft PR (issue #53); units planned.

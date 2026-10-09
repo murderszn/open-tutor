@@ -2252,12 +2252,20 @@
     {
       "path": "grade-10/social-studies/README.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/social-studies/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-11/social-studies/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 12,
-    "subject-index": 102,
+    "subject-index": 104,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 231,
