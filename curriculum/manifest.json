@@ -2128,6 +2128,66 @@
     {
       "path": "grade-9/social-studies/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-02-welcome-to-our-circle.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-03-classroom-helper-roles.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-05-fixing-hurt-feelings.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-04-kindness-in-action.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/lessons/lesson-01-what-makes-me-me.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assets/belonging-circle.png",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {
@@ -2136,20 +2196,20 @@
     "subject-index": 88,
     "new-assignment": 31,
     "assignment": 111,
-    "quiz": 230,
+    "quiz": 231,
     "template": 14,
     "hints": 2,
     "rhythm": 2,
-    "unit-index": 3,
-    "lesson": 16,
-    "practice": 3,
-    "project": 3,
-    "resource-pack": 3,
-    "assessment": 3,
-    "teacher-guide": 3,
-    "answer-key": 3,
-    "assets": 3,
-    "asset": 3
+    "unit-index": 4,
+    "lesson": 21,
+    "practice": 4,
+    "project": 4,
+    "resource-pack": 4,
+    "assessment": 4,
+    "teacher-guide": 4,
+    "answer-key": 4,
+    "assets": 4,
+    "asset": 4
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
