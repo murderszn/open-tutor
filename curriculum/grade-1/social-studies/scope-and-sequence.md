@@ -191,8 +191,9 @@ response), exploration practice (observation walk or source looking), and review
   others.
 - No new instruction; record observations against the track objectives.
 
-### Unit 01 — Community membership, rights, and responsibilities (Weeks 3–6)
+### Unit 01 — Community membership, rights, and responsibilities (Weeks 3–6) — delivered as a validated draft
 
+- **Location:** `units/unit-01-community-membership-rights-responsibilities/` (5 lessons, practice sessions, charter project, quiz, assessment, teacher guide, answer key, resource pack, generated illustration).
 - **Standards:** D2.Civ.1–3, D2.Civ.7–9, D2.Civ.12; D1.1
 - **Week 3 goal:** name the communities the learner belongs to; distinguish
   what membership means (rights: e.g., be heard, be safe; responsibilities:
@@ -410,7 +411,9 @@ access.
 
 ## 11. Planned units (prose — no files yet; no links to missing files)
 
-U01 Community membership, rights, and responsibilities; U02 Local maps, land,
+U01 Community membership, rights, and responsibilities — **delivered as a validated
+draft** (see `units/unit-01-community-membership-rights-responsibilities/`);
+U02 Local maps, land,
 water, and location; U03 Past, present, timelines, and family-neutral histories;
 U04 Community leaders, rules, and decision making; U05 Needs, wants, producers,
 and consumers; U06 Cultures, celebrations, and diverse perspectives; U07
