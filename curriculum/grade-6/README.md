@@ -2,11 +2,7 @@
 
 This folder is an anonymous, grade-specific track in the public OpenTutor curriculum library.
 
-**Contents:** Four subject starter lessons are available. The mathematics track has a
-draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet
-written. The language arts track has a draft audit and scope-and-sequence
-(2026-10-05); its eight units are planned, not yet written. Remaining units are
-planned; no subject track is complete. Materials still require educator review.
+**Contents:** Four subject starter lessons are available. The mathematics, language arts and science tracks have draft audits and scope-and-sequences (2026-10-05). Their eight-unit sequences are planned, not yet written. No subject track is complete. Materials still require educator review.
 
 **Do not refer learners to other grade tracks.** Each track is self-contained.
 
