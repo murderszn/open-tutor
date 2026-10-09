@@ -10,8 +10,8 @@ unaudited. Materials still require educator review.
 - [Math](math/README.md)
 - [Stem](stem/README.md) — legacy STEM/coding enrichment
 - [Language Arts](language-arts/README.md) — draft audit and scope-and-sequence delivered (eight units planned, not yet written)
+- [Social Studies](social-studies/README.md) — draft audit and scope-and-sequence delivered (eight units planned, not yet written)
 - [Science](science/README.md) — draft audit and scope-and-sequence delivered (eight units planned, not yet written)
-- [Social Studies](social-studies/README.md)
 
 ## Optional Enrichment
 - [Optional Christian Bible study](bible/README.md) — faith-based, not part of core secular instruction.
