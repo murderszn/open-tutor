@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 is delivered as a draft; the remaining seven units are planned, not yet
+written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one kindergarten learner at a time; a guiding adult adapts pacing, materials, and
@@ -74,8 +75,9 @@ not a state adoption or accreditation claim. Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Identity, belonging, and classroom community
+- `units/` — eight units (Unit 01 delivered as a draft; units 02–08 planned, not
+  yet written):
+  1. [Identity, belonging, and classroom community](units/unit-01-identity-belonging-and-classroom-community/README.md) — **draft delivered**
   2. Rules, fairness, and cooperative choices
   3. Community helpers: roles and responsibilities
   4. Maps, symbols, and nearby places
