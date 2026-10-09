@@ -8,7 +8,8 @@ unaudited. Materials still require educator review.
 
 ## Core Subjects
 - [Math](math/README.md)
-- [Stem](stem/README.md)
+- [Science](science/README.md) — draft audit and scope-and-sequence delivered (eight units planned, not yet written)
+- [Stem](stem/README.md) — legacy STEM/coding enrichment
 - [Language Arts](language-arts/README.md)
 - [Social Studies](social-studies/README.md)
 

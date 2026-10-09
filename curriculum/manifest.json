@@ -2096,12 +2096,20 @@
     {
       "path": "grade-9/science/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/science/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-8/science/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 10,
-    "subject-index": 80,
+    "subject-index": 82,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 230,
