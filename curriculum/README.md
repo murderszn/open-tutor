@@ -6,7 +6,7 @@ Four grade tracks have expanded legacy draft assignment and quiz libraries: **Gr
 
 ## Tracks
 
-- [Grade 4](grade-4/README.md)
+- [Grade 4](grade-4/README.md) — draft audit for social studies (scope-and-sequence delivered; legacy assignment/quiz library re-audited); no complete subject tracks
 - [Grade 5](grade-5/README.md)
 - [Grade 7](grade-7/README.md)
 - [Grade 8](grade-8/README.md)
