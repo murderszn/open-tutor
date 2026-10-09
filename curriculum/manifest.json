@@ -2208,12 +2208,20 @@
     {
       "path": "grade-10/science/README.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/language-arts/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/language-arts/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
     "grade-index": 11,
-    "subject-index": 92,
+    "subject-index": 94,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 231,
