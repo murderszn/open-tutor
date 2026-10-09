@@ -2188,12 +2188,24 @@
     {
       "path": "grade-k/social-studies/units/unit-01-identity-belonging-and-classroom-community/assets/belonging-circle.png",
       "kind": "asset"
+    },
+    {
+      "path": "grade-10/math/README.md",
+      "kind": "subject-index"
+    },
+    {
+      "path": "grade-10/README.md",
+      "kind": "grade-index"
+    },
+    {
+      "path": "grade-10/math/scope-and-sequence.md",
+      "kind": "subject-index"
     }
   ],
   "counts_by_kind": {
     "curriculum-index": 1,
-    "grade-index": 10,
-    "subject-index": 88,
+    "grade-index": 11,
+    "subject-index": 90,
     "new-assignment": 31,
     "assignment": 111,
     "quiz": 231,
