@@ -323,8 +323,9 @@ units so recording-and-pattern skills stay alive all year.
 
 ## 10. Gaps and paths for future units
 
-- Units U01–U08 and the R00 diagnostic/final-review package are all unbuilt —
-  each is a later worker section on issue #7.
+- Units U02–U08 and the R00 diagnostic/final-review package are unbuilt —
+  each is a later worker section on issue #7. U01 was delivered as a
+  validated draft on 2026-10-04 (not educator-reviewed, not merged).
 - No K-appropriate internal observation datasets exist; units will use original
   small-observation scenarios with named fictional practice data where needed
   (e.g., a sample two-week weather log).
@@ -334,15 +335,17 @@ units so recording-and-pattern skills stay alive all year.
 - The NGSS assessment boundaries above (warmer/cooler, whole numbers) must
   carry through into every unit's assessments and keys.
 
-## 11. Planned units (prose — no files yet; no links to missing files)
+## 11. Planned units (prose — no files yet except U01; no links to missing files)
 
-U01 Observing, describing, and asking questions; U02 Pushes, pulls, and moving
-objects; U03 Comparing materials and designing simple solutions; U04 Plant
-needs and growth observations; U05 Animal needs, habitats, and patterns;
-U06 Weather observations and daily patterns; U07 Sunlight, shade, and warming
-surfaces; U08 Caring for local environments and engineering solutions; R00
-diagnostic, midyear/final review, and cumulative assessments with keys. Each
-will follow `docs/curriculum-expansion/unit-requirements.md`.
+U01 Observing, describing, and asking questions — **delivered as a validated
+draft** ([units/unit-01-observing-describing-asking-questions/](units/unit-01-observing-describing-asking-questions/));
+U02 Pushes, pulls, and moving objects; U03 Comparing materials and designing
+simple solutions; U04 Plant needs and growth observations; U05 Animal needs,
+habitats, and patterns; U06 Weather observations and daily patterns; U07
+Sunlight, shade, and warming surfaces; U08 Caring for local environments and
+engineering solutions; R00 diagnostic, midyear/final review, and cumulative
+assessments with keys. U02–U08 and R00 will each follow
+`docs/curriculum-expansion/unit-requirements.md`.
 
 ## 12. Verification record
 
