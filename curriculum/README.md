@@ -19,12 +19,12 @@ The [expansion plan and structured GitHub backlog](../docs/curriculum-expansion/
 
 Developing grade tracks with starter material:
 
-- [Kindergarten](grade-k/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; math Unit 01 draft available; no complete subject tracks
+- [Kindergarten](grade-k/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; math and language arts Unit 01 drafts available; no complete subject tracks
 - [Grade 1](grade-1/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 2](grade-2/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 3](grade-3/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 6](grade-6/README.md) — four subject starter lessons; draft audits for mathematics; no complete subject tracks
 - [Grade 5](grade-5/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
+- [Grade 6](grade-6/README.md) — four subject starter lessons; draft audits for mathematics; no complete subject tracks
 - [Grade 4](grade-4/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 
 Each listed starter is one supplemental lesson only. It is not an eight-unit course, and its presence does not establish full subject coverage. Grades 9–12 are planned additions and do not yet have curriculum folders. New core science content will use `science/`; existing `stem/` material remains available and will be reviewed for reuse. Each developing track must publish its status truthfully until its lessons, resources, assessments, keys, and review are complete.

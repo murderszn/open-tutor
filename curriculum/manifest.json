@@ -1980,6 +1980,66 @@
     {
       "path": "grade-6/math/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-01-how-books-work.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assets/big-book-tracking.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-02-reading-goes-this-way.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-04-questions-help-us-understand.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-05-letters-a-to-m.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-01-oral-language-and-print-concepts/lessons/lesson-03-words-have-spaces.md",
+      "kind": "lesson"
     }
   ],
   "counts_by_kind": {
@@ -1988,20 +2048,20 @@
     "subject-index": 67,
     "new-assignment": 31,
     "assignment": 111,
-    "quiz": 229,
+    "quiz": 230,
     "template": 14,
     "hints": 2,
     "rhythm": 2,
-    "unit-index": 2,
-    "lesson": 11,
-    "practice": 2,
-    "project": 2,
-    "resource-pack": 2,
-    "assessment": 2,
-    "teacher-guide": 2,
-    "answer-key": 2,
-    "assets": 2,
-    "asset": 2
+    "unit-index": 3,
+    "lesson": 16,
+    "practice": 3,
+    "project": 3,
+    "resource-pack": 3,
+    "assessment": 3,
+    "teacher-guide": 3,
+    "answer-key": 3,
+    "assets": 3,
+    "asset": 3
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
