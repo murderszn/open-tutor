@@ -2,7 +2,7 @@
 
 This folder is an anonymous, grade-specific track in the public OpenTutor curriculum library.
 
-**Contents:** Four subject starter lessons are available. The science track has a
+**Contents:** Four subject starter lessons are available. Each of the mathematics, science tracks has a
 draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet
 written. Remaining units are planned; no subject track is complete. Materials still
 require educator review.
