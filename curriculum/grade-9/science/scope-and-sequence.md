@@ -33,9 +33,9 @@ teaching images exist anywhere in `curriculum/grade-9/`.
 
 ## 2. Prerequisites
 
-Learners typically enter grade-9 biology with (expected from grades 6–8
-science exposure; the grade-8 science audit is not yet delivered, so this
-list is provisional and the diagnostic verifies it):
+Learners typically enter grade-9 biology with (expected from the grade-7
+life-science track, draft PR #102, and the grade-8 physical-science track,
+draft PR #108; the diagnostic verifies it):
 
 - Basic cell vocabulary: cell as the unit of life; nucleus, cell membrane,
   and the plant/animal cell distinction — but **not** organelle-level
