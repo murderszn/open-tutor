@@ -23,7 +23,7 @@ Developing grade tracks with starter material:
 - [Grade 1](grade-1/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 2](grade-2/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 3](grade-3/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 6](grade-6/README.md) — four subject starter lessons; draft audits for mathematics, science; no complete subject tracks
+- [Grade 6](grade-6/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science; no complete subject tracks
 - [Grade 5](grade-5/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 4](grade-4/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 
