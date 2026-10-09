@@ -334,8 +334,9 @@ age suitability and advertising-free access.
 
 ## 10. Gaps and paths for future units
 
-- Units U01–U08 and the R00 diagnostic/final-review package are all unbuilt —
-  each is a later worker section on issue #8.
+- Units U02–U08 and the R00 diagnostic/final-review package are unbuilt —
+  each is a later worker section on issue #8. U01 (Oral language listening
+  and print concepts) is delivered as a validated draft.
 - No K-appropriate internal word lists, decodable passages, or read-aloud sets
   exist; units will author original passages and clearly labeled public-domain
   texts (e.g., Aesop) with named fictional practice data where needed.
