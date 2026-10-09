@@ -1872,6 +1872,66 @@
     {
       "path": "grade-3/social-studies/scope-and-sequence.md",
       "kind": "subject-index"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-01-ten-is-a-bundle.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-02-counting-by-tens-to-120.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-04-counting-from-any-number.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-05-comparing-two-digit-numbers.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/assets/tens-and-ones-compare.png",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {
