@@ -1,9 +1,10 @@
 # Grade 7 Curriculum
 
-Reusable Grade 7 learning materials. Quizzes and assignments remain blank; completed responses belong in private learning records. Review readiness and accommodations before assigning. The mathematics track has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written — see [math/scope-and-sequence.md](math/scope-and-sequence.md).
+Reusable Grade 7 learning materials. Quizzes and assignments remain blank; completed responses belong in private learning records. Review readiness and accommodations before assigning. The science track has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written — see [science/scope-and-sequence.md](science/scope-and-sequence.md). The mathematics track has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written — see [math/scope-and-sequence.md](math/scope-and-sequence.md).
 
 ## Core Subjects
 - [Math](math/README.md)
+- [Science](science/README.md)
 - [Stem](stem/README.md)
 - [Language Arts](language-arts/README.md)
 - [Social Studies](social-studies/README.md)
