@@ -6,10 +6,10 @@ Four grade tracks have expanded legacy draft assignment and quiz libraries: **Gr
 
 ## Tracks
 
-- [Grade 4](grade-4/README.md) — draft audit for social studies (scope-and-sequence delivered; legacy assignment/quiz library re-audited); no complete subject tracks
+- [Grade 4](grade-4/README.md) — draft audits for mathematics, language arts, science, and social studies; no complete subject tracks
 - [Grade 5](grade-5/README.md)
 - [Grade 7](grade-7/README.md)
-- [Grade 8](grade-8/README.md) — math track audit/scope-and-sequence delivered as draft (units not yet written); other subjects unaudited
+- [Grade 8](grade-8/README.md) — draft audits for mathematics, language arts, science, and social studies; no complete subject tracks
 
 For K–8 adult planning, placement, and a candid coverage snapshot, see [K–8 planning guidance](../resources/k-8/README.md). The matching grade folder remains the canonical source of instruction. Profiles in the resource guide do not override its grade-specific audit or scope and sequence.
 
@@ -32,7 +32,7 @@ Developing grade tracks with starter material:
 - [Grade 5](grade-5/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 4](grade-4/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 
-Each listed starter is one supplemental lesson only. It is not an eight-unit course, and its presence does not establish full subject coverage. Grade 12 is planned additions and do not yet have curriculum folders. New core science content will use `science/`; existing `stem/` material remains available and will be reviewed for reuse. Each developing track must publish its status truthfully until its lessons, resources, assessments, keys, and review are complete.
+Each listed starter is one supplemental lesson only. It is not an eight-unit course, and its presence does not establish full subject coverage. Grades 9–12 have developing curriculum folders; no complete subject tracks are available. New core science content will use `science/`; existing `stem/` material remains available and will be reviewed for reuse. Each developing track must publish its status truthfully until its lessons, resources, assessments, keys, and review are complete.
 
 ## Using a Track
 
