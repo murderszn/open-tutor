@@ -1,7 +1,8 @@
 # Grade 3 Mathematics — Scope and Sequence
 
 Audit section A00 of [issue #18](https://github.com/murderszn/open-tutor/issues/18).
-Status: **validated draft** (this document and the track README); units planned, not yet written.
+Status: **validated draft** (this document and the track README); Unit 01 drafted
+in a worker PR, Units 02–08 planned, not yet written.
 
 ## 1. Audit: existing-file inventory
 
@@ -388,8 +389,11 @@ settings; indoor/observation alternatives for all outdoor measuring tasks.
 
 ## 10. Gaps and paths for future units
 
-- Units U01–U08 and the R00 diagnostic/final-review package are all unbuilt —
-  each is a later worker section on issue #18.
+- Units U02–U08 and the R00 diagnostic/final-review package are all unbuilt —
+  each is a later worker section on issue #18. U01 (Place value, rounding, and
+  multi-digit operations) is delivered as a validated draft in a worker PR;
+  its files live under
+  `curriculum/grade-3/math/units/unit-01-place-value-rounding-and-operations/`.
 - No grade-3-appropriate internal datasets exist; Unit 08 scaled-graph work will
   use original small-count fictional survey data, clearly labeled.
 - Generated raster teaching images (one per unit, used in an activity with alt
@@ -398,9 +402,12 @@ settings; indoor/observation alternatives for all outdoor measuring tasks.
 - Unit 06 requires a measuring-cup/beaker-scale visual and a liter reference;
   these will be original diagrams, not stock photos.
 
-## 11. Planned units (prose — no files yet; no links to missing files)
+## 11. Planned and drafted units (prose — no links to missing files)
 
-U01 Place value, rounding, and multi-digit operations; U02 Multiplication concepts
+U01 Place value, rounding, and multi-digit operations — **draft delivered**
+(validated draft in a worker PR; files under
+`curriculum/grade-3/math/units/unit-01-place-value-rounding-and-operations/`,
+not educator-reviewed, not merged); U02 Multiplication concepts
 and facts; U03 Division concepts and facts; U04 Multiplication, division, and
 two-step problems; U05 Fractions on models and number lines; U06 Measurement,
 time, and liquid volume; U07 Area, perimeter, and rectilinear shapes; U08
