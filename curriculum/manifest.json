@@ -2356,6 +2356,66 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/lessons/lesson-01-seven-continents-five-oceans.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/lessons/lesson-02-map-scale.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/lessons/lesson-03-location-and-environment.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/lessons/lesson-04-asking-geographic-questions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/lessons/lesson-05-us-regions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/assessments/week-05_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/assets/desert-rainforest-comparison.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-01-maps-regions-continents/assets/README.md",
+      "kind": "assets"
     }
   ],
   "counts_by_kind": {
@@ -2364,20 +2424,20 @@
     "subject-index": 112,
     "new-assignment": 31,
     "assignment": 111,
-    "quiz": 232,
+    "quiz": 233,
     "template": 14,
     "hints": 2,
     "rhythm": 2,
-    "unit-index": 5,
-    "lesson": 26,
-    "practice": 5,
-    "project": 5,
-    "resource-pack": 5,
-    "assessment": 5,
-    "teacher-guide": 5,
-    "answer-key": 5,
-    "assets": 5,
-    "asset": 5
+    "unit-index": 6,
+    "lesson": 31,
+    "practice": 6,
+    "project": 6,
+    "resource-pack": 6,
+    "assessment": 6,
+    "teacher-guide": 6,
+    "answer-key": 6,
+    "assets": 6,
+    "asset": 6
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
