@@ -1,7 +1,8 @@
 # Grade 2 Language Arts — Scope and Sequence
 
 Audit section A00 of [issue #16](https://github.com/murderszn/open-tutor/issues/16).
-Status: **validated draft** (this document and the track README); units planned, not yet written.
+Status: **validated draft** (this document and the track README); Unit 01 delivered as a
+validated draft, Units 02–08 planned, not yet written.
 
 ## 1. Audit: existing-file inventory
 
