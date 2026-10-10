@@ -2356,6 +2356,74 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-01-three-digit-place-value.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-02-rounding-to-the-nearest-10.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-03-rounding-to-the-nearest-100.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-04-adding-within-1000.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-05-subtracting-within-1000.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-06-multiplying-by-tens-and-estimating.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/market-rounding-stand.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/rounding-number-line-10.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/README.md",
+      "kind": "assets"
     }
   ],
   "counts_by_kind": {
