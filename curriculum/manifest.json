@@ -2356,6 +2356,70 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-01-multisyllable-decoding.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-02-prefixes-un-re-dis-pre.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-03-latin-suffixes-and-derivational-suffixes.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-04-figuring-out-word-meanings.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-05-dictionaries-and-irregular-words.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-06-fluency-with-purpose.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/assets/word-part-puzzle-pieces.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/assets/README.md",
+      "kind": "assets"
     }
   ],
   "counts_by_kind": {
@@ -2364,20 +2428,20 @@
     "subject-index": 112,
     "new-assignment": 31,
     "assignment": 111,
-    "quiz": 232,
+    "quiz": 233,
     "template": 14,
     "hints": 2,
     "rhythm": 2,
-    "unit-index": 5,
-    "lesson": 26,
-    "practice": 5,
-    "project": 5,
-    "resource-pack": 5,
-    "assessment": 5,
-    "teacher-guide": 5,
-    "answer-key": 5,
-    "assets": 5,
-    "asset": 5
+    "unit-index": 6,
+    "lesson": 32,
+    "practice": 6,
+    "project": 6,
+    "resource-pack": 6,
+    "assessment": 6,
+    "teacher-guide": 6,
+    "answer-key": 6,
+    "assets": 6,
+    "asset": 6
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
