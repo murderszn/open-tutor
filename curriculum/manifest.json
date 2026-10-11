@@ -2356,6 +2356,70 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/lessons/lesson-01-digit-value-relationships.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/lessons/lesson-02-decimals-to-thousandths.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/lessons/lesson-03-powers-of-ten.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/lessons/lesson-04-rounding-decimals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/lessons/lesson-05-comparing-and-ordering-decimals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/assessments/week-04_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/assets/place-value-chart-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/math/units/unit-01-place-value-decimal-patterns-powers-of-ten/assets/powers-of-ten-digit-shift.svg",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {
