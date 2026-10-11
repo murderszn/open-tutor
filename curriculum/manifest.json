@@ -2356,6 +2356,66 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/lessons/lesson-01-testable-questions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/lessons/lesson-02-measuring-with-tools.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/lessons/lesson-03-fair-tests.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/lessons/lesson-04-graphs-and-models.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/lessons/lesson-05-design-problems-and-reports.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/assessments/week-06_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-5/science/units/unit-01-measurement-investigations/assets/measurement-station.png",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {
@@ -2364,20 +2424,20 @@
     "subject-index": 112,
     "new-assignment": 31,
     "assignment": 111,
-    "quiz": 232,
+    "quiz": 233,
     "template": 14,
     "hints": 2,
     "rhythm": 2,
-    "unit-index": 5,
-    "lesson": 26,
-    "practice": 5,
-    "project": 5,
-    "resource-pack": 5,
-    "assessment": 5,
-    "teacher-guide": 5,
-    "answer-key": 5,
-    "assets": 5,
-    "asset": 5
+    "unit-index": 6,
+    "lesson": 31,
+    "practice": 6,
+    "project": 6,
+    "resource-pack": 6,
+    "assessment": 6,
+    "teacher-guide": 6,
+    "answer-key": 6,
+    "assets": 6,
+    "asset": 6
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
