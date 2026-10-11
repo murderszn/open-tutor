@@ -2356,28 +2356,92 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-01-ratio-language-and-order.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-02-equivalent-ratios-tables-tape-diagrams-double-number-lines.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-03-unit-rates-pricing-and-speed.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-04-percent-as-rate-per-100.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-05-unit-conversion-by-ratio-reasoning.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assets/lemonade-stand-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assets/tape-diagram-2-to-3.svg",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {
+    "answer-key": 6,
+    "assessment": 6,
+    "asset": 7,
+    "assets": 6,
+    "assignment": 111,
     "curriculum-index": 1,
     "grade-index": 13,
-    "subject-index": 112,
-    "new-assignment": 31,
-    "assignment": 111,
-    "quiz": 232,
-    "template": 14,
     "hints": 2,
+    "lesson": 31,
+    "new-assignment": 31,
+    "practice": 6,
+    "project": 6,
+    "quiz": 233,
+    "resource-pack": 6,
     "rhythm": 2,
-    "unit-index": 5,
-    "lesson": 26,
-    "practice": 5,
-    "project": 5,
-    "resource-pack": 5,
-    "assessment": 5,
-    "teacher-guide": 5,
-    "answer-key": 5,
-    "assets": 5,
-    "asset": 5
+    "subject-index": 112,
+    "teacher-guide": 6,
+    "template": 14,
+    "unit-index": 6
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
