@@ -2356,6 +2356,74 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-01-compelling-questions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-02-observation-and-inference.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-03-maps-as-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-04-sources-and-their-limits.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-05-chronology-and-archaeology.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assets/fictional-dig-trench.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assets/bce-ce-timeline.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assets/map-grid-scale.svg",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {
@@ -2364,20 +2432,20 @@
     "subject-index": 112,
     "new-assignment": 31,
     "assignment": 111,
-    "quiz": 232,
+    "quiz": 233,
     "template": 14,
     "hints": 2,
     "rhythm": 2,
-    "unit-index": 5,
-    "lesson": 26,
-    "practice": 5,
-    "project": 5,
-    "resource-pack": 5,
-    "assessment": 5,
-    "teacher-guide": 5,
-    "answer-key": 5,
-    "assets": 5,
-    "asset": 5
+    "unit-index": 6,
+    "lesson": 31,
+    "practice": 6,
+    "project": 6,
+    "resource-pack": 6,
+    "assessment": 6,
+    "teacher-guide": 6,
+    "answer-key": 6,
+    "assets": 6,
+    "asset": 8
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
