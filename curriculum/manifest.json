@@ -2356,6 +2356,74 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/lessons/lesson-01-rational-numbers-decimal-expansions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/lessons/lesson-02-irrational-numbers-root-2.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/lessons/lesson-03-repeating-decimals-to-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/lessons/lesson-04-square-roots-x2-equals-p.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/lessons/lesson-05-cube-roots-x3-equals-p.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/lessons/lesson-06-approximating-irrationals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/assets/investigation-station.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/assets/number-line-real-numbers.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/assets/README.md",
+      "kind": "assets"
     }
   ],
   "counts_by_kind": {
