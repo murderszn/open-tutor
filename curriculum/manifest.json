@@ -2356,6 +2356,70 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-01-what-counts-as-scientific-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-02-measurement-units-and-the-lab-notebook.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-03-microscope-parts-focusing-and-scale.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-04-is-it-living-unicellular-multicellular.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-05-cell-models-that-explain.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assets/microscope-parts-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assets/cell-size-scale.svg",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {
