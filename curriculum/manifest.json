@@ -2356,28 +2356,92 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "kind": "unit-index",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/README.md"
+    },
+    {
+      "kind": "lesson",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-01-citing-textual-evidence.md"
+    },
+    {
+      "kind": "lesson",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-02-inference-with-evidence.md"
+    },
+    {
+      "kind": "lesson",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-03-theme-and-development.md"
+    },
+    {
+      "kind": "lesson",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-04-objective-summary.md"
+    },
+    {
+      "kind": "lesson",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-05-setting-shapes-story.md"
+    },
+    {
+      "kind": "lesson",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-06-elements-interact.md"
+    },
+    {
+      "kind": "practice",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/practice.md"
+    },
+    {
+      "kind": "project",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/project.md"
+    },
+    {
+      "kind": "resource-pack",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/resource-pack.md"
+    },
+    {
+      "kind": "quiz",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/assessments/week-04_quiz.md"
+    },
+    {
+      "kind": "assessment",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/assessments/unit-assessment.md"
+    },
+    {
+      "kind": "teacher-guide",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/teacher-guide.md"
+    },
+    {
+      "kind": "answer-key",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/answer-key.md"
+    },
+    {
+      "kind": "assets",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/assets/README.md"
+    },
+    {
+      "kind": "asset",
+      "path": "grade-7/language-arts/units/unit-01-close-reading-theme/assets/storm-lighthouse-setting.png"
     }
   ],
   "counts_by_kind": {
+    "answer-key": 6,
+    "assessment": 6,
+    "asset": 6,
+    "assets": 6,
+    "assignment": 111,
     "curriculum-index": 1,
     "grade-index": 13,
-    "subject-index": 112,
-    "new-assignment": 31,
-    "assignment": 111,
-    "quiz": 232,
-    "template": 14,
     "hints": 2,
+    "lesson": 32,
+    "new-assignment": 31,
+    "practice": 6,
+    "project": 6,
+    "quiz": 233,
+    "resource-pack": 6,
     "rhythm": 2,
-    "unit-index": 5,
-    "lesson": 26,
-    "practice": 5,
-    "project": 5,
-    "resource-pack": 5,
-    "assessment": 5,
-    "teacher-guide": 5,
-    "answer-key": 5,
-    "assets": 5,
-    "asset": 5
+    "subject-index": 112,
+    "teacher-guide": 6,
+    "template": 14,
+    "unit-index": 6
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
