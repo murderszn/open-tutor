@@ -2356,6 +2356,74 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/lessons/lesson-01-expression-structure.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/lessons/lesson-02-equivalent-expressions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/lessons/lesson-03-solving-linear-equations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/lessons/lesson-04-solution-types-letter-coefficients.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/lessons/lesson-05-linear-inequalities.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/lessons/lesson-06-modeling-and-formulas.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/assets/algebra-tiles-distributive.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/math/units/unit-01-algebra-foundations-expressions-equations/assets/inequality-number-lines.svg",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {

@@ -14,7 +14,8 @@ See also: [curriculum index](../README.md).
 ## Subject tracks
 
 - [Mathematics](math/README.md) — Algebra I pathway; audit and
-  scope-and-sequence are a validated draft (issue #42); units planned.
+  scope-and-sequence are a validated draft (issue #42); Unit 01 delivered
+  as a validated draft, Units 02–08 planned.
 - [Science](science/README.md) — Biology; audit and
   scope-and-sequence are a validated draft (issue #43); units planned.
 - [Language arts](language-arts/README.md) — literary reading and
