@@ -2356,6 +2356,86 @@
     {
       "path": "grade-1/math/units/unit-01-counting-place-value-and-tens/lessons/lesson-03-teen-numbers-ten-and-ones.md",
       "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/lessons/lesson-01-annotation-reading-with-a-pen.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/lessons/lesson-02-strong-and-thorough-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/lessons/lesson-03-theme-development-objective-summary.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/lessons/lesson-04-tracking-theme-across-a-full-text.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/lessons/lesson-05-complex-characters-theme-carriers.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/lessons/lesson-06-close-reading-essay.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/texts/the-salt-box.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/texts/the-audition.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/texts/memory-and-the-past.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/texts/frankenstein-theme-chain.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/assessments/week-05_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/assets/salt-box-illustration.png",
+      "kind": "asset"
     }
   ],
   "counts_by_kind": {
@@ -2368,16 +2448,17 @@
     "template": 14,
     "hints": 2,
     "rhythm": 2,
-    "unit-index": 5,
-    "lesson": 26,
-    "practice": 5,
-    "project": 5,
-    "resource-pack": 5,
-    "assessment": 5,
-    "teacher-guide": 5,
-    "answer-key": 5,
-    "assets": 5,
-    "asset": 5
+    "unit-index": 6,
+    "lesson": 32,
+    "practice": 6,
+    "project": 6,
+    "resource-pack": 6,
+    "assessment": 7,
+    "teacher-guide": 6,
+    "answer-key": 6,
+    "assets": 6,
+    "asset": 6,
+    "unit-text": 4
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
