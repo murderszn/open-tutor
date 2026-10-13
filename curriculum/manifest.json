@@ -2074,6 +2074,74 @@
       "kind": "subject-index"
     },
     {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/lessons/lesson-01-framing-historical-inquiry.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/lessons/lesson-02-source-kinds-of-the-medieval-world.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/lessons/lesson-03-reading-and-building-maps.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/lessons/lesson-04-evaluating-sources.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/lessons/lesson-05-change-and-continuity.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/assets/silk-road-oasis-market.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/assets/trade-corridors-schematic.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/social-studies/units/unit-01-medieval-geography-and-historical-inquiry/assets/oasis-town-practice-map.svg",
+      "kind": "asset"
+    },
+    {
       "path": "grade-8/math/scope-and-sequence.md",
       "kind": "subject-index"
     },
