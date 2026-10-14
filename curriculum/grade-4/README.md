@@ -3,7 +3,7 @@
 Reusable Grade 4 learning materials. Quizzes and assignments remain blank; completed responses belong in private learning records. Review readiness and accommodations before assigning.
 
 ## Core Subjects
-- [Math](math/README.md) — draft audit and scope-and-sequence delivered (2026-10-03); legacy assignment/quiz library re-audited, units planned; no complete subject tracks
+- [Math](math/README.md) — draft audit and scope-and-sequence delivered (2026-10-03); Unit 01 delivered as validated draft (2026-10-10); legacy assignment/quiz library re-audited; no complete subject tracks
 - [Stem](stem/README.md)
 - [Language Arts](language-arts/README.md) — draft audit and scope-and-sequence delivered (2026-10-04); legacy assignment/quiz library re-audited, units planned; no complete subject tracks
 - [Social Studies](social-studies/README.md) — draft audit and scope-and-sequence delivered (2026-10-04); legacy assignment/quiz library re-audited, units planned; no complete subject tracks

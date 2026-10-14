@@ -451,8 +451,8 @@ follow the adult-supervised, no-account norms used throughout the track.
   art) for exact cell, membrane, cycle, and systems models; U06/U07 need a
   labeled fictional population dataset if real repository data does not fit
   the statistics tasks.
-- The grade-8 science audit is not yet delivered; when it merges, confirm the
-  entry-skills list against the merged version.
+- The grade-8 science audit is now delivered and merged (PR #108); when unit
+  builds begin, confirm the entry-skills list against the merged version.
 
 ## 11. Planned units (prose — no files yet; no links to missing files)
 
