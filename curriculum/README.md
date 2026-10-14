@@ -20,15 +20,15 @@ The [expansion plan and structured GitHub backlog](../docs/curriculum-expansion/
 Developing grade tracks with starter material:
 
 - [Kindergarten](grade-k/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; language arts Unit 01 draft available; science Unit 01 draft available; social studies Unit 01 draft available; no complete subject tracks
-- [Grade 1](grade-1/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; no complete subject tracks
+- [Grade 1](grade-1/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; language arts Unit 01 draft available; no complete subject tracks
 - [Grade 2](grade-2/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 3](grade-3/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 6](grade-6/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
+- [Grade 6](grade-6/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; language arts Unit 01 draft available; no complete subject tracks
 - [Grade 12](grade-12/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 11](grade-11/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 10](grade-10/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 9](grade-9/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 8](grade-8/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
+- [Grade 9](grade-9/README.md) — draft audits for mathematics, language arts, science, social studies; language arts Unit 01 draft available; no complete subject tracks
+- [Grade 8](grade-8/README.md) — draft audits for mathematics, language arts, science, social studies; language arts Unit 01 draft available; no complete subject tracks
 - [Grade 5](grade-5/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 - [Grade 4](grade-4/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
 

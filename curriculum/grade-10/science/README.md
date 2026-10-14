@@ -2,8 +2,15 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+delivered; Unit 01 is a validated draft under educator review; Units 02–08 are
+planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+## Units
+
+- [Unit 01 — Chemical measurement, lab methods, and uncertainty](units/unit-01-chemical-measurement-and-uncertainty/README.md)
+  (Weeks 3–6; draft for educator review — six lessons, density investigation, formative quiz,
+  unit assessment, teacher guide, answer key, resource pack, generated illustration)
+- Units 02–08 — planned (see scope-and-sequence); not yet written.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-10 learner at a time; a guiding adult adapts pacing, materials,

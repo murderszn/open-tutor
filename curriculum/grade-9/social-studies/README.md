@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
+delivered, and Unit 01 is a delivered draft (not yet merged or
+educator-reviewed); Units 02–08 and R00 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -105,14 +106,24 @@ elsewhere in the repository (full table in
   quizzes, assessments, diagnostics, resource packs, generated images, and the
   R00 review package — authored in U01–U08 and R00.
 
-## Units (planned, not yet written)
+## Units
 
-- U01 — World-history inquiry: geography and global connections circa 1450
-- U02 — Empires, exchange, colonization, and resistance
-- U03 — Enlightenment, revolutions, rights, and consequences
+- U01 — World-history inquiry: geography and global connections circa
+  1450 — **draft delivered 2026-10-13** (issue #45; draft PR, not yet
+  merged): [units/unit-01-world-history-inquiry/](units/unit-01-world-history-inquiry/)
+  — 4 lessons, practice sets, project + rubric, resource pack, quiz,
+  unit assessment, teacher guide, separate answer key, generated
+  illustration.
+- U02 — Empires, exchange, colonization, and resistance *(planned)*
+- U03 — Enlightenment, revolutions, rights, and consequences *(planned)*
 - U04 — Industrialization, capitalism, imperialism, and social change
+  *(planned)*
 - U05 — World wars, ideologies, genocide, and historical evidence
-- U06 — Decolonization, Cold War, and new nations
-- U07 — Globalization, migration, development, and environmental pressures
-- U08 — Contemporary world inquiry: comparative sources and civic reasoning
+  *(planned)*
+- U06 — Decolonization, Cold War, and new nations *(planned)*
+- U07 — Globalization, migration, development, and environmental
+  pressures *(planned)*
+- U08 — Contemporary world inquiry: comparative sources and civic
+  reasoning *(planned)*
 - R00 — Diagnostic, midyear/final review, cumulative assessment and keys
+  *(planned)*
