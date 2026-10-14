@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Tape diagrams showing the ratio 2 to 3 and its equivalent 4 to 6">
+  <desc>Deterministic diagram: a 2-part concentrate tape and 3-part water tape, then the same tapes doubled to 4 parts and 6 parts.</desc>
+  <text x="20" y="28" font-family="sans-serif" font-size="16" font-weight="bold">Ratio 2 : 3 (concentrate to water)</text>
+  <!-- top: concentrate, 2 segments -->
+  <g>
+    <text x="20" y="62" font-family="sans-serif" font-size="13">concentrate</text>
+    <rect x="130" y="44" width="90" height="26" fill="#9ecae1" stroke="#1f4e79" stroke-width="1.5"/>
+    <rect x="220" y="44" width="90" height="26" fill="#9ecae1" stroke="#1f4e79" stroke-width="1.5"/>
+  </g>
+  <!-- bottom: water, 3 segments -->
+  <g>
+    <text x="20" y="102" font-family="sans-serif" font-size="13">water</text>
+    <rect x="130" y="84" width="60" height="26" fill="#ffe08a" stroke="#7a5c00" stroke-width="1.5"/>
+    <rect x="190" y="84" width="60" height="26" fill="#ffe08a" stroke="#7a5c00" stroke-width="1.5"/>
+    <rect x="250" y="84" width="60" height="26" fill="#ffe08a" stroke="#7a5c00" stroke-width="1.5"/>
+  </g>
+  <text x="20" y="152" font-family="sans-serif" font-size="16" font-weight="bold">Scaled by 2: ratio 4 : 6 (equivalent)</text>
+  <g>
+    <text x="20" y="186" font-family="sans-serif" font-size="13">concentrate</text>
+    <rect x="130" y="168" width="45" height="26" fill="#9ecae1" stroke="#1f4e79" stroke-width="1.5"/>
+    <rect x="175" y="168" width="45" height="26" fill="#9ecae1" stroke="#1f4e79" stroke-width="1.5"/>
+    <rect x="220" y="168" width="45" height="26" fill="#9ecae1" stroke="#1f4e79" stroke-width="1.5"/>
+    <rect x="265" y="168" width="45" height="26" fill="#9ecae1" stroke="#1f4e79" stroke-width="1.5"/>
+  </g>
+  <g>
+    <text x="20" y="226" font-family="sans-serif" font-size="13">water</text>
+    <rect x="130" y="208" width="30" height="26" fill="#ffe08a" stroke="#7a5c00" stroke-width="1.5"/>
+    <rect x="160" y="208" width="30" height="26" fill="#ffe08a" stroke="#7a5c00" stroke-width="1.5"/>
+    <rect x="190" y="208" width="30" height="26" fill="#ffe08a" stroke="#7a5c00" stroke-width="1.5"/>
+    <rect x="220" y="208" width="30" height="26" fill="#ffe08a" stroke="#7a5c00" stroke-width="1.5"/>
+    <rect x="250" y="208" width="30" height="26" fill="#ffe08a" stroke="#7a5c00" stroke-width="1.5"/>
+    <rect x="280" y="208" width="30" height="26" fill="#ffe08a" stroke="#7a5c00" stroke-width="1.5"/>
+  </g>
+  <text x="20" y="272" font-family="sans-serif" font-size="13">Both parts scaled by the same factor, so the taste (the relationship) does not change.</text>
+</svg>

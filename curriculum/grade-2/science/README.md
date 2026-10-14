@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 is delivered as a validated draft (see below); Units 02–08 are planned,
+not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-2 learner at a time; a guiding adult adapts pacing, materials, and
@@ -91,6 +92,11 @@ learner's short written practice (6–8 tasks) the same day. Investigations use
 household or dollar-store materials; the adult previews every procedure for
 safety and substitutes an observation or simulation alternative whenever the
 real thing is unsafe, unavailable, or inaccessible.
+
+## Units
+
+- [Unit 01 — Measurement, fair comparisons, and recording evidence](units/unit-01-measurement-fair-comparisons/README.md) — **validated draft** (weeks 3–6): testable questions, observing and recording, measuring to the nearest centimeter, fair tests with repeated trials, graphs and evidence claims; includes the fair absorbency-test investigation, formative quiz, unit assessment, teacher guide, answer key, and one generated illustration (`assets/fair-test-comparison.png`).
+- Units 02–08 — planned, not yet written (see [scope-and-sequence.md](scope-and-sequence.md) §5).
 
 ## Starter lesson
 
