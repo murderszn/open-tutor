@@ -108,15 +108,15 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Place value, decimal patterns, and powers of ten
-  2. Multi-digit multiplication and division
-  3. Decimal operations and applications
-  4. Fraction addition and subtraction with unlike denominators
-  5. Fraction multiplication, division, and models
-  6. Measurement conversions and volume
-  7. Coordinate planes, patterns, and numerical expressions
-  8. Data, line plots, and cumulative problem solving
+- `units/` — eight units:
+  1. [Place value, decimal patterns, and powers of ten](units/unit-01-place-value-decimal-patterns-powers-of-ten/README.md) — delivered (draft PR, 2026-10-11); units 2–8 planned, not yet written
+  2. Multi-digit multiplication and division (planned)
+  3. Decimal operations and applications (planned)
+  4. Fraction addition and subtraction with unlike denominators (planned)
+  5. Fraction multiplication, division, and models (planned)
+  6. Measurement conversions and volume (planned)
+  7. Coordinate planes, patterns, and numerical expressions (planned)
+  8. Data, line plots, and cumulative problem solving (planned)
 - `assignments/` — existing draft practice library (re-audited; keep/revise
   decisions in the scope-and-sequence)
 - `quizzes/` — existing draft quiz library (re-audited; every quiz embeds its

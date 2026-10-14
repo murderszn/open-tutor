@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" role="img" aria-label="Diagram showing the digits of 3.75 shifting places when multiplied or divided by powers of ten.">
+  <title>Digit shift when multiplying or dividing by powers of 10</title>
+  <style>
+    .place { font: bold 15px sans-serif; fill: #444; }
+    .digit { font: bold 44px monospace; fill: #111; }
+    .arrow { stroke: #c0392b; stroke-width: 3; fill: none; marker-end: url(#ah); }
+    .row { font: 18px sans-serif; fill: #333; }
+    .pt { font: bold 44px monospace; fill: #c0392b; }
+    .cap { font: 16px sans-serif; fill: #555; }
+  </style>
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#c0392b"/>
+    </marker>
+  </defs>
+
+  <!-- Column headers: place values -->
+  <text class="cap" x="60" y="30">Place values (left to right): hundreds, tens, ones, tenths, hundredths, thousandths</text>
+
+  <!-- Row 1: 3.75 x 100 = 375 -->
+  <text class="row" x="20" y="95">3.75 &#215; 100 =</text>
+  <text class="place" x="330" y="70">100s</text><text class="place" x="430" y="70">10s</text><text class="place" x="530" y="70">1s</text><text class="place" x="615" y="70">.</text>
+  <text class="digit" x="330" y="115">3</text><text class="digit" x="430" y="115">7</text><text class="digit" x="530" y="115">5</text><text class="pt" x="612" y="115">.</text>
+  <text class="cap" x="660" y="100">digits moved two</text>
+  <text class="cap" x="660" y="122">places LEFT</text>
+
+  <!-- Row 2: 3.75 x 10 = 37.5 -->
+  <text class="row" x="20" y="190">3.75 &#215; 10 =</text>
+  <text class="digit" x="330" y="190">3</text><text class="digit" x="430" y="190">7</text><text class="pt" x="512" y="190">.</text><text class="digit" x="545" y="190">5</text>
+  <text class="cap" x="660" y="185">digits moved one</text>
+  <text class="cap" x="660" y="207">place LEFT</text>
+
+  <!-- Row 3: 3.75 -->
+  <text class="row" x="40" y="255">start: 3.75</text>
+  <text class="digit" x="330" y="255">3</text><text class="pt" x="412" y="255">.</text><text class="digit" x="445" y="255">7</text><text class="digit" x="545" y="255">5</text>
+
+  <!-- Arrows indicating shift direction -->
+  <path class="arrow" d="M300,88 L300,240" />
+  <text class="cap" x="250" y="165" transform="rotate(-90 262 165)">multiply: digits shift LEFT</text>
+  <path class="arrow" d="M810,88 L810,240" />
+  <text class="cap" x="800" y="165" transform="rotate(90 802 165)">divide: digits shift RIGHT</text>
+
+  <text class="cap" x="60" y="290">Note: the decimal point is a fixed landmark — the DIGITS shift. 3.75 &#247; 10 = 0.375; 3.75 &#247; 100 = 0.0375.</text>
+</svg>
