@@ -3672,28 +3672,96 @@
   {
    "path": "grade-6/science/units/unit-01-measurement-graphing-models-investigations/assets/sample-line-graph.svg",
    "kind": "asset"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/lessons/lesson-01-integers-on-the-number-line.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/lessons/lesson-02-adding-rational-numbers.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/lessons/lesson-03-subtracting-rational-numbers.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/lessons/lesson-04-multiplying-dividing-rationals.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/lessons/lesson-05-long-division-decimal-forms.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/lessons/lesson-06-multi-step-real-world-problems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/assets/elevation-number-line-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/math/units/unit-01-rational-number-operations/assets/number-line-minus10-to-10.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 26,
-  "assessment": 28,
-  "asset": 32,
-  "assets": 27,
+  "answer-key": 27,
+  "assessment": 29,
+  "asset": 34,
+  "assets": 28,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 138,
+  "lesson": 144,
   "new-assignment": 31,
-  "practice": 26,
-  "project": 26,
-  "quiz": 251,
-  "resource-pack": 26,
+  "practice": 27,
+  "project": 27,
+  "quiz": 252,
+  "resource-pack": 27,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 26,
+  "teacher-guide": 27,
   "template": 14,
-  "unit-index": 26
+  "unit-index": 27
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
