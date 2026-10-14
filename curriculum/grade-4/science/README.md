@@ -1,8 +1,9 @@
 # Grade 4 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01
+are delivered as validated drafts; Units 02–08 and R00 are planned, not yet
+written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-4 learner at a time; a guiding adult adapts pacing, materials, and
@@ -25,6 +26,11 @@ and a capstone engineering-design sequence. Sessions are about 35 minutes, four
 per week, and rotate across an investigation lesson, data-and-modeling practice,
 science reading-and-talk, and review — with short written responses, drawings,
 and hands-on tasks, and explicit adult directions for every investigation.
+
+## Units
+
+- [Unit 01 — Evidence, measurement, and scientific models](units/unit-01-evidence-measurement-models/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; fair tests, metric measurement and conversion, data displays, design problems, and the investigation-report format.
+- Units 02–08 — planned, not yet written (see the [scope-and-sequence](scope-and-sequence.md) §5).
 
 ## Track objectives (measurable, adult-assessed)
 
