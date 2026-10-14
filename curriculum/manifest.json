@@ -2664,28 +2664,92 @@
   {
    "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/assets/fair-test-comparison.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-01-long-or-short-vowel-review.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-02-ai-ay-ee-ea-vowel-teams.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-03-tricky-vowel-teams.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-04-two-syllable-decoding.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-05-prefixes-and-suffixes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-06-compound-words-and-tricky-spellings.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/assets/vowel-team-friends.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/assets/README.md",
+   "kind": "assets"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 10,
-  "assessment": 10,
-  "asset": 10,
-  "assets": 10,
+  "answer-key": 11,
+  "assessment": 11,
+  "asset": 11,
+  "assets": 11,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 53,
+  "lesson": 59,
   "new-assignment": 31,
-  "practice": 10,
-  "project": 10,
-  "quiz": 237,
-  "resource-pack": 10,
+  "practice": 11,
+  "project": 11,
+  "quiz": 238,
+  "resource-pack": 11,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 10,
+  "teacher-guide": 11,
   "template": 14,
-  "unit-index": 10
+  "unit-index": 11
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
