@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 is delivered as a validated draft and Units 02–08 are planned, not yet
+written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-5 learner at a time; a guiding adult adapts pacing, materials, and
@@ -10,6 +11,20 @@ supports. Keep completed learner work, names, photos, schedules, and grades in
 private storage — never in this public repository.
 
 See also: [Grade 5 track](../README.md), [curriculum index](../../README.md).
+
+## Units
+
+Eight four-week units (track weeks 3–34); R00 diagnostic/review weeks are
+planned separately:
+
+1. [Reading fluency, morphology, and precise vocabulary](units/unit-01-reading-fluency-morphology-vocabulary/README.md) — validated draft
+2. Literary theme, perspective, and character development — planned
+3. Informational text synthesis: structure and evidence — planned
+4. Grammar, sentence variety, conventions, and editing — planned
+5. Narrative pacing, dialogue, and description — planned
+6. Opinion writing: claims, reasons, and source evidence — planned
+7. Research: informational writing and citation foundations — planned
+8. Poetry, multimedia, speaking, and revised portfolio — planned
 
 ## What this track covers
 
@@ -43,8 +58,12 @@ By the end of the year the learner will be able to:
 
 ## Current library status (2026-10-04 audit)
 
-The folder holds 22 Markdown files: this README, 4 assignments, 15 quizzes, and
-2 templates. Audit decisions from
+The folder holds 37 Markdown files plus 1 generated illustration: the audit's 22
+(this README, 4 assignments, 15 quizzes, 2 templates) plus Unit 01's 15
+(unit README, 5 lessons, practice, project, resource pack, quiz, assessment,
+teacher guide, answer key, and 2 asset records) under
+`units/unit-01-reading-fluency-morphology-vocabulary/`, with the generated
+`assets/word-part-blocks.png` teaching illustration used in Lesson 02. Audit decisions from
 [scope-and-sequence.md](scope-and-sequence.md): the Opinion Writing Lab and the
 three blank assignments are **kept** as practice seeds for U03/U05/U06/U08; all
 15 quizzes are **revise-before-use** (content is grade-appropriate and

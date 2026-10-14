@@ -3,7 +3,9 @@
 Reusable Grade 8 learning materials. Quizzes and assignments remain blank; completed responses belong in private learning records. Review readiness and accommodations before assigning.
 
 **Contents:** The [math track](math/README.md) audit and scope-and-sequence is
-delivered as a validated draft (units not yet written); other subjects still
+delivered as a validated draft, and math Unit 01 (real numbers, roots, and
+irrational approximations) is delivered as a validated draft (other math
+units not yet written); other subjects still
 unaudited. Materials still require educator review.
 
 ## Core Subjects
