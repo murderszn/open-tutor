@@ -4924,28 +4924,88 @@
   {
    "path": "grade-11/science/units/unit-01-measurement-vectors-motion-and-uncertainty/assets/projectile-launch-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/lessons/lesson-01-the-function-concept.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/lessons/lesson-02-vertical-transformations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/lessons/lesson-03-horizontal-transformations-and-even-odd.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/lessons/lesson-04-composition.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/lessons/lesson-05-inverse-functions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-11/math/units/unit-01-function-transformations/assets/two-stage-function-machine.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 45,
-  "assessment": 49,
-  "asset": 62,
-  "assets": 46,
+  "answer-key": 46,
+  "assessment": 50,
+  "asset": 63,
+  "assets": 47,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 242,
+  "lesson": 247,
   "new-assignment": 31,
-  "practice": 45,
-  "project": 45,
-  "quiz": 268,
-  "resource-pack": 45,
+  "practice": 46,
+  "project": 46,
+  "quiz": 269,
+  "resource-pack": 46,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 45,
+  "teacher-guide": 46,
   "template": 14,
-  "unit-index": 45,
+  "unit-index": 46,
   "unit-text": 8
  },
  "review_notes": [
