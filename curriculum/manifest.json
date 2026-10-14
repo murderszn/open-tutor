@@ -3168,28 +3168,92 @@
   {
    "path": "grade-4/science/units/unit-01-evidence-measurement-models/assets/measure-right-wrong.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/lessons/lesson-01-evidence-quote-the-text.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/lessons/lesson-02-inference-detective.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/lessons/lesson-03-greek-latin-roots-affixes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/lessons/lesson-04-context-clues.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/lessons/lesson-05-dictionary-academic-words.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/lessons/lesson-06-fluency-with-purpose.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-01-reading-evidence-inference-vocabulary/assets/inference-window-scene.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 18,
-  "assessment": 18,
-  "asset": 20,
-  "assets": 18,
+  "answer-key": 19,
+  "assessment": 19,
+  "asset": 21,
+  "assets": 19,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 97,
+  "lesson": 103,
   "new-assignment": 31,
-  "practice": 18,
-  "project": 18,
-  "quiz": 245,
-  "resource-pack": 18,
+  "practice": 19,
+  "project": 19,
+  "quiz": 246,
+  "resource-pack": 19,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 18,
+  "teacher-guide": 19,
   "template": 14,
-  "unit-index": 18
+  "unit-index": 19
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
