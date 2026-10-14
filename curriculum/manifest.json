@@ -3108,28 +3108,88 @@
   {
    "path": "grade-4/math/units/unit-01-multi-digit-place-value-rounding-operations/assets/rounding-number-line-hundreds.svg",
    "kind": "asset"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/lessons/lesson-01-testable-questions-careful-observations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/lessons/lesson-02-measuring-and-converting.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/lessons/lesson-03-fair-tests.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/lessons/lesson-04-showing-the-data.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/lessons/lesson-05-design-problems-and-investigation-reports.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/assessments/week-06_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-4/science/units/unit-01-evidence-measurement-models/assets/measure-right-wrong.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 17,
-  "assessment": 17,
-  "asset": 19,
-  "assets": 17,
+  "answer-key": 18,
+  "assessment": 18,
+  "asset": 20,
+  "assets": 18,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 92,
+  "lesson": 97,
   "new-assignment": 31,
-  "practice": 17,
-  "project": 17,
-  "quiz": 244,
-  "resource-pack": 17,
+  "practice": 18,
+  "project": 18,
+  "quiz": 245,
+  "resource-pack": 18,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 17,
+  "teacher-guide": 18,
   "template": 14,
-  "unit-index": 17
+  "unit-index": 18
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
