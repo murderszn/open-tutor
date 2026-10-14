@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
+delivered; **Unit 01 is delivered as a validated draft** (see
+[units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/));
+units 02–08 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -53,21 +55,27 @@ By the end of the year the learner will be able to:
 11. Engage effectively in collaborative discussions with diverse partners — prepared with evidence, following collegial rules, posing questions that elicit elaboration, and acknowledging new information; analyze the main ideas and supporting details presented in diverse media and formats; delineate a speaker's argument and specific claims, evaluating the soundness of the reasoning and the relevance and sufficiency of the evidence; present claims and findings in a focused, coherent manner with multimedia components and visual displays, adapting speech to context and formal English (SL.7.1–SL.7.6).
 12. Read and comprehend literature and literary nonfiction in the grades 6–8 text-complexity band proficiently, with scaffolding as needed at the high end; write routinely over extended and shorter time frames for a range of tasks, purposes, and audiences (RL.7.10, RI.7.10, W.7.10).
 
-## Current library status (2026-10-05 audit)
+## Current library status (2026-10-05 audit; unit builds from 2026-10-12)
 
-The folder holds **18 Markdown files**: this README, 7 assignment skeletons, 8
-quizzes, and 2 practice templates. Audit decisions from
+The folder held **18 Markdown files** at audit: this README, 7 assignment
+skeletons, 8 quizzes, and 2 practice templates. Unit 01 (delivered
+2026-10-12 as a validated draft) adds **15 Markdown files and 1 generated
+image** under
+[units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/):
+unit README, 6 lessons, practice sessions, project dossier with rubric,
+resource pack, formative quiz, unit assessment, teacher guide, answer key,
+and the assets record. Audit decisions from
 [scope-and-sequence.md](scope-and-sequence.md): all seven assignments and the
 two templates are **revised** (usable skeletons rebuilt with real instruction,
 modeled examples, and rubrics in the named units); the eight quizzes are
 **revised** (their ten-question sets become formative review seeds with answer
 keys moved to unit teacher guides). The old subject README is **revised** —
-replaced by this file. Nothing inaccurate or inappropriate was found, but
-**nothing is a complete lesson**: there are no taught lessons, no answer keys
-for any quiz, and no diagnostic. Grammar/vocabulary quizzes point at the shared
-resource guides as reading, not at passages the learner analyzes — the unit
-builds fix that. The eight planned units are described in prose only; no unit
-links exist yet.
+replaced by this file. Nothing inaccurate or inappropriate was found. The
+story-elements quiz revision is complete: its items are re-anchored to the
+unit's anchor passage with an answer key in the U01 teacher materials; the
+legacy file in `quizzes/` is left untouched. The eight planned units are
+described in prose in the scope-and-sequence; U01 now exists as a unit link
+below, U02–U08 have no files yet.
 
 ## Kept and revised materials (rebuilt in the units)
 
@@ -84,5 +92,9 @@ links exist yet.
   audiobook pitch → U08 presentations; evidence-based video review → U03/U08
   media analysis.
 
-Planned units are described in prose only in
-[scope-and-sequence.md](scope-and-sequence.md); no unit links exist yet.
+Planned units are described in prose in
+[scope-and-sequence.md](scope-and-sequence.md). Delivered units:
+
+- **U01 — Close reading: theme and interacting story elements**
+  ([units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/)) —
+  validated draft, 2026-10-12. U02–U08 have no files yet.
