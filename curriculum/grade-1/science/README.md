@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+[Unit 01 — Questions, observations, and safe investigations](units/unit-01-questions-observations-safe-investigations/README.md)
+is delivered as a validated draft; Units 02–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -81,8 +82,8 @@ adoption, accreditation, or alignment certification). Full crosswalk in
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, safety,
   accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Questions, observations, and safe investigations
+- `units/` — eight units; Unit 01 delivered, Units 02–08 planned (not yet written):
+  1. [Questions, observations, and safe investigations](units/unit-01-questions-observations-safe-investigations/README.md) — **delivered (validated draft)**
   2. Sound, vibration, and communication
   3. Light, visibility, shadows, and materials
   4. External structures of plants and animals
