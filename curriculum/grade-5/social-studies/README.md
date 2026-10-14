@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+[Unit 01 — North American geography, Indigenous histories, and sources](units/unit-01-north-american-geography-indigenous-histories/README.md)
+is delivered as a validated draft (2026-10-11); Units 02–08 are planned, not yet written.
+See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-5 learner at a time; a guiding adult adapts pacing, materials, and
@@ -110,7 +112,7 @@ defers to later bands (D2.His.7–8, 9–12; D2.His.15, 6–8) are not taught he
 | Weeks | Unit | Focus |
 |---|---|---|
 | 1–2 | — | Diagnostic: map skills at multi-state scale, timelines, perspectives, and grade-4 vocabulary |
-| 3–6 | U01 | North American geography, Indigenous histories, and sources |
+| 3–6 | [U01](units/unit-01-north-american-geography-indigenous-histories/README.md) | North American geography, Indigenous histories, and sources — delivered as validated draft (2026-10-11) |
 | 7–10 | U02 | Colonial societies: labor, trade, and diverse perspectives |
 | 11–14 | U03 | Revolution: causes, events, and competing viewpoints |
 | 15–18 | U04 | Founding documents, Constitution, and citizenship |
@@ -121,11 +123,17 @@ defers to later bands (D2.His.7–8, 9–12; D2.His.15, 6–8) are not taught he
 | 32–35 | U08 | Historical inquiry, U.S. geography, and civic capstone |
 | 36 | — | Final review and portfolio |
 
-Units are planned in prose until written; no unit files exist yet. Each unit is
-designed as four weeks of four ~40-minute sessions: concept launch, skills
-practice, investigation/application, and review with a unit check. Full weekly
-goals are in the scope-and-sequence. Grade-5 learners do independent written
-practice (10–14 tasks) that the adult reviews the same day.
+Unit 01 is delivered as a validated draft — five fully written lessons, practice
+banks, the "One nation, one environment" project with rubric, a formative quiz
+and unit assessment (keys separated into the teacher guide and answer key), a
+verified Resource Pack, and a generated Pacific Northwest coastal-environment
+illustration with alt text and a generation record — at
+[units/unit-01-north-american-geography-indigenous-histories/](units/unit-01-north-american-geography-indigenous-histories/).
+Units 02–08 are planned in prose until written. Each unit is designed as four
+weeks of four ~40-minute sessions: concept launch, skills practice,
+investigation/application, and review with a unit check. Full weekly goals are
+in the scope-and-sequence. Grade-5 learners do independent written practice
+(10–14 tasks) that the adult reviews the same day.
 
 ## Existing materials and their status
 

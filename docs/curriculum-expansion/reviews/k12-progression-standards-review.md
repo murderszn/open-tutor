@@ -129,6 +129,23 @@ Description texts in the crosswalks were spot-checked, not exhaustively re-verif
 - Grade-12 math course identity: the "precalculus + statistics + modeling, optional calculus bridge" pathway is proposed, not prescribed; a learner placed in calculus, statistics, or terminal algebra should not use the track as-is (already noted in the draft).
 - Review issues #59 (resource/image review — eligible after U01 for all 52 tracks) and #60 (final review — eligible after all sections delivered and merged) remain ineligible.
 
+## 7. Merge verification (2026-10-09, second review section)
+
+All three correction PRs merged on `main` 2026-10-09 and their corrected content was re-inspected on `main` this run:
+
+| Correction | Merge | Content verified on `main` |
+|---|---|---|
+| C1 — grade-8 social studies names grade-5 U.S. history as content foundation | PR #110 merged 2026-10-09 | ✅ `curriculum/grade-8/social-studies/scope-and-sequence.md` carries the "Content foundation — the grade-5 U.S. history track" paragraph (deeper primary-source second pass; diagnostic re-checks grade-5 arc retention). |
+| C2 — grade-12 science prerequisites include grade-6 Earth/space track | PR #124 merged 2026-10-09 | ✅ `curriculum/grade-12/science/scope-and-sequence.md` lists grade-6 Earth/space science objectives with the "grade 12 makes each quantitative, no conceptual re-teaching" contract. |
+| C3 — grade-9 science stale "grade-8 audit not yet delivered" note refreshed | PR #107 merged 2026-10-09 | ⚠️ Prerequisites section refreshed correctly (references delivered PRs #102/#108), but one identical stale note survived in §10 "Gaps and paths for future units." Fixed by this run: now reads "delivered and merged (PR #108); when unit builds begin, confirm the entry-skills list against the merged version." No other stale "not yet delivered" notes remain in the file. |
+
+Report PR #126 (this report) merged 2026-10-09. Corrections committed to the three track branches landed via the tracks' own merge commits, so no duplicate correction PRs exist.
+
+**Remaining educator decisions** (carried forward, unresolved — none require educator action before unit builds begin):
+- Grade 5 → 8 U.S. history spiral depth split (narrative survey vs. further compression at grade 8) — deferred to unit builds.
+- Grade-12 math course identity ("precalculus + statistics + modeling, optional calculus bridge" is proposed, not prescribed) — noted in the grade-12 math draft; learners placed in calculus, statistics, or terminal algebra need a different pathway.
+- Reviews #59 and #60 remain ineligible (see §6).
+
 ---
 
 *One run delivered one review section. Draft delivery is not educator approval. Corrections C1–C3 were committed directly to the three affected draft PR branches so each track keeps a single PR; this report is the record. Keep issue #58 open until its second section (verify corrections are merged and record remaining educator decisions) is delivered.*
