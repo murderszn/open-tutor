@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
+delivered, and Unit 01 is delivered as a validated draft; the remaining seven
+units are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -80,9 +81,12 @@ verified 2026-10-06 on thecorestandards.org; the scope-and-sequence paraphrases
 them and maps each unit to its standards. No state adoption, accreditation, or
 alignment certification is claimed.
 
-## Planned units (prose until built)
+## Planned units (U01 delivered as a validated draft; U02–U08 in prose until built)
 
-- U01 — Close reading: inference, theme, and evidence synthesis
+- **U01 — Close reading: inference, theme, and evidence synthesis** —
+  delivered as a validated draft
+  ([units/unit-01-close-reading/](units/unit-01-close-reading/)); not
+  educator-reviewed, not merged
 - U02 — Literature: drama, character foils, and adaptation
 - U03 — Informational rhetoric: argument and conflicting accounts
 - U04 — Grammar: voice, verbals, punctuation, and style
