@@ -1,5 +1,9 @@
 # Grade 4 Math — 🧠 Hints for Hints
 
+> **Note (2026-10-10):** these rounding scaffolds are rehoused as teacher-side
+> prompts in [Unit 01's teacher guide](../units/unit-01-multi-digit-place-value-rounding-operations/teacher-guide.md#rounding-scaffolds).
+> This file is kept as a pointer; the unit is the maintained copy.
+
 These are gentle nudges to help you think it through. No answers here — you’ve got this!
 
 ---
