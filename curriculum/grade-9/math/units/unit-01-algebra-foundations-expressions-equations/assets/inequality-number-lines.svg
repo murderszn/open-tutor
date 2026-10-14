@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" role="img" aria-labelledby="svgTitle svgDesc">
+  <title id="svgTitle">Number-line graphs of three inequalities</title>
+  <desc id="svgDesc">Three horizontal number lines from negative 5 to 5. Top: x greater than 3, open circle at 3 with a ray to the right. Middle: x less than or equal to negative 1, filled circle at negative 1 with a ray to the left. Bottom: negative 1 less than x less than or equal to 3, open circle at negative 1, filled circle at 3, segment joining them.</desc>
+  <style>
+    .axis { stroke: #222; stroke-width: 2; }
+    .tick { stroke: #222; stroke-width: 1.5; }
+    .lbl { font: 13px sans-serif; fill: #222; text-anchor: middle; }
+    .ineq { font: 16px sans-serif; fill: #111; font-weight: bold; }
+    .ray { stroke: #c0392b; stroke-width: 4; fill: none; }
+    .seg { stroke: #c0392b; stroke-width: 4; }
+    .open { fill: white; stroke: #c0392b; stroke-width: 3; }
+    .closed { fill: #c0392b; stroke: #c0392b; }
+  </style>
+  <text class="ineq" x="20" y="52">x &gt; 3</text>
+  <line class="axis" x1="150" y1="60" x2="700" y2="60"/>
+  <line class="tick" x1="150" y1="54" x2="150" y2="66"/>
+  <text class="lbl" x="150" y="84">−5</text>
+  <line class="tick" x1="205" y1="54" x2="205" y2="66"/>
+  <text class="lbl" x="205" y="84">−4</text>
+  <line class="tick" x1="260" y1="54" x2="260" y2="66"/>
+  <text class="lbl" x="260" y="84">−3</text>
+  <line class="tick" x1="315" y1="54" x2="315" y2="66"/>
+  <text class="lbl" x="315" y="84">−2</text>
+  <line class="tick" x1="370" y1="54" x2="370" y2="66"/>
+  <text class="lbl" x="370" y="84">−1</text>
+  <line class="tick" x1="425" y1="54" x2="425" y2="66"/>
+  <text class="lbl" x="425" y="84">0</text>
+  <line class="tick" x1="480" y1="54" x2="480" y2="66"/>
+  <text class="lbl" x="480" y="84">1</text>
+  <line class="tick" x1="535" y1="54" x2="535" y2="66"/>
+  <text class="lbl" x="535" y="84">2</text>
+  <line class="tick" x1="590" y1="54" x2="590" y2="66"/>
+  <text class="lbl" x="590" y="84">3</text>
+  <line class="tick" x1="645" y1="54" x2="645" y2="66"/>
+  <text class="lbl" x="645" y="84">4</text>
+  <line class="tick" x1="700" y1="54" x2="700" y2="66"/>
+  <text class="lbl" x="700" y="84">5</text>
+  <text class="ineq" x="20" y="172">x ≤ −1</text>
+  <line class="axis" x1="150" y1="180" x2="700" y2="180"/>
+  <line class="tick" x1="150" y1="174" x2="150" y2="186"/>
+  <text class="lbl" x="150" y="204">−5</text>
+  <line class="tick" x1="205" y1="174" x2="205" y2="186"/>
+  <text class="lbl" x="205" y="204">−4</text>
+  <line class="tick" x1="260" y1="174" x2="260" y2="186"/>
+  <text class="lbl" x="260" y="204">−3</text>
+  <line class="tick" x1="315" y1="174" x2="315" y2="186"/>
+  <text class="lbl" x="315" y="204">−2</text>
+  <line class="tick" x1="370" y1="174" x2="370" y2="186"/>
+  <text class="lbl" x="370" y="204">−1</text>
+  <line class="tick" x1="425" y1="174" x2="425" y2="186"/>
+  <text class="lbl" x="425" y="204">0</text>
+  <line class="tick" x1="480" y1="174" x2="480" y2="186"/>
+  <text class="lbl" x="480" y="204">1</text>
+  <line class="tick" x1="535" y1="174" x2="535" y2="186"/>
+  <text class="lbl" x="535" y="204">2</text>
+  <line class="tick" x1="590" y1="174" x2="590" y2="186"/>
+  <text class="lbl" x="590" y="204">3</text>
+  <line class="tick" x1="645" y1="174" x2="645" y2="186"/>
+  <text class="lbl" x="645" y="204">4</text>
+  <line class="tick" x1="700" y1="174" x2="700" y2="186"/>
+  <text class="lbl" x="700" y="204">5</text>
+  <text class="ineq" x="20" y="292">−1 &lt; x ≤ 3</text>
+  <line class="axis" x1="150" y1="300" x2="700" y2="300"/>
+  <line class="tick" x1="150" y1="294" x2="150" y2="306"/>
+  <text class="lbl" x="150" y="324">−5</text>
+  <line class="tick" x1="205" y1="294" x2="205" y2="306"/>
+  <text class="lbl" x="205" y="324">−4</text>
+  <line class="tick" x1="260" y1="294" x2="260" y2="306"/>
+  <text class="lbl" x="260" y="324">−3</text>
+  <line class="tick" x1="315" y1="294" x2="315" y2="306"/>
+  <text class="lbl" x="315" y="324">−2</text>
+  <line class="tick" x1="370" y1="294" x2="370" y2="306"/>
+  <text class="lbl" x="370" y="324">−1</text>
+  <line class="tick" x1="425" y1="294" x2="425" y2="306"/>
+  <text class="lbl" x="425" y="324">0</text>
+  <line class="tick" x1="480" y1="294" x2="480" y2="306"/>
+  <text class="lbl" x="480" y="324">1</text>
+  <line class="tick" x1="535" y1="294" x2="535" y2="306"/>
+  <text class="lbl" x="535" y="324">2</text>
+  <line class="tick" x1="590" y1="294" x2="590" y2="306"/>
+  <text class="lbl" x="590" y="324">3</text>
+  <line class="tick" x1="645" y1="294" x2="645" y2="306"/>
+  <text class="lbl" x="645" y="324">4</text>
+  <line class="tick" x1="700" y1="294" x2="700" y2="306"/>
+  <text class="lbl" x="700" y="324">5</text>
+  <line class="ray" x1="590" y1="60" x2="690" y2="60"/>
+  <polygon points="690,52 706,60 690,68" fill="#c0392b"/>
+  <circle class="open" cx="590" cy="60" r="8"/>
+  <line class="ray" x1="370" y1="180" x2="160" y2="180"/>
+  <polygon points="160,172 144,180 160,188" fill="#c0392b"/>
+  <circle class="closed" cx="370" cy="180" r="8"/>
+  <line class="seg" x1="370" y1="300" x2="590" y2="300"/>
+  <circle class="open" cx="370" cy="300" r="8"/>
+  <circle class="closed" cx="590" cy="300" r="8"/>
+</svg>
