@@ -99,9 +99,15 @@ a reference alignment for planning — it is not a claim of state adoption,
 accreditation, or standards certification, and no state or district
 requirements were specified.
 
-## Planned units
+## Units
 
-- **U01** — American literature contexts, themes, and close reading
+**Delivered (validated drafts; not educator-reviewed or merged):**
+
+- **U01** — [American literature contexts, themes, and close reading](units/unit-01-american-literature-contexts-and-close-reading/README.md)
+  (draft delivered 2026-10-14 for issue #52)
+
+**Planned:**
+
 - **U02** — Founding rhetoric: speeches and primary texts
 - **U03** — Literary movements, diverse voices, and interpretation
 - **U04** — Language, rhetoric, syntax, and stylistic analysis

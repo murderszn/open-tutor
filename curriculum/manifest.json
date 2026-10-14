@@ -4984,6 +4984,62 @@
   {
    "path": "grade-11/math/units/unit-01-function-transformations/assets/two-stage-function-machine.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/lessons/lesson-01-what-american-literature-means.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/lessons/lesson-02-tracking-theme-in-the-great-gatsby.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/lessons/lesson-03-same-period-similar-themes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/lessons/lesson-04-close-reading-workshop-and-seminar.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
