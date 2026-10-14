@@ -424,9 +424,14 @@ relative links resolve, but the section names may not match. R00 will reuse
 each unit's formative checks; nothing in the legacy library can supply the
 diagnostic because no diagnostic exists.
 
-## 11. Planned units (prose — no files yet; no links to missing files)
+## 11. Planned units (prose — U01 delivered 2026-10-12; no links to missing files)
 
-U01 Close reading: theme and interacting story elements; U02 Literary
+U01 Close reading: theme and interacting story elements — **delivered as a
+validated draft 2026-10-12**
+([units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/):
+README, 6 lessons, practice sessions, project dossier with rubric, resource
+pack, formative quiz, unit assessment, teacher guide, answer key, generated
+illustration with assets record); U02 Literary
 perspective, figurative language, and poetry; U03 Informational: structure,
 rhetoric, and argument evaluation; U04 Grammar: clauses, sentence structure,
 and vocabulary; U05 Narrative craft: scene, dialogue, and revision; U06

@@ -2,8 +2,10 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+delivered; **Unit 01 (Medieval geography: sources and historical inquiry)
+is delivered as a validated draft** ([units/unit-01-medieval-geography-and-historical-inquiry/](units/unit-01-medieval-geography-and-historical-inquiry/),
+2026-10-13, not yet educator-reviewed or merged); Units 02–08 are planned,
+not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-7 learner at a time; a guiding adult adapts pacing, materials, and
@@ -70,22 +72,29 @@ assignments, five-states report, and measurement quizzes are **enrichment**
 (optional, off the medieval world-history track). Two files must not be
 assigned as-is: `quizzes/weight-distance-quiz.md` (broken title, answers
 embedded inline) and `quizzes/global-energy-precious-metals-quiz.md` (cites
-guide sections that do not exist). **No answer key exists for any quiz; no
-taught lessons and no diagnostic exist** — the eight planned units build
-instruction new. The old subject README is **revised** — replaced by this
-file. The eight planned units are described in prose only; no unit links
-exist yet.
+guide sections that do not exist). **No answer key exists for any legacy
+quiz; no diagnostic exists** — Unit 01 (delivered 2026-10-13 as a
+validated draft) builds instruction new and supplies its own keys; Units
+02–08 remain planned. The old subject README is **revised** — replaced by
+this file. Units 02–08 are described in prose only; no unit links exist
+for them yet.
 
 ## Kept and revised materials (rebuilt in the units)
 
 - [assignments/](assignments/) — city-planning design lab → U01
-  (map-construction frame and rubric); history-of-war → U08
+  (map-construction frame and rubric; **rebuilt** 2026-10-13 as Practice
+  Set C in
+  [units/unit-01-medieval-geography-and-historical-inquiry/practice.md](units/unit-01-medieval-geography-and-historical-inquiry/practice.md),
+  original file unchanged); history-of-war → U08
   (medieval/early-modern turning points, working timeline routine). Credit
   costs, five-states report, and landmark court case stay optional
   enrichment.
 - [quizzes/](quizzes/) — capitals, oceans/seas, chokepoints → U01 formative
-  review; agriculture → U03 review seed. All get answer keys in unit teacher
-  guides and corrected section references. The energy/metals quiz and the
+  review (**delivered** 2026-10-13: revised as Practice Set E and
+  [assessments/week-04_quiz.md](units/unit-01-medieval-geography-and-historical-inquiry/assessments/week-04_quiz.md)
+  with corrected guide-section references and answer keys in
+  [answer-key.md](units/unit-01-medieval-geography-and-historical-inquiry/answer-key.md));
+  agriculture → U03 review seed (planned). The energy/metals quiz and the
   weight/distance quiz are repaired before any use; both remain enrichment.
   U.S.-civics quizzes stay optional enrichment.
 - [templates/](templates/) — the civil-rights source-analysis frame is
