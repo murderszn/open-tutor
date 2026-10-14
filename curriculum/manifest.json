@@ -3868,28 +3868,92 @@
   {
    "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assets/map-grid-scale.svg",
    "kind": "asset"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-01-what-counts-as-scientific-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-02-measurement-units-and-the-lab-notebook.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-03-microscope-parts-focusing-and-scale.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-04-is-it-living-unicellular-multicellular.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/lessons/lesson-05-cell-models-that-explain.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assets/microscope-parts-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/science/units/unit-01-scientific-evidence-microscopy-cell-models/assets/cell-size-scale.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 29,
-  "assessment": 31,
-  "asset": 38,
-  "assets": 30,
+  "answer-key": 30,
+  "assessment": 32,
+  "asset": 40,
+  "assets": 31,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 154,
+  "lesson": 159,
   "new-assignment": 31,
-  "practice": 29,
-  "project": 29,
-  "quiz": 254,
-  "resource-pack": 29,
+  "practice": 30,
+  "project": 30,
+  "quiz": 255,
+  "resource-pack": 30,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 29,
+  "teacher-guide": 30,
   "template": 14,
-  "unit-index": 29
+  "unit-index": 30
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
