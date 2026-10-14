@@ -3540,28 +3540,92 @@
   {
    "path": "grade-5/social-studies/units/unit-01-north-american-geography-indigenous-histories/assets/README.md",
    "kind": "assets"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-01-ratio-language-and-order.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-02-equivalent-ratios-tables-tape-diagrams-double-number-lines.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-03-unit-rates-pricing-and-speed.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-04-percent-as-rate-per-100.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/lessons/lesson-05-unit-conversion-by-ratio-reasoning.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assets/lemonade-stand-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/math/units/unit-01-ratios-unit-rates-ratio-reasoning/assets/tape-diagram-2-to-3.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 24,
-  "assessment": 26,
-  "asset": 27,
-  "assets": 25,
+  "answer-key": 25,
+  "assessment": 27,
+  "asset": 29,
+  "assets": 26,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 128,
+  "lesson": 133,
   "new-assignment": 31,
-  "practice": 24,
-  "project": 24,
-  "quiz": 249,
-  "resource-pack": 24,
+  "practice": 25,
+  "project": 25,
+  "quiz": 250,
+  "resource-pack": 25,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 24,
+  "teacher-guide": 25,
   "template": 14,
-  "unit-index": 24
+  "unit-index": 25
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
