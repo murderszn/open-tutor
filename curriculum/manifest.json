@@ -4596,28 +4596,88 @@
   {
    "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/assets/indian-ocean-port-1450-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/lessons/lesson-01-undefined-notions-and-definitions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/lessons/lesson-02-copying-segments-and-angles.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/lessons/lesson-03-bisectors-perpendiculars-parallels-polygons.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/lessons/lesson-04-vertical-angles-two-column-proof.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/lessons/lesson-05-transversals-and-parallel-lines.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-10/math/units/unit-01-geometry-foundations/assets/perpendicular-bisector-construction.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 40,
-  "assessment": 43,
-  "asset": 56,
-  "assets": 41,
+  "answer-key": 41,
+  "assessment": 44,
+  "asset": 57,
+  "assets": 42,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 215,
+  "lesson": 220,
   "new-assignment": 31,
-  "practice": 40,
-  "project": 40,
-  "quiz": 264,
-  "resource-pack": 40,
+  "practice": 41,
+  "project": 41,
+  "quiz": 265,
+  "resource-pack": 41,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 40,
+  "teacher-guide": 41,
   "template": 14,
-  "unit-index": 40,
+  "unit-index": 41,
   "unit-text": 4
  },
  "review_notes": [
