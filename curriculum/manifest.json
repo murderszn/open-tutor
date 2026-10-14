@@ -3800,28 +3800,96 @@
   {
    "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/assets/evidence-magnifier.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-01-compelling-questions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-02-observation-and-inference.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-03-maps-as-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-04-sources-and-their-limits.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/lessons/lesson-05-chronology-and-archaeology.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assets/fictional-dig-trench.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assets/bce-ce-timeline.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-01-historical-inquiry-maps-and-chronology/assets/map-grid-scale.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 28,
-  "assessment": 30,
-  "asset": 35,
-  "assets": 29,
+  "answer-key": 29,
+  "assessment": 31,
+  "asset": 38,
+  "assets": 30,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 149,
+  "lesson": 154,
   "new-assignment": 31,
-  "practice": 28,
-  "project": 28,
-  "quiz": 253,
-  "resource-pack": 28,
+  "practice": 29,
+  "project": 29,
+  "quiz": 254,
+  "resource-pack": 29,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 28,
+  "teacher-guide": 29,
   "template": 14,
-  "unit-index": 28
+  "unit-index": 29
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
