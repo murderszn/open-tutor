@@ -2796,28 +2796,88 @@
   {
    "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/README.md",
    "kind": "assets"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/lessons/lesson-01-testable-questions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/lessons/lesson-02-observing-and-measuring.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/lessons/lesson-03-fair-tests.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/lessons/lesson-04-data-tables-and-graphs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/lessons/lesson-05-claims-and-explanations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/assets/fair-test-stations.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/assets/README.md",
+   "kind": "assets"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 12,
-  "assessment": 12,
-  "asset": 13,
-  "assets": 12,
+  "answer-key": 13,
+  "assessment": 13,
+  "asset": 14,
+  "assets": 13,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 65,
+  "lesson": 70,
   "new-assignment": 31,
-  "practice": 12,
-  "project": 12,
-  "quiz": 239,
-  "resource-pack": 12,
+  "practice": 13,
+  "project": 13,
+  "quiz": 240,
+  "resource-pack": 13,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 12,
+  "teacher-guide": 13,
   "template": 14,
-  "unit-index": 12
+  "unit-index": 13
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
