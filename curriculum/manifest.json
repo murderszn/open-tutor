@@ -3416,28 +3416,92 @@
   {
    "path": "grade-5/science/units/unit-01-measurement-investigations/assets/measurement-station.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/lessons/lesson-01-fluency-accuracy-rate-expression.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/lessons/lesson-02-prefixes-change-meaning.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/lessons/lesson-03-suffixes-meaning-and-part-of-speech.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/lessons/lesson-04-greek-latin-roots.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/lessons/lesson-05-context-clues-dictionary-precise-words.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/assets/word-part-cards.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-01-reading-fluency-morphology-vocabulary/assets/word-part-blocks.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 22,
-  "assessment": 24,
-  "asset": 25,
-  "assets": 22,
+  "answer-key": 23,
+  "assessment": 25,
+  "asset": 26,
+  "assets": 24,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 118,
+  "lesson": 123,
   "new-assignment": 31,
-  "practice": 22,
-  "project": 22,
-  "quiz": 247,
-  "resource-pack": 22,
+  "practice": 23,
+  "project": 23,
+  "quiz": 248,
+  "resource-pack": 23,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 22,
+  "teacher-guide": 23,
   "template": 14,
-  "unit-index": 22
+  "unit-index": 23
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
