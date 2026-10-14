@@ -2604,28 +2604,88 @@
   {
    "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/assets/README.md",
    "kind": "assets"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-01-fair-test-questions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-02-observing-and-recording.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-03-measuring-centimeters.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-04-fair-tests-tables.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-05-graphs-and-claims.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/assets/fair-test-comparison.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 9,
-  "assessment": 9,
-  "asset": 9,
-  "assets": 9,
+  "answer-key": 10,
+  "assessment": 10,
+  "asset": 10,
+  "assets": 10,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 48,
+  "lesson": 53,
   "new-assignment": 31,
-  "practice": 9,
-  "project": 9,
-  "quiz": 236,
-  "resource-pack": 9,
+  "practice": 10,
+  "project": 10,
+  "quiz": 237,
+  "resource-pack": 10,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 9,
+  "teacher-guide": 10,
   "template": 14,
-  "unit-index": 9
+  "unit-index": 10
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
