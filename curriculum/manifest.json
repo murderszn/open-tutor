@@ -4332,28 +4332,88 @@
   {
    "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/assets/two-movers-story.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/lessons/lesson-01-explicit-vs-inferred-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/lessons/lesson-02-strongest-evidence-quoting-paraphrasing.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/lessons/lesson-03-theme-vs-topic-tracking-theme.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/lessons/lesson-04-objective-summary-informational-text.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/lessons/lesson-05-word-choice-tone-allusion.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/assessments/week-06_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-01-close-reading/assets/inference-bus-stop.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 36,
-  "assessment": 38,
-  "asset": 51,
-  "assets": 37,
+  "answer-key": 37,
+  "assessment": 39,
+  "asset": 52,
+  "assets": 38,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 194,
+  "lesson": 199,
   "new-assignment": 31,
-  "practice": 36,
-  "project": 36,
-  "quiz": 261,
-  "resource-pack": 36,
+  "practice": 37,
+  "project": 37,
+  "quiz": 262,
+  "resource-pack": 37,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 36,
+  "teacher-guide": 37,
   "template": 14,
-  "unit-index": 36
+  "unit-index": 37
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
