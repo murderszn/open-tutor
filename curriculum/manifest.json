@@ -2856,28 +2856,88 @@
   {
    "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/assets/README.md",
    "kind": "assets"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/lessons/lesson-01-map-parts.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/lessons/lesson-02-compass-rose-cardinal-directions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/lessons/lesson-03-reading-a-community-map.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/lessons/lesson-04-maps-globes-and-photographs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/lessons/lesson-05-our-earth-continents-and-oceans.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/assets/maple-lane-map.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/assets/README.md",
+   "kind": "assets"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 13,
-  "assessment": 13,
-  "asset": 14,
-  "assets": 13,
+  "answer-key": 14,
+  "assessment": 14,
+  "asset": 15,
+  "assets": 14,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 70,
+  "lesson": 75,
   "new-assignment": 31,
-  "practice": 13,
-  "project": 13,
-  "quiz": 240,
-  "resource-pack": 13,
+  "practice": 14,
+  "project": 14,
+  "quiz": 241,
+  "resource-pack": 14,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 13,
+  "teacher-guide": 14,
   "template": 14,
-  "unit-index": 13
+  "unit-index": 14
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
