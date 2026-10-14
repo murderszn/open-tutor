@@ -4392,28 +4392,96 @@
   {
    "path": "grade-8/language-arts/units/unit-01-close-reading/assets/inference-bus-stop.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/lessons/lesson-01-atlantic-world-map.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/lessons/lesson-02-columbian-exchange.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/lessons/lesson-03-colonial-regions-labor.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/lessons/lesson-04-enslavement-system.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/lessons/lesson-05-resistance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/lessons/lesson-06-atlantic-system-synthesis.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/assets/colonial-port-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-01-colonial-societies/assets/triangular-trade-schematic.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 37,
-  "assessment": 39,
-  "asset": 52,
-  "assets": 38,
+  "answer-key": 38,
+  "assessment": 40,
+  "asset": 54,
+  "assets": 39,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 199,
+  "lesson": 205,
   "new-assignment": 31,
-  "practice": 37,
-  "project": 37,
-  "quiz": 262,
-  "resource-pack": 37,
+  "practice": 38,
+  "project": 38,
+  "quiz": 263,
+  "resource-pack": 38,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 37,
+  "teacher-guide": 38,
   "template": 14,
-  "unit-index": 37
+  "unit-index": 38
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
