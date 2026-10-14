@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 300" role="img" aria-label="Atom inventory: two glucose molecules, C6H12O6 each, join by dehydration synthesis, releasing one water molecule H2O, forming maltose with 45 atoms.">
+  <rect x="0" y="0" width="560" height="300" fill="#ffffff"/>
+  <text x="20" y="28" font-family="sans-serif" font-size="16" font-weight="bold">Dehydration synthesis: atom inventory</text>
+  <text x="20" y="58" font-family="sans-serif" font-size="14">Glucose A: C6 H12 O6 = 24 atoms</text>
+  <text x="20" y="82" font-family="sans-serif" font-size="14">Glucose B: C6 H12 O6 = 24 atoms</text>
+  <text x="20" y="106" font-family="sans-serif" font-size="14">Starting total: 48 atoms</text>
+  <line x1="20" y1="120" x2="260" y2="120" stroke="#000" stroke-width="1"/>
+  <text x="20" y="144" font-family="sans-serif" font-size="14">Released: 1 water, H2O = 3 atoms</text>
+  <text x="20" y="168" font-family="sans-serif" font-size="14" font-weight="bold">Maltose formed: 48 - 3 = 45 atoms</text>
+  <text x="20" y="196" font-family="sans-serif" font-size="13">C: 12 | H: 22 | O: 11 (check: 12+22+11 = 45)</text>
+  <text x="20" y="228" font-family="sans-serif" font-size="13" font-style="italic">Rule: atoms are conserved. Count them before and after —</text>
+  <text x="20" y="248" font-family="sans-serif" font-size="13" font-style="italic">every atom in the product came from the starting materials.</text>
+  <rect x="300" y="50" width="240" height="200" fill="#f5f5f5" stroke="#999"/>
+  <text x="315" y="78" font-family="sans-serif" font-size="13" font-weight="bold">How to read it</text>
+  <text x="315" y="102" font-family="sans-serif" font-size="13">C6H12O6 means: 6 carbon,</text>
+  <text x="315" y="122" font-family="sans-serif" font-size="13">12 hydrogen, 6 oxygen atoms</text>
+  <text x="315" y="142" font-family="sans-serif" font-size="13">in one glucose molecule.</text>
+  <text x="315" y="170" font-family="sans-serif" font-size="13">H2O means: 2 hydrogen,</text>
+  <text x="315" y="190" font-family="sans-serif" font-size="13">1 oxygen atom in one water</text>
+  <text x="315" y="210" font-family="sans-serif" font-size="13">molecule.</text>
+</svg>
