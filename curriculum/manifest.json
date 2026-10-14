@@ -3740,28 +3740,88 @@
   {
    "path": "grade-7/math/units/unit-01-rational-number-operations/assets/number-line-minus10-to-10.svg",
    "kind": "asset"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/lessons/lesson-01-explicit-versus-inference.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/lessons/lesson-02-inference-in-stories.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/lessons/lesson-03-inference-in-informational-text.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/lessons/lesson-04-greek-latin-roots-word-study.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/lessons/lesson-05-two-passages-one-method.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/assets/evidence-magnifier.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 27,
-  "assessment": 29,
-  "asset": 34,
-  "assets": 28,
+  "answer-key": 28,
+  "assessment": 30,
+  "asset": 35,
+  "assets": 29,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 144,
+  "lesson": 149,
   "new-assignment": 31,
-  "practice": 27,
-  "project": 27,
-  "quiz": 252,
-  "resource-pack": 27,
+  "practice": 28,
+  "project": 28,
+  "quiz": 253,
+  "resource-pack": 28,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 27,
+  "teacher-guide": 28,
   "template": 14,
-  "unit-index": 27
+  "unit-index": 28
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",

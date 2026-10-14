@@ -2,7 +2,7 @@
 
 This folder is an anonymous, grade-specific track in the public OpenTutor curriculum library.
 
-**Contents:** Four subject starter lessons are available. The mathematics, language arts, science and social studies tracks have draft audits and scope-and-sequences (2026-10-05). The mathematics track has delivered its first draft unit (U01 — ratios, unit rates, and ratio reasoning, 2026-10-11); all other units across the four subjects are planned, not yet written. No subject track is complete. Materials still require educator review.
+**Contents:** Four subject starter lessons are available. Draft audits and scope-and-sequences are available for [Mathematics](math/scope-and-sequence.md), [Language arts](language-arts/scope-and-sequence.md), [Science](science/scope-and-sequence.md), [Social studies](social-studies/scope-and-sequence.md). s Unit 01 (close reading: inference and textual evidence) are delivered as validated drafts. Remaining units are planned; no subject track is complete. Materials still require educator review.
 
 **Do not refer learners to other grade tracks.** Each track is self-contained.
 
