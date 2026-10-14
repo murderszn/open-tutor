@@ -2480,28 +2480,88 @@
   {
    "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/assets/sound-detective.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-01-my-communities.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-02-what-is-a-right.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-03-what-is-a-responsibility.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-04-why-we-have-rules.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-05-fairness-and-discussion-rules.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/assets/classroom-community-scene.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 7,
-  "assessment": 7,
-  "asset": 7,
-  "assets": 7,
+  "answer-key": 8,
+  "assessment": 8,
+  "asset": 8,
+  "assets": 8,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 37,
+  "lesson": 42,
   "new-assignment": 31,
-  "practice": 7,
-  "project": 7,
-  "quiz": 234,
-  "resource-pack": 7,
+  "practice": 8,
+  "project": 8,
+  "quiz": 235,
+  "resource-pack": 8,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 7,
+  "teacher-guide": 8,
   "template": 14,
-  "unit-index": 7
+  "unit-index": 8
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
