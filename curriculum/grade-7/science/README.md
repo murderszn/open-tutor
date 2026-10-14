@@ -2,12 +2,25 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 is delivered as a validated draft (not educator-reviewed, not merged);
+units 2–8 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-7 learner at a time; a guiding adult adapts pacing, materials, and
 supports. Keep completed learner work, names, photos, schedules, and grades in
 private storage — never in this public repository.
+
+`units/` — eight units; Unit 01 delivered as a validated draft (not
+educator-reviewed, not merged), units 2–8 planned (not yet written):
+
+1. [Scientific evidence, microscopy, and cell models](units/unit-01-scientific-evidence-microscopy-cell-models/README.md) — draft
+2. Cell structures, functions, and organism organization
+3. Photosynthesis, respiration, and matter-energy flow
+4. Reproduction, inheritance, and genetic variation
+5. Natural selection, adaptation, and evolutionary evidence
+6. Ecosystem interactions, populations, and biodiversity
+7. Human body systems and homeostasis
+8. Life-science investigations, environmental change, and engineering
 
 Existing `stem/` science material stays available and is reviewed for reuse in
 this track; new core science belongs in this `science/` folder, and coding or
