@@ -1,8 +1,9 @@
 # Grade 6 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01
+are delivered as validated drafts; Units 02–08 and R00 are planned, not yet
+written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-6 learner at a time; a guiding adult adapts pacing, materials, and
@@ -61,8 +62,14 @@ README is **revised** — replaced by this file. Nothing inaccurate or
 inappropriate was found. Pronoun mechanics, sentence-pattern variety,
 Greek/Latin root study, and poetry have no legacy coverage and are built new.
 
+## Units
+
+- [Unit 01 — Close reading: inference and textual evidence](units/unit-01-close-reading-inference-evidence/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; explicit vs. inference with cited evidence, literary and informational inference, Greek/Latin roots and academic verbs, context clues, self-correction routine, evidence-report project with rubric, formative quiz, unit assessment, separate teacher guide and answer key, verified resource pack, generated teaching image.
+- Units 02–08 and R00 — planned, not yet written (see the [scope-and-sequence](scope-and-sequence.md) §5 and §11).
+
 ## Starter lesson (kept; feeds U06)
 
 - [Evaluate a claim and support an argument](starter-lesson.md) — claim/evidence/reasoning analysis on an original fictional passage, counterclaim practice, and a qualified argument paragraph with a 2-1-0 review rubric. Core U06 seed: the unit adds taught lessons on claim organization, formal style, and transitions plus a separated teacher guide/answer key.
 
-Planned units are described in prose only in [scope-and-sequence.md](scope-and-sequence.md); no unit links exist yet.
+Unit 01 is delivered as a validated draft (see [Units](#units) above); Units 02–08
+and R00 are described in prose only in [scope-and-sequence.md](scope-and-sequence.md).
