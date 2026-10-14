@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 (community membership, rights, and responsibilities) is delivered as a
+validated draft; Units 02–08 and the R00 review package are planned, not yet
+written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
