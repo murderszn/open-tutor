@@ -2358,6 +2358,446 @@
    "kind": "lesson"
   },
   {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-01-testable-questions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-02-observing-with-senses.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-03-tools-extend-senses.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-04-recording-observations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/lessons/lesson-05-safe-investigations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/science/units/unit-01-questions-observations-safe-investigations/assets/scientist-observation-table.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/lessons/lesson-01-what-makes-a-sentence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/lessons/lesson-02-blend-it-and-stretch-it.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/lessons/lesson-03-long-or-short-vowel.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/lessons/lesson-04-sound-detective.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/lessons/lesson-05-sound-it-out.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/lessons/lesson-06-word-families.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-01-phonemic-review-short-vowels-and-decoding/assets/sound-detective.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-01-my-communities.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-02-what-is-a-right.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-03-what-is-a-responsibility.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-04-why-we-have-rules.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/lessons/lesson-05-fairness-and-discussion-rules.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-01-community-membership-rights-responsibilities/assets/classroom-community-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/lessons/lesson-01-ten-tens-make-one-hundred.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/lessons/lesson-02-three-digit-numbers-hundreds-tens-ones.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/lessons/lesson-03-read-write-and-expand-numbers-to-1000.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/lessons/lesson-04-skip-count-by-5s-10s-100s.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/lessons/lesson-05-compare-three-digit-numbers.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/lessons/lesson-06-order-numbers-on-the-number-line.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/assets/compare-234-vs-241.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/math/units/unit-01-place-value-to-1000-and-comparison/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-01-fair-test-questions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-02-observing-and-recording.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-03-measuring-centimeters.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-04-fair-tests-tables.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/lessons/lesson-05-graphs-and-claims.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/science/units/unit-01-measurement-fair-comparisons/assets/fair-test-comparison.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-01-long-or-short-vowel-review.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-02-ai-ay-ee-ea-vowel-teams.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-03-tricky-vowel-teams.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-04-two-syllable-decoding.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-05-prefixes-and-suffixes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/lessons/lesson-06-compound-words-and-tricky-spellings.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/assets/vowel-team-friends.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-01-three-digit-place-value.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-02-rounding-to-the-nearest-10.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-03-rounding-to-the-nearest-100.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-04-adding-within-1000.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-05-subtracting-within-1000.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-06-multiplying-by-tens-and-estimating.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/market-rounding-stand.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/rounding-number-line-10.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/README.md",
+   "kind": "assets"
+  },
+  {
    "path": "grade-3/science/units/unit-01-fair-tests-measurement-data/README.md",
    "kind": "unit-index"
   },
@@ -2479,25 +2919,25 @@
   }
  ],
  "counts_by_kind": {
+  "answer-key": 14,
+  "assessment": 14,
+  "asset": 15,
+  "assets": 14,
+  "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
-  "subject-index": 112,
-  "new-assignment": 31,
-  "assignment": 111,
-  "quiz": 234,
-  "template": 14,
   "hints": 2,
+  "lesson": 75,
+  "new-assignment": 31,
+  "practice": 14,
+  "project": 14,
+  "quiz": 241,
+  "resource-pack": 14,
   "rhythm": 2,
-  "unit-index": 7,
-  "lesson": 36,
-  "practice": 7,
-  "project": 7,
-  "resource-pack": 7,
-  "assessment": 7,
-  "teacher-guide": 7,
-  "answer-key": 7,
-  "assets": 7,
-  "asset": 7
+  "subject-index": 112,
+  "teacher-guide": 14,
+  "template": 14,
+  "unit-index": 14
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
