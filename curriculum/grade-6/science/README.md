@@ -1,8 +1,9 @@
 # Grade 6 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01
+are delivered as validated drafts; Units 02–08 are planned, not yet written.
+See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-6 learner at a time; a guiding adult adapts pacing, materials, and
@@ -112,8 +113,8 @@ a claim of state adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Measurement, graphing, models, and investigation design
+- `units/` — eight units (Unit 01 delivered as a validated draft; the rest planned):
+  1. [Measurement, graphing, models, and investigation design](units/unit-01-measurement-graphing-models-investigations/README.md) — **validated draft** (5 lessons, practice set, pendulum-or-ramp project with 20-point rubric, resource pack, quiz, unit assessment, separate teacher guide and answer key, generated teaching image); awaiting educator review and merge
   2. Earth–Sun–Moon systems and seasons
   3. Solar system, gravity, and scale
   4. Earth materials, rocks, minerals, and cycles
