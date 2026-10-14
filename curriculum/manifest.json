@@ -4000,28 +4000,92 @@
   {
    "path": "grade-8/math/units/unit-01-real-numbers-roots-irrational-approximations/assets/README.md",
    "kind": "assets"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-01-citing-textual-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-02-inference-with-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-03-theme-and-development.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-04-objective-summary.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-05-setting-shapes-story.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/lessons/lesson-06-elements-interact.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-01-close-reading-theme/assets/storm-lighthouse-setting.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 31,
-  "assessment": 33,
-  "asset": 42,
-  "assets": 32,
+  "answer-key": 32,
+  "assessment": 34,
+  "asset": 43,
+  "assets": 33,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 165,
+  "lesson": 171,
   "new-assignment": 31,
-  "practice": 31,
-  "project": 31,
-  "quiz": 256,
-  "resource-pack": 31,
+  "practice": 32,
+  "project": 32,
+  "quiz": 257,
+  "resource-pack": 32,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 31,
+  "teacher-guide": 32,
   "template": 14,
-  "unit-index": 31
+  "unit-index": 32
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
