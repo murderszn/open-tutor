@@ -4268,28 +4268,92 @@
   {
    "path": "grade-9/science/units/unit-01-biological-investigation-biomolecules/assets/atom-inventory.svg",
    "kind": "asset"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/lessons/lesson-01-si-units-metric-prefixes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/lessons/lesson-02-measuring-well.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/lessons/lesson-03-speed-distance-over-time.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/lessons/lesson-04-distance-time-graphs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/lessons/lesson-05-slope-tells-the-story.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/lessons/lesson-06-velocity-time-sketches.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/science/units/unit-01-physical-quantities-motion-graphs/assets/two-movers-story.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 35,
-  "assessment": 37,
-  "asset": 50,
-  "assets": 36,
+  "answer-key": 36,
+  "assessment": 38,
+  "asset": 51,
+  "assets": 37,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 188,
+  "lesson": 194,
   "new-assignment": 31,
-  "practice": 35,
-  "project": 35,
-  "quiz": 260,
-  "resource-pack": 35,
+  "practice": 36,
+  "project": 36,
+  "quiz": 261,
+  "resource-pack": 36,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 35,
+  "teacher-guide": 36,
   "template": 14,
-  "unit-index": 35
+  "unit-index": 36
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
