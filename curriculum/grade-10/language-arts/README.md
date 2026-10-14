@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
+delivered, Unit 01 is delivered as a validated draft, and Units 02–08
+are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -128,7 +129,7 @@ requirement.
 
 ## Planned units (in prerequisite order)
 
-- U01 — World literature cultural context and interpretation
+- U01 — World literature cultural context and interpretation — **delivered as validated draft** ([units/unit-01-world-literature/](units/unit-01-world-literature/))
 - U02 — Comparative theme structure and perspective
 - U03 — Nonfiction rhetoric reasoning and source evaluation
 - U04 — Language syntax tone vocabulary and conventions

@@ -4724,29 +4724,109 @@
   {
    "path": "grade-10/science/units/unit-01-chemical-measurement-and-uncertainty/assets/meniscus-reading-scale.svg",
    "kind": "asset"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/lessons/lesson-01-cultural-context-mapping.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/lessons/lesson-02-point-of-view.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/lessons/lesson-03-translation-as-interpretation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/lessons/lesson-04-theme-tracking.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/lessons/lesson-05-objective-summary.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/lessons/lesson-06-interpretive-essay.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/texts/the-ferrymans-toll.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/texts/the-night-market.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/texts/how-translators-work.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/texts/aesop-ant-grasshopper-two-translations.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/assessments/week-06_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-01-world-literature/assets/ferryman-landing-illustration.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 42,
-  "assessment": 45,
-  "asset": 59,
-  "assets": 43,
+  "answer-key": 43,
+  "assessment": 47,
+  "asset": 60,
+  "assets": 44,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 226,
+  "lesson": 232,
   "new-assignment": 31,
-  "practice": 42,
-  "project": 42,
+  "practice": 43,
+  "project": 43,
   "quiz": 266,
-  "resource-pack": 42,
+  "resource-pack": 43,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 42,
+  "teacher-guide": 43,
   "template": 14,
-  "unit-index": 42,
-  "unit-text": 4
+  "unit-index": 43,
+  "unit-text": 8
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
