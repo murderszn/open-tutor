@@ -2728,28 +2728,96 @@
   {
    "path": "grade-2/language-arts/units/unit-01-vowel-teams-syllables-and-word-parts/assets/README.md",
    "kind": "assets"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-01-three-digit-place-value.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-02-rounding-to-the-nearest-10.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-03-rounding-to-the-nearest-100.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-04-adding-within-1000.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-05-subtracting-within-1000.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/lessons/lesson-06-multiplying-by-tens-and-estimating.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/market-rounding-stand.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/rounding-number-line-10.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/math/units/unit-01-place-value-rounding-and-operations/assets/README.md",
+   "kind": "assets"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 11,
-  "assessment": 11,
-  "asset": 11,
-  "assets": 11,
+  "answer-key": 12,
+  "assessment": 12,
+  "asset": 13,
+  "assets": 12,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 59,
+  "lesson": 65,
   "new-assignment": 31,
-  "practice": 11,
-  "project": 11,
-  "quiz": 238,
-  "resource-pack": 11,
+  "practice": 12,
+  "project": 12,
+  "quiz": 239,
+  "resource-pack": 12,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 11,
+  "teacher-guide": 12,
   "template": 14,
-  "unit-index": 11
+  "unit-index": 12
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
