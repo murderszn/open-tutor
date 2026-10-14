@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 210" role="img" aria-labelledby="svgTitle svgDesc">
+  <title id="svgTitle">Number line zoom: rounding 4,786 to the nearest hundred</title>
+  <desc id="svgDesc">A number line from 4,700 to 4,900. Benchmarks at 4,700 and 4,800 with a dashed halfway mark at 4,750. A dot marks 4,786, past halfway, with an arrow to 4,800.</desc>
+  <rect x="0" y="0" width="640" height="210" fill="#ffffff"/>
+  <text x="320" y="26" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1a1a1a">Rounding 4,786 to the nearest hundred</text>
+  <!-- baseline -->
+  <line x1="40" y1="120" x2="600" y2="120" stroke="#333333" stroke-width="2"/>
+  <!-- minor ticks every 10 -->
+  <g stroke="#999999" stroke-width="1">
+    <line x1="68" y1="114" x2="68" y2="126"/><line x1="96" y1="114" x2="96" y2="126"/>
+    <line x1="124" y1="114" x2="124" y2="126"/><line x1="152" y1="114" x2="152" y2="126"/>
+    <line x1="208" y1="114" x2="208" y2="126"/><line x1="236" y1="114" x2="236" y2="126"/>
+    <line x1="264" y1="114" x2="264" y2="126"/><line x1="292" y1="114" x2="292" y2="126"/>
+    <line x1="348" y1="114" x2="348" y2="126"/><line x1="376" y1="114" x2="376" y2="126"/>
+    <line x1="404" y1="114" x2="404" y2="126"/><line x1="432" y1="114" x2="432" y2="126"/>
+    <line x1="488" y1="114" x2="488" y2="126"/><line x1="516" y1="114" x2="516" y2="126"/>
+    <line x1="544" y1="114" x2="544" y2="126"/><line x1="572" y1="114" x2="572" y2="126"/>
+  </g>
+  <!-- medium ticks at fifties -->
+  <g stroke="#555555" stroke-width="2">
+    <line x1="180" y1="108" x2="180" y2="132"/><line x1="460" y1="108" x2="460" y2="132"/>
+  </g>
+  <!-- benchmark ticks at hundreds -->
+  <g stroke="#1a1a1a" stroke-width="3">
+    <line x1="40" y1="104" x2="40" y2="136"/><line x1="320" y1="104" x2="320" y2="136"/><line x1="600" y1="104" x2="600" y2="136"/>
+  </g>
+  <g font-family="sans-serif" font-size="14" fill="#1a1a1a" text-anchor="middle">
+    <text x="40" y="160" font-weight="bold">4,700</text>
+    <text x="320" y="160" font-weight="bold">4,800</text>
+    <text x="600" y="160" font-weight="bold">4,900</text>
+    <text x="180" y="160" fill="#555555">4,750</text>
+    <text x="460" y="160" fill="#555555">4,850</text>
+  </g>
+  <!-- halfway dashed line -->
+  <line x1="180" y1="60" x2="180" y2="136" stroke="#b00020" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="180" y="50" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#b00020">halfway: 4,750</text>
+  <!-- the number's position -->
+  <circle cx="281" cy="120" r="7" fill="#0b5fff" stroke="#083fa0" stroke-width="2"/>
+  <text x="281" y="98" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0b5fff">4,786</text>
+  <!-- arrow to the winning benchmark -->
+  <path d="M 292 108 Q 312 84 318 96" fill="none" stroke="#0b5fff" stroke-width="2.5"/>
+  <polygon points="318,96 310,92 312,102" fill="#0b5fff"/>
+  <text x="330" y="76" font-family="sans-serif" font-size="14" font-weight="bold" fill="#0b5fff">past halfway → 4,800</text>
+  <text x="320" y="196" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555555">Benchmarks: 4,700 and 4,800 · the tens digit (8 ≥ 5) rounds the hundreds digit up.</text>
+</svg>
