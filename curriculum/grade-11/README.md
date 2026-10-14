@@ -14,7 +14,9 @@ See also: [curriculum index](../README.md).
 ## Subject tracks
 
 - [Mathematics](math/README.md) — Algebra II pathway; audit and
-  scope-and-sequence are a validated draft (issue #50); units planned.
+  scope-and-sequence are a validated draft (issue #50); Unit 01
+  (function transformations, composition, inverses) delivered as a
+  validated draft in this run's draft PR (issue #50).
 - [Science](science/README.md) — Physics pathway; audit and
   scope-and-sequence are a validated draft in this run's draft PR (issue #51);
   units planned.

@@ -112,8 +112,11 @@ claim of state adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Function transformations, composition, and inverses
+- `units/` — Unit 01 delivered as a validated draft (issue #50);
+  units 02–08 planned, not yet written:
+  1. [Function transformations, composition, and
+     inverses](units/unit-01-function-transformations/README.md) —
+     validated draft (issue #50)
   2. Polynomial functions, zeros, and complex numbers
   3. Rational expressions, functions, and asymptotes
   4. Radical functions and equations
