@@ -4540,28 +4540,84 @@
   {
    "path": "grade-9/language-arts/units/unit-01-theme-and-evidence/assets/salt-box-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/lessons/lesson-01-world-regions-and-trade-routes-circa-1450.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/lessons/lesson-02-goods-ideas-and-faiths-across-afro-eurasia.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/lessons/lesson-03-the-americas-and-oceania-on-their-own-terms.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/lessons/lesson-04-change-continuity-and-the-inquiry-toolkit.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-01-world-history-inquiry/assets/indian-ocean-port-1450-illustration.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 39,
-  "assessment": 42,
-  "asset": 55,
-  "assets": 40,
+  "answer-key": 40,
+  "assessment": 43,
+  "asset": 56,
+  "assets": 41,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 211,
+  "lesson": 215,
   "new-assignment": 31,
-  "practice": 39,
-  "project": 39,
-  "quiz": 263,
-  "resource-pack": 39,
+  "practice": 40,
+  "project": 40,
+  "quiz": 264,
+  "resource-pack": 40,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 39,
+  "teacher-guide": 40,
   "template": 14,
-  "unit-index": 39,
+  "unit-index": 40,
   "unit-text": 4
  },
  "review_notes": [
