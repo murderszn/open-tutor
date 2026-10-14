@@ -2916,28 +2916,92 @@
   {
    "path": "grade-2/social-studies/units/unit-01-geographic-tools-directions-community-maps/assets/README.md",
    "kind": "assets"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-01-multisyllable-decoding.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-02-prefixes-un-re-dis-pre.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-03-latin-suffixes-and-derivational-suffixes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-04-figuring-out-word-meanings.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-05-dictionaries-and-irregular-words.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/lessons/lesson-06-fluency-with-purpose.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/assets/word-part-puzzle-pieces.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-01-word-analysis-morphology-fluency/assets/README.md",
+   "kind": "assets"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 14,
-  "assessment": 14,
-  "asset": 15,
-  "assets": 14,
+  "answer-key": 15,
+  "assessment": 15,
+  "asset": 16,
+  "assets": 15,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 75,
+  "lesson": 81,
   "new-assignment": 31,
-  "practice": 14,
-  "project": 14,
-  "quiz": 241,
-  "resource-pack": 14,
+  "practice": 15,
+  "project": 15,
+  "quiz": 242,
+  "resource-pack": 15,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 14,
+  "teacher-guide": 15,
   "template": 14,
-  "unit-index": 14
+  "unit-index": 15
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
