@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
+delivered, and Unit 01 is a delivered draft (not yet merged or
+educator-reviewed); Units 02–08 and R00 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -101,15 +102,20 @@ School conceptual categories (verified against the official framework
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Geometry foundations: definitions and proof
-  2. Congruence: rigid motions and triangle reasoning
-  3. Similarity: dilations and proportional reasoning
-  4. Right-triangle trigonometry and applications
-  5. Quadrilaterals, polygons, and coordinate proofs
-  6. Circles: chords, tangents, and angles
-  7. Area, surface area, volume, and geometric modeling
-  8. Geometric probability and cumulative design proofs
+- `units/` — eight units:
+  1. Geometry foundations: definitions and proof — **draft delivered
+     2026-10-13** (issue #46; draft PR, not yet merged):
+     [units/unit-01-geometry-foundations/](units/unit-01-geometry-foundations/)
+     — 5 lessons, practice sets A–D, project + rubric, resource pack,
+     formative quiz, unit assessment, teacher guide, separate answer key,
+     generated illustration.
+  2. Congruence: rigid motions and triangle reasoning *(planned)*
+  3. Similarity: dilations and proportional reasoning *(planned)*
+  4. Right-triangle trigonometry and applications *(planned)*
+  5. Quadrilaterals, polygons, and coordinate proofs *(planned)*
+  6. Circles: chords, tangents, and angles *(planned)*
+  7. Area, surface area, volume, and geometric modeling *(planned)*
+  8. Geometric probability and cumulative design proofs *(planned)*
 
 ## Existing material (audit baseline)
 

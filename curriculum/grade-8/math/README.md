@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 is delivered as a validated draft; Units 02–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-8 learner at a time; a guiding adult adapts pacing, materials, and
@@ -90,8 +90,8 @@ state adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Real numbers, roots, and irrational approximations
+- `units/` — Unit 01 delivered as a validated draft; Units 02–08 planned (not yet written):
+  1. [Real numbers, roots, and irrational approximations](units/unit-01-real-numbers-roots-irrational-approximations/README.md) — **delivered draft** (six lessons, project, quiz, assessment, keys, resource pack, generated illustration)
   2. Integer exponents and scientific notation
   3. Linear equations and solution types
   4. Proportional relationships, slope, and linear graphs
@@ -104,8 +104,11 @@ state adoption or accreditation). Full crosswalk in
 
 Four assignments and fifteen quizzes predate the audit. They are **practice
 banks, not taught lessons** — no explanatory lessons, worked-example sequences,
-teacher guides, or diagnostics exist yet. Quizzes carry their answer keys
-inline, so do not hand a quiz file directly to a learner as-is; the unit builds
+teacher guides, or diagnostics exist yet, except where a unit build has
+replaced them (the real-number-system quiz below was rewritten as Unit 01's
+[formative quiz](units/unit-01-real-numbers-roots-irrational-approximations/assessments/week-04_quiz.md)
+with its key split into the unit's separate [answer key](units/unit-01-real-numbers-roots-irrational-approximations/answer-key.md)).
+Quizzes carry their answer keys inline, so do not hand a quiz file directly to a learner as-is; the unit builds
 will split keys into separate teacher files. "Semester Resource Library" links
 in 17 files are dead placeholder references.
 
@@ -146,7 +149,9 @@ math-class supplies plus Desmos/GeoGebra), and accessibility supports.
 
 Until units are written, the legacy quizzes are usable only as **adult-held
 practice banks**: work the questions yourself, separate the key, and assign
-questions selectively — do not treat a quiz file as a lesson. Every unit will
+questions selectively — do not treat a quiz file as a lesson. (The
+real-number-system quiz has been rebuilt as Unit 01's learner quiz + separate
+teacher key; the remaining quizzes are still banks.) Every unit will
 add fully written lessons with worked examples, a real investigation, separate
 teacher guides and keys, a verified Resource Pack, and a generated teaching
 image.

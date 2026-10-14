@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="220" role="img" aria-label="Number line timeline from 4000 BCE to 2100 CE">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<line x1="70" y1="110" x2="850" y2="110" stroke="#222" stroke-width="3"/>
+<polygon points="70,110 80,104 80,116" fill="#222"/>
+<polygon points="850,110 840,104 840,116" fill="#222"/>
+<line x1="70.00" y1="100" x2="70.00" y2="120" stroke="#222" stroke-width="2"/>
+<text x="70.00" y="142" text-anchor="middle" font-family="sans-serif" font-size="14">4000 BCE</text>
+<line x1="197.87" y1="100" x2="197.87" y2="120" stroke="#222" stroke-width="2"/>
+<text x="197.87" y="142" text-anchor="middle" font-family="sans-serif" font-size="14">3000 BCE</text>
+<line x1="325.74" y1="100" x2="325.74" y2="120" stroke="#222" stroke-width="2"/>
+<text x="325.74" y="142" text-anchor="middle" font-family="sans-serif" font-size="14">2000 BCE</text>
+<line x1="453.61" y1="100" x2="453.61" y2="120" stroke="#222" stroke-width="2"/>
+<text x="453.61" y="142" text-anchor="middle" font-family="sans-serif" font-size="14">1000 BCE</text>
+<line x1="581.60" y1="100" x2="581.60" y2="120" stroke="#222" stroke-width="2"/>
+<text x="581.60" y="142" text-anchor="middle" font-family="sans-serif" font-size="14">1 CE</text>
+<line x1="709.34" y1="100" x2="709.34" y2="120" stroke="#222" stroke-width="2"/>
+<text x="709.34" y="142" text-anchor="middle" font-family="sans-serif" font-size="14">1000 CE</text>
+<line x1="837.21" y1="100" x2="837.21" y2="120" stroke="#222" stroke-width="2"/>
+<text x="837.21" y="142" text-anchor="middle" font-family="sans-serif" font-size="14">2000 CE</text>
+<line x1="197.87" y1="110" x2="197.87" y2="90" stroke="#a33" stroke-width="2"/>
+<circle cx="197.87" cy="110" r="5" fill="#a33"/>
+<text x="197.87" y="76" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">about 3000 BCE — early cities grow</text>
+<line x1="261.80" y1="110" x2="261.80" y2="64" stroke="#a33" stroke-width="2"/>
+<circle cx="261.80" cy="110" r="5" fill="#a33"/>
+<text x="261.80" y="50" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">about 2500 BCE</text>
+<line x1="389.67" y1="110" x2="389.67" y2="90" stroke="#a33" stroke-width="2"/>
+<circle cx="389.67" cy="110" r="5" fill="#a33"/>
+<text x="389.67" y="76" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">about 1500 BCE</text>
+<line x1="482.25" y1="110" x2="482.25" y2="64" stroke="#a33" stroke-width="2"/>
+<circle cx="482.25" cy="110" r="5" fill="#a33"/>
+<text x="482.25" y="50" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">776 BCE — traditional date of the first Olympic games</text>
+<line x1="581.60" y1="110" x2="581.60" y2="90" stroke="#a33" stroke-width="2"/>
+<circle cx="581.60" cy="110" r="5" fill="#a33"/>
+<text x="581.60" y="76" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">1 CE — start of the Common Era</text>
+<line x1="840.54" y1="110" x2="840.54" y2="64" stroke="#a33" stroke-width="2"/>
+<circle cx="840.54" cy="110" r="5" fill="#a33"/>
+<text x="840.54" y="50" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">2026 CE — today</text>
+<text x="460.0" y="204" text-anchor="middle" font-family="sans-serif" font-size="14">Years before and after year 1 — there is no year 0</text>
+</svg>
