@@ -59,10 +59,16 @@ checked 2026-10-09; unverified items are labeled as open search links.
    — educator-facing progression notes on place value 11–19, decade
    numbers, and operating with place value; useful adult background for
    Lessons 01–03. Free PDF.
-3. **Khan Academy Kids place-value lesson overview** —
+3. **Khan Academy Kids place-value lesson overview (third-party
+   mirror)** —
    <https://classx.org/ones-tens-hundreds-place-value-for-kids-khan-academy-kids/>
-   — plain-language hundreds/tens/ones explanation aligned to the unit's
-   vocabulary; free, no account. Adult reads first.
+   — ClassX mirror of a Khan Academy Kids hundreds/tens/ones lesson;
+   plain-language explanation aligned to the unit's vocabulary. The
+   canonical source is Khan Academy Kids (khanacademy.org / the Khan
+   Academy Kids app); prefer it over this mirror when available.
+   Free, no account. Adult reads first. *(Mirror label corrected
+   2026-10-15, review #59: the page resolves but is not
+   khanacademy.org.)*
 4. **NCTM conference resource on early number and operations** —
    <https://www.nctm.org/uploadedFiles/Conferences_and_Professional_Development/Institues/Pre-K-Grade_5_Number_and_Operations/PK-2%20Addition%20and%20subtraction%20final%202016.pdf>
    — professional background on counting-by-tens efficiency and base-ten
