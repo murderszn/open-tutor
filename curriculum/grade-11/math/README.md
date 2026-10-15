@@ -112,12 +112,14 @@ claim of state adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Unit 01 delivered as a validated draft (issue #50);
-  units 02–08 planned, not yet written:
+- `units/` — Units 01–02 delivered as validated drafts (issue #50);
+  units 03–08 planned, not yet written:
   1. [Function transformations, composition, and
      inverses](units/unit-01-function-transformations/README.md) —
      validated draft (issue #50)
-  2. Polynomial functions, zeros, and complex numbers
+  2. [Polynomial functions, zeros, and complex
+     numbers](units/unit-02-polynomial-zeros-complex-numbers/README.md) —
+     validated draft (issue #50)
   3. Rational expressions, functions, and asymptotes
   4. Radical functions and equations
   5. Exponential and logarithmic functions and models
