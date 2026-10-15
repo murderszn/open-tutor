@@ -335,11 +335,13 @@ units so recording-and-pattern skills stay alive all year.
 - The NGSS assessment boundaries above (warmer/cooler, whole numbers) must
   carry through into every unit's assessments and keys.
 
-## 11. Planned units (prose — no files yet except U01; no links to missing files)
+## 11. Planned units (prose — U01 and U02 delivered; no links to missing files)
 
 U01 Observing, describing, and asking questions — **delivered as a validated
 draft** ([units/unit-01-observing-describing-asking-questions/](units/unit-01-observing-describing-asking-questions/));
-U02 Pushes, pulls, and moving objects; U03 Comparing materials and designing
+U02 Pushes, pulls, and moving objects — **delivered as a validated
+draft** ([units/unit-02-pushes-pulls-moving-objects/](units/unit-02-pushes-pulls-moving-objects/));
+U03 Comparing materials and designing
 simple solutions; U04 Plant needs and growth observations; U05 Animal needs,
 habitats, and patterns; U06 Weather observations and daily patterns; U07
 Sunlight, shade, and warming surfaces; U08 Caring for local environments and
