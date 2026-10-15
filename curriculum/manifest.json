@@ -5040,28 +5040,92 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/lessons/lesson-01-function-analysis-toolkit.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/lessons/lesson-02-equivalent-forms-and-structure.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/lessons/lesson-03-composition-decomposition-inverses.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/lessons/lesson-04-average-rate-of-change.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/lessons/lesson-05-piecewise-rational-rigor.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/lessons/lesson-06-modeling-from-data.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/assessments/week-04-quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-12/math/units/unit-01-advanced-function-analysis/assets/ferris-wheel-modeling.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 47,
+  "assessment": 51,
+  "asset": 64,
+  "assets": 48,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 253,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 47,
+  "project": 47,
+  "quiz": 270,
+  "resource-pack": 47,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 47,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 47,
   "unit-text": 8
  },
  "review_notes": [

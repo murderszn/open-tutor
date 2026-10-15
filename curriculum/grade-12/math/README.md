@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
+delivered; Unit 01 (advanced function analysis and mathematical modeling)
+is a validated draft (issue #54) and Units 02–08 are planned, not yet
+written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -120,8 +122,9 @@ accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Advanced function analysis and mathematical modeling
+- `units/` — eight units (Unit 01 delivered as a validated draft; Units
+  02–08 planned, not yet written):
+  1. [Advanced function analysis and mathematical modeling](units/unit-01-advanced-function-analysis/README.md) — **draft delivered 2026-10-15** (issue #54; not educator-reviewed)
   2. Trigonometric identities, equations, and applications
   3. Vectors, parametric equations, and polar representations
   4. Sequences, series, and discrete models
