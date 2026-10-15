@@ -15,7 +15,8 @@ See also: [curriculum index](../README.md).
 
 - [Social studies](social-studies/README.md) — economics and policy inquiry
   pathway; audit and scope-and-sequence delivered as a validated draft in this
-  run's draft PR (issue #57); units planned.
+  run's draft PR (issue #57); Unit 01 (economic reasoning) delivered as a
+  validated draft in this run's draft PR; units 02–08 and R00 planned.
 - [Mathematics](math/README.md) — Precalculus, statistics, and modeling
   pathway with optional calculus bridge; audit and scope-and-sequence are a
   validated draft (issue #54); units planned.
