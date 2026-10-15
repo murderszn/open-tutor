@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft; Units 02–08 are planned, not yet written.
+Units 01–02 are delivered as validated drafts; Units 03–08 are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -63,7 +63,7 @@ adoption or accreditation). Full crosswalk in
   36-week pacing with weekly goals, session model, materials, accessibility.
 - `units/` — eight units:
   1. [Counting and classifying objects](units/unit-01-counting-and-classifying-objects/README.md) — **delivered as validated draft** (issue #6, U01)
-  2. Numbers to 10 and one-to-one correspondence — planned
+  2. [Numbers to 10 and one-to-one correspondence](units/unit-02-numbers-to-10/README.md) — **delivered as validated draft** (issue #6, U02)
   3. Comparing numbers and quantities — planned
   4. Teen numbers and ten frames — planned
   5. Addition stories within 10 — planned
