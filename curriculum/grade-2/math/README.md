@@ -85,11 +85,12 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (1 delivered as a validated draft; 2–8 planned,
+- `units/` — eight units (2 delivered as validated drafts; 3–8 planned,
   not yet written):
   1. [Place value to 1000 and number comparison](units/unit-01-place-value-to-1000-and-comparison/) —
      validated draft (not educator-reviewed, not merged)
-  2. Addition and subtraction within 100
+  2. [Addition and subtraction within 100](units/unit-02-addition-and-subtraction-within-100/) —
+     validated draft (not educator-reviewed, not merged)
   3. Three-digit addition and subtraction
   4. Word problems and unknowns
   5. Equal groups, arrays, and repeated addition
