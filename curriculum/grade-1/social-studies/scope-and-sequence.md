@@ -413,8 +413,9 @@ access.
 
 U01 Community membership, rights, and responsibilities — **delivered as a validated
 draft** (see `units/unit-01-community-membership-rights-responsibilities/`);
-U02 Local maps, land,
-water, and location; U03 Past, present, timelines, and family-neutral histories;
+U02 Local maps, land, water, and location — **delivered as a validated
+draft** (see `units/unit-02-local-maps-land-water-and-location/`);
+U03 Past, present, timelines, and family-neutral histories;
 U04 Community leaders, rules, and decision making; U05 Needs, wants, producers,
 and consumers; U06 Cultures, celebrations, and diverse perspectives; U07
 Historical figures, stories, and simple sources; U08 Community problem solving
