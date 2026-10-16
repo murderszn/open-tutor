@@ -3,7 +3,8 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 [Unit 01 — Questions, observations, and safe investigations](units/unit-01-questions-observations-safe-investigations/README.md)
-is delivered as a validated draft; Units 02–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+and [Unit 02 — Sound, vibration, and communication](units/unit-02-sound-vibration-communication/README.md)
+are delivered as validated drafts; Units 03–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -82,9 +83,9 @@ adoption, accreditation, or alignment certification). Full crosswalk in
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, safety,
   accessibility.
-- `units/` — eight units; Unit 01 delivered, Units 02–08 planned (not yet written):
+- `units/` — eight units; Units 01–02 delivered, Units 03–08 planned (not yet written):
   1. [Questions, observations, and safe investigations](units/unit-01-questions-observations-safe-investigations/README.md) — **delivered (validated draft)**
-  2. Sound, vibration, and communication
+  2. [Sound, vibration, and communication](units/unit-02-sound-vibration-communication/README.md) — **delivered (validated draft)**
   3. Light, visibility, shadows, and materials
   4. External structures of plants and animals
   5. Parent–offspring similarities and behavior
