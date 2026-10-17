@@ -5040,6 +5040,70 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/lessons/lesson-01-factor-pairs-and-arrays.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/lessons/lesson-02-multiples-and-factor-multiple-relationships.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/lessons/lesson-03-prime-and-composite.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/lessons/lesson-04-number-patterns-from-a-rule.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/lessons/lesson-05-shape-patterns-and-multiplication-strategies.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/assets/factor-tile-garden.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/math/units/unit-02-factors-multiples-multiplication-strategies/assets/factor-pairs-arrays.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
