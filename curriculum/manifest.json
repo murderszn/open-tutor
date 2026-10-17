@@ -5040,28 +5040,156 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-01-read-with-a-purpose.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-02-monitor-and-self-correct.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-03-smooth-expressive-reading.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-04-words-from-context-clues.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-05-describing-words-adjectives-adverbs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-06-retell-and-answer.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/assets/fluency-expression-readers.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/lessons/lesson-01-meeting-the-landforms.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/lessons/lesson-02-weather-and-climate-change-daily-life.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/lessons/lesson-03-people-change-places.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/lessons/lesson-04-how-places-shape-choices-and-work.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/lessons/lesson-05-two-communities-one-earth.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/assets/riverside-valley-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/assets/landform-diagrams.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-02-landforms-environments-human-choices/assets/README.md",
+   "kind": "assets"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 49,
+  "assessment": 53,
+  "asset": 67,
+  "assets": 50,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 262,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 49,
+  "project": 49,
+  "quiz": 272,
+  "resource-pack": 49,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 49,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 49,
   "unit-text": 8
  },
  "review_notes": [
