@@ -5040,28 +5040,92 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/lessons/lesson-01-asking-answering-text-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/lessons/lesson-02-recounting-fables-folktales-myths.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/lessons/lesson-03-central-message-key-details.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/lessons/lesson-04-character-traits-motivations-actions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/lessons/lesson-05-literal-nonliteral-language.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/lessons/lesson-06-point-of-view-and-illustrations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/assets/fox-and-stork-dinner.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/language-arts/units/unit-02-literary-comprehension/assets/README.md",
+   "kind": "assets"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
-  "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
-  "hints": 2,
-  "lesson": 247,
-  "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
-  "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "new-assignment": 31,
+  "assignment": 111,
+  "quiz": 271,
   "template": 14,
-  "unit-index": 46,
+  "hints": 2,
+  "rhythm": 2,
+  "unit-index": 48,
+  "lesson": 257,
+  "practice": 48,
+  "project": 48,
+  "resource-pack": 48,
+  "assessment": 52,
+  "teacher-guide": 48,
+  "answer-key": 48,
+  "assets": 49,
+  "asset": 65,
   "unit-text": 8
  },
  "review_notes": [
