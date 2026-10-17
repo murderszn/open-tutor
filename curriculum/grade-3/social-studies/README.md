@@ -3,7 +3,9 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 [Unit 01 — Maps, regions, continents, and geographic inquiry](units/unit-01-maps-regions-continents/README.md)
-is delivered as a draft (awaiting educator review and merge); Units 02–08 and R00
+is delivered as a draft (awaiting educator review and merge);
+[Unit 02 — Environment, settlement, and resource use](units/unit-02-environment-settlement-resources/README.md)
+is delivered as a draft (awaiting educator review and merge); Units 03–08 and R00
 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
