@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="ttTitle ttDesc">
+  <title id="ttTitle">Triangular trade: simplified flow of goods and people, 1600s–1700s</title>
+  <desc id="ttDesc">A schematic with three labeled boxes and three arrows. New England colonies send rum, iron goods, and lumber to West Africa. West Africa sends enslaved people, by force, to the Caribbean and the American colonies, the Middle Passage. The Caribbean and colonies send sugar, molasses, tobacco, and rice to New England and Britain. The pattern is simplified; not every voyage followed it.</desc>
+  <style>
+    .box { fill: #fdfdfd; stroke: #333; stroke-width: 2; rx: 10; }
+    .boxtitle { font: bold 20px sans-serif; fill: #111; }
+    .boxlist { font: 16px sans-serif; fill: #333; }
+    .arrow { stroke: #b00020; stroke-width: 3; fill: none; marker-end: url(#head); }
+    .arrowlabel { font: italic 15px sans-serif; fill: #b00020; }
+    .note { font: 14px sans-serif; fill: #555; }
+    .heading { font: bold 24px sans-serif; fill: #111; }
+  </style>
+  <defs>
+    <marker id="head" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0 0, 10 4, 0 8" fill="#b00020"/>
+    </marker>
+  </defs>
+
+  <text x="400" y="36" text-anchor="middle" class="heading">Triangular trade — a simplified pattern</text>
+
+  <!-- Node 1: New England (top) -->
+  <rect x="280" y="60" width="240" height="120" class="box"/>
+  <text x="400" y="90" text-anchor="middle" class="boxtitle">New England colonies</text>
+  <text x="400" y="116" text-anchor="middle" class="boxlist">rum, iron goods, lumber</text>
+  <text x="400" y="140" text-anchor="middle" class="boxlist">ships and merchants</text>
+  <text x="400" y="164" text-anchor="middle" class="boxlist">sugar, molasses bought back</text>
+
+  <!-- Node 2: West Africa (bottom left) -->
+  <rect x="60" y="360" width="240" height="120" class="box"/>
+  <text x="180" y="390" text-anchor="middle" class="boxtitle">West Africa</text>
+  <text x="180" y="416" text-anchor="middle" class="boxlist">enslaved people — forced,</text>
+  <text x="180" y="440" text-anchor="middle" class="boxlist">never by choice</text>
+  <text x="180" y="464" text-anchor="middle" class="boxlist">(the Middle Passage)</text>
+
+  <!-- Node 3: Caribbean and colonies (bottom right) -->
+  <rect x="500" y="360" width="240" height="120" class="box"/>
+  <text x="620" y="390" text-anchor="middle" class="boxtitle">Caribbean &amp; colonies</text>
+  <text x="620" y="416" text-anchor="middle" class="boxlist">sugar, molasses, tobacco, rice</text>
+  <text x="620" y="440" text-anchor="middle" class="boxlist">grown with enslaved labor</text>
+  <text x="620" y="464" text-anchor="middle" class="boxlist">sent to New England &amp; Britain</text>
+
+  <!-- Arrow 1: New England -> West Africa -->
+  <path d="M 300 180 C 220 240, 180 300, 175 355" class="arrow"/>
+  <text x="150" y="270" text-anchor="middle" class="arrowlabel">rum, iron,</text>
+  <text x="150" y="290" text-anchor="middle" class="arrowlabel">lumber, goods</text>
+
+  <!-- Arrow 2: West Africa -> Caribbean & colonies -->
+  <path d="M 305 420 L 495 420" class="arrow"/>
+  <text x="400" y="405" text-anchor="middle" class="arrowlabel">forced voyage of enslaved people</text>
+
+  <!-- Arrow 3: Caribbean & colonies -> New England -->
+  <path d="M 625 355 C 620 300, 560 240, 500 185" class="arrow"/>
+  <text x="660" y="270" text-anchor="middle" class="arrowlabel">sugar, molasses,</text>
+  <text x="660" y="290" text-anchor="middle" class="arrowlabel">tobacco, rice</text>
+
+  <text x="400" y="520" text-anchor="middle" class="note">Simplified pattern, 1600s–1700s. Historians use “triangular trade” to describe a</text>
+  <text x="400" y="542" text-anchor="middle" class="note">common route pattern — not every voyage sailed the full triangle.</text>
+</svg>

@@ -3,7 +3,9 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 [Unit 01 — North American geography, Indigenous histories, and sources](units/unit-01-north-american-geography-indigenous-histories/README.md)
-is delivered as a validated draft (2026-10-11); Units 02–08 are planned, not yet written.
+is delivered as a validated draft (2026-10-11);
+[Unit 02 — Colonial societies, labor, trade, and diverse perspectives](units/unit-02-colonial-societies-labor-trade/README.md)
+is delivered as a validated draft (2026-10-18); Units 03–08 are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -113,7 +115,7 @@ defers to later bands (D2.His.7–8, 9–12; D2.His.15, 6–8) are not taught he
 |---|---|---|
 | 1–2 | — | Diagnostic: map skills at multi-state scale, timelines, perspectives, and grade-4 vocabulary |
 | 3–6 | [U01](units/unit-01-north-american-geography-indigenous-histories/README.md) | North American geography, Indigenous histories, and sources — delivered as validated draft (2026-10-11) |
-| 7–10 | U02 | Colonial societies: labor, trade, and diverse perspectives |
+| 7–10 | [U02](units/unit-02-colonial-societies-labor-trade/README.md) | Colonial societies: labor, trade, and diverse perspectives — delivered as validated draft (2026-10-18) |
 | 11–14 | U03 | Revolution: causes, events, and competing viewpoints |
 | 15–18 | U04 | Founding documents, Constitution, and citizenship |
 | 19 | — | Midyear review and catch-up |
@@ -129,7 +131,13 @@ and unit assessment (keys separated into the teacher guide and answer key), a
 verified Resource Pack, and a generated Pacific Northwest coastal-environment
 illustration with alt text and a generation record — at
 [units/unit-01-north-american-geography-indigenous-histories/](units/unit-01-north-american-geography-indigenous-histories/).
-Units 02–08 are planned in prose until written. Each unit is designed as four
+Unit 02 is delivered as a validated draft — five fully written lessons, practice
+banks, the "The journey of a good" project with rubric, a formative quiz
+and unit assessment (keys separated into the teacher guide and answer key), a
+verified Resource Pack, a generated colonial-harbor illustration with alt text
+and a generation record, and a deterministic triangular-trade flow diagram — at
+[units/unit-02-colonial-societies-labor-trade/](units/unit-02-colonial-societies-labor-trade/).
+Units 03–08 are planned in prose until written. Each unit is designed as four
 weeks of four ~40-minute sessions: concept launch, skills practice,
 investigation/application, and review with a unit check. Full weekly goals are
 in the scope-and-sequence. Grade-5 learners do independent written practice
