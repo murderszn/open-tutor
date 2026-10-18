@@ -5040,6 +5040,70 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-01-estimation-before-computing.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-02-multi-digit-multiplication-standard-algorithm.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-03-division-with-partial-quotients.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-04-two-digit-divisors-and-remainder-stories.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-05-parentheses-in-multistep-problems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assessments/week-08_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assets/packing-workshop-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assets/area-model-23-x-45.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {

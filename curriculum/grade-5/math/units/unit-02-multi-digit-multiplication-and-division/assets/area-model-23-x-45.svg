@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Area model of 23 × 45</title>
+  <desc id="desc">A rectangle split into four labeled boxes: 20 by 40 equals 800, 20 by 5 equals 100, 3 by 40 equals 120, 3 by 5 equals 15. The four products add to 1,035.</desc>
+  <style>
+    .box { stroke: #1a1a1a; stroke-width: 3; }
+    .lbl { font-family: sans-serif; font-size: 22px; text-anchor: middle; fill: #1a1a1a; }
+    .dim { font-family: sans-serif; font-size: 20px; text-anchor: middle; fill: #333333; }
+    .eq { font-family: sans-serif; font-size: 20px; text-anchor: middle; fill: #1a1a1a; }
+  </style>
+  <!-- dimensions: 20 units wide -> 360px, 3 units -> 54px; 40 tall -> 260px, 5 tall -> 32.5 -> 33px -->
+  <!-- outer rect -->
+  <rect x="120" y="80" width="414" height="293" fill="none" class="box"/>
+  <!-- boxes -->
+  <rect x="120" y="80" width="360" height="260" fill="#f2e6c9" class="box"/>
+  <rect x="480" y="80" width="54" height="260" fill="#dbe9f6" class="box"/>
+  <rect x="120" y="340" width="360" height="33" fill="#e4d4f0" class="box"/>
+  <rect x="480" y="340" width="54" height="33" fill="#f6d9d2" class="box"/>
+  <!-- partial product labels -->
+  <text x="300" y="200" class="lbl">20 × 40 = 800</text>
+  <text x="507" y="200" class="lbl">20 × 5</text>
+  <text x="507" y="228" class="lbl">= 100</text>
+  <text x="300" y="362" class="lbl">3 × 40 = 120</text>
+  <text x="507" y="362" class="lbl">3 × 5 = 15</text>
+  <!-- side dimensions -->
+  <text x="60" y="210" class="dim">40</text>
+  <text x="60" y="358" class="dim">5</text>
+  <text x="300" y="55" class="dim">20</text>
+  <text x="507" y="55" class="dim">3</text>
+  <!-- total -->
+  <text x="327" y="430" class="eq">800 + 100 + 120 + 15 = 1,035</text>
+</svg>
