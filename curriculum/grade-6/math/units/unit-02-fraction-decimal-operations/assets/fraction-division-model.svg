@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-labelledby="fdm-title fdm-desc">
+  <title id="fdm-title">Bar model of (2/3) divided by (1/4)</title>
+  <desc id="fdm-desc">A bar split into 12 equal cells. The first 8 cells are shaded, representing 2 thirds of the whole. The shaded cells are grouped into quarters of 3 cells each: two full quarters fit, with 2 cells left over, which is two thirds of a quarter. So (2/3) divided by (1/4) equals 2 and 2 thirds.</desc>
+  <style>
+    .cell { fill: #ffffff; stroke: #333333; stroke-width: 1.5; }
+    .shaded { fill: #f2b544; }
+    .qlabel { font: 14px sans-serif; fill: #333333; }
+    .big { font: bold 18px sans-serif; fill: #111111; }
+    .small { font: 13px sans-serif; fill: #555555; }
+  </style>
+  <!-- 12 equal cells, x = 20 + 50*i, y = 60, w = 50, h = 80 -->
+  <g id="cells">
+    <rect class="cell shaded" x="20"  y="60" width="50" height="80"/>
+    <rect class="cell shaded" x="70"  y="60" width="50" height="80"/>
+    <rect class="cell shaded" x="120" y="60" width="50" height="80"/>
+    <rect class="cell shaded" x="170" y="60" width="50" height="80"/>
+    <rect class="cell shaded" x="220" y="60" width="50" height="80"/>
+    <rect class="cell shaded" x="270" y="60" width="50" height="80"/>
+    <rect class="cell shaded" x="320" y="60" width="50" height="80"/>
+    <rect class="cell shaded" x="370" y="60" width="50" height="80"/>
+    <rect class="cell" x="420" y="60" width="50" height="80"/>
+    <rect class="cell" x="470" y="60" width="50" height="80"/>
+    <rect class="cell" x="520" y="60" width="50" height="80"/>
+    <rect class="cell" x="570" y="60" width="50" height="80"/>
+  </g>
+  <!-- quarter boundaries every 3 cells, drawn heavier -->
+  <g stroke="#b3541e" stroke-width="4">
+    <line x1="20"  y1="52" x2="20"  y2="148"/>
+    <line x1="170" y1="52" x2="170" y2="148"/>
+    <line x1="320" y1="52" x2="320" y2="148"/>
+    <line x1="470" y1="52" x2="470" y2="148"/>
+    <line x1="620" y1="52" x2="620" y2="148"/>
+  </g>
+  <!-- group brackets: each quarter = 3 cells -->
+  <g stroke="#1a6fb0" stroke-width="2.5" fill="none">
+    <path d="M 20 170 L 20 182 L 170 182 L 170 170"/>
+    <path d="M 170 170 L 170 182 L 320 182 L 320 170"/>
+    <path d="M 320 170 L 320 182 L 420 182 L 420 170" stroke-dasharray="7 5"/>
+  </g>
+  <text class="qlabel" x="75"  y="200" text-anchor="middle">1/4</text>
+  <text class="qlabel" x="225" y="200" text-anchor="middle">1/4</text>
+  <text class="qlabel" x="360" y="200" text-anchor="middle">2/3 of a 1/4 left</text>
+  <text class="small" x="20" y="40">8 of 12 cells shaded = 2/3 of the whole</text>
+  <text class="small" x="20" y="235">Each quarter (1/4 of the whole) = 3 cells</text>
+  <text class="big" x="20" y="270">(2/3) ÷ (1/4) = 2 2/3</text>
+  <text class="small" x="330" y="270">Check: (1/4) × (8/3) = 8/12 = 2/3 ✓</text>
+</svg>

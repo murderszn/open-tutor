@@ -2,8 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 (ratios, unit rates, and ratio reasoning) is delivered as a draft;
-the remaining seven units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 (ratios, unit rates, and ratio reasoning) and Unit 02 (fraction and
+decimal operations) are delivered as drafts;
+the remaining six units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-6 learner at a time; a guiding adult adapts pacing, materials, and
