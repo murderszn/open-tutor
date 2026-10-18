@@ -5040,28 +5040,152 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-01-estimation-before-computing.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-02-multi-digit-multiplication-standard-algorithm.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-03-division-with-partial-quotients.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-04-two-digit-divisors-and-remainder-stories.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/lessons/lesson-05-parentheses-in-multistep-problems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assessments/week-08_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assets/packing-workshop-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/math/units/unit-02-multi-digit-multiplication-and-division/assets/area-model-23-x-45.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-01-matter-is-made-of-tiny-particles.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-02-particle-models-of-solids-liquids-gases.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-03-identifying-materials-by-properties.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-04-mixtures.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-05-dissolving-and-model-revision.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/assets/particle-models-solid-liquid-gas.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 47,
+  "assessment": 51,
+  "asset": 64,
+  "assets": 48,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 252,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 47,
+  "project": 47,
+  "quiz": 270,
+  "resource-pack": 47,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 47,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 47,
   "unit-text": 8
  },
  "review_notes": [
