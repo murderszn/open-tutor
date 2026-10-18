@@ -128,10 +128,10 @@ not a claim of state adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units; Unit 01 delivered as a validated draft (not
-  educator-reviewed, not merged), units 2–8 planned (not yet written):
+- `units/` — eight units; Units 01–02 delivered as validated drafts (not
+  educator-reviewed, not merged), units 3–8 planned (not yet written):
   1. [Rational number operations](units/unit-01-rational-number-operations/README.md) — draft
-  2. Ratios, rates, and proportional relationships
+  2. [Ratios, rates, and proportional relationships](units/unit-02-ratios-rates-proportional/README.md) — draft
   3. Percent change, discounts, and simple interest
   4. Expressions, equations, and inequalities
   5. Scale drawings, angles, and geometric constructions

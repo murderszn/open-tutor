@@ -3742,6 +3742,74 @@
    "kind": "asset"
   },
   {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/lessons/lesson-01-ratios-and-unit-rates.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/lessons/lesson-02-rates-unlike-units.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/lessons/lesson-03-testing-proportionality-tables.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/lessons/lesson-04-proportional-graphs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/lessons/lesson-05-constant-of-proportionality.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/lessons/lesson-06-multi-step-proportional-problems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/assets/apple-stand-unit-rates.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/math/units/unit-02-ratios-rates-proportional/assets/proportional-graph-example.svg",
+   "kind": "asset"
+  },
+  {
    "path": "grade-6/language-arts/units/unit-01-close-reading-inference-evidence/README.md",
    "kind": "unit-index"
   },
