@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft and Units 02–08 are planned, not yet written.
+Unit 01 is delivered as a validated draft, Unit 02 is delivered as a validated draft,
+and Units 03–08 are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -76,10 +77,10 @@ By the end of the year the learner will be able to:
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (Unit 01 delivered as validated draft; Units 02–08
+- `units/` — eight units (Units 01–02 delivered as validated drafts; Units 03–08
   planned, not yet written):
   1. [Reading evidence, inference, and vocabulary](units/unit-01-reading-evidence-inference-vocabulary/README.md) — validated draft
-  2. Literary theme, characters, setting, and point of view
+  2. [Literary theme, characters, setting, and point of view](units/unit-02-literary-theme-characters-setting-point-of-view/README.md) — validated draft
   3. Informational main ideas, structures, and source comparison
   4. Grammar, sentence combining, punctuation, and spelling
   5. Narrative craft: description, dialogue, and revision
