@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-label="Top-down diagram of the Moon's orbit showing eight positions and the phase seen from Earth at each.">
+  <title>Moon-phase orbit diagram (top-down, not to scale)</title>
+  <desc>Sunlight comes from the left. The Moon is shown at eight numbered positions around Earth, moving counterclockwise as seen from the north. Labels give the phase name seen from Earth at each position. Not to scale: sizes and distances are compressed for readability.</desc>
+  <rect x="0" y="0" width="720" height="560" fill="#f7f9fc"/>
+  <text x="360" y="34" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1a2b4a">Moon phases: orbit positions (top-down view)</text>
+  <text x="360" y="56" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#4a5a75">Sunlight comes from the left. NOT TO SCALE — sizes and distances are compressed.</text>
+  <!-- Sun -->
+  <circle cx="60" cy="300" r="42" fill="#f7c948" stroke="#d99a17" stroke-width="2"/>
+  <text x="60" y="306" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#7a5b00">Sun</text>
+  <!-- light rays -->
+  <g stroke="#e8b93c" stroke-width="3" stroke-linecap="round">
+    <line x1="112" y1="270" x2="180" y2="238"/>
+    <line x1="112" y1="300" x2="180" y2="300"/>
+    <line x1="112" y1="330" x2="180" y2="362"/>
+  </g>
+  <!-- orbit -->
+  <circle cx="400" cy="300" r="190" fill="none" stroke="#8a9bb5" stroke-width="2" stroke-dasharray="8,6"/>
+  <!-- Earth -->
+  <circle cx="400" cy="300" r="30" fill="#3b82d6" stroke="#1d4f91" stroke-width="2"/>
+  <text x="400" y="306" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Earth</text>
+  <!-- Moon positions: angle measured so 0 = new (between sun and earth) -->
+  <g font-family="sans-serif" font-size="13" fill="#1a2b4a">
+    <!-- 1 new moon: between sun and earth (left of earth) -->
+    <circle cx="210" cy="300" r="14" fill="#c8c8c8" stroke="#555" stroke-width="1.5"/>
+    <text x="210" y="262" text-anchor="middle" font-weight="bold">1 · New</text>
+    <!-- 2 waxing crescent: moving counterclockwise (seen from north) toward first quarter -->
+    <circle cx="266" cy="434" r="14" fill="#c8c8c8" stroke="#555" stroke-width="1.5"/>
+    <text x="222" y="478" text-anchor="middle" font-weight="bold">2 · Waxing crescent</text>
+    <!-- 3 first quarter: one quarter of the way through the cycle -->
+    <circle cx="400" cy="490" r="14" fill="#c8c8c8" stroke="#555" stroke-width="1.5"/>
+    <text x="400" y="528" text-anchor="middle" font-weight="bold">3 · First quarter</text>
+    <!-- 4 waxing gibbous -->
+    <circle cx="534" cy="434" r="14" fill="#c8c8c8" stroke="#555" stroke-width="1.5"/>
+    <text x="580" y="478" text-anchor="middle" font-weight="bold">4 · Waxing gibbous</text>
+    <!-- 5 full moon: earth between sun and moon -->
+    <circle cx="590" cy="300" r="14" fill="#f4e9c8" stroke="#8a6d1a" stroke-width="1.5"/>
+    <text x="590" y="262" text-anchor="middle" font-weight="bold">5 · Full</text>
+    <!-- 6 waning gibbous -->
+    <circle cx="534" cy="166" r="14" fill="#c8c8c8" stroke="#555" stroke-width="1.5"/>
+    <text x="580" y="140" text-anchor="middle" font-weight="bold">6 · Waning gibbous</text>
+    <!-- 7 last quarter: three quarters of the way through the cycle -->
+    <circle cx="400" cy="110" r="14" fill="#c8c8c8" stroke="#555" stroke-width="1.5"/>
+    <text x="400" y="80" text-anchor="middle" font-weight="bold">7 · Last quarter</text>
+    <!-- 8 waning crescent -->
+    <circle cx="266" cy="166" r="14" fill="#c8c8c8" stroke="#555" stroke-width="1.5"/>
+    <text x="222" y="140" text-anchor="middle" font-weight="bold">8 · Waning crescent</text>
+  </g>
+  <text x="360" y="552" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#4a5a75">Reminder: the Moon itself is always half-lit by the Sun. Phases show how much of that lit half faces Earth.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-label="Diagram showing Earth's 23.5-degree tilt at two opposite points in its orbit: the northern hemisphere leans toward the Sun in June and away from the Sun in December.">
+  <title>Seasons by axial tilt (not to scale)</title>
+  <desc>Earth's axis stays tilted 23.5 degrees and points the same direction in space all year. In June the northern hemisphere leans toward the Sun; in December it leans away. Sizes and distances are not to scale.</desc>
+  <rect x="0" y="0" width="760" height="520" fill="#f7f9fc"/>
+  <text x="380" y="34" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1a2b4a">Seasons come from tilt, not distance</text>
+  <text x="380" y="56" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#4a5a75">Earth's axis stays tilted 23.5° and points the same way all year. NOT TO SCALE.</text>
+  <!-- Sun center -->
+  <circle cx="380" cy="280" r="52" fill="#f7c948" stroke="#d99a17" stroke-width="2"/>
+  <text x="380" y="287" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#7a5b00">Sun</text>
+  <!-- orbit ellipse -->
+  <ellipse cx="380" cy="280" rx="290" ry="130" fill="none" stroke="#8a9bb5" stroke-width="2" stroke-dasharray="8,6"/>
+  <!-- JUNE: earth right of sun, north pole tilted toward sun (top-left toward sun) -->
+  <g>
+    <line x1="560" y1="240" x2="700" y2="240" stroke="#e8b93c" stroke-width="3"/>
+    <circle cx="630" cy="240" r="40" fill="#3b82d6" stroke="#1d4f91" stroke-width="2"/>
+    <!-- axis: tilted 23.5 deg from vertical; north pole (top) leans toward the Sun (left) -->
+    <line x1="614" y1="206" x2="646" y2="274" stroke="#333" stroke-width="3"/>
+    <circle cx="614" cy="206" r="4" fill="#333"/>
+    <text x="606" y="196" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">axis</text>
+    <!-- N hemisphere highlight on the sunward (top-left) side -->
+    <path d="M 630 200 A 40 40 0 0 0 592 222" fill="none" stroke="#ff8c42" stroke-width="4"/>
+    <text x="540" y="216" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#c05a1a">N leans toward Sun</text>
+    <text x="630" y="320" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1a2b4a">June solstice (~Jun 21)</text>
+    <text x="630" y="340" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#1a7a3a">Northern Hemisphere: summer</text>
+  </g>
+  <!-- DECEMBER: earth left of sun, axis still top-left = north pole tilted away from sun -->
+  <g>
+    <line x1="60" y1="320" x2="200" y2="320" stroke="#e8b93c" stroke-width="3"/>
+    <circle cx="130" cy="320" r="40" fill="#3b82d6" stroke="#1d4f91" stroke-width="2"/>
+    <!-- same axis direction in space as June: top leans left — now AWAY from the Sun (right) -->
+    <line x1="114" y1="286" x2="146" y2="354" stroke="#333" stroke-width="3"/>
+    <circle cx="114" cy="286" r="4" fill="#333"/>
+    <text x="104" y="276" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">axis</text>
+    <text x="56" y="360" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1a6fa0">N leans away from Sun</text>
+    <text x="130" y="400" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1a2b4a">December solstice (~Dec 21)</text>
+    <text x="130" y="420" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#1a6fa0">Northern Hemisphere: winter</text>
+  </g>
+  <text x="380" y="470" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#4a5a75">The axis never changes direction — that is why the hemispheres take turns leaning toward the Sun.</text>
+  <text x="380" y="494" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#4a5a75">Earth is actually closest to the Sun in early January — so distance cannot be the cause.</text>
+</svg>

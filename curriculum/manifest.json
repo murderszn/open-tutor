@@ -5040,28 +5040,96 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-01-day-and-night.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-02-moon-phases.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-03-eclipses.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-04-seasons-by-tilt.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-05-review-and-model-limits.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assessments/week-10_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assets/shadow-stick-three-times.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assets/moon-phase-orbit-diagram.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assets/seasons-tilt-diagram.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assets/README.md",
+   "kind": "assets"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 47,
+  "assessment": 52,
+  "asset": 66,
+  "assets": 48,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 252,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
+  "practice": 47,
+  "project": 47,
   "quiz": 269,
-  "resource-pack": 46,
+  "resource-pack": 47,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 47,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 47,
   "unit-text": 8
  },
  "review_notes": [
