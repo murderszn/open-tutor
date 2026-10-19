@@ -2,9 +2,10 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; **Unit 01 is delivered as a validated draft** (see
-[units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/));
-units 02–08 are planned, not yet written. See
+delivered; **Units 01 and 02 are delivered as validated drafts** (see
+[units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/) and
+[units/unit-02-figurative-language-poetry/](units/unit-02-figurative-language-poetry/));
+units 03–08 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -97,4 +98,7 @@ Planned units are described in prose in
 
 - **U01 — Close reading: theme and interacting story elements**
   ([units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/)) —
-  validated draft, 2026-10-12. U02–U08 have no files yet.
+  validated draft, 2026-10-12.
+- **U02 — Literary perspective, figurative language, and poetry**
+  ([units/unit-02-figurative-language-poetry/](units/unit-02-figurative-language-poetry/)) —
+  validated draft, 2026-10-19. U03–U08 have no files yet.
