@@ -4202,6 +4202,70 @@
    "kind": "asset"
   },
   {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/assets/constantinople-harbor-market.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/assets/mediterranean-exchange-schematic.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/lessons/lesson-01-the-byzantine-state-law-faith-and-administration.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/lessons/lesson-02-rise-and-spread-of-islamic-societies.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/lessons/lesson-03-mediterranean-exchange-trade-translation-and-ideas.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/lessons/lesson-04-change-and-continuity-across-the-era.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/lessons/lesson-05-comparing-perspectives-whose-story.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-02-byzantine-islamic-and-mediterranean-societies/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-9/science/units/unit-01-biological-investigation-biomolecules/README.md",
    "kind": "unit-index"
   },
@@ -5043,25 +5107,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 47,
+  "assessment": 51,
+  "asset": 65,
+  "assets": 48,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 252,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 47,
+  "project": 47,
+  "quiz": 270,
+  "resource-pack": 47,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 47,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 47,
   "unit-text": 8
  },
  "review_notes": [

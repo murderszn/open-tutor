@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="t d">
+<title id="t">The medieval Mediterranean — exchange schematic</title>
+<desc id="d">A schematic diagram (not to scale) of the medieval Mediterranean world, circa 800–1400 CE. Port cities are marked with dots; dashed blue lines are sea trade routes; dashed brown lines are land routes. Cities: Constantinople, Venice, Genoa, Palermo, Alexandria, Cairo, Damascus, Baghdad, Córdoba, Toledo.</desc>
+<rect x="0" y="0" width="900" height="520" fill="#faf8f2"/>
+<text x="450" y="34" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="#222">The Medieval Mediterranean — Exchange Schematic</text>
+<text x="450" y="58" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555">Which cities connected to which, circa 800–1400 CE. Coastlines, distances, and directions are simplified — NOT to scale.</text>
+
+<!-- Landmasses (simplified, tan) -->
+<g fill="#e8dcc0" stroke="#b8a06a" stroke-width="1.5">
+<polygon points="55,120 185,135 205,220 120,245 55,200"/>
+<polygon points="200,115 455,140 450,165 210,150"/>
+<polygon points="380,160 432,168 422,262 402,305 382,252"/>
+<polygon points="482,178 542,188 532,262 492,252"/>
+<polygon points="560,148 782,158 792,232 568,242"/>
+<polygon points="758,248 822,258 812,332 748,322"/>
+<polygon points="648,342 812,352 802,425 598,412"/>
+<polygon points="118,332 552,342 542,402 128,392"/>
+<ellipse cx="432" cy="302" rx="26" ry="12"/>
+</g>
+
+<!-- Sea (simplified, light blue) -->
+<path d="M120,262 C200,205 350,182 500,202 C650,222 752,202 812,252 C762,322 602,352 452,342 C302,332 182,322 120,262 Z" fill="#cfe3f2" stroke="#7fa8c9" stroke-width="1.5"/>
+
+<!-- Sea routes (dashed blue) -->
+<g fill="none" stroke="#1d5fa8" stroke-width="3" stroke-dasharray="12,7">
+<path d="M400,162 C460,200 545,212 632,222"/>
+<path d="M648,232 C662,282 682,312 696,340"/>
+<path d="M306,148 C352,202 392,252 424,294"/>
+<path d="M440,306 C525,322 605,332 692,342"/>
+</g>
+
+<!-- Land routes (dashed brown) -->
+<g fill="none" stroke="#7a4a1e" stroke-width="3" stroke-dasharray="10,6">
+<path d="M700,350 L693,370"/>
+<path d="M693,380 C732,342 752,322 770,307"/>
+<path d="M780,304 C812,302 832,302 852,302"/>
+<path d="M648,230 C702,252 742,272 772,298"/>
+<path d="M142,170 L114,188"/>
+</g>
+
+<!-- Region labels -->
+<g font-family="sans-serif" font-size="12" font-style="italic" fill="#6b6250" text-anchor="middle">
+<text x="95" y="112">Al-Andalus</text>
+<text x="665" y="118">Byzantine Empire</text>
+<text x="330" y="372">North Africa</text>
+<text x="700" y="402">Egypt</text>
+<text x="352" y="102">Italian maritime republics</text>
+</g>
+
+<!-- Cities -->
+<g font-family="sans-serif" font-size="13" fill="#222">
+<circle cx="640" cy="226" r="7" fill="#1d5fa8"/><circle cx="640" cy="226" r="12" fill="none" stroke="#1d5fa8" stroke-width="2.5"/>
+<text x="640" y="206" text-anchor="middle" font-weight="bold">Constantinople</text>
+
+<circle cx="400" cy="158" r="6" fill="#1d5fa8"/>
+<text x="400" y="142" text-anchor="middle">Venice</text>
+
+<circle cx="302" cy="144" r="6" fill="#1d5fa8"/>
+<text x="302" y="128" text-anchor="middle">Genoa</text>
+
+<circle cx="432" cy="302" r="6" fill="#1d5fa8"/>
+<text x="432" y="330" text-anchor="middle">Palermo</text>
+
+<circle cx="698" cy="344" r="6" fill="#1d5fa8"/>
+<text x="698" y="336" text-anchor="middle" font-weight="bold" dx="46">Alexandria</text>
+
+<circle cx="693" cy="376" r="5" fill="#7a4a1e"/>
+<text x="693" y="396" text-anchor="middle">Cairo</text>
+
+<circle cx="775" cy="302" r="6" fill="#7a4a1e"/>
+<text x="775" y="288" text-anchor="middle">Damascus</text>
+
+<circle cx="855" cy="302" r="6" fill="#7a4a1e"/>
+<text x="855" y="288" text-anchor="middle">Baghdad</text>
+
+<circle cx="112" cy="192" r="6" fill="#7a4a1e"/>
+<text x="112" y="216" text-anchor="middle">Córdoba</text>
+
+<circle cx="142" cy="166" r="5" fill="#7a4a1e"/>
+<text x="142" y="152" text-anchor="middle">Toledo</text>
+</g>
+
+<!-- Legend -->
+<g font-family="sans-serif" font-size="12" fill="#222">
+<rect x="16" y="430" width="330" height="76" fill="#ffffff" stroke="#999" stroke-width="1"/>
+<line x1="30" y1="450" x2="70" y2="450" stroke="#1d5fa8" stroke-width="3" stroke-dasharray="12,7"/>
+<text x="80" y="454">Sea trade routes</text>
+<line x1="30" y1="472" x2="70" y2="472" stroke="#7a4a1e" stroke-width="3" stroke-dasharray="10,6"/>
+<text x="80" y="476">Land routes</text>
+<circle cx="50" cy="494" r="6" fill="none" stroke="#1d5fa8" stroke-width="2.5"/>
+<text x="80" y="498">Featured city (Constantinople)</text>
+</g>
+<text x="884" y="506" text-anchor="end" font-family="sans-serif" font-size="11" fill="#777">Schematic for classroom use — not to scale.</text>
+</svg>
