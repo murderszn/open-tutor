@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="640" viewBox="0 0 900 640" role="img" aria-labelledby="orgTitle orgDesc">
+  <title id="orgTitle">Levels of organization: human and plant examples</title>
+  <desc id="orgDesc">Five stacked levels, cell at the bottom and organism at the top, shown in two side-by-side columns. Human example: muscle cell, muscle tissue, heart, circulatory system, human. Plant example: leaf mesophyll cell, leaf tissue, leaf, shoot system, plant.</desc>
+  <style>
+    .box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+    .lvl { font: bold 20px sans-serif; fill: #1a1a1a; text-anchor: middle; }
+    .ex  { font: 17px sans-serif; fill: #333333; text-anchor: middle; }
+    .head { font: bold 24px sans-serif; fill: #1a1a1a; text-anchor: middle; }
+    .arrow { stroke: #1a1a1a; stroke-width: 2; marker-end: url(#ah); }
+    .note { font: 15px sans-serif; fill: #444444; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="#1a1a1a"/>
+    </marker>
+  </defs>
+
+  <text class="head" x="245" y="42">Human example</text>
+  <text class="head" x="655" y="42">Plant example</text>
+
+  <!-- Level labels (left margin) -->
+  <text class="lvl" x="88" y="140">CELL</text>
+  <text class="lvl" x="88" y="240">TISSUE</text>
+  <text class="lvl" x="88" y="340">ORGAN</text>
+  <text class="lvl" x="88" y="440">SYSTEM</text>
+  <text class="lvl" x="88" y="540">ORGANISM</text>
+
+  <!-- Human column boxes -->
+  <rect class="box" x="150" y="108" width="190" height="56" rx="8"/>
+  <text class="ex" x="245" y="143">muscle cell</text>
+
+  <rect class="box" x="150" y="208" width="190" height="56" rx="8"/>
+  <text class="ex" x="245" y="243">muscle tissue</text>
+
+  <rect class="box" x="150" y="308" width="190" height="56" rx="8"/>
+  <text class="ex" x="245" y="343">heart (organ)</text>
+
+  <rect class="box" x="150" y="408" width="190" height="56" rx="8"/>
+  <text class="ex" x="245" y="443">circulatory system</text>
+
+  <rect class="box" x="150" y="508" width="190" height="56" rx="8"/>
+  <text class="ex" x="245" y="543">human</text>
+
+  <!-- Plant column boxes -->
+  <rect class="box" x="560" y="108" width="190" height="56" rx="8"/>
+  <text class="ex" x="655" y="143">leaf mesophyll cell</text>
+
+  <rect class="box" x="560" y="208" width="190" height="56" rx="8"/>
+  <text class="ex" x="655" y="243">leaf tissue</text>
+
+  <rect class="box" x="560" y="308" width="190" height="56" rx="8"/>
+  <text class="ex" x="655" y="343">leaf (organ)</text>
+
+  <rect class="box" x="560" y="408" width="190" height="56" rx="8"/>
+  <text class="ex" x="655" y="443">shoot system</text>
+
+  <rect class="box" x="560" y="508" width="190" height="56" rx="8"/>
+  <text class="ex" x="655" y="543">plant</text>
+
+  <!-- Arrows within columns (upward: smaller to larger) -->
+  <line class="arrow" x1="245" y1="204" x2="245" y2="172"/>
+  <line class="arrow" x1="245" y1="304" x2="245" y2="272"/>
+  <line class="arrow" x1="245" y1="404" x2="245" y2="372"/>
+  <line class="arrow" x1="245" y1="504" x2="245" y2="472"/>
+  <line class="arrow" x1="655" y1="204" x2="655" y2="172"/>
+  <line class="arrow" x1="655" y1="304" x2="655" y2="272"/>
+  <line class="arrow" x1="655" y1="404" x2="655" y2="372"/>
+  <line class="arrow" x1="655" y1="504" x2="655" y2="472"/>
+
+  <text class="note" x="450" y="606">Each level is built from the level below it; every level is specialized for a job the whole organism needs.</text>
+  <text class="note" x="450" y="628">Diagram is schematic, not to scale; no question depends on color.</text>
+</svg>
