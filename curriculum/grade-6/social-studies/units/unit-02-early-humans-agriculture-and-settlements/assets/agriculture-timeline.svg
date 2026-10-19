@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="310" viewBox="0 0 1040 310" role="img" aria-labelledby="t1 d1">
+<title id="t1">Timeline of early agriculture, 13000 BCE to 5000 BCE</title>
+<desc id="d1">A horizontal timeline from 13000 BCE (left) to 5000 BCE (right) marking seven developments: Natufian culture begins about 12500 BCE; early cultivation begins about 9600 BCE; maize domesticated from teosinte about 8700 BCE; goats and sheep domesticated about 8500 BCE; the tower of Jericho built about 8000 BCE; Çatalhöyük founded about 7100 BCE; farming villages spread across Southwest Asia by about 6000 BCE.</desc>
+<rect x="0" y="0" width="1040" height="310" fill="#faf8f2"/>
+<line x1="70" y1="150" x2="1000" y2="150" stroke="#333" stroke-width="3"/>
+<line x1="70.0" y1="142" x2="70.0" y2="158" stroke="#333" stroke-width="2"/>
+<text x="70.0" y="180" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">13,000 BCE</text>
+<line x1="186.2" y1="142" x2="186.2" y2="158" stroke="#333" stroke-width="2"/>
+<text x="186.2" y="180" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">12,000 BCE</text>
+<line x1="302.5" y1="142" x2="302.5" y2="158" stroke="#333" stroke-width="2"/>
+<text x="302.5" y="180" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">11,000 BCE</text>
+<line x1="418.8" y1="142" x2="418.8" y2="158" stroke="#333" stroke-width="2"/>
+<text x="418.8" y="180" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">10,000 BCE</text>
+<line x1="535.0" y1="142" x2="535.0" y2="158" stroke="#333" stroke-width="2"/>
+<text x="535.0" y="180" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">9,000 BCE</text>
+<line x1="651.2" y1="142" x2="651.2" y2="158" stroke="#333" stroke-width="2"/>
+<text x="651.2" y="180" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">8,000 BCE</text>
+<line x1="767.5" y1="142" x2="767.5" y2="158" stroke="#333" stroke-width="2"/>
+<text x="767.5" y="180" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">7,000 BCE</text>
+<line x1="883.8" y1="142" x2="883.8" y2="158" stroke="#333" stroke-width="2"/>
+<text x="883.8" y="180" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">6,000 BCE</text>
+<line x1="1000.0" y1="142" x2="1000.0" y2="158" stroke="#333" stroke-width="2"/>
+<text x="1000.0" y="180" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#333">5,000 BCE</text>
+<text x="70" y="30" font-family="sans-serif" font-size="16" fill="#555">Earlier (older) &#8592; &#8594; Later (more recent)</text>
+<line x1="128.1" y1="150" x2="128.1" y2="118" stroke="#b3541e" stroke-width="2"/>
+<circle cx="128.1" cy="150" r="6" fill="#b3541e"/>
+<text x="128.1" y="98" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#222">Natufian culture begins</text>
+<text x="128.1" y="114" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#555">about 12500 BCE — sedentary foragers, Levant</text>
+<line x1="465.2" y1="150" x2="465.2" y2="198" stroke="#b3541e" stroke-width="2"/>
+<circle cx="465.2" cy="150" r="6" fill="#b3541e"/>
+<text x="465.2" y="206" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#222">Early cultivation begins</text>
+<text x="465.2" y="222" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#555">about 9600 BCE — Pre-Pottery Neolithic A, Fertile Crescent</text>
+<line x1="569.9" y1="150" x2="569.9" y2="72" stroke="#b3541e" stroke-width="2"/>
+<circle cx="569.9" cy="150" r="6" fill="#b3541e"/>
+<text x="569.9" y="52" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#222">Maize domesticated from teosinte</text>
+<text x="569.9" y="68" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#555">about 8700 BCE — Balsas River Valley, Mesoamerica</text>
+<line x1="593.1" y1="150" x2="593.1" y2="242" stroke="#b3541e" stroke-width="2"/>
+<circle cx="593.1" cy="150" r="6" fill="#b3541e"/>
+<text x="593.1" y="250" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#222">Goats and sheep domesticated</text>
+<text x="593.1" y="266" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#555">about 8500 BCE — Fertile Crescent</text>
+<line x1="651.2" y1="150" x2="651.2" y2="118" stroke="#b3541e" stroke-width="2"/>
+<circle cx="651.2" cy="150" r="6" fill="#b3541e"/>
+<text x="651.2" y="98" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#222">Tower of Jericho built</text>
+<text x="651.2" y="114" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#555">about 8000 BCE — one of the oldest towns</text>
+<line x1="755.9" y1="150" x2="755.9" y2="198" stroke="#b3541e" stroke-width="2"/>
+<circle cx="755.9" cy="150" r="6" fill="#b3541e"/>
+<text x="755.9" y="206" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#222">Çatalhöyük founded</text>
+<text x="755.9" y="222" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#555">about 7100 BCE — Anatolia</text>
+<line x1="883.8" y1="150" x2="883.8" y2="118" stroke="#b3541e" stroke-width="2"/>
+<circle cx="883.8" cy="150" r="6" fill="#b3541e"/>
+<text x="883.8" y="98" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#222">Farming villages spread</text>
+<text x="883.8" y="114" text-anchor="middle" font-family="sans-serif" font-size="12.5" fill="#555">about 6000 BCE — across Southwest Asia</text>
+<text x="520" y="298" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#777">All dates are approximate ("about"); archaeologists refine them as new evidence appears.</text>
+</svg>

@@ -1,8 +1,8 @@
 # Grade 6 Social Studies
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01 draft are delivered;
-the seven remaining units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01–02 drafts are delivered;
+the six remaining units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-6 learner at a time; a guiding adult adapts pacing, materials, and
@@ -50,14 +50,15 @@ or alignment certification is claimed. D2.His.7.6-8 and D2.His.8.6-8 (begin
 in grades 9–12), D2.Eco.10–12.6-8 (modern national economy), and
 D2.Civ.8.6-8 (U.S. founding documents) are deferred to later grades.
 
-## Current library status (2026-10-05 audit, updated 2026-10-12)
+## Current library status (2026-10-05 audit, updated 2026-10-19)
 
 The folder holds the track README, one starter lesson
 ([starter-lesson.md](starter-lesson.md) — "Ask what a map and source can show,"
 three 35-minute sessions on observation vs. inference, source limits, and
 evidence needs with a 2-1-0 review rubric),
-[scope-and-sequence.md](scope-and-sequence.md), and the first unit build
-([units/unit-01-historical-inquiry-maps-and-chronology/](units/unit-01-historical-inquiry-maps-and-chronology/)).
+[scope-and-sequence.md](scope-and-sequence.md), and the first two unit builds
+([units/unit-01-historical-inquiry-maps-and-chronology/](units/unit-01-historical-inquiry-maps-and-chronology/)
+and [units/unit-02-early-humans-agriculture-and-settlements/](units/unit-02-early-humans-agriculture-and-settlements/)).
 Audit decisions: the starter
 lesson is **kept** and feeds U01 (historical inquiry) — it is direct
 D1.5/D3.2/D2.Geo.1–3 practice, and its "Answer checks" have been moved into the
@@ -73,6 +74,8 @@ coverage and are built new.
 
 ## Units
 
-- [Unit 01 — Historical Inquiry: Archaeology, Maps, and Chronology](units/unit-01-historical-inquiry-maps-and-chronology/) — **validated draft, delivered 2026-10-12; not yet educator-reviewed or merged.** Five lessons (compelling/supporting questions; observation vs. inference on the kept starter lesson's fictional sketch and note; maps as evidence with scale/grid/projection work; source kinds, credibility, and maker/audience inference; BCE/CE chronology and archaeological layers), practice sets, "The Fictional Tell" investigation with a 20-point rubric, formative quiz and culminating assessment, separate teacher guide and answer key, verified Resource Pack, one generated illustration (fictional dig trench) plus two deterministic diagrams.
+- [Unit 01 — Historical Inquiry: Archaeology, Maps, and Chronology](units/unit-01-historical-inquiry-maps-and-chronology/) — **validated draft, delivered 2026-10-12 and merged to main; not yet educator-reviewed.** Five lessons (compelling/supporting questions; observation vs. inference on the kept starter lesson's fictional sketch and note; maps as evidence with scale/grid/projection work; source kinds, credibility, and maker/audience inference; BCE/CE chronology and archaeological layers), practice sets, "The Fictional Tell" investigation with a 20-point rubric, formative quiz and culminating assessment, separate teacher guide and answer key, verified Resource Pack, one generated illustration (fictional dig trench) plus two deterministic diagrams.
 
-Units 02–08 are described in prose only in [scope-and-sequence.md](scope-and-sequence.md); no links exist yet for those units.
+- [Unit 02 — Early Humans: Agriculture and Settlements](units/unit-02-early-humans-agriculture-and-settlements/) — **validated draft, delivered 2026-10-19; not yet educator-reviewed or merged.** Four lessons (environments and forager life; agricultural-revolution causes and trade-offs with pre-written scenario cards; surplus, specialization, and settlements with a generated village illustration; Fertile Crescent vs. Mesoamerica comparison with a deterministic agriculture timeline), practice sets, "The Settlement Council" project with a 20-point rubric, formative quiz and culminating assessment, separate teacher guide and answer key, verified Resource Pack, one generated illustration (fictional farming village) plus two deterministic diagrams.
+
+Units 03–08 are described in prose only in [scope-and-sequence.md](scope-and-sequence.md); no links exist yet for those units.
