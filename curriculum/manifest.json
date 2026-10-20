@@ -5040,28 +5040,92 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/lessons/lesson-01-forces-pushes-pulls-balanced.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/lessons/lesson-02-free-body-diagrams-inertia.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/lessons/lesson-03-newton-second-law-f-equals-ma.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/lessons/lesson-04-planning-investigation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/lessons/lesson-05-third-law-momentum-collisions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/lessons/lesson-06-gravity-attracts.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/science/units/unit-02-forces-newtonian-reasoning-momentum/assets/crash-test-bumper-designs.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
-  "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
-  "hints": 2,
-  "lesson": 247,
-  "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
-  "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "new-assignment": 31,
+  "assignment": 111,
+  "quiz": 271,
   "template": 14,
-  "unit-index": 46,
+  "hints": 2,
+  "rhythm": 2,
+  "unit-index": 48,
+  "lesson": 257,
+  "practice": 48,
+  "project": 48,
+  "resource-pack": 48,
+  "assessment": 52,
+  "teacher-guide": 48,
+  "answer-key": 48,
+  "assets": 49,
+  "asset": 65,
   "unit-text": 8
  },
  "review_notes": [
