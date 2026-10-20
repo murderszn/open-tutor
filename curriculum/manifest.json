@@ -5040,6 +5040,86 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/assets/crossroads-keeper-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/assessments/week-10_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-01-fair-comparison.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-02-comparative-thesis.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-03-theme-tracking.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-04-structure-effects.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-05-source-transformation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-06-two-mediums.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/texts/the-salt-road.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/texts/the-harbor-light.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/texts/tortoise-hare-and-rematch.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/texts/the-keeper-at-the-crossroads.md",
+   "kind": "unit-text"
   }
  ],
  "counts_by_kind": {
