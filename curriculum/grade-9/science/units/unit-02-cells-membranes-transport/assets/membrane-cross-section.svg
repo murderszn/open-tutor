@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 560" font-family="Arial, Helvetica, sans-serif">
+<rect width="940" height="560" fill="#ffffff"/>
+<text x="20" y="60" font-size="18" font-weight="bold" fill="#1a1a1a">Outside the cell</text>
+<text x="20" y="530" font-size="18" font-weight="bold" fill="#1a1a1a">Cytoplasm (inside the cell)</text>
+<text x="20" y="86" font-size="13" fill="#555555">watery fluid on both sides</text>
+<defs><marker id="arrR" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#d0021b"/></marker><marker id="arrG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#2b7a3d"/></marker><marker id="arrO" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 z" fill="#b3541e"/></marker></defs>
+<circle cx="80" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 74 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 86 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="80" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 74 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 86 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="140" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 134 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 146 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="140" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 134 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 146 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="200" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 194 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 206 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="200" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 194 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 206 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="260" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 254 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 266 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="260" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 254 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 266 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="320" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 314 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 326 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="320" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 314 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 326 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="380" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 374 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 386 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="380" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 374 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 386 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="440" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 434 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 446 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="440" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 434 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 446 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="500" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 494 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 506 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="500" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 494 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 506 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="560" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 554 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 566 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="560" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 554 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 566 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="732" cy="190" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 726 203 q 8 26 -2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 738 203 q -8 26 2.4 52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<circle cx="732" cy="350" r="13" fill="#4a90d9" stroke="#1a1a1a" stroke-width="2"/>
+<path d="M 726 337 q 8 -26 -2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path d="M 738 337 q -8 -26 2.4 -52" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect x="192" y="210" width="16" height="28" rx="7" fill="#f5c542" stroke="#1a1a1a" stroke-width="2"/>
+<rect x="432" y="210" width="16" height="28" rx="7" fill="#f5c542" stroke="#1a1a1a" stroke-width="2"/>
+<text x="196" y="150" font-size="13" fill="#1a1a1a">cholesterol</text>
+<line x1="200" y1="154" x2="200" y2="168" stroke="#1a1a1a" stroke-width="1.5"/>
+<line x1="46" y1="190" x2="64" y2="190" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="30" y="178" font-size="13" fill="#1a1a1a">hydrophilic head</text>
+<text x="30" y="194" font-size="13" fill="#1a1a1a">(water-loving)</text>
+<line x1="46" y1="250" x2="64" y2="250" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="24" y="244" font-size="13" fill="#1a1a1a">hydrophobic tails</text>
+<text x="24" y="260" font-size="13" fill="#1a1a1a">(water-fearing)</text>
+<circle cx="350" cy="140" r="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="345" y="144" font-size="10" fill="#1a1a1a">O2</text>
+<circle cx="350" cy="190" r="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="345" y="194" font-size="10" fill="#1a1a1a">O2</text>
+<circle cx="350" cy="250" r="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="345" y="254" font-size="10" fill="#1a1a1a">O2</text>
+<circle cx="350" cy="320" r="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="345" y="324" font-size="10" fill="#1a1a1a">O2</text>
+<circle cx="350" cy="390" r="8" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="345" y="394" font-size="10" fill="#1a1a1a">O2</text>
+<line x1="350" y1="126" x2="350" y2="406" stroke="#d0021b" stroke-width="3" stroke-dasharray="8,6" marker-end="url(#arrR)"/>
+<text x="366" y="270" font-size="13" fill="#d0021b">simple diffusion:</text>
+<text x="366" y="288" font-size="13" fill="#d0021b">small molecules pass</text>
+<text x="366" y="306" font-size="13" fill="#d0021b">between phospholipids</text>
+<rect x="612" y="150" width="80" height="240" rx="18" fill="#b8e986" stroke="#1a1a1a" stroke-width="2.5"/>
+<rect x="638" y="150" width="28" height="240" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="652,170 661,176 661,186 652,192 643,186 643,176" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="652,222 661,228 661,238 652,244 643,238 643,228" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="652,282 661,288 661,298 652,304 643,298 643,288" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<polygon points="652,342 661,348 661,358 652,364 643,358 643,348" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<line x1="652" y1="150" x2="652" y2="394" stroke="#2b7a3d" stroke-width="3" stroke-dasharray="8,6" marker-end="url(#arrG)"/>
+<circle cx="632" cy="130" r="9" fill="#7ed321" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="648" cy="112" r="9" fill="#7ed321" stroke="#1a1a1a" stroke-width="2"/>
+<circle cx="664" cy="130" r="9" fill="#7ed321" stroke="#1a1a1a" stroke-width="2"/>
+<text x="560" y="100" font-size="13" fill="#1a1a1a">carbohydrate chain (cell ID tag)</text>
+<line x1="640" y1="104" x2="646" y2="106" stroke="#1a1a1a" stroke-width="1.5"/>
+<text x="588" y="430" font-size="13" fill="#1a1a1a">channel protein:</text>
+<text x="576" y="448" font-size="13" fill="#1a1a1a">facilitated diffusion</text>
+<text x="584" y="466" font-size="13" fill="#1a1a1a">(no energy needed)</text>
+<rect x="768" y="150" width="24" height="240" rx="10" fill="#f8a13a" stroke="#1a1a1a" stroke-width="2.5"/>
+<rect x="824" y="150" width="24" height="240" rx="10" fill="#f8a13a" stroke="#1a1a1a" stroke-width="2.5"/>
+<text x="770" y="272" font-size="12" font-weight="bold" fill="#1a1a1a">PUMP</text>
+<circle cx="808" cy="424" r="10" fill="#ffffff" stroke="#1a1a1a" stroke-width="2"/>
+<text x="800" y="428" font-size="10" fill="#1a1a1a">Na+</text>
+<line x1="808" y1="412" x2="808" y2="140" stroke="#b3541e" stroke-width="3" stroke-dasharray="8,6" marker-end="url(#arrO)"/>
+<text x="862" y="120" font-size="13" fill="#1a1a1a">many Na+ outside (high)</text>
+<text x="862" y="440" font-size="13" fill="#1a1a1a">few Na+ inside (low)</text>
+<text x="716" y="430" font-size="13" fill="#1a1a1a">active transport:</text>
+<text x="704" y="448" font-size="13" fill="#1a1a1a">against the gradient —</text>
+<text x="722" y="466" font-size="13" fill="#1a1a1a">costs ATP energy</text>
+</svg>
