@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Unit 01 is delivered as a draft; Units 02–08 are planned, not
+delivered, and Units 01 and 02 are delivered as drafts; Units 03–08 are planned, not
 yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
@@ -114,7 +114,8 @@ The audit inventoried the 21 existing files in this folder (re-audited
 ## Units
 
 - [Unit 01 — Colonial Societies, Atlantic Exchange, Labor, and Resistance](units/unit-01-colonial-societies/) *(delivered as a draft, 2026-10-13)* — Weeks 3–6: Atlantic-world mapping, the two-direction Columbian exchange, the three colonial regions' labor systems, enslavement as a system, resistance, and the triangular-trade synthesis. Six lessons, practice bank, Evidence Board investigation, formative quiz, culminating assessment, teacher guide, answer key, resource pack, and a generated port illustration.
-- Units 02–08 are planned, not yet written (see the scope-and-sequence §5).
+- [Unit 02 — Revolution, Independence, Contested Ideals](units/unit-02-revolution-contested-ideals/) *(delivered as a draft, 2026-10-20)* — Weeks 7–10: the road to war 1763–1776, Declaration close read, turning points and the French alliance, contested ideals (Wheatley, Dunmore, women's and Native perspectives), images as arguments, and the turning-point synthesis. Six lessons, practice bank, Evidence Portfolio investigation, formative quiz, culminating assessment, teacher guide, answer key, resource pack, and a generated print-shop reconstruction.
+- Units 03–08 are planned, not yet written (see the scope-and-sequence §5).
 
 ## Assignments
 

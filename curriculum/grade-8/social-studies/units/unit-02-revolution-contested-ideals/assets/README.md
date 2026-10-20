@@ -1,0 +1,17 @@
+# Assets — Unit 02: Revolution, Independence, Contested Ideals
+
+## print-shop-broadside-reconstruction.png
+
+- **File:** `print-shop-broadside-reconstruction.png` (PNG, generated 2026-10-20)
+- **Prompt (verbatim):** "AI illustration reconstruction (not a primary source): a colonial Boston street in March 1770 at dusk. Outside a small print shop, a freshly printed broadside sheet is pasted in the shop window; a small crowd of townspeople in 18th-century coats, tricorn hats, and shawls gathers around the window reading it by lantern light; snow on the cobblestone street, brick buildings with shuttered windows, a church steeple in the distance, a printer's apprentice carrying a stack of papers. Muted historical-illustration painting style, wide landscape composition, no readable text, no modern elements, no identifiable real people."
+- **Tool/model:** built-in image generation pipeline (media.generate_image), 2026-10-20.
+- **Learning purpose:** Lesson 5 activity — learners "read" the reconstruction to practice D2.His.6 (perspective shapes sources) and D2.His.10 (record limits): list what the image shows about print culture (shops, posted broadsides, public reading, apprentices distributing papers) versus what it cannot prove (what the broadside said, whether its claims were true, what happened on King Street on March 5, 1770). Pairs with the Revere engraving analysis: both images are shaped by their makers' purposes.
+- **Factual review (2026-10-20, inspected before linking):** Scene matches the prompt: brick print shop at dusk, broadside sheet visible (unreadable) in the window, six-plus townspeople in period dress reading by lantern light, apprentice with stacked papers, snow on cobblestones, church steeple in the distance. No readable text, no anachronistic elements, no identifiable real persons. Plausible as an 18th-century Boston street; **not** a depiction of any specific event or shop.
+- **Caption (used in Lesson 5):** "AI-generated reconstruction of a Boston print shop at dusk, March 1770 — a modern illustration imagining how printed news circulated. Not a primary source; not evidence of any specific event."
+- **Alt text:** "Watercolor-style AI illustration of a colonial Boston street at dusk in winter: townspeople in 18th-century dress gather around a print shop window reading a posted broadside by lantern light while an apprentice carries a stack of papers; snow on the cobblestones, brick buildings, a church steeple in the distance."
+- **Text-only alternative:** Provided in Lesson 5: (1) what is visible — print shop, broadside in window, readers by lantern light, apprentice with papers, snow, steeple; (2) what is not shown — the broadside's content, its truth, the King Street events, the printer's identity or motive. Learners can complete the activity from this description alone.
+- **Known limitations:** As a generated reconstruction it must never be cited as evidence for a historical claim; Lesson 5 teaches this explicitly. The scene generalizes "print culture" — the specific shop, broadside, and crowd are imagined.
+
+## Generation note
+
+A first generation attempt (a King Street confrontation scene for direct comparison with Revere's engraving) was declined by the image pipeline; the print-shop direction above was generated instead and serves the same Lesson 5 learning goal (how makers' purposes shape images; what reconstructions can and cannot prove). No failed-attempt artifacts are kept in this folder.

@@ -5040,28 +5040,92 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/lessons/lesson-01-road-to-war.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/lessons/lesson-02-declaration-close-read.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/lessons/lesson-03-war-turning-points.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/lessons/lesson-04-whose-liberty.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/lessons/lesson-05-images-as-arguments.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/lessons/lesson-06-turning-point-memory.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/social-studies/units/unit-02-revolution-contested-ideals/assets/print-shop-broadside-reconstruction.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 48,
+  "assessment": 52,
+  "asset": 65,
+  "assets": 49,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 257,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 48,
+  "project": 48,
+  "quiz": 271,
+  "resource-pack": 48,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 48,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 48,
   "unit-text": 8
  },
  "review_notes": [
