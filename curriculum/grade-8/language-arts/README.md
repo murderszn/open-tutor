@@ -81,13 +81,16 @@ verified 2026-10-06 on thecorestandards.org; the scope-and-sequence paraphrases
 them and maps each unit to its standards. No state adoption, accreditation, or
 alignment certification is claimed.
 
-## Planned units (U01 delivered as a validated draft; U02–U08 in prose until built)
+## Planned units (U01–U02 delivered as validated drafts; U03–U08 in prose until built)
 
 - **U01 — Close reading: inference, theme, and evidence synthesis** —
   delivered as a validated draft
   ([units/unit-01-close-reading/](units/unit-01-close-reading/)); not
   educator-reviewed, not merged
-- U02 — Literature: drama, character foils, and adaptation
+- **U02 — Literature: drama, character foils, and adaptation** —
+  delivered as a validated draft
+  ([units/unit-02-drama-foils-adaptation/](units/unit-02-drama-foils-adaptation/));
+  not educator-reviewed, not merged
 - U03 — Informational rhetoric: argument and conflicting accounts
 - U04 — Grammar: voice, verbals, punctuation, and style
 - U05 — Narrative: perspective, pacing, and crafted scenes

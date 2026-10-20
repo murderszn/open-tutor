@@ -4394,6 +4394,66 @@
    "kind": "asset"
   },
   {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/lessons/lesson-01-reading-a-script.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/lessons/lesson-02-character-foils.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/lessons/lesson-03-dialogue-propels-action.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/lessons/lesson-04-soliloquy-vs-scene.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/lessons/lesson-05-adaptation-text-to-stage.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/assessments/week-09_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/language-arts/units/unit-02-drama-foils-adaptation/assets/drama-foil-stage.png",
+   "kind": "asset"
+  },
+  {
    "path": "grade-8/social-studies/units/unit-01-colonial-societies/README.md",
    "kind": "unit-index"
   },
