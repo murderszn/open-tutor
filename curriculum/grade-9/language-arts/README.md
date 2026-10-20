@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Unit 01 is delivered as a validated draft; the remaining seven
+delivered, and Units 01–02 are delivered as validated drafts; the remaining six
 units are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
@@ -97,12 +97,14 @@ from end-of-grade-10 text-complexity expectations. No claim of state adoption,
 accreditation, or certification is made; Common Core is used here as a
 national reference framework, not a graduation requirement.
 
-## Planned units (U01 delivered as a validated draft; U02–U08 in prose until built)
+## Planned units (U01–U02 delivered as validated drafts; U03–U08 in prose until built)
 
 - **U01 — Literary close reading: theme and evidence** — delivered as a
   validated draft ([units/unit-01-theme-and-evidence/](units/unit-01-theme-and-evidence/));
   not educator-reviewed, not merged
-- U02 — Narrative structure, characterization, and author choices
+- **U02 — Narrative structure, characterization, and author choices** — delivered as a
+  validated draft ([units/unit-02-narrative-structure-and-author-choices/](units/unit-02-narrative-structure-and-author-choices/));
+  not educator-reviewed, not merged
 - U03 — Informational rhetoric, argument, and media literacy
 - U04 — Grammar precision, syntax, vocabulary, and style
 - U05 — Narrative and creative writing workshop

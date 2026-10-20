@@ -5040,6 +5040,82 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-01-plot-structure-and-event-order.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-02-complex-characters.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-03-point-of-view-and-narrative-distance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-04-pacing-flashbacks-and-time.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-05-word-choice-and-cumulative-tone.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-06-comparing-author-choices-the-analysis-essay.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/texts/night-train.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/texts/monkeys-paw-excerpts.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/texts/craft-vignettes.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/assessments/week-09_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/assets/night-train-illustration.webp",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
