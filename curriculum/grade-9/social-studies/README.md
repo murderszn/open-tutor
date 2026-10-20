@@ -2,8 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Unit 01 is a delivered draft (not yet merged or
-educator-reviewed); Units 02–08 and R00 are planned, not yet written. See
+delivered, and Units 01–02 are delivered drafts (not yet merged or
+educator-reviewed); Units 03–08 and R00 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -114,7 +114,12 @@ elsewhere in the repository (full table in
   — 4 lessons, practice sets, project + rubric, resource pack, quiz,
   unit assessment, teacher guide, separate answer key, generated
   illustration.
-- U02 — Empires, exchange, colonization, and resistance *(planned)*
+- U02 — Empires, exchange, colonization, and resistance — **draft delivered
+  2026-10-20** (issue #45; draft PR, not yet merged):
+  [units/unit-02-empires-exchange-colonization/](units/unit-02-empires-exchange-colonization/)
+  — 4 lessons, practice sets + writing workshops, evidence-dossier project
+  + rubric, resource pack, quiz, unit assessment, teacher guide, separate
+  answer key, generated illustration + exchange schematic.
 - U03 — Enlightenment, revolutions, rights, and consequences *(planned)*
 - U04 — Industrialization, capitalism, imperialism, and social change
   *(planned)*
