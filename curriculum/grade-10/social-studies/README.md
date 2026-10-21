@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, Unit 01 is delivered as a validated draft, and Units 02–08
+delivered, Units 01 and 02 are delivered as validated drafts, and Units 03–08
 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
