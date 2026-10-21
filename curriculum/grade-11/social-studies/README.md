@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
+delivered; Unit 01 is a validated draft in draft PR #171 and Unit 02 is a validated draft in this run's draft PR (both linked from issue #53); Units 03–08 plus R00 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -118,10 +118,10 @@ elsewhere in the repository (full table in
   quizzes, assessments, diagnostics, resource packs, generated images, and
   the R00 review package — authored in U01–U08 and R00.
 
-## Units (planned, not yet written)
+## Units
 
-- U01 — Foundations of constitutional government and political ideas
-- U02 — The Constitution, federalism, and institutional powers
+- U01 — Foundations of constitutional government and political ideas (validated draft in draft PR #171, issue #53; file not yet on main — see that PR)
+- U02 — [The Constitution, federalism, and institutional powers](units/unit-02-constitution-federalism-institutional-powers/README.md) — validated draft (issue #53), weeks 7–10
 - U03 — Civil liberties, civil rights, and equal protection
 - U04 — Elections, representation, participation, and political parties
 - U05 — Congress, presidency, courts, and policy making

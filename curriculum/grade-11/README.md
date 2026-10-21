@@ -26,5 +26,6 @@ See also: [curriculum index](../README.md).
   draft (issue #52); Unit 01 (American literature contexts, themes, and close
   reading) delivered as a validated draft; units 02–08 planned.
 - [Social studies](social-studies/README.md) — U.S. government and civics
-  pathway; audit and scope-and-sequence delivered as a validated draft in
-  this run's draft PR (issue #53); units planned.
+  pathway; audit and scope-and-sequence delivered as a validated draft
+  (issue #53); Units 01–02 delivered as validated drafts in draft PRs
+  (issue #53); units 03–08 planned.
