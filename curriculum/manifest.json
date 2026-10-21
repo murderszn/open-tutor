@@ -2274,6 +2274,70 @@
    "kind": "subject-index"
   },
   {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/lessons/lesson-01-identity-toolkit.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/lessons/lesson-02-sum-difference-formulas.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/lessons/lesson-03-double-half-angle.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/lessons/lesson-04-inverse-trig-functions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/lessons/lesson-05-solving-trig-equations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/lessons/lesson-06-periodic-applications-proof-workshop.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-12/math/units/unit-02-trigonometric-identities-equations/assets/lighthouse-trig-scene.png",
+   "kind": "asset"
+  },
+  {
    "path": "grade-12/language-arts/README.md",
    "kind": "subject-index"
   },
@@ -5043,25 +5107,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 47,
+  "assessment": 51,
+  "asset": 64,
+  "assets": 48,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 253,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 47,
+  "project": 47,
+  "quiz": 270,
+  "resource-pack": 47,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 47,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 47,
   "unit-text": 8
  },
  "review_notes": [

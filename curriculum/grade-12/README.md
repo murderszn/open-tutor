@@ -18,7 +18,9 @@ See also: [curriculum index](../README.md).
   run's draft PR (issue #57); units planned.
 - [Mathematics](math/README.md) — Precalculus, statistics, and modeling
   pathway with optional calculus bridge; audit and scope-and-sequence are a
-  validated draft (issue #54); units planned.
+  validated draft (issue #54); Unit 01 is a validated draft in unmerged
+  draft PR #172; Unit 02 is a validated draft in this run's draft PR
+  (issue #54); Units 03–08 planned.
 - [Language arts](language-arts/README.md) — Advanced literature, writing,
   and communication pathway; audit and scope-and-sequence delivered as a
   validated draft in this run's draft PR (issue #56); units planned.
