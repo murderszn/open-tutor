@@ -14,7 +14,8 @@ See also: [curriculum index](../README.md).
 - [Mathematics](math/README.md) — Geometry pathway; audit and
   scope-and-sequence are a validated draft (issue #46); units planned.
 - [Science](science/README.md) — Chemistry pathway; audit and
-  scope-and-sequence are a validated draft (issue #47); units planned.
+  scope-and-sequence are a validated draft (issue #47); Units 01–02 are validated drafts
+  under educator review, Units 03–08 planned.
 - [Language arts](language-arts/README.md) — World literature and composition
   pathway; audit and scope-and-sequence are a validated draft (issue #48);
   units planned.

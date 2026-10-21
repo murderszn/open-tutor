@@ -4726,6 +4726,74 @@
    "kind": "asset"
   },
   {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/lessons/lesson-01-particles-notation-ions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/lessons/lesson-02-atomic-models-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/lessons/lesson-03-electron-configurations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/lessons/lesson-04-isotopes-average-atomic-mass.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/lessons/lesson-05-periodic-table-map.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/lessons/lesson-06-trends-predictions-nuclear.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/assessments/week-08_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/assets/gold-foil-experiment.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-10/science/units/unit-02-atomic-models-isotopes-periodicity/assets/electron-shells-sodium-chlorine.svg",
+   "kind": "asset"
+  },
+  {
    "path": "grade-10/language-arts/units/unit-01-world-literature/README.md",
    "kind": "unit-index"
   },
@@ -5043,25 +5111,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 47,
+  "assessment": 51,
+  "asset": 65,
+  "assets": 48,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 253,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 47,
+  "project": 47,
+  "quiz": 270,
+  "resource-pack": 47,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 47,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 47,
   "unit-text": 8
  },
  "review_notes": [

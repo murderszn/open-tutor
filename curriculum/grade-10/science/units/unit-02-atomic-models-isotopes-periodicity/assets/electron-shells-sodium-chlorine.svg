@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="260" viewBox="0 0 520 260" role="img" aria-label="Bohr-style shell diagrams for sodium with 2, 8, 1 electrons and chlorine with 2, 8, 7 electrons">
+<rect width="520" height="260" fill="#ffffff"/>
+<text x="260" y="22" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">Electron shells (Bohr-style diagrams — not to scale)</text>
+<text x="130" y="55" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Sodium (Na)</text>
+<text x="130" y="74" text-anchor="middle" font-family="sans-serif" font-size="13">2, 8, 1  ·  valence: 1</text>
+<circle cx="130" cy="150" r="24" fill="none" stroke="#334155" stroke-width="1.5"/>
+<circle cx="130.0" cy="126.0" r="6.5" fill="#2563eb"/>
+<circle cx="130.0" cy="174.0" r="6.5" fill="#2563eb"/>
+<circle cx="130" cy="150" r="44" fill="none" stroke="#334155" stroke-width="1.5"/>
+<circle cx="130.0" cy="106.0" r="6.5" fill="#2563eb"/>
+<circle cx="161.1" cy="118.9" r="6.5" fill="#2563eb"/>
+<circle cx="174.0" cy="150.0" r="6.5" fill="#2563eb"/>
+<circle cx="161.1" cy="181.1" r="6.5" fill="#2563eb"/>
+<circle cx="130.0" cy="194.0" r="6.5" fill="#2563eb"/>
+<circle cx="98.9" cy="181.1" r="6.5" fill="#2563eb"/>
+<circle cx="86.0" cy="150.0" r="6.5" fill="#2563eb"/>
+<circle cx="98.9" cy="118.9" r="6.5" fill="#2563eb"/>
+<circle cx="130" cy="150" r="64" fill="none" stroke="#334155" stroke-width="1.5"/>
+<circle cx="130.0" cy="86.0" r="6.5" fill="#2563eb"/>
+<circle cx="130" cy="150" r="13" fill="#dc2626"/>
+<text x="130" y="155" text-anchor="middle" font-family="sans-serif" font-size="13" fill="white" font-weight="bold">N</text>
+<text x="390" y="55" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Chlorine (Cl)</text>
+<text x="390" y="74" text-anchor="middle" font-family="sans-serif" font-size="13">2, 8, 7  ·  valence: 7</text>
+<circle cx="390" cy="150" r="24" fill="none" stroke="#334155" stroke-width="1.5"/>
+<circle cx="390.0" cy="126.0" r="6.5" fill="#2563eb"/>
+<circle cx="390.0" cy="174.0" r="6.5" fill="#2563eb"/>
+<circle cx="390" cy="150" r="44" fill="none" stroke="#334155" stroke-width="1.5"/>
+<circle cx="390.0" cy="106.0" r="6.5" fill="#2563eb"/>
+<circle cx="421.1" cy="118.9" r="6.5" fill="#2563eb"/>
+<circle cx="434.0" cy="150.0" r="6.5" fill="#2563eb"/>
+<circle cx="421.1" cy="181.1" r="6.5" fill="#2563eb"/>
+<circle cx="390.0" cy="194.0" r="6.5" fill="#2563eb"/>
+<circle cx="358.9" cy="181.1" r="6.5" fill="#2563eb"/>
+<circle cx="346.0" cy="150.0" r="6.5" fill="#2563eb"/>
+<circle cx="358.9" cy="118.9" r="6.5" fill="#2563eb"/>
+<circle cx="390" cy="150" r="64" fill="none" stroke="#334155" stroke-width="1.5"/>
+<circle cx="390.0" cy="86.0" r="6.5" fill="#2563eb"/>
+<circle cx="440.0" cy="110.1" r="6.5" fill="#2563eb"/>
+<circle cx="452.4" cy="164.2" r="6.5" fill="#2563eb"/>
+<circle cx="417.8" cy="207.7" r="6.5" fill="#2563eb"/>
+<circle cx="362.2" cy="207.7" r="6.5" fill="#2563eb"/>
+<circle cx="327.6" cy="164.2" r="6.5" fill="#2563eb"/>
+<circle cx="340.0" cy="110.1" r="6.5" fill="#2563eb"/>
+<circle cx="390" cy="150" r="13" fill="#dc2626"/>
+<text x="390" y="155" text-anchor="middle" font-family="sans-serif" font-size="13" fill="white" font-weight="bold">N</text>
+<text x="260" y="248" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#334155">Red center = nucleus (not to scale). Blue dots = electrons. Shells are a model, not photographs of orbits.</text>
+</svg>
