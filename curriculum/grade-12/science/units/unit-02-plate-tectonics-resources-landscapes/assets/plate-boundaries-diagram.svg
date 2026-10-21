@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" role="img" aria-labelledby="svgTitle svgDesc">
+<title id="svgTitle">Three types of plate boundary</title>
+<desc id="svgDesc">Three labeled cross-section panels. Left: divergent boundary with plates moving apart, a mid-ocean ridge and new crust. Middle: convergent ocean-continent boundary with a trench, a subducting slab, and volcanoes on the overriding plate. Right: transform boundary with two plates sliding sideways past each other along a fault.</desc>
+<style>
+  .panel { fill: #ffffff; stroke: #222222; stroke-width: 2; }
+  .title { font: bold 20px sans-serif; fill: #111111; }
+  .label { font: 14px sans-serif; fill: #111111; }
+  .small  { font: 12px sans-serif; fill: #333333; }
+  .arrow { stroke: #b00020; stroke-width: 3; fill: none; marker-end: url(#ah); }
+  .ocean { fill: #bcd8f0; }
+  .oc-crust { fill: #8a6f4d; }
+  .ct-crust { fill: #c9a86a; }
+  .mantle { fill: #f2b8a0; }
+  .magma { fill: #d43d2a; }
+  .fault { stroke: #111111; stroke-width: 3; stroke-dasharray: 8 5; }
+</style>
+<defs>
+  <marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+    <polygon points="0,0 10,4 0,8" fill="#b00020"/>
+  </marker>
+</defs>
+
+<!-- ============ PANEL 1: DIVERGENT ============ -->
+<rect class="panel" x="10" y="10" width="280" height="600"/>
+<text class="title" x="24" y="42">1. Divergent</text>
+<text class="small" x="24" y="62">plates move apart</text>
+<rect class="ocean" x="10" y="120" width="280" height="60"/>
+<rect class="oc-crust" x="10" y="180" width="128" height="40"/>
+<rect class="oc-crust" x="162" y="180" width="128" height="40"/>
+<rect class="mantle" x="10" y="220" width="280" height="390"/>
+<polygon class="magma" points="138,610 162,610 150,300"/>
+<rect class="oc-crust" x="60" y="150" width="68" height="30"/>
+<rect class="oc-crust" x="172" y="150" width="68" height="30"/>
+<text class="label" x="24" y="145">ocean water</text>
+<text class="label" x="180" y="105">mid-ocean ridge</text>
+<line class="arrow" x1="120" y1="200" x2="60" y2="200"/>
+<line class="arrow" x1="180" y1="200" x2="240" y2="200"/>
+<text class="label" x="24" y="250">new oceanic crust</text>
+<text class="label" x="24" y="270">forms here</text>
+<text class="small" x="24" y="560">Example: Mid-Atlantic Ridge</text>
+<text class="small" x="24" y="580">Features: ridge, rift valley,</text>
+<text class="small" x="24" y="598">new seafloor, shallow quakes</text>
+
+<!-- ============ PANEL 2: CONVERGENT ============ -->
+<rect class="panel" x="310" y="10" width="280" height="600"/>
+<text class="title" x="324" y="42">2. Convergent</text>
+<text class="small" x="324" y="62">oceanic plate sinks beneath continental plate</text>
+<rect class="ocean" x="310" y="120" width="150" height="60"/>
+<rect class="oc-crust" x="310" y="180" width="150" height="35"/>
+<rect class="ct-crust" x="460" y="150" width="130" height="65"/>
+<polygon class="ct-crust" points="460,150 590,150 560,120 490,120"/>
+<rect class="mantle" x="310" y="215" width="280" height="395"/>
+<polygon class="oc-crust" points="430,215 470,215 400,420 370,420"/>
+<polygon class="magma" points="500,420 520,420 512,260 506,260"/>
+<polygon class="magma" points="520,150 545,150 536,120"/>
+<polygon class="magma" points="470,150 495,150 486,120"/>
+<line class="arrow" x1="420" y1="197" x2="470" y2="197"/>
+<line class="arrow" x1="500" y1="182" x2="450" y2="182"/>
+<text class="label" x="318" y="105">trench</text>
+<line x1="455" y1="110" x2="448" y2="150" stroke="#111" stroke-width="1.5"/>
+<text class="label" x="500" y="105">volcanoes</text>
+<text class="small" x="324" y="560">Example: Andes (Nazca plate</text>
+<text class="small" x="324" y="580">beneath South America)</text>
+<text class="small" x="324" y="598">Features: trench, volcanic</text>
+<text class="small" x="324" y="616">arc, deep quakes</text>
+<text class="label" x="330" y="300">subducting slab</text>
+
+<!-- ============ PANEL 3: TRANSFORM ============ -->
+<rect class="panel" x="610" y="10" width="280" height="600"/>
+<text class="title" x="624" y="42">3. Transform</text>
+<text class="small" x="624" y="62">plates slide sideways past each other</text>
+<rect class="ct-crust" x="610" y="180" width="280" height="60"/>
+<rect class="ct-crust" x="610" y="330" width="280" height="60"/>
+<rect class="mantle" x="610" y="390" width="280" height="220"/>
+<rect class="mantle" x="610" y="120" width="280" height="60"/>
+<line class="fault" x1="610" y1="310" x2="890" y2="310"/>
+<line class="arrow" x1="680" y1="205" x2="780" y2="205"/>
+<line class="arrow" x1="820" y1="360" x2="720" y2="360"/>
+<text class="label" x="624" y="300">fault line</text>
+<text class="label" x="624" y="170">no crust created</text>
+<text class="label" x="624" y="190">or destroyed here</text>
+<text class="small" x="624" y="560">Example: San Andreas Fault</text>
+<text class="small" x="624" y="580">Features: offset streams and</text>
+<text class="small" x="624" y="598">roads, frequent earthquakes,</text>
+<text class="small" x="624" y="616">no volcanoes</text>
+
+<text class="small" x="24" y="630" font-style="italic">Cross-sections are schematic, not to scale. Red arrows show plate motion.</text>
+</svg>

@@ -5040,28 +5040,92 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/lessons/lesson-01-plate-boundaries-landforms.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/lessons/lesson-02-weathering-erosion-deposition.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/lessons/lesson-03-topographic-maps-relief.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/lessons/lesson-04-resources-from-earth-processes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/lessons/lesson-05-hazards-human-settlement.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/assets/river-valley-landscape.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-12/science/units/unit-02-plate-tectonics-resources-landscapes/assets/plate-boundaries-diagram.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 47,
+  "assessment": 51,
+  "asset": 65,
+  "assets": 48,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 252,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 47,
+  "project": 47,
+  "quiz": 270,
+  "resource-pack": 47,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 47,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 47,
   "unit-text": 8
  },
  "review_notes": [
