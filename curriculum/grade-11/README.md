@@ -18,9 +18,10 @@ See also: [curriculum index](../README.md).
   (function transformations, composition, inverses) delivered as a
   validated draft in this run's draft PR (issue #50).
 - [Science](science/README.md) — Physics pathway; audit and
-  scope-and-sequence are a validated draft (issue #51); Unit 01
-  (measurement, vectors, motion, and uncertainty) delivered as a
-  validated draft in this run's draft PR; units 02–08 planned.
+  scope-and-sequence are a validated draft (issue #51); Units 01–02
+  (measurement, vectors, motion, and uncertainty; forces, free-body
+  diagrams, and dynamics) delivered as validated drafts in draft
+  PRs; units 03–08 planned.
 - [Language arts](language-arts/README.md) — American literature, rhetoric,
   and research pathway; audit and scope-and-sequence delivered as a validated
   draft (issue #52); Unit 01 (American literature contexts, themes, and close

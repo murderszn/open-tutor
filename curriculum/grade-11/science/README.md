@@ -2,8 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; Unit 01 is delivered as a validated draft in this run's draft PR
-(linked from issue #51); units 02–08 are planned, not yet written. See
+delivered; Units 01–02 are delivered as validated drafts in draft PRs
+(linked from issue #51); units 03–08 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -103,4 +103,5 @@ by a PhET simulation or a structured observation.
 ## Units
 
 - [Unit 01 — Measurement, vectors, motion, and uncertainty](units/unit-01-measurement-vectors-motion-and-uncertainty/README.md) — delivered as a validated draft (issue #51); SI units and dimensional analysis, accuracy vs. precision and uncertainty, vector components and resultants, kinematics graphs and the constant-acceleration equations, projectile motion with a bench launch investigation.
-- Units 02–08 (forces and dynamics; energy; momentum; circular motion and gravitation; waves; circuits and electromagnetism; thermal systems and modern physics) — planned, not yet written. The review package R00 is also planned.
+- [Unit 02 — Forces, free-body diagrams, and dynamics](units/unit-02-forces-free-body-diagrams-dynamics/README.md) — delivered as a validated draft (issue #51); Newton's first and third laws, free-body diagrams, `F_net = ma` with friction, inclines, connected systems, and a ramp investigation testing `a = g sin θ`.
+- Units 03–08 (energy; momentum; circular motion and gravitation; waves; circuits and electromagnetism; thermal systems and modern physics) — planned, not yet written. The review package R00 is also planned.
