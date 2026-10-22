@@ -362,7 +362,8 @@ limits.
 
 ## 10. Gaps and paths for future units
 
-- Units U01–U08 and the R00 diagnostic/final-review package are all unbuilt —
+- Units U01 and U03 are delivered as drafts and U02 as draft PR #181;
+  U04–U08 and the R00 diagnostic/final-review package are unbuilt —
   each is a later worker section on issue #9.
 - No K-appropriate internal map templates, picture vocabulary cards, or
   play-money sets exist; units will author originals once and share them.
@@ -374,8 +375,10 @@ limits.
 
 ## 11. Planned units (prose — no files yet; no links to missing files)
 
-U01 Identity, belonging, and classroom community; U02 Rules, fairness, and
-cooperative choices; U03 Community helpers: roles and responsibilities;
+U01 Identity, belonging, and classroom community (delivered as a draft);
+U02 Rules, fairness, and cooperative choices (delivered as draft PR #181,
+not yet merged); U03 Community helpers: roles and responsibilities
+(delivered as a draft with this unit);
 U04 Maps, symbols, and nearby places; U05 Needs, wants, and simple exchanges;
 U06 Time, sequence, and change; U07 Cultures, traditions, and respectful
 curiosity; U08 Caring for shared places and community inquiry; R00 diagnostic,
