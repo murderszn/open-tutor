@@ -2,8 +2,10 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered,
-and Unit 01 is delivered as a validated draft; the remaining seven units are planned,
-not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+and Units 01 and 03 are delivered as validated drafts (Unit 02 is delivered
+as a validated draft in draft PR #182, not yet on the default branch); the
+remaining five units are planned, not yet written. See
+[scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -63,9 +65,13 @@ adoption or accreditation). Full crosswalk in
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
 - `units/` — eight units: **Unit 01 — Counting, place value, and tens**
-  delivered as a validated draft
-  ([units/unit-01-counting-place-value-and-tens/](units/unit-01-counting-place-value-and-tens/));
-  Units 02–08 planned, not yet written:
+  and **Unit 03 — Subtraction strategies within 20** delivered as
+  validated drafts
+  ([units/unit-01-counting-place-value-and-tens/](units/unit-01-counting-place-value-and-tens/),
+  [units/unit-03-subtraction-strategies-within-20/](units/unit-03-subtraction-strategies-within-20/));
+  Unit 02 is delivered as a validated draft in draft PR #182 (not yet on
+  the default branch, so it has no file link here yet); Units 04–08
+  planned, not yet written:
   1. Counting, place value, and tens
   2. Addition strategies within 20
   3. Subtraction strategies within 20
