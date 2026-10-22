@@ -334,9 +334,12 @@ age suitability and advertising-free access.
 
 ## 10. Gaps and paths for future units
 
-- Units U02–U08 and the R00 diagnostic/final-review package are unbuilt —
+- Units U04–U08 and the R00 diagnostic/final-review package are unbuilt —
   each is a later worker section on issue #8. U01 (Oral language listening
-  and print concepts) is delivered as a validated draft.
+  and print concepts) is delivered as a validated draft, U02 (Rhyme
+  syllables and phonemic awareness) is delivered as a validated draft in
+  PR #180 (unmerged), and U03 (Letter recognition and sound
+  correspondences) is delivered as a validated draft in this run's PR.
 - No K-appropriate internal word lists, decodable passages, or read-aloud sets
   exist; units will author original passages and clearly labeled public-domain
   texts (e.g., Aesop) with named fictional practice data where needed.
@@ -348,8 +351,10 @@ age suitability and advertising-free access.
 
 ## 11. Planned units (prose — no files yet; no links to missing files)
 
-U01 Oral language listening and print concepts; U02 Rhyme syllables and phonemic
-awareness; U03 Letter recognition and sound correspondences; U04 Blending
+U01 Oral language listening and print concepts and U03 Letter recognition
+and sound correspondences are delivered as validated drafts (U02 Rhyme
+syllables and phonemic awareness is delivered as a validated draft in
+PR #180, unmerged). Remaining planned units: U04 Blending
 segmenting and regular CVC words; U05 Shared reading retelling and sequence;
 U06 Decodable reading and sentence foundations; U07 Informational text questions
 and drawing-to-writing; U08 Opinion narrative and informational oral-written
