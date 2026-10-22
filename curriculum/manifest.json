@@ -1962,6 +1962,70 @@
    "kind": "lesson"
   },
   {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/lessons/lesson-01-what-is-it-made-of.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/lessons/lesson-02-rough-smooth-bendy-stiff.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/lessons/lesson-03-does-water-get-through.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/lessons/lesson-04-what-is-the-problem.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/lessons/lesson-05-draw-it-then-build-it.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/lessons/lesson-06-test-two-covers-improve.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/science/units/unit-03-comparing-materials-designing-solutions/assets/materials-sort-scene.png",
+   "kind": "asset"
+  },
+  {
    "path": "grade-5/math/scope-and-sequence.md",
    "kind": "subject-index"
   },
@@ -5043,25 +5107,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 48,
+  "assessment": 52,
+  "asset": 65,
+  "assets": 49,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 257,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 48,
+  "project": 48,
+  "quiz": 271,
+  "resource-pack": 48,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 48,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 48,
   "unit-text": 8
  },
  "review_notes": [

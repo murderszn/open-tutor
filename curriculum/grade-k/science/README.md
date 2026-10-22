@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft; Units 02–08 and the R00 review package are
+Units 01 and 03 are delivered as validated drafts; Unit 02 is delivered as a validated
+draft in PR #178 (not yet merged); Units 04–08 and the R00 review package are
 planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -52,7 +53,7 @@ By the end of the year the learner will be able to:
 Objectives reference the Next Generation Science Standards (NGSS) kindergarten
 performance expectations (verified against the official framework; not a claim
 of state adoption, accreditation, or alignment certification). Full crosswalk in
-[scope-and-sequence.md](scope-and-sequence.md#standards-crosswalk):
+[scope-and-sequence.md](scope-and-sequence.md#4-standards-crosswalk):
 
 - Motion and Stability: K-PS2-1, K-PS2-2
 - Energy: K-PS3-1, K-PS3-2
@@ -66,10 +67,11 @@ of state adoption, accreditation, or alignment certification). Full crosswalk in
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, safety,
   accessibility.
-- `units/` — Unit 01 delivered as a validated draft; Units 02–08 planned (not yet written):
+- `units/` — Units 01 and 03 delivered as validated drafts; Unit 02 delivered as a
+  validated draft in PR #178 (not yet merged); Units 04–08 planned (not yet written):
   1. [Observing, describing, and asking questions](units/unit-01-observing-describing-asking-questions/) — delivered (draft)
-  2. Pushes, pulls, and moving objects
-  3. Comparing materials and designing simple solutions
+  2. Pushes, pulls, and moving objects — delivered as a validated draft (PR #178; file lands when that PR merges)
+  3. [Comparing materials and designing simple solutions](units/unit-03-comparing-materials-designing-solutions/) — delivered (draft)
   4. Plant needs and growth observations
   5. Animal needs, habitats, and patterns
   6. Weather observations and daily patterns
