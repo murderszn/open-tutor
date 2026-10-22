@@ -3,7 +3,10 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 [Unit 01 — Questions, observations, and safe investigations](units/unit-01-questions-observations-safe-investigations/README.md)
-is delivered as a validated draft; Units 02–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+is delivered as a validated draft; Unit 02 (Sound, vibration, and
+communication) is delivered as draft PR #183, not yet merged;
+[Unit 03 — Light, visibility, shadows, and materials](units/unit-03-light-visibility-shadows-materials/README.md)
+is delivered as a validated draft; Units 04–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -82,10 +85,11 @@ adoption, accreditation, or alignment certification). Full crosswalk in
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, safety,
   accessibility.
-- `units/` — eight units; Unit 01 delivered, Units 02–08 planned (not yet written):
+- `units/` — eight units; Units 01 and 03 delivered, Unit 02 delivered as
+  a draft PR (not yet merged), Units 04–08 planned (not yet written):
   1. [Questions, observations, and safe investigations](units/unit-01-questions-observations-safe-investigations/README.md) — **delivered (validated draft)**
-  2. Sound, vibration, and communication
-  3. Light, visibility, shadows, and materials
+  2. Sound, vibration, and communication — **delivered as a draft (PR #183, not yet merged)**
+  3. [Light, visibility, shadows, and materials](units/unit-03-light-visibility-shadows-materials/README.md) — **delivered (validated draft)**
   4. External structures of plants and animals
   5. Parent–offspring similarities and behavior
   6. Sun, moon, and observable sky patterns
