@@ -5040,6 +5040,66 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-01-more-fewer-same-matching.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-02-compare-by-counting.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-03-compare-written-numerals.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-04-one-more-one-fewer.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-05-greater-less-equal-picture.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/assets/two-rows-apples-5-and-8.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
