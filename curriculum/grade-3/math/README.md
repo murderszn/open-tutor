@@ -2,8 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is drafted (validated draft, not educator-reviewed, not merged) and Units
-02–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Units 01–03 are drafted (validated drafts, not educator-reviewed, not merged;
+Unit 02 as draft PR #190) and Units 04–08 are planned, not yet written. See
+[scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-3 learner at a time; a guiding adult adapts pacing, materials, and
@@ -102,10 +103,10 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (Unit 01 drafted; Units 02–08 planned, not yet written):
+- `units/` — eight units (Units 01–03 drafted; Units 04–08 planned, not yet written):
   1. [Place value, rounding, and multi-digit operations](units/unit-01-place-value-rounding-and-operations/README.md) — **draft** (issue #18, U01; validated draft, not educator-reviewed, not merged)
-  2. Multiplication concepts and facts — planned
-  3. Division concepts and facts — planned
+  2. Multiplication concepts and facts — **draft** (issue #18, U02; validated draft PR #190, not educator-reviewed, not merged; files not yet on main, so no link until merged)
+  3. [Division concepts and facts](units/unit-03-division-concepts-and-facts/README.md) — **draft** (issue #18, U03; validated draft, not educator-reviewed, not merged)
   4. Multiplication, division, and two-step problems — planned
   5. Fractions on models and number lines — planned
   6. Measurement, time, and liquid volume — planned
