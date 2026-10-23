@@ -2,8 +2,10 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft (see below); Units 02–08 are planned,
-not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 is delivered as a validated draft (see below); Unit 02 is delivered as a
+validated draft in PR #187 (not yet merged); Unit 03 is delivered as a validated
+draft (see below); Units 04–08 are planned, not yet written. See
+[scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-2 learner at a time; a guiding adult adapts pacing, materials, and
@@ -96,7 +98,9 @@ real thing is unsafe, unavailable, or inaccessible.
 ## Units
 
 - [Unit 01 — Measurement, fair comparisons, and recording evidence](units/unit-01-measurement-fair-comparisons/README.md) — **validated draft** (weeks 3–6): testable questions, observing and recording, measuring to the nearest centimeter, fair tests with repeated trials, graphs and evidence claims; includes the fair absorbency-test investigation, formative quiz, unit assessment, teacher guide, answer key, and one generated illustration (`assets/fair-test-comparison.png`).
-- Units 02–08 — planned, not yet written (see [scope-and-sequence.md](scope-and-sequence.md) §5).
+- Unit 02 — Material properties and uses — **validated draft in PR #187** (not yet merged; weeks 6–9 per the scope-and-sequence): observable properties, hardness/flexibility and absorbency tests, choosing the best material for a purpose.
+- [Unit 03 — Heating, cooling, and reversible changes](units/unit-03-heating-cooling-reversible-changes/README.md) — **validated draft** (weeks 11–14): taking apart and rebuilding small-piece objects, warming (melting ice, softening butter) and cooling (freezing water, hardening butter) observations, reversible/irreversible sorts, and claim-and-evidence arguments; includes the Melt-and-Freeze Detective Fair investigation, formative quiz, unit assessment, teacher guide, answer key, and one generated illustration (`assets/reversible-irreversible-changes.png`).
+- Units 04–08 — planned, not yet written (see [scope-and-sequence.md](scope-and-sequence.md) §5).
 
 ## Starter lesson
 

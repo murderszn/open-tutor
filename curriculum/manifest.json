@@ -5040,6 +5040,66 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-01-take-apart-and-rebuild.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-02-warming-melting-softening.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-03-cooling-freezing-hardening.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-04-reversible-or-not.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-05-evidence-argument.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/assets/reversible-irreversible-changes.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
