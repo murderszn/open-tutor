@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Units 01 and 03 are delivered as drafts (Unit 02 is delivered as draft PR #186,
+not yet merged); the remaining five units are planned, not yet
+written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-2 learner at a time; a guiding adult adapts pacing, materials, and
@@ -85,12 +87,14 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (1 delivered as a validated draft; 2–8 planned,
-  not yet written):
+- `units/` — eight units (Units 01 and 03 delivered as drafts; Unit 02
+  delivered as draft PR #186, not yet merged; units 04–08 planned, not
+  yet written):
   1. [Place value to 1000 and number comparison](units/unit-01-place-value-to-1000-and-comparison/) —
      validated draft (not educator-reviewed, not merged)
-  2. Addition and subtraction within 100
-  3. Three-digit addition and subtraction
+  2. Addition and subtraction within 100 — **draft delivered (PR #186, not yet merged)**
+  3. [Three-digit addition and subtraction](units/unit-03-three-digit-addition-and-subtraction/) —
+     **draft delivered**
   4. Word problems and unknowns
   5. Equal groups, arrays, and repeated addition
   6. Length and standard units
