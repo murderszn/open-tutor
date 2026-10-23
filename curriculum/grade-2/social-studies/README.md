@@ -72,11 +72,14 @@ By the end of the year the learner will be able to:
 **Delivered (draft, awaiting educator review and merge):**
 
 - [U01 — Geographic tools, directions, and community maps](units/unit-01-geographic-tools-directions-community-maps/README.md)
+- [U03 — Local history, timelines, and evidence](units/unit-03-local-history-timelines-evidence/README.md)
+
+**Draft in an open pull request, not yet merged:** U02 Landforms,
+environments, and human choices (draft PR #189).
 
 **Planned (prose — no files yet):**
 
-U02 Landforms, environments, and human choices; U03 Local history, timelines,
-and evidence; U04 Rules, laws, leadership, and citizenship; U05 Work,
+U04 Rules, laws, leadership, and citizenship; U05 Work,
 resources, trade, and economic choices; U06 Migration, cultural diversity,
 and communities; U07 Public historical figures, change, and multiple
 viewpoints; U08 Community inquiry and evidence-based civic project; R00
