@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit, scope-and-sequence, and
-Unit 01 are delivered; Units 02–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Units 01 and 03 are delivered as drafts (Unit 02 is delivered as
+draft PR #184, not yet merged); Units 04–08 are planned, not yet
+written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -89,10 +91,12 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Unit 01 delivered as a validated draft; Units 02–08 planned (not yet written):
+- `units/` — Units 01 and 03 delivered as validated drafts (Unit 02
+  delivered as draft PR #184, not yet merged); Units 04–08 planned
+  (not yet written):
   1. [Phonemic review, short vowels, and decoding](units/unit-01-phonemic-review-short-vowels-and-decoding/) — **draft delivered**
-  2. Consonant blends, digraphs, and spelling — planned
-  3. Long-vowel patterns and high-frequency word practice
+  2. Consonant blends, digraphs, and spelling — **draft delivered (PR #184, not yet merged)**
+  3. [Long-vowel patterns and high-frequency word practice](units/unit-03-long-vowel-patterns-and-high-frequency-words/) — **draft delivered**
   4. Fluency, retelling, characters, and key details
   5. Informational reading: topics and text features
   6. Sentences, capitalization, punctuation, and grammar

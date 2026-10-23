@@ -5040,28 +5040,92 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/lessons/lesson-01-magic-e-final-e.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/lessons/lesson-02-ai-and-ay-say-long-a.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/lessons/lesson-03-ee-and-ea-say-long-e.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/lessons/lesson-04-oa-and-ow-say-long-o.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/lessons/lesson-05-endings-s-es-ed-ing.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/lessons/lesson-06-two-syllables-and-heart-words.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-03-long-vowel-patterns-and-high-frequency-words/assets/long-vowel-train.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 47,
+  "assessment": 51,
+  "asset": 64,
+  "assets": 48,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 253,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 47,
+  "project": 47,
+  "quiz": 270,
+  "resource-pack": 47,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 47,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 47,
   "unit-text": 8
  },
  "review_notes": [

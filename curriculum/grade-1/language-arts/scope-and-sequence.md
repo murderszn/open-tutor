@@ -392,7 +392,8 @@ advertising-free access.
 
 ## 10. Gaps and paths for future units
 
-- Units U01–U08 and the R00 diagnostic/final-review package are all unbuilt —
+- Units U01 and U03 are delivered as drafts and U02 as draft PR #184;
+  U04–U08 and the R00 diagnostic/final-review package are unbuilt —
   each is a later worker section on issue #12.
 - No grade-1-appropriate internal word lists, decodable passages, or read-aloud
   sets exist; units will author original passages and clearly labeled
@@ -405,8 +406,10 @@ advertising-free access.
 
 ## 11. Planned units (prose — no files yet; no links to missing files)
 
-U01 Phonemic review, short vowels, and decoding; U02 Consonant blends, digraphs,
-and spelling; U03 Long-vowel patterns and high-frequency word practice; U04
+U01 Phonemic review, short vowels, and decoding (delivered as a draft);
+U02 Consonant blends, digraphs, and spelling (delivered as draft PR #184,
+not yet merged); U03 Long-vowel patterns and high-frequency word practice
+(delivered as a draft with this unit); U04
 Fluency, retelling, characters, and key details; U05 Informational reading:
 topics and text features; U06 Sentences, capitalization, punctuation, and
 grammar; U07 Opinion, explanatory, and narrative writing; U08 Speaking,
