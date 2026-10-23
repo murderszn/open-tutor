@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft and Units 02–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Units 01–03 are delivered as validated drafts (Unit 01 on `main`;
+Units 02 and 03 in draft PRs, not yet merged) and Units 04–08 are
+planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-2 learner at a time; a guiding adult adapts pacing, materials, and
@@ -111,10 +113,10 @@ of state adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Unit 01 delivered as a validated draft; Units 02–08 planned (not yet written):
+- `units/` — Units 01–03 delivered as validated drafts; Units 04–08 planned (not yet written):
   1. [Phonics: vowel teams, syllables, and word parts](units/unit-01-vowel-teams-syllables-and-word-parts/) — **draft delivered**
-  2. Fluency, vocabulary, and comprehension monitoring — planned
-  3. Story structure, characters, and multiple perspectives — planned
+  2. Fluency, vocabulary, and comprehension monitoring — **draft delivered** (draft PR #188, not yet merged; files not on `main`, so not linked here)
+  3. [Story structure, characters, and multiple perspectives](units/unit-03-story-structure-characters-perspectives/) — **draft delivered** (this branch's draft PR; not yet merged)
   4. Informational reading: main topics, details, and text features — planned
   5. Grammar, sentence expansion, and conventions — planned
   6. Narrative writing: description and sequence — planned
