@@ -109,9 +109,9 @@ adoption or accreditation). Full crosswalk in
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
 - `units/` — eight units:
-  1. [Place value, decimal patterns, and powers of ten](units/unit-01-place-value-decimal-patterns-powers-of-ten/README.md) — delivered (draft PR, 2026-10-11); units 2–8 planned, not yet written
-  2. Multi-digit multiplication and division (planned)
-  3. Decimal operations and applications (planned)
+  1. [Place value, decimal patterns, and powers of ten](units/unit-01-place-value-decimal-patterns-powers-of-ten/README.md) — delivered (draft PR, 2026-10-11)
+  2. Multi-digit multiplication and division — delivered as a draft (open draft PR #198, 2026-10-18; unmerged)
+  3. [Decimal operations and applications](units/unit-03-decimal-operations-and-applications/README.md) — delivered (draft PR, 2026-10-24; unmerged); units 4–8 planned, not yet written
   4. Fraction addition and subtraction with unlike denominators (planned)
   5. Fraction multiplication, division, and models (planned)
   6. Measurement conversions and volume (planned)
