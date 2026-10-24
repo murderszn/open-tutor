@@ -3,7 +3,10 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 [Unit 01 — Geographic tools, U.S. regions, and map evidence](units/unit-01-geographic-tools-us-regions/README.md)
-is delivered as a draft (awaiting educator review and merge); Units 02–08 and R00
+is delivered as a draft (awaiting educator review and merge); Unit 02 is
+delivered as a validated draft (draft PR #197, unmerged);
+[Unit 03 — Exploration, encounters, exchange, and consequences](units/unit-03-exploration-encounters-exchange-consequences/README.md)
+is delivered as a draft (awaiting educator review and merge); Units 04–08 and R00
 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -127,7 +130,7 @@ D2.His.15, 6–8) are not taught here.
 | 32–35 | U08 | Regional history and community inquiry capstone |
 | 36 | — | Final review and portfolio |
 
-Units are planned in prose until written; no unit files exist yet. Each unit is
+Delivered units have unit files; remaining units are planned in prose until written. Each unit is
 designed as four weeks of four ~35-minute sessions: concept launch,
 skills practice, investigation/application, and review with a unit check.
 Full weekly goals are in the scope-and-sequence.
