@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+  <title id="title">Cedar Hollow timeline, 1880 to 1995 (fictional practice data)</title>
+  <desc id="desc">A horizontal timeline with six events: 1880 first families build homes near the river crossing; 1895 water-powered mill opens; 1910 railroad station opens; 1928 first brick school opens; 1950 bridge replaces the ferry boat; 1995 old mill opens as a museum. Cedar Hollow is a fictional town created for practice.</desc>
+  <rect width="960" height="240" fill="#ffffff"/>
+  <line x1="60" y1="120" x2="900" y2="120" stroke="#333333" stroke-width="3"/>
+  <g font-family="sans-serif" font-size="15" fill="#111111" text-anchor="middle">
+    <circle cx="80" cy="120" r="8" fill="#b03030"/><text x="80" y="95" font-weight="bold">1880</text><text x="80" y="155">First homes</text><text x="80" y="175">near the crossing</text>
+    <circle cx="230" cy="120" r="8" fill="#b03030"/><text x="230" y="95" font-weight="bold">1895</text><text x="230" y="155">Mill opens</text><text x="230" y="175">on the river</text>
+    <circle cx="380" cy="120" r="8" fill="#b03030"/><text x="380" y="95" font-weight="bold">1910</text><text x="380" y="155">Railroad</text><text x="380" y="175">station opens</text>
+    <circle cx="530" cy="120" r="8" fill="#b03030"/><text x="530" y="95" font-weight="bold">1928</text><text x="530" y="155">First brick</text><text x="530" y="175">school opens</text>
+    <circle cx="680" cy="120" r="8" fill="#b03030"/><text x="680" y="95" font-weight="bold">1950</text><text x="680" y="155">Bridge replaces</text><text x="680" y="175">the ferry boat</text>
+    <circle cx="850" cy="120" r="8" fill="#b03030"/><text x="850" y="95" font-weight="bold">1995</text><text x="850" y="155">Old mill opens</text><text x="850" y="175">as a museum</text>
+  </g>
+  <text x="480" y="220" font-family="sans-serif" font-size="13" fill="#555555" text-anchor="middle">Fictional practice timeline — Cedar Hollow is a made-up town, not a real place.</text>
+</svg>
