@@ -1,8 +1,10 @@
 # Grade 4 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01
-are delivered as validated drafts; units 02–08 are planned, not yet written.
+This track is a **draft in progress**: the audit, scope-and-sequence, and
+Units 01–03 are delivered (Unit 01 merged; Unit 02 as validated draft PR
+#194, unmerged; Unit 03 as a validated draft in this branch, not merged);
+units 04–08 are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -123,11 +125,13 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units; Unit 01 delivered as a validated draft, units 02–08
+- `units/` — eight units; Units 01–03 delivered, units 04–08
   planned (not yet written):
-  1. [Multi-digit place value, rounding, and operations](units/unit-01-multi-digit-place-value-rounding-operations/README.md) — **delivered 2026-10-10 (draft PR, not merged)**
-  2. Factors, multiples, and multiplication strategies
-  3. Multi-digit multiplication and division
+  1. [Multi-digit place value, rounding, and operations](units/unit-01-multi-digit-place-value-rounding-operations/README.md) — **delivered 2026-10-10; merged**
+  2. Factors, multiples, and multiplication strategies — **delivered
+     2026-10-17 as validated draft PR #194, unmerged** (no link until
+     merged, to avoid a broken link)
+  3. [Multi-digit multiplication and division](units/unit-03-multi-digit-multiplication-and-division/README.md) — **delivered as a validated draft in this branch, not merged**
   4. Fraction equivalence and comparison
   5. Fraction addition, subtraction, and whole-number products
   6. Decimals, fractions, and measurement conversions
