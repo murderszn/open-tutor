@@ -5040,28 +5040,96 @@
   {
    "path": "grade-11/language-arts/units/unit-01-american-literature-contexts-and-close-reading/assets/harbor-at-dawn-illustration.png",
    "kind": "asset"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/lessons/lesson-01-rivers-that-made-cities.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/lessons/lesson-02-cities-specialists-belief.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/lessons/lesson-03-writing-that-keeps-records.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/lessons/lesson-04-laws-as-evidence-hammurabi.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/lessons/lesson-05-one-civilizations-rise-explained.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/assessments/week-14_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/assets/riverside-city-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/assets/river-valley-map.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/assets/river-valley-timeline.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 46,
-  "assessment": 50,
-  "asset": 63,
-  "assets": 47,
+  "answer-key": 47,
+  "assessment": 51,
+  "asset": 66,
+  "assets": 48,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 247,
+  "lesson": 252,
   "new-assignment": 31,
-  "practice": 46,
-  "project": 46,
-  "quiz": 269,
-  "resource-pack": 46,
+  "practice": 47,
+  "project": 47,
+  "quiz": 270,
+  "resource-pack": 47,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 46,
+  "teacher-guide": 47,
   "template": 14,
-  "unit-index": 46,
+  "unit-index": 47,
   "unit-text": 8
  },
  "review_notes": [
