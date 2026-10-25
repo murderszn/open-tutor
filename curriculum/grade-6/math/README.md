@@ -3,7 +3,12 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 Unit 01 (ratios, unit rates, and ratio reasoning) is delivered as a draft;
-the remaining seven units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 02 (fraction and decimal operations) is delivered as a draft
+([issue #30](https://github.com/murderszn/open-tutor/issues/30), section U02);
+Unit 03 (integers, rational numbers, and the coordinate plane) is delivered
+as a draft in this branch ([issue #30](https://github.com/murderszn/open-tutor/issues/30),
+section U03); the remaining five units are planned, not yet written.
+See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-6 learner at a time; a guiding adult adapts pacing, materials, and
@@ -119,13 +124,17 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (U01 delivered as a draft; U02–U08 planned, not yet
+- `units/` — eight units (U01–U03 delivered as drafts; U04–U08 planned, not yet
   written):
   1. [Ratios, unit rates, and ratio reasoning](units/unit-01-ratios-unit-rates-ratio-reasoning/README.md)
      — draft delivered 2026-10-11 ([issue #30](https://github.com/murderszn/open-tutor/issues/30),
      section U01)
-  2. Fraction and decimal operations
-  3. Integers, rational numbers, and the coordinate plane
+  2. Fraction and decimal operations — draft delivered 2026-10-18
+     ([issue #30](https://github.com/murderszn/open-tutor/issues/30),
+     section U02; files in that section's draft, not linked here until merged)
+  3. [Integers, rational numbers, and the coordinate plane](units/unit-03-integers-rational-numbers-coordinate-plane/README.md)
+     — draft delivered in this branch ([issue #30](https://github.com/murderszn/open-tutor/issues/30),
+     section U03)
   4. Expressions, properties, and variable meaning
   5. Equations, inequalities, and quantitative relationships
   6. Area, surface area, and volume
