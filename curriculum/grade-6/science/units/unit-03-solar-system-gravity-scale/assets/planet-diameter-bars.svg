@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="330" viewBox="0 0 680 330" role="img" aria-label="Horizontal bar chart of planet diameters compared with Earth. Earth equals 1. Mercury 0.38, Venus 0.95, Earth 1.00, Mars 0.53, Jupiter 10.97, Saturn 9.14, Uranus 3.98, Neptune 3.86.">
+  <title>Planet diameters compared with Earth (Earth = 1)</title>
+  <rect width="680" height="330" fill="#ffffff"/>
+  <text x="20" y="24" font-family="sans-serif" font-size="17" font-weight="bold" fill="#111111">Planet diameters compared with Earth (Earth = 1)</text>
+  <text x="20" y="44" font-family="sans-serif" font-size="12" fill="#444444">Values from the unit dataset table: diameter ÷ 12,742 km. NOT TO SCALE for distances.</text>
+  <g font-family="sans-serif" font-size="13" fill="#111111">
+    <text x="20" y="76">Mercury</text><rect x="100" y="64" width="19" height="16" fill="#8a8a8a"/><text x="125" y="77">0.38</text>
+    <text x="20" y="102">Venus</text><rect x="100" y="90" width="48" height="16" fill="#d9a441"/><text x="154" y="103">0.95</text>
+    <text x="20" y="128">Earth</text><rect x="100" y="116" width="50" height="16" fill="#3a7bd5"/><text x="156" y="129">1.00</text>
+    <text x="20" y="154">Mars</text><rect x="100" y="142" width="27" height="16" fill="#c1553b"/><text x="133" y="155">0.53</text>
+    <text x="20" y="180">Jupiter</text><rect x="100" y="168" width="549" height="16" fill="#c99a5b"/><text x="655" y="181">10.97</text>
+    <text x="20" y="206">Saturn</text><rect x="100" y="194" width="457" height="16" fill="#d9c07a"/><text x="563" y="207">9.14</text>
+    <text x="20" y="232">Uranus</text><rect x="100" y="220" width="199" height="16" fill="#7fc4c4"/><text x="305" y="233">3.98</text>
+    <text x="20" y="258">Neptune</text><rect x="100" y="246" width="193" height="16" fill="#4a6fc5"/><text x="299" y="259">3.86</text>
+  </g>
+  <line x1="100" y1="272" x2="650" y2="272" stroke="#999999" stroke-width="1"/>
+  <text x="100" y="292" font-family="sans-serif" font-size="12" fill="#444444">0 (Earth = 1)</text>
+  <text x="600" y="292" font-family="sans-serif" font-size="12" fill="#444444">11 Earth diameters</text>
+  <text x="20" y="318" font-family="sans-serif" font-size="12" fill="#444444">Reading: Jupiter is about 11 times as wide as Earth; Mercury is about 0.4 times as wide.</text>
+</svg>
