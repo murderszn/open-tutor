@@ -2,20 +2,20 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft (not educator-reviewed, not merged);
-units 2–8 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Units 01–03 are delivered as validated drafts (not educator-reviewed, not merged);
+units 4–8 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-7 learner at a time; a guiding adult adapts pacing, materials, and
 supports. Keep completed learner work, names, photos, schedules, and grades in
 private storage — never in this public repository.
 
-`units/` — eight units; Unit 01 delivered as a validated draft (not
-educator-reviewed, not merged), units 2–8 planned (not yet written):
+`units/` — eight units; Units 01–03 delivered as validated drafts (not
+educator-reviewed, not merged), units 4–8 planned (not yet written):
 
 1. [Scientific evidence, microscopy, and cell models](units/unit-01-scientific-evidence-microscopy-cell-models/README.md) — draft
 2. Cell structures, functions, and organism organization
-3. Photosynthesis, respiration, and matter-energy flow
+3. [Photosynthesis, respiration, and matter-energy flow](units/unit-03-photosynthesis-respiration-matter-energy-flow/README.md) — draft
 4. Reproduction, inheritance, and genetic variation
 5. Natural selection, adaptation, and evolutionary evidence
 6. Ecosystem interactions, populations, and biodiversity
