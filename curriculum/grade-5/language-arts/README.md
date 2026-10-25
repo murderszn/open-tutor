@@ -2,8 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft and Units 02–08 are planned, not yet
-written. See [scope-and-sequence.md](scope-and-sequence.md).
+Unit 01 is delivered as a validated draft, Unit 03 is delivered as a validated
+draft in this branch, and Units 02 and 04–08 are planned, not yet written
+(Unit 02's draft is PR #200). See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-5 learner at a time; a guiding adult adapts pacing, materials, and
@@ -19,7 +20,7 @@ planned separately:
 
 1. [Reading fluency, morphology, and precise vocabulary](units/unit-01-reading-fluency-morphology-vocabulary/README.md) — validated draft
 2. Literary theme, perspective, and character development — planned
-3. Informational text synthesis: structure and evidence — planned
+3. [Informational text synthesis: structure and evidence](units/unit-03-informational-text-synthesis-structure-evidence/README.md) — validated draft
 4. Grammar, sentence variety, conventions, and editing — planned
 5. Narrative pacing, dialogue, and description — planned
 6. Opinion writing: claims, reasons, and source evidence — planned
