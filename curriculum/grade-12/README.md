@@ -35,3 +35,7 @@ See also: [curriculum index](../README.md).
   (issue #55); Unit 01 (Earth-system evidence, geologic time, and
   quantitative models) delivered as a validated draft in this run's draft PR;
   Units 02–08 and the R00 review package planned.
+  (issue #55); Unit 02 (Plate tectonics, resources, and landscape
+  processes) delivered as a validated draft in this run's draft PR;
+  Unit 01 delivered as a validated draft in PR #173; Units 03–08 and the
+  R00 review package planned.

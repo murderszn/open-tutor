@@ -7,6 +7,12 @@ models) is delivered as a validated draft in this run's draft PR — not
 educator-reviewed; Units 02–08 and the R00 review package are planned, not
 yet written. See [scope-and-sequence.md](scope-and-sequence.md) and
 [units/unit-01-earth-time-evidence/](units/unit-01-earth-time-evidence/).
+delivered; Unit 02 (Plate tectonics, resources, and landscape processes)
+is delivered as a validated draft in this run's draft PR — not
+educator-reviewed; Unit 01 is delivered as a validated draft in PR #173;
+Units 03–08 and the R00 review package are planned, not yet written. See
+[scope-and-sequence.md](scope-and-sequence.md) and
+[units/unit-02-plate-tectonics-resources-landscapes/](units/unit-02-plate-tectonics-resources-landscapes/).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-12 learner at a time; a guiding adult adapts pacing, materials,
