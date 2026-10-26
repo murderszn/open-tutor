@@ -2518,6 +2518,62 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/assessments/week-09_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/assets/river-valley-settlement.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/lessons/lesson-01-where-people-settle.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/lessons/lesson-02-adapting-and-modifying.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/lessons/lesson-03-kinds-of-resources.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/lessons/lesson-04-places-change-and-population.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-3/social-studies/units/unit-02-environment-settlement-resources/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-4/README.md",
    "kind": "grade-index"
   },
@@ -6351,25 +6407,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 68,
-  "assessment": 72,
-  "asset": 87,
-  "assets": 69,
+  "answer-key": 69,
+  "assessment": 73,
+  "asset": 88,
+  "assets": 70,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 366,
+  "lesson": 370,
   "new-assignment": 31,
-  "practice": 68,
-  "project": 68,
-  "quiz": 291,
-  "resource-pack": 68,
+  "practice": 69,
+  "project": 69,
+  "quiz": 292,
+  "resource-pack": 69,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 68,
+  "teacher-guide": 69,
   "template": 14,
-  "unit-index": 68,
+  "unit-index": 69,
   "unit-text": 8
  },
  "review_notes": [
