@@ -3,7 +3,8 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 [Unit 01 — Geographic tools, directions, and community maps](units/unit-01-geographic-tools-directions-community-maps/README.md)
-is delivered as a draft (awaiting educator review and merge); Units 02–08 and R00
+and [Unit 02 — Landforms, environments, and human choices](units/unit-02-landforms-environments-human-choices/README.md)
+are delivered as drafts (awaiting educator review and merge); Units 03–08 and R00
 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -72,16 +73,17 @@ By the end of the year the learner will be able to:
 **Delivered (draft, awaiting educator review and merge):**
 
 - [U01 — Geographic tools, directions, and community maps](units/unit-01-geographic-tools-directions-community-maps/README.md)
+- [U02 — Landforms, environments, and human choices](units/unit-02-landforms-environments-human-choices/README.md)
 
 **Planned (prose — no files yet):**
 
-U02 Landforms, environments, and human choices; U03 Local history, timelines,
-and evidence; U04 Rules, laws, leadership, and citizenship; U05 Work,
-resources, trade, and economic choices; U06 Migration, cultural diversity,
-and communities; U07 Public historical figures, change, and multiple
-viewpoints; U08 Community inquiry and evidence-based civic project; R00
-diagnostic, midyear/final review, and cumulative assessments with keys. Each
-will follow `docs/curriculum-expansion/unit-requirements.md`.
+U03 Local history, timelines, and evidence; U04 Rules, laws, leadership,
+and citizenship; U05 Work, resources, trade, and economic choices;
+U06 Migration, cultural diversity, and communities; U07 Public historical
+figures, change, and multiple viewpoints; U08 Community inquiry and
+evidence-based civic project; R00 diagnostic, midyear/final review, and
+cumulative assessments with keys. Each will follow
+`docs/curriculum-expansion/unit-requirements.md`.
 
 ## Starter lesson
 
