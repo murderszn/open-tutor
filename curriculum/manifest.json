@@ -346,6 +346,66 @@
    "kind": "subject-index"
   },
   {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/assessments/week-06_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/assets/geologic-outcrop-strata.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/lessons/lesson-01-deep-time-relative-dating.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/lessons/lesson-02-radiometric-dating-calculations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/lessons/lesson-03-dating-assumptions-earths-age.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/lessons/lesson-04-plate-tectonics-crustal-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/lessons/lesson-05-convection-quantitative-models.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-12/science/units/unit-01-earth-time-evidence/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-12/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -2487,25 +2547,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 7,
-  "assessment": 7,
-  "asset": 7,
-  "assets": 7,
+  "answer-key": 8,
+  "assessment": 8,
+  "asset": 8,
+  "assets": 8,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 38,
+  "lesson": 43,
   "new-assignment": 31,
-  "practice": 7,
-  "project": 7,
-  "quiz": 234,
-  "resource-pack": 7,
+  "practice": 8,
+  "project": 8,
+  "quiz": 235,
+  "resource-pack": 8,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 7,
+  "teacher-guide": 8,
   "template": 14,
-  "unit-index": 7
+  "unit-index": 8
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",

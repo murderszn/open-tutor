@@ -27,4 +27,6 @@ See also: [curriculum index](../README.md).
   time, plate tectonics, atmosphere and ocean, climate, biodiversity, water
   and land, energy systems, capstone investigation); audit and
   scope-and-sequence delivered as a validated draft in this run's draft PR
-  (issue #55); units planned.
+  (issue #55); Unit 01 (Earth-system evidence, geologic time, and
+  quantitative models) delivered as a validated draft in this run's draft PR;
+  Units 02–08 and the R00 review package planned.
