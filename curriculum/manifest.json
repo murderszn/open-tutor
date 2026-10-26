@@ -1386,6 +1386,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/assets/ramp-crate-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/lessons/lesson-01-inertia-and-newtons-first-law.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/lessons/lesson-02-newtons-third-law.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/lessons/lesson-03-free-body-diagrams.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/lessons/lesson-04-newtons-second-law-and-friction.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/lessons/lesson-05-inclines.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/lessons/lesson-06-connected-systems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-11/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -8223,25 +8287,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 97,
-  "assessment": 106,
-  "asset": 134,
-  "assets": 98,
+  "answer-key": 98,
+  "assessment": 107,
+  "asset": 135,
+  "assets": 99,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 519,
+  "lesson": 525,
   "new-assignment": 31,
-  "practice": 97,
-  "project": 97,
-  "quiz": 315,
-  "resource-pack": 97,
+  "practice": 98,
+  "project": 98,
+  "quiz": 316,
+  "resource-pack": 98,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 97,
+  "teacher-guide": 98,
   "template": 14,
-  "unit-index": 97,
+  "unit-index": 98,
   "unit-text": 15
  },
  "review_notes": [
