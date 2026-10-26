@@ -7886,6 +7886,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/assessments/week-14_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/assets/light-dark-seedlings-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/assets/matter-energy-cycle.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/lessons/lesson-01-photosynthesis-equation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/lessons/lesson-02-where-plant-mass-comes-from.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/lessons/lesson-03-cellular-respiration.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/lessons/lesson-04-matter-cycles-energy-flows.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/lessons/lesson-05-one-system-two-flows.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/science/units/unit-03-photosynthesis-respiration-matter-energy-flow/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-7/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -10543,25 +10607,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 134,
-  "assessment": 145,
-  "asset": 186,
-  "assets": 135,
+  "answer-key": 135,
+  "assessment": 146,
+  "asset": 188,
+  "assets": 136,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 714,
+  "lesson": 719,
   "new-assignment": 31,
-  "practice": 134,
-  "project": 134,
-  "quiz": 350,
-  "resource-pack": 134,
+  "practice": 135,
+  "project": 135,
+  "quiz": 351,
+  "resource-pack": 135,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 134,
+  "teacher-guide": 135,
   "template": 14,
-  "unit-index": 134,
+  "unit-index": 135,
   "unit-text": 15
  },
  "review_notes": [

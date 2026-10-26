@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460" role="img" aria-label="Matter and energy cycle diagram: plant photosynthesis and animal respiration linked by oxygen, carbon dioxide, sugar, and water, with sunlight entering and heat leaving">
+  <title>Matter-energy cycle: photosynthesis and respiration</title>
+  <rect x="2" y="2" width="756" height="456" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="380" y="30" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold">One system, two flows: matter cycles, energy flows one way</text>
+
+  <!-- System boundary note -->
+  <text x="380" y="52" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">Dashed frame = the meadow system boundary. Sunlight crosses IN; heat crosses OUT; matter cycles INSIDE.</text>
+
+  <!-- Plant box -->
+  <rect x="60" y="90" width="270" height="180" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="195" y="118" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">PLANT — photosynthesis</text>
+  <text x="195" y="145" text-anchor="middle" font-family="sans-serif" font-size="14">IN: carbon dioxide + water</text>
+  <text x="195" y="168" text-anchor="middle" font-family="sans-serif" font-size="14">+ light energy (chlorophyll)</text>
+  <text x="195" y="195" text-anchor="middle" font-family="sans-serif" font-size="14">OUT: sugar + oxygen</text>
+  <text x="195" y="225" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#2e7d32">6CO2 + 6H2O + light → C6H12O6 + 6O2</text>
+  <text x="195" y="250" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555555">(chloroplasts; happens in light)</text>
+
+  <!-- Animal box -->
+  <rect x="430" y="90" width="270" height="180" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+  <text x="565" y="118" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">ANIMAL — respiration</text>
+  <text x="565" y="145" text-anchor="middle" font-family="sans-serif" font-size="14">IN: sugar + oxygen</text>
+  <text x="565" y="168" text-anchor="middle" font-family="sans-serif" font-size="14">OUT: carbon dioxide + water</text>
+  <text x="565" y="195" text-anchor="middle" font-family="sans-serif" font-size="14">+ released energy (work + heat)</text>
+  <text x="565" y="225" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#e65100">C6H12O6 + 6O2 → 6CO2 + 6H2O + energy</text>
+  <text x="565" y="250" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555555">(mitochondria; happens day and night)</text>
+
+  <!-- Oxygen arrow plant -> animal (top) -->
+  <line x1="330" y1="110" x2="430" y2="110" stroke="#2e7d32" stroke-width="3" marker-end="url(#arrowGreen)"/>
+  <text x="380" y="100" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#2e7d32">oxygen</text>
+
+  <!-- Carbon dioxide arrow animal -> plant (bottom of boxes) -->
+  <line x1="430" y1="245" x2="330" y2="245" stroke="#1565c0" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <text x="380" y="268" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1565c0">carbon dioxide</text>
+
+  <!-- Sugar arrow plant -> animal (middle, via eating) -->
+  <line x1="330" y1="180" x2="430" y2="180" stroke="#6a1b9a" stroke-width="3" marker-end="url(#arrowPurple)"/>
+  <text x="380" y="172" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#6a1b9a">sugar (by eating)</text>
+
+  <!-- Sunlight in -->
+  <line x1="60" y1="330" x2="195" y2="285" stroke="#f9a825" stroke-width="3" marker-end="url(#arrowGold)"/>
+  <text x="110" y="340" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f9a825">sunlight IN</text>
+
+  <!-- Heat out -->
+  <line x1="565" y1="285" x2="700" y2="330" stroke="#c62828" stroke-width="3" marker-end="url(#arrowRed)"/>
+  <text x="600" y="350" font-family="sans-serif" font-size="14" font-weight="bold" fill="#c62828">heat OUT (lost)</text>
+
+  <!-- Decomposer note -->
+  <text x="380" y="400" text-anchor="middle" font-family="sans-serif" font-size="14">Decomposers (not drawn): return dead matter to carbon dioxide, water, and minerals.</text>
+  <text x="380" y="425" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555555">Deterministic diagram — exact, reproducible, not to scale. It hides rates, locations, and decomposers; see Lesson 05.</text>
+
+  <defs>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2e7d32"/></marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1565c0"/></marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#6a1b9a"/></marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#f9a825"/></marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c62828"/></marker>
+  </defs>
+</svg>
