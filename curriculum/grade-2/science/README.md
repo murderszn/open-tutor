@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft (see below); Units 02–08 are planned,
+Units 01 and 02 are delivered as validated drafts (see below); Units 03–08 are planned,
 not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -96,7 +96,8 @@ real thing is unsafe, unavailable, or inaccessible.
 ## Units
 
 - [Unit 01 — Measurement, fair comparisons, and recording evidence](units/unit-01-measurement-fair-comparisons/README.md) — **validated draft** (weeks 3–6): testable questions, observing and recording, measuring to the nearest centimeter, fair tests with repeated trials, graphs and evidence claims; includes the fair absorbency-test investigation, formative quiz, unit assessment, teacher guide, answer key, and one generated illustration (`assets/fair-test-comparison.png`).
-- Units 02–08 — planned, not yet written (see [scope-and-sequence.md](scope-and-sequence.md) §5).
+- [Unit 02 — Material properties and uses](units/unit-02-material-properties-and-uses/README.md) — **validated draft** (weeks 7–10): observable properties, hardness/flexibility tests, fair absorbency and sink-or-float tests, matching properties to jobs, fair purpose tests and evidence claims; includes the rain-cover investigation with rubric, formative quiz, unit assessment, teacher guide, answer key, and one generated illustration (`assets/rain-cover-comparison.png`).
+- Units 03–08 — planned, not yet written (see [scope-and-sequence.md](scope-and-sequence.md) §5).
 
 ## Starter lesson
 

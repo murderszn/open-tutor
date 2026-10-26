@@ -1762,6 +1762,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/assets/rain-cover-comparison.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/lessons/lesson-01-property-detectives.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/lessons/lesson-02-testing-hardness-flexibility.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/lessons/lesson-03-absorbency-tests.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/lessons/lesson-04-which-property-for-which-job.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/lessons/lesson-05-fair-tests-for-a-purpose.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/science/units/unit-02-material-properties-and-uses/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-2/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -5971,25 +6031,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 62,
-  "assessment": 66,
-  "asset": 79,
-  "assets": 63,
+  "answer-key": 63,
+  "assessment": 67,
+  "asset": 80,
+  "assets": 64,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 333,
+  "lesson": 338,
   "new-assignment": 31,
-  "practice": 62,
-  "project": 62,
-  "quiz": 285,
-  "resource-pack": 62,
+  "practice": 63,
+  "project": 63,
+  "quiz": 286,
+  "resource-pack": 63,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 62,
+  "teacher-guide": 63,
   "template": 14,
-  "unit-index": 62,
+  "unit-index": 63,
   "unit-text": 8
  },
  "review_notes": [
