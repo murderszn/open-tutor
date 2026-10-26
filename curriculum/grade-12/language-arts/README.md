@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units and the review package are planned, not yet written.
+delivered, and Unit 01 is delivered as a validated draft; units 02–08 and
+the review package are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -112,8 +113,12 @@ requirements were specified.
 
 ## Planned units
 
-- **U01** — Advanced close reading: critical lenses and interpretation
+- **U01** — Advanced close reading: critical lenses and interpretation —
+  **delivered as a validated draft**
+  ([units/unit-01-critical-lenses-and-interpretation/](units/unit-01-critical-lenses-and-interpretation/))
+  in this run's draft PR (issue #56, 2026-10-15)
 - **U02** — Comparative world literature and historical context
+  (planned)
 - **U03** — Rhetorical analysis: argument and media criticism
 - **U04** — Precision style: grammar and vocabulary refinement
 - **U05** — Advanced analytical, argumentative, and creative writing

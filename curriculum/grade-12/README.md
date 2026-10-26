@@ -22,7 +22,8 @@ See also: [curriculum index](../README.md).
   Units 02–08 planned.
 - [Language arts](language-arts/README.md) — Advanced literature, writing,
   and communication pathway; audit and scope-and-sequence delivered as a
-  validated draft in this run's draft PR (issue #56); units planned.
+  validated draft (issue #56); Unit 01 delivered as a validated draft in
+  this run's draft PR; units 02–08 planned.
 - [Science](science/README.md) — Earth and Space Science pathway (geologic
   time, plate tectonics, atmosphere and ocean, climate, biodiversity, water
   and land, energy systems, capstone investigation); audit and
