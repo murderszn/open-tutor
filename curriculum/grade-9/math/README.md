@@ -3,6 +3,8 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit, scope-and-sequence, and
 Units 01–02 are delivered; Units 03–08 are planned, not yet written. See
+Units 01–03 are delivered (Unit 01 merged; Units 02–03 as validated
+drafts in open draft PRs); Units 04–08 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -99,6 +101,12 @@ claim of state adoption or accreditation). Full crosswalk in
   1. [Algebra foundations: expressions and equations](units/unit-01-algebra-foundations-expressions-equations/README.md) — **delivered (validated draft)**
   2. [Linear functions: graphs and modeling](units/unit-02-linear-functions-graphs-modeling/README.md) — **delivered (validated draft)**
   3. Systems: inequalities and constraints
+- `units/` — eight units; Units 01–03 delivered as validated drafts
+  (Unit 01 merged; Unit 02 in open draft PR #210; Unit 03 in an open
+  draft PR for issue #42), Units 04–08 planned (not yet written):
+  1. [Algebra foundations: expressions and equations](units/unit-01-algebra-foundations-expressions-equations/README.md) — **delivered (validated draft)**
+  2. Linear functions: graphs and modeling — **delivered (validated draft, open draft PR #210, unmerged)**
+  3. [Systems: inequalities and constraints](units/unit-03-systems-inequalities-constraints/README.md) — **delivered (validated draft, open draft PR, unmerged)**
   4. Exponents: polynomials and operations
   5. Quadratic functions and factoring
   6. Quadratic equations and applications
