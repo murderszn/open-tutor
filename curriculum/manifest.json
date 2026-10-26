@@ -8382,6 +8382,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/assets/two-rows-apples-5-and-8.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-01-more-fewer-same-matching.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-02-compare-by-counting.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-03-compare-written-numerals.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-04-one-more-one-fewer.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/lessons/lesson-05-greater-less-equal-picture.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-k/science/README.md",
    "kind": "subject-index"
   },
@@ -8655,25 +8715,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 104,
-  "assessment": 113,
-  "asset": 142,
-  "assets": 105,
+  "answer-key": 105,
+  "assessment": 114,
+  "asset": 143,
+  "assets": 106,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 556,
+  "lesson": 561,
   "new-assignment": 31,
-  "practice": 104,
-  "project": 104,
-  "quiz": 322,
-  "resource-pack": 104,
+  "practice": 105,
+  "project": 105,
+  "quiz": 323,
+  "resource-pack": 105,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 104,
+  "teacher-guide": 105,
   "template": 14,
-  "unit-index": 104,
+  "unit-index": 105,
   "unit-text": 15
  },
  "review_notes": [
