@@ -3,7 +3,8 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 [Unit 01 — Geographic tools, U.S. regions, and map evidence](units/unit-01-geographic-tools-us-regions/README.md)
-is delivered as a draft (awaiting educator review and merge); Units 02–08 and R00
+and [Unit 02 — Indigenous nations: geography and historical perspectives](units/unit-02-indigenous-nations-geography-perspectives/README.md)
+are delivered as drafts (awaiting educator review and merge); Units 03–08 and R00
 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for

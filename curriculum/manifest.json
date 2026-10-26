@@ -3326,6 +3326,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/assessments/week-09_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/assets/culture-areas-environments.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/lessons/lesson-01-eight-culture-areas-and-environment.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/lessons/lesson-02-adapt-and-modify-one-environment.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/lessons/lesson-03-comparing-two-nations-with-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/lessons/lesson-04-two-perspectives-one-time-and-place.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/lessons/lesson-05-context-perspective-and-change-over-time.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-02-indigenous-nations-geography-perspectives/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-4/stem/README.md",
    "kind": "subject-index"
   },
@@ -6595,25 +6655,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 72,
-  "assessment": 76,
-  "asset": 92,
-  "assets": 73,
+  "answer-key": 73,
+  "assessment": 77,
+  "asset": 93,
+  "assets": 74,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 386,
+  "lesson": 391,
   "new-assignment": 31,
-  "practice": 72,
-  "project": 72,
-  "quiz": 295,
-  "resource-pack": 72,
+  "practice": 73,
+  "project": 73,
+  "quiz": 296,
+  "resource-pack": 73,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 72,
+  "teacher-guide": 73,
   "template": 14,
-  "unit-index": 72,
+  "unit-index": 73,
   "unit-text": 8
  },
  "review_notes": [
