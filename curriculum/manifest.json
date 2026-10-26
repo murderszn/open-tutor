@@ -8246,6 +8246,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/assets/african-trade-networks-schematic.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/assets/sahara-caravan-trading-town.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/lessons/lesson-01-west-african-kingdoms-gold-salt.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/lessons/lesson-02-timbuktu-learning-and-exchange.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/lessons/lesson-03-swahili-coast-monsoon-trade.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/lessons/lesson-04-great-zimbabwe-stone-and-trade.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/lessons/lesson-05-why-kingdoms-rose-and-fell.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/social-studies/units/unit-03-african-kingdoms-trade-knowledge-exchange/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-7/stem/README.md",
    "kind": "subject-index"
   },
@@ -10807,25 +10871,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 138,
-  "assessment": 149,
-  "asset": 193,
-  "assets": 139,
+  "answer-key": 139,
+  "assessment": 150,
+  "asset": 195,
+  "assets": 140,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 737,
+  "lesson": 742,
   "new-assignment": 31,
-  "practice": 138,
-  "project": 138,
-  "quiz": 354,
-  "resource-pack": 138,
+  "practice": 139,
+  "project": 139,
+  "quiz": 355,
+  "resource-pack": 139,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 138,
+  "teacher-guide": 139,
   "template": 14,
-  "unit-index": 138,
+  "unit-index": 139,
   "unit-text": 15
  },
  "review_notes": [

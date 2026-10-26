@@ -9,6 +9,13 @@ Islamic, and Mediterranean societies) is delivered as a validated draft**
 ([units/unit-02-byzantine-islamic-and-mediterranean-societies/](units/unit-02-byzantine-islamic-and-mediterranean-societies/),
 2026-10-19, not yet educator-reviewed or merged); Units 03–08 are planned,
 not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+delivered; **Unit 02 (Byzantine, Islamic, and Mediterranean societies)
+is delivered as a validated draft** (draft PR #211, 2026-10-19, not yet
+educator-reviewed or merged); **Unit 03 (African kingdoms: trade,
+knowledge, and cultural exchange) is delivered as a validated draft**
+([units/unit-03-african-kingdoms-trade-knowledge-exchange/](units/unit-03-african-kingdoms-trade-knowledge-exchange/),
+2026-10-26, not yet educator-reviewed or merged); Units 04–08 are
+planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-7 learner at a time; a guiding adult adapts pacing, materials, and
