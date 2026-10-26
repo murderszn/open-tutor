@@ -4,6 +4,8 @@ Audit section A00 of [issue #50](https://github.com/murderszn/open-tutor/issues/
 Status: **validated draft** (this document, the track README, and the grade-11
 hub page); Units 01 and 02 delivered as validated drafts, units 03–08
 planned, not yet written.
+hub page); Units 01–03 delivered as validated drafts (Unit 02 in
+draft PR #179, not yet merged), units 04–08 planned, not yet written.
 
 ## 1. Audit: existing-file inventory
 
@@ -749,3 +751,9 @@ and asymptotes** (four to six written lessons, investigation, quiz,
 assessment, keys, Resource Pack, generated image), then U04–U08 in
 prerequisite order, then R00 (diagnostic, midyear/final review, cumulative
 assessment and keys). U01 and U02 are delivered as validated drafts.
+Issue #50's next section is **U04 — Radical functions and equations**
+(four to six written lessons, investigation, quiz, assessment, keys,
+Resource Pack, generated image), then U05–U08 in prerequisite order,
+then R00 (diagnostic, midyear/final review, cumulative assessment and
+keys). Units 01–03 are delivered as validated drafts (Unit 02 in
+draft PR #179, not yet merged).

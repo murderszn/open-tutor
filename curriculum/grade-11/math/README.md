@@ -121,6 +121,17 @@ claim of state adoption or accreditation). Full crosswalk in
      numbers](units/unit-02-polynomial-zeros-complex-numbers/README.md) —
      validated draft (issue #50)
   3. Rational expressions, functions, and asymptotes
+- `units/` — Units 01–03 delivered as validated drafts (issue #50);
+  units 04–08 planned, not yet written:
+  1. [Function transformations, composition, and
+     inverses](units/unit-01-function-transformations/README.md) —
+     validated draft (issue #50)
+  2. Polynomial functions, zeros, and complex numbers —
+     validated draft (issue #50, draft PR #179, not yet merged;
+     named here in prose only because its files are not on `main`)
+  3. [Rational expressions, functions, and
+     asymptotes](units/unit-03-rational-expressions-functions-asymptotes/README.md) —
+     validated draft (issue #50)
   4. Radical functions and equations
   5. Exponential and logarithmic functions and models
   6. Trigonometric functions and periodic models
