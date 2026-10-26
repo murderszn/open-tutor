@@ -158,6 +158,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/assets/make-ten-ten-frames.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/lessons/lesson-01-count-on-from-the-bigger-number.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/lessons/lesson-02-order-does-not-change-the-total.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/lessons/lesson-03-make-ten-with-ten-frames.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/lessons/lesson-04-doubles-and-near-doubles.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/lessons/lesson-05-missing-addends-and-the-equal-sign.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/math/units/unit-02-addition-strategies-within-20/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-1/science/README.md",
    "kind": "subject-index"
   },
@@ -5659,25 +5719,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 57,
-  "assessment": 61,
-  "asset": 74,
-  "assets": 58,
+  "answer-key": 58,
+  "assessment": 62,
+  "asset": 75,
+  "assets": 59,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 305,
+  "lesson": 310,
   "new-assignment": 31,
-  "practice": 57,
-  "project": 57,
-  "quiz": 280,
-  "resource-pack": 57,
+  "practice": 58,
+  "project": 58,
+  "quiz": 281,
+  "resource-pack": 58,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 57,
+  "teacher-guide": 58,
   "template": 14,
-  "unit-index": 57,
+  "unit-index": 58,
   "unit-text": 8
  },
  "review_notes": [
