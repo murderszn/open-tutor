@@ -3958,6 +3958,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/assets/particle-models-solid-liquid-gas.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-01-matter-is-made-of-tiny-particles.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-02-particle-models-of-solids-liquids-gases.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-03-identifying-materials-by-properties.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-04-mixtures.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/lessons/lesson-05-dissolving-and-model-revision.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/science/units/unit-02-particle-models-properties-mixtures/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-5/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -6719,25 +6779,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 74,
-  "assessment": 79,
-  "asset": 95,
-  "assets": 75,
+  "answer-key": 75,
+  "assessment": 80,
+  "asset": 96,
+  "assets": 76,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 396,
+  "lesson": 401,
   "new-assignment": 31,
-  "practice": 74,
-  "project": 74,
-  "quiz": 296,
-  "resource-pack": 74,
+  "practice": 75,
+  "project": 75,
+  "quiz": 297,
+  "resource-pack": 75,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 74,
+  "teacher-guide": 75,
   "template": 14,
-  "unit-index": 74,
+  "unit-index": 75,
   "unit-text": 8
  },
  "review_notes": [

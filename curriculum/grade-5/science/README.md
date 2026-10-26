@@ -1,8 +1,8 @@
 # Grade 5 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01
-are delivered as validated drafts; Units 02–08 and R00 are planned, not yet
+This track is a **draft in progress**: the audit, scope-and-sequence, and Units 01–02
+are delivered as validated drafts; Units 03–08 and R00 are planned, not yet
 written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -32,7 +32,8 @@ explicit adult directions for every investigation.
 ## Units
 
 - [Unit 01 — Models, measurement, and controlled investigations](units/unit-01-measurement-investigations/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; testable questions, observation vs. inference, metric measurement and conversion, fair tests, bar/line graphs, models and revision, design criteria/constraints, and the investigation-report format.
-- Units 02–08 and R00 — planned, not yet written (see the [scope-and-sequence](scope-and-sequence.md) §5 and §11).
+- [Unit 02 — Particle models, properties, and mixtures](units/unit-02-particle-models-properties-mixtures/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; evidence for particles too small to see, particle models of solids/liquids/gases, identifying materials by properties, mixtures and separation, dissolving evidence and model revision.
+- Units 03–08 and R00 — planned, not yet written (see the [scope-and-sequence](scope-and-sequence.md) §5 and §11).
 
 ## Track objectives (measurable, adult-assessed)
 
