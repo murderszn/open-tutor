@@ -109,9 +109,9 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Unit 01 delivered as a validated draft; Units 02–08 planned (not yet written):
+- `units/` — Unit 01 delivered as a validated draft; Unit 02 delivered as a validated draft; Units 03–08 planned (not yet written):
   1. [Word analysis, morphology, vocabulary, and fluency](units/unit-01-word-analysis-morphology-fluency/) — **draft delivered**
-  2. Literary comprehension: character and theme
+  2. [Literary comprehension: character and theme](units/unit-02-literary-comprehension/) — **draft delivered**
   3. Informational text: main idea, structures, and evidence
   4. Sentence structure, grammar, and conventions
   5. Narrative writing: dialogue and revision
