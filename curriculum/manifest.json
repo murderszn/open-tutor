@@ -1190,6 +1190,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/assets/town-meeting-illustration.jpg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/lessons/lesson-01-rhetoric-toolkit.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/lessons/lesson-02-declaration-structure-and-word-choice.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/lessons/lesson-03-madison-federalist-10.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/lessons/lesson-04-lincoln-second-inaugural.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/lessons/lesson-05-bill-of-rights-and-rhetoric-across-texts.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-11/language-arts/units/unit-02-founding-rhetoric-speeches-and-primary-texts/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-11/math/README.md",
    "kind": "subject-index"
   },
@@ -8287,25 +8347,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 98,
-  "assessment": 107,
-  "asset": 135,
-  "assets": 99,
+  "answer-key": 99,
+  "assessment": 108,
+  "asset": 136,
+  "assets": 100,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 525,
+  "lesson": 530,
   "new-assignment": 31,
-  "practice": 98,
-  "project": 98,
-  "quiz": 316,
-  "resource-pack": 98,
+  "practice": 99,
+  "project": 99,
+  "quiz": 317,
+  "resource-pack": 99,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 98,
+  "teacher-guide": 99,
   "template": 14,
-  "unit-index": 98,
+  "unit-index": 99,
   "unit-text": 15
  },
  "review_notes": [

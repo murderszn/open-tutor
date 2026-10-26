@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units and the review package are planned, not yet written.
+delivered, Units 01–02 are delivered as validated drafts; the remaining
+units and the review package are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -105,10 +106,11 @@ requirements were specified.
 
 - **U01** — [American literature contexts, themes, and close reading](units/unit-01-american-literature-contexts-and-close-reading/README.md)
   (draft delivered 2026-10-14 for issue #52)
+- **U02** — [Founding rhetoric: speeches and primary texts](units/unit-02-founding-rhetoric-speeches-and-primary-texts/README.md)
+  (draft delivered 2026-10-21 for issue #52)
 
 **Planned:**
 
-- **U02** — Founding rhetoric: speeches and primary texts
 - **U03** — Literary movements, diverse voices, and interpretation
 - **U04** — Language, rhetoric, syntax, and stylistic analysis
 - **U05** — Literary criticism and analytical writing
