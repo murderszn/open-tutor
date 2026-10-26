@@ -5,6 +5,9 @@ This track is a **draft in progress**: the audit and scope-and-sequence are deli
 Unit 01 is merged (validated draft, educator review pending); Unit 02 is drafted
 (validated draft, not educator-reviewed, not merged) and Units
 03–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+in PR #191 (validated draft, not educator-reviewed, not merged); Unit 03 is drafted
+in this PR (validated draft, not educator-reviewed, not merged); Units
+04–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-3 learner at a time; a guiding adult adapts pacing, materials, and
@@ -68,6 +71,8 @@ The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, 
 1. [Fair tests, measurement, data and explanations](units/unit-01-fair-tests-measurement-data/README.md) — **merged** (issue #19, U01; validated draft, educator review pending)
 2. [Balanced and unbalanced forces and motion](units/unit-02-balanced-and-unbalanced-forces-motion/README.md) — **draft** (issue #19, U02; validated draft, not educator-reviewed, not merged)
 3. Magnetic and electric interactions — planned
+2. Balanced and unbalanced forces and motion — **draft** (issue #19, U02; draft PR #191, not educator-reviewed, not merged; files not in this branch)
+3. [Magnetic and electric interactions](units/unit-03-magnetic-and-electric-interactions/README.md) — **draft** (issue #19, U03; validated draft, not educator-reviewed, not merged)
 4. Life cycles, growth and reproduction — planned
 5. Inherited traits, environmental effects and variation — planned
 6. Habitats, adaptations and survival — planned
