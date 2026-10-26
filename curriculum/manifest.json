@@ -6198,6 +6198,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/assets/powers-of-ten-ladder.webp",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/lessons/lesson-01-powers-of-ten-patterns.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/lessons/lesson-02-zero-negative-exponents.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/lessons/lesson-03-multiplying-dividing-same-base.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/lessons/lesson-04-powers-of-powers.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/lessons/lesson-05-scientific-notation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/lessons/lesson-06-operations-scientific-notation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/math/units/unit-02-integer-exponents-scientific-notation/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-8/science/README.md",
    "kind": "subject-index"
   },
@@ -7363,25 +7427,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 84,
-  "assessment": 90,
-  "asset": 115,
-  "assets": 85,
+  "answer-key": 85,
+  "assessment": 91,
+  "asset": 116,
+  "assets": 86,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 447,
+  "lesson": 453,
   "new-assignment": 31,
-  "practice": 84,
-  "project": 84,
-  "quiz": 305,
-  "resource-pack": 84,
+  "practice": 85,
+  "project": 85,
+  "quiz": 306,
+  "resource-pack": 85,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 84,
+  "teacher-guide": 85,
   "template": 14,
-  "unit-index": 84,
+  "unit-index": 85,
   "unit-text": 8
  },
  "review_notes": [
