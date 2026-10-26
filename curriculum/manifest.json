@@ -5910,6 +5910,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/assessments/week-14_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/assets/sealed-bag-conservation.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/lessons/lesson-01-freezing-melting-conservation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/lessons/lesson-02-dissolving-conservation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/lessons/lesson-03-baking-soda-vinegar-new-substance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/lessons/lesson-04-more-new-substances-and-no-new-substance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/lessons/lesson-05-open-container-gas-escape.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/science/units/unit-03-matter-conservation-chemical-change/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-5/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -10031,25 +10091,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 126,
-  "assessment": 137,
-  "asset": 171,
-  "assets": 127,
+  "answer-key": 127,
+  "assessment": 138,
+  "asset": 172,
+  "assets": 128,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 673,
+  "lesson": 678,
   "new-assignment": 31,
-  "practice": 126,
-  "project": 126,
-  "quiz": 342,
-  "resource-pack": 126,
+  "practice": 127,
+  "project": 127,
+  "quiz": 343,
+  "resource-pack": 127,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 126,
+  "teacher-guide": 127,
   "template": 14,
-  "unit-index": 126,
+  "unit-index": 127,
   "unit-text": 15
  },
  "review_notes": [
