@@ -4622,6 +4622,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/assessments/week-14_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/assets/wave-diagram.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/assets/wave-tray-cork.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/lessons/lesson-01-waves-are-patterns.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/lessons/lesson-02-sound-waves-vibrations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/lessons/lesson-03-light-reflects-and-we-see.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/lessons/lesson-04-patterns-carry-information.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/lessons/lesson-05-comparing-solutions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-4/science/units/unit-03-waves-patterns-information/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-4/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -9651,25 +9715,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 120,
-  "assessment": 129,
-  "asset": 161,
-  "assets": 121,
+  "answer-key": 121,
+  "assessment": 130,
+  "asset": 163,
+  "assets": 122,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 642,
+  "lesson": 647,
   "new-assignment": 31,
-  "practice": 120,
-  "project": 120,
-  "quiz": 338,
-  "resource-pack": 120,
+  "practice": 121,
+  "project": 121,
+  "quiz": 339,
+  "resource-pack": 121,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 120,
+  "teacher-guide": 121,
   "template": 14,
-  "unit-index": 120,
+  "unit-index": 121,
   "unit-text": 15
  },
  "review_notes": [
