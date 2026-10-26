@@ -3,6 +3,7 @@
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered,
 Units 01–02 are delivered as drafts, and Units 03–08 are planned, not yet written.
+Units 01 and 03 are delivered as drafts (Unit 02 is delivered as a draft in PR #180, unmerged), and Units 04–08 are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -73,6 +74,11 @@ adoption or accreditation). Full crosswalk in
   1. [Oral language listening and print concepts](units/unit-01-oral-language-and-print-concepts/README.md) — **draft**
   2. [Rhyme syllables and phonemic awareness](units/unit-02-rhyme-syllables-phonemic-awareness/README.md) — **draft**
   3. Letter recognition and sound correspondences
+- `units/` — eight units (Units 01 and 03 delivered as drafts; Unit 02 delivered as a draft in PR #180, unmerged; Units 04–08 planned,
+  not yet written):
+  1. [Oral language listening and print concepts](units/unit-01-oral-language-and-print-concepts/README.md) — **draft**
+  2. Rhyme syllables and phonemic awareness
+  3. [Letter recognition and sound correspondences](units/unit-03-letter-recognition-and-sound-correspondences/README.md) — **draft**
   4. Blending segmenting and regular CVC words
   5. Shared reading retelling and sequence
   6. Decodable reading and sentence foundations

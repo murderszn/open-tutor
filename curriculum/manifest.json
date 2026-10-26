@@ -8314,6 +8314,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/assets/sound-sort-animals.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/lessons/lesson-01-uppercase-alphabet.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/lessons/lesson-02-lowercase-alphabet.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/lessons/lesson-03-consonant-sounds-a-to-m.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/lessons/lesson-04-consonant-sounds-n-to-z.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/lessons/lesson-05-short-vowel-sounds.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/lessons/lesson-06-long-vowel-sounds-and-letter-sound-match.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-03-letter-recognition-and-sound-correspondences/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-k/math/README.md",
    "kind": "subject-index"
   },
@@ -8843,25 +8907,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 107,
-  "assessment": 116,
-  "asset": 146,
-  "assets": 108,
+  "answer-key": 108,
+  "assessment": 117,
+  "asset": 147,
+  "assets": 109,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 572,
+  "lesson": 578,
   "new-assignment": 31,
-  "practice": 107,
-  "project": 107,
-  "quiz": 325,
-  "resource-pack": 107,
+  "practice": 108,
+  "project": 108,
+  "quiz": 326,
+  "resource-pack": 108,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 107,
+  "teacher-guide": 108,
   "template": 14,
-  "unit-index": 107,
+  "unit-index": 108,
   "unit-text": 15
  },
  "review_notes": [
