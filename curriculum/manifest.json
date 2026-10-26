@@ -290,6 +290,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/assets/cup-string-telephone.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/lessons/lesson-01-sounds-all-around.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/lessons/lesson-02-vibrating-things-make-sound.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/lessons/lesson-03-sound-makes-things-move.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/lessons/lesson-04-carrying-messages-with-sound.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/lessons/lesson-05-design-better-sound-messenger.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/science/units/unit-02-sound-vibration-communication/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-1/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -5719,25 +5779,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 58,
-  "assessment": 62,
-  "asset": 75,
-  "assets": 59,
+  "answer-key": 59,
+  "assessment": 63,
+  "asset": 76,
+  "assets": 60,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 310,
+  "lesson": 315,
   "new-assignment": 31,
-  "practice": 58,
-  "project": 58,
-  "quiz": 281,
-  "resource-pack": 58,
+  "practice": 59,
+  "project": 59,
+  "quiz": 282,
+  "resource-pack": 59,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 58,
+  "teacher-guide": 59,
   "template": 14,
-  "unit-index": 58,
+  "unit-index": 59,
   "unit-text": 8
  },
  "review_notes": [

@@ -367,8 +367,10 @@ tally charts, simple building materials (tape, paper, craft sticks).
 
 ## 11. Planned units (prose — no files yet; no links to missing files)
 
-U01 Questions, observations, and safe investigations; U02 Sound, vibration, and
-communication; U03 Light, visibility, shadows, and materials; U04 External
+Units 01 and 02 are delivered as validated drafts (see
+`units/unit-01-questions-observations-safe-investigations/` and
+`units/unit-02-sound-vibration-communication/`). Remaining planned units
+(prose — no files yet; no links to missing files): U03 Light, visibility, shadows, and materials; U04 External
 structures of plants and animals; U05 Parent–offspring similarities and
 behavior; U06 Sun, moon, and observable sky patterns; U07 Seasonal daylight and
 weather observations; U08 Engineering solutions inspired by living things; R00
