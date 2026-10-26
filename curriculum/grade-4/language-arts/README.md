@@ -4,6 +4,8 @@ Independent, grade-specific materials in the public OpenTutor curriculum library
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 Unit 01 is delivered as a validated draft, Unit 02 is delivered as a validated draft,
 and Units 03–08 are planned, not yet written.
+Units 01–03 are delivered as validated drafts (Unit 02 as draft PR #196,
+Unit 03 as this draft PR) and Units 04–08 are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -82,6 +84,11 @@ By the end of the year the learner will be able to:
   1. [Reading evidence, inference, and vocabulary](units/unit-01-reading-evidence-inference-vocabulary/README.md) — validated draft
   2. [Literary theme, characters, setting, and point of view](units/unit-02-literary-theme-characters-setting-point-of-view/README.md) — validated draft
   3. Informational main ideas, structures, and source comparison
+- `units/` — eight units (Units 01–03 delivered as validated drafts;
+  Units 04–08 planned, not yet written):
+  1. [Reading evidence, inference, and vocabulary](units/unit-01-reading-evidence-inference-vocabulary/README.md) — validated draft
+  2. Literary theme, characters, setting, and point of view — validated draft (draft PR #196, unmerged)
+  3. [Informational main ideas, structures, and source comparison](units/unit-03-informational-main-ideas-structures-source-comparison/README.md) — validated draft
   4. Grammar, sentence combining, punctuation, and spelling
   5. Narrative craft: description, dialogue, and revision
   6. Opinion writing: evidence, reasons, and organization
