@@ -23,4 +23,5 @@ See also: [curriculum index](../README.md).
   units planned.
 - [Social studies](social-studies/README.md) — U.S. history after
   Reconstruction, circa 1865 to the present; audit and scope-and-sequence are
-  a validated draft (issue #49); units planned.
+  a validated draft (issue #49); Units 01–02 delivered as validated drafts,
+  Units 03–08 planned.

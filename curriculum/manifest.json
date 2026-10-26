@@ -1062,6 +1062,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/assets/tenement-street-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/lessons/lesson-01-immigration-waves-push-pull.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/lessons/lesson-02-the-new-industrial-city.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/lessons/lesson-03-nativism-exclusion.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/lessons/lesson-04-labor-unions-strikes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/lessons/lesson-05-reform-progressives-suffrage.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-11/README.md",
    "kind": "grade-index"
   },
@@ -8163,25 +8223,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 96,
-  "assessment": 105,
-  "asset": 133,
-  "assets": 97,
+  "answer-key": 97,
+  "assessment": 106,
+  "asset": 134,
+  "assets": 98,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 514,
+  "lesson": 519,
   "new-assignment": 31,
-  "practice": 96,
-  "project": 96,
-  "quiz": 314,
-  "resource-pack": 96,
+  "practice": 97,
+  "project": 97,
+  "quiz": 315,
+  "resource-pack": 97,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 96,
+  "teacher-guide": 97,
   "template": 14,
-  "unit-index": 96,
+  "unit-index": 97,
   "unit-text": 15
  },
  "review_notes": [
