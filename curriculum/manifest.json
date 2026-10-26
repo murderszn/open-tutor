@@ -1626,6 +1626,70 @@
    "kind": "teacher-guide"
   },
   {
+   "kind": "unit-index",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/README.md"
+  },
+  {
+   "kind": "answer-key",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/answer-key.md"
+  },
+  {
+   "kind": "assessment",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/assessments/unit-assessment.md"
+  },
+  {
+   "kind": "quiz",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/assessments/week-04_quiz.md"
+  },
+  {
+   "kind": "assets",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/assets/README.md"
+  },
+  {
+   "kind": "asset",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/assets/shop-counter-blank-tags.png"
+  },
+  {
+   "kind": "lesson",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/lessons/lesson-01-make-ten-addition-within-20.md"
+  },
+  {
+   "kind": "lesson",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/lessons/lesson-02-doubles-near-doubles-and-counting-strategies.md"
+  },
+  {
+   "kind": "lesson",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/lessons/lesson-03-subtract-within-20-take-from-ten-and-think-addition.md"
+  },
+  {
+   "kind": "lesson",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/lessons/lesson-04-break-apart-to-add-within-100.md"
+  },
+  {
+   "kind": "lesson",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/lessons/lesson-05-break-apart-to-subtract-within-100.md"
+  },
+  {
+   "kind": "lesson",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/lessons/lesson-06-four-two-digit-numbers-mental-ten-explain-why.md"
+  },
+  {
+   "kind": "practice",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/practice.md"
+  },
+  {
+   "kind": "project",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/project.md"
+  },
+  {
+   "kind": "resource-pack",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/resource-pack.md"
+  },
+  {
+   "kind": "teacher-guide",
+   "path": "grade-2/math/units/unit-02-addition-and-subtraction-within-100/teacher-guide.md"
+  },
+  {
    "path": "grade-2/science/README.md",
    "kind": "subject-index"
   },
@@ -5907,25 +5971,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 61,
-  "assessment": 65,
-  "asset": 78,
-  "assets": 62,
+  "answer-key": 62,
+  "assessment": 66,
+  "asset": 79,
+  "assets": 63,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 327,
+  "lesson": 333,
   "new-assignment": 31,
-  "practice": 61,
-  "project": 61,
-  "quiz": 284,
-  "resource-pack": 61,
+  "practice": 62,
+  "project": 62,
+  "quiz": 285,
+  "resource-pack": 62,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 61,
+  "teacher-guide": 62,
   "template": 14,
-  "unit-index": 61,
+  "unit-index": 62,
   "unit-text": 8
  },
  "review_notes": [
