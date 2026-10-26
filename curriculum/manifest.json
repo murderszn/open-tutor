@@ -6918,6 +6918,82 @@
    "kind": "unit-text"
   },
   {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/assessments/week-09_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/assets/night-train-illustration.webp",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-01-plot-structure-and-event-order.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-02-complex-characters.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-03-point-of-view-and-narrative-distance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-04-pacing-flashbacks-and-time.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-05-word-choice-and-cumulative-tone.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/lessons/lesson-06-comparing-author-choices-the-analysis-essay.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/texts/craft-vignettes.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/texts/monkeys-paw-excerpts.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/texts/night-train.md",
+   "kind": "unit-text"
+  },
+  {
    "path": "grade-9/math/README.md",
    "kind": "subject-index"
   },
@@ -7815,26 +7891,26 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 91,
-  "assessment": 97,
-  "asset": 125,
-  "assets": 92,
+  "answer-key": 92,
+  "assessment": 99,
+  "asset": 126,
+  "assets": 93,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 487,
+  "lesson": 493,
   "new-assignment": 31,
-  "practice": 91,
-  "project": 91,
+  "practice": 92,
+  "project": 92,
   "quiz": 312,
-  "resource-pack": 91,
+  "resource-pack": 92,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 91,
+  "teacher-guide": 92,
   "template": 14,
-  "unit-index": 91,
-  "unit-text": 8
+  "unit-index": 92,
+  "unit-text": 11
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
