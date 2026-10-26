@@ -1,0 +1,18 @@
+# Unit 02 assets — generation and source record
+
+## three-narrators-one-scene.png
+
+- **File:** `assets/three-narrators-one-scene.png` (generated raster PNG)
+- **Prompt used:** "Warm flat-style educational illustration for a 6th-grade language arts lesson on narrator and point of view: one rainy evening scene under a glowing streetlamp. A child in a yellow raincoat crouches and offers a piece of bread toward a small scruffy stray dog. A cat sits perched on a brick wall at the right edge, watching the scene. Puddles on the sidewalk reflect the warm lamp glow against dark blue rainy night tones. One single scene that three different narrators (the child, the dog, the cat) would each tell differently. Clean simple composition, no text, no words, no letters, no numbers anywhere in the image."
+- **Generation tool:** Muse structured media pipeline (`media.generate_image`), 2026-10-19. Output inspected by the worker before linking.
+- **Learning purpose:** Lesson 04 launch + applied task — "Three narrators, one scene." Learners write the same rainy streetlamp scene as the child, the cat, and the dog, then name what each narrator can and cannot know. The picture is the POV workbench: one fixed scene, three different stories.
+- **Factual review (2026-10-19):** Image renders a rainy night under a glowing streetlamp; a child in a yellow raincoat and yellow boots crouches, offering a piece of bread to a small scruffy dog with a pink collar; a striped cat sits perched on a brick wall at the right, watching; puddles reflect the warm lamp glow against dark blue rainy tones. No text, words, letters, or numbers appear anywhere (nothing to misspell or mislabel); no real people, no identifying features — all figures are fictional illustrations. The mapping of "what each narrator knows" is stated in the lesson text, not baked into the image, so the image cannot contradict the teaching. No lab data, measurements, maps, or historical claims are depicted. Approved for use.
+- **Caption (used in lesson-04):** *Three narrators, one scene (AI-generated illustration): the same rainy moment under the streetlamp — but the child, the dog, and the cat would each tell it differently.*
+- **Alt text:** A rainy night under a glowing streetlamp. A child in a yellow raincoat crouches and offers a piece of bread toward a small scruffy dog. A cat sits perched on a brick wall at the right, watching. Puddles on the wet sidewalk reflect the warm lamp glow against dark blue rainy tones.
+- **Text-only alternative:** Picture a rainy night under a glowing streetlamp. A child in a yellow raincoat and yellow boots crouches on the wet sidewalk, holding out a piece of bread toward a small scruffy dog with a pink collar. The dog sits facing the child, tail slightly raised. On the right, a striped cat sits perched on top of a brick wall, watching the scene. Puddles on the sidewalk reflect the warm yellow lamp glow against the dark blue rainy night.
+- **Known limitations:** The illustration is a fictional scene, not evidence of any real event — the lesson states this. Learners who cannot see the image receive the full text-only alternative, which contains every detail needed to answer the activity questions.
+
+## story-mountain.svg
+
+- **File:** `assets/story-mountain.svg` (deterministic hand-authored SVG, not generated)
+- **Purpose:** Lesson 02 — labeled plot-structure diagram (exposition → rising action → climax → falling action → resolution) with a text-only alternative in the lesson. Precise labeled diagrams use reproducible SVG per unit requirements; the SVG supplements, not replaces, the required generated illustration above.

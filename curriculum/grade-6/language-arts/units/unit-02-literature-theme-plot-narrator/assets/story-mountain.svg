@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="smtitle smdesc">
+  <title id="smtitle">The story mountain: five plot stages</title>
+  <desc id="smdesc">A mountain-shaped plot line. From left to right: Exposition (the setup, low), Rising action (the slope going up), Climax (the peak, the turning point), Falling action (the slope going down), Resolution (the end, low). An arrow shows the reading direction from left to right.</desc>
+  <rect x="0" y="0" width="640" height="360" fill="#ffffff"/>
+  <text x="320" y="30" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#222222">The Story Mountain</text>
+  <polyline points="60,300 180,300 320,90 460,300 580,300" fill="none" stroke="#1a56a0" stroke-width="4"/>
+  <polygon points="320,74 332,98 308,98" fill="#1a56a0"/>
+  <circle cx="120" cy="300" r="10" fill="#c0392b"/>
+  <circle cx="250" cy="195" r="10" fill="#c0392b"/>
+  <circle cx="320" cy="90" r="12" fill="#c0392b"/>
+  <circle cx="390" cy="195" r="10" fill="#c0392b"/>
+  <circle cx="520" cy="300" r="10" fill="#c0392b"/>
+  <text x="120" y="262" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222222">1. Exposition</text>
+  <text x="120" y="330" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">who, where, when</text>
+  <text x="250" y="160" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222222">2. Rising action</text>
+  <text x="250" y="330" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">problems grow</text>
+  <text x="320" y="56" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222222">3. Climax</text>
+  <text x="320" y="122" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">the turning point</text>
+  <text x="390" y="160" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222222">4. Falling action</text>
+  <text x="390" y="330" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">results unfold</text>
+  <text x="520" y="262" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#222222">5. Resolution</text>
+  <text x="520" y="330" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">how it ends</text>
+  <text x="320" y="352" text-anchor="middle" font-family="sans-serif" font-size="12" font-style="italic" fill="#666666">Read the story from left to right, the way you read the mountain.</text>
+</svg>

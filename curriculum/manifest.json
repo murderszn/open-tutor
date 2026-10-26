@@ -4454,6 +4454,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/assets/story-mountain.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/assets/three-narrators-one-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/lessons/lesson-01-theme-from-details.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/lessons/lesson-02-plot-episodes-and-change.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/lessons/lesson-03-word-choice-and-craft.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/lessons/lesson-04-narrator-and-point-of-view.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/lessons/lesson-05-reading-versus-listening.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/lessons/lesson-06-story-and-poem-one-theme.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-02-literature-theme-plot-narrator/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-6/math/README.md",
    "kind": "subject-index"
   },
@@ -7107,25 +7175,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 80,
-  "assessment": 86,
-  "asset": 107,
-  "assets": 81,
+  "answer-key": 81,
+  "assessment": 87,
+  "asset": 109,
+  "assets": 82,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 427,
+  "lesson": 433,
   "new-assignment": 31,
-  "practice": 80,
-  "project": 80,
-  "quiz": 301,
-  "resource-pack": 80,
+  "practice": 81,
+  "project": 81,
+  "quiz": 302,
+  "resource-pack": 81,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 80,
+  "teacher-guide": 81,
   "template": 14,
-  "unit-index": 80,
+  "unit-index": 81,
   "unit-text": 8
  },
  "review_notes": [
