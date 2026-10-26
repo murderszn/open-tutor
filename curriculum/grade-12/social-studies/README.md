@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
+delivered; Units 01–02 are delivered as validated drafts in draft PRs
+(not merged); units 03–08 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -94,6 +95,10 @@ crosswalk in [scope-and-sequence.md](scope-and-sequence.md#4-standards-crosswalk
   incentives, and opportunity cost) delivered as a validated draft in this
   run's draft PR; units 02–08 planned, not yet written (see
   [scope-and-sequence.md](scope-and-sequence.md) §11).
+- `units/` — eight units: Unit 01 (economic reasoning) delivered as a
+  validated draft in draft PR #175 (unmerged); Unit 02 (supply, demand,
+  markets, and price signals) delivered as a validated draft in this
+  run's draft PR (unmerged); units 03–08 planned, not yet written:
   1. Economic reasoning: scarcity, incentives, and opportunity cost
   2. Supply, demand, markets, and price signals
   3. Firms, labor, competition, and market structures

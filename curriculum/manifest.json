@@ -2110,6 +2110,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/assets/market-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/lessons/lesson-01-demand-law-and-schedule.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/lessons/lesson-02-supply-and-equilibrium.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/lessons/lesson-03-shifts-vs-movements.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/lessons/lesson-04-price-elasticity-of-demand.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/lessons/lesson-05-shortages-surpluses-price-controls.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-2/README.md",
    "kind": "grade-index"
   },
@@ -8595,25 +8655,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 103,
-  "assessment": 112,
-  "asset": 141,
-  "assets": 104,
+  "answer-key": 104,
+  "assessment": 113,
+  "asset": 142,
+  "assets": 105,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 551,
+  "lesson": 556,
   "new-assignment": 31,
-  "practice": 103,
-  "project": 103,
-  "quiz": 321,
-  "resource-pack": 103,
+  "practice": 104,
+  "project": 104,
+  "quiz": 322,
+  "resource-pack": 104,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 103,
+  "teacher-guide": 104,
   "template": 14,
-  "unit-index": 103,
+  "unit-index": 104,
   "unit-text": 15
  },
  "review_notes": [
