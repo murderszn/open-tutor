@@ -4226,6 +4226,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/assets/colonial-port-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/assets/triangular-trade-map.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/lessons/lesson-01-three-colonial-regions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/lessons/lesson-02-colonial-economic-life.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/lessons/lesson-03-labor-systems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/lessons/lesson-04-perspectives.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/lessons/lesson-05-port-town-trade-investigation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-02-colonial-societies-labor-trade/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-5/stem/README.md",
    "kind": "subject-index"
   },
@@ -6907,25 +6971,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 77,
-  "assessment": 82,
-  "asset": 100,
-  "assets": 78,
+  "answer-key": 78,
+  "assessment": 83,
+  "asset": 102,
+  "assets": 79,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 411,
+  "lesson": 416,
   "new-assignment": 31,
-  "practice": 77,
-  "project": 77,
-  "quiz": 299,
-  "resource-pack": 77,
+  "practice": 78,
+  "project": 78,
+  "quiz": 300,
+  "resource-pack": 78,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 77,
+  "teacher-guide": 78,
   "template": 14,
-  "unit-index": 77,
+  "unit-index": 78,
   "unit-text": 8
  },
  "review_notes": [
