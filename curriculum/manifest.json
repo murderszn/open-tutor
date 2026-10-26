@@ -6950,6 +6950,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/assets/dye-diffusion-prediction.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/assets/membrane-cross-section.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/lessons/lesson-01-cell-structures-and-jobs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/lessons/lesson-02-plant-vs-animal-cells.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/lessons/lesson-03-the-fluid-mosaic-membrane.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/lessons/lesson-04-diffusion-and-concentration.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/lessons/lesson-05-osmosis-water-follows-solute.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/lessons/lesson-06-active-transport-and-energy.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-9/science/units/unit-02-cells-membranes-transport/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-9/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -7559,25 +7627,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 87,
-  "assessment": 93,
-  "asset": 120,
-  "assets": 88,
+  "answer-key": 88,
+  "assessment": 94,
+  "asset": 122,
+  "assets": 89,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 464,
+  "lesson": 470,
   "new-assignment": 31,
-  "practice": 87,
-  "project": 87,
-  "quiz": 308,
-  "resource-pack": 87,
+  "practice": 88,
+  "project": 88,
+  "quiz": 309,
+  "resource-pack": 88,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 87,
+  "teacher-guide": 88,
   "template": 14,
-  "unit-index": 87,
+  "unit-index": 88,
   "unit-text": 8
  },
  "review_notes": [
