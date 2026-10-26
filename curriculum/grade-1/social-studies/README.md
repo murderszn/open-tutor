@@ -4,6 +4,10 @@ Independent, grade-specific materials in the public OpenTutor curriculum library
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
 Units 01 (community membership, rights, and responsibilities) and 02 (local maps,
 land, water, and location) are delivered as validated drafts; Units 03–08 and the
+Units 01 (community membership, rights, and responsibilities) and 03 (past,
+present, timelines, and family-neutral histories) are delivered as validated
+drafts; Unit 02 (local maps, land, water, and location) is delivered as a
+validated draft in PR #185 (unmerged at this writing); Units 04–08 and the
 R00 review package are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -87,6 +91,12 @@ accreditation, or alignment certification. Full crosswalk in
   1. [Community membership, rights, and responsibilities](units/unit-01-community-membership-rights-responsibilities/) — **draft delivered**
   2. [Local maps, land, water, and location](units/unit-02-local-maps-land-water-and-location/) — **draft delivered**
   3. Past, present, timelines, and family-neutral histories
+- `units/` — Units 01 and 03 delivered as validated drafts; Unit 02
+  delivered as a validated draft in PR #185 (unmerged); Units 04–08 planned
+  (not yet written):
+  1. [Community membership, rights, and responsibilities](units/unit-01-community-membership-rights-responsibilities/) — **draft delivered**
+  2. Local maps, land, water, and location — **draft delivered in PR #185 (unmerged)**
+  3. [Past, present, timelines, and family-neutral histories](units/unit-03-past-present-timelines-family-neutral-histories/) — **draft delivered**
   4. Community leaders, rules, and decision making
   5. Needs, wants, producers, and consumers
   6. Cultures, celebrations, and diverse perspectives

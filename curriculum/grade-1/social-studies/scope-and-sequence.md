@@ -223,7 +223,7 @@ response), exploration practice (observation walk or source looking), and review
   globe practice → review game. No ruler-measured scale or coordinate grids
   (reserved for later grades).
 
-### Unit 03 — Past, present, timelines, and family-neutral histories (Weeks 11–14)
+### Unit 03 — Past, present, timelines, and family-neutral histories (Weeks 11–14) — delivered as a validated draft
 
 - **Standards:** D2.His.1–2, D2.His.4, D2.His.9–10; D1.3
 - **Week 11 goal:** past–present–future in the learner's own day; order 3–5
@@ -416,6 +416,10 @@ draft** (see `units/unit-01-community-membership-rights-responsibilities/`);
 U02 Local maps, land, water, and location — **delivered as a validated
 draft** (see `units/unit-02-local-maps-land-water-and-location/`);
 U03 Past, present, timelines, and family-neutral histories;
+U02 Local maps, land,
+water, and location — **delivered as a validated draft in PR #185 (unmerged)**;
+U03 Past, present, timelines, and family-neutral histories — **delivered as a validated
+draft** (see `units/unit-03-past-present-timelines-family-neutral-histories/`);
 U04 Community leaders, rules, and decision making; U05 Needs, wants, producers,
 and consumers; U06 Cultures, celebrations, and diverse perspectives; U07
 Historical figures, stories, and simple sources; U08 Community problem solving
