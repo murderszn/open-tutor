@@ -6238,6 +6238,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/assessments/week-14_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/assets/boston-harbor-1773.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/assets/road-to-revolution-timeline.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/lessons/lesson-01-road-to-revolution-timeline.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/lessons/lesson-02-no-taxation-boston-protests.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/lessons/lesson-03-two-accounts-one-event.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/lessons/lesson-04-turning-points-claims.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/lessons/lesson-05-harbor-scene-investigation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-03-revolution-causes-events-viewpoints/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-5/stem/README.md",
    "kind": "subject-index"
   },
@@ -10215,25 +10279,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 129,
-  "assessment": 140,
-  "asset": 175,
-  "assets": 130,
+  "answer-key": 130,
+  "assessment": 141,
+  "asset": 177,
+  "assets": 131,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 688,
+  "lesson": 693,
   "new-assignment": 31,
-  "practice": 129,
-  "project": 129,
-  "quiz": 345,
-  "resource-pack": 129,
+  "practice": 130,
+  "project": 130,
+  "quiz": 346,
+  "resource-pack": 130,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 129,
+  "teacher-guide": 130,
   "template": 14,
-  "unit-index": 129,
+  "unit-index": 130,
   "unit-text": 15
  },
  "review_notes": [

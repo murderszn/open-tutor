@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Timeline from 1754 to 1783: French and Indian War, Proclamation of 1763, Stamp Act 1765, Boston Massacre 1770, Boston Tea Party 1773, Lexington and Concord 1775, Declaration of Independence 1776, Saratoga 1777, Yorktown 1781, Treaty of Paris 1783">
+  <title>Road to Revolution timeline, 1754–1783</title>
+  <rect width="900" height="300" fill="#ffffff"/>
+  <line x1="40" y1="150" x2="860" y2="150" stroke="#333333" stroke-width="3"/>
+  <g font-family="sans-serif" font-size="13" fill="#111111" text-anchor="middle">
+    <circle cx="70" cy="150" r="6" fill="#b71c1c"/><text x="70" y="120">1754–63</text><text x="70" y="185">French and</text><text x="70" y="202">Indian War</text>
+    <circle cx="160" cy="150" r="6" fill="#b71c1c"/><text x="160" y="120">1763</text><text x="160" y="185">Proclamation</text><text x="160" y="202">of 1763</text>
+    <circle cx="250" cy="150" r="6" fill="#b71c1c"/><text x="250" y="120">1765</text><text x="250" y="185">Stamp Act</text>
+    <circle cx="340" cy="150" r="6" fill="#b71c1c"/><text x="340" y="120">1770</text><text x="340" y="185">Boston</text><text x="340" y="202">Massacre</text>
+    <circle cx="430" cy="150" r="6" fill="#b71c1c"/><text x="430" y="120">1773</text><text x="430" y="185">Boston</text><text x="430" y="202">Tea Party</text>
+    <circle cx="520" cy="150" r="6" fill="#b71c1c"/><text x="520" y="120">1775</text><text x="520" y="185">Lexington</text><text x="520" y="202">&amp; Concord</text>
+    <circle cx="610" cy="150" r="6" fill="#b71c1c"/><text x="610" y="120">1776</text><text x="610" y="185">Declaration of</text><text x="610" y="202">Independence</text>
+    <circle cx="700" cy="150" r="6" fill="#b71c1c"/><text x="700" y="120">1777</text><text x="700" y="185">Saratoga</text>
+    <circle cx="790" cy="150" r="6" fill="#b71c1c"/><text x="790" y="120">1781</text><text x="790" y="185">Yorktown</text>
+    <circle cx="855" cy="150" r="6" fill="#b71c1c"/><text x="855" y="120">1783</text><text x="855" y="185">Treaty</text><text x="855" y="202">of Paris</text>
+  </g>
+  <text x="450" y="270" font-family="sans-serif" font-size="13" fill="#333333" text-anchor="middle">Not to scale. Years are spaced for reading, not in exact proportion.</text>
+</svg>
