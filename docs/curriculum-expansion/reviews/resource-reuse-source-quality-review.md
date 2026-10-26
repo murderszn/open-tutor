@@ -151,3 +151,72 @@ No learner-identifying content found in any sampled unit.
 
 *Report ends. Corrections D1–D2 are in this PR; R1 and §4 are filed
 recommendations for U02+ runs and educator review.*
+
+## 7. Verification — corrections merged (2026-10-26)
+
+**Verification date:** 2026-10-26 · **Issue:** #59, box 2 ·
+**Corrections PR:** #176, merged 2026-10-26T14:12:08Z,
+merge commit `02a47e6765b0727f5cd0cefcf033fa481f744df6`
+(head `841d98d`, base `d558ba8`) · **Main HEAD at verification:**
+`bf57de84` ("Curriculum: correct coverage totals from unit inventory",
+2026-10-26T15:27:12Z). Verification was done through the GitHub API
+(file contents on `main`, per-path commit history, and PR merge
+records), because a full `git fetch` from this VM stalls and the
+shared local checkout holds unrelated uncommitted scratch from earlier
+runs that this run did not touch.
+
+- **D1 confirmed on `main`.** Grade-1 math U01 `resource-pack.md`
+  now labels the ClassX entry a mirror ("ClassX mirror of a Khan
+  Academy Kids hundreds/tens/ones lesson") and states the canonical
+  source is Khan Academy Kids (`khanacademy.org` / the Khan Academy
+  Kids app), to be preferred over the mirror when available, with the
+  adult-preview note retained.
+- **D2 confirmed on `main`.** `resources/README.md` now reads "Math
+  Fundamentals — Grades 4–7" with a grade-fit annotation, carries a
+  separate "Optional enrichment (separate from the four core courses)"
+  section for faith-based and coding/game/tech guides, and points to
+  this review ("Review #59 — resource reuse, source quality,
+  generated images (2026-10-15)").
+- **No later overwrites.** The latest `main`-touching commit for all
+  three PR #176 files (this report, `resources/README.md`, the
+  grade-1 math U01 resource pack) is still `841d98d`, the PR #176
+  head commit — the merged corrections are exactly what is live.
+- **§6 follow-up, partly resolved.** The five open draft PRs inspected
+  at their heads in §1 (#171–#175) have all since merged
+  (2026-10-26, ~14:12Z), so their U01 content is now on `main`. Their
+  content was already inspected for this review; a fresh pixel-level
+  or full-link re-verification of those five units belongs to review
+  #60's browser/render pass, not to this box.
+- **R1 adopted for new units, in mixed form.** Spot-check of the
+  three U03 units merged 2026-10-26 (grade-8 science, grade-7 social
+  studies, grade-9 math) finds inline `![]()` image embeds in their
+  lessons (1, 1, and 2 embeds respectively) alongside some plain
+  Markdown asset links (3, 3, and 0). New units are therefore
+  following the §1 recommendation, but not uniformly.
+- **§4 gaps closing naturally.** Two guides listed in §4 as never
+  referenced by any U01 draft are now referenced by merged U03
+  resource packs: `thermodynamics_laws.md` (grade-8 science U03, 2
+  mentions) and `financial_tools_and_principles.md` (grade-9 math
+  U03, 2 mentions). The remaining §4 entries stay filed as
+  future-unit homes, not defects.
+
+**Remaining educator decisions (open, not blocking this box):**
+
+1. **R1 backfill:** whether to retrofit inline embeds with alt text
+   and captions into the 47 merged U01 units — optional per §1,
+   still awaiting an educator call.
+2. **Field-name canonicalization:** whether `unit-requirements.md`
+   field names are treated as canonical for U02+ records (§1 drift
+   note) — no decision recorded in this verification.
+3. **Full link re-check:** the full 52-pack external-link re-check
+   remains deferred to review #60, per §6.
+
+**Validation for this verification section:** this change touches only
+this existing review report (prose appendix, no new curriculum files,
+so `curriculum/manifest.json` is unchanged). The appendix adds no new
+local Markdown links; its links are GitHub issue/PR references
+(#59, #176, #171–#175) whose targets were confirmed live through the
+API during this run. No unfinished-marker strings were added. A full
+`scripts/validate-library.py` pass over a clean `main` checkout could
+not be completed in this run (see the fetch note above); that pass
+remains part of review #60's scope and is not claimed here.
