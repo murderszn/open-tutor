@@ -5422,6 +5422,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/assets/organization-levels.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/assets/specialized-cells-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/lessons/lesson-01-cell-structures-and-whole-cell-function.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/lessons/lesson-02-the-membrane-and-moving-materials.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/lessons/lesson-03-specialized-cells-and-tissues.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/lessons/lesson-04-levels-of-organization.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/lessons/lesson-05-the-cell-as-a-system.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/science/units/unit-02-cell-structures-functions-organization/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-7/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -7239,25 +7303,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 82,
-  "assessment": 88,
-  "asset": 112,
-  "assets": 83,
+  "answer-key": 83,
+  "assessment": 89,
+  "asset": 114,
+  "assets": 84,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 437,
+  "lesson": 442,
   "new-assignment": 31,
-  "practice": 82,
-  "project": 82,
-  "quiz": 303,
-  "resource-pack": 82,
+  "practice": 83,
+  "project": 83,
+  "quiz": 304,
+  "resource-pack": 83,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 82,
+  "teacher-guide": 83,
   "template": 14,
-  "unit-index": 82,
+  "unit-index": 83,
   "unit-text": 8
  },
  "review_notes": [
