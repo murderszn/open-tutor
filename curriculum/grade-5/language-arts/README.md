@@ -1,12 +1,10 @@
 # Grade 5 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Units 01 and 02 are delivered as validated drafts and Units 03–08 are planned, not yet
-written. See [scope-and-sequence.md](scope-and-sequence.md).
-Unit 01 is delivered as a validated draft, Unit 03 is delivered as a validated
-draft in this branch, and Units 02 and 04–08 are planned, not yet written
-(Unit 02's draft is PR #200). See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-5 learner at a time; a guiding adult adapts pacing, materials, and
@@ -15,21 +13,19 @@ private storage — never in this public repository.
 
 See also: [Grade 5 track](../README.md), [curriculum index](../../README.md).
 
-## Units
+## Other materials
 
-Eight four-week units (track weeks 3–34); R00 diagnostic/review weeks are
-planned separately:
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+- [Blank templates](templates/) — review before assigning.
 
-1. [Reading fluency, morphology, and precise vocabulary](units/unit-01-reading-fluency-morphology-vocabulary/README.md) — validated draft
-2. [Literary theme, perspective, and character development](units/unit-02-literary-theme-perspective-character/README.md) — validated draft
-3. Informational text synthesis: structure and evidence — planned
-2. Literary theme, perspective, and character development — planned
-3. [Informational text synthesis: structure and evidence](units/unit-03-informational-text-synthesis-structure-evidence/README.md) — validated draft
-4. Grammar, sentence variety, conventions, and editing — planned
-5. Narrative pacing, dialogue, and description — planned
-6. Opinion writing: claims, reasons, and source evidence — planned
-7. Research: informational writing and citation foundations — planned
-8. Poetry, multimedia, speaking, and revised portfolio — planned
+## Available units
+
+- [Unit 01 — Reading Fluency, Morphology, and Precise Vocabulary](units/unit-01-reading-fluency-morphology-vocabulary/README.md) — available draft; educator review pending.
+- [Unit 02 — Literary Theme, Perspective, and Character Development](units/unit-02-literary-theme-perspective-character/README.md) — available draft; educator review pending.
+- [Unit 03 — Informational Text Synthesis: Structure and Evidence](units/unit-03-informational-text-synthesis-structure-evidence/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## What this track covers
 

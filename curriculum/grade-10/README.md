@@ -11,17 +11,7 @@ See also: [curriculum index](../README.md).
 
 ## Subject tracks
 
-- [Mathematics](math/README.md) — Geometry pathway; audit and
-  scope-and-sequence are a validated draft (issue #46); Units 01–02 are
-  delivered drafts (not yet merged or educator-reviewed), Units 03–08
-  and R00 planned.
-- [Science](science/README.md) — Chemistry pathway; audit and
-  scope-and-sequence are a validated draft (issue #47); Units 01–02 are validated drafts
-  under educator review, Units 03–08 planned.
-- [Language arts](language-arts/README.md) — World literature and composition
-  pathway; audit and scope-and-sequence are a validated draft (issue #48);
-  units planned.
-- [Social studies](social-studies/README.md) — U.S. history after
-  Reconstruction, circa 1865 to the present; audit and scope-and-sequence are
-  a validated draft (issue #49); Units 01–02 delivered as validated drafts,
-  Units 03–08 planned.
+- [Mathematics](math/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Science](science/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Language arts](language-arts/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Social studies](social-studies/README.md) — Units 01, 02 available as drafts; remaining units planned.

@@ -1,21 +1,14 @@
 # Grade 8 Curriculum
 
-Reusable Grade 8 learning materials. Quizzes and assignments remain blank; completed responses belong in private learning records. Review readiness and accommodations before assigning.
-
-**Contents:** The [math track](math/README.md) audit and scope-and-sequence is
-delivered as a validated draft, and math Unit 01 (real numbers, roots, and
-irrational approximations) is delivered as a validated draft (other math
-units not yet written); other subjects still
-unaudited. Materials still require educator review.
+Reusable grade-specific learning materials. Keep completed responses in private learning records. Available units remain drafts awaiting educator review; no subject track is complete. Review readiness and accommodations before assigning.
 
 ## Core Subjects
-- [Math](math/README.md)
-- [Stem](stem/README.md) — legacy STEM/coding enrichment
-- [Language Arts](language-arts/README.md) — draft audit and scope-and-sequence delivered; Unit 01 (close reading, inference, theme, evidence synthesis) delivered as a validated draft; Units 02–08 planned, not yet written
-- [Social Studies](social-studies/README.md) — draft audit and scope-and-sequence delivered (eight units planned, not yet written)
-- [Science](science/README.md) — draft audit and scope-and-sequence delivered; Units 01–02 delivered as validated drafts, Units 03–08 planned
-- [Social Studies](social-studies/README.md) — draft audit and scope-and-sequence delivered; Units 01 (colonial societies) and 02 (Revolution, contested ideals) delivered as drafts; Units 03–08 planned, not yet written
-- [Science](science/README.md) — draft audit and scope-and-sequence delivered; Unit 01 delivered as a validated draft, Units 02–08 planned
+
+- [Mathematics](math/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
+- [Science](science/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Language arts](language-arts/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Social studies](social-studies/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [STEM enrichment](stem/README.md) — legacy activities.
 
 ## Optional Enrichment
 - [Optional Christian Bible study](bible/README.md) — faith-based, not part of core secular instruction.

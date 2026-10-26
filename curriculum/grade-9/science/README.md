@@ -1,10 +1,10 @@
 # Grade 9 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; Units 01–02 are delivered as validated drafts; Units 03–08 and
-the R00 review package are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-9 learner at a time; a guiding adult adapts pacing, materials, and
@@ -101,22 +101,12 @@ alignment certification). Full crosswalk in
 - Secondary engineering-design connections — HS-LS2-7, HS-LS4-6 (design and
   simulation of biodiversity-impact solutions)
 
-## Structure
+## Available units
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Units 01–02 delivered as validated drafts (not
-  educator-reviewed, not merged); Units 03–08 planned (not yet written):
-  1. [Biological investigation: evidence and biomolecules](units/unit-01-biological-investigation-biomolecules/README.md)
-    — **validated draft** (issue #43, U01)
-  2. [Cells: membranes and transport](units/unit-02-cells-membranes-transport/README.md)
-    — **validated draft** (issue #43, U02)
-  3. Photosynthesis: respiration and energy transformations
-  4. Cell cycle: mitosis and meiosis
-  5. Inheritance: molecular genetics and gene expression
-  6. Evolution: population genetics and evidence
-  7. Ecology: ecosystems and matter cycling
-  8. Human systems: homeostasis and biology capstone
+- [Unit 01 — Biological Investigation: Evidence and Biomolecules](units/unit-01-biological-investigation-biomolecules/README.md) — available draft; educator review pending.
+- [Unit 02 — Cells: Membranes and Transport](units/unit-02-cells-membranes-transport/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Existing material (audit baseline)
 

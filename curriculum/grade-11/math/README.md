@@ -1,9 +1,10 @@
 # Grade 11 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; the eight units are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-11 learner at a time; a guiding adult adapts pacing, materials,
@@ -108,35 +109,13 @@ claim of state adoption or accreditation). Full crosswalk in
   Probability: S-CP.1–9 (8 and 9 are (+) advanced)
 - Number & Quantity — Quantities: N-Q.1–3
 
-## Structure
+## Available units
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Units 01–02 delivered as validated drafts (issue #50);
-  units 03–08 planned, not yet written:
-  1. [Function transformations, composition, and
-     inverses](units/unit-01-function-transformations/README.md) —
-     validated draft (issue #50)
-  2. [Polynomial functions, zeros, and complex
-     numbers](units/unit-02-polynomial-zeros-complex-numbers/README.md) —
-     validated draft (issue #50)
-  3. Rational expressions, functions, and asymptotes
-- `units/` — Units 01–03 delivered as validated drafts (issue #50);
-  units 04–08 planned, not yet written:
-  1. [Function transformations, composition, and
-     inverses](units/unit-01-function-transformations/README.md) —
-     validated draft (issue #50)
-  2. Polynomial functions, zeros, and complex numbers —
-     validated draft (issue #50, draft PR #179, not yet merged;
-     named here in prose only because its files are not on `main`)
-  3. [Rational expressions, functions, and
-     asymptotes](units/unit-03-rational-expressions-functions-asymptotes/README.md) —
-     validated draft (issue #50)
-  4. Radical functions and equations
-  5. Exponential and logarithmic functions and models
-  6. Trigonometric functions and periodic models
-  7. Sequences, series, and financial models
-  8. Probability, inference, and statistical modeling
+- [Unit 01 — Function Transformations, Composition, and Inverses](units/unit-01-function-transformations/README.md) — available draft; educator review pending.
+- [Unit 02 — Polynomial Functions, Zeros, and Complex Numbers](units/unit-02-polynomial-zeros-complex-numbers/README.md) — available draft; educator review pending.
+- [Unit 03 — Rational Expressions, Functions, and Asymptotes](units/unit-03-rational-expressions-functions-asymptotes/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Existing material (audit baseline)
 

@@ -1,11 +1,10 @@
 # Grade 6 Social Studies
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01–02 drafts are delivered;
-the six remaining units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
-This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01 draft are delivered;
-Unit 03 is delivered as a validated draft below; Unit 02 is delivered as draft PR #206 (unmerged);
-the remaining units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-6 learner at a time; a guiding adult adapts pacing, materials, and
@@ -53,16 +52,12 @@ or alignment certification is claimed. D2.His.7.6-8 and D2.His.8.6-8 (begin
 in grades 9–12), D2.Eco.10–12.6-8 (modern national economy), and
 D2.Civ.8.6-8 (U.S. founding documents) are deferred to later grades.
 
-## Current library status (2026-10-05 audit, updated 2026-10-19)
 ## Current library status (2026-10-05 audit, updated 2026-10-25)
 
 The folder holds the track README, one starter lesson
 ([starter-lesson.md](starter-lesson.md) — "Ask what a map and source can show,"
 three 35-minute sessions on observation vs. inference, source limits, and
 evidence needs with a 2-1-0 review rubric),
-[scope-and-sequence.md](scope-and-sequence.md), and the first two unit builds
-([units/unit-01-historical-inquiry-maps-and-chronology/](units/unit-01-historical-inquiry-maps-and-chronology/)
-and [units/unit-02-early-humans-agriculture-and-settlements/](units/unit-02-early-humans-agriculture-and-settlements/)).
 [scope-and-sequence.md](scope-and-sequence.md), and the first unit build
 ([units/unit-01-historical-inquiry-maps-and-chronology/](units/unit-01-historical-inquiry-maps-and-chronology/)) and the Unit 03 build
 ([units/unit-03-river-valley-civilizations/](units/unit-03-river-valley-civilizations/)).
@@ -79,13 +74,14 @@ coverage and are built new.
 
 - [Ask what a map and source can show](starter-lesson.md) — source observation/inference analysis on a fictional town sketch and source note, map limits, evidence needs, and a one-page recommendation product with a 2-1-0 review rubric. Core U01 seed: the unit adds world-scale map tools, archaeology/chronology investigations, source classification, and a separated teacher guide/answer key.
 
-## Units
+## Other materials
 
-- [Unit 01 — Historical Inquiry: Archaeology, Maps, and Chronology](units/unit-01-historical-inquiry-maps-and-chronology/) — **validated draft, delivered 2026-10-12 and merged to main; not yet educator-reviewed.** Five lessons (compelling/supporting questions; observation vs. inference on the kept starter lesson's fictional sketch and note; maps as evidence with scale/grid/projection work; source kinds, credibility, and maker/audience inference; BCE/CE chronology and archaeological layers), practice sets, "The Fictional Tell" investigation with a 20-point rubric, formative quiz and culminating assessment, separate teacher guide and answer key, verified Resource Pack, one generated illustration (fictional dig trench) plus two deterministic diagrams.
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
 
-- [Unit 02 — Early Humans: Agriculture and Settlements](units/unit-02-early-humans-agriculture-and-settlements/) — **validated draft, delivered 2026-10-19; not yet educator-reviewed or merged.** Four lessons (environments and forager life; agricultural-revolution causes and trade-offs with pre-written scenario cards; surplus, specialization, and settlements with a generated village illustration; Fertile Crescent vs. Mesoamerica comparison with a deterministic agriculture timeline), practice sets, "The Settlement Council" project with a 20-point rubric, formative quiz and culminating assessment, separate teacher guide and answer key, verified Resource Pack, one generated illustration (fictional farming village) plus two deterministic diagrams.
+## Available units
 
-Units 03–08 are described in prose only in [scope-and-sequence.md](scope-and-sequence.md); no links exist yet for those units.
-- [Unit 03 — Mesopotamia, Egypt, and River-Valley Civilizations](units/unit-03-river-valley-civilizations/) — **validated draft, delivered 2026-10-25; not yet educator-reviewed or merged.** Five lessons (rivers and irrigation; cities, specialists, and temple/palace organization; cuneiform and hieroglyphs; Hammurabi's Code as evidence; multi-cause rise explanations with change/continuity and perspective notes), practice sets, "River-Valley City Dossier" investigation with a 20-point rubric, formative quiz and culminating assessment, separate teacher guide and answer key, verified Resource Pack, one generated illustration (imagined riverside city scene) plus two deterministic diagrams. Note: Unit 02 (early humans, agriculture, settlements) is delivered as draft PR #206 and is not yet merged, so this branch is based on `main` and does not yet include Unit 02's files.
+- [Unit 01 — Historical Inquiry: Archaeology, Maps, and Chronology](units/unit-01-historical-inquiry-maps-and-chronology/README.md) — available draft; educator review pending.
+- [Unit 02 — Early Humans: Agriculture and Settlements](units/unit-02-early-humans-agriculture-and-settlements/README.md) — available draft; educator review pending.
+- [Unit 03 — Mesopotamia, Egypt, and River-Valley Civilizations](units/unit-03-river-valley-civilizations/README.md) — available draft; educator review pending.
 
-Units 02 and 04–08 are described in prose only in [scope-and-sequence.md](scope-and-sequence.md); no links exist yet for those units in this branch.
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).

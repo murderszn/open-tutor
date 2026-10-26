@@ -1,10 +1,10 @@
 # Grade 3 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Units 01–03 are delivered as validated drafts (Unit 02 as draft PR #192, Unit 03 as
-the draft PR for issue #20 section U03); Units 04–08 are planned, not yet written.
-See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-3 learner at a time; a guiding adult adapts pacing, materials, and
@@ -107,23 +107,17 @@ adoption or accreditation). Full crosswalk in
 - Speaking and Listening: SL.3.1a–d, SL.3.2–6
 - Language: L.3.1a–i, L.3.2a–g, L.3.3a–b, L.3.4a–d, L.3.5a–c, L.3.6
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Unit 01 delivered as a validated draft; Unit 02 delivered as a validated draft; Units 03–08 planned (not yet written):
-  1. [Word analysis, morphology, vocabulary, and fluency](units/unit-01-word-analysis-morphology-fluency/) — **draft delivered**
-  2. [Literary comprehension: character and theme](units/unit-02-literary-comprehension/) — **draft delivered**
-  3. Informational text: main idea, structures, and evidence
-- `units/` — Units 01–03 delivered as validated drafts; Units 04–08 planned (not yet written):
-  1. [Word analysis, morphology, vocabulary, and fluency](units/unit-01-word-analysis-morphology-fluency/) — **draft delivered**
-  2. Literary comprehension: character and theme — **draft delivered** (draft PR #192, not yet merged)
-  3. [Informational text: main idea, structures, and evidence](units/unit-03-informational-main-idea-structures-evidence/) — **draft delivered**
-  4. Sentence structure, grammar, and conventions
-  5. Narrative writing: dialogue and revision
-  6. Opinion writing: reasons and linked evidence
-  7. Research, explanatory writing, and source use
-  8. Poetry, speaking, listening, and reading–writing portfolio
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Word Analysis, Morphology, Vocabulary, and Fluency](units/unit-01-word-analysis-morphology-fluency/README.md) — available draft; educator review pending.
+- [Unit 02 — Literary Comprehension: Character and Theme](units/unit-02-literary-comprehension/README.md) — available draft; educator review pending.
+- [Unit 03 — Informational Text: Main Idea, Structures, and Evidence](units/unit-03-informational-main-idea-structures-evidence/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

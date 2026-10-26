@@ -1,10 +1,10 @@
 # Kindergarten Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Units 01–02 are delivered as validated drafts; Units 03–08 are planned, not yet written.
-Unit 01 is delivered as a validated draft; Unit 03 is delivered as a validated draft in this run's draft PR; Units 02, 04–08 are planned, not yet written (Unit 02 exists as a separate unmerged draft PR #177).
-See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one kindergarten learner at a time; a guiding adult adapts pacing, materials, and
@@ -58,21 +58,17 @@ adoption or accreditation). Full crosswalk in
 - Measurement and Data: K.MD.A.1–2, K.MD.B.3
 - Geometry: K.G.A.1–3, K.G.B.4–6
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units:
-  1. [Counting and classifying objects](units/unit-01-counting-and-classifying-objects/README.md) — **delivered as validated draft** (issue #6, U01)
-  2. [Numbers to 10 and one-to-one correspondence](units/unit-02-numbers-to-10/README.md) — **delivered as validated draft** (issue #6, U02)
-  3. Comparing numbers and quantities — planned
-  2. Numbers to 10 and one-to-one correspondence — planned
-  3. [Comparing numbers and quantities](units/unit-03-comparing-numbers-and-quantities/README.md) — **delivered as validated draft** (issue #6, U03)
-  4. Teen numbers and ten frames — planned
-  5. Addition stories within 10 — planned
-  6. Subtraction stories within 10 — planned
-  7. Shapes and spatial relationships — planned
-  8. Measurement comparison and data sorting — planned
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Counting and Classifying Objects](units/unit-01-counting-and-classifying-objects/README.md) — available draft; educator review pending.
+- [Unit 02 — Numbers to 10 and One-to-One Correspondence](units/unit-02-numbers-to-10/README.md) — available draft; educator review pending.
+- [Unit 03 — Comparing Numbers and Quantities](units/unit-03-comparing-numbers-and-quantities/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

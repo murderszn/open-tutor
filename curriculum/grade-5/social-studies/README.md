@@ -1,16 +1,10 @@
 # Grade 5 Social Studies
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-[Unit 01 — North American geography, Indigenous histories, and sources](units/unit-01-north-american-geography-indigenous-histories/README.md)
-is delivered as a validated draft (2026-10-11);
-[Unit 02 — Colonial societies, labor, trade, and diverse perspectives](units/unit-02-colonial-societies-labor-trade/README.md)
-is delivered as a validated draft (2026-10-18); Units 03–08 are planned, not yet written.
-[Unit 03 — Revolution: causes, events, and competing viewpoints](units/unit-03-revolution-causes-events-viewpoints/README.md)
-is delivered as a validated draft (2026-10-25). Unit 02 is delivered as a
-validated draft in draft PR #202 (unmerged at this branch's base); Units
-04–08 are planned, not yet written.
-See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-5 learner at a time; a guiding adult adapts pacing, materials, and
@@ -18,6 +12,20 @@ supports. Keep completed learner work, names, photos, schedules, and grades in
 private storage — never in this public repository.
 
 See also: [Grade 5 track](../README.md), [curriculum index](../../README.md).
+
+## Other materials
+
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+- [Blank templates](templates/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — North American Geography, Indigenous Histories, and Sources](units/unit-01-north-american-geography-indigenous-histories/README.md) — available draft; educator review pending.
+- [Unit 02 — Colonial Societies: Labor, Trade, and Diverse Perspectives](units/unit-02-colonial-societies-labor-trade/README.md) — available draft; educator review pending.
+- [Unit 03 — Revolution: Causes, Events, and Competing Viewpoints](units/unit-03-revolution-causes-events-viewpoints/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## What this track covers
 
@@ -119,8 +127,6 @@ defers to later bands (D2.His.7–8, 9–12; D2.His.15, 6–8) are not taught he
 |---|---|---|
 | 1–2 | — | Diagnostic: map skills at multi-state scale, timelines, perspectives, and grade-4 vocabulary |
 | 3–6 | [U01](units/unit-01-north-american-geography-indigenous-histories/README.md) | North American geography, Indigenous histories, and sources — delivered as validated draft (2026-10-11) |
-| 7–10 | [U02](units/unit-02-colonial-societies-labor-trade/README.md) | Colonial societies: labor, trade, and diverse perspectives — delivered as validated draft (2026-10-18) |
-| 11–14 | U03 | Revolution: causes, events, and competing viewpoints |
 | 7–10 | U02 | Colonial societies: labor, trade, and diverse perspectives — delivered as validated draft in draft PR #202 (unmerged at this branch's base) |
 | 11–14 | [U03](units/unit-03-revolution-causes-events-viewpoints/README.md) | Revolution: causes, events, and competing viewpoints — delivered as validated draft (2026-10-25) |
 | 15–18 | U04 | Founding documents, Constitution, and citizenship |
@@ -137,13 +143,6 @@ and unit assessment (keys separated into the teacher guide and answer key), a
 verified Resource Pack, and a generated Pacific Northwest coastal-environment
 illustration with alt text and a generation record — at
 [units/unit-01-north-american-geography-indigenous-histories/](units/unit-01-north-american-geography-indigenous-histories/).
-Unit 02 is delivered as a validated draft — five fully written lessons, practice
-banks, the "The journey of a good" project with rubric, a formative quiz
-and unit assessment (keys separated into the teacher guide and answer key), a
-verified Resource Pack, a generated colonial-harbor illustration with alt text
-and a generation record, and a deterministic triangular-trade flow diagram — at
-[units/unit-02-colonial-societies-labor-trade/](units/unit-02-colonial-societies-labor-trade/).
-Units 03–08 are planned in prose until written. Each unit is designed as four
 Unit 03 is delivered as a validated draft — five fully written lessons, practice
 banks, the "Road to Revolution Reporter's Journal" project with rubric, a
 formative quiz and unit assessment (keys separated into the teacher guide and

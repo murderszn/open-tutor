@@ -2,7 +2,7 @@
 
 This folder is an anonymous, grade-specific track in the public OpenTutor curriculum library.
 
-**Contents:** Draft audits and scope-and-sequences are available for mathematics, language arts, science, social studies. Units are being delivered track by track as validated drafts; no subject track is complete. All materials still require educator review.
+**Contents:** Each core subject has draft audits, a scope and sequence, and the units listed below. Educator review is pending; no subject track is complete.
 
 **Do not refer a learner to another grade's track.** Each track is
 self-contained for one learner at a time; a guiding adult adapts pacing,
@@ -13,34 +13,7 @@ See also: [curriculum index](../README.md).
 
 ## Subject tracks
 
-- [Social studies](social-studies/README.md) — economics and policy inquiry
-  pathway; audit and scope-and-sequence delivered as a validated draft in this
-  run's draft PR (issue #57); Unit 01 (economic reasoning) delivered as a
-  validated draft in this run's draft PR; units 02–08 and R00 planned.
-  pathway; audit and scope-and-sequence delivered as a validated draft
-  (issue #57); Units 01–02 delivered as validated draft PRs (unmerged);
-  units 03–08 planned.
-- [Mathematics](math/README.md) — Precalculus, statistics, and modeling
-  pathway with optional calculus bridge; audit and scope-and-sequence are a
-  validated draft (issue #54); Unit 01 delivered as a validated draft;
-  Units 02–08 planned.
-  validated draft (issue #54); Unit 01 is a validated draft in unmerged
-  draft PR #172; Unit 02 is a validated draft in this run's draft PR
-  (issue #54); Units 03–08 planned.
-- [Language arts](language-arts/README.md) — Advanced literature, writing,
-  and communication pathway; audit and scope-and-sequence delivered as a
-  validated draft (issue #56); Unit 01 delivered as a validated draft in
-  this run's draft PR; units 02–08 planned.
-  unmerged draft PR #174; Unit 02 delivered as a validated draft in this
-  run's draft PR; units 03–08 planned.
-- [Science](science/README.md) — Earth and Space Science pathway (geologic
-  time, plate tectonics, atmosphere and ocean, climate, biodiversity, water
-  and land, energy systems, capstone investigation); audit and
-  scope-and-sequence delivered as a validated draft in this run's draft PR
-  (issue #55); Unit 01 (Earth-system evidence, geologic time, and
-  quantitative models) delivered as a validated draft in this run's draft PR;
-  Units 02–08 and the R00 review package planned.
-  (issue #55); Unit 02 (Plate tectonics, resources, and landscape
-  processes) delivered as a validated draft in this run's draft PR;
-  Unit 01 delivered as a validated draft in PR #173; Units 03–08 and the
-  R00 review package planned.
+- [Mathematics](math/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Science](science/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Language arts](language-arts/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Social studies](social-studies/README.md) — Units 01, 02 available as drafts; remaining units planned.

@@ -1,9 +1,10 @@
 # Grade 8 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft; Unit 02 is delivered as a validated draft; Units 03–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
-Unit 01 is delivered as a validated draft; Unit 02 is delivered as a validated draft in a separate open draft PR (#209); Unit 03 is delivered as a validated draft; Units 04–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-8 learner at a time; a guiding adult adapts pacing, materials, and
@@ -87,23 +88,18 @@ state adoption or accreditation). Full crosswalk in
 - Geometry: 8.G.A.1–5, 8.G.B.6–8, 8.G.C.9
 - Statistics and Probability: 8.SP.A.1–4
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Units 01–02 delivered as validated drafts; Units 03–08 planned (not yet written):
-  1. [Real numbers, roots, and irrational approximations](units/unit-01-real-numbers-roots-irrational-approximations/README.md) — **delivered draft** (six lessons, project, quiz, assessment, keys, resource pack, generated illustration)
-  2. [Integer exponents and scientific notation](units/unit-02-integer-exponents-scientific-notation/README.md) — **delivered draft** (six lessons, project, quiz, assessment, keys, resource pack, generated illustration)
-  3. Linear equations and solution types
-- `units/` — Unit 01 delivered as a validated draft; Unit 02 delivered as a validated draft in a separate open draft PR (#209); Unit 03 delivered as a validated draft; Units 04–08 planned (not yet written):
-  1. [Real numbers, roots, and irrational approximations](units/unit-01-real-numbers-roots-irrational-approximations/README.md) — **delivered draft** (six lessons, project, quiz, assessment, keys, resource pack, generated illustration)
-  2. Integer exponents and scientific notation — **delivered draft** (draft PR #209; files not in this branch)
-  3. [Linear equations and solution types](units/unit-03-linear-equations-solution-types/README.md) — **delivered draft** (six lessons, project, quiz, assessment, keys, resource pack, generated illustration)
-  4. Proportional relationships, slope, and linear graphs
-  5. Systems of linear equations
-  6. Functions and nonlinear relationships
-  7. Transformations, similarity, and Pythagorean reasoning
-  8. Volume, bivariate data, and modeling
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — Real Numbers, Roots, and Irrational Approximations](units/unit-01-real-numbers-roots-irrational-approximations/README.md) — available draft; educator review pending.
+- [Unit 02 — Integer Exponents and Scientific Notation](units/unit-02-integer-exponents-scientific-notation/README.md) — available draft; educator review pending.
+- [Unit 03 — Linear Equations and Solution Types](units/unit-03-linear-equations-solution-types/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Existing practice material (legacy, draft)
 

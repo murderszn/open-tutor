@@ -1,10 +1,10 @@
 # Grade 10 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, Units 01–02 are delivered as validated drafts, and Units 03–08
-are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-10 learner at a time; a guiding adult adapts pacing, materials, and
@@ -127,20 +127,12 @@ standard. No claim of state adoption, accreditation, or certification is made;
 Common Core is used here as a national reference framework, not a graduation
 requirement.
 
-## Planned units (in prerequisite order)
+## Available units
 
-- U01 — World literature cultural context and interpretation — **delivered as validated draft** ([units/unit-01-world-literature/](units/unit-01-world-literature/))
-- U02 — Comparative theme structure and perspective — **delivered as validated draft** ([units/unit-02-comparative-theme/](units/unit-02-comparative-theme/))
-- U03 — Nonfiction rhetoric reasoning and source evaluation
-- U04 — Language syntax tone vocabulary and conventions
-- U05 — Narrative craft and literary analysis essays
-- U06 — Argument synthesis and counterargument workshop
-- U07 — Research across perspectives and multimodal composition
-- U08 — Poetry drama discussion and revised portfolio
+- [Unit 01 — World Literature: Cultural Context and Interpretation](units/unit-01-world-literature/README.md) — available draft; educator review pending.
+- [Unit 02 — Comparative Theme Structure and Perspective](units/unit-02-comparative-theme/README.md) — available draft; educator review pending.
 
-Plus four flexible weeks across the year: diagnostic placement (weeks 1-2),
-midyear review (week 19), and final review/portfolio (week 36). The full
-week-by-week plan is in the [scope-and-sequence](scope-and-sequence.md).
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Guidance for the adult
 

@@ -1,10 +1,10 @@
 # Grade 9 Social Studies
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Units 01–02 are delivered drafts (not yet merged or
-educator-reviewed); Units 03–08 and R00 are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-9 learner at a time; a guiding adult adapts pacing, materials, and
@@ -106,29 +106,9 @@ elsewhere in the repository (full table in
   quizzes, assessments, diagnostics, resource packs, generated images, and the
   R00 review package — authored in U01–U08 and R00.
 
-## Units
+## Available units
 
-- U01 — World-history inquiry: geography and global connections circa
-  1450 — **draft delivered 2026-10-13** (issue #45; draft PR, not yet
-  merged): [units/unit-01-world-history-inquiry/](units/unit-01-world-history-inquiry/)
-  — 4 lessons, practice sets, project + rubric, resource pack, quiz,
-  unit assessment, teacher guide, separate answer key, generated
-  illustration.
-- U02 — Empires, exchange, colonization, and resistance — **draft delivered
-  2026-10-20** (issue #45; draft PR, not yet merged):
-  [units/unit-02-empires-exchange-colonization/](units/unit-02-empires-exchange-colonization/)
-  — 4 lessons, practice sets + writing workshops, evidence-dossier project
-  + rubric, resource pack, quiz, unit assessment, teacher guide, separate
-  answer key, generated illustration + exchange schematic.
-- U03 — Enlightenment, revolutions, rights, and consequences *(planned)*
-- U04 — Industrialization, capitalism, imperialism, and social change
-  *(planned)*
-- U05 — World wars, ideologies, genocide, and historical evidence
-  *(planned)*
-- U06 — Decolonization, Cold War, and new nations *(planned)*
-- U07 — Globalization, migration, development, and environmental
-  pressures *(planned)*
-- U08 — Contemporary world inquiry: comparative sources and civic
-  reasoning *(planned)*
-- R00 — Diagnostic, midyear/final review, cumulative assessment and keys
-  *(planned)*
+- [Unit 01 — World-History Inquiry: Geography and Global Connections circa 1450](units/unit-01-world-history-inquiry/README.md) — available draft; educator review pending.
+- [Unit 02 — Empires, Exchange, Colonization, and Resistance](units/unit-02-empires-exchange-colonization/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).

@@ -1,10 +1,10 @@
 # Grade 1 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and
-Units 01 and 03 are delivered as drafts (Unit 02 is delivered as
-draft PR #184, not yet merged); Units 04–08 are planned, not yet
-written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -87,23 +87,17 @@ adoption or accreditation). Full crosswalk in
 - Speaking and Listening: SL.1.1a–c, SL.1.2–6
 - Language: L.1.1a–j, L.1.2a–e, L.1.4a–c, L.1.5a–d, L.1.6
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Units 01 and 03 delivered as validated drafts (Unit 02
-  delivered as draft PR #184, not yet merged); Units 04–08 planned
-  (not yet written):
-  1. [Phonemic review, short vowels, and decoding](units/unit-01-phonemic-review-short-vowels-and-decoding/) — **draft delivered**
-  2. [Consonant blends, digraphs, and spelling](units/unit-02-consonant-blends-digraphs-and-spelling/) — **draft delivered**
-  3. Long-vowel patterns and high-frequency word practice
-  2. Consonant blends, digraphs, and spelling — **draft delivered (PR #184, not yet merged)**
-  3. [Long-vowel patterns and high-frequency word practice](units/unit-03-long-vowel-patterns-and-high-frequency-words/) — **draft delivered**
-  4. Fluency, retelling, characters, and key details
-  5. Informational reading: topics and text features
-  6. Sentences, capitalization, punctuation, and grammar
-  7. Opinion, explanatory, and narrative writing
-  8. Speaking, listening, research, and revised reading–writing portfolio
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Phonemic Review, Short Vowels, and Decoding](units/unit-01-phonemic-review-short-vowels-and-decoding/README.md) — available draft; educator review pending.
+- [Unit 02 — Consonant Blends, Digraphs, and Spelling](units/unit-02-consonant-blends-digraphs-and-spelling/README.md) — available draft; educator review pending.
+- [Unit 03 — Long-Vowel Patterns and High-Frequency Word Practice](units/unit-03-long-vowel-patterns-and-high-frequency-words/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

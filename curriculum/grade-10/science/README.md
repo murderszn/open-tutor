@@ -1,27 +1,17 @@
 # Grade 10 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; Units 01–02 are validated drafts under educator review; Units 03–08 are
-planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
-## Units
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
-- [Unit 01 — Chemical measurement, lab methods, and uncertainty](units/unit-01-chemical-measurement-and-uncertainty/README.md)
-  (Weeks 3–6; draft for educator review — six lessons, density investigation, formative quiz,
-  unit assessment, teacher guide, answer key, resource pack, generated illustration)
-- [Unit 02 — Atomic models, isotopes, and periodicity](units/unit-02-atomic-models-isotopes-periodicity/README.md)
-  (Weeks 7–10; draft for educator review — six lessons, periodic-trends investigation,
-  formative quiz, unit assessment, teacher guide, answer key, resource pack, generated
-  gold-foil illustration)
-- Units 03–08 — planned (see scope-and-sequence); not yet written.
+## Available units
 
-**Do not refer a learner to another grade track.** This folder is self-contained
-for one grade-10 learner at a time; a guiding adult adapts pacing, materials,
-and supports. Keep completed learner work, names, photos, schedules, and grades
-in private storage — never in this public repository.
+- [Unit 01 — Chemical Measurement, Lab Methods, and Uncertainty](units/unit-01-chemical-measurement-and-uncertainty/README.md) — available draft; educator review pending.
+- [Unit 02 — Atomic Models, Isotopes, and Periodicity](units/unit-02-atomic-models-isotopes-periodicity/README.md) — available draft; educator review pending.
 
-See also: [Grade 10 track](../README.md), [curriculum index](../../README.md).
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## What this track covers
 

@@ -1,14 +1,10 @@
 # Grade 12 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; Unit 01 (advanced function analysis and mathematical modeling)
-is a validated draft (issue #54) and Units 02–08 are planned, not yet
-written. See
-is a validated draft in unmerged draft PR #172; Unit 02 (trigonometric
-identities, equations, and applications) is a validated draft in this
-run's draft PR (issue #54); Units 03–08 are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-12 learner at a time; a guiding adult adapts pacing, materials,
@@ -121,28 +117,12 @@ accreditation). Full crosswalk in
   honestly: parametric equations, infinite geometric series, mathematical
   induction; limits and continuity (U07, explicitly optional)
 
-## Structure
+## Available units
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (Unit 01 delivered as a validated draft; Units
-  02–08 planned, not yet written):
-  1. [Advanced function analysis and mathematical modeling](units/unit-01-advanced-function-analysis/README.md) — **draft delivered 2026-10-15** (issue #54; not educator-reviewed)
-  2. Trigonometric identities, equations, and applications
-- `units/` — Unit 01 (advanced function analysis and mathematical modeling)
-  is a validated draft in unmerged draft PR #172; Unit 02 (trigonometric
-  identities, equations, and applications) is a validated draft in this
-  run's draft PR (issue #54); Units 03–08 are planned (not yet written):
-  1. Advanced function analysis and mathematical modeling — validated
-     draft (unmerged PR #172)
-  2. Trigonometric identities, equations, and applications — validated
-     draft (this run's draft PR)
-  3. Vectors, parametric equations, and polar representations
-  4. Sequences, series, and discrete models
-  5. Probability distributions and statistical inference
-  6. Optimization and modeling with algebraic methods
-  7. Limits and rates of change as optional calculus bridge
-  8. Capstone comparing models and defending conclusions
+- [Unit 01 — Advanced Function Analysis and Mathematical Modeling](units/unit-01-advanced-function-analysis/README.md) — available draft; educator review pending.
+- [Unit 02 — Trigonometric Identities, Equations, and Applications](units/unit-02-trigonometric-identities-equations/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Existing material (audit baseline)
 

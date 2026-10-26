@@ -1,8 +1,10 @@
 # Grade 7 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-7 learner at a time; a guiding adult adapts pacing, materials, and
@@ -124,31 +126,18 @@ not a claim of state adoption or accreditation). Full crosswalk in
 - Geometry: 7.G.A.1–3, 7.G.B.4–6
 - Statistics and Probability: 7.SP.A.1–2, 7.SP.B.3–4, 7.SP.C.5–8 (a–c)
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units; Units 01–02 delivered as validated drafts (not
-  educator-reviewed, not merged), units 3–8 planned (not yet written):
-  1. [Rational number operations](units/unit-01-rational-number-operations/README.md) — draft
-  2. [Ratios, rates, and proportional relationships](units/unit-02-ratios-rates-proportional/README.md) — draft
-  3. Percent change, discounts, and simple interest
-- `units/` — eight units; Unit 01 is on main and Unit 03 is delivered
-  as a validated draft in this PR (Unit 02's draft is pending in PR
-  #203), units 4–8 planned (not yet written):
-  1. [Rational number operations](units/unit-01-rational-number-operations/README.md) — draft
-  2. Ratios, rates, and proportional relationships (draft pending in PR #203)
-  3. [Percent change, discounts, and simple interest](units/unit-03-percent-change-discounts-interest/README.md) — draft
-  4. Expressions, equations, and inequalities
-  5. Scale drawings, angles, and geometric constructions
-  6. Circles, area, surface area, and volume
-  7. Sampling, comparative statistics, and inference
-  8. Probability models, experiments, and simulation
-- Legacy practice library — 11 assignments and 14 quizzes in
-  `assignments/` and `quizzes/` predate the unit structure; see the
-  [audit inventory](scope-and-sequence.md#1-audit-existing-file-inventory)
-  for keep/revise/rewrite decisions. They have no answer keys yet; unit
-  builds will supply teacher guides and keys.
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — Rational Number Operations](units/unit-01-rational-number-operations/README.md) — available draft; educator review pending.
+- [Unit 02 — Ratios, Rates, and Proportional Relationships](units/unit-02-ratios-rates-proportional/README.md) — available draft; educator review pending.
+- [Unit 03 — Percent Change, Discounts, and Simple Interest](units/unit-03-percent-change-discounts-interest/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

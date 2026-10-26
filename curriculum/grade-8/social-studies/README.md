@@ -1,10 +1,10 @@
 # Grade 8 Social Studies
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Units 01 and 02 are delivered as drafts; Units 03–08 are planned, not
-yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-8 learner at a time; a guiding adult adapts pacing, materials, and
@@ -111,11 +111,18 @@ The audit inventoried the 21 existing files in this folder (re-audited
   colonial or Revolution instruction, no Native-displacement treatment, no
   diagnostic/review weeks, no resource packs, no generated images, no capstone.
 
-## Units
+## Other materials
 
-- [Unit 01 — Colonial Societies, Atlantic Exchange, Labor, and Resistance](units/unit-01-colonial-societies/) *(delivered as a draft, 2026-10-13)* — Weeks 3–6: Atlantic-world mapping, the two-direction Columbian exchange, the three colonial regions' labor systems, enslavement as a system, resistance, and the triangular-trade synthesis. Six lessons, practice bank, Evidence Board investigation, formative quiz, culminating assessment, teacher guide, answer key, resource pack, and a generated port illustration.
-- [Unit 02 — Revolution, Independence, Contested Ideals](units/unit-02-revolution-contested-ideals/) *(delivered as a draft, 2026-10-20)* — Weeks 7–10: the road to war 1763–1776, Declaration close read, turning points and the French alliance, contested ideals (Wheatley, Dunmore, women's and Native perspectives), images as arguments, and the turning-point synthesis. Six lessons, practice bank, Evidence Portfolio investigation, formative quiz, culminating assessment, teacher guide, answer key, resource pack, and a generated print-shop reconstruction.
-- Units 03–08 are planned, not yet written (see the scope-and-sequence §5).
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+- [Blank templates](templates/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — Colonial Societies, Atlantic Exchange, Labor, and Resistance](units/unit-01-colonial-societies/README.md) — available draft; educator review pending.
+- [Unit 02 — Revolution, Independence, Contested Ideals](units/unit-02-revolution-contested-ideals/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Assignments
 

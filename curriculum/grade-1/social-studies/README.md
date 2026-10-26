@@ -1,14 +1,10 @@
 # Grade 1 Social Studies
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Units 01 (community membership, rights, and responsibilities) and 02 (local maps,
-land, water, and location) are delivered as validated drafts; Units 03–08 and the
-Units 01 (community membership, rights, and responsibilities) and 03 (past,
-present, timelines, and family-neutral histories) are delivered as validated
-drafts; Unit 02 (local maps, land, water, and location) is delivered as a
-validated draft in PR #185 (unmerged at this writing); Units 04–08 and the
-R00 review package are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -82,26 +78,17 @@ accreditation, or alignment certification. Full crosswalk in
 - History: D2.His.1–4, D2.His.6, D2.His.9–12, D2.His.14, D2.His.16 (K–2)
 - Inquiry and informed action: D1.1–5, D3.1–2, D4.1–8 (K–2)
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Units 01–02 delivered as validated drafts; Units 03–08 planned
-  (not yet written):
-  1. [Community membership, rights, and responsibilities](units/unit-01-community-membership-rights-responsibilities/) — **draft delivered**
-  2. [Local maps, land, water, and location](units/unit-02-local-maps-land-water-and-location/) — **draft delivered**
-  3. Past, present, timelines, and family-neutral histories
-- `units/` — Units 01 and 03 delivered as validated drafts; Unit 02
-  delivered as a validated draft in PR #185 (unmerged); Units 04–08 planned
-  (not yet written):
-  1. [Community membership, rights, and responsibilities](units/unit-01-community-membership-rights-responsibilities/) — **draft delivered**
-  2. Local maps, land, water, and location — **draft delivered in PR #185 (unmerged)**
-  3. [Past, present, timelines, and family-neutral histories](units/unit-03-past-present-timelines-family-neutral-histories/) — **draft delivered**
-  4. Community leaders, rules, and decision making
-  5. Needs, wants, producers, and consumers
-  6. Cultures, celebrations, and diverse perspectives
-  7. Historical figures, stories, and simple sources
-  8. Community problem solving and civic inquiry
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Community Membership, Rights, and Responsibilities](units/unit-01-community-membership-rights-responsibilities/README.md) — available draft; educator review pending.
+- [Unit 02 — Local Maps, Land, Water, and Location](units/unit-02-local-maps-land-water-and-location/README.md) — available draft; educator review pending.
+- [Unit 03 — Past, Present, Timelines, and Family-Neutral Histories](units/unit-03-past-present-timelines-family-neutral-histories/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

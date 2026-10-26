@@ -1,10 +1,10 @@
 # Grade 10 Social Studies
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, Units 01 and 02 are delivered as validated drafts, and Units 03–08
-are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-10 learner at a time; a guiding adult adapts pacing, materials, and
@@ -117,14 +117,9 @@ elsewhere in the repository (full table in
   quizzes, assessments, diagnostics, resource packs, generated images, and the
   R00 review package — authored in U01–U08 and R00.
 
-## Units (planned, not yet written)
+## Available units
 
-- U01 — Reconstruction, industrialization, and contested citizenship
-- U02 — Immigration, urbanization, labor, and reform
-- U03 — U.S. expansion, imperialism, and World War I
-- U04 — 1920s, Great Depression, and New Deal
-- U05 — World War II: home front, rights, and global role
-- U06 — Cold War, civil rights, and social movements
-- U07 — Late twentieth-century politics, economy, and culture
-- U08 — Recent U.S. history: evidence, media, and historical inquiry
-- R00 — Diagnostic, midyear/final review, cumulative assessment and keys
+- [Unit 01 — Reconstruction, Industrialization, and Contested Citizenship](units/unit-01-reconstruction-industrialization-citizenship/README.md) — available draft; educator review pending.
+- [Unit 02 — Immigration, Urbanization, Labor, and Reform](units/unit-02-immigration-urbanization-labor-reform/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).

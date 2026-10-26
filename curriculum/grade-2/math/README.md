@@ -1,10 +1,10 @@
 # Grade 2 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Units 01 and 03 are delivered as drafts (Unit 02 is delivered as draft PR #186,
-not yet merged); the remaining five units are planned, not yet
-written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-2 learner at a time; a guiding adult adapts pacing, materials, and
@@ -83,30 +83,17 @@ adoption or accreditation). Full crosswalk in
 - Measurement and Data: 2.MD.A.1–4, 2.MD.B.5–6, 2.MD.C.7–8, 2.MD.D.9–10
 - Geometry: 2.G.A.1–3
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (2 delivered as validated drafts; 3–8 planned,
-  not yet written):
-  1. [Place value to 1000 and number comparison](units/unit-01-place-value-to-1000-and-comparison/) —
-     validated draft (not educator-reviewed, not merged)
-  2. [Addition and subtraction within 100](units/unit-02-addition-and-subtraction-within-100/) —
-     validated draft (not educator-reviewed, not merged)
-  3. Three-digit addition and subtraction
-- `units/` — eight units (Units 01 and 03 delivered as drafts; Unit 02
-  delivered as draft PR #186, not yet merged; units 04–08 planned, not
-  yet written):
-  1. [Place value to 1000 and number comparison](units/unit-01-place-value-to-1000-and-comparison/) —
-     validated draft (not educator-reviewed, not merged)
-  2. Addition and subtraction within 100 — **draft delivered (PR #186, not yet merged)**
-  3. [Three-digit addition and subtraction](units/unit-03-three-digit-addition-and-subtraction/) —
-     **draft delivered**
-  4. Word problems and unknowns
-  5. Equal groups, arrays, and repeated addition
-  6. Length and standard units
-  7. Time, money, and data
-  8. Shapes, partitions, and equal shares
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Place Value to 1000 and Number Comparison](units/unit-01-place-value-to-1000-and-comparison/README.md) — available draft; educator review pending.
+- [Unit 02 — Addition and Subtraction within 100](units/unit-02-addition-and-subtraction-within-100/README.md) — available draft; educator review pending.
+- [Unit 03 — Three-Digit Addition and Subtraction](units/unit-03-three-digit-addition-and-subtraction/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

@@ -1,10 +1,10 @@
 # Grade 8 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; Units 01–02 are delivered as validated drafts; Units 03–08 and the
-R00 review package are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-8 learner at a time; a guiding adult adapts pacing, materials, and
@@ -94,22 +94,12 @@ alignment certification**. Full crosswalk in
 - Engineering Design (secondary in MS-PS1-6 and the capstone) — MS-ETS1-1
   through MS-ETS1-4
 
-## Structure
+## Available units
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Units 01–02 delivered as validated drafts (not educator-reviewed,
-  not merged); Units 03–08 planned (not yet written):
-  1. [Physical quantities, units, motion and graphs](units/unit-01-physical-quantities-motion-graphs/README.md)
-    — **validated draft** (issue #39, U01)
-  2. [Forces, Newtonian reasoning, and momentum](units/unit-02-forces-newtonian-reasoning-momentum/README.md)
-    — **validated draft** (issue #39, U02)
-  3. Energy, work, simple machines, and conservation
-  4. Waves, sound, light, and information
-  5. Electric and magnetic interactions and circuits
-  6. Atomic structure, elements, and periodic patterns
-  7. Bonding, reactions, and conservation of matter
-  8. Thermal energy, chemical applications, and engineering capstone
+- [Unit 01 — Physical Quantities, Units, Motion and Graphs](units/unit-01-physical-quantities-motion-graphs/README.md) — available draft; educator review pending.
+- [Unit 02 — Forces, Newtonian Reasoning, and Momentum](units/unit-02-forces-newtonian-reasoning-momentum/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Existing material (audit baseline)
 

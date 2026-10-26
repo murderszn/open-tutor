@@ -1,13 +1,10 @@
 # Grade 12 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Unit 01 is delivered as a validated draft; units 02–08 and
-the review package are planned, not yet written.
-delivered, Unit 01 is delivered as a validated draft in unmerged draft PR
-#174, and Unit 02 is delivered as a validated draft in this run's draft PR;
-units 03–08 and the review package are planned, not yet written.
-See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-12 learner at a time; a guiding adult adapts pacing, materials,
@@ -114,34 +111,12 @@ a reference alignment for planning — it is not a claim of state adoption,
 accreditation, or standards certification, and no state or district
 requirements were specified.
 
-## Planned units
+## Available units
 
-- **U01** — Advanced close reading: critical lenses and interpretation —
-  **delivered as a validated draft**
-  ([units/unit-01-critical-lenses-and-interpretation/](units/unit-01-critical-lenses-and-interpretation/))
-  in this run's draft PR (issue #56, 2026-10-15)
-- **U02** — Comparative world literature and historical context
-  (planned)
-  **delivered as a validated draft** in unmerged draft PR #174 (issue #56,
-  2026-10-15)
-- **U02** — Comparative world literature and historical context —
-  **delivered as a validated draft**
-  ([units/unit-02-comparative-world-literature/](units/unit-02-comparative-world-literature/))
-  in this run's draft PR (issue #56, 2026-10-21)
-- **U03** — Rhetorical analysis: argument and media criticism
-- **U04** — Precision style: grammar and vocabulary refinement
-- **U05** — Advanced analytical, argumentative, and creative writing
-- **U06** — Research synthesis: methodology and source evaluation
-- **U07** — Professional, civic, and postsecondary communication
-- **U08** — Independent reading seminar and revised capstone portfolio
-- **R00** — Diagnostic, midyear and final review, cumulative assessment, and
-  keys (delivered last)
+- [Unit 01 — Advanced Close Reading: Critical Lenses and Interpretation](units/unit-01-critical-lenses-and-interpretation/README.md) — available draft; educator review pending.
+- [Unit 02 — Comparative World Literature and Historical Context](units/unit-02-comparative-world-literature/README.md) — available draft; educator review pending.
 
-Units are planned in prerequisite order: close reading with lenses before
-comparative literature; comparative reading before rhetorical analysis;
-rhetoric before precision style; style before advanced writing; writing before
-sustained research; research before professional and civic communication;
-everything before the independent seminar and capstone portfolio.
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

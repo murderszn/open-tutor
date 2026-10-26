@@ -1,10 +1,10 @@
 # Kindergarten Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered,
-Units 01–02 are delivered as drafts, and Units 03–08 are planned, not yet written.
-Units 01 and 03 are delivered as drafts (Unit 02 is delivered as a draft in PR #180, unmerged), and Units 04–08 are planned, not yet written.
-See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one kindergarten learner at a time; a guiding adult adapts pacing, materials, and
@@ -65,25 +65,17 @@ adoption or accreditation). Full crosswalk in
 - Speaking and Listening: SL.K.1–5
 - Language: L.K.1 (c–e), L.K.2 (c–d), L.K.4–6
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (Units 01–02 delivered as drafts; Units 03–08 planned,
-  not yet written):
-  1. [Oral language listening and print concepts](units/unit-01-oral-language-and-print-concepts/README.md) — **draft**
-  2. [Rhyme syllables and phonemic awareness](units/unit-02-rhyme-syllables-phonemic-awareness/README.md) — **draft**
-  3. Letter recognition and sound correspondences
-- `units/` — eight units (Units 01 and 03 delivered as drafts; Unit 02 delivered as a draft in PR #180, unmerged; Units 04–08 planned,
-  not yet written):
-  1. [Oral language listening and print concepts](units/unit-01-oral-language-and-print-concepts/README.md) — **draft**
-  2. Rhyme syllables and phonemic awareness
-  3. [Letter recognition and sound correspondences](units/unit-03-letter-recognition-and-sound-correspondences/README.md) — **draft**
-  4. Blending segmenting and regular CVC words
-  5. Shared reading retelling and sequence
-  6. Decodable reading and sentence foundations
-  7. Informational text questions and drawing-to-writing
-  8. Opinion narrative and informational oral-written sharing
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Oral Language Listening and Print Concepts](units/unit-01-oral-language-and-print-concepts/README.md) — available draft; educator review pending.
+- [Unit 02 — Rhyme, Syllables, and Phonemic Awareness](units/unit-02-rhyme-syllables-phonemic-awareness/README.md) — available draft; educator review pending.
+- [Unit 03 — Letter Recognition and Sound Correspondences](units/unit-03-letter-recognition-and-sound-correspondences/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

@@ -1,13 +1,10 @@
 # Grade 5 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and Units 01–02
-are delivered as validated drafts; Units 03–08 and R00 are planned, not yet
-This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01
-are delivered as validated drafts; Unit 03 is delivered as a validated draft in
-this branch. Unit 02 is delivered as a validated draft in PR #199 (awaiting
-merge) and is not in this branch; Units 04–08 and R00 are planned, not yet
-written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-5 learner at a time; a guiding adult adapts pacing, materials, and
@@ -33,13 +30,13 @@ investigation lesson, data-and-modeling practice, science reading-and-talk,
 and review — with short written responses, drawings, and hands-on tasks, and
 explicit adult directions for every investigation.
 
-## Units
+## Available units
 
-- [Unit 01 — Models, measurement, and controlled investigations](units/unit-01-measurement-investigations/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; testable questions, observation vs. inference, metric measurement and conversion, fair tests, bar/line graphs, models and revision, design criteria/constraints, and the investigation-report format.
-- [Unit 02 — Particle models, properties, and mixtures](units/unit-02-particle-models-properties-mixtures/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; evidence for particles too small to see, particle models of solids/liquids/gases, identifying materials by properties, mixtures and separation, dissolving evidence and model revision.
-- Units 03–08 and R00 — planned, not yet written (see the [scope-and-sequence](scope-and-sequence.md) §5 and §11).
-- [Unit 03 — Matter conservation and chemical-change evidence](units/unit-03-matter-conservation-chemical-change/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; weight conservation through freezing/melting and dissolving, baking-soda-and-vinegar and milk-and-vinegar evidence for new substances, sand-and-water non-example, and the sealed-bag vs. open-cup gas-escape explanation.
-- Units 02, 04–08 and R00 — not in this branch (Unit 02 delivered as a validated draft in PR #199, awaiting merge; the rest planned, not yet written — see the [scope-and-sequence](scope-and-sequence.md) §5 and §11).
+- [Unit 01 — Models, Measurement, and Controlled Investigations](units/unit-01-measurement-investigations/README.md) — available draft; educator review pending.
+- [Unit 02 — Particle Models, Properties, and Mixtures](units/unit-02-particle-models-properties-mixtures/README.md) — available draft; educator review pending.
+- [Unit 03 — Matter Conservation and Chemical-Change Evidence](units/unit-03-matter-conservation-chemical-change/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Track objectives (measurable, adult-assessed)
 

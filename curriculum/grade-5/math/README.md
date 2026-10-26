@@ -1,8 +1,10 @@
 # Grade 5 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-the eight units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-5 learner at a time; a guiding adult adapts pacing, materials, and
@@ -104,25 +106,18 @@ adoption or accreditation). Full crosswalk in
 - Measurement and Data: 5.MD.A.1, 5.MD.B.2, 5.MD.C.3.a–b, 5.MD.C.4, 5.MD.C.5.a–c
 - Geometry: 5.G.A.1–2, 5.G.B.3
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units:
-  1. [Place value, decimal patterns, and powers of ten](units/unit-01-place-value-decimal-patterns-powers-of-ten/README.md) — delivered (draft PR, 2026-10-11)
-  2. [Multi-digit multiplication and division](units/unit-02-multi-digit-multiplication-and-division/README.md) — delivered (draft PR, 2026-10-18); units 3–8 planned, not yet written
-  3. Decimal operations and applications (planned)
-  2. Multi-digit multiplication and division — delivered as a draft (open draft PR #198, 2026-10-18; unmerged)
-  3. [Decimal operations and applications](units/unit-03-decimal-operations-and-applications/README.md) — delivered (draft PR, 2026-10-24; unmerged); units 4–8 planned, not yet written
-  4. Fraction addition and subtraction with unlike denominators (planned)
-  5. Fraction multiplication, division, and models (planned)
-  6. Measurement conversions and volume (planned)
-  7. Coordinate planes, patterns, and numerical expressions (planned)
-  8. Data, line plots, and cumulative problem solving (planned)
-- `assignments/` — existing draft practice library (re-audited; keep/revise
-  decisions in the scope-and-sequence)
-- `quizzes/` — existing draft quiz library (re-audited; every quiz embeds its
-  answer key beside the student questions — unit builds separate the keys)
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — Place Value, Decimal Patterns, and Powers of Ten](units/unit-01-place-value-decimal-patterns-powers-of-ten/README.md) — available draft; educator review pending.
+- [Unit 02 — Multi-Digit Multiplication and Division](units/unit-02-multi-digit-multiplication-and-division/README.md) — available draft; educator review pending.
+- [Unit 03 — Decimal Operations and Applications](units/unit-03-decimal-operations-and-applications/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

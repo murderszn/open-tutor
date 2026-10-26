@@ -1,14 +1,10 @@
 # Grade 1 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-[Unit 01 — Questions, observations, and safe investigations](units/unit-01-questions-observations-safe-investigations/README.md)
-and [Unit 02 — Sound, vibration, and communication](units/unit-02-sound-vibration-communication/README.md)
-are delivered as validated drafts; Units 03–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
-is delivered as a validated draft; Unit 02 (Sound, vibration, and
-communication) is delivered as draft PR #183, not yet merged;
-[Unit 03 — Light, visibility, shadows, and materials](units/unit-03-light-visibility-shadows-materials/README.md)
-is delivered as a validated draft; Units 04–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -82,25 +78,17 @@ adoption, accreditation, or alignment certification). Full crosswalk in
 - Earth's Place in the Universe: 1-ESS1-1, 1-ESS1-2
 - Engineering Design (K–2 band): K-2-ETS1-1, K-2-ETS1-2, K-2-ETS1-3
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, safety,
-  accessibility.
-- `units/` — eight units; Units 01–02 delivered, Units 03–08 planned (not yet written):
-  1. [Questions, observations, and safe investigations](units/unit-01-questions-observations-safe-investigations/README.md) — **delivered (validated draft)**
-  2. [Sound, vibration, and communication](units/unit-02-sound-vibration-communication/README.md) — **delivered (validated draft)**
-  3. Light, visibility, shadows, and materials
-- `units/` — eight units; Units 01 and 03 delivered, Unit 02 delivered as
-  a draft PR (not yet merged), Units 04–08 planned (not yet written):
-  1. [Questions, observations, and safe investigations](units/unit-01-questions-observations-safe-investigations/README.md) — **delivered (validated draft)**
-  2. Sound, vibration, and communication — **delivered as a draft (PR #183, not yet merged)**
-  3. [Light, visibility, shadows, and materials](units/unit-03-light-visibility-shadows-materials/README.md) — **delivered (validated draft)**
-  4. External structures of plants and animals
-  5. Parent–offspring similarities and behavior
-  6. Sun, moon, and observable sky patterns
-  7. Seasonal daylight and weather observations
-  8. Engineering solutions inspired by living things
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Questions, Observations, and Safe Investigations](units/unit-01-questions-observations-safe-investigations/README.md) — available draft; educator review pending.
+- [Unit 02 — Sound, Vibration, and Communication](units/unit-02-sound-vibration-communication/README.md) — available draft; educator review pending.
+- [Unit 03 — Light, Visibility, Shadows, and Materials](units/unit-03-light-visibility-shadows-materials/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

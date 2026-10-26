@@ -1,10 +1,10 @@
 # Grade 10 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Units 01–02 are delivered drafts (not yet merged or
-educator-reviewed); Units 03–08 and R00 are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-10 learner at a time; a guiding adult adapts pacing, materials,
@@ -98,29 +98,12 @@ School conceptual categories (verified against the official framework
 - Statistics and Probability — Conditional Probability: S-CP.1–9
 - Number and Quantity — Quantities: N-Q.1–3
 
-## Structure
+## Available units
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units:
-  1. Geometry foundations: definitions and proof — **draft delivered
-     2026-10-13** (issue #46; draft PR, not yet merged):
-     [units/unit-01-geometry-foundations/](units/unit-01-geometry-foundations/)
-     — 5 lessons, practice sets A–D, project + rubric, resource pack,
-     formative quiz, unit assessment, teacher guide, separate answer key,
-     generated illustration.
-  2. Congruence: rigid motions and triangle reasoning — **draft
-     delivered 2026-10-20** (issue #46; draft PR, not yet merged):
-     [units/unit-02-congruence-and-triangle-reasoning/](units/unit-02-congruence-and-triangle-reasoning/)
-     — 5 lessons, practice sets A–E, project + rubric, resource pack,
-     formative quiz, unit assessment, teacher guide, separate answer key,
-     generated illustration.
-  3. Similarity: dilations and proportional reasoning *(planned)*
-  4. Right-triangle trigonometry and applications *(planned)*
-  5. Quadrilaterals, polygons, and coordinate proofs *(planned)*
-  6. Circles: chords, tangents, and angles *(planned)*
-  7. Area, surface area, volume, and geometric modeling *(planned)*
-  8. Geometric probability and cumulative design proofs *(planned)*
+- [Unit 01 — Geometry Foundations: Definitions and Proof](units/unit-01-geometry-foundations/README.md) — available draft; educator review pending.
+- [Unit 02 — Congruence, Rigid Motions, and Triangle Reasoning](units/unit-02-congruence-and-triangle-reasoning/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Existing material (audit baseline)
 

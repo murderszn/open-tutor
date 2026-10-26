@@ -1,15 +1,10 @@
 # Grade 4 Social Studies
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-[Unit 01 — Geographic tools, U.S. regions, and map evidence](units/unit-01-geographic-tools-us-regions/README.md)
-and [Unit 02 — Indigenous nations: geography and historical perspectives](units/unit-02-indigenous-nations-geography-perspectives/README.md)
-are delivered as drafts (awaiting educator review and merge); Units 03–08 and R00
-is delivered as a draft (awaiting educator review and merge); Unit 02 is
-delivered as a validated draft (draft PR #197, unmerged);
-[Unit 03 — Exploration, encounters, exchange, and consequences](units/unit-03-exploration-encounters-exchange-consequences/README.md)
-is delivered as a draft (awaiting educator review and merge); Units 04–08 and R00
-are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-4 learner at a time; a guiding adult adapts pacing, materials, and
@@ -17,6 +12,20 @@ supports. Keep completed learner work, names, photos, schedules, and grades in
 private storage — never in this public repository.
 
 See also: [Grade 4 track](../README.md), [curriculum index](../../README.md).
+
+## Other materials
+
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+- [Blank templates](templates/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — Geographic Tools, U.S. Regions, and Map Evidence](units/unit-01-geographic-tools-us-regions/README.md) — available draft; educator review pending.
+- [Unit 02 — Indigenous Nations: Geography and Historical Perspectives](units/unit-02-indigenous-nations-geography-perspectives/README.md) — available draft; educator review pending.
+- [Unit 03 — Exploration, Encounters, Exchange, and Consequences](units/unit-03-exploration-encounters-exchange-consequences/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## What this track covers
 

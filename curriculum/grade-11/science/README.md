@@ -1,10 +1,10 @@
 # Grade 11 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; Units 01–02 are delivered as validated drafts in draft PRs
-(linked from issue #51); units 03–08 are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-11 learner at a time; a guiding adult adapts pacing, materials,
@@ -100,8 +100,9 @@ rules, heat handling, and simulation alternatives — are in the scope-and-seque
 concentrated chemicals, or toxic materials; anything more hazardous is replaced
 by a PhET simulation or a structured observation.
 
-## Units
+## Available units
 
-- [Unit 01 — Measurement, vectors, motion, and uncertainty](units/unit-01-measurement-vectors-motion-and-uncertainty/README.md) — delivered as a validated draft (issue #51); SI units and dimensional analysis, accuracy vs. precision and uncertainty, vector components and resultants, kinematics graphs and the constant-acceleration equations, projectile motion with a bench launch investigation.
-- [Unit 02 — Forces, free-body diagrams, and dynamics](units/unit-02-forces-free-body-diagrams-dynamics/README.md) — delivered as a validated draft (issue #51); Newton's first and third laws, free-body diagrams, `F_net = ma` with friction, inclines, connected systems, and a ramp investigation testing `a = g sin θ`.
-- Units 03–08 (energy; momentum; circular motion and gravitation; waves; circuits and electromagnetism; thermal systems and modern physics) — planned, not yet written. The review package R00 is also planned.
+- [Unit 01 — Measurement, Vectors, Motion, and Uncertainty](units/unit-01-measurement-vectors-motion-and-uncertainty/README.md) — available draft; educator review pending.
+- [Unit 02 — Forces, Free-Body Diagrams, and Dynamics](units/unit-02-forces-free-body-diagrams-dynamics/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).

@@ -1,10 +1,10 @@
 # Grade 9 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Units 01–02 are delivered as validated drafts; the remaining six
-units are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-9 learner at a time; a guiding adult adapts pacing, materials, and
@@ -97,24 +97,12 @@ from end-of-grade-10 text-complexity expectations. No claim of state adoption,
 accreditation, or certification is made; Common Core is used here as a
 national reference framework, not a graduation requirement.
 
-## Planned units (U01–U02 delivered as validated drafts; U03–U08 in prose until built)
+## Available units
 
-- **U01 — Literary close reading: theme and evidence** — delivered as a
-  validated draft ([units/unit-01-theme-and-evidence/](units/unit-01-theme-and-evidence/));
-  not educator-reviewed, not merged
-- **U02 — Narrative structure, characterization, and author choices** — delivered as a
-  validated draft ([units/unit-02-narrative-structure-and-author-choices/](units/unit-02-narrative-structure-and-author-choices/));
-  not educator-reviewed, not merged
-- U03 — Informational rhetoric, argument, and media literacy
-- U04 — Grammar precision, syntax, vocabulary, and style
-- U05 — Narrative and creative writing workshop
-- U06 — Argument essays: source integration and revision
-- U07 — Research inquiry: credibility, citation, and synthesis
-- U08 — Poetry, drama seminar, and comparative portfolio
+- [Unit 01 — Literary Close Reading: Theme and Evidence](units/unit-01-theme-and-evidence/README.md) — available draft; educator review pending.
+- [Unit 02 — Narrative Structure, Characterization, and Author Choices](units/unit-02-narrative-structure-and-author-choices/README.md) — available draft; educator review pending.
 
-Plus four flexible weeks across the year: diagnostic placement (weeks 1-2),
-midyear review (week 19), and final review/portfolio (week 36). The full
-week-by-week plan is in the [scope-and-sequence](scope-and-sequence.md).
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Guidance for the adult
 

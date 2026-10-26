@@ -1,50 +1,26 @@
 # Independent Grade Curriculum
 
-Four grade tracks have expanded legacy draft assignment and quiz libraries: **Grade 4, Grade 5, Grade 7, and Grade 8**. The collections are not complete, validated lesson sequences; they still need instructional, answer-key, prerequisite, and grade-placement review. Grade 7 social studies has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. Grade 7 language arts has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. Grade 7 science has a draft audit and scope-and-sequence (2026-10-05); Units 01-02 are delivered as validated drafts, units 3-8 are planned, not yet written. Grade 7 mathematics has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. The developing **K, 1, 2, 3, and 6** folders contain limited audit or starter material, not full units or courses. Select one grade folder for one learner at a time.
-Four grade tracks have expanded legacy draft assignment and quiz libraries: **Grade 4, Grade 5, Grade 7, and Grade 8**. The collections are not complete, validated lesson sequences; they still need instructional, answer-key, prerequisite, and grade-placement review. Grade 7 social studies has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. Grade 7 language arts has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. Grade 7 science has a draft audit and scope-and-sequence (2026-10-05); Units 01-03 are delivered as validated drafts, units 4-8 are planned, not yet written. Grade 7 mathematics has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. The developing **K, 1, 2, 3, and 6** folders contain limited audit or starter material, not full units or courses. Select one grade folder for one learner at a time.
-Four grade tracks have expanded legacy draft assignment and quiz libraries: **Grade 4, Grade 5, Grade 7, and Grade 8**. The collections are not complete, validated lesson sequences; they still need instructional, answer-key, prerequisite, and grade-placement review. Grade 7 social studies has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. Grade 7 language arts has a draft audit and scope-and-sequence (2026-10-05); Unit 01 is merged, Unit 02 is delivered as a validated draft in draft PR #208, Unit 03 is delivered as a validated draft, and Units 04–08 are planned, not yet written. Grade 7 science has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. Grade 7 mathematics has a draft audit and scope-and-sequence (2026-10-05); its eight units are planned, not yet written. The developing **K, 1, 2, 3, and 6** folders contain limited audit or starter material, not full units or courses. Select one grade folder for one learner at a time.
+Kindergarten through Grade 12 have draft audits, scope-and-sequences, and instructional units for mathematics, science, language arts, and social studies. The available units are listed below and in each subject index. Educator review is pending; no subject track is complete. Select one grade folder for one learner at a time.
 
 **Do not refer a learner to another grade's folder. Do not combine assignments across grades, ask learners to work together, compare their results, or refer to siblings/peers.** These are reusable teaching materials, not learner profiles or records.
 
 ## Tracks
 
-- [Grade 4](grade-4/README.md) — draft audits for mathematics, language arts, science, and social studies; no complete subject tracks
-- [Grade 5](grade-5/README.md)
-- [Grade 7](grade-7/README.md)
-- [Grade 8](grade-8/README.md) — draft audits for mathematics, language arts, science, and social studies; no complete subject tracks
+- [Kindergarten](grade-k/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Grade 1](grade-1/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Grade 2](grade-2/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Grade 3](grade-3/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Grade 4](grade-4/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Grade 5](grade-5/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Grade 6](grade-6/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Grade 7](grade-7/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Grade 8](grade-8/README.md) — draft units: Mathematics: 3; Science: 2; Language arts: 2; Social studies: 2.
+- [Grade 9](grade-9/README.md) — draft units: Mathematics: 3; Science: 2; Language arts: 2; Social studies: 2.
+- [Grade 10](grade-10/README.md) — draft units: Mathematics: 2; Science: 2; Language arts: 2; Social studies: 2.
+- [Grade 11](grade-11/README.md) — draft units: Mathematics: 3; Science: 2; Language arts: 2; Social studies: 2.
+- [Grade 12](grade-12/README.md) — draft units: Mathematics: 2; Science: 2; Language arts: 2; Social studies: 2.
 
-For K–8 adult planning, placement, and a candid coverage snapshot, see [K–8 planning guidance](../resources/k-8/README.md). The matching grade folder remains the canonical source of instruction. Profiles in the resource guide do not override its grade-specific audit or scope and sequence.
-
-## K–12 Expansion
-
-The [expansion plan and structured GitHub backlog](../docs/curriculum-expansion/README.md) cover Kindergarten through Grade 12 in math, science, language arts, and social studies. Planned coverage is not finished curriculum. The [worker prompt](../teachers/ai-assistants/curriculum-worker.md) builds one substantive section per invocation.
-
-Developing grade tracks with starter material:
-
-- [Kindergarten](grade-k/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; language arts Unit 01 draft available; science Unit 01 draft available; social studies Units 01–02 draft available; no complete subject tracks
-- [Kindergarten](grade-k/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; language arts Unit 01 draft available; science Unit 01 draft available; social studies Units 01 and 03 draft available (Unit 02 draft PR #181 pending); no complete subject tracks
-- [Grade 1](grade-1/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; language arts Unit 01 draft available; no complete subject tracks
-- [Kindergarten](grade-k/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; language arts Unit 01 draft available; science Unit 01 draft available; social studies Unit 01 draft available; no complete subject tracks
-- [Grade 1](grade-1/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; language arts Units 01–03 draft available (Unit 02 as draft PR #184, not yet merged); no complete subject tracks
-- [Grade 2](grade-2/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Kindergarten](grade-k/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; language arts Unit 01 draft available; science Unit 01 draft available; social studies Units 01 and 03 draft available (Unit 02 draft PR #181 pending); no complete subject tracks
-- [Grade 1](grade-1/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Unit 01 draft available; language arts Unit 01 draft available; no complete subject tracks
-- [Grade 2](grade-2/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; mathematics Units 01 and 03 draft available (Unit 02 draft PR #186 pending); no complete subject tracks
-- [Grade 3](grade-3/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 3](grade-3/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; language arts Units 01–03 drafts available; no complete subject tracks
-- [Grade 6](grade-6/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; language arts Unit 01 draft available; no complete subject tracks
-- [Grade 12](grade-12/README.md) — draft audits for mathematics, language arts, science, social studies; language arts Unit 01 draft available; no complete subject tracks
-- [Grade 6](grade-6/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; draft units available for mathematics (U01–U03) and language arts (U01); no complete subject tracks
-- [Grade 6](grade-6/README.md) — four subject starter lessons; draft audits for mathematics, language arts, science, social studies; draft units available for mathematics (U01–U03), language arts (U01), and science (U01–U03); no complete subject tracks
-- [Grade 12](grade-12/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 11](grade-11/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 10](grade-10/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 9](grade-9/README.md) — draft audits for mathematics, language arts, science, social studies; Unit 01 drafts for all four subjects; Unit 02 drafts for language arts and social studies; no complete subject tracks
-- [Grade 8](grade-8/README.md) — draft audits for mathematics, language arts, science, social studies; language arts Unit 01 draft available; no complete subject tracks
-- [Grade 5](grade-5/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-- [Grade 4](grade-4/README.md) — draft audits for mathematics, language arts, science, social studies; no complete subject tracks
-
-Each listed starter is one supplemental lesson only. It is not an eight-unit course, and its presence does not establish full subject coverage. Grades 9–12 have developing curriculum folders; no complete subject tracks are available. New core science content will use `science/`; existing `stem/` material remains available and will be reviewed for reuse. Each developing track must publish its status truthfully until its lessons, resources, assessments, keys, and review are complete.
+The [expansion plan](../docs/curriculum-expansion/README.md) tracks remaining units. The [K–8 planning guidance](../resources/k-8/README.md) supports adult planning; each grade folder remains the canonical source of instruction.
 
 ## Using a Track
 

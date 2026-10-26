@@ -1,10 +1,10 @@
 # Grade 3 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Units 01–03 are drafted (validated drafts, not educator-reviewed, not merged;
-Unit 02 as draft PR #190) and Units 04–08 are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-3 learner at a time; a guiding adult adapts pacing, materials, and
@@ -99,21 +99,17 @@ adoption or accreditation). Full crosswalk in
 - Measurement and Data: 3.MD.A.1–2, 3.MD.B.3–4, 3.MD.C.5–7, 3.MD.D.8
 - Geometry: 3.G.A.1–2
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (Units 01–03 drafted; Units 04–08 planned, not yet written):
-  1. [Place value, rounding, and multi-digit operations](units/unit-01-place-value-rounding-and-operations/README.md) — **draft** (issue #18, U01; validated draft, not educator-reviewed, not merged)
-  2. [Multiplication concepts and facts](units/unit-02-multiplication-concepts-and-facts/README.md) — **draft** (issue #18, U02; validated draft, not educator-reviewed, not merged)
-  3. Division concepts and facts — planned
-  2. Multiplication concepts and facts — **draft** (issue #18, U02; validated draft PR #190, not educator-reviewed, not merged; files not yet on main, so no link until merged)
-  3. [Division concepts and facts](units/unit-03-division-concepts-and-facts/README.md) — **draft** (issue #18, U03; validated draft, not educator-reviewed, not merged)
-  4. Multiplication, division, and two-step problems — planned
-  5. Fractions on models and number lines — planned
-  6. Measurement, time, and liquid volume — planned
-  7. Area, perimeter, and rectilinear shapes — planned
-  8. Geometry and scaled data displays — planned
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Place Value, Rounding, and Multi-Digit Operations](units/unit-01-place-value-rounding-and-operations/README.md) — available draft; educator review pending.
+- [Unit 02 — Multiplication Concepts and Facts](units/unit-02-multiplication-concepts-and-facts/README.md) — available draft; educator review pending.
+- [Unit 03 — Division Concepts and Facts](units/unit-03-division-concepts-and-facts/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

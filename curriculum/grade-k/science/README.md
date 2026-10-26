@@ -1,11 +1,10 @@
 # Kindergarten Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Units 01–02 are delivered as validated drafts; Units 03–08 and the R00 review package are
-Units 01 and 03 are delivered as validated drafts; Unit 02 is delivered as a validated
-draft in PR #178 (not yet merged); Units 04–08 and the R00 review package are
-planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one kindergarten learner at a time; a guiding adult adapts pacing, materials, and
@@ -63,25 +62,17 @@ of state adoption, accreditation, or alignment certification). Full crosswalk in
 - Earth and Human Activity: K-ESS3-1, K-ESS3-2, K-ESS3-3
 - Engineering Design (K–2 band): K-2-ETS1-1, K-2-ETS1-2, K-2-ETS1-3
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, safety,
-  accessibility.
-- `units/` — Units 01–02 delivered as validated drafts; Units 03–08 planned (not yet written):
-  1. [Observing, describing, and asking questions](units/unit-01-observing-describing-asking-questions/) — delivered (draft)
-  2. [Pushes, pulls, and moving objects](units/unit-02-pushes-pulls-moving-objects/) — delivered (draft)
-  3. Comparing materials and designing simple solutions
-- `units/` — Units 01 and 03 delivered as validated drafts; Unit 02 delivered as a
-  validated draft in PR #178 (not yet merged); Units 04–08 planned (not yet written):
-  1. [Observing, describing, and asking questions](units/unit-01-observing-describing-asking-questions/) — delivered (draft)
-  2. Pushes, pulls, and moving objects — delivered as a validated draft (PR #178; file lands when that PR merges)
-  3. [Comparing materials and designing simple solutions](units/unit-03-comparing-materials-designing-solutions/) — delivered (draft)
-  4. Plant needs and growth observations
-  5. Animal needs, habitats, and patterns
-  6. Weather observations and daily patterns
-  7. Sunlight, shade, and warming surfaces
-  8. Caring for local environments and engineering solutions
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Observing, Describing, and Asking Questions](units/unit-01-observing-describing-asking-questions/README.md) — available draft; educator review pending.
+- [Unit 02 — Pushes, Pulls, and Moving Objects](units/unit-02-pushes-pulls-moving-objects/README.md) — available draft; educator review pending.
+- [Unit 03 — Comparing Materials and Designing Simple Solutions](units/unit-03-comparing-materials-designing-solutions/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

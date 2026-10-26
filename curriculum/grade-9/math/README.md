@@ -1,11 +1,10 @@
 # Grade 9 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and
-Units 01–02 are delivered; Units 03–08 are planned, not yet written. See
-Units 01–03 are delivered (Unit 01 merged; Units 02–03 as validated
-drafts in open draft PRs); Units 04–08 are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-9 learner at a time; a guiding adult adapts pacing, materials, and
@@ -92,26 +91,13 @@ claim of state adoption or accreditation). Full crosswalk in
 - Functions: F-IF.1–9, F-BF.1.a–1.b, F-BF.2–3, F-LE.1–3, F-LE.5
 - Statistics and Probability: S-ID.1–8
 
-## Structure
+## Available units
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units; Units 01–02 delivered as validated drafts (issue
-  #42, draft PRs), Units 03–08 planned (not yet written):
-  1. [Algebra foundations: expressions and equations](units/unit-01-algebra-foundations-expressions-equations/README.md) — **delivered (validated draft)**
-  2. [Linear functions: graphs and modeling](units/unit-02-linear-functions-graphs-modeling/README.md) — **delivered (validated draft)**
-  3. Systems: inequalities and constraints
-- `units/` — eight units; Units 01–03 delivered as validated drafts
-  (Unit 01 merged; Unit 02 in open draft PR #210; Unit 03 in an open
-  draft PR for issue #42), Units 04–08 planned (not yet written):
-  1. [Algebra foundations: expressions and equations](units/unit-01-algebra-foundations-expressions-equations/README.md) — **delivered (validated draft)**
-  2. Linear functions: graphs and modeling — **delivered (validated draft, open draft PR #210, unmerged)**
-  3. [Systems: inequalities and constraints](units/unit-03-systems-inequalities-constraints/README.md) — **delivered (validated draft, open draft PR, unmerged)**
-  4. Exponents: polynomials and operations
-  5. Quadratic functions and factoring
-  6. Quadratic equations and applications
-  7. Exponential functions and sequences
-  8. Descriptive statistics: residuals and model comparison
+- [Unit 01 — Algebra Foundations: Expressions and Equations](units/unit-01-algebra-foundations-expressions-equations/README.md) — available draft; educator review pending.
+- [Unit 02 — Linear Functions: Graphs and Modeling](units/unit-02-linear-functions-graphs-modeling/README.md) — available draft; educator review pending.
+- [Unit 03 — Systems: Inequalities and Constraints](units/unit-03-systems-inequalities-constraints/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Existing material (audit baseline)
 

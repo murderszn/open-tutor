@@ -1,23 +1,16 @@
 # Grade 7 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Units 01–02 are delivered as validated drafts (not educator-reviewed, not merged);
-units 3–8 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
-Units 01–03 are delivered as validated drafts (not educator-reviewed, not merged);
-units 4–8 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-7 learner at a time; a guiding adult adapts pacing, materials, and
 supports. Keep completed learner work, names, photos, schedules, and grades in
 private storage — never in this public repository.
 
-`units/` — eight units; Units 01–02 delivered as validated drafts (not
-educator-reviewed, not merged), units 3–8 planned (not yet written):
-
-1. [Scientific evidence, microscopy, and cell models](units/unit-01-scientific-evidence-microscopy-cell-models/README.md) — draft
-2. [Cell structures, functions, and organism organization](units/unit-02-cell-structures-functions-organization/README.md) — draft
-3. Photosynthesis, respiration, and matter-energy flow
 `units/` — eight units; Units 01–03 delivered as validated drafts (not
 educator-reviewed, not merged), units 4–8 planned (not yet written):
 
@@ -34,6 +27,14 @@ Existing `stem/` science material stays available and is reviewed for reuse in
 this track; new core science belongs in this `science/` folder, and coding or
 engineering activities remain optional enrichment. See also: [Grade 7
 track](../README.md), [curriculum index](../../README.md).
+
+## Available units
+
+- [Unit 01 — Scientific Evidence, Microscopy, and Cell Models](units/unit-01-scientific-evidence-microscopy-cell-models/README.md) — available draft; educator review pending.
+- [Unit 02 — Cell Structures, Functions, and Organism Organization](units/unit-02-cell-structures-functions-organization/README.md) — available draft; educator review pending.
+- [Unit 03 — Photosynthesis, Respiration, and Matter–Energy Flow](units/unit-03-photosynthesis-respiration-matter-energy-flow/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## What this track covers
 

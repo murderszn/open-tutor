@@ -1,10 +1,10 @@
 # Grade 8 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Unit 01 is delivered as a validated draft; the remaining seven
-units are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-8 learner at a time; a guiding adult adapts pacing, materials, and
@@ -81,22 +81,18 @@ verified 2026-10-06 on thecorestandards.org; the scope-and-sequence paraphrases
 them and maps each unit to its standards. No state adoption, accreditation, or
 alignment certification is claimed.
 
-## Planned units (U01–U02 delivered as validated drafts; U03–U08 in prose until built)
+## Other materials
 
-- **U01 — Close reading: inference, theme, and evidence synthesis** —
-  delivered as a validated draft
-  ([units/unit-01-close-reading/](units/unit-01-close-reading/)); not
-  educator-reviewed, not merged
-- **U02 — Literature: drama, character foils, and adaptation** —
-  delivered as a validated draft
-  ([units/unit-02-drama-foils-adaptation/](units/unit-02-drama-foils-adaptation/));
-  not educator-reviewed, not merged
-- U03 — Informational rhetoric: argument and conflicting accounts
-- U04 — Grammar: voice, verbals, punctuation, and style
-- U05 — Narrative: perspective, pacing, and crafted scenes
-- U06 — Argument writing: counterclaims, rebuttals, and reasoning
-- U07 — Research synthesis, attribution, and explanatory essays
-- U08 — Poetry: comparative analysis, presentations, and portfolio
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+- [Blank templates](templates/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — Close Reading: Inference, Theme, and Evidence Synthesis](units/unit-01-close-reading/README.md) — available draft; educator review pending.
+- [Unit 02 — Drama: Character Foils and Adaptation](units/unit-02-drama-foils-adaptation/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Existing material and its status
 

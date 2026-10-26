@@ -2,12 +2,15 @@
 
 This folder is an anonymous, grade-specific track in the public OpenTutor curriculum library.
 
-**Contents:** Four subject starter lessons are available. Draft audits and scope-and-sequences are available for [Mathematics](math/scope-and-sequence.md), [Language arts](language-arts/scope-and-sequence.md), [Science](science/scope-and-sequence.md), [Social studies](social-studies/scope-and-sequence.md). Language arts Units 01–03 are delivered as validated drafts (Unit 02 as draft PR #192); remaining units are planned; no subject track is complete. Materials still require educator review.
+**Contents:** Each core subject has draft audits, a scope and sequence, and the units listed below. Educator review is pending; no subject track is complete.
 
 **Do not refer learners to other grade tracks.** Each track is self-contained.
 
 See also: [curriculum/README.md](../README.md)
 
-## Subject starters
+## Subject tracks
 
-- [Mathematics](math/README.md) · [Language arts](language-arts/README.md) · [Science](science/README.md) · [Social studies](social-studies/README.md)
+- [Mathematics](math/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
+- [Science](science/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
+- [Language arts](language-arts/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
+- [Social studies](social-studies/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.

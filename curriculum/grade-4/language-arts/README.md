@@ -1,12 +1,10 @@
 # Grade 4 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft, Unit 02 is delivered as a validated draft,
-and Units 03–08 are planned, not yet written.
-Units 01–03 are delivered as validated drafts (Unit 02 as draft PR #196,
-Unit 03 as this draft PR) and Units 04–08 are planned, not yet written.
-See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-4 learner at a time; a guiding adult adapts pacing, materials, and
@@ -75,31 +73,19 @@ By the end of the year the learner will be able to:
    paraphrase across media, present organized reports, and distinguish formal
    from informal English (L.4.1.a–g, L.4.2.a–d, L.4.3.a–c; SL.4.1–6).
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (Units 01–02 delivered as validated drafts; Units 03–08
-  planned, not yet written):
-  1. [Reading evidence, inference, and vocabulary](units/unit-01-reading-evidence-inference-vocabulary/README.md) — validated draft
-  2. [Literary theme, characters, setting, and point of view](units/unit-02-literary-theme-characters-setting-point-of-view/README.md) — validated draft
-  3. Informational main ideas, structures, and source comparison
-- `units/` — eight units (Units 01–03 delivered as validated drafts;
-  Units 04–08 planned, not yet written):
-  1. [Reading evidence, inference, and vocabulary](units/unit-01-reading-evidence-inference-vocabulary/README.md) — validated draft
-  2. Literary theme, characters, setting, and point of view — validated draft (draft PR #196, unmerged)
-  3. [Informational main ideas, structures, and source comparison](units/unit-03-informational-main-ideas-structures-source-comparison/README.md) — validated draft
-  4. Grammar, sentence combining, punctuation, and spelling
-  5. Narrative craft: description, dialogue, and revision
-  6. Opinion writing: evidence, reasons, and organization
-  7. Research notes, paraphrase, and explanatory writing
-  8. Poetry, figurative language, presentations, and portfolio
-- `assignments/` — existing draft prompt library (re-audited; keep/revise
-  decisions in the scope-and-sequence)
-- `quizzes/` — existing draft quiz library (re-audited; answer keys missing —
-  keys will be built with each unit)
-- `templates/` — existing reusable response templates (audiobook trailers,
-  video reviews)
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+- [Blank templates](templates/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — Reading Evidence, Inference, and Vocabulary](units/unit-01-reading-evidence-inference-vocabulary/README.md) — available draft; educator review pending.
+- [Unit 02 — Literary Theme, Characters, Setting, and Point of View](units/unit-02-literary-theme-characters-setting-point-of-view/README.md) — available draft; educator review pending.
+- [Unit 03 — Informational Main Ideas, Structures, and Source Comparison](units/unit-03-informational-main-ideas-structures-source-comparison/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

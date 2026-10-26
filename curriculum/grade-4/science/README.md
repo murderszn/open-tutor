@@ -1,13 +1,10 @@
 # Grade 4 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and Units 01–02
-are delivered as validated drafts; Units 03–08 and R00 are planned, not yet
-written. See [scope-and-sequence.md](scope-and-sequence.md).
-This track is a **draft in progress**: the audit, scope-and-sequence, and Units
-01 and 03 are delivered as validated drafts; Unit 02 is delivered as a
-validated draft (draft PR #195, unmerged); Units 04–08 and R00 are planned,
-not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-4 learner at a time; a guiding adult adapts pacing, materials, and
@@ -31,14 +28,13 @@ per week, and rotate across an investigation lesson, data-and-modeling practice,
 science reading-and-talk, and review — with short written responses, drawings,
 and hands-on tasks, and explicit adult directions for every investigation.
 
-## Units
+## Available units
 
-- [Unit 01 — Evidence, measurement, and scientific models](units/unit-01-evidence-measurement-models/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; fair tests, metric measurement and conversion, data displays, design problems, and the investigation-report format.
-- [Unit 02 — Energy transfer, collisions, and motion](units/unit-02-energy-transfer-collisions-motion/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; faster = more energy (clay-dent fair tests), energy transfer by sound/light/heat/electric current, collision predictions, and the Collision Challenge investigation.
-- Units 03–08 — planned, not yet written (see the [scope-and-sequence](scope-and-sequence.md) §5).
-- Unit 02 — Energy transfer, collisions, and motion — **delivered as a validated draft (draft PR #195, unmerged)**.
-- [Unit 03 — Waves, patterns, and information](units/unit-03-waves-patterns-information/README.md) — **delivered as a validated draft (awaiting educator review and merge)**; wave models (amplitude, wavelength), sound vibrations, light reflection and seeing, pattern codes, and the information-transfer fair.
-- Units 04–08 — planned, not yet written (see the [scope-and-sequence](scope-and-sequence.md) §5).
+- [Unit 01 — Evidence, Measurement, and Scientific Models](units/unit-01-evidence-measurement-models/README.md) — available draft; educator review pending.
+- [Unit 02 — Energy Transfer, Collisions, and Motion](units/unit-02-energy-transfer-collisions-motion/README.md) — available draft; educator review pending.
+- [Unit 03 — Waves, Patterns, and Information](units/unit-03-waves-patterns-information/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Track objectives (measurable, adult-assessed)
 

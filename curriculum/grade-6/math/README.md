@@ -1,17 +1,10 @@
 # Grade 6 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 (ratios, unit rates, and ratio reasoning) and Unit 02 (fraction and
-decimal operations) are delivered as drafts;
-the remaining six units are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
-Unit 01 (ratios, unit rates, and ratio reasoning) is delivered as a draft;
-Unit 02 (fraction and decimal operations) is delivered as a draft
-([issue #30](https://github.com/murderszn/open-tutor/issues/30), section U02);
-Unit 03 (integers, rational numbers, and the coordinate plane) is delivered
-as a draft in this branch ([issue #30](https://github.com/murderszn/open-tutor/issues/30),
-section U03); the remaining five units are planned, not yet written.
-See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-6 learner at a time; a guiding adult adapts pacing, materials, and
@@ -123,29 +116,17 @@ adoption or accreditation). Full crosswalk in
 - Geometry: 6.G.A.1–4
 - Statistics and Probability: 6.SP.A.1–3, 6.SP.B.4, 6.SP.B.5.a–d
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (U01–U03 delivered as drafts; U04–U08 planned, not yet
-  written):
-  1. [Ratios, unit rates, and ratio reasoning](units/unit-01-ratios-unit-rates-ratio-reasoning/README.md)
-     — draft delivered 2026-10-11 ([issue #30](https://github.com/murderszn/open-tutor/issues/30),
-     section U01)
-  2. Fraction and decimal operations — draft delivered 2026-10-18
-     ([issue #30](https://github.com/murderszn/open-tutor/issues/30),
-     section U02; files in that section's draft, not linked here until merged)
-  3. [Integers, rational numbers, and the coordinate plane](units/unit-03-integers-rational-numbers-coordinate-plane/README.md)
-     — draft delivered in this branch ([issue #30](https://github.com/murderszn/open-tutor/issues/30),
-     section U03)
-  4. Expressions, properties, and variable meaning
-  5. Equations, inequalities, and quantitative relationships
-  6. Area, surface area, and volume
-  7. Statistical questions, distributions, and variability
-  8. Percent, data, and integrated modeling
-- [Starter lesson](starter-lesson.md) — existing draft on ratio tables and
-  unit rates (re-audited; keep → U01; its answer checks move to the teacher
-  guide in the unit build)
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Ratios, Unit Rates, and Ratio Reasoning](units/unit-01-ratios-unit-rates-ratio-reasoning/README.md) — available draft; educator review pending.
+- [Unit 02 — Fraction and Decimal Operations](units/unit-02-fraction-decimal-operations/README.md) — available draft; educator review pending.
+- [Unit 03 — Integers, Rational Numbers, and the Coordinate Plane](units/unit-03-integers-rational-numbers-coordinate-plane/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

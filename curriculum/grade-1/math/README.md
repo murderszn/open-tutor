@@ -1,13 +1,10 @@
 # Grade 1 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered,
-and Units 01 and 02 are delivered as validated drafts; the remaining six units are planned,
-not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
-and Units 01 and 03 are delivered as validated drafts (Unit 02 is delivered
-as a validated draft in draft PR #182, not yet on the default branch); the
-remaining five units are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -62,31 +59,17 @@ adoption or accreditation). Full crosswalk in
 - Measurement and Data: 1.MD.A.1–2, 1.MD.B.3, 1.MD.C.4
 - Geometry: 1.G.A.1–3
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units: **Unit 01 — Counting, place value, and tens** and
-  **Unit 02 — Addition strategies within 20** delivered as validated drafts
-  ([units/unit-01-counting-place-value-and-tens/](units/unit-01-counting-place-value-and-tens/),
-  [units/unit-02-addition-strategies-within-20/](units/unit-02-addition-strategies-within-20/));
-  Units 03–08 planned, not yet written:
-- `units/` — eight units: **Unit 01 — Counting, place value, and tens**
-  and **Unit 03 — Subtraction strategies within 20** delivered as
-  validated drafts
-  ([units/unit-01-counting-place-value-and-tens/](units/unit-01-counting-place-value-and-tens/),
-  [units/unit-03-subtraction-strategies-within-20/](units/unit-03-subtraction-strategies-within-20/));
-  Unit 02 is delivered as a validated draft in draft PR #182 (not yet on
-  the default branch, so it has no file link here yet); Units 04–08
-  planned, not yet written:
-  1. Counting, place value, and tens
-  2. Addition strategies within 20
-  3. Subtraction strategies within 20
-  4. Addition and subtraction story problems
-  5. Two-digit addition and subtraction foundations
-  6. Length measurement and comparison
-  7. Time and data displays
-  8. Shapes, equal shares, and fractions foundations
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Counting, Place Value, and Tens](units/unit-01-counting-place-value-and-tens/README.md) — available draft; educator review pending.
+- [Unit 02 — Addition Strategies Within 20](units/unit-02-addition-strategies-within-20/README.md) — available draft; educator review pending.
+- [Unit 03 — Subtraction Strategies Within 20](units/unit-03-subtraction-strategies-within-20/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

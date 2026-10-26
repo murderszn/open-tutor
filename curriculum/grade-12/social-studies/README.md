@@ -1,10 +1,10 @@
 # Grade 12 Social Studies — Economics and Policy Inquiry
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; Units 01–02 are delivered as validated drafts in draft PRs
-(not merged); units 03–08 are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-12 learner at a time; a guiding adult adapts pacing, materials,
@@ -87,26 +87,12 @@ crosswalk in [scope-and-sequence.md](scope-and-sequence.md#4-standards-crosswalk
 - Inquiry arc: D1.1–D1.5.9-12, D3.1–D3.4.9-12, D4.1–D4.4.9-12, D4.6.9-12,
   D4.7.9-12
 
-## Structure
+## Available units
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units: Unit 01 (economic reasoning: scarcity,
-  incentives, and opportunity cost) delivered as a validated draft in this
-  run's draft PR; units 02–08 planned, not yet written (see
-  [scope-and-sequence.md](scope-and-sequence.md) §11).
-- `units/` — eight units: Unit 01 (economic reasoning) delivered as a
-  validated draft in draft PR #175 (unmerged); Unit 02 (supply, demand,
-  markets, and price signals) delivered as a validated draft in this
-  run's draft PR (unmerged); units 03–08 planned, not yet written:
-  1. Economic reasoning: scarcity, incentives, and opportunity cost
-  2. Supply, demand, markets, and price signals
-  3. Firms, labor, competition, and market structures
-  4. Market failures, public goods, and policy tradeoffs
-  5. Macroeconomic indicators: growth, inflation, and unemployment
-  6. Fiscal and monetary policy and economic institutions
-  7. International trade, finance, development, and inequality
-  8. Personal-finance models, economic evidence, and policy capstone
+- [Unit 01 — Economic Reasoning: Scarcity, Incentives, and Opportunity Cost](units/unit-01-economic-reasoning-scarcity-and-opportunity-cost/README.md) — available draft; educator review pending.
+- [Unit 02 — Supply, Demand, Markets, and Price Signals](units/unit-02-supply-demand-markets-price-signals/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

@@ -1,18 +1,10 @@
 # Grade 7 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; **Units 01 and 02 are delivered as validated drafts** (see
-[units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/) and
-[units/unit-02-figurative-language-poetry/](units/unit-02-figurative-language-poetry/));
-units 03–08 are planned, not yet written. See
-delivered; **Unit 01 is merged** (see
-[units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/));
-**Unit 02 is delivered as a validated draft in draft PR #208** (not yet
-merged); **Unit 03 is delivered as a validated draft** (see
-[units/unit-03-informational-structure-rhetoric-argument/](units/unit-03-informational-structure-rhetoric-argument/));
-units 04–08 are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-7 learner at a time; a guiding adult adapts pacing, materials, and
@@ -20,6 +12,20 @@ supports. Keep completed learner work, names, photos, schedules, and grades in
 private storage — never in this public repository.
 
 See also: [Grade 7 track](../README.md), [curriculum index](../../README.md).
+
+## Other materials
+
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+- [Blank templates](templates/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — Close Reading: Theme and Interacting Story Elements](units/unit-01-close-reading-theme/README.md) — available draft; educator review pending.
+- [Unit 02 — Literary Perspective, Figurative Language, and Poetry](units/unit-02-figurative-language-poetry/README.md) — available draft; educator review pending.
+- [Unit 03 — Informational: Structure, Rhetoric, and Argument Evaluation](units/unit-03-informational-structure-rhetoric-argument/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## What this track covers
 
@@ -105,10 +111,6 @@ Planned units are described in prose in
 
 - **U01 — Close reading: theme and interacting story elements**
   ([units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/)) —
-  validated draft, 2026-10-12.
-- **U02 — Literary perspective, figurative language, and poetry**
-  ([units/unit-02-figurative-language-poetry/](units/unit-02-figurative-language-poetry/)) —
-  validated draft, 2026-10-19. U03–U08 have no files yet.
   merged. **U02 — Literary perspective, figurative language, and poetry**
   is delivered as a validated draft in draft PR #208 (not yet merged).
   **U03 — Informational: structure, rhetoric, and argument evaluation**

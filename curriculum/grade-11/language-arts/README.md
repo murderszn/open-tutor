@@ -1,10 +1,10 @@
 # Grade 11 Language Arts
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, Units 01–02 are delivered as validated drafts; the remaining
-units and the review package are planned, not yet written.
-See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-11 learner at a time; a guiding adult adapts pacing, materials,
@@ -100,30 +100,12 @@ a reference alignment for planning — it is not a claim of state adoption,
 accreditation, or standards certification, and no state or district
 requirements were specified.
 
-## Units
+## Available units
 
-**Delivered (validated drafts; not educator-reviewed or merged):**
+- [Unit 01 — American Literature Contexts, Themes, and Close Reading](units/unit-01-american-literature-contexts-and-close-reading/README.md) — available draft; educator review pending.
+- [Unit 02 — Founding Rhetoric: Speeches and Primary Texts](units/unit-02-founding-rhetoric-speeches-and-primary-texts/README.md) — available draft; educator review pending.
 
-- **U01** — [American literature contexts, themes, and close reading](units/unit-01-american-literature-contexts-and-close-reading/README.md)
-  (draft delivered 2026-10-14 for issue #52)
-- **U02** — [Founding rhetoric: speeches and primary texts](units/unit-02-founding-rhetoric-speeches-and-primary-texts/README.md)
-  (draft delivered 2026-10-21 for issue #52)
-
-**Planned:**
-
-- **U03** — Literary movements, diverse voices, and interpretation
-- **U04** — Language, rhetoric, syntax, and stylistic analysis
-- **U05** — Literary criticism and analytical writing
-- **U06** — Argument, evidence, synthesis, and public reasoning
-- **U07** — Independent research, documentation, and ethical source use
-- **U08** — Poetry, drama, seminar, and capstone portfolio
-- **R00** — Diagnostic, midyear and final review, cumulative assessment, and
-  keys (delivered last)
-
-Units are planned in prerequisite order: close reading and historical context
-before founding rhetoric; movements and interpretation before criticism;
-analytical writing before public argument; argument before independent
-research; everything before the capstone seminar and portfolio.
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

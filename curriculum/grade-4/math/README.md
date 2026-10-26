@@ -1,14 +1,10 @@
 # Grade 4 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, Unit 01,
-and Unit 02 are delivered as validated drafts; units 03–08 are planned, not yet
-written.
-This track is a **draft in progress**: the audit, scope-and-sequence, and
-Units 01–03 are delivered (Unit 01 merged; Unit 02 as validated draft PR
-#194, unmerged; Unit 03 as a validated draft in this branch, not merged);
-units 04–08 are planned, not yet written.
-See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-4 learner at a time; a guiding adult adapts pacing, materials, and
@@ -124,31 +120,18 @@ adoption or accreditation). Full crosswalk in
 - Measurement and Data: 4.MD.A.1–3, 4.MD.B.4, 4.MD.C.5.a–b, 4.MD.C.6–7
 - Geometry: 4.G.A.1–3
 
-## Structure
+## Other materials
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units; Units 01–02 delivered as validated drafts, units 03–08
-  planned (not yet written):
-  1. [Multi-digit place value, rounding, and operations](units/unit-01-multi-digit-place-value-rounding-operations/README.md) — **delivered 2026-10-10, merged 2026-10-14**
-  2. [Factors, multiples, and multiplication strategies](units/unit-02-factors-multiples-multiplication-strategies/README.md) — **delivered 2026-10-17 (draft PR, not merged)**
-  3. Multi-digit multiplication and division
-- `units/` — eight units; Units 01–03 delivered, units 04–08
-  planned (not yet written):
-  1. [Multi-digit place value, rounding, and operations](units/unit-01-multi-digit-place-value-rounding-operations/README.md) — **delivered 2026-10-10; merged**
-  2. Factors, multiples, and multiplication strategies — **delivered
-     2026-10-17 as validated draft PR #194, unmerged** (no link until
-     merged, to avoid a broken link)
-  3. [Multi-digit multiplication and division](units/unit-03-multi-digit-multiplication-and-division/README.md) — **delivered as a validated draft in this branch, not merged**
-  4. Fraction equivalence and comparison
-  5. Fraction addition, subtraction, and whole-number products
-  6. Decimals, fractions, and measurement conversions
-  7. Lines, angles, shapes, and symmetry
-  8. Area, perimeter, line plots, and applications
-- `assignments/` — existing draft practice library (re-audited; keep/revise
-  decisions in the scope-and-sequence)
-- `quizzes/` — existing draft quiz library (re-audited; answer keys missing —
-  keys will be built with each unit)
+- [Legacy assignments](assignments/) — review before assigning.
+- [Legacy quizzes](quizzes/) — review before assigning.
+
+## Available units
+
+- [Unit 01 — Multi-Digit Place Value, Rounding, and Operations](units/unit-01-multi-digit-place-value-rounding-operations/README.md) — available draft; educator review pending.
+- [Unit 02 — Factors, Multiples, and Multiplication Strategies](units/unit-02-factors-multiples-multiplication-strategies/README.md) — available draft; educator review pending.
+- [Unit 03 — Multi-Digit Multiplication and Division](units/unit-03-multi-digit-multiplication-and-division/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## For the guiding adult
 

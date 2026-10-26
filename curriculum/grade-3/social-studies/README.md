@@ -1,16 +1,10 @@
 # Grade 3 Social Studies
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-[Unit 01 — Maps, regions, continents, and geographic inquiry](units/unit-01-maps-regions-continents/README.md)
-is delivered as a draft (awaiting educator review and merge);
-[Unit 02 — Environment, settlement, and resource use](units/unit-02-environment-settlement-resources/README.md)
-is delivered as a draft (awaiting educator review and merge); Units 03–08 and R00
-is delivered and merged; Unit 02 (Environment, settlement, and resource use) is
-delivered as a validated draft in PR #193 (unmerged, no link until merged);
-[Unit 03 — Communities over time and historical evidence](units/unit-03-communities-over-time-historical-evidence/README.md)
-is delivered as a validated draft in this branch, not merged; Units 04–08 and R00
-are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
+See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-3 learner at a time; a guiding adult adapts pacing, materials, and
@@ -18,6 +12,18 @@ supports. Keep completed learner work, names, photos, schedules, and grades in
 private storage — never in this public repository.
 
 See also: [Grade 3 track](../README.md), [curriculum index](../../README.md).
+
+## Other materials
+
+- [Starter lesson](starter-lesson.md) — supplemental introduction.
+
+## Available units
+
+- [Unit 01 — Maps, Regions, Continents, and Geographic Inquiry](units/unit-01-maps-regions-continents/README.md) — available draft; educator review pending.
+- [Unit 02 — Environment, Settlement, and Resource Use](units/unit-02-environment-settlement-resources/README.md) — available draft; educator review pending.
+- [Unit 03 — Communities over Time and Historical Evidence](units/unit-03-communities-over-time-historical-evidence/README.md) — available draft; educator review pending.
+
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## What this track covers
 
