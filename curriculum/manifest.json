@@ -4890,6 +4890,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/assessments/week-08_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/assets/agriculture-timeline.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/assets/early-farming-village.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/assets/surplus-flow.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/lessons/lesson-01-environments-and-early-human-life.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/lessons/lesson-02-the-agricultural-revolution.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/lessons/lesson-03-surplus-specialization-and-settlements.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/lessons/lesson-04-comparing-early-farming-regions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/social-studies/units/unit-02-early-humans-agriculture-and-settlements/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-7/README.md",
    "kind": "grade-index"
   },
@@ -7175,25 +7239,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 81,
-  "assessment": 87,
-  "asset": 109,
-  "assets": 82,
+  "answer-key": 82,
+  "assessment": 88,
+  "asset": 112,
+  "assets": 83,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 433,
+  "lesson": 437,
   "new-assignment": 31,
-  "practice": 81,
-  "project": 81,
-  "quiz": 302,
-  "resource-pack": 81,
+  "practice": 82,
+  "project": 82,
+  "quiz": 303,
+  "resource-pack": 82,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 81,
+  "teacher-guide": 82,
   "template": 14,
-  "unit-index": 81,
+  "unit-index": 82,
   "unit-text": 8
  },
  "review_notes": [
