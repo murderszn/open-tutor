@@ -742,6 +742,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/assets/conjugate-mirror-landscape.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/lessons/lesson-01-complex-numbers.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/lessons/lesson-02-quadratic-complex-solutions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/lessons/lesson-03-polynomial-structure.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/lessons/lesson-04-zeros-and-graphs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/lessons/lesson-05-intersections.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-11/math/units/unit-02-polynomial-zeros-complex-numbers/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-11/science/README.md",
    "kind": "subject-index"
   },
@@ -5475,25 +5535,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 54,
-  "assessment": 58,
-  "asset": 71,
-  "assets": 55,
+  "answer-key": 55,
+  "assessment": 59,
+  "asset": 72,
+  "assets": 56,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 289,
+  "lesson": 294,
   "new-assignment": 31,
-  "practice": 54,
-  "project": 54,
-  "quiz": 277,
-  "resource-pack": 54,
+  "practice": 55,
+  "project": 55,
+  "quiz": 278,
+  "resource-pack": 55,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 54,
+  "teacher-guide": 55,
   "template": 14,
-  "unit-index": 54,
+  "unit-index": 55,
   "unit-text": 8
  },
  "review_notes": [
