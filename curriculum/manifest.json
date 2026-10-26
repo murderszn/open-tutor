@@ -6886,6 +6886,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/assessments/week-14_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/assets/orbit-distance-number-line.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/assets/planet-diameter-bars.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/assets/solar-system-orbits-top-view.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/lessons/lesson-01-solar-system-layout.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/lessons/lesson-02-gravity-holds-it-together.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/lessons/lesson-03-scale-planet-sizes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/lessons/lesson-04-scale-orbital-distances.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/lessons/lesson-05-review-gravity-and-scale.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/science/units/unit-03-solar-system-gravity-scale/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-6/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -10347,25 +10415,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 131,
-  "assessment": 142,
-  "asset": 179,
-  "assets": 132,
+  "answer-key": 132,
+  "assessment": 143,
+  "asset": 182,
+  "assets": 133,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 699,
+  "lesson": 704,
   "new-assignment": 31,
-  "practice": 131,
-  "project": 131,
-  "quiz": 347,
-  "resource-pack": 131,
+  "practice": 132,
+  "project": 132,
+  "quiz": 348,
+  "resource-pack": 132,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 131,
+  "teacher-guide": 132,
   "template": 14,
-  "unit-index": 131,
+  "unit-index": 132,
   "unit-text": 15
  },
  "review_notes": [
