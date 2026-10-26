@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="520" viewBox="0 0 1160 520" role="img" aria-label="Schematic map of four river valleys from west to east">
+<rect width="1160" height="520" fill="#e8f1f5"/>
+<text x="580" y="30" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold">River-Valley Civilizations — Schematic Map (NOT to scale)</text>
+<text x="580" y="52" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555">Positions are approximate and west-to-east only. Use labels, not distances, for answers.</text>
+<ellipse cx="180" cy="300" rx="130" ry="90" fill="#e6d9a8" stroke="#8a7a4a" stroke-width="2"/>
+<ellipse cx="450" cy="280" rx="150" ry="95" fill="#e6d9a8" stroke="#8a7a4a" stroke-width="2"/>
+<ellipse cx="730" cy="300" rx="130" ry="90" fill="#e6d9a8" stroke="#8a7a4a" stroke-width="2"/>
+<ellipse cx="990" cy="280" rx="120" ry="95" fill="#e6d9a8" stroke="#8a7a4a" stroke-width="2"/>
+<path d="M150 180 Q175 280 160 420" stroke="#2f6fb2" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M400 170 Q430 270 415 400" stroke="#2f6fb2" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M470 180 Q490 280 480 410" stroke="#2f6fb2" stroke-width="9" fill="none" stroke-linecap="round"/>
+<path d="M700 180 Q720 280 710 410" stroke="#2f6fb2" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M960 170 Q990 270 975 400" stroke="#2f6fb2" stroke-width="10" fill="none" stroke-linecap="round"/>
+<circle cx="168" cy="300" r="8" fill="#b03030"/><circle cx="440" cy="290" r="8" fill="#b03030"/><circle cx="712" cy="300" r="8" fill="#b03030"/><circle cx="982" cy="290" r="8" fill="#b03030"/>
+<text x="180" y="130" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">EGYPT</text>
+<text x="180" y="150" text-anchor="middle" font-family="sans-serif" font-size="13">Nile River</text>
+<text x="450" y="120" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">MESOPOTAMIA</text>
+<text x="450" y="140" text-anchor="middle" font-family="sans-serif" font-size="13">Tigris &amp; Euphrates</text>
+<text x="730" y="130" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">INDUS VALLEY</text>
+<text x="730" y="150" text-anchor="middle" font-family="sans-serif" font-size="13">Indus River</text>
+<text x="990" y="120" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">YELLOW RIVER VALLEY</text>
+<text x="990" y="140" text-anchor="middle" font-family="sans-serif" font-size="13">Yellow River (Huang He)</text>
+<text x="180" y="330" text-anchor="middle" font-family="sans-serif" font-size="12">● Memphis / Thebes area</text>
+<text x="450" y="320" text-anchor="middle" font-family="sans-serif" font-size="12">● Ur / Babylon area</text>
+<text x="730" y="330" text-anchor="middle" font-family="sans-serif" font-size="12">● Mohenjo-daro</text>
+<text x="990" y="320" text-anchor="middle" font-family="sans-serif" font-size="12">● Shang cities area</text>
+<g font-family="sans-serif" font-size="14" font-weight="bold"><text x="1060" y="450" text-anchor="middle">N</text><polygon points="1060,458 1052,482 1060,476 1068,482" fill="#333"/><text x="1060" y="500" text-anchor="middle">S</text><text x="1030" y="478" text-anchor="middle">W</text><text x="1090" y="478" text-anchor="middle">E</text></g>
+<text x="60" y="500" font-family="sans-serif" font-size="12" fill="#555">West ← → East: Egypt, Mesopotamia, Indus Valley, Yellow River valley.</text>
+</svg>
