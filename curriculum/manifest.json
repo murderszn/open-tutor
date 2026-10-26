@@ -486,6 +486,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/assets/neighborhood-from-above.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/lessons/lesson-01-where-is-it.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/lessons/lesson-02-looking-down-like-a-bird.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/lessons/lesson-03-map-symbols-and-keys.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/lessons/lesson-04-my-route-map.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/lessons/lesson-05-land-and-water.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/lessons/lesson-06-places-have-features.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-02-local-maps-land-water-and-location/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-10/README.md",
    "kind": "grade-index"
   },
@@ -5843,25 +5907,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 60,
-  "assessment": 64,
-  "asset": 77,
-  "assets": 61,
+  "answer-key": 61,
+  "assessment": 65,
+  "asset": 78,
+  "assets": 62,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 321,
+  "lesson": 327,
   "new-assignment": 31,
-  "practice": 60,
-  "project": 60,
-  "quiz": 283,
-  "resource-pack": 60,
+  "practice": 61,
+  "project": 61,
+  "quiz": 284,
+  "resource-pack": 61,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 60,
+  "teacher-guide": 61,
   "template": 14,
-  "unit-index": 60,
+  "unit-index": 61,
   "unit-text": 8
  },
  "review_notes": [

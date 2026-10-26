@@ -2,9 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 (community membership, rights, and responsibilities) is delivered as a
-validated draft; Units 02–08 and the R00 review package are planned, not yet
-written. See [scope-and-sequence.md](scope-and-sequence.md).
+Units 01 (community membership, rights, and responsibilities) and 02 (local maps,
+land, water, and location) are delivered as validated drafts; Units 03–08 and the
+R00 review package are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-1 learner at a time; a guiding adult adapts pacing, materials, and
@@ -82,9 +82,10 @@ accreditation, or alignment certification. Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
-  1. Community membership, rights, and responsibilities
-  2. Local maps, land, water, and location
+- `units/` — Units 01–02 delivered as validated drafts; Units 03–08 planned
+  (not yet written):
+  1. [Community membership, rights, and responsibilities](units/unit-01-community-membership-rights-responsibilities/) — **draft delivered**
+  2. [Local maps, land, water, and location](units/unit-02-local-maps-land-water-and-location/) — **draft delivered**
   3. Past, present, timelines, and family-neutral histories
   4. Community leaders, rules, and decision making
   5. Needs, wants, producers, and consumers
