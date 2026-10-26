@@ -6,6 +6,10 @@ This track is a **draft in progress**: the audit and scope-and-sequence are deli
 is delivered as a draft (awaiting educator review and merge);
 [Unit 02 — Environment, settlement, and resource use](units/unit-02-environment-settlement-resources/README.md)
 is delivered as a draft (awaiting educator review and merge); Units 03–08 and R00
+is delivered and merged; Unit 02 (Environment, settlement, and resource use) is
+delivered as a validated draft in PR #193 (unmerged, no link until merged);
+[Unit 03 — Communities over time and historical evidence](units/unit-03-communities-over-time-historical-evidence/README.md)
+is delivered as a validated draft in this branch, not merged; Units 04–08 and R00
 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -123,7 +127,7 @@ Indicators the framework defers to later bands (D2.His.7–8, 9–12; D2.His.15,
 | 32–35 | U08 | Regional comparative inquiry and civic capstone |
 | 36 | — | Final review and portfolio |
 
-Units are planned in prose until written; no unit files exist yet. Each unit is
+Units 04–08 are planned in prose until written. Each unit is
 designed as four weeks of four ~30-minute sessions: concept launch,
 skills practice, investigation/application, and review with a unit check.
 Full weekly goals are in the scope-and-sequence.
