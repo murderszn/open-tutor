@@ -2958,6 +2958,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/assets/reversible-irreversible-changes.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-01-take-apart-and-rebuild.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-02-warming-melting-softening.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-03-cooling-freezing-hardening.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-04-reversible-or-not.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/lessons/lesson-05-evidence-argument.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-2/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -9275,25 +9335,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 114,
-  "assessment": 123,
-  "asset": 153,
-  "assets": 115,
+  "answer-key": 115,
+  "assessment": 124,
+  "asset": 154,
+  "assets": 116,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 610,
+  "lesson": 615,
   "new-assignment": 31,
-  "practice": 114,
-  "project": 114,
-  "quiz": 332,
-  "resource-pack": 114,
+  "practice": 115,
+  "project": 115,
+  "quiz": 333,
+  "resource-pack": 115,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 114,
+  "teacher-guide": 115,
   "template": 14,
-  "unit-index": 114,
+  "unit-index": 115,
   "unit-text": 15
  },
  "review_notes": [
