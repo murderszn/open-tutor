@@ -2,9 +2,12 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; **Unit 01 is delivered as a validated draft** (see
+delivered; **Unit 01 is merged** (see
 [units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/));
-units 02–08 are planned, not yet written. See
+**Unit 02 is delivered as a validated draft in draft PR #208** (not yet
+merged); **Unit 03 is delivered as a validated draft** (see
+[units/unit-03-informational-structure-rhetoric-argument/](units/unit-03-informational-structure-rhetoric-argument/));
+units 04–08 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -58,7 +61,7 @@ By the end of the year the learner will be able to:
 ## Current library status (2026-10-05 audit; unit builds from 2026-10-12)
 
 The folder held **18 Markdown files** at audit: this README, 7 assignment
-skeletons, 8 quizzes, and 2 practice templates. Unit 01 (delivered
+skeletons, 8 quizzes, and 2 practice templates. Unit 01 (merged; delivered
 2026-10-12 as a validated draft) adds **15 Markdown files and 1 generated
 image** under
 [units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/):
@@ -75,7 +78,8 @@ story-elements quiz revision is complete: its items are re-anchored to the
 unit's anchor passage with an answer key in the U01 teacher materials; the
 legacy file in `quizzes/` is left untouched. The eight planned units are
 described in prose in the scope-and-sequence; U01 now exists as a unit link
-below, U02–U08 have no files yet.
+below, U02 is delivered as a validated draft in draft PR #208, U03 is
+delivered as a validated draft in this PR, and U04–U08 have no files yet.
 
 ## Kept and revised materials (rebuilt in the units)
 
@@ -97,4 +101,8 @@ Planned units are described in prose in
 
 - **U01 — Close reading: theme and interacting story elements**
   ([units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/)) —
-  validated draft, 2026-10-12. U02–U08 have no files yet.
+  merged. **U02 — Literary perspective, figurative language, and poetry**
+  is delivered as a validated draft in draft PR #208 (not yet merged).
+  **U03 — Informational: structure, rhetoric, and argument evaluation**
+  ([units/unit-03-informational-structure-rhetoric-argument/](units/unit-03-informational-structure-rhetoric-argument/)) —
+  validated draft, 2026-10-26. U04–U08 have no files yet.
