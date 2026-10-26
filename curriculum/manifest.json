@@ -4466,6 +4466,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/assessments/week-08_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/assets/fraction-division-model.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/assets/panaderia-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/lessons/lesson-01-fraction-division-meaning.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/lessons/lesson-02-why-invert-and-multiply.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/lessons/lesson-03-decimal-operations-fluency.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/lessons/lesson-04-gcf-lcm-distributive.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/lessons/lesson-05-mixed-operations-problem-solving.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/math/units/unit-02-fraction-decimal-operations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-6/science/README.md",
    "kind": "subject-index"
   },
@@ -6843,25 +6907,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 76,
-  "assessment": 81,
-  "asset": 98,
-  "assets": 77,
+  "answer-key": 77,
+  "assessment": 82,
+  "asset": 100,
+  "assets": 78,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 406,
+  "lesson": 411,
   "new-assignment": 31,
-  "practice": 76,
-  "project": 76,
-  "quiz": 298,
-  "resource-pack": 76,
+  "practice": 77,
+  "project": 77,
+  "quiz": 299,
+  "resource-pack": 77,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 76,
+  "teacher-guide": 77,
   "template": 14,
-  "unit-index": 76,
+  "unit-index": 77,
   "unit-text": 8
  },
  "review_notes": [
