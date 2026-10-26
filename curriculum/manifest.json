@@ -8904,28 +8904,88 @@
   {
    "path": "grade-k/social-studies/units/unit-02-rules-fairness-and-cooperative-choices/teacher-guide.md",
    "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/assets/community-helpers-street.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/lessons/lesson-01-helpers-in-our-school.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/lessons/lesson-02-helpers-in-our-neighborhood.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/lessons/lesson-03-helpers-work-together-a-letters-journey.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/lessons/lesson-04-tools-helpers-use.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/lessons/lesson-05-thanking-helpers-and-being-a-helper.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/teacher-guide.md",
+   "kind": "teacher-guide"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 108,
-  "assessment": 117,
-  "asset": 147,
-  "assets": 109,
+  "answer-key": 109,
+  "assessment": 118,
+  "asset": 148,
+  "assets": 110,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 578,
+  "lesson": 583,
   "new-assignment": 31,
-  "practice": 108,
-  "project": 108,
-  "quiz": 326,
-  "resource-pack": 108,
+  "practice": 109,
+  "project": 109,
+  "quiz": 327,
+  "resource-pack": 109,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 108,
+  "teacher-guide": 109,
   "template": 14,
-  "unit-index": 108,
+  "unit-index": 109,
   "unit-text": 15
  },
  "review_notes": [
