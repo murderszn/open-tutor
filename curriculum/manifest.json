@@ -5510,6 +5510,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/assets/beaver-pond-illustration.webp",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/lessons/lesson-01-main-ideas-key-details-summaries.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/lessons/lesson-02-chronology-cause-effect.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/lessons/lesson-03-comparison-problem-solution.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/lessons/lesson-04-two-accounts-reasons-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/lessons/lesson-05-synthesizing-across-sources.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-03-informational-text-synthesis-structure-evidence/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-5/math/README.md",
    "kind": "subject-index"
   },
@@ -10091,25 +10151,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 127,
-  "assessment": 138,
-  "asset": 172,
-  "assets": 128,
+  "answer-key": 128,
+  "assessment": 139,
+  "asset": 173,
+  "assets": 129,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 678,
+  "lesson": 683,
   "new-assignment": 31,
-  "practice": 127,
-  "project": 127,
-  "quiz": 343,
-  "resource-pack": 127,
+  "practice": 128,
+  "project": 128,
+  "quiz": 344,
+  "resource-pack": 128,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 127,
+  "teacher-guide": 128,
   "template": 14,
-  "unit-index": 127,
+  "unit-index": 128,
   "unit-text": 15
  },
  "review_notes": [
