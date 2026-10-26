@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" role="img" aria-label="Two graphs. Left: kinetic energy against mass at 4 meters per second is a straight line from 0 joules at 0 kilograms to 32 joules at 4 kilograms. Right: kinetic energy against speed for a 2 kilogram object is a rising curve from 0 joules at 0 meters per second to 16 joules at 4 meters per second.">
+  <title>Kinetic energy against mass and against speed</title>
+  <rect width="720" height="320" fill="white"/>
+  <text x="195" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">KE vs mass (speed fixed at 4 m/s)</text>
+  <text x="535" y="22" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold">KE vs speed (mass fixed at 2 kg)</text>
+  <!-- Left axes -->
+  <line x1="60" y1="260" x2="330" y2="260" stroke="black" stroke-width="1.5"/>
+  <line x1="60" y1="260" x2="60" y2="40" stroke="black" stroke-width="1.5"/>
+  <text x="195" y="292" text-anchor="middle" font-family="sans-serif" font-size="12">mass (kg)</text>
+  <text x="18" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" transform="rotate(-90 18 150)">KE (J)</text>
+  <text x="60" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">0</text>
+  <text x="127" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">1</text>
+  <text x="195" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">2</text>
+  <text x="262" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">3</text>
+  <text x="330" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">4</text>
+  <text x="52" y="264" text-anchor="end" font-family="sans-serif" font-size="11">0</text>
+  <text x="52" y="154" text-anchor="end" font-family="sans-serif" font-size="11">16</text>
+  <text x="52" y="44" text-anchor="end" font-family="sans-serif" font-size="11">32</text>
+  <polyline points="60,260 127,205 195,150 262,95 330,40" fill="none" stroke="#c0392b" stroke-width="2.5"/>
+  <circle cx="127" cy="205" r="4" fill="#c0392b"/><circle cx="195" cy="150" r="4" fill="#c0392b"/><circle cx="262" cy="95" r="4" fill="#c0392b"/><circle cx="330" cy="40" r="4" fill="#c0392b"/>
+  <text x="195" y="308" text-anchor="middle" font-family="sans-serif" font-size="12">Straight line: KE doubles when mass doubles.</text>
+  <!-- Right axes -->
+  <line x1="400" y1="260" x2="670" y2="260" stroke="black" stroke-width="1.5"/>
+  <line x1="400" y1="260" x2="400" y2="40" stroke="black" stroke-width="1.5"/>
+  <text x="535" y="292" text-anchor="middle" font-family="sans-serif" font-size="12">speed (m/s)</text>
+  <text x="358" y="150" text-anchor="middle" font-family="sans-serif" font-size="12" transform="rotate(-90 358 150)">KE (J)</text>
+  <text x="400" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">0</text>
+  <text x="467" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">1</text>
+  <text x="535" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">2</text>
+  <text x="602" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">3</text>
+  <text x="670" y="278" text-anchor="middle" font-family="sans-serif" font-size="11">4</text>
+  <text x="392" y="264" text-anchor="end" font-family="sans-serif" font-size="11">0</text>
+  <text x="392" y="154" text-anchor="end" font-family="sans-serif" font-size="11">8</text>
+  <text x="392" y="44" text-anchor="end" font-family="sans-serif" font-size="11">16</text>
+  <polyline points="400,260 467,246 535,205 602,136 670,40" fill="none" stroke="#2471a3" stroke-width="2.5"/>
+  <circle cx="467" cy="246" r="4" fill="#2471a3"/><circle cx="535" cy="205" r="4" fill="#2471a3"/><circle cx="602" cy="136" r="4" fill="#2471a3"/><circle cx="670" cy="40" r="4" fill="#2471a3"/>
+  <text x="535" y="308" text-anchor="middle" font-family="sans-serif" font-size="12">Curve: KE quadruples when speed doubles.</text>
+</svg>

@@ -9122,6 +9122,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/assessments/week-14_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/assets/ke-graphs.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/assets/ramp-cart-spring-bumper.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/lessons/lesson-01-work-force-times-distance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/lessons/lesson-02-kinetic-energy-mass-speed.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/lessons/lesson-03-potential-energy-height-arrangement.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/lessons/lesson-04-transfers-transformations-thermal-losses.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/lessons/lesson-05-simple-machines-force-distance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/lessons/lesson-06-conservation-total-never-changes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/science/units/unit-03-energy-work-simple-machines-conservation/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-8/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -10871,25 +10939,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 139,
-  "assessment": 150,
-  "asset": 195,
-  "assets": 140,
+  "answer-key": 140,
+  "assessment": 151,
+  "asset": 197,
+  "assets": 141,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 742,
+  "lesson": 748,
   "new-assignment": 31,
-  "practice": 139,
-  "project": 139,
-  "quiz": 355,
-  "resource-pack": 139,
+  "practice": 140,
+  "project": 140,
+  "quiz": 356,
+  "resource-pack": 140,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 139,
+  "teacher-guide": 140,
   "template": 14,
-  "unit-index": 139,
+  "unit-index": 140,
   "unit-text": 15
  },
  "review_notes": [
