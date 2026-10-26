@@ -5338,6 +5338,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/assets/push-pull-play-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/lessons/lesson-01-push-or-pull.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/lessons/lesson-02-gentle-strong-pushes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/lessons/lesson-03-pulls-different-directions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/lessons/lesson-04-same-test-three-times.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/lessons/lesson-05-build-it-so-it-turns.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/lessons/lesson-06-push-pull-obstacle-course.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/science/units/unit-02-pushes-pulls-moving-objects/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-k/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -5411,25 +5475,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 53,
-  "assessment": 57,
-  "asset": 70,
-  "assets": 54,
+  "answer-key": 54,
+  "assessment": 58,
+  "asset": 71,
+  "assets": 55,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 283,
+  "lesson": 289,
   "new-assignment": 31,
-  "practice": 53,
-  "project": 53,
-  "quiz": 276,
-  "resource-pack": 53,
+  "practice": 54,
+  "project": 54,
+  "quiz": 277,
+  "resource-pack": 54,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 53,
+  "teacher-guide": 54,
   "template": 14,
-  "unit-index": 53,
+  "unit-index": 54,
   "unit-text": 8
  },
  "review_notes": [
