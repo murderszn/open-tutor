@@ -4,6 +4,9 @@ Independent, grade-specific materials in the public OpenTutor curriculum library
 This track is a **draft in progress**: the audit and scope-and-sequence are
 delivered, and Unit 01 is delivered as a validated draft; units 02–08 and
 the review package are planned, not yet written.
+delivered, Unit 01 is delivered as a validated draft in unmerged draft PR
+#174, and Unit 02 is delivered as a validated draft in this run's draft PR;
+units 03–08 and the review package are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -119,6 +122,12 @@ requirements were specified.
   in this run's draft PR (issue #56, 2026-10-15)
 - **U02** — Comparative world literature and historical context
   (planned)
+  **delivered as a validated draft** in unmerged draft PR #174 (issue #56,
+  2026-10-15)
+- **U02** — Comparative world literature and historical context —
+  **delivered as a validated draft**
+  ([units/unit-02-comparative-world-literature/](units/unit-02-comparative-world-literature/))
+  in this run's draft PR (issue #56, 2026-10-21)
 - **U03** — Rhetorical analysis: argument and media criticism
 - **U04** — Precision style: grammar and vocabulary refinement
 - **U05** — Advanced analytical, argumentative, and creative writing

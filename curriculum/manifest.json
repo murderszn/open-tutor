@@ -1714,6 +1714,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/assets/comparative-world-literature-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/lessons/lesson-01-reading-in-translation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/lessons/lesson-02-antigone-civic-conflict.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/lessons/lesson-03-inferno-and-don-quixote.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/lessons/lesson-04-a-dolls-house-modern-voice.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/lessons/lesson-05-comparative-essay-drafting.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-12/language-arts/units/unit-02-comparative-world-literature/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-12/math/README.md",
    "kind": "subject-index"
   },
@@ -8535,25 +8595,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 102,
-  "assessment": 111,
-  "asset": 140,
-  "assets": 103,
+  "answer-key": 103,
+  "assessment": 112,
+  "asset": 141,
+  "assets": 104,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 546,
+  "lesson": 551,
   "new-assignment": 31,
-  "practice": 102,
-  "project": 102,
-  "quiz": 320,
-  "resource-pack": 102,
+  "practice": 103,
+  "project": 103,
+  "quiz": 321,
+  "resource-pack": 103,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 102,
+  "teacher-guide": 103,
   "template": 14,
-  "unit-index": 102,
+  "unit-index": 103,
   "unit-text": 15
  },
  "review_notes": [

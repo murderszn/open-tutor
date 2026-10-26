@@ -28,6 +28,8 @@ See also: [curriculum index](../README.md).
   and communication pathway; audit and scope-and-sequence delivered as a
   validated draft (issue #56); Unit 01 delivered as a validated draft in
   this run's draft PR; units 02–08 planned.
+  unmerged draft PR #174; Unit 02 delivered as a validated draft in this
+  run's draft PR; units 03–08 planned.
 - [Science](science/README.md) — Earth and Space Science pathway (geologic
   time, plate tectonics, atmosphere and ocean, climate, biodiversity, water
   and land, energy systems, capstone investigation); audit and
