@@ -4,7 +4,10 @@ Independent, grade-specific materials in the public OpenTutor curriculum library
 This track is a **draft in progress**: the audit and scope-and-sequence are
 delivered; **Unit 01 (Medieval geography: sources and historical inquiry)
 is delivered as a validated draft** ([units/unit-01-medieval-geography-and-historical-inquiry/](units/unit-01-medieval-geography-and-historical-inquiry/),
-2026-10-13, not yet educator-reviewed or merged); Units 02–08 are planned,
+2026-10-13, not yet educator-reviewed or merged); **Unit 02 (Byzantine,
+Islamic, and Mediterranean societies) is delivered as a validated draft**
+([units/unit-02-byzantine-islamic-and-mediterranean-societies/](units/unit-02-byzantine-islamic-and-mediterranean-societies/),
+2026-10-19, not yet educator-reviewed or merged); Units 03–08 are planned,
 not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -74,9 +77,10 @@ assigned as-is: `quizzes/weight-distance-quiz.md` (broken title, answers
 embedded inline) and `quizzes/global-energy-precious-metals-quiz.md` (cites
 guide sections that do not exist). **No answer key exists for any legacy
 quiz; no diagnostic exists** — Unit 01 (delivered 2026-10-13 as a
-validated draft) builds instruction new and supplies its own keys; Units
-02–08 remain planned. The old subject README is **revised** — replaced by
-this file. Units 02–08 are described in prose only; no unit links exist
+validated draft) builds instruction new and supplies its own keys; Unit 02
+(delivered 2026-10-19 as a validated draft) does the same; Units 03–08
+remain planned. The old subject README is **revised** — replaced by
+this file. Units 03–08 are described in prose only; no unit links exist
 for them yet.
 
 ## Kept and revised materials (rebuilt in the units)
