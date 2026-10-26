@@ -1,8 +1,9 @@
 # Grade 4 Mathematics
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01
-are delivered as validated drafts; units 02–08 are planned, not yet written.
+This track is a **draft in progress**: the audit, scope-and-sequence, Unit 01,
+and Unit 02 are delivered as validated drafts; units 03–08 are planned, not yet
+written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -123,10 +124,10 @@ adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units; Unit 01 delivered as a validated draft, units 02–08
+- `units/` — eight units; Units 01–02 delivered as validated drafts, units 03–08
   planned (not yet written):
-  1. [Multi-digit place value, rounding, and operations](units/unit-01-multi-digit-place-value-rounding-operations/README.md) — **delivered 2026-10-10 (draft PR, not merged)**
-  2. Factors, multiples, and multiplication strategies
+  1. [Multi-digit place value, rounding, and operations](units/unit-01-multi-digit-place-value-rounding-operations/README.md) — **delivered 2026-10-10, merged 2026-10-14**
+  2. [Factors, multiples, and multiplication strategies](units/unit-02-factors-multiples-multiplication-strategies/README.md) — **delivered 2026-10-17 (draft PR, not merged)**
   3. Multi-digit multiplication and division
   4. Fraction equivalence and comparison
   5. Fraction addition, subtraction, and whole-number products
