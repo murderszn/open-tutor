@@ -112,6 +112,8 @@ adoption or accreditation). Full crosswalk in
   1. [Place value, decimal patterns, and powers of ten](units/unit-01-place-value-decimal-patterns-powers-of-ten/README.md) — delivered (draft PR, 2026-10-11)
   2. [Multi-digit multiplication and division](units/unit-02-multi-digit-multiplication-and-division/README.md) — delivered (draft PR, 2026-10-18); units 3–8 planned, not yet written
   3. Decimal operations and applications (planned)
+  2. Multi-digit multiplication and division — delivered as a draft (open draft PR #198, 2026-10-18; unmerged)
+  3. [Decimal operations and applications](units/unit-03-decimal-operations-and-applications/README.md) — delivered (draft PR, 2026-10-24; unmerged); units 4–8 planned, not yet written
   4. Fraction addition and subtraction with unlike denominators (planned)
   5. Fraction multiplication, division, and models (planned)
   6. Measurement conversions and volume (planned)
