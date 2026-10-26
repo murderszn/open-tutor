@@ -1582,6 +1582,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/assets/federalism-town-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/lessons/lesson-01-article-i-enumerated-powers.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/lessons/lesson-02-necessary-proper-commerce.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/lessons/lesson-03-presidency-courts-judicial-review.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/lessons/lesson-04-federalism-in-practice.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/lessons/lesson-05-article-v-informal-change.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-11/social-studies/units/unit-02-constitution-federalism-institutional-powers/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-12/README.md",
    "kind": "grade-index"
   },
@@ -8347,25 +8407,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 99,
-  "assessment": 108,
-  "asset": 136,
-  "assets": 100,
+  "answer-key": 100,
+  "assessment": 109,
+  "asset": 137,
+  "assets": 101,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 530,
+  "lesson": 535,
   "new-assignment": 31,
-  "practice": 99,
-  "project": 99,
-  "quiz": 317,
-  "resource-pack": 99,
+  "practice": 100,
+  "project": 100,
+  "quiz": 318,
+  "resource-pack": 100,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 99,
+  "teacher-guide": 100,
   "template": 14,
-  "unit-index": 99,
+  "unit-index": 100,
   "unit-text": 15
  },
  "review_notes": [

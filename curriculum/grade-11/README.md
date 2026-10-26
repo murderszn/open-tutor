@@ -30,5 +30,6 @@ See also: [curriculum index](../README.md).
   reading) and 02 (founding rhetoric: speeches and primary texts) delivered
   as validated drafts; units 03–08 planned.
 - [Social studies](social-studies/README.md) — U.S. government and civics
-  pathway; audit and scope-and-sequence delivered as a validated draft in
-  this run's draft PR (issue #53); units planned.
+  pathway; audit and scope-and-sequence delivered as a validated draft
+  (issue #53); Units 01–02 delivered as validated drafts in draft PRs
+  (issue #53); units 03–08 planned.
