@@ -4002,6 +4002,74 @@
    "kind": "assets"
   },
   {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/lessons/lesson-01-equation-as-question.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/lessons/lesson-02-distribute-collect-solve.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/lessons/lesson-03-variables-both-sides.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/lessons/lesson-04-solution-types.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/lessons/lesson-05-rational-coefficients.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/lessons/lesson-06-modeling.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/assets/two-stalls-fair-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/assets/balance-scale.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/math/units/unit-03-linear-equations-solution-types/assets/README.md",
+   "kind": "assets"
+  },
+  {
    "path": "grade-7/language-arts/units/unit-01-close-reading-theme/README.md",
    "kind": "unit-index"
   },
