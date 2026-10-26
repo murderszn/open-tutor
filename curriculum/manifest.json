@@ -474,6 +474,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/assets/light-beam-materials.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/lessons/lesson-01-seeing-in-the-dark.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/lessons/lesson-02-what-materials-do-to-light.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/lessons/lesson-03-shadows-shape-and-size.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/lessons/lesson-04-sending-messages-with-light.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/lessons/lesson-05-light-messenger-vs-sound-messenger.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/science/units/unit-03-light-visibility-shadows-materials/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-1/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -9027,25 +9087,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 110,
-  "assessment": 119,
-  "asset": 149,
-  "assets": 111,
+  "answer-key": 111,
+  "assessment": 120,
+  "asset": 150,
+  "assets": 112,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 588,
+  "lesson": 593,
   "new-assignment": 31,
-  "practice": 110,
-  "project": 110,
-  "quiz": 328,
-  "resource-pack": 110,
+  "practice": 111,
+  "project": 111,
+  "quiz": 329,
+  "resource-pack": 111,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 110,
+  "teacher-guide": 111,
   "template": 14,
-  "unit-index": 110,
+  "unit-index": 111,
   "unit-text": 15
  },
  "review_notes": [
