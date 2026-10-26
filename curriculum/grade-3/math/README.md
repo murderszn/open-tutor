@@ -104,7 +104,7 @@ adoption or accreditation). Full crosswalk in
   36-week pacing with weekly goals, session model, materials, accessibility.
 - `units/` — eight units (Unit 01 drafted; Units 02–08 planned, not yet written):
   1. [Place value, rounding, and multi-digit operations](units/unit-01-place-value-rounding-and-operations/README.md) — **draft** (issue #18, U01; validated draft, not educator-reviewed, not merged)
-  2. Multiplication concepts and facts — planned
+  2. [Multiplication concepts and facts](units/unit-02-multiplication-concepts-and-facts/README.md) — **draft** (issue #18, U02; validated draft, not educator-reviewed, not merged)
   3. Division concepts and facts — planned
   4. Multiplication, division, and two-step problems — planned
   5. Fractions on models and number lines — planned

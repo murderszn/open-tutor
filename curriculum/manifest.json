@@ -2182,6 +2182,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/assets/array-break-apart.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/assets/array-market-stand.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/lessons/lesson-01-equal-groups-make-products.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/lessons/lesson-02-arrays-rows-and-columns.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/lessons/lesson-03-multiplication-word-problems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/lessons/lesson-04-turn-around-facts.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/lessons/lesson-05-breaking-arrays-apart.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/lessons/lesson-06-fact-fluency-within-100.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-3/math/units/unit-02-multiplication-concepts-and-facts/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-3/science/README.md",
    "kind": "subject-index"
   },
@@ -6159,25 +6227,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 65,
-  "assessment": 69,
-  "asset": 83,
-  "assets": 66,
+  "answer-key": 66,
+  "assessment": 70,
+  "asset": 85,
+  "assets": 67,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 349,
+  "lesson": 355,
   "new-assignment": 31,
-  "practice": 65,
-  "project": 65,
-  "quiz": 288,
-  "resource-pack": 65,
+  "practice": 66,
+  "project": 66,
+  "quiz": 289,
+  "resource-pack": 66,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 65,
+  "teacher-guide": 66,
   "template": 14,
-  "unit-index": 65,
+  "unit-index": 66,
   "unit-text": 8
  },
  "review_notes": [

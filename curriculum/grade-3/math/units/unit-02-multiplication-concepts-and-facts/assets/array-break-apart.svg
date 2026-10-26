@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="340" viewBox="0 0 640 340" role="img" aria-labelledby="svgTitle svgDesc">
+  <title id="svgTitle">Breaking an 8-by-7 array apart</title>
+  <desc id="svgDesc">An 8 by 7 dot array split by a dashed line into an 8 by 5 array and an 8 by 2 array, labeled 8 times 5 equals 40 and 8 times 2 equals 16, totaling 56.</desc>
+  <style>
+    .dot { fill: #c8102e; }
+    .lbl { font-family: sans-serif; font-size: 17px; fill: #1a1a1a; }
+    .eq  { font-family: sans-serif; font-size: 19px; font-weight: bold; fill: #1a1a1a; }
+    .cut { stroke: #1a1a1a; stroke-width: 3; stroke-dasharray: 10 7; }
+    .cap { font-family: sans-serif; font-size: 15px; fill: #444; }
+  </style>
+  <text class="lbl" x="40" y="28">8 rows of 5</text>
+  <text class="lbl" x="280" y="28">8 rows of 2</text>
+  <g class="dot">
+      <circle cx="57" cy="57" r="9"/>
+      <circle cx="91" cy="57" r="9"/>
+      <circle cx="125" cy="57" r="9"/>
+      <circle cx="159" cy="57" r="9"/>
+      <circle cx="193" cy="57" r="9"/>
+      <circle cx="57" cy="91" r="9"/>
+      <circle cx="91" cy="91" r="9"/>
+      <circle cx="125" cy="91" r="9"/>
+      <circle cx="159" cy="91" r="9"/>
+      <circle cx="193" cy="91" r="9"/>
+      <circle cx="57" cy="125" r="9"/>
+      <circle cx="91" cy="125" r="9"/>
+      <circle cx="125" cy="125" r="9"/>
+      <circle cx="159" cy="125" r="9"/>
+      <circle cx="193" cy="125" r="9"/>
+      <circle cx="57" cy="159" r="9"/>
+      <circle cx="91" cy="159" r="9"/>
+      <circle cx="125" cy="159" r="9"/>
+      <circle cx="159" cy="159" r="9"/>
+      <circle cx="193" cy="159" r="9"/>
+      <circle cx="57" cy="193" r="9"/>
+      <circle cx="91" cy="193" r="9"/>
+      <circle cx="125" cy="193" r="9"/>
+      <circle cx="159" cy="193" r="9"/>
+      <circle cx="193" cy="193" r="9"/>
+      <circle cx="57" cy="227" r="9"/>
+      <circle cx="91" cy="227" r="9"/>
+      <circle cx="125" cy="227" r="9"/>
+      <circle cx="159" cy="227" r="9"/>
+      <circle cx="193" cy="227" r="9"/>
+      <circle cx="57" cy="261" r="9"/>
+      <circle cx="91" cy="261" r="9"/>
+      <circle cx="125" cy="261" r="9"/>
+      <circle cx="159" cy="261" r="9"/>
+      <circle cx="193" cy="261" r="9"/>
+      <circle cx="57" cy="295" r="9"/>
+      <circle cx="91" cy="295" r="9"/>
+      <circle cx="125" cy="295" r="9"/>
+      <circle cx="159" cy="295" r="9"/>
+      <circle cx="193" cy="295" r="9"/>
+    <circle cx="297" cy="57" r="9"/>
+    <circle cx="331" cy="57" r="9"/>
+    <circle cx="297" cy="91" r="9"/>
+    <circle cx="331" cy="91" r="9"/>
+    <circle cx="297" cy="125" r="9"/>
+    <circle cx="331" cy="125" r="9"/>
+    <circle cx="297" cy="159" r="9"/>
+    <circle cx="331" cy="159" r="9"/>
+    <circle cx="297" cy="193" r="9"/>
+    <circle cx="331" cy="193" r="9"/>
+    <circle cx="297" cy="227" r="9"/>
+    <circle cx="331" cy="227" r="9"/>
+    <circle cx="297" cy="261" r="9"/>
+    <circle cx="331" cy="261" r="9"/>
+    <circle cx="297" cy="295" r="9"/>
+    <circle cx="331" cy="295" r="9"/>
+  </g>
+  <line class="cut" x1="245" y1="36" x2="245" y2="312"/>
+  <text class="eq" x="400" y="120">8 × 5 = 40</text>
+  <text class="eq" x="400" y="160">8 × 2 = 16</text>
+  <text class="eq" x="400" y="210">40 + 16 = 56</text>
+  <text class="lbl" x="400" y="250">so&#160; 8 × 7 = 56</text>
+  <text class="cap" x="400" y="284">Cut along the dashed line only —</text>
+  <text class="cap" x="400" y="304">rows stay whole.</text>
+</svg>
