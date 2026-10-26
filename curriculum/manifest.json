@@ -7434,6 +7434,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/assets/shaded-street-comparison.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/lessons/lesson-01-central-ideas-development.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/lessons/lesson-02-interactions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/lessons/lesson-03-text-structure.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/lessons/lesson-04-author-position.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/lessons/lesson-05-evaluating-arguments.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/lessons/lesson-06-two-authors-one-topic.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-03-informational-structure-rhetoric-argument/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-7/math/README.md",
    "kind": "subject-index"
   },
@@ -10607,25 +10671,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 135,
-  "assessment": 146,
-  "asset": 188,
-  "assets": 136,
+  "answer-key": 136,
+  "assessment": 147,
+  "asset": 189,
+  "assets": 137,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 719,
+  "lesson": 725,
   "new-assignment": 31,
-  "practice": 135,
-  "project": 135,
-  "quiz": 351,
-  "resource-pack": 135,
+  "practice": 136,
+  "project": 136,
+  "quiz": 352,
+  "resource-pack": 136,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 135,
+  "teacher-guide": 136,
   "template": 14,
-  "unit-index": 135,
+  "unit-index": 136,
   "unit-text": 15
  },
  "review_notes": [
