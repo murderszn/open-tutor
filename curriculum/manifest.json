@@ -5086,6 +5086,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/assessments/week-13_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/assets/harbor-encounter.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/assets/route-diagram.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/lessons/lesson-01-why-sail-motives-and-tools.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/lessons/lesson-02-five-voyages-route-maps.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/lessons/lesson-03-columbian-exchange.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/lessons/lesson-04-two-accounts-one-encounter.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/lessons/lesson-05-causes-effects-evidence-claims.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-03-exploration-encounters-exchange-consequences/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-4/stem/README.md",
    "kind": "subject-index"
   },
@@ -9903,25 +9967,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 124,
-  "assessment": 133,
-  "asset": 167,
-  "assets": 125,
+  "answer-key": 125,
+  "assessment": 135,
+  "asset": 169,
+  "assets": 126,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 663,
+  "lesson": 668,
   "new-assignment": 31,
-  "practice": 124,
-  "project": 124,
+  "practice": 125,
+  "project": 125,
   "quiz": 342,
-  "resource-pack": 124,
+  "resource-pack": 125,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 124,
+  "teacher-guide": 125,
   "template": 14,
-  "unit-index": 124,
+  "unit-index": 125,
   "unit-text": 15
  },
  "review_notes": [

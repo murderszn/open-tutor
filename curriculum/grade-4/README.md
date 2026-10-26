@@ -7,6 +7,8 @@ Reusable Grade 4 learning materials. Quizzes and assignments remain blank; compl
 - [Science](science/README.md) — draft audit and scope-and-sequence delivered; Units 01 and 03 delivered as validated drafts, Unit 02 delivered as validated draft (draft PR #195, unmerged); no complete subject track
 - [Stem](stem/README.md)
 - [Language Arts](language-arts/README.md) — draft audit and scope-and-sequence delivered (2026-10-04); legacy assignment/quiz library re-audited; Units 01–03 delivered as validated drafts (Unit 02 as draft PR #196, unmerged); no complete subject tracks
+- [Language Arts](language-arts/README.md) — draft audit and scope-and-sequence delivered (2026-10-04); legacy assignment/quiz library re-audited, units planned; no complete subject tracks
+- [Social Studies](social-studies/README.md) — draft audit and scope-and-sequence delivered (2026-10-04); Units 01 and 03 delivered as validated drafts, Unit 02 delivered as validated draft (draft PR #197, unmerged); no complete subject track
 **Contents:** Four subject starter lessons are available. Draft audits and scope-and-sequences are available for [Mathematics](math/scope-and-sequence.md), [Language arts](language-arts/scope-and-sequence.md), [Science](science/scope-and-sequence.md), [Social studies](social-studies/scope-and-sequence.md). Units are delivered as validated drafts. Remaining units are planned; no subject track is complete. Materials still require educator review.
 
 ## Optional Enrichment
