@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft; Units 02–08 are planned, not yet written. See [scope-and-sequence.md](scope-and-sequence.md).
+Units 01–03 are delivered as validated drafts (Unit 02 as draft PR #192, Unit 03 as
+the draft PR for issue #20 section U03); Units 04–08 are planned, not yet written.
+See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
 one grade-3 learner at a time; a guiding adult adapts pacing, materials, and
@@ -113,6 +115,10 @@ adoption or accreditation). Full crosswalk in
   1. [Word analysis, morphology, vocabulary, and fluency](units/unit-01-word-analysis-morphology-fluency/) — **draft delivered**
   2. [Literary comprehension: character and theme](units/unit-02-literary-comprehension/) — **draft delivered**
   3. Informational text: main idea, structures, and evidence
+- `units/` — Units 01–03 delivered as validated drafts; Units 04–08 planned (not yet written):
+  1. [Word analysis, morphology, vocabulary, and fluency](units/unit-01-word-analysis-morphology-fluency/) — **draft delivered**
+  2. Literary comprehension: character and theme — **draft delivered** (draft PR #192, not yet merged)
+  3. [Informational text: main idea, structures, and evidence](units/unit-03-informational-main-idea-structures-evidence/) — **draft delivered**
   4. Sentence structure, grammar, and conventions
   5. Narrative writing: dialogue and revision
   6. Opinion writing: reasons and linked evidence
