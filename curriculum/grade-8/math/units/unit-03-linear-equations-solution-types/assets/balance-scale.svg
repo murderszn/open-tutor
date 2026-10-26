@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="Balance scale with left pan labeled 3x + 5 and right pan labeled 17, beam level">
+  <title>Balance scale: 3x + 5 balances 17</title>
+  <!-- Beam -->
+  <line x1="120" y1="80" x2="520" y2="80" stroke="#333333" stroke-width="6"/>
+  <!-- Fulcrum -->
+  <polygon points="320,80 290,200 350,200" fill="#888888"/>
+  <rect x="260" y="200" width="120" height="12" fill="#888888"/>
+  <!-- Left pan strings and pan -->
+  <line x1="120" y1="80" x2="80" y2="150" stroke="#333333" stroke-width="2"/>
+  <line x1="120" y1="80" x2="160" y2="150" stroke="#333333" stroke-width="2"/>
+  <path d="M 60 150 Q 120 190 180 150" fill="none" stroke="#333333" stroke-width="4"/>
+  <!-- Right pan strings and pan -->
+  <line x1="520" y1="80" x2="480" y2="150" stroke="#333333" stroke-width="2"/>
+  <line x1="520" y1="80" x2="560" y2="150" stroke="#333333" stroke-width="2"/>
+  <path d="M 460 150 Q 520 190 580 150" fill="none" stroke="#333333" stroke-width="4"/>
+  <!-- Labels -->
+  <text x="120" y="240" font-family="sans-serif" font-size="28" text-anchor="middle">3x + 5</text>
+  <text x="520" y="240" font-family="sans-serif" font-size="28" text-anchor="middle">17</text>
+  <text x="320" y="280" font-family="sans-serif" font-size="16" text-anchor="middle">balanced: left value = right value</text>
+</svg>
