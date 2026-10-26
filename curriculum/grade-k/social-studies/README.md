@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a draft; the remaining seven units are planned, not yet
+Units 01 and 02 are delivered as drafts; the remaining six units are planned, not yet
 written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -75,10 +75,10 @@ not a state adoption or accreditation claim. Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (Unit 01 delivered as a draft; units 02–08 planned, not
+- `units/` — eight units (Units 01–02 delivered as drafts; units 03–08 planned, not
   yet written):
   1. [Identity, belonging, and classroom community](units/unit-01-identity-belonging-and-classroom-community/README.md) — **draft delivered**
-  2. Rules, fairness, and cooperative choices
+  2. [Rules, fairness, and cooperative choices](units/unit-02-rules-fairness-and-cooperative-choices/README.md) — **draft delivered**
   3. Community helpers: roles and responsibilities
   4. Maps, symbols, and nearby places
   5. Needs, wants, and simple exchanges
