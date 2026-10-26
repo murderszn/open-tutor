@@ -2,13 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
-This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered; Units 01–03 are delivered as validated drafts; Units 04–08 and the
-R00 review package are planned, not yet written. See
-[scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
 for one grade-8 learner at a time; a guiding adult adapts pacing, materials, and
@@ -103,25 +99,9 @@ alignment certification**. Full crosswalk in
 - [Unit 01 — Physical Quantities, Units, Motion and Graphs](units/unit-01-physical-quantities-motion-graphs/README.md) — available draft; educator review pending.
 - [Unit 02 — Forces, Newtonian Reasoning, and Momentum](units/unit-02-forces-newtonian-reasoning-momentum/README.md) — available draft; educator review pending.
 
-For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
-## Structure
+- [Unit 03 — Energy, Work, Simple Machines, and Conservation](units/unit-03-energy-work-simple-machines-conservation/README.md) — available draft; educator review pending.
 
-- [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
-  36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — Units 01–03 delivered as validated drafts (not educator-reviewed,
-  not merged); Units 04–08 planned (not yet written):
-  1. [Physical quantities, units, motion and graphs](units/unit-01-physical-quantities-motion-graphs/README.md)
-    — **validated draft** (issue #39, U01)
-  2. Forces, Newtonian reasoning, and momentum
-    — **validated draft** (issue #39, U02; link added by its own
-    draft PR #213 — see the PR body for merge order)
-  3. [Energy, work, simple machines, and conservation](units/unit-03-energy-work-simple-machines-conservation/README.md)
-    — **validated draft** (issue #39, U03)
-  4. Waves, sound, light, and information
-  5. Electric and magnetic interactions and circuits
-  6. Atomic structure, elements, and periodic patterns
-  7. Bonding, reactions, and conservation of matter
-  8. Thermal energy, chemical applications, and engineering capstone
+For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Existing material (audit baseline)
 
