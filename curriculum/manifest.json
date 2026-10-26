@@ -5190,6 +5190,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/assets/rhyme-family-cards.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/lessons/lesson-01-rhyming-words.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/lessons/lesson-02-producing-rhymes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/lessons/lesson-03-clapping-syllables.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/lessons/lesson-04-blending-syllables.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/lessons/lesson-05-onset-and-rime.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/lessons/lesson-06-two-syllable-words.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/language-arts/units/unit-02-rhyme-syllables-phonemic-awareness/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-k/math/README.md",
    "kind": "subject-index"
   },
@@ -5535,25 +5599,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 55,
-  "assessment": 59,
-  "asset": 72,
-  "assets": 56,
+  "answer-key": 56,
+  "assessment": 60,
+  "asset": 73,
+  "assets": 57,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 294,
+  "lesson": 300,
   "new-assignment": 31,
-  "practice": 55,
-  "project": 55,
-  "quiz": 278,
-  "resource-pack": 55,
+  "practice": 56,
+  "project": 56,
+  "quiz": 279,
+  "resource-pack": 56,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 55,
+  "teacher-guide": 56,
   "template": 14,
-  "unit-index": 55,
+  "unit-index": 56,
   "unit-text": 8
  },
  "review_notes": [
