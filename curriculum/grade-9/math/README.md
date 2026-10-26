@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit, scope-and-sequence, and
-Unit 01 are delivered; Units 02–08 are planned, not yet written. See
+Units 01–02 are delivered; Units 03–08 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -94,10 +94,10 @@ claim of state adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units; Unit 01 delivered as a validated draft (issue
-  #42, draft PR), Units 02–08 planned (not yet written):
+- `units/` — eight units; Units 01–02 delivered as validated drafts (issue
+  #42, draft PRs), Units 03–08 planned (not yet written):
   1. [Algebra foundations: expressions and equations](units/unit-01-algebra-foundations-expressions-equations/README.md) — **delivered (validated draft)**
-  2. Linear functions: graphs and modeling
+  2. [Linear functions: graphs and modeling](units/unit-02-linear-functions-graphs-modeling/README.md) — **delivered (validated draft)**
   3. Systems: inequalities and constraints
   4. Exponents: polynomials and operations
   5. Quadratic functions and factoring

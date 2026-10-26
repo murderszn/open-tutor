@@ -6742,6 +6742,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/assets/linear-function-graphs.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/assets/vending-machine-function.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/lessons/lesson-01-the-function-concept.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/lessons/lesson-02-function-notation-domain-range.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/lessons/lesson-03-graphing-linear-functions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/lessons/lesson-04-average-rate-of-change.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/lessons/lesson-05-building-linear-models.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/lessons/lesson-06-interpreting-linear-models.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-9/math/units/unit-02-linear-functions-graphs-modeling/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-9/science/README.md",
    "kind": "subject-index"
   },
@@ -7427,25 +7495,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 85,
-  "assessment": 91,
-  "asset": 116,
-  "assets": 86,
+  "answer-key": 86,
+  "assessment": 92,
+  "asset": 118,
+  "assets": 87,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 453,
+  "lesson": 459,
   "new-assignment": 31,
-  "practice": 85,
-  "project": 85,
-  "quiz": 306,
-  "resource-pack": 85,
+  "practice": 86,
+  "project": 86,
+  "quiz": 307,
+  "resource-pack": 86,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 85,
+  "teacher-guide": 86,
   "template": 14,
-  "unit-index": 85,
+  "unit-index": 86,
   "unit-text": 8
  },
  "review_notes": [
