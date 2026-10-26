@@ -2322,6 +2322,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/assessments/week-08_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/assets/tug-of-war-balanced-unbalanced.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/lessons/lesson-01-pushes-and-pulls.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/lessons/lesson-02-balanced-forces.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/lessons/lesson-03-unbalanced-forces.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/lessons/lesson-04-motion-patterns.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/lessons/lesson-05-friction.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-3/science/units/unit-02-balanced-and-unbalanced-forces-motion/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-3/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -6227,25 +6287,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 66,
-  "assessment": 70,
-  "asset": 85,
-  "assets": 67,
+  "answer-key": 67,
+  "assessment": 71,
+  "asset": 86,
+  "assets": 68,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 355,
+  "lesson": 360,
   "new-assignment": 31,
-  "practice": 66,
-  "project": 66,
-  "quiz": 289,
-  "resource-pack": 66,
+  "practice": 67,
+  "project": 67,
+  "quiz": 290,
+  "resource-pack": 67,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 66,
+  "teacher-guide": 67,
   "template": 14,
-  "unit-index": 66,
+  "unit-index": 67,
   "unit-text": 8
  },
  "review_notes": [
