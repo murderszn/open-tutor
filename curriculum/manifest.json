@@ -5202,6 +5202,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/assets/numeral-baskets-6-8-10.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/lessons/lesson-01-meet-the-numerals-0-to-5.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/lessons/lesson-02-write-the-numerals-0-to-5.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/lessons/lesson-03-numerals-6-to-10.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/lessons/lesson-04-count-on-from-a-number.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/lessons/lesson-05-counting-scattered-groups.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/math/units/unit-02-numbers-to-10/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-k/science/README.md",
    "kind": "subject-index"
   },
@@ -5351,25 +5411,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 52,
-  "assessment": 56,
-  "asset": 69,
-  "assets": 53,
+  "answer-key": 53,
+  "assessment": 57,
+  "asset": 70,
+  "assets": 54,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 278,
+  "lesson": 283,
   "new-assignment": 31,
-  "practice": 52,
-  "project": 52,
-  "quiz": 275,
-  "resource-pack": 52,
+  "practice": 53,
+  "project": 53,
+  "quiz": 276,
+  "resource-pack": 53,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 52,
+  "teacher-guide": 53,
   "template": 14,
-  "unit-index": 52,
+  "unit-index": 53,
   "unit-text": 8
  },
  "review_notes": [
