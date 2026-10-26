@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are delivered;
-Unit 01 is delivered as a validated draft and Units 02–08 are planned, not yet
+Units 01 and 02 are delivered as validated drafts and Units 03–08 are planned, not yet
 written. See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -18,7 +18,7 @@ Eight four-week units (track weeks 3–34); R00 diagnostic/review weeks are
 planned separately:
 
 1. [Reading fluency, morphology, and precise vocabulary](units/unit-01-reading-fluency-morphology-vocabulary/README.md) — validated draft
-2. Literary theme, perspective, and character development — planned
+2. [Literary theme, perspective, and character development](units/unit-02-literary-theme-perspective-character/README.md) — validated draft
 3. Informational text synthesis: structure and evidence — planned
 4. Grammar, sentence variety, conventions, and editing — planned
 5. Narrative pacing, dialogue, and description — planned

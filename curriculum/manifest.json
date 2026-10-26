@@ -3682,6 +3682,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/assessments/week-08_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/assets/kite-repair-scene.webp",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/assets/story-mountain.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/lessons/lesson-01-finding-theme.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/lessons/lesson-02-characters-inside-and-out.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/lessons/lesson-03-point-of-view-and-perspective.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/lessons/lesson-04-comparing-stories-similar-themes.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/lessons/lesson-05-theme-analysis-essay.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-02-literary-theme-perspective-character/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-5/math/README.md",
    "kind": "subject-index"
   },
@@ -6779,25 +6843,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 75,
-  "assessment": 80,
-  "asset": 96,
-  "assets": 76,
+  "answer-key": 76,
+  "assessment": 81,
+  "asset": 98,
+  "assets": 77,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 401,
+  "lesson": 406,
   "new-assignment": 31,
-  "practice": 75,
-  "project": 75,
-  "quiz": 297,
-  "resource-pack": 75,
+  "practice": 76,
+  "project": 76,
+  "quiz": 298,
+  "resource-pack": 76,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 75,
+  "teacher-guide": 76,
   "template": 14,
-  "unit-index": 75,
+  "unit-index": 76,
   "unit-text": 8
  },
  "review_notes": [
