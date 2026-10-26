@@ -1,8 +1,8 @@
 # Grade 6 Science
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
-This track is a **draft in progress**: the audit, scope-and-sequence, and Unit 01
-are delivered as validated drafts; Units 02–08 are planned, not yet written.
+This track is a **draft in progress**: the audit, scope-and-sequence, and Units 01
+and 02 are delivered as validated drafts; Units 03–08 are planned, not yet written.
 See [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -113,9 +113,9 @@ a claim of state adoption or accreditation). Full crosswalk in
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units (Unit 01 delivered as a validated draft; the rest planned):
+- `units/` — eight units (Units 01–02 delivered as validated drafts; the rest planned):
   1. [Measurement, graphing, models, and investigation design](units/unit-01-measurement-graphing-models-investigations/README.md) — **validated draft** (5 lessons, practice set, pendulum-or-ramp project with 20-point rubric, resource pack, quiz, unit assessment, separate teacher guide and answer key, generated teaching image); awaiting educator review and merge
-  2. Earth–Sun–Moon systems and seasons
+  2. [Earth–Sun–Moon systems and seasons](units/unit-02-earth-sun-moon-systems-seasons/README.md) — **validated draft** (5 lessons, practice bank, build-and-defend model project with rubric, resource pack, formative quiz, unit assessment, separate teacher guide and answer key, generated shadow-stick illustration plus deterministic phase-orbit and seasons-tilt diagrams); awaiting educator review and merge
   3. Solar system, gravity, and scale
   4. Earth materials, rocks, minerals, and cycles
   5. Plate tectonics, Earth history, and geologic evidence

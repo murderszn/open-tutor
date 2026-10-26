@@ -4674,6 +4674,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assessments/week-10_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assets/moon-phase-orbit-diagram.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assets/seasons-tilt-diagram.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/assets/shadow-stick-three-times.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-01-day-and-night.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-02-moon-phases.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-03-eclipses.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-04-seasons-by-tilt.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/lessons/lesson-05-review-and-model-limits.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/science/units/unit-02-earth-sun-moon-systems-seasons/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-6/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -7039,25 +7107,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 79,
-  "assessment": 84,
-  "asset": 104,
-  "assets": 80,
+  "answer-key": 80,
+  "assessment": 86,
+  "asset": 107,
+  "assets": 81,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 422,
+  "lesson": 427,
   "new-assignment": 31,
-  "practice": 79,
-  "project": 79,
+  "practice": 80,
+  "project": 80,
   "quiz": 301,
-  "resource-pack": 79,
+  "resource-pack": 80,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 79,
+  "teacher-guide": 80,
   "template": 14,
-  "unit-index": 79,
+  "unit-index": 80,
   "unit-text": 8
  },
  "review_notes": [
