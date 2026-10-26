@@ -5102,6 +5102,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/assets/personification-oak-watch.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/lessons/lesson-01-figurative-meanings.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/lessons/lesson-02-figures-and-sound.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/lessons/lesson-03-form-and-structure.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/lessons/lesson-04-point-of-view.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/lessons/lesson-05-perspective-and-voice.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/language-arts/units/unit-02-figurative-language-poetry/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-7/math/README.md",
    "kind": "subject-index"
   },
@@ -7303,25 +7363,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 83,
-  "assessment": 89,
-  "asset": 114,
-  "assets": 84,
+  "answer-key": 84,
+  "assessment": 90,
+  "asset": 115,
+  "assets": 85,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 442,
+  "lesson": 447,
   "new-assignment": 31,
-  "practice": 83,
-  "project": 83,
-  "quiz": 304,
-  "resource-pack": 83,
+  "practice": 84,
+  "project": 84,
+  "quiz": 305,
+  "resource-pack": 84,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 83,
+  "teacher-guide": 84,
   "template": 14,
-  "unit-index": 83,
+  "unit-index": 84,
   "unit-text": 8
  },
  "review_notes": [
