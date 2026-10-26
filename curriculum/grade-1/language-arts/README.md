@@ -91,7 +91,7 @@ adoption or accreditation). Full crosswalk in
   36-week pacing with weekly goals, session model, materials, accessibility.
 - `units/` — Unit 01 delivered as a validated draft; Units 02–08 planned (not yet written):
   1. [Phonemic review, short vowels, and decoding](units/unit-01-phonemic-review-short-vowels-and-decoding/) — **draft delivered**
-  2. Consonant blends, digraphs, and spelling — planned
+  2. [Consonant blends, digraphs, and spelling](units/unit-02-consonant-blends-digraphs-and-spelling/) — **draft delivered**
   3. Long-vowel patterns and high-frequency word practice
   4. Fluency, retelling, characters, and key details
   5. Informational reading: topics and text features

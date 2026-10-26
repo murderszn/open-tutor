@@ -86,6 +86,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/assets/digraph-shelf.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/lessons/lesson-01-blends-are-sound-teams.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/lessons/lesson-02-blends-at-the-end.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/lessons/lesson-03-sh-and-ch-two-letters-one-sound.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/lessons/lesson-04-more-letter-teams.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/lessons/lesson-05-spell-it-out.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/lessons/lesson-06-reading-our-new-words-in-lines.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/language-arts/units/unit-02-consonant-blends-digraphs-and-spelling/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-1/math/README.md",
    "kind": "subject-index"
   },
@@ -5779,25 +5843,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 59,
-  "assessment": 63,
-  "asset": 76,
-  "assets": 60,
+  "answer-key": 60,
+  "assessment": 64,
+  "asset": 77,
+  "assets": 61,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 315,
+  "lesson": 321,
   "new-assignment": 31,
-  "practice": 59,
-  "project": 59,
-  "quiz": 282,
-  "resource-pack": 59,
+  "practice": 60,
+  "project": 60,
+  "quiz": 283,
+  "resource-pack": 60,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 59,
+  "teacher-guide": 60,
   "template": 14,
-  "unit-index": 59,
+  "unit-index": 60,
   "unit-text": 8
  },
  "review_notes": [
