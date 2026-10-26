@@ -21,6 +21,9 @@ See also: [curriculum index](../README.md).
   pathway with optional calculus bridge; audit and scope-and-sequence are a
   validated draft (issue #54); Unit 01 delivered as a validated draft;
   Units 02–08 planned.
+  validated draft (issue #54); Unit 01 is a validated draft in unmerged
+  draft PR #172; Unit 02 is a validated draft in this run's draft PR
+  (issue #54); Units 03–08 planned.
 - [Language arts](language-arts/README.md) — Advanced literature, writing,
   and communication pathway; audit and scope-and-sequence delivered as a
   validated draft (issue #56); Unit 01 delivered as a validated draft in

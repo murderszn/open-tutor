@@ -5,6 +5,9 @@ This track is a **draft in progress**: the audit and scope-and-sequence are
 delivered; Unit 01 (advanced function analysis and mathematical modeling)
 is a validated draft (issue #54) and Units 02–08 are planned, not yet
 written. See
+is a validated draft in unmerged draft PR #172; Unit 02 (trigonometric
+identities, equations, and applications) is a validated draft in this
+run's draft PR (issue #54); Units 03–08 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -126,6 +129,14 @@ accreditation). Full crosswalk in
   02–08 planned, not yet written):
   1. [Advanced function analysis and mathematical modeling](units/unit-01-advanced-function-analysis/README.md) — **draft delivered 2026-10-15** (issue #54; not educator-reviewed)
   2. Trigonometric identities, equations, and applications
+- `units/` — Unit 01 (advanced function analysis and mathematical modeling)
+  is a validated draft in unmerged draft PR #172; Unit 02 (trigonometric
+  identities, equations, and applications) is a validated draft in this
+  run's draft PR (issue #54); Units 03–08 are planned (not yet written):
+  1. Advanced function analysis and mathematical modeling — validated
+     draft (unmerged PR #172)
+  2. Trigonometric identities, equations, and applications — validated
+     draft (this run's draft PR)
   3. Vectors, parametric equations, and polar representations
   4. Sequences, series, and discrete models
   5. Probability distributions and statistical inference
