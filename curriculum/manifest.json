@@ -642,6 +642,86 @@
    "kind": "unit-text"
   },
   {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/assessments/week-10_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/assets/crossroads-keeper-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-01-fair-comparison.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-02-comparative-thesis.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-03-theme-tracking.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-04-structure-effects.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-05-source-transformation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/lessons/lesson-06-two-mediums.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/texts/the-harbor-light.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/texts/the-keeper-at-the-crossroads.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/texts/the-salt-road.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-10/language-arts/units/unit-02-comparative-theme/texts/tortoise-hare-and-rematch.md",
+   "kind": "unit-text"
+  },
+  {
    "path": "grade-10/math/README.md",
    "kind": "subject-index"
   },
@@ -8015,26 +8095,26 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 94,
-  "assessment": 102,
-  "asset": 130,
-  "assets": 95,
+  "answer-key": 95,
+  "assessment": 104,
+  "asset": 131,
+  "assets": 96,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 502,
+  "lesson": 508,
   "new-assignment": 31,
-  "practice": 94,
-  "project": 94,
+  "practice": 95,
+  "project": 95,
   "quiz": 313,
-  "resource-pack": 94,
+  "resource-pack": 95,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 94,
+  "teacher-guide": 95,
   "template": 14,
-  "unit-index": 94,
-  "unit-text": 11
+  "unit-index": 95,
+  "unit-text": 15
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
