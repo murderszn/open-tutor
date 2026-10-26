@@ -90,7 +90,10 @@ crosswalk in [scope-and-sequence.md](scope-and-sequence.md#4-standards-crosswalk
 
 - [Scope and sequence](scope-and-sequence.md) — audit, standards crosswalk,
   36-week pacing with weekly goals, session model, materials, accessibility.
-- `units/` — eight units, planned (not yet written):
+- `units/` — eight units: Unit 01 (economic reasoning: scarcity,
+  incentives, and opportunity cost) delivered as a validated draft in this
+  run's draft PR; units 02–08 planned, not yet written (see
+  [scope-and-sequence.md](scope-and-sequence.md) §11).
   1. Economic reasoning: scarcity, incentives, and opportunity cost
   2. Supply, demand, markets, and price signals
   3. Firms, labor, competition, and market structures
