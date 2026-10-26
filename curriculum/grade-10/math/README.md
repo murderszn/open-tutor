@@ -2,8 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 This track is a **draft in progress**: the audit and scope-and-sequence are
-delivered, and Unit 01 is a delivered draft (not yet merged or
-educator-reviewed); Units 02–08 and R00 are planned, not yet written. See
+delivered, and Units 01–02 are delivered drafts (not yet merged or
+educator-reviewed); Units 03–08 and R00 are planned, not yet written. See
 [scope-and-sequence.md](scope-and-sequence.md).
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -109,7 +109,12 @@ School conceptual categories (verified against the official framework
      — 5 lessons, practice sets A–D, project + rubric, resource pack,
      formative quiz, unit assessment, teacher guide, separate answer key,
      generated illustration.
-  2. Congruence: rigid motions and triangle reasoning *(planned)*
+  2. Congruence: rigid motions and triangle reasoning — **draft
+     delivered 2026-10-20** (issue #46; draft PR, not yet merged):
+     [units/unit-02-congruence-and-triangle-reasoning/](units/unit-02-congruence-and-triangle-reasoning/)
+     — 5 lessons, practice sets A–E, project + rubric, resource pack,
+     formative quiz, unit assessment, teacher guide, separate answer key,
+     generated illustration.
   3. Similarity: dilations and proportional reasoning *(planned)*
   4. Right-triangle trigonometry and applications *(planned)*
   5. Quadrilaterals, polygons, and coordinate proofs *(planned)*

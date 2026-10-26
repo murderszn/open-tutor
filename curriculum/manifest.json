@@ -710,6 +710,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/assessments/week-09_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/assets/bridge-truss-illustration.webp",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/lessons/lesson-01-translations-and-reflections.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/lessons/lesson-02-rotations-and-composition.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/lessons/lesson-03-congruence-sss-sas.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/lessons/lesson-04-asa-aas-perpendicular-bisector.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/lessons/lesson-05-triangle-reasoning.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-10/science/README.md",
    "kind": "subject-index"
   },
@@ -7955,25 +8015,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 93,
-  "assessment": 100,
-  "asset": 129,
-  "assets": 94,
+  "answer-key": 94,
+  "assessment": 102,
+  "asset": 130,
+  "assets": 95,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 497,
+  "lesson": 502,
   "new-assignment": 31,
-  "practice": 93,
-  "project": 93,
+  "practice": 94,
+  "project": 94,
   "quiz": 313,
-  "resource-pack": 93,
+  "resource-pack": 94,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 93,
+  "teacher-guide": 94,
   "template": 14,
-  "unit-index": 93,
+  "unit-index": 94,
   "unit-text": 11
  },
  "review_notes": [

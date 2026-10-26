@@ -12,7 +12,9 @@ See also: [curriculum index](../README.md).
 ## Subject tracks
 
 - [Mathematics](math/README.md) — Geometry pathway; audit and
-  scope-and-sequence are a validated draft (issue #46); units planned.
+  scope-and-sequence are a validated draft (issue #46); Units 01–02 are
+  delivered drafts (not yet merged or educator-reviewed), Units 03–08
+  and R00 planned.
 - [Science](science/README.md) — Chemistry pathway; audit and
   scope-and-sequence are a validated draft (issue #47); units planned.
 - [Language arts](language-arts/README.md) — World literature and composition
