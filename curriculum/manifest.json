@@ -6534,6 +6534,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/assets/riverbend-cleanup.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/lessons/lesson-01-central-idea-objective-summary.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/lessons/lesson-02-key-individual-structure.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/lessons/lesson-03-author-purpose-word-choice.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/lessons/lesson-04-trace-evaluate-argument.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/lessons/lesson-05-compare-accounts-integrate-media.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-03-informational-argument-structure-purpose/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-6/math/README.md",
    "kind": "subject-index"
   },
@@ -10415,25 +10475,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 132,
-  "assessment": 143,
-  "asset": 182,
-  "assets": 133,
+  "answer-key": 133,
+  "assessment": 144,
+  "asset": 183,
+  "assets": 134,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 704,
+  "lesson": 709,
   "new-assignment": 31,
-  "practice": 132,
-  "project": 132,
-  "quiz": 348,
-  "resource-pack": 132,
+  "practice": 133,
+  "project": 133,
+  "quiz": 349,
+  "resource-pack": 133,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 132,
+  "teacher-guide": 133,
   "template": 14,
-  "unit-index": 132,
+  "unit-index": 133,
   "unit-text": 15
  },
  "review_notes": [
