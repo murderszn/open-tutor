@@ -84,6 +84,19 @@ figures, change, and multiple viewpoints; U08 Community inquiry and
 evidence-based civic project; R00 diagnostic, midyear/final review, and
 cumulative assessments with keys. Each will follow
 `docs/curriculum-expansion/unit-requirements.md`.
+- [U03 — Local history, timelines, and evidence](units/unit-03-local-history-timelines-evidence/README.md)
+
+**Draft in an open pull request, not yet merged:** U02 Landforms,
+environments, and human choices (draft PR #189).
+
+**Planned (prose — no files yet):**
+
+U04 Rules, laws, leadership, and citizenship; U05 Work,
+resources, trade, and economic choices; U06 Migration, cultural diversity,
+and communities; U07 Public historical figures, change, and multiple
+viewpoints; U08 Community inquiry and evidence-based civic project; R00
+diagnostic, midyear/final review, and cumulative assessments with keys. Each
+will follow `docs/curriculum-expansion/unit-requirements.md`.
 
 ## Starter lesson
 

@@ -3218,6 +3218,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/assets/maple-lane-then-and-now.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/lessons/lesson-01-past-present-future-ordering.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/lessons/lesson-02-reading-and-making-timelines.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/lessons/lesson-03-life-then-and-now.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/lessons/lesson-04-kinds-of-historical-sources.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/lessons/lesson-05-local-change-questions-and-reasons.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-3/README.md",
    "kind": "grade-index"
   },
@@ -9399,25 +9459,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 116,
-  "assessment": 125,
-  "asset": 155,
-  "assets": 117,
+  "answer-key": 117,
+  "assessment": 126,
+  "asset": 156,
+  "assets": 118,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 621,
+  "lesson": 626,
   "new-assignment": 31,
-  "practice": 116,
-  "project": 116,
-  "quiz": 334,
-  "resource-pack": 116,
+  "practice": 117,
+  "project": 117,
+  "quiz": 335,
+  "resource-pack": 117,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 116,
+  "teacher-guide": 117,
   "template": 14,
-  "unit-index": 116,
+  "unit-index": 117,
   "unit-text": 15
  },
  "review_notes": [
