@@ -1550,6 +1550,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/assets/fluency-expression-readers.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-01-read-with-a-purpose.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-02-monitor-and-self-correct.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-03-smooth-expressive-reading.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-04-words-from-context-clues.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-05-describing-words-adjectives-adverbs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/lessons/lesson-06-retell-and-answer.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/language-arts/units/unit-02-fluency-vocabulary-comprehension-monitoring/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-2/math/README.md",
    "kind": "subject-index"
   },
@@ -6031,25 +6095,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 63,
-  "assessment": 67,
-  "asset": 80,
-  "assets": 64,
+  "answer-key": 64,
+  "assessment": 68,
+  "asset": 81,
+  "assets": 65,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 338,
+  "lesson": 344,
   "new-assignment": 31,
-  "practice": 63,
-  "project": 63,
-  "quiz": 286,
-  "resource-pack": 63,
+  "practice": 64,
+  "project": 64,
+  "quiz": 287,
+  "resource-pack": 64,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 63,
+  "teacher-guide": 64,
   "template": 14,
-  "unit-index": 63,
+  "unit-index": 64,
   "unit-text": 8
  },
  "review_notes": [
