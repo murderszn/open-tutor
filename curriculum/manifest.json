@@ -2734,6 +2734,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/assessments/week-10_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/assets/lantern-hill-setting.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/lessons/lesson-01-theme-from-details.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/lessons/lesson-02-character-depth.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/lessons/lesson-03-setting-events-depth.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/lessons/lesson-04-forms-of-literature.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/lessons/lesson-05-point-of-view.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/lessons/lesson-06-themes-across-cultures.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-02-literary-theme-characters-setting-point-of-view/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-4/math/README.md",
    "kind": "subject-index"
   },
@@ -6531,25 +6595,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 71,
-  "assessment": 75,
-  "asset": 91,
-  "assets": 72,
+  "answer-key": 72,
+  "assessment": 76,
+  "asset": 92,
+  "assets": 73,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 380,
+  "lesson": 386,
   "new-assignment": 31,
-  "practice": 71,
-  "project": 71,
-  "quiz": 294,
-  "resource-pack": 71,
+  "practice": 72,
+  "project": 72,
+  "quiz": 295,
+  "resource-pack": 72,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 71,
+  "teacher-guide": 72,
   "template": 14,
-  "unit-index": 71,
+  "unit-index": 72,
   "unit-text": 8
  },
  "review_notes": [
