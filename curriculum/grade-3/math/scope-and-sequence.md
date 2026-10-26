@@ -389,11 +389,14 @@ settings; indoor/observation alternatives for all outdoor measuring tasks.
 
 ## 10. Gaps and paths for future units
 
-- Units U02–U08 and the R00 diagnostic/final-review package are all unbuilt —
+- Units U04–U08 and the R00 diagnostic/final-review package are all unbuilt —
   each is a later worker section on issue #18. U01 (Place value, rounding, and
   multi-digit operations) is delivered as a validated draft in a worker PR;
   its files live under
   `curriculum/grade-3/math/units/unit-01-place-value-rounding-and-operations/`.
+  U02 (Multiplication concepts and facts) is delivered as validated draft PR
+  #190 (not merged); U03 (Division concepts and facts) is delivered as a
+  validated draft in this PR (not merged).
 - No grade-3-appropriate internal datasets exist; Unit 08 scaled-graph work will
   use original small-count fictional survey data, clearly labeled.
 - Generated raster teaching images (one per unit, used in an activity with alt
@@ -408,7 +411,9 @@ U01 Place value, rounding, and multi-digit operations — **draft delivered**
 (validated draft in a worker PR; files under
 `curriculum/grade-3/math/units/unit-01-place-value-rounding-and-operations/`,
 not educator-reviewed, not merged); U02 Multiplication concepts
-and facts; U03 Division concepts and facts; U04 Multiplication, division, and
+and facts — **draft delivered** (validated draft PR #190, not merged);
+U03 Division concepts and facts — **draft delivered** (validated draft in
+this PR, not merged); U04 Multiplication, division, and
 two-step problems; U05 Fractions on models and number lines; U06 Measurement,
 time, and liquid volume; U07 Area, perimeter, and rectilinear shapes; U08
 Geometry and scaled data displays; R00 diagnostic, midyear/final review, and

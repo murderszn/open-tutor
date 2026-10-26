@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="340" viewBox="0 0 520 340" role="img" aria-label="Fact-family triangle for 4, 8, and 32">
+  <title>Fact-family triangle: 4 times 8 equals 32</title>
+  <desc>Triangle with 32 at the top and 4 and 8 at the bottom corners. The four equations are 4 times 8 equals 32, 8 times 4 equals 32, 32 divided by 8 equals 4, and 32 divided by 4 equals 8.</desc>
+  <rect width="520" height="340" fill="#ffffff"/>
+  <polygon points="260,30 60,270 460,270" fill="none" stroke="#222222" stroke-width="3"/>
+  <circle cx="260" cy="75" r="42" fill="#f2f2f2" stroke="#222222" stroke-width="2"/>
+  <text x="260" y="88" text-anchor="middle" font-family="sans-serif" font-size="32" fill="#222222">32</text>
+  <circle cx="120" cy="240" r="42" fill="#f2f2f2" stroke="#222222" stroke-width="2"/>
+  <text x="120" y="253" text-anchor="middle" font-family="sans-serif" font-size="32" fill="#222222">4</text>
+  <circle cx="400" cy="240" r="42" fill="#f2f2f2" stroke="#222222" stroke-width="2"/>
+  <text x="400" y="253" text-anchor="middle" font-family="sans-serif" font-size="32" fill="#222222">8</text>
+  <text x="260" y="315" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#222222">4 × 8 = 32 · 8 × 4 = 32 · 32 ÷ 8 = 4 · 32 ÷ 4 = 8</text>
+</svg>
