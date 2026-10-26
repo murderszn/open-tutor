@@ -25,4 +25,6 @@ See also: [curriculum index](../README.md).
   delivered as a validated draft; Units 02–08 planned.
 - [Social studies](social-studies/README.md) — Modern world history, circa
   1450 to the present; audit and scope-and-sequence are a validated draft
-  (issue #45); units planned.
+  (issue #45); Unit 01 (world-history inquiry, geography circa 1450) and
+  Unit 02 (empires, exchange, colonization, resistance) delivered as
+  validated drafts; Units 03–08 and R00 planned.

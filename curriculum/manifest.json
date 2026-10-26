@@ -7346,6 +7346,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/assessments/week-08_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/assets/atlantic-port-reconstruction.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/assets/columbian-exchange-schematic.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/assets/generation-record.json",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/lessons/lesson-01-maritime-turn.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/lessons/lesson-02-conquest-and-colonial-systems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/lessons/lesson-03-slave-trade-and-resistance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/lessons/lesson-04-empires-compared.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-k/README.md",
    "kind": "grade-index"
   },
@@ -7891,25 +7955,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 92,
-  "assessment": 99,
-  "asset": 126,
-  "assets": 93,
+  "answer-key": 93,
+  "assessment": 100,
+  "asset": 129,
+  "assets": 94,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 493,
+  "lesson": 497,
   "new-assignment": 31,
-  "practice": 92,
-  "project": 92,
-  "quiz": 312,
-  "resource-pack": 92,
+  "practice": 93,
+  "project": 93,
+  "quiz": 313,
+  "resource-pack": 93,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 92,
+  "teacher-guide": 93,
   "template": 14,
-  "unit-index": 92,
+  "unit-index": 93,
   "unit-text": 11
  },
  "review_notes": [
