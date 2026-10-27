@@ -1366,6 +1366,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/assets/railroad-plains-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-01-transcontinental-west.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-02-spanish-american-war-empire-debate.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-03-overseas-power-philippines-panama.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-04-wwi-causes-entry.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-05-war-home-peace.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-11/README.md",
    "kind": "grade-index"
   },
