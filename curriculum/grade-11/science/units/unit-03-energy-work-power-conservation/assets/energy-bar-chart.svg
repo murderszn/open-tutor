@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="Energy bar chart for a 2.0 kg ball falling from 5.0 m: at 5.0 m the bar is all potential energy (98 J); at 2.5 m it is half potential (49 J) and half kinetic (49 J); at 0 m it is all kinetic (98 J)">
+  <title>Energy bar chart: 2.0 kg ball falling from 5.0 m (total 98 J)</title>
+  <rect width="600" height="300" fill="#ffffff"/>
+  <text x="300" y="24" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">Energy of a falling ball (total = 98 J)</text>
+  <!-- Scale: 2 px per joule; 98 J = 196 px; baseline y = 250 -->
+  <!-- Group 1: height 5.0 m: PE 98, KE 0 -->
+  <rect x="80" y="54" width="90" height="196" fill="#2b6cb0"/>
+  <text x="125" y="150" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#ffffff">PE 98 J</text>
+  <text x="125" y="270" text-anchor="middle" font-family="sans-serif" font-size="13">Height 5.0 m</text>
+  <!-- Group 2: height 2.5 m: PE 49, KE 49 -->
+  <rect x="255" y="152" width="90" height="98" fill="#2b6cb0"/>
+  <rect x="255" y="54" width="90" height="98" fill="#dd6b20"/>
+  <text x="300" y="200" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#ffffff">PE 49 J</text>
+  <text x="300" y="102" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#ffffff">KE 49 J</text>
+  <text x="300" y="270" text-anchor="middle" font-family="sans-serif" font-size="13">Height 2.5 m</text>
+  <!-- Group 3: height 0 m: PE 0, KE 98 -->
+  <rect x="430" y="54" width="90" height="196" fill="#dd6b20"/>
+  <text x="475" y="150" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#ffffff">KE 98 J</text>
+  <text x="475" y="270" text-anchor="middle" font-family="sans-serif" font-size="13">Height 0 m</text>
+  <!-- Legend -->
+  <rect x="180" y="282" width="14" height="14" fill="#2b6cb0"/>
+  <text x="200" y="294" font-family="sans-serif" font-size="13">Potential energy</text>
+  <rect x="350" y="282" width="14" height="14" fill="#dd6b20"/>
+  <text x="370" y="294" font-family="sans-serif" font-size="13">Kinetic energy</text>
+</svg>

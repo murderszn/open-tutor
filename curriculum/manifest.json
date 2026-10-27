@@ -10936,6 +10936,74 @@
   {
    "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/teacher-guide.md",
    "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assets/energy-bar-chart.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assets/skateboarder-ramp-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-01-work-force-through-distance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-02-kinetic-energy-work-energy-theorem.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-03-gravitational-potential-energy.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-04-elastic-potential-energy-conservation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-05-nonconservative-forces-efficiency.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-06-power-energy-budgets.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-11/science/units/unit-03-energy-work-power-conservation/teacher-guide.md",
+   "kind": "teacher-guide"
   }
  ],
  "counts_by_kind": {
