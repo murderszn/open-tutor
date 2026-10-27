@@ -101,6 +101,7 @@ national reference framework, not a graduation requirement.
 
 - [Unit 01 — Literary Close Reading: Theme and Evidence](units/unit-01-theme-and-evidence/README.md) — available draft; educator review pending.
 - [Unit 02 — Narrative Structure, Characterization, and Author Choices](units/unit-02-narrative-structure-and-author-choices/README.md) — available draft; educator review pending.
+- [Unit 03 — Informational Rhetoric, Argument, and Media Literacy](units/unit-03-informational-rhetoric-argument-media-literacy/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

@@ -9662,6 +9662,94 @@
    "kind": "unit-text"
   },
   {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assessments/week-13_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assets/one-source-many-screens.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-01-central-idea-and-development.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-02-rhetoric-and-purpose.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-03-evaluating-arguments.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-04-seminal-documents.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-05-media-literacy.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-06-evaluation-essay.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/assessment-passage.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/fallacy-set.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/gettysburg-address-and-response.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/library-hours-editorial.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/three-reports-one-announcement.md",
+   "kind": "unit-text"
+  },
+  {
+   "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/two-editorials.md",
+   "kind": "unit-text"
+  },
+  {
    "path": "grade-9/math/README.md",
    "kind": "subject-index"
   },
@@ -10939,26 +11027,26 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 153,
+  "asset": 198,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 754,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
+  "practice": 141,
+  "project": 141,
   "quiz": 356,
-  "resource-pack": 140,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
-  "unit-text": 15
+  "unit-index": 141,
+  "unit-text": 21
  },
  "review_notes": [
   "Directory grade retained; review retitled and accelerated prompts.",
