@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="560" viewBox="0 0 860 560" role="img" aria-labelledby="title desc">
+<title id="title">Three branches of the United States government and their checks on each other</title>
+<desc id="desc">Three boxes: Legislative branch (Congress) makes laws and controls money; Executive branch (President) carries out laws and can veto; Judicial branch (Courts) interprets laws. Arrows show checks: President vetoes laws, Congress overrides a veto with two-thirds of both houses, Senate confirms appointments, House impeaches and Senate tries officials, Congress controls appropriations.</desc>
+<style>
+  .box { fill: #ffffff; stroke: #1a1a1a; stroke-width: 2; }
+  .h { font-family: sans-serif; font-size: 20px; font-weight: bold; text-anchor: middle; }
+  .b { font-family: sans-serif; font-size: 15px; text-anchor: middle; }
+  .c { font-family: sans-serif; font-size: 14px; font-style: italic; text-anchor: middle; fill: #333333; }
+  .arr { stroke: #8a0000; stroke-width: 2; fill: none; marker-end: url(#ah); }
+</style>
+<defs><marker id="ah" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#8a0000"/></marker></defs>
+<rect x="10" y="20" width="840" height="40" fill="none"/>
+<text x="430" y="48" class="h">The three branches and their checks (Constitution, Articles I–III)</text>
+<g>
+  <rect x="30" y="90" width="250" height="150" class="box"/>
+  <text x="155" y="120" class="h">LEGISLATIVE</text>
+  <text x="155" y="145" class="b">Congress: House + Senate</text>
+  <text x="155" y="170" class="b">Makes laws; controls money;</text>
+  <text x="155" y="195" class="b">declares war; confirms (Senate)</text>
+  <text x="155" y="220" class="b">Article I</text>
+</g>
+<g>
+  <rect x="305" y="90" width="250" height="150" class="box"/>
+  <text x="430" y="120" class="h">EXECUTIVE</text>
+  <text x="430" y="145" class="b">President + departments</text>
+  <text x="430" y="170" class="b">Carries out laws; commander</text>
+  <text x="430" y="195" class="b">in chief; vetoes bills</text>
+  <text x="430" y="220" class="b">Article II</text>
+</g>
+<g>
+  <rect x="580" y="90" width="250" height="150" class="box"/>
+  <text x="705" y="120" class="h">JUDICIAL</text>
+  <text x="705" y="145" class="b">Supreme Court + lower courts</text>
+  <text x="705" y="170" class="b">Interprets laws; decides cases</text>
+  <text x="705" y="195" class="b">under the Constitution</text>
+  <text x="705" y="220" class="b">Article III</text>
+</g>
+<g>
+  <path d="M 280 150 L 305 150" class="arr"/>
+  <text x="292" y="140" class="c"></text>
+  <path d="M 555 150 L 580 150" class="arr"/>
+  <path d="M 155 240 L 155 300 L 430 300 L 430 240" class="arr"/>
+  <text x="292" y="290" class="c">Congress overrides a veto with two-thirds of both houses</text>
+  <path d="M 430 240 L 430 300 L 705 300 L 705 240" class="arr"/>
+  <text x="567" y="290" class="c">Senate confirms appointments; House impeaches, Senate tries</text>
+  <path d="M 705 240 L 705 350 L 155 350 L 155 240" class="arr"/>
+  <text x="430" y="340" class="c">Congress controls appropriations; courts decide cases under the laws</text>
+  <path d="M 305 120 L 280 120" class="arr"/>
+  <text x="292" y="110" class="c">Veto</text>
+</g>
+<text x="430" y="400" class="b">Federalism: powers not given to the national government are reserved</text>
+<text x="430" y="425" class="b">to the states or the people (10th Amendment). The Constitution is the</text>
+<text x="430" y="450" class="b">supreme law of the land (Article VI).</text>
+<text x="430" y="500" class="c">Note: judicial review — courts striking down laws as unconstitutional —</text>
+<text x="430" y="525" class="c">was established later, in Marbury v. Madison (1803). It is not in the 1787 text.</text>
+</svg>
