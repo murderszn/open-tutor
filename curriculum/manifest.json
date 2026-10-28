@@ -10542,6 +10542,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assets/ten-and-four-apples.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-01-a-full-ten-frame.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-02-eleven-to-fifteen.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-03-sixteen-to-nineteen.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-04-writing-teen-numerals.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-05-ten-and-four-picture.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-k/science/README.md",
    "kind": "subject-index"
   },
@@ -10939,25 +10999,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 198,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 753,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [

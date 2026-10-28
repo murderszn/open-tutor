@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -67,6 +67,7 @@ adoption or accreditation). Full crosswalk in
 - [Unit 01 — Counting and Classifying Objects](units/unit-01-counting-and-classifying-objects/README.md) — available draft; educator review pending.
 - [Unit 02 — Numbers to 10 and One-to-One Correspondence](units/unit-02-numbers-to-10/README.md) — available draft; educator review pending.
 - [Unit 03 — Comparing Numbers and Quantities](units/unit-03-comparing-numbers-and-quantities/README.md) — available draft; educator review pending.
+- [Unit 04 — Teen Numbers and Ten Frames](units/unit-04-teen-numbers-and-ten-frames/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
