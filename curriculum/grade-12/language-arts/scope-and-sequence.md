@@ -5,6 +5,8 @@ Status: **validated draft** (this document, the track README, and the grade-12
 hub page); the eight units and the R00 review package are planned, not yet
 written.
 
+Unit 03 status (2026-10-28): Units 01–02 are available as drafts in the repository; Unit 03 — Rhetorical analysis, argument, and media criticism — is delivered as a validated draft in this run's draft PR (issue #56); Units 04–08 and the R00 review package remain planned.
+
 ## 1. Audit: existing-file inventory
 
 Re-audited 2026-10-08 against `main` (commit `2c43d24`; verified with
