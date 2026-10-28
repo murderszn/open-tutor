@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -123,5 +123,6 @@ elsewhere in the repository (full table in
 
 - [Unit 01 — Foundations of Constitutional Government and Political Ideas](units/unit-01-foundations-of-constitutional-government/README.md) — available draft; educator review pending.
 - [Unit 02 — The Constitution, Federalism, and Institutional Powers](units/unit-02-constitution-federalism-institutional-powers/README.md) — available draft; educator review pending.
+- [Unit 03 — Civil Liberties, Civil Rights, and Equal Protection](units/unit-03-civil-liberties-civil-rights-equal-protection/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
