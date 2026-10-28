@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -104,6 +104,7 @@ requirements were specified.
 
 - [Unit 01 — American Literature Contexts, Themes, and Close Reading](units/unit-01-american-literature-contexts-and-close-reading/README.md) — available draft; educator review pending.
 - [Unit 02 — Founding Rhetoric: Speeches and Primary Texts](units/unit-02-founding-rhetoric-speeches-and-primary-texts/README.md) — available draft; educator review pending.
+- [Unit 03 — Literary Movements, Diverse Voices, and Interpretation](units/unit-03-literary-movements-diverse-voices-interpretation/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
