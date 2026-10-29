@@ -1,7 +1,7 @@
 # Grade 2 Mathematics — Scope and Sequence
 
 Audit section A00 of [issue #14](https://github.com/murderszn/open-tutor/issues/14).
-Status: **validated draft** (this document and the track README); Units 01 and 03 delivered as drafts, Unit 02 as draft PR #186 (not yet merged).
+Status: **validated draft** (this document and the track README); Units 01, 02, and 03 delivered as drafts, Unit 04 delivered as a draft with this run.
 
 ## 1. Audit: existing-file inventory
 
@@ -325,9 +325,9 @@ mobility limits.
 
 ## 10. Gaps and paths for future units
 
-- Units U01 and U03 are delivered as drafts and U02 as draft PR #186;
-  U04–U08 and the R00 diagnostic/final-review package are unbuilt —
-  each is a later worker section on issue #14.
+- Units U01–U03 are delivered as drafts and U04 is delivered as a draft
+  with this run; U05–U08 and the R00 diagnostic/final-review package
+  are unbuilt — each is a later worker section on issue #14.
 - No grade-2-appropriate internal datasets exist; Unit 07 data work will use
   original small-count scenarios (≤ 4 categories) with fictional practice data,
   clearly labeled.
@@ -338,9 +338,10 @@ mobility limits.
 ## 11. Planned units (prose — no files yet; no links to missing files)
 
 U01 Place value to 1000 and number comparison (delivered as a draft);
-U02 Addition and subtraction within 100 (delivered as draft PR #186, not
-yet merged); U03 Three-digit addition and subtraction (delivered as a
-draft with this unit); U04 Word problems and unknowns;
+U02 Addition and subtraction within 100 (delivered as a draft);
+U03 Three-digit addition and subtraction (delivered as a
+draft); U04 Word problems and unknowns (delivered as a draft
+with this run);
 U05 Equal groups, arrays, and repeated addition; U06 Length and standard units;
 U07 Time, money, and data; U08 Shapes, partitions, and equal shares; R00
 diagnostic, midyear/final review, and cumulative assessments with keys. Each will
