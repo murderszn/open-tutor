@@ -10936,28 +10936,88 @@
   {
    "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/teacher-guide.md",
    "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/assessments/week-18_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/assets/community-helpers-town-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-01-people-in-authority.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-02-everyone-has-an-important-job.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-03-what-is-a-government.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-04-rules-in-different-places.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-05-making-a-decision-together.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/teacher-guide.md",
+   "kind": "teacher-guide"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 198,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 753,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [
