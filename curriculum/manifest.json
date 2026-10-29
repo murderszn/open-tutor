@@ -10936,28 +10936,92 @@
   {
    "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/teacher-guide.md",
    "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assets/classroom-birdseye-map.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assets/map-symbols-legend.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-01-what-is-a-map-birds-eye-view.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-02-symbols-and-legends.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-03-near-far-and-position-words.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-04-bigger-maps-school-and-neighborhood.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-05-land-and-water-on-a-globe.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/teacher-guide.md",
+   "kind": "teacher-guide"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 199,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 753,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [
