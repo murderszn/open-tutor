@@ -338,12 +338,15 @@ age suitability and advertising-free access.
   each is a later worker section on issue #8. U01 (Oral language listening
   and print concepts) and U02 (Rhyme syllables and phonemic awareness) are
   delivered as validated drafts.
-- Units U04–U08 and the R00 diagnostic/final-review package are unbuilt —
+- Units U05–U08 and the R00 diagnostic/final-review package are unbuilt —
   each is a later worker section on issue #8. U01 (Oral language listening
   and print concepts) is delivered as a validated draft, U02 (Rhyme
   syllables and phonemic awareness) is delivered as a validated draft in
-  PR #180 (unmerged), and U03 (Letter recognition and sound
-  correspondences) is delivered as a validated draft in this run's PR.
+  PR #180 (unmerged), U03 (Letter recognition and sound
+  correspondences) is delivered as a validated draft in draft
+  PR #232 (unmerged),
+  and U04 (Blending segmenting and regular CVC words) is delivered as a
+  validated draft in this run's PR.
 - No K-appropriate internal word lists, decodable passages, or read-aloud sets
   exist; units will author original passages and clearly labeled public-domain
   texts (e.g., Aesop) with named fictional practice data where needed.
@@ -361,8 +364,8 @@ planned units: U03 Letter recognition and sound correspondences; U04 Blending
 U01 Oral language listening and print concepts and U03 Letter recognition
 and sound correspondences are delivered as validated drafts (U02 Rhyme
 syllables and phonemic awareness is delivered as a validated draft in
-PR #180, unmerged). Remaining planned units: U04 Blending
-segmenting and regular CVC words; U05 Shared reading retelling and sequence;
+PR #180, unmerged), and U04 Blending segmenting and regular CVC words is
+delivered as a validated draft in this run's PR. Remaining planned units: U05 Shared reading retelling and sequence;
 U06 Decodable reading and sentence foundations; U07 Informational text questions
 and drawing-to-writing; U08 Opinion narrative and informational oral-written
 sharing; R00 diagnostic, midyear/final review, and cumulative assessments with
