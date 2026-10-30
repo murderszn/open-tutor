@@ -108,6 +108,7 @@ adoption or accreditation). Full crosswalk in
 - [Unit 01 — Place Value, Rounding, and Multi-Digit Operations](units/unit-01-place-value-rounding-and-operations/README.md) — available draft; educator review pending.
 - [Unit 02 — Multiplication Concepts and Facts](units/unit-02-multiplication-concepts-and-facts/README.md) — available draft; educator review pending.
 - [Unit 03 — Division Concepts and Facts](units/unit-03-division-concepts-and-facts/README.md) — available draft; educator review pending.
+- [Unit 04 — Multiplication, Division, and Two-Step Problems](units/unit-04-multiplication-division-and-two-step-problems/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
