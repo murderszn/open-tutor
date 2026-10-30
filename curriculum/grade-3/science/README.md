@@ -72,5 +72,6 @@ The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, 
 - [Unit 01 — Fair Tests, Measurement, Data, and Explanations](units/unit-01-fair-tests-measurement-data/README.md) — available draft; educator review pending.
 - [Unit 02 — Balanced and Unbalanced Forces and Motion](units/unit-02-balanced-and-unbalanced-forces-motion/README.md) — available draft; educator review pending.
 - [Unit 03 — Magnetic and Electric Interactions](units/unit-03-magnetic-and-electric-interactions/README.md) — available draft; educator review pending.
+- [Unit 04 — Life Cycles, Growth, and Reproduction](units/unit-04-life-cycles-growth-and-reproduction/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).

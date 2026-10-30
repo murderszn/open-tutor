@@ -447,8 +447,10 @@ alternative whenever the real thing is unsafe.
 
 ## 10. Gaps and paths for future units
 
-- Units U01–U08 and the R00 diagnostic/final-review package are all unbuilt —
-  each is a later worker section on issue #19.
+- Units U05–U08 and the R00 diagnostic/final-review package remain
+  unbuilt — each is a later worker section on issue #19. U01–U04 are
+  delivered as validated drafts in worker PRs (U04 in this PR, not
+  merged); U04 authors the bean-growth log that Units 05–06 reuse.
 - No grade-3-appropriate internal observation scenarios, data sets, or
   investigation guides exist; units will author original small-observation
   scenarios (e.g., one learner's bean-growth log, classroom weather tallies)

@@ -3894,6 +3894,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/assessments/week-18_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/assets/bean-growth-stages.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-01-every-living-thing-has-a-life-cycle.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-02-a-flowering-plants-life-cycle.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-03-egg-laying-animals-butterflies-and-frogs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-04-planting-beans-and-starting-the-growth-log.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-05-comparing-life-cycles.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-3/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -10939,25 +10999,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 198,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 753,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [
