@@ -3082,6 +3082,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/assets/seed-travelers-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-01-plan-a-fair-test.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-02-planting-day-and-seed-parts.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-03-how-seeds-travel.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-04-model-animal-seed-dispersal.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-05-model-pollination-and-good-places.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-2/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -10939,25 +10999,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 198,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 753,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [
