@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -24,6 +24,7 @@ See also: [Grade 5 track](../README.md), [curriculum index](../../README.md).
 - [Unit 01 — Reading Fluency, Morphology, and Precise Vocabulary](units/unit-01-reading-fluency-morphology-vocabulary/README.md) — available draft; educator review pending.
 - [Unit 02 — Literary Theme, Perspective, and Character Development](units/unit-02-literary-theme-perspective-character/README.md) — available draft; educator review pending.
 - [Unit 03 — Informational Text Synthesis: Structure and Evidence](units/unit-03-informational-text-synthesis-structure-evidence/README.md) — available draft; educator review pending.
+- [Unit 04 — Grammar, Sentence Variety, Conventions, and Editing](units/unit-04-grammar-sentence-variety-conventions-editing/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
