@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -24,6 +24,7 @@ See also: [Grade 5 track](../README.md), [curriculum index](../../README.md).
 - [Unit 01 — North American Geography, Indigenous Histories, and Sources](units/unit-01-north-american-geography-indigenous-histories/README.md) — available draft; educator review pending.
 - [Unit 02 — Colonial Societies: Labor, Trade, and Diverse Perspectives](units/unit-02-colonial-societies-labor-trade/README.md) — available draft; educator review pending.
 - [Unit 03 — Revolution: Causes, Events, and Competing Viewpoints](units/unit-03-revolution-causes-events-viewpoints/README.md) — available draft; educator review pending.
+- [Unit 04 — Founding Documents, Constitution, and Citizenship](units/unit-04-founding-documents-constitution-citizenship/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
@@ -129,7 +130,7 @@ defers to later bands (D2.His.7–8, 9–12; D2.His.15, 6–8) are not taught he
 | 3–6 | [U01](units/unit-01-north-american-geography-indigenous-histories/README.md) | North American geography, Indigenous histories, and sources — delivered as validated draft (2026-10-11) |
 | 7–10 | U02 | Colonial societies: labor, trade, and diverse perspectives — delivered as validated draft in draft PR #202 (unmerged at this branch's base) |
 | 11–14 | [U03](units/unit-03-revolution-causes-events-viewpoints/README.md) | Revolution: causes, events, and competing viewpoints — delivered as validated draft (2026-10-25) |
-| 15–18 | U04 | Founding documents, Constitution, and citizenship |
+| 15–18 | [U04](units/unit-04-founding-documents-constitution-citizenship/README.md) | Founding documents, Constitution, and citizenship — delivered as validated draft (2026-10-31) |
 | 19 | — | Midyear review and catch-up |
 | 20–23 | U05 | Early republic: expansion, displacement, and resistance |
 | 24–27 | U06 | Nineteenth-century change: abolition and reform |
@@ -150,8 +151,15 @@ answer key), a verified Resource Pack, a generated Boston Harbor illustration
 with alt text and a generation record, and a deterministic road-to-revolution
 timeline diagram — at
 [units/unit-03-revolution-causes-events-viewpoints/](units/unit-03-revolution-causes-events-viewpoints/).
+Unit 04 is delivered as a validated draft — five fully written lessons, practice
+banks, the "Our Classroom Constitution" project with rubric, a formative quiz
+and unit assessment (keys separated into the teacher guide and answer key), a
+verified Resource Pack, a generated Constitutional Convention illustration
+with alt text and a generation record, and a deterministic branches-and-checks
+diagram — at
+[units/unit-04-founding-documents-constitution-citizenship/](units/unit-04-founding-documents-constitution-citizenship/).
 Unit 02 is delivered as a validated draft in draft PR #202 (unmerged at this
-branch's base). Units 04–08 are planned in prose until written. Each unit is designed as four
+branch's base). Units 05–08 are planned in prose until written. Each unit is designed as four
 weeks of four ~40-minute sessions: concept launch, skills practice,
 investigation/application, and review with a unit check. Full weekly goals are
 in the scope-and-sequence. Grade-5 learners do independent written practice
