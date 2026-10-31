@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="360" viewBox="0 0 520 360" role="img" aria-label="Schematic diagram, not to scale, showing the three colonial regions from north to south: New England, Middle Colonies, Southern Colonies">
+  <title>Colonial regions schematic — not to scale</title>
+  <desc>Schematic only, not a geographic map. Three stacked bands run north to south: New England at the top, Middle Colonies in the middle, Southern Colonies at the bottom. Each band is labeled with its region name and colonies. No borders or coastlines are drawn.</desc>
+  <rect x="10" y="10" width="500" height="340" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="260" y="34" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold">Colonial regions — schematic, NOT to scale</text>
+  <rect x="40" y="50" width="440" height="80" fill="#dbeafe" stroke="#333333" stroke-width="1.5"/>
+  <text x="260" y="80" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">NORTH — New England</text>
+  <text x="260" y="105" text-anchor="middle" font-family="sans-serif" font-size="14">New Hampshire · Massachusetts · Rhode Island · Connecticut</text>
+  <rect x="40" y="140" width="440" height="80" fill="#fef3c7" stroke="#333333" stroke-width="1.5"/>
+  <text x="260" y="170" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">MIDDLE — Middle Colonies</text>
+  <text x="260" y="195" text-anchor="middle" font-family="sans-serif" font-size="14">New York · New Jersey · Pennsylvania · Delaware</text>
+  <rect x="40" y="230" width="440" height="80" fill="#fee2e2" stroke="#333333" stroke-width="1.5"/>
+  <text x="260" y="260" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">SOUTH — Southern Colonies</text>
+  <text x="260" y="285" text-anchor="middle" font-family="sans-serif" font-size="14">Maryland · Virginia · North Carolina · South Carolina · Georgia</text>
+  <text x="260" y="335" text-anchor="middle" font-family="sans-serif" font-size="12">Atlantic coast runs along the right side. Bands show order only — no real borders drawn.</text>
+</svg>
