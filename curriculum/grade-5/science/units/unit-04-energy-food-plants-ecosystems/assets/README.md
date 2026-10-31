@@ -1,0 +1,13 @@
+# Assets — Unit 04: Energy in Food, Plants, and Ecosystems
+
+## meadow-ecosystem.png
+
+- **File:** `meadow-ecosystem.png` (PNG, 1920 × 1280)
+- **Prompt:** "Educational illustration for a grade 5 science lesson: a sunny meadow ecosystem scene with green grass and wildflowers in the foreground, a rabbit eating grass, a fox sitting in the background, mushrooms and fallen leaves on the soil, and a bright sun in a blue sky. Clear simple shapes, friendly children's textbook style, no text, no labels, no arrows, no people."
+- **Generation tool:** Muse built-in image generation (`media.generate_image`), 2026-10-31.
+- **Learning purpose:** Lesson 05 image activity — learners sort the pictured living things into producers, consumers, and decomposers; trace the energy chain sun → grass → rabbit → fox; and trace the matter loop from fallen leaves through decomposers back to grass. Used in one activity, not as decoration.
+- **Factual review (2026-10-31, inspected before linking):** the image correctly shows a sun, grass and wildflowers (producers), a rabbit eating grass (herbivore consumer), a fox (consumer), and mushrooms with fallen leaves on soil (decomposer corner). No text, labels, or arrows appear, so no label can be wrong; learners draw the arrows themselves. The fox is shown sitting, not hunting — the lesson states explicitly that a food chain describes diet, not a single moment.
+- **Caption (as used in Lesson 05):** AI-generated illustration of a meadow ecosystem for classroom use (generated 2026-10-31). The mushrooms and fallen leaves in the lower left show the decomposer corner of the meadow; the rabbit and fox show two consumer steps; the grass and flowers are the producers; the sun is the energy source. This is an illustration, not a photograph and not a record of a real meadow.
+- **Alt text:** A sunny meadow illustration: green grass and wildflowers, a rabbit eating grass in the foreground, a fox sitting on a hill in the background, red-and-white mushrooms and fallen brown leaves on bare soil in the lower left, and a smiling sun in a blue sky.
+- **Text-only alternative:** provided in Lesson 05 — it lists sun, grass and flowers, rabbit, fox, mushrooms, fallen leaves, and soil, carrying every fact the activity questions need.
+- **Known limitations:** stylized illustration, not a photograph; no scale (the rabbit and fox are not to relative scale); mushrooms are drawn in a generic red-and-white style and are not identified to species — the lesson never asks learners to identify a species and states never to eat wild mushrooms; no hunting behavior is shown, by design. This image is not evidence of a real observation and must not be presented as one.
