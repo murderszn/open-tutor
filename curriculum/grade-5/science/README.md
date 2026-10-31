@@ -35,6 +35,7 @@ explicit adult directions for every investigation.
 - [Unit 01 — Models, Measurement, and Controlled Investigations](units/unit-01-measurement-investigations/README.md) — available draft; educator review pending.
 - [Unit 02 — Particle Models, Properties, and Mixtures](units/unit-02-particle-models-properties-mixtures/README.md) — available draft; educator review pending.
 - [Unit 03 — Matter Conservation and Chemical-Change Evidence](units/unit-03-matter-conservation-chemical-change/README.md) — available draft; educator review pending.
+- [Unit 04 — Energy in Food, Plants, and Ecosystems](units/unit-04-energy-food-plants-ecosystems/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
