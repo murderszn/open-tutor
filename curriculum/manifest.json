@@ -4370,6 +4370,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/assets/park-sentence-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-01-relative-pronouns-adverbs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-02-progressive-tenses-modal-auxiliaries.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-03-prepositional-phrases-adjective-order.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-04-fragments-runons-combining-confused-words.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-05-capitalization-dialogue-punctuation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-06-spelling-precise-words-punctuation-effect-formal-informal.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-4/math/README.md",
    "kind": "subject-index"
   },
@@ -10939,25 +11003,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 198,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 754,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [
