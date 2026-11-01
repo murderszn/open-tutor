@@ -7814,6 +7814,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assessments/week-18_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assets/balance-scale-equation-activity.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assets/inequality-graph-examples.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-01-expand-combine-like-terms.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-02-factor-rewrite-structure.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-03-multi-step-rational-problems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-04-equations-px-plus-q.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-05-equations-p-times-x-plus-q.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-06-inequalities-graphs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-7/science/README.md",
    "kind": "subject-index"
   },
@@ -10939,25 +11007,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 199,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 754,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [

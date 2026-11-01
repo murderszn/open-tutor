@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="210" viewBox="0 0 600 210" role="img" aria-label="Three inequality number-line graphs: x greater than 3, x less than or equal to negative 1, and negative 2 less than x less than 4">
+  <style>
+    .line { stroke: #222; stroke-width: 2; }
+    .seg { stroke: #c0392b; stroke-width: 5; }
+    .lab { font-family: sans-serif; font-size: 13px; fill: #222; }
+    .title { font-family: sans-serif; font-size: 14px; font-weight: bold; fill: #222; }
+  </style>
+  <!-- Scale: value v maps to x = 60 + (v + 6) * 37.5. Tick marks at integers -6 to 8. -->
+  <!-- Graph A: x > 3, open circle at 397.5 -->
+  <text x="10" y="30" class="title">A: x &gt; 3</text>
+  <line x1="60" y1="50" x2="585" y2="50" class="line"/>
+  <line x1="397.5" y1="50" x2="575" y2="50" class="seg"/>
+  <line x1="575" y1="50" x2="565" y2="44" class="seg"/>
+  <line x1="575" y1="50" x2="565" y2="56" class="seg"/>
+  <circle cx="397.5" cy="50" r="7" fill="white" stroke="#222" stroke-width="2"/>
+  <text x="390" y="75" class="lab">3 (open)</text>
+  <!-- Graph B: x <= -1, closed circle at 247.5 -->
+  <text x="10" y="105" class="title">B: x &#8804; &#8722;1</text>
+  <line x1="60" y1="125" x2="585" y2="125" class="line"/>
+  <line x1="70" y1="125" x2="247.5" y2="125" class="seg"/>
+  <line x1="70" y1="125" x2="80" y2="119" class="seg"/>
+  <line x1="70" y1="125" x2="80" y2="131" class="seg"/>
+  <circle cx="247.5" cy="125" r="7" fill="#222"/>
+  <text x="232" y="150" class="lab">&#8722;1 (closed)</text>
+  <!-- Graph C: -2 < x < 4, open circles at 210 and 435 -->
+  <text x="10" y="180" class="title">C: &#8722;2 &lt; x &lt; 4</text>
+  <line x1="60" y1="175" x2="585" y2="175" class="line"/>
+  <line x1="210" y1="175" x2="435" y2="175" class="seg"/>
+  <circle cx="210" cy="175" r="7" fill="white" stroke="#222" stroke-width="2"/>
+  <circle cx="435" cy="175" r="7" fill="white" stroke="#222" stroke-width="2"/>
+  <text x="195" y="195" class="lab">&#8722;2 (open)</text>
+  <text x="425" y="195" class="lab">4 (open)</text>
+</svg>
