@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -24,6 +24,7 @@ See also: [Grade 7 track](../README.md), [curriculum index](../../README.md).
 - [Unit 01 — Close Reading: Theme and Interacting Story Elements](units/unit-01-close-reading-theme/README.md) — available draft; educator review pending.
 - [Unit 02 — Literary Perspective, Figurative Language, and Poetry](units/unit-02-figurative-language-poetry/README.md) — available draft; educator review pending.
 - [Unit 03 — Informational: Structure, Rhetoric, and Argument Evaluation](units/unit-03-informational-structure-rhetoric-argument/README.md) — available draft; educator review pending.
+- [Unit 04 — Grammar: Clauses, Sentence Structure, and Vocabulary](units/unit-04-grammar-clauses-sentences-vocabulary/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
