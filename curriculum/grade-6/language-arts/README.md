@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -72,6 +72,7 @@ Greek/Latin root study, and poetry have no legacy coverage and are built new.
 - [Unit 01 — Close Reading: Inference and Textual Evidence](units/unit-01-close-reading-inference-evidence/README.md) — available draft; educator review pending.
 - [Unit 02 — Literature: Theme, Plot, and Narrator](units/unit-02-literature-theme-plot-narrator/README.md) — available draft; educator review pending.
 - [Unit 03 — Informational Reading: Argument, Structure, and Author Purpose](units/unit-03-informational-argument-structure-purpose/README.md) — available draft; educator review pending.
+- [Unit 04 — Grammar: Pronouns, Sentence Variety, and Vocabulary](units/unit-04-grammar-pronouns-sentence-variety-vocabulary/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
