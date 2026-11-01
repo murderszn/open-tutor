@@ -434,7 +434,11 @@ pack, formative quiz, unit assessment, teacher guide, answer key, generated
 illustration with assets record); U02 Literary
 perspective, figurative language, and poetry; U03 Informational: structure,
 rhetoric, and argument evaluation; U04 Grammar: clauses, sentence structure,
-and vocabulary; U05 Narrative craft: scene, dialogue, and revision; U06
+and vocabulary — **delivered as a validated draft 2026-11-01**
+([units/unit-04-grammar-clauses-sentences-vocabulary/](units/unit-04-grammar-clauses-sentences-vocabulary/):
+README, 6 lessons, practice sessions, project with rubric, resource pack,
+formative quiz, unit assessment, teacher guide, answer key, generated
+illustration with assets record); U05 Narrative craft: scene, dialogue, and revision; U06
 Argument writing: counterclaims, evidence, and reasoning (absorbs the revised
 argument-paragraph and claim-evidence-commentary assignments); U07 Research:
 source credibility, paraphrase, and synthesis; U08 Speaking, listening, media
