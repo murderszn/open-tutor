@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -52,7 +52,7 @@ or alignment certification is claimed. D2.His.7.6-8 and D2.His.8.6-8 (begin
 in grades 9–12), D2.Eco.10–12.6-8 (modern national economy), and
 D2.Civ.8.6-8 (U.S. founding documents) are deferred to later grades.
 
-## Current library status (2026-10-05 audit, updated 2026-10-25)
+## Current library status (2026-10-05 audit, updated 2026-11-01)
 
 The folder holds the track README, one starter lesson
 ([starter-lesson.md](starter-lesson.md) — "Ask what a map and source can show,"
@@ -83,5 +83,6 @@ coverage and are built new.
 - [Unit 01 — Historical Inquiry: Archaeology, Maps, and Chronology](units/unit-01-historical-inquiry-maps-and-chronology/README.md) — available draft; educator review pending.
 - [Unit 02 — Early Humans: Agriculture and Settlements](units/unit-02-early-humans-agriculture-and-settlements/README.md) — available draft; educator review pending.
 - [Unit 03 — Mesopotamia, Egypt, and River-Valley Civilizations](units/unit-03-river-valley-civilizations/README.md) — available draft; educator review pending.
+- [Unit 04 — Ancient South and East Asian Societies](units/unit-04-ancient-south-east-asian-societies/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
