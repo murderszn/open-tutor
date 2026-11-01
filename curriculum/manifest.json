@@ -8986,6 +8986,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/assets/slope-triangles.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/assets/two-cyclists-road.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/lessons/lesson-01-proportional-relationships-unit-rate.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/lessons/lesson-02-graphing-proportional-unit-rate-slope.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/lessons/lesson-03-slope-similar-triangles.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/lessons/lesson-04-y-mx-and-y-mx-plus-b.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/lessons/lesson-05-slope-intercept-in-context.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/lessons/lesson-06-comparing-linear-relationships.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/math/units/unit-04-proportional-relationships-slope-linear-graphs/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-8/science/README.md",
    "kind": "subject-index"
   },
@@ -10939,25 +11007,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 199,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 754,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [

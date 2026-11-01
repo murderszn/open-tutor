@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -98,6 +98,7 @@ state adoption or accreditation). Full crosswalk in
 - [Unit 01 — Real Numbers, Roots, and Irrational Approximations](units/unit-01-real-numbers-roots-irrational-approximations/README.md) — available draft; educator review pending.
 - [Unit 02 — Integer Exponents and Scientific Notation](units/unit-02-integer-exponents-scientific-notation/README.md) — available draft; educator review pending.
 - [Unit 03 — Linear Equations and Solution Types](units/unit-03-linear-equations-solution-types/README.md) — available draft; educator review pending.
+- [Unit 04 — Proportional Relationships, Slope, and Linear Graphs](units/unit-04-proportional-relationships-slope-linear-graphs/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
