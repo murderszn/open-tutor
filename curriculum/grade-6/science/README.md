@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -119,6 +119,7 @@ a claim of state adoption or accreditation). Full crosswalk in
 - [Unit 01 — Measurement, Graphing, Models, and Investigation Design](units/unit-01-measurement-graphing-models-investigations/README.md) — available draft; educator review pending.
 - [Unit 02 — Earth–Sun–Moon Systems and Seasons](units/unit-02-earth-sun-moon-systems-seasons/README.md) — available draft; educator review pending.
 - [Unit 03 — Solar System, Gravity, and Scale](units/unit-03-solar-system-gravity-scale/README.md) — available draft; educator review pending.
+- [Unit 04 — Earth Materials, Rocks, Minerals, and Cycles](units/unit-04-earth-materials-rocks-minerals-cycles/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
