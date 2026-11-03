@@ -10146,6 +10146,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assessments/week-16_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assets/british-pig-iron-production.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assets/industrial-mill-town-1840-reconstruction.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/lessons/lesson-01-why-britain-first.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/lessons/lesson-02-factory-labor-urban-life.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/lessons/lesson-03-new-imperialism.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/lessons/lesson-04-resistance-reform-visions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assets/generation-record.json",
+   "kind": "asset"
+  },
+  {
    "path": "grade-k/README.md",
    "kind": "grade-index"
   },
@@ -10936,28 +11000,96 @@
   {
    "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/teacher-guide.md",
    "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-01-evidence-reaction-types.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-02-balancing-equations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-03-the-mole.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-04-stoichiometry.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-05-limiting-reactants-percent-yield.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-06-midyear-checkpoint.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assessments/week-16_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assets/reaction-bench-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assets/mole-roadmap.svg",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 142,
+  "assessment": 153,
+  "asset": 202,
+  "assets": 143,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 758,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 142,
+  "project": 142,
+  "quiz": 358,
+  "resource-pack": 142,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 142,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 142,
   "unit-text": 15
  },
  "review_notes": [
