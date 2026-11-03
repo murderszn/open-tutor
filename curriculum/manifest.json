@@ -1818,6 +1818,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/assets/collision-carts-illustration.webp",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/lessons/lesson-01-momentum.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/lessons/lesson-02-impulse-and-force-time-graphs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/lessons/lesson-03-conservation-of-momentum.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/lessons/lesson-04-elastic-and-inelastic-collisions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/lessons/lesson-05-collision-safety-engineering.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/lessons/lesson-06-which-tool-impulse-energy-or-forces.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-11/science/units/unit-04-momentum-collisions-impulse/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-11/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -10939,25 +11003,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 198,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 754,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [
