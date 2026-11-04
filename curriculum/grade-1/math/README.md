@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, and 05 are available as drafts in this branch. Unit 04 is a separate open draft (PR #287). Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -68,6 +68,7 @@ adoption or accreditation). Full crosswalk in
 - [Unit 01 — Counting, Place Value, and Tens](units/unit-01-counting-place-value-and-tens/README.md) — available draft; educator review pending.
 - [Unit 02 — Addition Strategies Within 20](units/unit-02-addition-strategies-within-20/README.md) — available draft; educator review pending.
 - [Unit 03 — Subtraction Strategies Within 20](units/unit-03-subtraction-strategies-within-20/README.md) — available draft; educator review pending.
+- [Unit 05 — Two-Digit Addition and Subtraction Foundations](units/unit-05-two-digit-addition-and-subtraction-foundations/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
