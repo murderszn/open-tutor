@@ -384,6 +384,18 @@ weather observations; U08 Engineering solutions inspired by living things; R00
 diagnostic, midyear/final review, and cumulative assessments with keys. Each
 will follow `docs/curriculum-expansion/unit-requirements.md`.
 
+Unit 04 (External structures of plants and animals) is delivered as
+validated draft PR #288, not yet merged, and is named here in prose only
+— its files are not linked until that PR merges. Unit 05
+(Parent–offspring similarities and behavior) is delivered as a validated
+draft in this branch: see
+[units/unit-05-parent-offspring-similarities-behavior/](units/unit-05-parent-offspring-similarities-behavior/README.md).
+Remaining planned units (prose — no files yet; no links to missing
+files): U06 Sun, moon, and observable sky patterns; U07 Seasonal daylight
+and weather observations; U08 Engineering solutions inspired by living
+things; R00 diagnostic, midyear/final review, and cumulative assessments
+with keys.
+
 ## 12. Verification record
 
 - Issue #11 body, comments (none), and label state re-read 2026-10-02 before claiming.
