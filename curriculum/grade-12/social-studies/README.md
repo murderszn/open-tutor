@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02 are available as drafts in the repository; Units 03 and
+04 are available as draft PRs, not merged. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -91,6 +92,8 @@ crosswalk in [scope-and-sequence.md](scope-and-sequence.md#4-standards-crosswalk
 
 - [Unit 01 — Economic Reasoning: Scarcity, Incentives, and Opportunity Cost](units/unit-01-economic-reasoning-scarcity-and-opportunity-cost/README.md) — available draft; educator review pending.
 - [Unit 02 — Supply, Demand, Markets, and Price Signals](units/unit-02-supply-demand-markets-price-signals/README.md) — available draft; educator review pending.
+- Unit 03 — Firms, Labor, Competition, and Market Structures — draft PR #281; educator review pending; not merged.
+- [Unit 04 — Market Failures, Public Goods, and Policy Tradeoffs](units/unit-04-market-failures-public-goods-policy/README.md) — draft PR (this branch); educator review pending; not merged.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
