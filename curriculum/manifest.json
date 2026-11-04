@@ -10936,28 +10936,88 @@
   {
    "path": "grade-k/social-studies/units/unit-03-community-helpers-roles-and-responsibilities/teacher-guide.md",
    "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/lessons/lesson-01-needs-and-wants.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/lessons/lesson-02-goods-and-services.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/lessons/lesson-03-classroom-shop-work-money-prices.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/lessons/lesson-04-choosing-when-we-cannot-have-everything.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/lessons/lesson-05-made-near-and-far-trading-kindly.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/assets/classroom-market-stall.png",
+   "kind": "asset"
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 198,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 753,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [
