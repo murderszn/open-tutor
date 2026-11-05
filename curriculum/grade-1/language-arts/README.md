@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Units 04
+and 05 are delivered as draft pull requests (Unit 04: PR #289),
+not yet merged. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -96,6 +98,8 @@ adoption or accreditation). Full crosswalk in
 - [Unit 01 — Phonemic Review, Short Vowels, and Decoding](units/unit-01-phonemic-review-short-vowels-and-decoding/README.md) — available draft; educator review pending.
 - [Unit 02 — Consonant Blends, Digraphs, and Spelling](units/unit-02-consonant-blends-digraphs-and-spelling/README.md) — available draft; educator review pending.
 - [Unit 03 — Long-Vowel Patterns and High-Frequency Word Practice](units/unit-03-long-vowel-patterns-and-high-frequency-words/README.md) — available draft; educator review pending.
+- Unit 04 — Fluency, Retelling, Characters, and Key Details — draft delivered (PR #289, not yet merged).
+- [Unit 05 — Informational Reading: Topics and Text Features](units/unit-05-informational-reading-topics-and-text-features/README.md) — draft delivered in this pull request; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
