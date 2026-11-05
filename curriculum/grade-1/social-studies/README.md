@@ -87,6 +87,7 @@ accreditation, or alignment certification. Full crosswalk in
 - [Unit 01 — Community Membership, Rights, and Responsibilities](units/unit-01-community-membership-rights-responsibilities/README.md) — available draft; educator review pending.
 - [Unit 02 — Local Maps, Land, Water, and Location](units/unit-02-local-maps-land-water-and-location/README.md) — available draft; educator review pending.
 - [Unit 03 — Past, Present, Timelines, and Family-Neutral Histories](units/unit-03-past-present-timelines-family-neutral-histories/README.md) — available draft; educator review pending.
+- [Unit 05 — Needs, Wants, Producers, and Consumers](units/unit-05-needs-wants-producers-consumers/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

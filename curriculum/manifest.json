@@ -794,6 +794,66 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/assessments/week-22_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/assets/willow-street-market.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/lessons/lesson-01-needs-and-wants.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/lessons/lesson-02-when-we-cannot-have-everything.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/lessons/lesson-03-benefits-and-costs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/lessons/lesson-04-producers-make-goods-and-services.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/lessons/lesson-05-consumers-and-where-things-come-from.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-10/README.md",
    "kind": "grade-index"
   },
@@ -10939,25 +10999,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 152,
+  "asset": 198,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 753,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
-  "quiz": 356,
-  "resource-pack": 140,
+  "practice": 141,
+  "project": 141,
+  "quiz": 357,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [
