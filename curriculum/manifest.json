@@ -5150,6 +5150,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/assessments/week-22_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/assets/levels-and-branches-schematic.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/assets/town-services-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/lessons/lesson-01-three-levels-of-government.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/lessons/lesson-02-rights-and-responsibilities.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/lessons/lesson-03-how-a-bill-becomes-a-law.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/lessons/lesson-04-taxes-pay-for-services.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/lessons/lesson-05-participation-and-changing-laws.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-4/social-studies/units/unit-05-state-local-government-rights-responsibilities/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-4/stem/README.md",
    "kind": "subject-index"
   },
@@ -10939,25 +11003,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 140,
-  "assessment": 151,
-  "asset": 197,
-  "assets": 141,
+  "answer-key": 141,
+  "assessment": 153,
+  "asset": 199,
+  "assets": 142,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 748,
+  "lesson": 753,
   "new-assignment": 31,
-  "practice": 140,
-  "project": 140,
+  "practice": 141,
+  "project": 141,
   "quiz": 356,
-  "resource-pack": 140,
+  "resource-pack": 141,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 140,
+  "teacher-guide": 141,
   "template": 14,
-  "unit-index": 140,
+  "unit-index": 141,
   "unit-text": 15
  },
  "review_notes": [
