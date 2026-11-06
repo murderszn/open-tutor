@@ -2,8 +2,11 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
-The remaining units and R00 review package are planned; this is not a complete course.
+Units 01, 02, 03 are available as drafts in the repository. Unit 04 was
+delivered as draft PR #300 and Unit 05 as a draft in this run's PR (see the
+delivery comment on issue #21); both are pending merge. Educator review is
+pending. The remaining units and R00 review package are planned; this is not
+a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -22,6 +25,8 @@ See also: [Grade 3 track](../README.md), [curriculum index](../../README.md).
 - [Unit 01 — Maps, Regions, Continents, and Geographic Inquiry](units/unit-01-maps-regions-continents/README.md) — available draft; educator review pending.
 - [Unit 02 — Environment, Settlement, and Resource Use](units/unit-02-environment-settlement-resources/README.md) — available draft; educator review pending.
 - [Unit 03 — Communities over Time and Historical Evidence](units/unit-03-communities-over-time-historical-evidence/README.md) — available draft; educator review pending.
+- Unit 04 — Local Government, Participation, and Public Services — delivered as draft PR #300; pending merge, so no file link yet.
+- [Unit 05 — Production, Trade, Scarcity, and Interdependence](units/unit-05-production-trade-scarcity-interdependence/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
