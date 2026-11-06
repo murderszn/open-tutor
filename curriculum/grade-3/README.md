@@ -12,5 +12,5 @@ See also: [curriculum/README.md](../README.md)
 
 - [Mathematics](math/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
 - [Science](science/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
-- [Language arts](language-arts/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
+- [Language arts](language-arts/README.md) — Units 01, 02, 03, 05 available as drafts (Unit 04 in draft PR #299); remaining units planned.
 - [Social studies](social-studies/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
