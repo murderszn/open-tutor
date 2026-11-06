@@ -9,7 +9,7 @@ Kindergarten through Grade 12 have draft audits, scope-and-sequences, and instru
 - [Kindergarten](grade-k/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
 - [Grade 1](grade-1/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
 - [Grade 2](grade-2/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
-- [Grade 3](grade-3/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Grade 3](grade-3/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 4.
 - [Grade 4](grade-4/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
 - [Grade 5](grade-5/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
 - [Grade 6](grade-6/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
