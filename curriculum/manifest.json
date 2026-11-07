@@ -6302,6 +6302,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/assessments/week-23_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/assets/early-republic-timeline.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/assets/river-port-1840s.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/lessons/lesson-01-nation-in-1800-and-1850.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/lessons/lesson-02-treaties-promises-and-removal.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/lessons/lesson-03-two-perspectives-one-removal.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/lessons/lesson-04-trade-routes-and-changing-places.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/lessons/lesson-05-cause-effect-and-mini-exhibit.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-5/stem/README.md",
    "kind": "subject-index"
   },
@@ -11007,25 +11071,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 141,
-  "assessment": 152,
-  "asset": 199,
-  "assets": 142,
+  "answer-key": 142,
+  "assessment": 153,
+  "asset": 201,
+  "assets": 143,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 754,
+  "lesson": 759,
   "new-assignment": 31,
-  "practice": 141,
-  "project": 141,
-  "quiz": 357,
-  "resource-pack": 141,
+  "practice": 142,
+  "project": 142,
+  "quiz": 358,
+  "resource-pack": 142,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 141,
+  "teacher-guide": 142,
   "template": 14,
-  "unit-index": 141,
+  "unit-index": 142,
   "unit-text": 15
  },
  "review_notes": [
