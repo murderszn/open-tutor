@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" role="img" aria-labelledby="t d">
+<title id="t">Timeline of ancient Greece, about 600 to 300 BCE</title>
+<desc id="d">A horizontal timeline from 600 BCE on the left to 300 BCE on the right, with eight events marked. The Delian League label is offset to the right of its dot to avoid crowding.</desc>
+<rect x="0" y="0" width="1000" height="300" fill="#fdf8ec"/>
+<text x="500" y="26" text-anchor="middle" font-family="sans-serif" font-size="19" font-weight="bold" fill="#333">Ancient Greece — about 600 to 300 BCE</text>
+<text x="500" y="48" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666">All dates are approximate ("about"). Read left to right: later dates are closer to the present day.</text>
+<line x1="70" y1="150" x2="950" y2="150" stroke="#333" stroke-width="3"/>
+<text x="70" y="172" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">600 BCE</text>
+<text x="950" y="172" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">300 BCE</text>
+<text x="500" y="292" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#666">Positions computed from the dates. The treasury moved from Delos to Athens about 454 BCE (see Lesson 03).</text>
+<line x1="87.6" y1="150" x2="87.6" y2="106" stroke="#8a5a00" stroke-width="2"/>
+<circle cx="87.6" cy="150" r="6" fill="#b3271e"/>
+<text x="87.6" y="88" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#222">Solon — 594 BCE</text>
+<line x1="339.9" y1="150" x2="339.9" y2="194" stroke="#8a5a00" stroke-width="2"/>
+<circle cx="339.9" cy="150" r="6" fill="#b3271e"/>
+<text x="339.9" y="212" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#222">Cleisthenes — 508 BCE</text>
+<line x1="392.7" y1="150" x2="392.7" y2="106" stroke="#8a5a00" stroke-width="2"/>
+<circle cx="392.7" cy="150" r="6" fill="#b3271e"/>
+<text x="392.7" y="88" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#222">Marathon — 490 BCE</text>
+<line x1="422.0" y1="150" x2="422.0" y2="230" stroke="#8a5a00" stroke-width="2"/>
+<circle cx="422.0" cy="150" r="6" fill="#b3271e"/>
+<text x="422.0" y="248" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#222">Salamis — 480 BCE</text>
+<line x1="427.9" y1="150" x2="580" y2="230" stroke="#8a5a00" stroke-width="2"/>
+<circle cx="427.9" cy="150" r="6" fill="#b3271e"/>
+<text x="580" y="248" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#222">Delian League — 478 BCE</text>
+<line x1="565.7" y1="150" x2="565.7" y2="106" stroke="#8a5a00" stroke-width="2"/>
+<circle cx="565.7" cy="150" r="6" fill="#b3271e"/>
+<text x="565.7" y="88" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#222">Peloponnesian War 431 BCE</text>
+<line x1="644.9" y1="150" x2="644.9" y2="194" stroke="#8a5a00" stroke-width="2"/>
+<circle cx="644.9" cy="150" r="6" fill="#b3271e"/>
+<text x="644.9" y="212" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#222">Athens defeated — 404 BCE</text>
+<line x1="885.5" y1="150" x2="885.5" y2="106" stroke="#8a5a00" stroke-width="2"/>
+<circle cx="885.5" cy="150" r="6" fill="#b3271e"/>
+<text x="885.5" y="88" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#222">Democracy ends — 322 BCE</text>
+</svg>
