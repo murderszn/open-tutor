@@ -8014,6 +8014,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/assessments/week-23_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/assets/forelimb-comparison.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/assets/fossil-layers-illustration.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/assets/kettlewell-recapture-chart.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/lessons/lesson-01-fossil-record-deep-time.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/lessons/lesson-02-same-bones-different-jobs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/lessons/lesson-03-natural-selection-mechanism.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/lessons/lesson-04-embryos-ancestry.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/lessons/lesson-05-humans-shape-inheritance.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-7/science/units/unit-05-natural-selection-adaptation-evolutionary-evidence/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-7/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -11007,25 +11075,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 141,
-  "assessment": 152,
-  "asset": 199,
-  "assets": 142,
+  "answer-key": 142,
+  "assessment": 153,
+  "asset": 202,
+  "assets": 143,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 754,
+  "lesson": 759,
   "new-assignment": 31,
-  "practice": 141,
-  "project": 141,
-  "quiz": 357,
-  "resource-pack": 141,
+  "practice": 142,
+  "project": 142,
+  "quiz": 358,
+  "resource-pack": 142,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 141,
+  "teacher-guide": 142,
   "template": 14,
-  "unit-index": 141,
+  "unit-index": 142,
   "unit-text": 15
  },
  "review_notes": [
