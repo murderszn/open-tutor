@@ -6594,6 +6594,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/assessments/week-04_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/assets/footbridge-guitar-pick.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/lessons/lesson-01-event-sequences-unfold-naturally.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/lessons/lesson-02-narrator-characters-response-change.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/lessons/lesson-03-dialogue-that-does-work.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/lessons/lesson-04-pacing-slow-moment-summarize-rest.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/lessons/lesson-05-precise-words-sensory-detail.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/lessons/lesson-06-transitions-conclusions.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/language-arts/units/unit-05-narrative-craft-dialogue-pacing-revision/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-6/math/README.md",
    "kind": "subject-index"
   },
