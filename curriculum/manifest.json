@@ -6798,6 +6798,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/assessments/week-20_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/assets/balance-scale-equations-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/assets/inequality-number-line.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/lessons/lesson-01-which-values-make-it-true.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/lessons/lesson-02-solving-addition-subtraction-equations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/lessons/lesson-03-solving-multiplication-division-equations.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/lessons/lesson-04-inequalities-constraints-number-lines.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/lessons/lesson-05-two-quantities-that-change-together.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-6/math/units/unit-05-equations-inequalities-quantitative-relationships/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-6/science/README.md",
    "kind": "subject-index"
   },
