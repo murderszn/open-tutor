@@ -523,8 +523,11 @@ method.
 
 ## 10. Gaps and paths for future units
 
-- Units U01–U08 and the R00 diagnostic/final-review package are all unbuilt —
-  each is a later worker section on issue #30.
+- Units U06–U08 and the R00 diagnostic/final-review package remain
+  unbuilt — each is a later worker section on issue #30. U01–U05 are
+  delivered as validated drafts in worker PRs (U04 in PR #306 and U05
+  in this PR, both not yet merged); U05's equation and inequality
+  forms return in U08's percent modeling.
 - The starter lesson's answer checks sit beside the student tasks; the U01
   build separates them into the teacher guide.
 - There is no legacy assignment/quiz library for grade-6 math, so every unit
