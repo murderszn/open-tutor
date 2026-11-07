@@ -5570,6 +5570,70 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/assessments/week-22_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/assets/lighthouse-storm-scene.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/assets/story-mountain-diagram.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/lessons/lesson-01-orienting-reader-story-mountain.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/lessons/lesson-02-dialogue-shows-character.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/lessons/lesson-03-pacing-slow-fast.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/lessons/lesson-04-concrete-words-sensory-detail.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/lessons/lesson-05-endings-revision-picture-prompt.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-5/math/README.md",
    "kind": "subject-index"
   },
@@ -11007,25 +11071,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 141,
-  "assessment": 152,
-  "asset": 199,
-  "assets": 142,
+  "answer-key": 142,
+  "assessment": 153,
+  "asset": 201,
+  "assets": 143,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 754,
+  "lesson": 759,
   "new-assignment": 31,
-  "practice": 141,
-  "project": 141,
-  "quiz": 357,
-  "resource-pack": 141,
+  "practice": 142,
+  "project": 142,
+  "quiz": 358,
+  "resource-pack": 142,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 141,
+  "teacher-guide": 142,
   "template": 14,
-  "unit-index": 141,
+  "unit-index": 142,
   "unit-text": 15
  },
  "review_notes": [
