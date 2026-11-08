@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Units 04 and 05 are delivered as validated drafts in open draft PRs. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -24,6 +24,8 @@ See also: [Grade 7 track](../README.md), [curriculum index](../../README.md).
 - [Unit 01 — Close Reading: Theme and Interacting Story Elements](units/unit-01-close-reading-theme/README.md) — available draft; educator review pending.
 - [Unit 02 — Literary Perspective, Figurative Language, and Poetry](units/unit-02-figurative-language-poetry/README.md) — available draft; educator review pending.
 - [Unit 03 — Informational: Structure, Rhetoric, and Argument Evaluation](units/unit-03-informational-structure-rhetoric-argument/README.md) — available draft; educator review pending.
+- Unit 04 — Grammar: Clauses, Sentence Structure, and Vocabulary — validated draft in open draft PR #315 (files not yet on main, so no link here); educator review pending.
+- [Unit 05 — Narrative Craft: Scene, Dialogue, and Revision](units/unit-05-narrative-craft-scene-dialogue-revision/README.md) — validated draft in this PR; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
@@ -87,9 +89,10 @@ replaced by this file. Nothing inaccurate or inappropriate was found. The
 story-elements quiz revision is complete: its items are re-anchored to the
 unit's anchor passage with an answer key in the U01 teacher materials; the
 legacy file in `quizzes/` is left untouched. The eight planned units are
-described in prose in the scope-and-sequence; U01 now exists as a unit link
-below, U02 is delivered as a validated draft in draft PR #208, U03 is
-delivered as a validated draft in this PR, and U04–U08 have no files yet.
+described in prose in the scope-and-sequence; U01, U02, and U03 are merged
+(delivered as validated drafts in PRs #155, #208, and #260); U04 is delivered
+as a validated draft in open draft PR #315; U05 is delivered as a validated
+draft in this PR; U06–U08 have no files yet.
 
 ## Kept and revised materials (rebuilt in the units)
 
@@ -112,7 +115,11 @@ Planned units are described in prose in
 - **U01 — Close reading: theme and interacting story elements**
   ([units/unit-01-close-reading-theme/](units/unit-01-close-reading-theme/)) —
   merged. **U02 — Literary perspective, figurative language, and poetry**
-  is delivered as a validated draft in draft PR #208 (not yet merged).
-  **U03 — Informational: structure, rhetoric, and argument evaluation**
+  ([units/unit-02-figurative-language-poetry/](units/unit-02-figurative-language-poetry/)) —
+  merged. **U03 — Informational: structure, rhetoric, and argument evaluation**
   ([units/unit-03-informational-structure-rhetoric-argument/](units/unit-03-informational-structure-rhetoric-argument/)) —
-  validated draft, 2026-10-26. U04–U08 have no files yet.
+  merged. **U04 — Grammar: clauses, sentence structure, and vocabulary** is
+  delivered as a validated draft in open draft PR #315 (not yet merged).
+  **U05 — Narrative craft: scene, dialogue, and revision**
+  ([units/unit-05-narrative-craft-scene-dialogue-revision/](units/unit-05-narrative-craft-scene-dialogue-revision/)) —
+  validated draft in this PR. U06–U08 have no files yet.

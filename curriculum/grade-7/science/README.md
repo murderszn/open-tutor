@@ -18,7 +18,7 @@ educator-reviewed, not merged), units 4–8 planned (not yet written):
 2. Cell structures, functions, and organism organization
 3. [Photosynthesis, respiration, and matter-energy flow](units/unit-03-photosynthesis-respiration-matter-energy-flow/README.md) — draft
 4. Reproduction, inheritance, and genetic variation
-5. [Natural selection, adaptation, and evolutionary evidence](units/unit-05-natural-selection-adaptation-evolutionary-evidence/README.md) — draft
+5. Natural selection, adaptation, and evolutionary evidence
 6. Ecosystem interactions, populations, and biodiversity
 7. Human body systems and homeostasis
 8. Life-science investigations, environmental change, and engineering
@@ -33,7 +33,6 @@ track](../README.md), [curriculum index](../../README.md).
 - [Unit 01 — Scientific Evidence, Microscopy, and Cell Models](units/unit-01-scientific-evidence-microscopy-cell-models/README.md) — available draft; educator review pending.
 - [Unit 02 — Cell Structures, Functions, and Organism Organization](units/unit-02-cell-structures-functions-organization/README.md) — available draft; educator review pending.
 - [Unit 03 — Photosynthesis, Respiration, and Matter–Energy Flow](units/unit-03-photosynthesis-respiration-matter-energy-flow/README.md) — available draft; educator review pending.
-- [Unit 05 — Natural Selection, Adaptation, and Evolutionary Evidence](units/unit-05-natural-selection-adaptation-evolutionary-evidence/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

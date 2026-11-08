@@ -11134,6 +11134,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/assets/rainy-bus-stop-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/lessons/lesson-01-orientation-context-point-of-view.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/lessons/lesson-02-sensory-description-precise-words.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/lessons/lesson-03-dialogue-that-does-work.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/lessons/lesson-04-pacing-and-transitions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/lessons/lesson-05-endings-that-reflect.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/lessons/lesson-06-revision-second-draft.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-7/math/README.md",
       "kind": "subject-index"
     },
@@ -15983,17 +16047,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 218,
-    "answer-key": 218,
-    "assessment": 236,
-    "quiz": 427,
-    "assets": 219,
-    "asset": 319,
-    "lesson": 1172,
-    "practice": 218,
-    "project": 218,
-    "resource-pack": 218,
-    "teacher-guide": 218,
+    "unit-index": 219,
+    "answer-key": 219,
+    "assessment": 237,
+    "quiz": 428,
+    "assets": 220,
+    "asset": 320,
+    "lesson": 1178,
+    "practice": 219,
+    "project": 219,
+    "resource-pack": 219,
+    "teacher-guide": 219,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
