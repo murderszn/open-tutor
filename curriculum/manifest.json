@@ -9766,6 +9766,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/assets/punnett-rr-x-rr.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/assets/reproduction-two-ways-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/lessons/lesson-01-asexual-sexual-reproduction.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/lessons/lesson-02-mitosis-meiosis.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/lessons/lesson-03-genes-proteins-mutations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/lessons/lesson-04-punnett-squares-probability.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/lessons/lesson-05-genes-environment-reproductive-success.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-7/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -13111,17 +13175,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 173,
-    "answer-key": 173,
-    "assessment": 188,
-    "quiz": 385,
-    "assets": 174,
-    "asset": 250,
-    "lesson": 929,
-    "practice": 173,
-    "project": 173,
-    "resource-pack": 173,
-    "teacher-guide": 173,
+    "unit-index": 174,
+    "answer-key": 174,
+    "assessment": 189,
+    "quiz": 386,
+    "assets": 175,
+    "asset": 252,
+    "lesson": 934,
+    "practice": 174,
+    "project": 174,
+    "resource-pack": 174,
+    "teacher-guide": 174,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
