@@ -3114,6 +3114,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/assessments/week-12_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/assets/public-forum-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/lessons/lesson-01-liberties-rights-incorporation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/lessons/lesson-02-speech-in-conflict.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/lessons/lesson-03-religion-press-assembly.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/lessons/lesson-04-equal-protection-plessy-brown.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/lessons/lesson-05-movements-legislation-civil-rights.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/lessons/lesson-06-voting-rights-capstone.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-03-civil-liberties-civil-rights-equal-protection/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/README.md",
       "kind": "unit-index"
     },
@@ -16387,17 +16451,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 224,
-    "answer-key": 224,
-    "assessment": 243,
-    "quiz": 432,
-    "assets": 225,
-    "asset": 331,
-    "lesson": 1207,
-    "practice": 224,
-    "project": 224,
-    "resource-pack": 224,
-    "teacher-guide": 224,
+    "unit-index": 225,
+    "answer-key": 225,
+    "assessment": 244,
+    "quiz": 433,
+    "assets": 226,
+    "asset": 332,
+    "lesson": 1213,
+    "practice": 225,
+    "project": 225,
+    "resource-pack": 225,
+    "teacher-guide": 225,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
