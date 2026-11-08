@@ -6046,6 +6046,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assets/plant-structure-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assets/sunflower-structures.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-01-external-plant-structures.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-02-external-animal-structures.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-03-internal-animal-structures.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-04-arguments-with-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-05-structures-working-together.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-4/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -12531,17 +12595,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 164,
-    "answer-key": 164,
-    "assessment": 178,
-    "quiz": 377,
-    "assets": 165,
-    "asset": 235,
-    "lesson": 880,
-    "practice": 164,
-    "project": 164,
-    "resource-pack": 164,
-    "teacher-guide": 164,
+    "unit-index": 165,
+    "answer-key": 165,
+    "assessment": 179,
+    "quiz": 378,
+    "assets": 166,
+    "asset": 237,
+    "lesson": 885,
+    "practice": 165,
+    "project": 165,
+    "resource-pack": 165,
+    "teacher-guide": 165,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
