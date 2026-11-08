@@ -67,6 +67,7 @@ adoption or accreditation). Full crosswalk in
 - [Unit 01 — Counting and Classifying Objects](units/unit-01-counting-and-classifying-objects/README.md) — available draft; educator review pending.
 - [Unit 02 — Numbers to 10 and One-to-One Correspondence](units/unit-02-numbers-to-10/README.md) — available draft; educator review pending.
 - [Unit 03 — Comparing Numbers and Quantities](units/unit-03-comparing-numbers-and-quantities/README.md) — available draft; educator review pending.
+- [Unit 05 — Addition Stories Within 10](units/unit-05-addition-stories-within-10/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

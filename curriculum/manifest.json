@@ -13802,6 +13802,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/assets/apples-4-red-3-green.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/lessons/lesson-01-putting-together.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/lessons/lesson-02-adding-to.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/lessons/lesson-03-number-sentences.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/lessons/lesson-04-solving-stories-to-10.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/lessons/lesson-05-parts-of-5-and-6.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/math/units/unit-05-addition-stories-within-10/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-k/science/README.md",
       "kind": "subject-index"
     },
@@ -14203,17 +14263,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 190,
-    "answer-key": 190,
-    "assessment": 207,
-    "quiz": 400,
-    "assets": 191,
-    "asset": 277,
-    "lesson": 1021,
-    "practice": 190,
-    "project": 190,
-    "resource-pack": 190,
-    "teacher-guide": 190,
+    "unit-index": 191,
+    "answer-key": 191,
+    "assessment": 208,
+    "quiz": 401,
+    "assets": 192,
+    "asset": 278,
+    "lesson": 1026,
+    "practice": 191,
+    "project": 191,
+    "resource-pack": 191,
+    "teacher-guide": 191,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
