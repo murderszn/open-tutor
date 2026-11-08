@@ -130,6 +130,7 @@ adoption or accreditation). Full crosswalk in
 - [Unit 01 — Multi-Digit Place Value, Rounding, and Operations](units/unit-01-multi-digit-place-value-rounding-operations/README.md) — available draft; educator review pending.
 - [Unit 02 — Factors, Multiples, and Multiplication Strategies](units/unit-02-factors-multiples-multiplication-strategies/README.md) — available draft; educator review pending.
 - [Unit 03 — Multi-Digit Multiplication and Division](units/unit-03-multi-digit-multiplication-and-division/README.md) — available draft; educator review pending.
+- [Unit 05 — Fraction Addition, Subtraction, and Whole-Number Products](units/unit-05-fraction-addition-subtraction-whole-number-products/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

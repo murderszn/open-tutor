@@ -7294,6 +7294,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/assessments/week-20_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/assets/fraction-strip-addition.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/assets/sandwich-tray-strips.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/lessons/lesson-01-joining-parts-adding-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/lessons/lesson-02-separating-parts-subtracting-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/lessons/lesson-03-decomposing-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/lessons/lesson-04-mixed-numbers.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/lessons/lesson-05-fraction-times-whole-number.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-4/math/units/unit-05-fraction-addition-subtraction-whole-number-products/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-4/science/README.md",
       "kind": "subject-index"
     },
@@ -15139,17 +15203,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 205,
-    "answer-key": 205,
-    "assessment": 222,
-    "quiz": 415,
-    "assets": 206,
-    "asset": 294,
-    "lesson": 1103,
-    "practice": 205,
-    "project": 205,
-    "resource-pack": 205,
-    "teacher-guide": 205,
+    "unit-index": 206,
+    "answer-key": 206,
+    "assessment": 223,
+    "quiz": 416,
+    "assets": 207,
+    "asset": 296,
+    "lesson": 1108,
+    "practice": 206,
+    "project": 206,
+    "resource-pack": 206,
+    "teacher-guide": 206,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
