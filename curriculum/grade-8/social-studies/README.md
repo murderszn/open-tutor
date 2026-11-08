@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -121,14 +121,15 @@ The audit inventoried the 21 existing files in this folder (re-audited
 
 - [Unit 01 — Colonial Societies, Atlantic Exchange, Labor, and Resistance](units/unit-01-colonial-societies/README.md) — available draft; educator review pending.
 - [Unit 02 — Revolution, Independence, Contested Ideals](units/unit-02-revolution-contested-ideals/README.md) — available draft; educator review pending.
+- [Unit 03 — Constitution, Ratification, Rights, Institutions](units/unit-03-constitution-ratification-rights/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
 ## Assignments
 
-- [⚖️ Assignment: The Bill of Rights in Modern Legal Scenarios](assignments/bill-of-rights-scenarios.md) *(kept; will be revised into U03)*
-- [📜 Assignment: The Constitutional Convention Debate Simulation](assignments/constitutional-convention-debate.md) *(kept; will be revised into U03)*
-- [Grade 8 — Constitutional Convention Evidence Review](assignments/constitutional-convention-review.md) *(kept; will be revised into U03)*
+- [⚖️ Assignment: The Bill of Rights in Modern Legal Scenarios](assignments/bill-of-rights-scenarios.md) *(revised into Unit 03)*
+- [📜 Assignment: The Constitutional Convention Debate Simulation](assignments/constitutional-convention-debate.md) *(revised into Unit 03)*
+- [Grade 8 — Constitutional Convention Evidence Review](assignments/constitutional-convention-review.md) *(revised into Unit 03)*
 - [⚖️ Assignment: The Reconstruction Amendments & Black Leadership Legacy](assignments/reconstruction-amendments-legacy.md) *(kept; will be revised into U07)*
 
 ## Quizzes (formative banks)
