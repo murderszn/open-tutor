@@ -10350,6 +10350,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assessments/week-12_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assets/generation-record.json",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assets/print-shop-reconstruction.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assets/revolutions-timeline.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/lessons/lesson-01-enlightenment-ideas.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/lessons/lesson-02-american-french-revolutions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/lessons/lesson-03-haiti-latin-america.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/lessons/lesson-04-whose-rights.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-k/README.md",
       "kind": "grade-index"
     },
@@ -11147,17 +11211,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 143,
-    "answer-key": 143,
-    "assessment": 154,
-    "quiz": 359,
-    "assets": 144,
-    "asset": 203,
-    "lesson": 766,
-    "practice": 143,
-    "project": 143,
-    "resource-pack": 143,
-    "teacher-guide": 143,
+    "unit-index": 144,
+    "answer-key": 144,
+    "assessment": 155,
+    "quiz": 360,
+    "assets": 145,
+    "asset": 206,
+    "lesson": 770,
+    "practice": 144,
+    "project": 144,
+    "resource-pack": 144,
+    "teacher-guide": 144,
     "unit-text": 15,
     "new-assignment": 31,
     "template": 14,

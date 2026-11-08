@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -110,5 +110,6 @@ elsewhere in the repository (full table in
 
 - [Unit 01 — World-History Inquiry: Geography and Global Connections circa 1450](units/unit-01-world-history-inquiry/README.md) — available draft; educator review pending.
 - [Unit 02 — Empires, Exchange, Colonization, and Resistance](units/unit-02-empires-exchange-colonization/README.md) — available draft; educator review pending.
+- [Unit 03 — Enlightenment, Revolutions, Rights, and Consequences](units/unit-03-enlightenment-revolutions-rights/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
