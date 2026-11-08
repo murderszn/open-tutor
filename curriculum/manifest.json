@@ -10794,6 +10794,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/assessments/week-23_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/assets/aegean-trade-map.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/assets/agora-civic-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/assets/greek-timeline.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/lessons/lesson-01-greek-city-states-and-citizenship.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/lessons/lesson-02-athens-sparta-and-systems-of-government.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/lessons/lesson-03-mediterranean-exchange-and-trade.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/lessons/lesson-04-how-ideas-traveled.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/lessons/lesson-05-weighing-the-legacy.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-7/README.md",
       "kind": "grade-index"
     },
@@ -15847,17 +15915,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 216,
-    "answer-key": 216,
-    "assessment": 234,
-    "quiz": 425,
-    "assets": 217,
-    "asset": 313,
-    "lesson": 1162,
-    "practice": 216,
-    "project": 216,
-    "resource-pack": 216,
-    "teacher-guide": 216,
+    "unit-index": 217,
+    "answer-key": 217,
+    "assessment": 235,
+    "quiz": 426,
+    "assets": 218,
+    "asset": 316,
+    "lesson": 1167,
+    "practice": 217,
+    "project": 217,
+    "resource-pack": 217,
+    "teacher-guide": 217,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

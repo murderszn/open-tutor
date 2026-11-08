@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03, 04, 05 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -72,8 +72,6 @@ Greek/Latin root study, and poetry have no legacy coverage and are built new.
 - [Unit 01 — Close Reading: Inference and Textual Evidence](units/unit-01-close-reading-inference-evidence/README.md) — available draft; educator review pending.
 - [Unit 02 — Literature: Theme, Plot, and Narrator](units/unit-02-literature-theme-plot-narrator/README.md) — available draft; educator review pending.
 - [Unit 03 — Informational Reading: Argument, Structure, and Author Purpose](units/unit-03-informational-argument-structure-purpose/README.md) — available draft; educator review pending.
-- Unit 04 — delivered only as a separate open draft PR (#310, not on `main` at the time of this change).
-- [Unit 05 — Narrative Craft: Dialogue, Pacing, and Revision](units/unit-05-narrative-craft-dialogue-pacing-revision/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
@@ -82,7 +80,6 @@ For planned units and pacing, see the [scope and sequence](scope-and-sequence.md
 - [Evaluate a claim and support an argument](starter-lesson.md) — claim/evidence/reasoning analysis on an original fictional passage, counterclaim practice, and a qualified argument paragraph with a 2-1-0 review rubric. Core U06 seed: the unit adds taught lessons on claim organization, formal style, and transitions plus a separated teacher guide/answer key.
 
 Unit 01 is delivered as a validated draft and Unit 03 is delivered as a validated
-draft (see [Units](#units) above); Unit 02 exists only as a separate open draft
-PR, Unit 04 is delivered only as a separate open draft PR (#310), and Unit 05 is
-delivered as a validated draft in this draft PR; Units 06–08 and R00 are described
-in prose only in [scope-and-sequence.md](scope-and-sequence.md).
+draft in this draft PR (see [Units](#units) above); Unit 02 exists only as a
+separate open draft PR, and Units 04–08 and R00 are described in prose only in
+[scope-and-sequence.md](scope-and-sequence.md).

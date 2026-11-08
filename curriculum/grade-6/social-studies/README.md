@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04, and 05 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -52,15 +52,20 @@ or alignment certification is claimed. D2.His.7.6-8 and D2.His.8.6-8 (begin
 in grades 9–12), D2.Eco.10–12.6-8 (modern national economy), and
 D2.Civ.8.6-8 (U.S. founding documents) are deferred to later grades.
 
-## Current library status (2026-10-05 audit, updated 2026-10-25)
+## Current library status (2026-10-05 audit, updated 2026-11-07)
 
 The folder holds the track README, one starter lesson
 ([starter-lesson.md](starter-lesson.md) — "Ask what a map and source can show,"
 three 35-minute sessions on observation vs. inference, source limits, and
 evidence needs with a 2-1-0 review rubric),
-[scope-and-sequence.md](scope-and-sequence.md), and the first unit build
-([units/unit-01-historical-inquiry-maps-and-chronology/](units/unit-01-historical-inquiry-maps-and-chronology/)) and the Unit 03 build
-([units/unit-03-river-valley-civilizations/](units/unit-03-river-valley-civilizations/)).
+[scope-and-sequence.md](scope-and-sequence.md), and the first unit builds
+([units/unit-01-historical-inquiry-maps-and-chronology/](units/unit-01-historical-inquiry-maps-and-chronology/)),
+the Unit 02 build
+([units/unit-02-early-humans-agriculture-and-settlements/](units/unit-02-early-humans-agriculture-and-settlements/)), the Unit 03 build
+([units/unit-03-river-valley-civilizations/](units/unit-03-river-valley-civilizations/)),
+the Unit 04 build (draft PR #311, unmerged — files not yet on main),
+and the Unit 05 build
+([units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/](units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/) — draft, unmerged).
 Audit decisions: the starter
 lesson is **kept** and feeds U01 (historical inquiry) — it is direct
 D1.5/D3.2/D2.Geo.1–3 practice, and its "Answer checks" have been moved into the
@@ -83,5 +88,7 @@ coverage and are built new.
 - [Unit 01 — Historical Inquiry: Archaeology, Maps, and Chronology](units/unit-01-historical-inquiry-maps-and-chronology/README.md) — available draft; educator review pending.
 - [Unit 02 — Early Humans: Agriculture and Settlements](units/unit-02-early-humans-agriculture-and-settlements/README.md) — available draft; educator review pending.
 - [Unit 03 — Mesopotamia, Egypt, and River-Valley Civilizations](units/unit-03-river-valley-civilizations/README.md) — available draft; educator review pending.
+- Unit 04 — Ancient South and East Asian Societies — available draft (draft PR #311, unmerged; files not yet on main); educator review pending.
+- [Unit 05 — Ancient Greece: Civic Ideas and Mediterranean Exchange](units/unit-05-ancient-greece-civic-ideas-and-mediterranean-exchange/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
