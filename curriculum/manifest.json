@@ -966,6 +966,94 @@
       "kind": "unit-text"
     },
     {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assessments/week-13_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assets/rhetorical-triangle.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assets/town-hall-speaker.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-01-central-idea.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-02-unfolding-summary.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-03-rhetoric-purpose.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-04-evaluating-arguments.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-05-seminal-documents.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-06-mediums-speaker.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/library-use-data.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/seminal-documents-excerpts.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/the-library-counter-editorial.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/the-library-editorial.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/the-library-speech.md",
+      "kind": "unit-text"
+    },
+    {
       "path": "grade-10/math/README.md",
       "kind": "subject-index"
     },
@@ -11359,18 +11447,18 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 146,
-    "answer-key": 146,
-    "assessment": 159,
+    "unit-index": 147,
+    "answer-key": 147,
+    "assessment": 161,
     "quiz": 360,
-    "assets": 147,
-    "asset": 208,
-    "lesson": 781,
-    "practice": 146,
-    "project": 146,
-    "resource-pack": 146,
-    "teacher-guide": 146,
-    "unit-text": 21,
+    "assets": 148,
+    "asset": 210,
+    "lesson": 787,
+    "practice": 147,
+    "project": 147,
+    "resource-pack": 147,
+    "teacher-guide": 147,
+    "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
     "hints": 2,
