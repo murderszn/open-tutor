@@ -14546,6 +14546,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/assets/ball-toss-parabola.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/assets/parabola-x2-minus-4x-plus-3.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/lessons/lesson-01-factoring-undoing-multiplication.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/lessons/lesson-02-factoring-trinomials.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/lessons/lesson-03-special-forms-zeros.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/lessons/lesson-04-completing-the-square.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/lessons/lesson-05-graphing-transformations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/lessons/lesson-06-key-features-comparing-quadratics.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/math/units/unit-05-quadratic-functions-factoring/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-9/science/README.md",
       "kind": "subject-index"
     },
@@ -16187,17 +16255,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 221,
-    "answer-key": 221,
-    "assessment": 240,
-    "quiz": 429,
-    "assets": 222,
-    "asset": 325,
-    "lesson": 1190,
-    "practice": 221,
-    "project": 221,
-    "resource-pack": 221,
-    "teacher-guide": 221,
+    "unit-index": 222,
+    "answer-key": 222,
+    "assessment": 241,
+    "quiz": 430,
+    "assets": 223,
+    "asset": 327,
+    "lesson": 1196,
+    "practice": 222,
+    "project": 222,
+    "resource-pack": 222,
+    "teacher-guide": 222,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
