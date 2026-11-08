@@ -5714,6 +5714,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/assessments/week-22_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/assets/kite-in-the-tree-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/lessons/lesson-01-establish-situation-characters.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/lessons/lesson-02-temporal-words-event-order.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/lessons/lesson-03-dialogue-that-develops-story.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/lessons/lesson-04-actions-thoughts-feelings.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/lessons/lesson-05-closure-and-word-choice.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/lessons/lesson-06-plan-revise-edit.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-05-narrative-writing-dialogue-revision/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-3/math/README.md",
       "kind": "subject-index"
     },
@@ -15267,17 +15331,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 207,
-    "answer-key": 207,
-    "assessment": 224,
-    "quiz": 417,
-    "assets": 208,
-    "asset": 298,
-    "lesson": 1113,
-    "practice": 207,
-    "project": 207,
-    "resource-pack": 207,
-    "teacher-guide": 207,
+    "unit-index": 208,
+    "answer-key": 208,
+    "assessment": 225,
+    "quiz": 418,
+    "assets": 209,
+    "asset": 299,
+    "lesson": 1119,
+    "practice": 208,
+    "project": 208,
+    "resource-pack": 208,
+    "teacher-guide": 208,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
