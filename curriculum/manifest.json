@@ -10514,6 +10514,78 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/assessments/week-22_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/assets/geologic-time-scale-bar.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/assets/plate-boundaries-cross-section.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/assets/strata-relative-age-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/lessons/lesson-01-restless-surface.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/lessons/lesson-02-fossil-rock-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/lessons/lesson-03-seafloor-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/lessons/lesson-04-plate-boundaries.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/lessons/lesson-05-deep-time-strata.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/lessons/lesson-06-evidence-sorting-review.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/science/units/unit-05-plate-tectonics-earth-history-geologic-evidence/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-6/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -16047,17 +16119,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 219,
-    "answer-key": 219,
-    "assessment": 237,
-    "quiz": 428,
-    "assets": 220,
-    "asset": 320,
-    "lesson": 1178,
-    "practice": 219,
-    "project": 219,
-    "resource-pack": 219,
-    "teacher-guide": 219,
+    "unit-index": 220,
+    "answer-key": 220,
+    "assessment": 238,
+    "quiz": 429,
+    "assets": 221,
+    "asset": 323,
+    "lesson": 1184,
+    "practice": 220,
+    "project": 220,
+    "resource-pack": 220,
+    "teacher-guide": 220,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

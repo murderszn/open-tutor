@@ -432,17 +432,9 @@ validated draft 2026-10-12**
 README, 6 lessons, practice sessions, project dossier with rubric, resource
 pack, formative quiz, unit assessment, teacher guide, answer key, generated
 illustration with assets record); U02 Literary
-perspective, figurative language, and poetry — **delivered as a validated
-draft 2026-10-19 and merged**; U03 Informational: structure, rhetoric, and
-argument evaluation — **delivered as a validated draft 2026-10-26 and
-merged**; U04 Grammar: clauses, sentence structure, and vocabulary —
-**delivered as a validated draft 2026-11-01 (open draft PR #315)**; U05
-Narrative craft: scene, dialogue, and revision — **delivered as a validated
-draft 2026-11-07**
-([units/unit-05-narrative-craft-scene-dialogue-revision/](units/unit-05-narrative-craft-scene-dialogue-revision/):
-README, 6 lessons, practice sessions, project with rubric, resource pack,
-formative quiz, unit assessment, teacher guide, answer key, generated
-illustration with assets record); U06
+perspective, figurative language, and poetry; U03 Informational: structure,
+rhetoric, and argument evaluation; U04 Grammar: clauses, sentence structure,
+and vocabulary; U05 Narrative craft: scene, dialogue, and revision; U06
 Argument writing: counterclaims, evidence, and reasoning (absorbs the revised
 argument-paragraph and claim-evidence-commentary assignments); U07 Research:
 source credibility, paraphrase, and synthesis; U08 Speaking, listening, media
