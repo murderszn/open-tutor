@@ -14066,6 +14066,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/assets/pond-habitat-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/lessons/lesson-01-what-animals-need.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/lessons/lesson-02-pond-habitat-picture.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/lessons/lesson-03-different-animals-different-food.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/lessons/lesson-04-where-animals-live.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/lessons/lesson-05-animals-change-their-world.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/lessons/lesson-06-habitat-guessing-game.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-k/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -14263,17 +14327,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 191,
-    "answer-key": 191,
-    "assessment": 208,
-    "quiz": 401,
-    "assets": 192,
-    "asset": 278,
-    "lesson": 1026,
-    "practice": 191,
-    "project": 191,
-    "resource-pack": 191,
-    "teacher-guide": 191,
+    "unit-index": 192,
+    "answer-key": 192,
+    "assessment": 209,
+    "quiz": 402,
+    "assets": 193,
+    "asset": 279,
+    "lesson": 1032,
+    "practice": 192,
+    "project": 192,
+    "resource-pack": 192,
+    "teacher-guide": 192,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
