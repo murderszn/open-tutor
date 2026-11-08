@@ -1,8 +1,7 @@
 # Grade 1 Mathematics — Scope and Sequence
 
 Audit section A00 of [issue #10](https://github.com/murderszn/open-tutor/issues/10).
-Status: **validated draft** (this document and the track README); Units
-01–04 delivered as validated drafts, Units 05–08 and R00 planned.
+Status: **validated draft** (this document and the track README); units planned, not yet written.
 
 ## 1. Audit: existing-file inventory
 
@@ -243,9 +242,8 @@ indoor/observation alternatives for mobility limits.
 
 ## 10. Gaps and paths for future units
 
-- Units U05–U08 and the R00 diagnostic/final-review package are
-  unbuilt — each is a later worker section on issue #10; U01–U04 are
-  delivered as validated drafts.
+- Units U01–U08 and the R00 diagnostic/final-review package are all unbuilt —
+  each is a later worker section on issue #10.
 - No grade-1-appropriate internal datasets exist; Unit 07 data work will use
   original small-count categorical scenarios with fictional practice data, clearly
   labeled.
@@ -253,16 +251,14 @@ indoor/observation alternatives for mobility limits.
   text, caption, and text alternative) are required for U01–U08 — not applicable
   to this audit section.
 
-## 11. Delivered and planned units (prose — no links to missing files)
+## 11. Planned units (prose — no files yet; no links to missing files)
 
 U01 Counting, place value, and tens; U02 Addition strategies within 20;
-U03 Subtraction strategies within 20; U04 Addition and subtraction story
-problems — delivered as validated drafts. U05 Two-digit addition and
-subtraction foundations; U06 Length measurement and comparison; U07 Time
-and data displays; U08 Shapes, equal shares, and fractions foundations;
-R00 diagnostic, midyear/final review, and cumulative assessments with
-keys — planned. Each follows
-`docs/curriculum-expansion/unit-requirements.md`.
+U03 Subtraction strategies within 20; U04 Addition and subtraction story problems;
+U05 Two-digit addition and subtraction foundations; U06 Length measurement and
+comparison; U07 Time and data displays; U08 Shapes, equal shares, and fractions
+foundations; R00 diagnostic, midyear/final review, and cumulative assessments
+with keys. Each will follow `docs/curriculum-expansion/unit-requirements.md`.
 
 ## 12. Verification record
 

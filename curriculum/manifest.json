@@ -3622,6 +3622,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/assets/market-stall-story-picture.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-01-add-to-take-from-result-unknown.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-02-put-together-take-apart.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-03-compare-stories.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-04-unknowns-in-all-positions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-05-two-step-stories.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-06-check-reasonableness.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-2/science/README.md",
       "kind": "subject-index"
     },
@@ -12091,17 +12155,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 157,
-    "answer-key": 157,
-    "assessment": 171,
-    "quiz": 370,
-    "assets": 158,
-    "asset": 226,
-    "lesson": 842,
-    "practice": 157,
-    "project": 157,
-    "resource-pack": 157,
-    "teacher-guide": 157,
+    "unit-index": 158,
+    "answer-key": 158,
+    "assessment": 172,
+    "quiz": 371,
+    "assets": 159,
+    "asset": 227,
+    "lesson": 848,
+    "practice": 158,
+    "project": 158,
+    "resource-pack": 158,
+    "teacher-guide": 158,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
