@@ -2,9 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Unit 04 is
-available as a draft in PR #294 (pending merge). The remaining units and
-R00 review package are planned; this is not a complete course.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -77,8 +76,6 @@ By the end of the year the learner will be able to:
 - [Unit 01 — Geographic Tools, Directions, and Community Maps](units/unit-01-geographic-tools-directions-community-maps/README.md) — available draft; educator review pending.
 - [Unit 02 — Landforms, Environments, and Human Choices](units/unit-02-landforms-environments-human-choices/README.md) — available draft; educator review pending.
 - [Unit 03 — Local History, Timelines, and Evidence](units/unit-03-local-history-timelines-evidence/README.md) — available draft; educator review pending.
-- Unit 04 — Rules, Laws, Leadership, and Citizenship — draft in PR #294; pending merge and educator review. (Its files live on that PR's branch until it merges; see the [scope and sequence](scope-and-sequence.md) for its plan.)
-- [Unit 05 — Work, Resources, Trade, and Economic Choices](units/unit-05-work-resources-trade-economic-choices/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

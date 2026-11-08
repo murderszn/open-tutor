@@ -5998,6 +5998,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/assets/fraction-brownie-tray.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/assets/number-line-eighths.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/lessons/lesson-01-equal-parts-and-unit-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/lessons/lesson-02-fractions-as-parts-of-a-whole.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/lessons/lesson-03-fractions-on-the-number-line-unit-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/lessons/lesson-04-locating-fractions-on-the-number-line.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/lessons/lesson-05-equivalent-fractions-and-whole-numbers.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/lessons/lesson-06-comparing-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/math/units/unit-05-fractions-on-models-and-number-lines/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-3/science/README.md",
       "kind": "subject-index"
     },
@@ -15011,17 +15079,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 203,
-    "answer-key": 203,
-    "assessment": 220,
-    "quiz": 413,
-    "assets": 204,
-    "asset": 291,
-    "lesson": 1092,
-    "practice": 203,
-    "project": 203,
-    "resource-pack": 203,
-    "teacher-guide": 203,
+    "unit-index": 204,
+    "answer-key": 204,
+    "assessment": 221,
+    "quiz": 414,
+    "assets": 205,
+    "asset": 293,
+    "lesson": 1098,
+    "practice": 204,
+    "project": 204,
+    "resource-pack": 204,
+    "teacher-guide": 204,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
