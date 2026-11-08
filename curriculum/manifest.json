@@ -1962,6 +1962,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assessments/week-17_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assets/pendulum-measurement-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assets/root-graphs.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-01-rational-exponents-radicals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-02-square-root-graphs-transformations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-03-cube-root-graphs-comparing-families.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-04-radical-equations-isolate-power-check.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-05-two-radicals-applications.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-06-root-models-data-fitting.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-11/science/README.md",
       "kind": "subject-index"
     },
@@ -11959,17 +12027,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 155,
-    "answer-key": 155,
-    "assessment": 169,
-    "quiz": 368,
-    "assets": 156,
-    "asset": 222,
-    "lesson": 831,
-    "practice": 155,
-    "project": 155,
-    "resource-pack": 155,
-    "teacher-guide": 155,
+    "unit-index": 156,
+    "answer-key": 156,
+    "assessment": 170,
+    "quiz": 369,
+    "assets": 157,
+    "asset": 224,
+    "lesson": 837,
+    "practice": 156,
+    "project": 156,
+    "resource-pack": 156,
+    "teacher-guide": 156,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,

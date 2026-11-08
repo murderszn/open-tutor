@@ -114,6 +114,7 @@ claim of state adoption or accreditation). Full crosswalk in
 - [Unit 01 — Function Transformations, Composition, and Inverses](units/unit-01-function-transformations/README.md) — available draft; educator review pending.
 - [Unit 02 — Polynomial Functions, Zeros, and Complex Numbers](units/unit-02-polynomial-zeros-complex-numbers/README.md) — available draft; educator review pending.
 - [Unit 03 — Rational Expressions, Functions, and Asymptotes](units/unit-03-rational-expressions-functions-asymptotes/README.md) — available draft; educator review pending.
+- [Unit 04 — Radical Functions and Equations](units/unit-04-radical-functions-equations/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
