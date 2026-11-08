@@ -8022,6 +8022,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/assets/pronoun-stage-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-01-pronoun-case.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-02-intensive-vague-shifted-pronouns.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-03-nonrestrictive-punctuation-spelling.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-04-vocabulary-connotation-personification.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-05-sentence-patterns-variety.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-06-consistent-style-tone-formal-english.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-6/math/README.md",
       "kind": "subject-index"
     },
@@ -12979,17 +13043,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 171,
-    "answer-key": 171,
-    "assessment": 186,
-    "quiz": 383,
-    "assets": 172,
-    "asset": 246,
-    "lesson": 918,
-    "practice": 171,
-    "project": 171,
-    "resource-pack": 171,
-    "teacher-guide": 171,
+    "unit-index": 172,
+    "answer-key": 172,
+    "assessment": 187,
+    "quiz": 384,
+    "assets": 173,
+    "asset": 247,
+    "lesson": 924,
+    "practice": 172,
+    "project": 172,
+    "resource-pack": 172,
+    "teacher-guide": 172,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
