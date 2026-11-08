@@ -15550,6 +15550,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/assets/cvc-blending-pictures.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/lessons/lesson-01-blending-sounds-to-read-cvc-words.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/lessons/lesson-02-isolating-first-middle-last-sounds.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/lessons/lesson-03-segmenting-words-into-sounds.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/lessons/lesson-04-changing-one-sound-new-word.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/lessons/lesson-05-sight-words-and-lookalike-words.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/lessons/lesson-06-spelling-cvc-words-phonetically.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/language-arts/units/unit-04-blending-segmenting-cvc-words/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-k/language-arts/units/unit-05-shared-reading-retelling-sequence/README.md",
       "kind": "unit-index"
     },
@@ -16515,17 +16579,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 226,
-    "answer-key": 226,
-    "assessment": 245,
-    "quiz": 434,
-    "assets": 227,
-    "asset": 333,
-    "lesson": 1219,
-    "practice": 226,
-    "project": 226,
-    "resource-pack": 226,
-    "teacher-guide": 226,
+    "unit-index": 227,
+    "answer-key": 227,
+    "assessment": 246,
+    "quiz": 435,
+    "assets": 228,
+    "asset": 334,
+    "lesson": 1225,
+    "practice": 227,
+    "project": 227,
+    "resource-pack": 227,
+    "teacher-guide": 227,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
