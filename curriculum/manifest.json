@@ -6318,6 +6318,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/assessments/week-22_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/assets/dog-family-inherited-traits.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/lessons/lesson-01-offspring-look-like-their-parents.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/lessons/lesson-02-variation-in-our-bean-plants.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/lessons/lesson-03-siblings-are-alike-and-different.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/lessons/lesson-04-the-environment-changes-traits.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/lessons/lesson-05-inherited-or-environment.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/science/units/unit-05-inherited-traits-environmental-effects-and-variation/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-3/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -15079,17 +15139,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 204,
-    "answer-key": 204,
-    "assessment": 221,
-    "quiz": 414,
-    "assets": 205,
-    "asset": 293,
-    "lesson": 1098,
-    "practice": 204,
-    "project": 204,
-    "resource-pack": 204,
-    "teacher-guide": 204,
+    "unit-index": 205,
+    "answer-key": 205,
+    "assessment": 222,
+    "quiz": 415,
+    "assets": 206,
+    "asset": 294,
+    "lesson": 1103,
+    "practice": 205,
+    "project": 205,
+    "resource-pack": 205,
+    "teacher-guide": 205,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

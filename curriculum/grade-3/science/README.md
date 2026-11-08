@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, and 05 are available as drafts in the repository. Unit 04 is delivered as draft PR #296, not yet merged. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -72,5 +72,6 @@ The [starter lesson](starter-lesson.md) is one supplemental adult-led activity, 
 - [Unit 01 — Fair Tests, Measurement, Data, and Explanations](units/unit-01-fair-tests-measurement-data/README.md) — available draft; educator review pending.
 - [Unit 02 — Balanced and Unbalanced Forces and Motion](units/unit-02-balanced-and-unbalanced-forces-motion/README.md) — available draft; educator review pending.
 - [Unit 03 — Magnetic and Electric Interactions](units/unit-03-magnetic-and-electric-interactions/README.md) — available draft; educator review pending.
+- [Unit 05 — Inherited Traits, Environmental Effects, and Variation](units/unit-05-inherited-traits-environmental-effects-and-variation/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
