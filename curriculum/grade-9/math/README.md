@@ -2,8 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03, 05 are available as drafts in the repository. Unit 04
-is in open draft PR #317. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -97,7 +96,6 @@ claim of state adoption or accreditation). Full crosswalk in
 - [Unit 01 — Algebra Foundations: Expressions and Equations](units/unit-01-algebra-foundations-expressions-equations/README.md) — available draft; educator review pending.
 - [Unit 02 — Linear Functions: Graphs and Modeling](units/unit-02-linear-functions-graphs-modeling/README.md) — available draft; educator review pending.
 - [Unit 03 — Systems: Inequalities and Constraints](units/unit-03-systems-inequalities-constraints/README.md) — available draft; educator review pending.
-- [Unit 05 — Quadratic Functions and Factoring](units/unit-05-quadratic-functions-factoring/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

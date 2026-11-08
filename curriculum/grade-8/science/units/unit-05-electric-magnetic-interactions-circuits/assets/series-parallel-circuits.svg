@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 460" width="920" height="460" role="img" aria-label="Two circuit diagrams: a series circuit with one path through two bulbs, and a parallel circuit with two separate bulb branches">
+<rect x="0" y="0" width="920" height="460" fill="#fdfcf8"/>
+<defs><marker id="arr2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="#333"/></marker></defs>
+<text x="230" y="40" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#222">Series circuit — one path</text>
+<rect x="80" y="80" width="300" height="240" fill="none" stroke="#222" stroke-width="2"/>
+<line x1="80" y1="80" x2="80" y2="188" stroke="#222" stroke-width="2"/>
+<line x1="80" y1="212" x2="80" y2="320" stroke="#222" stroke-width="2"/>
+<line x1="64" y1="194" x2="96" y2="194" stroke="#222" stroke-width="3"/><line x1="71" y1="208" x2="89" y2="208" stroke="#222" stroke-width="5"/>
+<text x="52" y="204" font-family="sans-serif" font-size="20" text-anchor="middle" fill="#222">+</text>
+<text x="52" y="240" font-family="sans-serif" font-size="15" text-anchor="end" fill="#222">battery</text>
+<line x1="80" y1="80" x2="200" y2="80" stroke="#222" stroke-width="2"/>
+<line x1="240" y1="80" x2="380" y2="80" stroke="#222" stroke-width="2"/>
+<line x1="200" y1="80" x2="232" y2="58" stroke="#222" stroke-width="2"/>
+<circle cx="200" cy="80" r="3" fill="#222"/>
+<circle cx="240" cy="80" r="3" fill="#222"/>
+<text x="220" y="48" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222">switch (closed)</text>
+<circle cx="380" cy="160" r="22" fill="#fff8dc" stroke="#222" stroke-width="2"/><line x1="366.8" y1="146.8" x2="393.2" y2="173.2" stroke="#222" stroke-width="2"/><line x1="366.8" y1="173.2" x2="393.2" y2="146.8" stroke="#222" stroke-width="2"/>
+<text x="420" y="166" font-family="sans-serif" font-size="16" text-anchor="start" fill="#222">bulb A</text>
+<circle cx="380" cy="260" r="22" fill="#fff8dc" stroke="#222" stroke-width="2"/><line x1="366.8" y1="246.8" x2="393.2" y2="273.2" stroke="#222" stroke-width="2"/><line x1="366.8" y1="273.2" x2="393.2" y2="246.8" stroke="#222" stroke-width="2"/>
+<text x="420" y="266" font-family="sans-serif" font-size="16" text-anchor="start" fill="#222">bulb B</text>
+<line x1="120" y1="80" x2="170" y2="80" stroke="#333" stroke-width="2" marker-end="url(#arr2)"/>
+<text x="230" y="360" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222">One loop: the same current flows through</text>
+<text x="230" y="382" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222">bulb A, then bulb B, then back to the battery.</text>
+<text x="700" y="40" font-family="sans-serif" font-size="18" text-anchor="middle" fill="#222">Parallel circuit — two paths</text>
+<line x1="520" y1="80" x2="860" y2="80" stroke="#222" stroke-width="2"/>
+<line x1="520" y1="320" x2="860" y2="320" stroke="#222" stroke-width="2"/>
+<line x1="520" y1="80" x2="520" y2="188" stroke="#222" stroke-width="2"/>
+<line x1="520" y1="212" x2="520" y2="320" stroke="#222" stroke-width="2"/>
+<line x1="504" y1="194" x2="536" y2="194" stroke="#222" stroke-width="3"/><line x1="511" y1="208" x2="529" y2="208" stroke="#222" stroke-width="5"/>
+<text x="492" y="204" font-family="sans-serif" font-size="20" text-anchor="middle" fill="#222">+</text>
+<text x="492" y="240" font-family="sans-serif" font-size="15" text-anchor="end" fill="#222">battery</text>
+<line x1="660" y1="80" x2="660" y2="138" stroke="#222" stroke-width="2"/>
+<line x1="660" y1="182" x2="660" y2="320" stroke="#222" stroke-width="2"/>
+<circle cx="660" cy="160" r="22" fill="#fff8dc" stroke="#222" stroke-width="2"/><line x1="646.8" y1="146.8" x2="673.2" y2="173.2" stroke="#222" stroke-width="2"/><line x1="646.8" y1="173.2" x2="673.2" y2="146.8" stroke="#222" stroke-width="2"/>
+<text x="660" y="208" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222">bulb A</text>
+<line x1="860" y1="80" x2="860" y2="138" stroke="#222" stroke-width="2"/>
+<line x1="860" y1="182" x2="860" y2="320" stroke="#222" stroke-width="2"/>
+<circle cx="860" cy="160" r="22" fill="#fff8dc" stroke="#222" stroke-width="2"/><line x1="846.8" y1="146.8" x2="873.2" y2="173.2" stroke="#222" stroke-width="2"/><line x1="846.8" y1="173.2" x2="873.2" y2="146.8" stroke="#222" stroke-width="2"/>
+<text x="860" y="208" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222">bulb B</text>
+<line x1="520" y1="320" x2="600" y2="320" stroke="#222" stroke-width="2"/>
+<line x1="640" y1="320" x2="860" y2="320" stroke="#222" stroke-width="2"/>
+<line x1="600" y1="320" x2="632" y2="298" stroke="#222" stroke-width="2"/>
+<circle cx="600" cy="320" r="3" fill="#222"/>
+<circle cx="640" cy="320" r="3" fill="#222"/>
+<text x="620" y="352" font-family="sans-serif" font-size="15" text-anchor="middle" fill="#222">switch (closed)</text>
+<line x1="560" y1="80" x2="610" y2="80" stroke="#333" stroke-width="2" marker-end="url(#arr2)"/>
+<line x1="660" y1="110" x2="660" y2="130" stroke="#333" stroke-width="2" marker-end="url(#arr2)"/>
+<line x1="860" y1="110" x2="860" y2="130" stroke="#333" stroke-width="2" marker-end="url(#arr2)"/>
+<text x="700" y="392" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222">Two branches: current splits, so each bulb gets</text>
+<text x="700" y="414" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222">the battery's full push. One bulb out does not</text>
+<text x="700" y="436" font-family="sans-serif" font-size="16" text-anchor="middle" fill="#222">stop the other.</text>
+</svg>
