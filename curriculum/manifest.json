@@ -11498,6 +11498,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assets/ten-and-four-apples.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-01-a-full-ten-frame.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-02-eleven-to-fifteen.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-03-sixteen-to-nineteen.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-04-writing-teen-numerals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-05-ten-and-four-picture.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-k/science/README.md",
       "kind": "subject-index"
     },
@@ -11899,17 +11959,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 154,
-    "answer-key": 154,
-    "assessment": 168,
-    "quiz": 367,
-    "assets": 155,
-    "asset": 221,
-    "lesson": 826,
-    "practice": 154,
-    "project": 154,
-    "resource-pack": 154,
-    "teacher-guide": 154,
+    "unit-index": 155,
+    "answer-key": 155,
+    "assessment": 169,
+    "quiz": 368,
+    "assets": 156,
+    "asset": 222,
+    "lesson": 831,
+    "practice": 155,
+    "project": 155,
+    "resource-pack": 155,
+    "teacher-guide": 155,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
