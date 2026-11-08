@@ -16514,6 +16514,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assets/classroom-birdseye-map.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/assets/map-symbols-legend.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-01-what-is-a-map-birds-eye-view.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-02-symbols-and-legends.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-03-near-far-and-position-words.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-04-bigger-maps-school-and-neighborhood.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/lessons/lesson-05-land-and-water-on-a-globe.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/social-studies/units/unit-04-maps-symbols-and-nearby-places/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/README.md",
       "kind": "unit-index"
     },
@@ -16579,17 +16643,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 227,
-    "answer-key": 227,
-    "assessment": 246,
-    "quiz": 435,
-    "assets": 228,
-    "asset": 334,
-    "lesson": 1225,
-    "practice": 227,
-    "project": 227,
-    "resource-pack": 227,
-    "teacher-guide": 227,
+    "unit-index": 228,
+    "answer-key": 228,
+    "assessment": 247,
+    "quiz": 436,
+    "assets": 229,
+    "asset": 336,
+    "lesson": 1230,
+    "practice": 228,
+    "project": 228,
+    "resource-pack": 228,
+    "teacher-guide": 228,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

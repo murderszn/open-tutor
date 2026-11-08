@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -81,6 +81,7 @@ not a state adoption or accreditation claim. Full crosswalk in
 - [Unit 01 — Identity, Belonging, and Classroom Community](units/unit-01-identity-belonging-and-classroom-community/README.md) — available draft; educator review pending.
 - [Unit 02 — Rules, Fairness, and Cooperative Choices](units/unit-02-rules-fairness-and-cooperative-choices/README.md) — available draft; educator review pending.
 - [Unit 03 — Community Helpers: Roles and Responsibilities](units/unit-03-community-helpers-roles-and-responsibilities/README.md) — available draft; educator review pending.
+- [Unit 04 — Maps, Symbols, and Nearby Places](units/unit-04-maps-symbols-and-nearby-places/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
