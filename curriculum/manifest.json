@@ -2762,6 +2762,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assessments/week-14_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assets/three-cell-circulation.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assets/weather-station-front.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-01-unequal-heating-pressure-wind.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-02-ocean-circulation-heat.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-03-air-masses-fronts-cyclones.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-04-reading-weather-maps-regional-climates.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-05-forecasting-models-uncertainty.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -11711,17 +11775,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 151,
-    "answer-key": 151,
-    "assessment": 165,
-    "quiz": 364,
-    "assets": 152,
-    "asset": 217,
-    "lesson": 810,
-    "practice": 151,
-    "project": 151,
-    "resource-pack": 151,
-    "teacher-guide": 151,
+    "unit-index": 152,
+    "answer-key": 152,
+    "assessment": 166,
+    "quiz": 365,
+    "assets": 153,
+    "asset": 219,
+    "lesson": 815,
+    "practice": 152,
+    "project": 152,
+    "resource-pack": 152,
+    "teacher-guide": 152,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
