@@ -5790,6 +5790,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assessments/week-16_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assets/fraction-bakery-trays.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assets/fraction-strip-equivalence.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-01-same-size-different-pieces.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-02-generating-equivalent-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-03-benchmark-and-same-numerator-denominator.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-04-common-denominators-and-numerators.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-05-ordering-sets-and-equivalence-chains.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-4/science/README.md",
       "kind": "subject-index"
     },
@@ -12467,17 +12531,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 163,
-    "answer-key": 163,
-    "assessment": 177,
-    "quiz": 376,
-    "assets": 164,
-    "asset": 233,
-    "lesson": 875,
-    "practice": 163,
-    "project": 163,
-    "resource-pack": 163,
-    "teacher-guide": 163,
+    "unit-index": 164,
+    "answer-key": 164,
+    "assessment": 178,
+    "quiz": 377,
+    "assets": 165,
+    "asset": 235,
+    "lesson": 880,
+    "practice": 164,
+    "project": 164,
+    "resource-pack": 164,
+    "teacher-guide": 164,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
