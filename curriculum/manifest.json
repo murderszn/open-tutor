@@ -6982,6 +6982,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/assets/park-story-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/lessons/lesson-01-situation-narrator-characters-sequence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/lessons/lesson-02-transitional-words-event-sequence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/lessons/lesson-03-dialogue-shows-response.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/lessons/lesson-04-description-concrete-sensory-words.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/lessons/lesson-05-endings-and-revision.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-05-narrative-craft-description-dialogue-revision/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-4/math/README.md",
       "kind": "subject-index"
     },
@@ -15331,17 +15391,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 208,
-    "answer-key": 208,
-    "assessment": 225,
-    "quiz": 418,
-    "assets": 209,
-    "asset": 299,
-    "lesson": 1119,
-    "practice": 208,
-    "project": 208,
-    "resource-pack": 208,
-    "teacher-guide": 208,
+    "unit-index": 209,
+    "answer-key": 209,
+    "assessment": 226,
+    "quiz": 419,
+    "assets": 210,
+    "asset": 300,
+    "lesson": 1124,
+    "practice": 209,
+    "project": 209,
+    "resource-pack": 209,
+    "teacher-guide": 209,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

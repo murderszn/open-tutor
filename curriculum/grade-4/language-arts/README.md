@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 05 are available as drafts in the repository (Unit 04
+as draft PR #301). Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -84,6 +85,7 @@ By the end of the year the learner will be able to:
 - [Unit 01 — Reading Evidence, Inference, and Vocabulary](units/unit-01-reading-evidence-inference-vocabulary/README.md) — available draft; educator review pending.
 - [Unit 02 — Literary Theme, Characters, Setting, and Point of View](units/unit-02-literary-theme-characters-setting-point-of-view/README.md) — available draft; educator review pending.
 - [Unit 03 — Informational Main Ideas, Structures, and Source Comparison](units/unit-03-informational-main-ideas-structures-source-comparison/README.md) — available draft; educator review pending.
+- [Unit 05 — Narrative Craft: Description, Dialogue, and Revision](units/unit-05-narrative-craft-description-dialogue-revision/README.md) — available draft; educator review pending. (Unit 04 is in draft PR #301.)
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
