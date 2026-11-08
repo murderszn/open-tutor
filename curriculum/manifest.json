@@ -7206,6 +7206,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assessments/week-04_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assets/fraction-baking-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assets/fraction-bars-2-thirds-8-twelfths.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-01-equivalent-fractions-common-denominators.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-02-adding-fractions-unlike-denominators.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-03-subtracting-fractions-unlike-denominators.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-04-mixed-numbers-word-problems-benchmarks.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-05-fraction-as-division.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-5/science/README.md",
       "kind": "subject-index"
     },
@@ -12723,17 +12787,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 167,
-    "answer-key": 167,
-    "assessment": 181,
+    "unit-index": 168,
+    "answer-key": 168,
+    "assessment": 183,
     "quiz": 380,
-    "assets": 168,
-    "asset": 239,
-    "lesson": 897,
-    "practice": 167,
-    "project": 167,
-    "resource-pack": 167,
-    "teacher-guide": 167,
+    "assets": 169,
+    "asset": 241,
+    "lesson": 902,
+    "practice": 168,
+    "project": 168,
+    "resource-pack": 168,
+    "teacher-guide": 168,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
