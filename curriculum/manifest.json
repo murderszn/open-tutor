@@ -2742,6 +2742,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/assets/participation-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/lessons/lesson-01-elections-electoral-college.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/lessons/lesson-02-apportionment-redistricting.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/lessons/lesson-03-political-parties.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/lessons/lesson-04-interest-groups-money-media.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/lessons/lesson-05-participation-democratic-theories.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-11/social-studies/units/unit-04-elections-representation-participation-parties/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/README.md",
       "kind": "grade-index"
     },
@@ -13959,17 +14019,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 186,
-    "answer-key": 186,
-    "assessment": 203,
-    "quiz": 396,
-    "assets": 187,
-    "asset": 272,
-    "lesson": 1001,
-    "practice": 186,
-    "project": 186,
-    "resource-pack": 186,
-    "teacher-guide": 186,
+    "unit-index": 187,
+    "answer-key": 187,
+    "assessment": 204,
+    "quiz": 397,
+    "assets": 188,
+    "asset": 273,
+    "lesson": 1006,
+    "practice": 187,
+    "project": 187,
+    "resource-pack": 187,
+    "teacher-guide": 187,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
