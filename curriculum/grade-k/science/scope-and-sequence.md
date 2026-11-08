@@ -323,11 +323,11 @@ units so recording-and-pattern skills stay alive all year.
 
 ## 10. Gaps and paths for future units
 
-- Units U04–U08 and the R00 diagnostic/final-review package are unbuilt —
+- Units U05–U08 and the R00 diagnostic/final-review package are unbuilt —
   each is a later worker section on issue #7. U01 was delivered as a
-  validated draft on 2026-10-04, U02 as a validated draft on 2026-10-15
-  (draft PR #178, not yet merged), and U03 as a validated draft on
-  2026-10-22 (this draft PR, not yet merged).
+  validated draft on 2026-10-04, U02 as a validated draft on 2026-10-15,
+  and U03 as a validated draft on 2026-10-22; U04 was delivered as a
+  validated draft on 2026-10-28 (its draft PR, not yet merged).
 - No K-appropriate internal observation datasets exist; units will use original
   small-observation scenarios with named fictional practice data where needed
   (e.g., a sample two-week weather log).
@@ -337,7 +337,7 @@ units so recording-and-pattern skills stay alive all year.
 - The NGSS assessment boundaries above (warmer/cooler, whole numbers) must
   carry through into every unit's assessments and keys.
 
-## 11. Planned units (U01–U03 delivered as validated drafts)
+## 11. Planned units (U01–U04 delivered as validated drafts)
 
 U01 Observing, describing, and asking questions — **delivered as a validated
  draft** ([units/unit-01-observing-describing-asking-questions/](units/unit-01-observing-describing-asking-questions/));
@@ -345,11 +345,12 @@ U02 Pushes, pulls, and moving objects — **delivered as a validated draft**
 ([units/unit-02-pushes-pulls-moving-objects/](units/unit-02-pushes-pulls-moving-objects/));
 U03 Comparing materials and designing simple solutions — **delivered as a validated draft**
 ([units/unit-03-comparing-materials-designing-solutions/](units/unit-03-comparing-materials-designing-solutions/));
-U04 Plant needs and growth observations; U05 Animal needs,
-habitats, and patterns; U06 Weather observations and daily patterns; U07
-Sunlight, shade, and warming surfaces; U08 Caring for local environments and
-engineering solutions; R00 diagnostic, midyear/final review, and cumulative
-assessments with keys. U04–U08 and R00 will each follow
+U04 Plant needs and growth observations — **delivered as a validated draft**
+([units/unit-04-plant-needs-growth-observations/](units/unit-04-plant-needs-growth-observations/));
+U05 Animal needs, habitats, and patterns; U06 Weather observations and daily
+patterns; U07 Sunlight, shade, and warming surfaces; U08 Caring for local
+environments and engineering solutions; R00 diagnostic, midyear/final review,
+and cumulative assessments with keys. U05–U08 and R00 will each follow
 `docs/curriculum-expansion/unit-requirements.md`.
 
 ## 12. Verification record

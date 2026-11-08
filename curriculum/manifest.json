@@ -16130,6 +16130,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/assets/bean-growth-stages.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/lessons/lesson-01-what-plants-need.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/lessons/lesson-02-plant-a-bean-seed.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/lessons/lesson-03-sprout-watch.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/lessons/lesson-04-does-light-matter.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/lessons/lesson-05-what-the-tests-show.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/lessons/lesson-06-how-a-plant-grows-and-how-we-care-for-it.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/science/units/unit-04-plant-needs-growth-observations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-k/science/units/unit-05-animal-needs-habitats-patterns/README.md",
       "kind": "unit-index"
     },
@@ -16451,17 +16515,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 225,
-    "answer-key": 225,
-    "assessment": 244,
-    "quiz": 433,
-    "assets": 226,
-    "asset": 332,
-    "lesson": 1213,
-    "practice": 225,
-    "project": 225,
-    "resource-pack": 225,
-    "teacher-guide": 225,
+    "unit-index": 226,
+    "answer-key": 226,
+    "assessment": 245,
+    "quiz": 434,
+    "assets": 227,
+    "asset": 333,
+    "lesson": 1219,
+    "practice": 226,
+    "project": 226,
+    "resource-pack": 226,
+    "teacher-guide": 226,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
