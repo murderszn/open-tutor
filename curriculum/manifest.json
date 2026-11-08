@@ -722,6 +722,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/assets/parent-offspring-families.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/lessons/lesson-01-animal-babies-like-not-exactly.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/lessons/lesson-02-plant-babies-grow.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/lessons/lesson-03-parents-help-babies-survive.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/lessons/lesson-04-books-videos-pattern-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/lessons/lesson-05-mystery-baby-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-1/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -14579,17 +14639,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 196,
-    "answer-key": 196,
-    "assessment": 213,
-    "quiz": 406,
-    "assets": 197,
-    "asset": 284,
-    "lesson": 1054,
-    "practice": 196,
-    "project": 196,
-    "resource-pack": 196,
-    "teacher-guide": 196,
+    "unit-index": 197,
+    "answer-key": 197,
+    "assessment": 214,
+    "quiz": 407,
+    "assets": 198,
+    "asset": 285,
+    "lesson": 1059,
+    "practice": 197,
+    "project": 197,
+    "resource-pack": 197,
+    "teacher-guide": 197,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
