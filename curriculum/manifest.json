@@ -9190,6 +9190,78 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/assessments/week-22_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/assets/electromagnet-lifts-paper-clips.webp",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/assets/magnetic-field-map.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/assets/series-parallel-circuits.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/lessons/lesson-01-static-electricity-charges-attract-and-repel.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/lessons/lesson-02-conductors-and-insulators.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/lessons/lesson-03-magnets-and-fields-without-contact.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/lessons/lesson-04-electromagnets-what-changes-strength.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/lessons/lesson-05-simple-circuits-series-and-parallel.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/lessons/lesson-06-troubleshooting-circuits.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-8/social-studies/README.md",
    "kind": "subject-index"
   },
@@ -11007,25 +11079,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 141,
-  "assessment": 152,
-  "asset": 199,
-  "assets": 142,
+  "answer-key": 142,
+  "assessment": 153,
+  "asset": 202,
+  "assets": 143,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 754,
+  "lesson": 760,
   "new-assignment": 31,
-  "practice": 141,
-  "project": 141,
-  "quiz": 357,
-  "resource-pack": 141,
+  "practice": 142,
+  "project": 142,
+  "quiz": 358,
+  "resource-pack": 142,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 141,
+  "teacher-guide": 142,
   "template": 14,
-  "unit-index": 141,
+  "unit-index": 142,
   "unit-text": 15
  },
  "review_notes": [

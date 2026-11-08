@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, and 05 are available as drafts in the repository.
+Unit 04 was delivered as draft PR #318 and is pending merge.
+Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -100,6 +102,8 @@ alignment certification**. Full crosswalk in
 - [Unit 02 — Forces, Newtonian Reasoning, and Momentum](units/unit-02-forces-newtonian-reasoning-momentum/README.md) — available draft; educator review pending.
 
 - [Unit 03 — Energy, Work, Simple Machines, and Conservation](units/unit-03-energy-work-simple-machines-conservation/README.md) — available draft; educator review pending.
+
+- [Unit 05 — Electric and Magnetic Interactions and Circuits](units/unit-05-electric-magnetic-interactions-circuits/README.md) — available draft; educator review pending. (Unit 04 — Waves, Sound, Light, and Information — was delivered as draft PR #318 and is pending merge; its files are not in this branch yet.)
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
