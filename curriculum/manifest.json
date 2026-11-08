@@ -1170,6 +1170,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/assets/community-helpers-town-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-01-people-in-authority.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-02-everyone-has-an-important-job.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-03-what-is-a-government.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-04-rules-in-different-places.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/lessons/lesson-05-making-a-decision-together.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/social-studies/units/unit-04-community-leaders-rules-decision-making/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-1/social-studies/units/unit-05-needs-wants-producers-consumers/README.md",
       "kind": "unit-index"
     },
@@ -16771,17 +16831,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 230,
-    "answer-key": 230,
-    "assessment": 249,
-    "quiz": 438,
-    "assets": 231,
-    "asset": 339,
-    "lesson": 1241,
-    "practice": 230,
-    "project": 230,
-    "resource-pack": 230,
-    "teacher-guide": 230,
+    "unit-index": 231,
+    "answer-key": 231,
+    "assessment": 250,
+    "quiz": 439,
+    "assets": 232,
+    "asset": 340,
+    "lesson": 1246,
+    "practice": 231,
+    "project": 231,
+    "resource-pack": 231,
+    "teacher-guide": 231,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

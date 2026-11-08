@@ -240,7 +240,7 @@ response), exploration practice (observation walk or source looking), and review
   storage — never in this public repository. Sessions rotate: explicit lesson →
   timeline/sort practice → source-looking (photos/objects) practice → review.
 
-### Unit 04 — Community leaders, rules, and decision making (Weeks 15–18)
+### Unit 04 — Community leaders, rules, and decision making (Weeks 15–18) — delivered as a validated draft
 
 - **Standards:** D2.Civ.1, D2.Civ.5–6, D2.Civ.11, D2.Civ.14; D4.8
 - **Week 15 goal:** roles and responsibilities of people in authority — teacher,
