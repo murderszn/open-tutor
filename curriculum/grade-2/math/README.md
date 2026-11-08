@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03, 04, 05 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -92,9 +92,6 @@ adoption or accreditation). Full crosswalk in
 - [Unit 01 — Place Value to 1000 and Number Comparison](units/unit-01-place-value-to-1000-and-comparison/README.md) — available draft; educator review pending.
 - [Unit 02 — Addition and Subtraction within 100](units/unit-02-addition-and-subtraction-within-100/README.md) — available draft; educator review pending.
 - [Unit 03 — Three-Digit Addition and Subtraction](units/unit-03-three-digit-addition-and-subtraction/README.md) — available draft; educator review pending.
-- [Unit 05 — Equal Groups, Arrays, and Repeated Addition](units/unit-05-equal-groups-arrays-and-repeated-addition/README.md) — available draft; educator review pending.
-
-Unit 04 — Word Problems and Unknowns — is delivered as [draft PR #291](https://github.com/murderszn/open-tutor/pull/291) (not yet merged); its folder is not in this branch's tree yet, so it is named here in prose rather than linked.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

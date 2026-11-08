@@ -5002,6 +5002,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/assets/garden-and-lawn-habitats.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/lessons/lesson-01-what-is-a-habitat.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/lessons/lesson-02-counting-kinds-in-one-habitat.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/lessons/lesson-03-a-second-habitat.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/lessons/lesson-04-compare-two-habitats.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/lessons/lesson-05-why-more-kinds-live-here.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/science/units/unit-05-biodiversity-and-local-living-things/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-2/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -14827,17 +14887,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 200,
-    "answer-key": 200,
-    "assessment": 217,
-    "quiz": 410,
-    "assets": 201,
-    "asset": 288,
-    "lesson": 1076,
-    "practice": 200,
-    "project": 200,
-    "resource-pack": 200,
-    "teacher-guide": 200,
+    "unit-index": 201,
+    "answer-key": 201,
+    "assessment": 218,
+    "quiz": 411,
+    "assets": 202,
+    "asset": 289,
+    "lesson": 1081,
+    "practice": 201,
+    "project": 201,
+    "resource-pack": 201,
+    "teacher-guide": 201,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
