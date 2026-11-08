@@ -98,6 +98,7 @@ state adoption or accreditation). Full crosswalk in
 - [Unit 01 — Real Numbers, Roots, and Irrational Approximations](units/unit-01-real-numbers-roots-irrational-approximations/README.md) — available draft; educator review pending.
 - [Unit 02 — Integer Exponents and Scientific Notation](units/unit-02-integer-exponents-scientific-notation/README.md) — available draft; educator review pending.
 - [Unit 03 — Linear Equations and Solution Types](units/unit-03-linear-equations-solution-types/README.md) — available draft; educator review pending.
+- [Unit 05 — Systems of Linear Equations](units/unit-05-systems-of-linear-equations/README.md) — available draft; educator review pending. (Unit 04 is in draft PR #316, unmerged; see the [scope and sequence](scope-and-sequence.md).)
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

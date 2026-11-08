@@ -8986,6 +8986,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/assessments/week-04_quiz.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/assets/system-graph-intersection.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/assets/two-food-trucks-fair.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/lessons/lesson-01-testing-ordered-pairs.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/lessons/lesson-02-solving-by-graphing.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/lessons/lesson-03-solving-by-substitution.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/lessons/lesson-04-solving-by-elimination.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/lessons/lesson-05-inspection-and-choosing-a-method.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/lessons/lesson-06-real-world-systems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-8/math/units/unit-05-systems-of-linear-equations/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-8/science/README.md",
    "kind": "subject-index"
   },
@@ -11007,25 +11075,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 141,
-  "assessment": 152,
-  "asset": 199,
-  "assets": 142,
+  "answer-key": 142,
+  "assessment": 154,
+  "asset": 201,
+  "assets": 143,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 754,
+  "lesson": 760,
   "new-assignment": 31,
-  "practice": 141,
-  "project": 141,
+  "practice": 142,
+  "project": 142,
   "quiz": 357,
-  "resource-pack": 141,
+  "resource-pack": 142,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 141,
+  "teacher-guide": 142,
   "template": 14,
-  "unit-index": 141,
+  "unit-index": 142,
   "unit-text": 15
  },
  "review_notes": [

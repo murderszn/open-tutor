@@ -4,7 +4,7 @@ Reusable grade-specific learning materials. Keep completed responses in private 
 
 ## Core Subjects
 
-- [Mathematics](math/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
+- [Mathematics](math/README.md) — Units 01, 02, 03, 05 available as drafts (Unit 04 in draft PR #316, unmerged); remaining units planned.
 - [Science](science/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
 - [Language arts](language-arts/README.md) — Units 01, 02 available as drafts; remaining units planned.
 - [Social studies](social-studies/README.md) — Units 01, 02, 04 available as drafts (Unit 03 in draft PR #268); remaining units planned.
