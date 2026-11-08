@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available in the repository. Unit 04 is delivered as a draft in the PR for this unit; educator review is pending. Unit 03 exists only as draft PR #270 (pending merge) and is not yet in this folder, so it is not listed as available here.
+Units 01, 02 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -101,7 +101,6 @@ national reference framework, not a graduation requirement.
 
 - [Unit 01 — Literary Close Reading: Theme and Evidence](units/unit-01-theme-and-evidence/README.md) — available draft; educator review pending.
 - [Unit 02 — Narrative Structure, Characterization, and Author Choices](units/unit-02-narrative-structure-and-author-choices/README.md) — available draft; educator review pending.
-- [Unit 04 — Grammar Precision, Syntax, Vocabulary, and Style](units/unit-04-grammar-syntax-vocabulary-style/README.md) — available draft in this PR; educator review pending. (Unit 03 is draft PR #270, pending merge.)
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
