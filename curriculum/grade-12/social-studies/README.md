@@ -91,6 +91,7 @@ crosswalk in [scope-and-sequence.md](scope-and-sequence.md#4-standards-crosswalk
 
 - [Unit 01 — Economic Reasoning: Scarcity, Incentives, and Opportunity Cost](units/unit-01-economic-reasoning-scarcity-and-opportunity-cost/README.md) — available draft; educator review pending.
 - [Unit 02 — Supply, Demand, Markets, and Price Signals](units/unit-02-supply-demand-markets-price-signals/README.md) — available draft; educator review pending.
+- [Unit 03 — Firms, Labor, Competition, and Market Structures](units/unit-03-firms-labor-competition-market-structures/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

@@ -3018,6 +3018,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/assessments/week-13_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/assets/market-structures-street.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-01-business-organizations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-02-costs-revenue-profit-maximizing-output.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-03-labor-markets-wages-human-capital.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-04-market-structures.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-05-innovation-entrepreneurship-institutions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-2/README.md",
       "kind": "grade-index"
     },
@@ -11839,17 +11899,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 153,
-    "answer-key": 153,
-    "assessment": 167,
-    "quiz": 366,
-    "assets": 154,
-    "asset": 220,
-    "lesson": 821,
-    "practice": 153,
-    "project": 153,
-    "resource-pack": 153,
-    "teacher-guide": 153,
+    "unit-index": 154,
+    "answer-key": 154,
+    "assessment": 168,
+    "quiz": 367,
+    "assets": 155,
+    "asset": 221,
+    "lesson": 826,
+    "practice": 154,
+    "project": 154,
+    "resource-pack": 154,
+    "teacher-guide": 154,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
