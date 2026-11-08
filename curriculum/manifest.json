@@ -406,6 +406,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assets/apple-basket-story.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assets/story-map.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-01-add-to-and-take-from-result-unknown.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-02-start-unknown-and-change-unknown.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-03-put-together-take-apart-and-compare.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-04-three-addend-stories.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-05-does-the-equation-fit.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-1/science/README.md",
       "kind": "subject-index"
     },
@@ -966,6 +1030,94 @@
       "kind": "unit-text"
     },
     {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assessments/week-13_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assets/rhetorical-triangle.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/assets/town-hall-speaker.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-01-central-idea.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-02-unfolding-summary.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-03-rhetoric-purpose.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-04-evaluating-arguments.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-05-seminal-documents.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/lessons/lesson-06-mediums-speaker.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/library-use-data.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/seminal-documents-excerpts.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/the-library-counter-editorial.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/the-library-editorial.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-03-nonfiction-rhetoric-source-evaluation/texts/the-library-speech.md",
+      "kind": "unit-text"
+    },
+    {
       "path": "grade-10/math/README.md",
       "kind": "subject-index"
     },
@@ -1091,6 +1243,66 @@
     },
     {
       "path": "grade-10/math/units/unit-02-congruence-and-triangle-reasoning/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/assessments/week-13_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/assets/shadow-similar-triangles.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/lessons/lesson-01-dilations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/lessons/lesson-02-similarity-defined.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/lessons/lesson-03-aa-side-splitter.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/lessons/lesson-04-applications.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/lessons/lesson-05-slope-midsegment.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-10/math/units/unit-03-similarity-dilations-proportional-reasoning/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -1238,6 +1450,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/assessments/week-12_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/assets/bonding-particle-models.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/assets/vsepr-shapes.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/lessons/lesson-01-why-atoms-bond.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/lessons/lesson-02-lewis-structures.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/lessons/lesson-03-shape-and-polarity.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/lessons/lesson-04-bonding-and-bulk-properties.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/lessons/lesson-05-designed-materials.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/lessons/lesson-06-unknowns-and-error-analysis.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-10/science/units/unit-03-chemical-bonding-structure-properties/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-10/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -1363,6 +1643,66 @@
     },
     {
       "path": "grade-10/social-studies/units/unit-02-immigration-urbanization-labor-reform/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/assets/railroad-plains-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-01-transcontinental-west.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-02-spanish-american-war-empire-debate.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-03-overseas-power-philippines-panama.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-04-wwi-causes-entry.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/lessons/lesson-05-war-home-peace.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-03-us-expansion-imperialism-wwi/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -1686,6 +2026,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assessments/week-17_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assets/pendulum-measurement-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/assets/root-graphs.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-01-rational-exponents-radicals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-02-square-root-graphs-transformations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-03-cube-root-graphs-comparing-families.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-04-radical-equations-isolate-power-check.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-05-two-radicals-applications.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/lessons/lesson-06-root-models-data-fitting.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-11/math/units/unit-04-radical-functions-equations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-11/science/README.md",
       "kind": "subject-index"
     },
@@ -1815,6 +2223,74 @@
     },
     {
       "path": "grade-11/science/units/unit-02-forces-free-body-diagrams-dynamics/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assets/energy-bar-chart.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/assets/skateboarder-ramp-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-01-work-force-through-distance.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-02-kinetic-energy-work-energy-theorem.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-03-gravitational-potential-energy.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-04-elastic-potential-energy-conservation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-05-nonconservative-forces-efficiency.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/lessons/lesson-06-power-energy-budgets.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-11/science/units/unit-03-energy-work-power-conservation/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -2082,6 +2558,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/assets/rhetoric-media-criticism-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-01-rhetorical-situation-appeals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-02-point-of-view-style-power.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-03-argument-structure.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-04-fallacies-reasoning.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-05-media-criticism-sift.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-06-evaluating-a-speaker-seminar.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/math/README.md",
       "kind": "subject-index"
     },
@@ -2218,6 +2758,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assessments/week-14_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assets/harbor-boat-vector-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assets/vector-polar-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-01-vectors-magnitude-direction-components.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-02-vector-operations-applications.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-03-parametric-motion-curves.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-04-polar-coordinates-conversions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-05-polar-graphs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-06-complex-polar-form-project-workshop.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/science/README.md",
       "kind": "subject-index"
     },
@@ -2350,6 +2958,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assessments/week-14_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assets/three-cell-circulation.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/assets/weather-station-front.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-01-unequal-heating-pressure-wind.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-02-ocean-circulation-heat.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-03-air-masses-fronts-cyclones.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-04-reading-weather-maps-regional-climates.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/lessons/lesson-05-forecasting-models-uncertainty.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/science/units/unit-03-atmosphere-ocean-weather/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -2475,6 +3147,66 @@
     },
     {
       "path": "grade-12/social-studies/units/unit-02-supply-demand-markets-price-signals/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/assessments/week-13_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/assets/market-structures-street.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-01-business-organizations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-02-costs-revenue-profit-maximizing-output.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-03-labor-markets-wages-human-capital.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-04-market-structures.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/lessons/lesson-05-innovation-entrepreneurship-institutions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-03-firms-labor-competition-market-structures/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -2686,6 +3418,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/assets/beaver-dam-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-01-main-topic-and-paragraph-focus.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-02-text-features-scavenger-hunt.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-03-what-pictures-add.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-04-authors-purpose-and-reasons.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-05-steps-in-order.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-06-two-texts-same-topic.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-2/math/README.md",
       "kind": "subject-index"
     },
@@ -2890,6 +3686,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/assets/market-stall-story-picture.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-01-add-to-take-from-result-unknown.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-02-put-together-take-apart.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-03-compare-stories.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-04-unknowns-in-all-positions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-05-two-step-stories.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/lessons/lesson-06-check-reasonableness.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/math/units/unit-04-word-problems-and-unknowns/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-2/science/README.md",
       "kind": "subject-index"
     },
@@ -3079,6 +3939,66 @@
     },
     {
       "path": "grade-2/science/units/unit-03-heating-cooling-reversible-changes/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/assets/seed-travelers-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-01-plan-a-fair-test.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-02-planting-day-and-seed-parts.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-03-how-seeds-travel.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-04-model-animal-seed-dispersal.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/lessons/lesson-05-model-pollination-and-good-places.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/science/units/unit-04-seed-dispersal-plant-needs-and-habitats/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -3275,6 +4195,66 @@
     },
     {
       "path": "grade-2/social-studies/units/unit-03-local-history-timelines-evidence/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/assets/maple-lane-class-vote.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-01-why-we-have-rules.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-02-school-rules-and-community-laws.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-03-people-in-authority-and-government-jobs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-04-fairness-equality-respect.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-05-making-decisions-together-voting.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -3483,6 +4463,70 @@
     },
     {
       "path": "grade-3/language-arts/units/unit-03-informational-main-idea-structures-evidence/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/assets/park-sentence-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-01-parts-of-speech-jobs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-02-plurals-verbs-agreement.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-03-comparisons-conjunctions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-04-sentence-types-word-choice.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-05-titles-addresses-dialogue-possessives.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-06-spelling-dictionary.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -3702,6 +4746,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assets/two-step-model.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assets/two-step-school-store.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-01-two-steps-one-story-at-a-time.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-02-letters-for-the-unknown.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-03-which-operation-each-step-needs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-04-is-that-answer-reasonable.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-05-patterns-in-the-multiplication-table.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-06-mixed-fluency-and-midyear-readiness.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-3/science/README.md",
       "kind": "subject-index"
     },
@@ -3891,6 +5003,66 @@
     },
     {
       "path": "grade-3/science/units/unit-03-magnetic-and-electric-interactions/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/assets/bean-growth-stages.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-01-every-living-thing-has-a-life-cycle.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-02-a-flowering-plants-life-cycle.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-03-egg-laying-animals-butterflies-and-frogs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-04-planting-beans-and-starting-the-growth-log.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/lessons/lesson-05-comparing-life-cycles.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/science/units/unit-04-life-cycles-growth-and-reproduction/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -4370,6 +5542,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/assets/park-sentence-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-01-relative-pronouns-adverbs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-02-progressive-tenses-modal-auxiliaries.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-03-prepositional-phrases-adjective-order.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-04-fragments-runons-combining-confused-words.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-05-capitalization-dialogue-punctuation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/lessons/lesson-06-spelling-precise-words-punctuation-effect-formal-informal.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-4/language-arts/units/unit-04-grammar-sentence-combining-punctuation-spelling/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-4/math/README.md",
       "kind": "subject-index"
     },
@@ -4682,6 +5918,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assessments/week-16_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assets/fraction-bakery-trays.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/assets/fraction-strip-equivalence.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-01-same-size-different-pieces.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-02-generating-equivalent-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-03-benchmark-and-same-numerator-denominator.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-04-common-denominators-and-numerators.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/lessons/lesson-05-ordering-sets-and-equivalence-chains.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-4/math/units/unit-04-fraction-equivalence-and-comparison/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-4/science/README.md",
       "kind": "subject-index"
     },
@@ -4871,6 +6171,70 @@
     },
     {
       "path": "grade-4/science/units/unit-03-waves-patterns-information/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assets/plant-structure-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/assets/sunflower-structures.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-01-external-plant-structures.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-02-external-animal-structures.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-03-internal-animal-structures.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-04-arguments-with-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/lessons/lesson-05-structures-working-together.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-4/science/units/unit-04-plant-animal-structures-functions/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -5842,6 +7206,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assessments/week-04_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assets/fraction-baking-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/assets/fraction-bars-2-thirds-8-twelfths.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-01-equivalent-fractions-common-denominators.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-02-adding-fractions-unlike-denominators.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-03-subtracting-fractions-unlike-denominators.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-04-mixed-numbers-word-problems-benchmarks.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/lessons/lesson-05-fraction-as-division.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-5/math/units/unit-04-fraction-addition-subtraction-unlike-denominators/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-5/science/README.md",
       "kind": "subject-index"
     },
@@ -6594,6 +8022,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/assets/pronoun-stage-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-01-pronoun-case.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-02-intensive-vague-shifted-pronouns.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-03-nonrestrictive-punctuation-spelling.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-04-vocabulary-connotation-personification.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-05-sentence-patterns-variety.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/lessons/lesson-06-consistent-style-tone-formal-english.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/language-arts/units/unit-04-grammar-pronouns-sentence-variety-vocabulary/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-6/math/README.md",
       "kind": "subject-index"
     },
@@ -6795,6 +8287,66 @@
     },
     {
       "path": "grade-6/math/units/unit-03-integers-rational-numbers-coordinate-plane/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/assessments/week-16_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/assets/variable-bags-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-01-whole-number-exponents.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-02-variables-and-parts-of-expressions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-03-evaluating-expressions-order-of-operations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-04-distributive-property.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-05-equivalent-expressions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -7014,6 +8566,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assets/mineral-test-station.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assets/rock-cycle-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-01-mineral-properties.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-02-rock-families.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-03-rock-cycle.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-04-energy-and-conservation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-05-midyear-review.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-6/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -7223,6 +8839,74 @@
     },
     {
       "path": "grade-6/social-studies/units/unit-03-river-valley-civilizations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assets/asia-map.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assets/asia-timeline.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assets/monsoon-river-valley-terraces.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-01-geography-monsoons-rivers.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-02-indus-cities-later-kingdoms.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-03-belief-systems-spread.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-04-china-dynasties-bureaucracy.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-05-comparing-two-societies.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -7814,6 +9498,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assets/balance-scale-equation-activity.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/assets/inequality-graph-examples.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-01-expand-combine-like-terms.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-02-factor-rewrite-structure.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-03-multi-step-rational-problems.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-04-equations-px-plus-q.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-05-equations-p-times-x-plus-q.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/lessons/lesson-06-inequalities-graphs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-7/math/units/unit-04-expressions-equations-inequalities/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-7/science/README.md",
       "kind": "subject-index"
     },
@@ -8034,11 +9786,11 @@
       "kind": "assets"
     },
     {
-      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/assets/reproduction-two-ways-illustration.png",
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/assets/punnett-rr-x-rr.svg",
       "kind": "asset"
     },
     {
-      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/assets/punnett-rr-x-rr.svg",
+      "path": "grade-7/science/units/unit-04-reproduction-inheritance-genetic-variation/assets/reproduction-two-ways-illustration.png",
       "kind": "asset"
     },
     {
@@ -8766,6 +10518,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/assessments/week-14_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/assets/argument-anatomy.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/assets/two-accounts-desk.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/lessons/lesson-01-rhetorical-appeals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/lessons/lesson-02-paragraph-structure-key-sentences.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/lessons/lesson-03-delineating-arguments.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/lessons/lesson-04-point-of-view-purpose.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/lessons/lesson-05-conflicting-accounts.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/lessons/lesson-06-discussion-synthesis.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-03-informational-rhetoric-conflicting-accounts/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-8/math/README.md",
       "kind": "subject-index"
     },
@@ -9474,6 +11294,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/assets/branches-checks-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/assets/ratification-debate-reconstruction.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/lessons/lesson-01-articles-fail.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/lessons/lesson-02-convention-compromises.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/lessons/lesson-03-ratification-debate.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/lessons/lesson-04-branches-checks.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/lessons/lesson-05-bill-of-rights.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/lessons/lesson-06-contested-settlement.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-03-constitution-ratification-rights/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-8/stem/README.md",
       "kind": "subject-index"
     },
@@ -9723,6 +11611,94 @@
     },
     {
       "path": "grade-9/language-arts/units/unit-02-narrative-structure-and-author-choices/texts/night-train.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assessments/week-13_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assets/one-source-many-screens.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-01-central-idea-and-development.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-02-rhetoric-and-purpose.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-03-evaluating-arguments.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-04-seminal-documents.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-05-media-literacy.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-06-evaluation-essay.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/assessment-passage.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/fallacy-set.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/gettysburg-address-and-response.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/library-hours-editorial.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/three-reports-one-announcement.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/two-editorials.md",
       "kind": "unit-text"
     },
     {
@@ -10082,6 +12058,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assessments/week-14_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assets/energy-matter-cycle.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assets/sunlit-plant-inputs.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-01-photosynthesis-energy-transformation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-02-inside-leaf-chloroplasts-two-stages.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-03-cellular-respiration-bonds-net-energy.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-04-aerobic-anaerobic-fermentation-evidence.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-05-matter-energy-through-ecosystems.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-06-energy-flow-vs-matter-cycling-models.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-9/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -10207,6 +12251,70 @@
     },
     {
       "path": "grade-9/social-studies/units/unit-02-empires-exchange-colonization/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assessments/week-12_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assets/generation-record.json",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assets/print-shop-reconstruction.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/assets/revolutions-timeline.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/lessons/lesson-01-enlightenment-ideas.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/lessons/lesson-02-american-french-revolutions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/lessons/lesson-03-haiti-latin-america.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/lessons/lesson-04-whose-rights.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-03-enlightenment-revolutions-rights/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -10603,6 +12711,66 @@
     },
     {
       "path": "grade-k/math/units/unit-03-comparing-numbers-and-quantities/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/assets/ten-and-four-apples.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-01-a-full-ten-frame.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-02-eleven-to-fifteen.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-03-sixteen-to-nineteen.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-04-writing-teen-numerals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/lessons/lesson-05-ten-and-four-picture.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-k/math/units/unit-04-teen-numbers-and-ten-frames/teacher-guide.md",
       "kind": "teacher-guide"
     },
     {
@@ -11003,26 +13171,26 @@
     }
   ],
   "counts_by_kind": {
-    "answer-key": 141,
-    "assessment": 152,
-    "asset": 199,
-    "assets": 142,
-    "assignment": 111,
     "curriculum-index": 1,
     "grade-index": 13,
-    "hints": 2,
-    "lesson": 749,
-    "new-assignment": 31,
-    "practice": 141,
-    "project": 141,
-    "quiz": 357,
-    "resource-pack": 141,
-    "rhythm": 2,
     "subject-index": 112,
-    "teacher-guide": 141,
+    "assignment": 111,
+    "unit-index": 174,
+    "answer-key": 174,
+    "assessment": 189,
+    "quiz": 386,
+    "assets": 175,
+    "asset": 252,
+    "lesson": 934,
+    "practice": 174,
+    "project": 174,
+    "resource-pack": 174,
+    "teacher-guide": 174,
+    "unit-text": 26,
+    "new-assignment": 31,
     "template": 14,
-    "unit-index": 141,
-    "unit-text": 15
+    "hints": 2,
+    "rhythm": 2
   },
   "review_notes": [
     "Directory grade retained; review retitled and accelerated prompts.",
