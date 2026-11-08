@@ -9086,6 +9086,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/assessments/week-22_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/assets/river-valley-spheres.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/assets/water-distribution-bars.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/lessons/lesson-01-four-spheres-two-at-a-time.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/lessons/lesson-02-ocean-shapes-land-and-life.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/lessons/lesson-03-air-mountains-and-weather.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/lessons/lesson-04-where-earths-water-is.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/lessons/lesson-05-fresh-water-is-rare.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-5/science/units/unit-05-earth-systems-water/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-5/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -15523,17 +15587,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 211,
-    "answer-key": 211,
-    "assessment": 229,
-    "quiz": 420,
-    "assets": 212,
-    "asset": 304,
-    "lesson": 1135,
-    "practice": 211,
-    "project": 211,
-    "resource-pack": 211,
-    "teacher-guide": 211,
+    "unit-index": 212,
+    "answer-key": 212,
+    "assessment": 230,
+    "quiz": 421,
+    "assets": 213,
+    "asset": 306,
+    "lesson": 1140,
+    "practice": 212,
+    "project": 212,
+    "resource-pack": 212,
+    "teacher-guide": 212,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
