@@ -2270,6 +2270,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/assets/wallpaper-room-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/lessons/lesson-01-mapping-literary-movements.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/lessons/lesson-02-dark-romanticism-realism-hawthorne-poe.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/lessons/lesson-03-diverse-voices-gilman-chopin.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/lessons/lesson-04-modernism-harlem-renaissance.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/lessons/lesson-05-interpretation-across-versions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-03-literary-movements-diverse-voices-interpretation/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/README.md",
       "kind": "unit-index"
     },
@@ -16327,17 +16387,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 223,
-    "answer-key": 223,
-    "assessment": 242,
-    "quiz": 431,
-    "assets": 224,
-    "asset": 330,
-    "lesson": 1202,
-    "practice": 223,
-    "project": 223,
-    "resource-pack": 223,
-    "teacher-guide": 223,
+    "unit-index": 224,
+    "answer-key": 224,
+    "assessment": 243,
+    "quiz": 432,
+    "assets": 225,
+    "asset": 331,
+    "lesson": 1207,
+    "practice": 224,
+    "project": 224,
+    "resource-pack": 224,
+    "teacher-guide": 224,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
