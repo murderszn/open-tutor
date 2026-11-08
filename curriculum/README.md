@@ -6,18 +6,18 @@ Kindergarten through Grade 12 have draft audits, scope-and-sequences, and instru
 
 ## Tracks
 
-- [Kindergarten](grade-k/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
-- [Grade 1](grade-1/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
+- [Kindergarten](grade-k/README.md) — draft units: Mathematics: 3; Science: 4; Language arts: 4; Social studies: 4.
+- [Grade 1](grade-1/README.md) — draft units: Mathematics: 3; Science: 4; Language arts: 4; Social studies: 4.
 - [Grade 2](grade-2/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
-- [Grade 3](grade-3/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
-- [Grade 4](grade-4/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
-- [Grade 5](grade-5/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 4; Social studies: 3.
+- [Grade 3](grade-3/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 4.
+- [Grade 4](grade-4/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 4.
+- [Grade 5](grade-5/README.md) — draft units: Mathematics: 3; Science: 4; Language arts: 4; Social studies: 3.
 - [Grade 6](grade-6/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
 - [Grade 7](grade-7/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 3; Social studies: 3.
-- [Grade 8](grade-8/README.md) — draft units: Mathematics: 3; Science: 3; Language arts: 2; Social studies: 2.
+- [Grade 8](grade-8/README.md) — draft units: Mathematics: 3; Science: 4; Language arts: 2; Social studies: 4.
 - [Grade 9](grade-9/README.md) — draft units: Mathematics: 3; Science: 2; Language arts: 2; Social studies: 2.
 - [Grade 10](grade-10/README.md) — draft units: Mathematics: 2; Science: 2; Language arts: 2; Social studies: 2.
-- [Grade 11](grade-11/README.md) — draft units: Mathematics: 3; Science: 2; Language arts: 2; Social studies: 2.
+- [Grade 11](grade-11/README.md) — draft units: Mathematics: 3; Science: 2; Language arts: 3; Social studies: 3.
 - [Grade 12](grade-12/README.md) — draft units: Mathematics: 2; Science: 2; Language arts: 2; Social studies: 2.
 
 The [expansion plan](../docs/curriculum-expansion/README.md) tracks remaining units. The [K–8 planning guidance](../resources/k-8/README.md) supports adult planning; each grade folder remains the canonical source of instruction.
