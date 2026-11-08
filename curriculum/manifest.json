@@ -12262,6 +12262,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/assets/cell-division-stages.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/assets/one-cell-becomes-two.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/lessons/lesson-01-cell-cycle-grow-copy-divide.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/lessons/lesson-02-mitosis-one-division-two-identical.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/lessons/lesson-03-meiosis-two-divisions-four-varied.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/lessons/lesson-04-mitosis-vs-meiosis.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/lessons/lesson-05-sources-of-heritable-variation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/lessons/lesson-06-differentiation-and-when-control-fails.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/science/units/unit-04-cell-cycle-mitosis-meiosis/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-9/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -13311,17 +13379,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 176,
-    "answer-key": 176,
-    "assessment": 191,
-    "quiz": 388,
-    "assets": 177,
-    "asset": 256,
-    "lesson": 946,
-    "practice": 176,
-    "project": 176,
-    "resource-pack": 176,
-    "teacher-guide": 176,
+    "unit-index": 177,
+    "answer-key": 177,
+    "assessment": 192,
+    "quiz": 389,
+    "assets": 178,
+    "asset": 258,
+    "lesson": 952,
+    "practice": 177,
+    "project": 177,
+    "resource-pack": 177,
+    "teacher-guide": 177,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
