@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, and 04 are available as drafts in the repository. Unit 03's
+draft is in PR #371, pending merge. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -105,6 +106,7 @@ alignment certification). Full crosswalk in
 
 - [Unit 01 — Biological Investigation: Evidence and Biomolecules](units/unit-01-biological-investigation-biomolecules/README.md) — available draft; educator review pending.
 - [Unit 02 — Cells: Membranes and Transport](units/unit-02-cells-membranes-transport/README.md) — available draft; educator review pending.
+- [Unit 04 — Cell Cycle: Mitosis and Meiosis](units/unit-04-cell-cycle-mitosis-meiosis/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
