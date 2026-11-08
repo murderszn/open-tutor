@@ -2998,6 +2998,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/assets/precision-style-revision-desk.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/lessons/lesson-01-contested-usage.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/lessons/lesson-02-syntax-for-effect.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/lessons/lesson-03-sentence-level-revision.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/lessons/lesson-04-vocabulary-context-morphology.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/lessons/lesson-05-style-revision-workshop.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-04-precision-style-grammar-vocabulary/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/math/README.md",
       "kind": "subject-index"
     },
@@ -14083,17 +14143,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 188,
-    "answer-key": 188,
-    "assessment": 205,
-    "quiz": 398,
-    "assets": 189,
-    "asset": 275,
-    "lesson": 1011,
-    "practice": 188,
-    "project": 188,
-    "resource-pack": 188,
-    "teacher-guide": 188,
+    "unit-index": 189,
+    "answer-key": 189,
+    "assessment": 206,
+    "quiz": 399,
+    "assets": 190,
+    "asset": 276,
+    "lesson": 1016,
+    "practice": 189,
+    "project": 189,
+    "resource-pack": 189,
+    "teacher-guide": 189,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
