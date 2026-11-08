@@ -406,6 +406,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assets/apple-basket-story.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/assets/story-map.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-01-add-to-and-take-from-result-unknown.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-02-start-unknown-and-change-unknown.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-03-put-together-take-apart-and-compare.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-04-three-addend-stories.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/lessons/lesson-05-does-the-equation-fit.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/math/units/unit-04-addition-and-subtraction-story-problems/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-1/science/README.md",
       "kind": "subject-index"
     },
@@ -12027,17 +12091,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 156,
-    "answer-key": 156,
-    "assessment": 170,
-    "quiz": 369,
-    "assets": 157,
-    "asset": 224,
-    "lesson": 837,
-    "practice": 156,
-    "project": 156,
-    "resource-pack": 156,
-    "teacher-guide": 156,
+    "unit-index": 157,
+    "answer-key": 157,
+    "assessment": 171,
+    "quiz": 370,
+    "assets": 158,
+    "asset": 226,
+    "lesson": 842,
+    "practice": 157,
+    "project": 157,
+    "resource-pack": 157,
+    "teacher-guide": 157,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
