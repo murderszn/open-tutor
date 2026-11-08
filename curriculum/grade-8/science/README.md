@@ -100,7 +100,6 @@ alignment certification**. Full crosswalk in
 - [Unit 02 — Forces, Newtonian Reasoning, and Momentum](units/unit-02-forces-newtonian-reasoning-momentum/README.md) — available draft; educator review pending.
 
 - [Unit 03 — Energy, Work, Simple Machines, and Conservation](units/unit-03-energy-work-simple-machines-conservation/README.md) — available draft; educator review pending.
-- [Unit 04 — Waves, Sound, Light, and Information](units/unit-04-waves-sound-light-information/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

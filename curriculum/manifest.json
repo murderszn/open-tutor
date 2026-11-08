@@ -1550,6 +1550,74 @@
       "kind": "unit-text"
     },
     {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/assessments/week-18_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/assets/clause-structure-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/assets/harbor-dusk-tone-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/lessons/lesson-01-clause-architecture.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/lessons/lesson-02-phrase-variety.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/lessons/lesson-03-semicolons-colons.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/lessons/lesson-04-vocabulary-systems.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/lessons/lesson-05-figures-tone.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/lessons/lesson-06-style-editing.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-10/language-arts/units/unit-04-syntax-tone-vocabulary-conventions/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-10/math/README.md",
       "kind": "subject-index"
     },
@@ -17279,17 +17347,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 238,
-    "answer-key": 238,
-    "assessment": 258,
+    "unit-index": 239,
+    "answer-key": 239,
+    "assessment": 260,
     "quiz": 445,
-    "assets": 239,
-    "asset": 351,
-    "lesson": 1284,
-    "practice": 238,
-    "project": 238,
-    "resource-pack": 238,
-    "teacher-guide": 238,
+    "assets": 240,
+    "asset": 353,
+    "lesson": 1290,
+    "practice": 239,
+    "project": 239,
+    "resource-pack": 239,
+    "teacher-guide": 239,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
