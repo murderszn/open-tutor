@@ -6946,6 +6946,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/assessments/week-17_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/assets/cedar-hollow-town-hall.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/assets/levels-of-government.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/lessons/lesson-01-three-levels-of-government.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/lessons/lesson-02-local-officials-and-public-services.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/lessons/lesson-03-rules-laws-and-why-groups-make-them.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/lessons/lesson-04-taxes-pay-for-public-services.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/lessons/lesson-05-deciding-together.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/lessons/lesson-06-participation-and-changing-rules.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/social-studies/units/unit-04-local-government-participation-services/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-4/README.md",
       "kind": "grade-index"
     },
@@ -16831,17 +16899,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 231,
-    "answer-key": 231,
-    "assessment": 250,
-    "quiz": 439,
-    "assets": 232,
-    "asset": 340,
-    "lesson": 1246,
-    "practice": 231,
-    "project": 231,
-    "resource-pack": 231,
-    "teacher-guide": 231,
+    "unit-index": 232,
+    "answer-key": 232,
+    "assessment": 251,
+    "quiz": 440,
+    "assets": 233,
+    "asset": 342,
+    "lesson": 1252,
+    "practice": 232,
+    "project": 232,
+    "resource-pack": 232,
+    "teacher-guide": 232,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

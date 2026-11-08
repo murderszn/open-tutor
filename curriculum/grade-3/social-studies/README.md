@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -22,6 +22,7 @@ See also: [Grade 3 track](../README.md), [curriculum index](../../README.md).
 - [Unit 01 — Maps, Regions, Continents, and Geographic Inquiry](units/unit-01-maps-regions-continents/README.md) — available draft; educator review pending.
 - [Unit 02 — Environment, Settlement, and Resource Use](units/unit-02-environment-settlement-resources/README.md) — available draft; educator review pending.
 - [Unit 03 — Communities over Time and Historical Evidence](units/unit-03-communities-over-time-historical-evidence/README.md) — available draft; educator review pending.
+- [Unit 04 — Local Government, Participation, and Public Services](units/unit-04-local-government-participation-services/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
