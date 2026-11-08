@@ -470,6 +470,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/assets/tens-and-ones-blocks.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/lessons/lesson-01-adding-ones-without-a-new-ten.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/lessons/lesson-02-when-ones-make-a-new-ten.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/lessons/lesson-03-adding-multiples-of-ten.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/lessons/lesson-04-ten-more-and-ten-less.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/lessons/lesson-05-subtracting-multiples-of-ten.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/math/units/unit-05-two-digit-addition-and-subtraction-foundations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-1/science/README.md",
       "kind": "subject-index"
     },
@@ -14519,17 +14579,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 195,
-    "answer-key": 195,
-    "assessment": 212,
-    "quiz": 405,
-    "assets": 196,
-    "asset": 283,
-    "lesson": 1049,
-    "practice": 195,
-    "project": 195,
-    "resource-pack": 195,
-    "teacher-guide": 195,
+    "unit-index": 196,
+    "answer-key": 196,
+    "assessment": 213,
+    "quiz": 406,
+    "assets": 197,
+    "asset": 284,
+    "lesson": 1054,
+    "practice": 196,
+    "project": 196,
+    "resource-pack": 196,
+    "teacher-guide": 196,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
