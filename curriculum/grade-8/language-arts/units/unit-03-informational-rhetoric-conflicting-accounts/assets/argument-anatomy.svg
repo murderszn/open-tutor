@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-label="Argument anatomy diagram: one claim supported by two reasons, each supported by evidence, with irrelevant evidence set aside">
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text x="360" y="28" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#222222">Argument anatomy</text>
+  <rect x="210" y="45" width="300" height="52" rx="8" fill="#1f4e79"/>
+  <text x="360" y="77" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffffff">CLAIM: what the writer wants you to accept</text>
+  <line x1="285" y1="97" x2="180" y2="130" stroke="#333333" stroke-width="2"/>
+  <line x1="435" y1="97" x2="540" y2="130" stroke="#333333" stroke-width="2"/>
+  <rect x="60" y="130" width="240" height="52" rx="8" fill="#2e7d52"/>
+  <text x="180" y="162" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff">REASON 1: why it follows</text>
+  <rect x="420" y="130" width="240" height="52" rx="8" fill="#2e7d52"/>
+  <text x="540" y="162" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#ffffff">REASON 2: why it follows</text>
+  <line x1="180" y1="182" x2="180" y2="215" stroke="#333333" stroke-width="2"/>
+  <line x1="540" y1="182" x2="540" y2="215" stroke="#333333" stroke-width="2"/>
+  <rect x="60" y="215" width="240" height="52" rx="8" fill="#d9e8f5"/>
+  <text x="180" y="247" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#222222">EVIDENCE for Reason 1</text>
+  <rect x="420" y="215" width="240" height="52" rx="8" fill="#d9e8f5"/>
+  <text x="540" y="247" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#222222">EVIDENCE for Reason 2</text>
+  <rect x="210" y="300" width="300" height="72" rx="8" fill="#f5e6d9" stroke="#b85c38" stroke-width="2" stroke-dasharray="8 5"/>
+  <text x="360" y="328" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#7a3416">IRRELEVANT EVIDENCE — set aside</text>
+  <text x="360" y="352" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#7a3416">True, but it attaches to no reason.</text>
+  <text x="360" y="398" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#555555">Test every argument: is the reasoning sound? Is the evidence relevant? Is it sufficient?</text>
+</svg>
