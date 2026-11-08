@@ -3418,6 +3418,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/assets/beaver-dam-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-01-main-topic-and-paragraph-focus.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-02-text-features-scavenger-hunt.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-03-what-pictures-add.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-04-authors-purpose-and-reasons.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-05-steps-in-order.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/lessons/lesson-06-two-texts-same-topic.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-04-informational-main-topics-and-text-features/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-2/math/README.md",
       "kind": "subject-index"
     },
@@ -12215,17 +12279,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 159,
-    "answer-key": 159,
-    "assessment": 173,
-    "quiz": 372,
-    "assets": 160,
-    "asset": 228,
-    "lesson": 853,
-    "practice": 159,
-    "project": 159,
-    "resource-pack": 159,
-    "teacher-guide": 159,
+    "unit-index": 160,
+    "answer-key": 160,
+    "assessment": 174,
+    "quiz": 373,
+    "assets": 161,
+    "asset": 229,
+    "lesson": 859,
+    "practice": 160,
+    "project": 160,
+    "resource-pack": 160,
+    "teacher-guide": 160,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,

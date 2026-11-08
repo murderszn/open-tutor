@@ -118,6 +118,7 @@ of state adoption or accreditation). Full crosswalk in
 - [Unit 01 — Phonics: Vowel Teams, Syllables, and Word Parts](units/unit-01-vowel-teams-syllables-and-word-parts/README.md) — available draft; educator review pending.
 - [Unit 02 — Fluency, Vocabulary, and Comprehension Monitoring](units/unit-02-fluency-vocabulary-comprehension-monitoring/README.md) — available draft; educator review pending.
 - [Unit 03 — Story Structure, Characters, and Multiple Perspectives](units/unit-03-story-structure-characters-perspectives/README.md) — available draft; educator review pending.
+- [Unit 04 — Informational Reading: Main Topics, Details, and Text Features](units/unit-04-informational-main-topics-and-text-features/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
