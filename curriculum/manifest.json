@@ -8226,6 +8226,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/assessments/week-16_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/assets/variable-bags-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-01-whole-number-exponents.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-02-variables-and-parts-of-expressions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-03-evaluating-expressions-order-of-operations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-04-distributive-property.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/lessons/lesson-05-equivalent-expressions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/math/units/unit-04-expressions-properties-variable-meaning/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-6/science/README.md",
       "kind": "subject-index"
     },
@@ -12787,17 +12847,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 168,
-    "answer-key": 168,
-    "assessment": 183,
-    "quiz": 380,
-    "assets": 169,
-    "asset": 241,
-    "lesson": 902,
-    "practice": 168,
-    "project": 168,
-    "resource-pack": 168,
-    "teacher-guide": 168,
+    "unit-index": 169,
+    "answer-key": 169,
+    "assessment": 184,
+    "quiz": 381,
+    "assets": 170,
+    "asset": 242,
+    "lesson": 907,
+    "practice": 169,
+    "project": 169,
+    "resource-pack": 169,
+    "teacher-guide": 169,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
