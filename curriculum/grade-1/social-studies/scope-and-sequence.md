@@ -256,7 +256,7 @@ response), exploration practice (observation walk or source looking), and review
 - Sessions rotate: explicit lesson → discussion/drawing practice → role-play or
   interview practice → review.
 
-### Unit 05 — Needs, wants, producers, and consumers (Weeks 19–22) — delivered as a validated draft
+### Unit 05 — Needs, wants, producers, and consumers (Weeks 19–22)
 
 - **Standards:** D2.Eco.1–2, D2.Eco.4, D2.Eco.6, D2.Eco.10; D2.Geo.7; D3.1
 - **Week 19 goal:** needs vs. wants — sort with objects and pictures; scarcity

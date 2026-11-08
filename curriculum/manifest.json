@@ -4686,6 +4686,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/assets/apple-array-4-by-5.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/lessons/lesson-01-odd-and-even-pairing.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/lessons/lesson-02-even-numbers-two-equal-addends.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/lessons/lesson-03-equal-groups-repeated-addition.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/lessons/lesson-04-rectangular-arrays-rows-and-columns.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/lessons/lesson-05-partition-rectangle-into-squares.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/lessons/lesson-06-arrays-in-stories.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/math/units/unit-05-equal-groups-arrays-and-repeated-addition/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-2/science/README.md",
       "kind": "subject-index"
     },
@@ -14763,17 +14827,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 199,
-    "answer-key": 199,
-    "assessment": 216,
-    "quiz": 409,
-    "assets": 200,
-    "asset": 287,
-    "lesson": 1070,
-    "practice": 199,
-    "project": 199,
-    "resource-pack": 199,
-    "teacher-guide": 199,
+    "unit-index": 200,
+    "answer-key": 200,
+    "assessment": 217,
+    "quiz": 410,
+    "assets": 201,
+    "asset": 288,
+    "lesson": 1076,
+    "practice": 200,
+    "project": 200,
+    "resource-pack": 200,
+    "teacher-guide": 200,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
