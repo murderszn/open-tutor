@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03, 05 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -136,7 +136,6 @@ not a claim of state adoption or accreditation). Full crosswalk in
 - [Unit 01 — Rational Number Operations](units/unit-01-rational-number-operations/README.md) — available draft; educator review pending.
 - [Unit 02 — Ratios, Rates, and Proportional Relationships](units/unit-02-ratios-rates-proportional/README.md) — available draft; educator review pending.
 - [Unit 03 — Percent Change, Discounts, and Simple Interest](units/unit-03-percent-change-discounts-interest/README.md) — available draft; educator review pending.
-- [Unit 05 — Scale Drawings, Angles, and Geometric Constructions](units/unit-05-scale-drawings-angles-constructions/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
