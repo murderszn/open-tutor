@@ -3082,6 +3082,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/assessments/week-17_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/assets/bouncing-ball-decay.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/lessons/lesson-01-sequences-as-functions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/lessons/lesson-02-sigma-arithmetic-series.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/lessons/lesson-03-finite-geometric-series.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/lessons/lesson-04-infinite-geometric-series.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/lessons/lesson-05-binomial-theorem.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/lessons/lesson-06-mathematical-induction.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/math/units/unit-04-sequences-series-discrete-models/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/science/README.md",
       "kind": "subject-index"
     },
@@ -13835,17 +13899,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 184,
-    "answer-key": 184,
-    "assessment": 201,
-    "quiz": 394,
-    "assets": 185,
-    "asset": 270,
-    "lesson": 990,
-    "practice": 184,
-    "project": 184,
-    "resource-pack": 184,
-    "teacher-guide": 184,
+    "unit-index": 185,
+    "answer-key": 185,
+    "assessment": 202,
+    "quiz": 395,
+    "assets": 186,
+    "asset": 271,
+    "lesson": 996,
+    "practice": 185,
+    "project": 185,
+    "resource-pack": 185,
+    "teacher-guide": 185,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
