@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -125,7 +125,6 @@ adoption or accreditation). Full crosswalk in
 - [Unit 01 — Ratios, Unit Rates, and Ratio Reasoning](units/unit-01-ratios-unit-rates-ratio-reasoning/README.md) — available draft; educator review pending.
 - [Unit 02 — Fraction and Decimal Operations](units/unit-02-fraction-decimal-operations/README.md) — available draft; educator review pending.
 - [Unit 03 — Integers, Rational Numbers, and the Coordinate Plane](units/unit-03-integers-rational-numbers-coordinate-plane/README.md) — available draft; educator review pending.
-- [Unit 04 — Expressions, Properties, and Variable Meaning](units/unit-04-expressions-properties-variable-meaning/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
