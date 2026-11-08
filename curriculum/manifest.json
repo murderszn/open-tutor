@@ -3774,6 +3774,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/assessments/week-17_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/assets/shared-lake-park.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/lessons/lesson-01-externalities.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/lessons/lesson-02-public-goods-common-resources.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/lessons/lesson-03-information-market-power.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/lessons/lesson-04-policy-toolkit-benefit-cost.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/lessons/lesson-05-distribution-equity-institutions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/social-studies/units/unit-04-market-failures-public-goods-policy/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-2/README.md",
       "kind": "grade-index"
     },
@@ -14143,17 +14203,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 189,
-    "answer-key": 189,
-    "assessment": 206,
-    "quiz": 399,
-    "assets": 190,
-    "asset": 276,
-    "lesson": 1016,
-    "practice": 189,
-    "project": 189,
-    "resource-pack": 189,
-    "teacher-guide": 189,
+    "unit-index": 190,
+    "answer-key": 190,
+    "assessment": 207,
+    "quiz": 400,
+    "assets": 191,
+    "asset": 277,
+    "lesson": 1021,
+    "practice": 190,
+    "project": 190,
+    "resource-pack": 190,
+    "teacher-guide": 190,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
