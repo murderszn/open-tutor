@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">Angle pairs: vertical, complementary, and supplementary angles</title>
+  <desc id="svg-desc">Three panels. Left: two intersecting lines with vertical angles 50 degrees and 130 degrees. Middle: a right angle split into 35 degrees and 55 degrees. Right: a straight line split into 70 degrees and 110 degrees.</desc>
+  <rect x="0" y="0" width="900" height="340" fill="#ffffff"/>
+  <g font-family="sans-serif" font-size="16" fill="#1f2937" text-anchor="middle">
+    <text x="150" y="28">Vertical angles are equal</text>
+    <text x="450" y="28">Complementary: 35° + 55° = 90°</text>
+    <text x="750" y="28">Supplementary: 70° + 110° = 180°</text>
+  </g>
+
+  <!-- Panel A: intersecting lines, vertical angles 50 and 130 -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round">
+    <line x1="40" y1="170" x2="260" y2="170"/>
+    <line x1="86" y1="93" x2="214" y2="247"/>
+  </g>
+  <g fill="none" stroke="#2563eb" stroke-width="2">
+    <path d="M 178 170 A 28 28 0 0 1 168 191"/>
+    <path d="M 122 170 A 28 28 0 0 1 132 149"/>
+    <path d="M 137 155 A 20 20 0 0 1 170 170"/>
+    <path d="M 163 185 A 20 20 0 0 1 130 170"/>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="#1f2937" text-anchor="middle">
+    <text x="200" y="205">50°</text>
+    <text x="102" y="132">50°</text>
+    <text x="208" y="128">130°</text>
+    <text x="98" y="215">130°</text>
+  </g>
+
+  <!-- Panel B: right angle split into 35 and 55 (complementary) -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round">
+    <line x1="450" y1="200" x2="450" y2="90"/>
+    <line x1="450" y1="200" x2="560" y2="200"/>
+    <line x1="450" y1="200" x2="532" y2="143"/>
+  </g>
+  <rect x="450" y="180" width="20" height="20" fill="none" stroke="#1f2937" stroke-width="2"/>
+  <g fill="none" stroke="#2563eb" stroke-width="2">
+    <path d="M 480 200 A 30 30 0 0 0 475 183"/>
+    <path d="M 487 174 A 45 45 0 0 0 450 155"/>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="#1f2937" text-anchor="middle">
+    <text x="505" y="192">35°</text>
+    <text x="478" y="135">55°</text>
+  </g>
+
+  <!-- Panel C: straight line split into 70 and 110 (supplementary) -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round">
+    <line x1="640" y1="200" x2="860" y2="200"/>
+    <line x1="750" y1="200" x2="784" y2="106"/>
+  </g>
+  <g fill="none" stroke="#2563eb" stroke-width="2">
+    <path d="M 780 200 A 30 30 0 0 0 760 172"/>
+    <path d="M 765 158 A 45 45 0 0 0 705 200"/>
+  </g>
+  <g font-family="sans-serif" font-size="15" fill="#1f2937" text-anchor="middle">
+    <text x="782" y="188">70°</text>
+    <text x="700" y="158">110°</text>
+  </g>
+</svg>

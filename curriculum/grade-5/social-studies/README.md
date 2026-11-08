@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03, and 05 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -24,7 +24,6 @@ See also: [Grade 5 track](../README.md), [curriculum index](../../README.md).
 - [Unit 01 — North American Geography, Indigenous Histories, and Sources](units/unit-01-north-american-geography-indigenous-histories/README.md) — available draft; educator review pending.
 - [Unit 02 — Colonial Societies: Labor, Trade, and Diverse Perspectives](units/unit-02-colonial-societies-labor-trade/README.md) — available draft; educator review pending.
 - [Unit 03 — Revolution: Causes, Events, and Competing Viewpoints](units/unit-03-revolution-causes-events-viewpoints/README.md) — available draft; educator review pending.
-- [Unit 05 — Early Republic: Expansion, Displacement, and Resistance](units/unit-05-early-republic-expansion-displacement-resistance/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
@@ -132,7 +131,7 @@ defers to later bands (D2.His.7–8, 9–12; D2.His.15, 6–8) are not taught he
 | 11–14 | [U03](units/unit-03-revolution-causes-events-viewpoints/README.md) | Revolution: causes, events, and competing viewpoints — delivered as validated draft (2026-10-25) |
 | 15–18 | U04 | Founding documents, Constitution, and citizenship |
 | 19 | — | Midyear review and catch-up |
-| 20–23 | [U05](units/unit-05-early-republic-expansion-displacement-resistance/README.md) | Early republic: expansion, displacement, and resistance — delivered as validated draft (2026-11-07) |
+| 20–23 | U05 | Early republic: expansion, displacement, and resistance |
 | 24–27 | U06 | Nineteenth-century change: abolition and reform |
 | 28–31 | U07 | Civil War, Reconstruction, and rights foundations |
 | 32–35 | U08 | Historical inquiry, U.S. geography, and civic capstone |
@@ -152,14 +151,7 @@ with alt text and a generation record, and a deterministic road-to-revolution
 timeline diagram — at
 [units/unit-03-revolution-causes-events-viewpoints/](units/unit-03-revolution-causes-events-viewpoints/).
 Unit 02 is delivered as a validated draft in draft PR #202 (unmerged at this
-branch's base). Unit 05 is delivered as a validated draft — five fully written
-lessons, practice banks, the "One Place, Two Stories" mini-exhibit project
-with rubric, a formative quiz and unit assessment (keys separated into the
-teacher guide and answer key), a verified Resource Pack, a generated 1840s
-river-port illustration with alt text and a generation record, and a
-deterministic early-republic timeline diagram — at
-[units/unit-05-early-republic-expansion-displacement-resistance/](units/unit-05-early-republic-expansion-displacement-resistance/).
-Units 04 and 06–08 are planned in prose until written. Each unit is designed as four
+branch's base). Units 04–08 are planned in prose until written. Each unit is designed as four
 weeks of four ~40-minute sessions: concept launch, skills practice,
 investigation/application, and review with a unit check. Full weekly goals are
 in the scope-and-sequence. Grade-5 learners do independent written practice
@@ -171,8 +163,7 @@ The legacy library under this folder (1 subject README, 4 assignments, 14
 quizzes, 1 template — 20 Markdown files, matching the issue baseline) was
 re-audited 2026-10-04 — see the scope-and-sequence for keep/revise decisions
 per file. Coverage is strongest in U01–U03 (geography, colonial, Revolution);
-**U04, U06, and U07 have no legacy files at all** and will be built new; U05
-was likewise built new, with no legacy files for it.
+**U04, U05, U06, and U07 have no legacy files at all** and will be built new.
 Every quiz carries an embedded "Parent Answer Key" beside the student
 questions; the unit sections will separate keys into teacher guides before any
 assignment. Two reference problems were found across the quizzes: every

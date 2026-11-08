@@ -11386,6 +11386,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/assessments/week-23_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/assets/angle-pairs-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/assets/garden-scale-activity.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/lessons/lesson-01-scale-drawings-actual-lengths.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/lessons/lesson-02-scale-areas-different-scale.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/lessons/lesson-03-drawing-triangles-uniqueness.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/lessons/lesson-04-angle-pairs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/lessons/lesson-05-angle-equations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/lessons/lesson-06-multi-step-geometry-problems.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-7/math/units/unit-05-scale-drawings-angles-constructions/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-7/science/README.md",
       "kind": "subject-index"
     },
@@ -15715,17 +15783,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 214,
-    "answer-key": 214,
-    "assessment": 232,
-    "quiz": 423,
-    "assets": 215,
-    "asset": 310,
-    "lesson": 1150,
-    "practice": 214,
-    "project": 214,
-    "resource-pack": 214,
-    "teacher-guide": 214,
+    "unit-index": 215,
+    "answer-key": 215,
+    "assessment": 233,
+    "quiz": 424,
+    "assets": 216,
+    "asset": 312,
+    "lesson": 1156,
+    "practice": 215,
+    "project": 215,
+    "resource-pack": 215,
+    "teacher-guide": 215,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
