@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Diagram of a compound-complex sentence: When the fog thickened, the keeper lit the lamp, and the boats turned toward the light.">
+  <title>Clause diagram: compound-complex sentence</title>
+  <rect x="5" y="5" width="890" height="250" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text x="450" y="35" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold">When the fog thickened, the keeper lit the lamp, and the boats turned toward the light.</text>
+  <g font-family="sans-serif" font-size="15">
+    <rect x="30" y="70" width="250" height="90" fill="#e8eef7" stroke="#333333"/>
+    <text x="155" y="100" text-anchor="middle" font-weight="bold">When the fog thickened</text>
+    <text x="155" y="125" text-anchor="middle">Adverbial dependent clause</text>
+    <text x="155" y="148" text-anchor="middle">(tells when)</text>
+    <rect x="320" y="70" width="250" height="90" fill="#e7f3e7" stroke="#333333"/>
+    <text x="445" y="100" text-anchor="middle" font-weight="bold">the keeper lit the lamp</text>
+    <text x="445" y="125" text-anchor="middle">Independent clause 1</text>
+    <text x="445" y="148" text-anchor="middle">(can stand alone)</text>
+    <rect x="610" y="70" width="260" height="90" fill="#fdf0d5" stroke="#333333"/>
+    <text x="740" y="100" text-anchor="middle" font-weight="bold">the boats turned toward the light</text>
+    <text x="740" y="125" text-anchor="middle">Independent clause 2</text>
+    <text x="740" y="148" text-anchor="middle">(joined by , and)</text>
+  </g>
+  <text x="450" y="200" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">1 dependent + 2 independent = compound-complex</text>
+  <text x="450" y="230" text-anchor="middle" font-family="sans-serif" font-size="14">Deterministic diagram for Unit 04, Lesson 1, Worked example 1. Text alternative is in the lesson.</text>
+</svg>

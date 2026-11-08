@@ -11834,6 +11834,78 @@
       "kind": "unit-text"
     },
     {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/assessments/week-17_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/assets/clause-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/assets/lighthouse-logbook.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/lessons/lesson-01-sentence-architecture-clauses.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/lessons/lesson-02-phrase-variety.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/lessons/lesson-03-semicolons-and-conjunctive-adverbs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/lessons/lesson-04-vocabulary-systems-and-figures-of-speech.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/lessons/lesson-05-style-syntax-register-mla.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/lessons/lesson-06-the-full-editing-pass.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-04-grammar-syntax-vocabulary-style/texts/sentence-bank.md",
+      "kind": "unit-text"
+    },
+    {
       "path": "grade-9/math/README.md",
       "kind": "subject-index"
     },
@@ -13507,18 +13579,18 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 179,
-    "answer-key": 179,
-    "assessment": 194,
+    "unit-index": 180,
+    "answer-key": 180,
+    "assessment": 196,
     "quiz": 391,
-    "assets": 180,
-    "asset": 262,
-    "lesson": 962,
-    "practice": 179,
-    "project": 179,
-    "resource-pack": 179,
-    "teacher-guide": 179,
-    "unit-text": 26,
+    "assets": 181,
+    "asset": 264,
+    "lesson": 968,
+    "practice": 180,
+    "project": 180,
+    "resource-pack": 180,
+    "teacher-guide": 180,
+    "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
     "hints": 2,
