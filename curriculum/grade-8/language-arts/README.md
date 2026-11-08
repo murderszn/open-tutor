@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, and 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -91,6 +91,7 @@ alignment certification is claimed.
 
 - [Unit 01 — Close Reading: Inference, Theme, and Evidence Synthesis](units/unit-01-close-reading/README.md) — available draft; educator review pending.
 - [Unit 02 — Drama: Character Foils and Adaptation](units/unit-02-drama-foils-adaptation/README.md) — available draft; educator review pending.
+- [Unit 04 — Grammar: Voice, Verbals, Punctuation, and Style](units/unit-04-grammar-voice-verbals-punctuation/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

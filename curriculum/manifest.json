@@ -10586,6 +10586,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/assets/garden-scene-verbals.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/lessons/lesson-01-gerunds-participles.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/lessons/lesson-02-infinitives-subordination.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/lessons/lesson-03-active-passive-voice.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/lessons/lesson-04-verb-moods.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/lessons/lesson-05-semicolons-colons-conjunctive-adverbs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/lessons/lesson-06-style-editing-pass.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-8/language-arts/units/unit-04-grammar-voice-verbals-punctuation/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-8/math/README.md",
       "kind": "subject-index"
     },
@@ -13379,17 +13443,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 177,
-    "answer-key": 177,
-    "assessment": 192,
-    "quiz": 389,
-    "assets": 178,
-    "asset": 258,
-    "lesson": 952,
-    "practice": 177,
-    "project": 177,
-    "resource-pack": 177,
-    "teacher-guide": 177,
+    "unit-index": 178,
+    "answer-key": 178,
+    "assessment": 193,
+    "quiz": 390,
+    "assets": 179,
+    "asset": 259,
+    "lesson": 958,
+    "practice": 178,
+    "project": 178,
+    "resource-pack": 178,
+    "teacher-guide": 178,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
