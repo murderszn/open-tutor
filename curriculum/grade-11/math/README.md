@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository; Unit 04 is delivered in draft PR #285 (not yet merged) and Unit 05 is delivered in this branch. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -114,7 +114,6 @@ claim of state adoption or accreditation). Full crosswalk in
 - [Unit 01 — Function Transformations, Composition, and Inverses](units/unit-01-function-transformations/README.md) — available draft; educator review pending.
 - [Unit 02 — Polynomial Functions, Zeros, and Complex Numbers](units/unit-02-polynomial-zeros-complex-numbers/README.md) — available draft; educator review pending.
 - [Unit 03 — Rational Expressions, Functions, and Asymptotes](units/unit-03-rational-expressions-functions-asymptotes/README.md) — available draft; educator review pending.
-- [Unit 05 — Exponential and Logarithmic Functions and Models](units/unit-05-exponential-logarithmic-functions-models/README.md) — available draft in this branch; educator review pending. (Unit 04 is delivered in draft PR #285, not yet merged, and is named in prose only.)
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
