@@ -8458,6 +8458,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/assessments/week-17_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/assets/colonial-port-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/assets/colonial-regions-schematic.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/lessons/lesson-01-three-colonial-regions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/lessons/lesson-02-work-production-specialization.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/lessons/lesson-03-trade-webs-ports.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/lessons/lesson-04-money-coins-credit.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/lessons/lesson-05-self-rule-perspectives.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-4/social-studies/units/unit-04-colonial-regions-communities-economic-life/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-4/stem/README.md",
       "kind": "subject-index"
     },
@@ -16899,17 +16963,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 232,
-    "answer-key": 232,
-    "assessment": 251,
+    "unit-index": 233,
+    "answer-key": 233,
+    "assessment": 253,
     "quiz": 440,
-    "assets": 233,
-    "asset": 342,
-    "lesson": 1252,
-    "practice": 232,
-    "project": 232,
-    "resource-pack": 232,
-    "teacher-guide": 232,
+    "assets": 234,
+    "asset": 344,
+    "lesson": 1257,
+    "practice": 233,
+    "project": 233,
+    "resource-pack": 233,
+    "teacher-guide": 233,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
