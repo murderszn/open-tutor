@@ -8942,6 +8942,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/assets/editor-desk-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/lessons/lesson-01-conjunctions-prepositions-interjections.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/lessons/lesson-02-correlative-conjunctions-sentence-variety.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/lessons/lesson-03-perfect-verb-tenses-tense-consistency.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/lessons/lesson-04-commas-titles-spelling.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/lessons/lesson-05-editors-desk-varieties-formal-informal.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-5/language-arts/units/unit-04-grammar-sentence-variety-conventions-editing/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-5/language-arts/units/unit-05-narrative-pacing-dialogue-description/README.md",
       "kind": "unit-index"
     },
@@ -17023,17 +17083,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 234,
-    "answer-key": 234,
-    "assessment": 254,
-    "quiz": 441,
-    "assets": 235,
-    "asset": 345,
-    "lesson": 1262,
-    "practice": 234,
-    "project": 234,
-    "resource-pack": 234,
-    "teacher-guide": 234,
+    "unit-index": 235,
+    "answer-key": 235,
+    "assessment": 255,
+    "quiz": 442,
+    "assets": 236,
+    "asset": 346,
+    "lesson": 1267,
+    "practice": 235,
+    "project": 235,
+    "resource-pack": 235,
+    "teacher-guide": 235,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
