@@ -2562,6 +2562,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assessments/week-14_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assets/harbor-boat-vector-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/assets/vector-polar-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-01-vectors-magnitude-direction-components.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-02-vector-operations-applications.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-03-parametric-motion-curves.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-04-polar-coordinates-conversions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-05-polar-graphs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/lessons/lesson-06-complex-polar-form-project-workshop.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/math/units/unit-03-vectors-parametric-polar/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/science/README.md",
       "kind": "subject-index"
     },
@@ -11643,17 +11711,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 150,
-    "answer-key": 150,
-    "assessment": 164,
-    "quiz": 363,
-    "assets": 151,
-    "asset": 215,
-    "lesson": 804,
-    "practice": 150,
-    "project": 150,
-    "resource-pack": 150,
-    "teacher-guide": 150,
+    "unit-index": 151,
+    "answer-key": 151,
+    "assessment": 165,
+    "quiz": 364,
+    "assets": 152,
+    "asset": 217,
+    "lesson": 810,
+    "practice": 151,
+    "project": 151,
+    "resource-pack": 151,
+    "teacher-guide": 151,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
