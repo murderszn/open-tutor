@@ -4198,6 +4198,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/assets/maple-lane-class-vote.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-01-why-we-have-rules.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-02-school-rules-and-community-laws.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-03-people-in-authority-and-government-jobs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-04-fairness-equality-respect.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/lessons/lesson-05-making-decisions-together-voting.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-04-rules-laws-leadership-citizenship/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-3/README.md",
       "kind": "grade-index"
     },
@@ -12279,17 +12339,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 160,
-    "answer-key": 160,
-    "assessment": 174,
-    "quiz": 373,
-    "assets": 161,
-    "asset": 229,
-    "lesson": 859,
-    "practice": 160,
-    "project": 160,
-    "resource-pack": 160,
-    "teacher-guide": 160,
+    "unit-index": 161,
+    "answer-key": 161,
+    "assessment": 175,
+    "quiz": 374,
+    "assets": 162,
+    "asset": 230,
+    "lesson": 864,
+    "practice": 161,
+    "project": 161,
+    "resource-pack": 161,
+    "teacher-guide": 161,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
