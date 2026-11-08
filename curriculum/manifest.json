@@ -9410,74 +9410,6 @@
    "kind": "teacher-guide"
   },
   {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/README.md",
-   "kind": "unit-index"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/answer-key.md",
-   "kind": "answer-key"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assessments/unit-assessment.md",
-   "kind": "assessment"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assessments/week-04_quiz.md",
-   "kind": "quiz"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assets/README.md",
-   "kind": "assets"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assets/expansion-timeline-diagram.svg",
-   "kind": "asset"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assets/mississippi-flatboat-illustration.png",
-   "kind": "asset"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-01-two-visions.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-02-first-party-system.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-03-louisiana-purchase.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-04-war-1812-monroe.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-05-removal-law-courts.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-06-expansions-price.md",
-   "kind": "lesson"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/practice.md",
-   "kind": "practice"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/project.md",
-   "kind": "project"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/resource-pack.md",
-   "kind": "resource-pack"
-  },
-  {
-   "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/teacher-guide.md",
-   "kind": "teacher-guide"
-  },
-  {
    "path": "grade-8/stem/README.md",
    "kind": "subject-index"
   },
@@ -11007,25 +10939,25 @@
   }
  ],
  "counts_by_kind": {
-  "answer-key": 141,
-  "assessment": 152,
-  "asset": 199,
-  "assets": 142,
+  "answer-key": 140,
+  "assessment": 151,
+  "asset": 197,
+  "assets": 141,
   "assignment": 111,
   "curriculum-index": 1,
   "grade-index": 13,
   "hints": 2,
-  "lesson": 754,
+  "lesson": 748,
   "new-assignment": 31,
-  "practice": 141,
-  "project": 141,
-  "quiz": 357,
-  "resource-pack": 141,
+  "practice": 140,
+  "project": 140,
+  "quiz": 356,
+  "resource-pack": 140,
   "rhythm": 2,
   "subject-index": 112,
-  "teacher-guide": 141,
+  "teacher-guide": 140,
   "template": 14,
-  "unit-index": 141,
+  "unit-index": 140,
   "unit-text": 15
  },
  "review_notes": [
