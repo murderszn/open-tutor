@@ -4466,6 +4466,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/assets/park-sentence-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-01-parts-of-speech-jobs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-02-plurals-verbs-agreement.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-03-comparisons-conjunctions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-04-sentence-types-word-choice.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-05-titles-addresses-dialogue-possessives.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/lessons/lesson-06-spelling-dictionary.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/language-arts/units/unit-04-sentence-structure-grammar-conventions/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-3/math/README.md",
       "kind": "subject-index"
     },
@@ -12595,17 +12659,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 165,
-    "answer-key": 165,
-    "assessment": 179,
-    "quiz": 378,
-    "assets": 166,
-    "asset": 237,
-    "lesson": 885,
-    "practice": 165,
-    "project": 165,
-    "resource-pack": 165,
-    "teacher-guide": 165,
+    "unit-index": 166,
+    "answer-key": 166,
+    "assessment": 180,
+    "quiz": 379,
+    "assets": 167,
+    "asset": 238,
+    "lesson": 891,
+    "practice": 166,
+    "project": 166,
+    "resource-pack": 166,
+    "teacher-guide": 166,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
