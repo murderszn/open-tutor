@@ -361,11 +361,9 @@ planned units: U03 Letter recognition and sound correspondences; U04 Blending
 U01 Oral language listening and print concepts and U03 Letter recognition
 and sound correspondences are delivered as validated drafts (U02 Rhyme
 syllables and phonemic awareness is delivered as a validated draft in
-PR #180, unmerged). U05 Shared reading retelling and sequence is
-delivered as a validated draft in this run's PR. Remaining planned
-units: U04 Blending
-segmenting and regular CVC words; U06 Decodable reading and sentence
-foundations; U07 Informational text questions
+PR #180, unmerged). Remaining planned units: U04 Blending
+segmenting and regular CVC words; U05 Shared reading retelling and sequence;
+U06 Decodable reading and sentence foundations; U07 Informational text questions
 and drawing-to-writing; U08 Opinion narrative and informational oral-written
 sharing; R00 diagnostic, midyear/final review, and cumulative assessments with
 keys. Each will follow `docs/curriculum-expansion/unit-requirements.md`.
