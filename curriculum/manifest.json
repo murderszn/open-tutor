@@ -10050,6 +10050,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/assets/branches-checks-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/assets/constitutional-convention-1787.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/lessons/lesson-01-declaration-ideas-natural-rights.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/lessons/lesson-02-constitution-structure-branches-checks.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/lessons/lesson-03-bill-of-rights-rules-protect-freedoms.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/lessons/lesson-04-participation-changing-laws-decisions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/lessons/lesson-05-convention-scene-investigation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-5/social-studies/units/unit-04-founding-documents-constitution-citizenship/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-5/social-studies/units/unit-05-early-republic-expansion-displacement-resistance/README.md",
       "kind": "unit-index"
     },
@@ -17083,17 +17147,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 235,
-    "answer-key": 235,
-    "assessment": 255,
-    "quiz": 442,
-    "assets": 236,
-    "asset": 346,
-    "lesson": 1267,
-    "practice": 235,
-    "project": 235,
-    "resource-pack": 235,
-    "teacher-guide": 235,
+    "unit-index": 236,
+    "answer-key": 236,
+    "assessment": 256,
+    "quiz": 443,
+    "assets": 237,
+    "asset": 348,
+    "lesson": 1272,
+    "practice": 236,
+    "project": 236,
+    "resource-pack": 236,
+    "teacher-guide": 236,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
