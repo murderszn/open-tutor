@@ -7614,6 +7614,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/assessments/week-22_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/assets/deer-freezes-at-twig-snap.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/assets/sense-brain-response-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/lessons/lesson-01-five-senses-five-kinds-information.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/lessons/lesson-02-fair-observations-with-senses.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/lessons/lesson-03-sense-brain-response-path.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/lessons/lesson-04-different-animals-different-responses.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/lessons/lesson-05-building-your-complete-model.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-4/science/units/unit-05-senses-information-responses/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-4/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -15203,17 +15267,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 206,
-    "answer-key": 206,
-    "assessment": 223,
-    "quiz": 416,
-    "assets": 207,
-    "asset": 296,
-    "lesson": 1108,
-    "practice": 206,
-    "project": 206,
-    "resource-pack": 206,
-    "teacher-guide": 206,
+    "unit-index": 207,
+    "answer-key": 207,
+    "assessment": 224,
+    "quiz": 417,
+    "assets": 208,
+    "asset": 298,
+    "lesson": 1113,
+    "practice": 207,
+    "project": 207,
+    "resource-pack": 207,
+    "teacher-guide": 207,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
