@@ -8502,6 +8502,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assets/mineral-test-station.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/assets/rock-cycle-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-01-mineral-properties.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-02-rock-families.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-03-rock-cycle.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-04-energy-and-conservation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/lessons/lesson-05-midyear-review.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/science/units/unit-04-earth-materials-rocks-minerals-cycles/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-6/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -12915,17 +12979,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 170,
-    "answer-key": 170,
-    "assessment": 185,
-    "quiz": 382,
-    "assets": 171,
-    "asset": 244,
-    "lesson": 913,
-    "practice": 170,
-    "project": 170,
-    "resource-pack": 170,
-    "teacher-guide": 170,
+    "unit-index": 171,
+    "answer-key": 171,
+    "assessment": 186,
+    "quiz": 383,
+    "assets": 172,
+    "asset": 246,
+    "lesson": 918,
+    "practice": 171,
+    "project": 171,
+    "resource-pack": 171,
+    "teacher-guide": 171,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
