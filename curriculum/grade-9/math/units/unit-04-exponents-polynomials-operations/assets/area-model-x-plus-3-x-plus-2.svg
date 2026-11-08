@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420" role="img">
+  <title>Area model for (x + 3)(x + 2)</title>
+  <desc>A rectangle split into four regions. The top side is split into lengths x and 3; the left side into widths x and 2. The four regions have areas x squared, 3x, 2x, and 6, summing to x squared plus 5x plus 6.</desc>
+  <!-- Coordinate plan: outer rectangle x=80..520, y=80..340.
+       Split: vertical at x=320 (x-width 240, 3-width 200, ratio illustrative only;
+       labels, not pixel lengths, carry the algebra), horizontal at y=220.
+       Region labels are exact algebra, not measurements. -->
+  <rect x="80" y="80" width="440" height="260" fill="#ffffff" stroke="#222222" stroke-width="3"/>
+  <line x1="320" y1="80" x2="320" y2="340" stroke="#222222" stroke-width="2"/>
+  <line x1="80" y1="220" x2="520" y2="220" stroke="#222222" stroke-width="2"/>
+  <rect x="80" y="80" width="240" height="140" fill="#dbeafe"/>
+  <rect x="320" y="80" width="200" height="140" fill="#dcfce7"/>
+  <rect x="80" y="220" width="240" height="120" fill="#fef9c3"/>
+  <rect x="320" y="220" width="200" height="120" fill="#fee2e2"/>
+  <text x="200" y="60" font-family="sans-serif" font-size="22" text-anchor="middle">x</text>
+  <text x="420" y="60" font-family="sans-serif" font-size="22" text-anchor="middle">3</text>
+  <text x="60" y="155" font-family="sans-serif" font-size="22" text-anchor="middle">x</text>
+  <text x="60" y="285" font-family="sans-serif" font-size="22" text-anchor="middle">2</text>
+  <text x="200" y="155" font-family="sans-serif" font-size="24" text-anchor="middle">x²</text>
+  <text x="420" y="155" font-family="sans-serif" font-size="24" text-anchor="middle">3x</text>
+  <text x="200" y="285" font-family="sans-serif" font-size="24" text-anchor="middle">2x</text>
+  <text x="420" y="285" font-family="sans-serif" font-size="24" text-anchor="middle">6</text>
+  <text x="300" y="385" font-family="sans-serif" font-size="20" text-anchor="middle">(x + 3)(x + 2) = x² + 5x + 6</text>
+</svg>

@@ -11982,6 +11982,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/assets/area-model-x-plus-3-x-plus-2.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/assets/tiled-garden-area-model.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/lessons/lesson-01-rational-exponents-roots.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/lessons/lesson-02-rewriting-radicals-rational-exponents.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/lessons/lesson-03-polynomial-add-subtract.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/lessons/lesson-04-multiplying-polynomials-area-models.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/lessons/lesson-05-special-products-structure.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/lessons/lesson-06-exact-approximate-midyear.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/math/units/unit-04-exponents-polynomials-operations/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-9/science/README.md",
       "kind": "subject-index"
     },
@@ -13243,17 +13311,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 175,
-    "answer-key": 175,
-    "assessment": 190,
-    "quiz": 387,
-    "assets": 176,
-    "asset": 254,
-    "lesson": 940,
-    "practice": 175,
-    "project": 175,
-    "resource-pack": 175,
-    "teacher-guide": 175,
+    "unit-index": 176,
+    "answer-key": 176,
+    "assessment": 191,
+    "quiz": 388,
+    "assets": 177,
+    "asset": 256,
+    "lesson": 946,
+    "practice": 176,
+    "project": 176,
+    "resource-pack": 176,
+    "teacher-guide": 176,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
