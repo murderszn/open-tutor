@@ -2,9 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Unit 05 is
-available as a draft in this branch. Unit 04 is a separate open draft
-(PR #288). Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -89,7 +87,6 @@ adoption, accreditation, or alignment certification). Full crosswalk in
 - [Unit 01 — Questions, Observations, and Safe Investigations](units/unit-01-questions-observations-safe-investigations/README.md) — available draft; educator review pending.
 - [Unit 02 — Sound, Vibration, and Communication](units/unit-02-sound-vibration-communication/README.md) — available draft; educator review pending.
 - [Unit 03 — Light, Visibility, Shadows, and Materials](units/unit-03-light-visibility-shadows-materials/README.md) — available draft; educator review pending.
-- [Unit 05 — Parent–Offspring Similarities and Behavior](units/unit-05-parent-offspring-similarities-behavior/README.md) — available draft in this branch; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

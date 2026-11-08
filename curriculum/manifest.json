@@ -214,6 +214,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/assets/beaver-dam-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/lessons/lesson-01-information-books-tell-true-things.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/lessons/lesson-02-headings-and-table-of-contents.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/lessons/lesson-03-pictures-labels-and-captions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/lessons/lesson-04-words-we-do-not-know-yet.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/lessons/lesson-05-why-beavers-build.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/lessons/lesson-06-two-books-one-topic.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-1/math/README.md",
       "kind": "subject-index"
     },
@@ -14639,17 +14703,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 197,
-    "answer-key": 197,
-    "assessment": 214,
-    "quiz": 407,
-    "assets": 198,
-    "asset": 285,
-    "lesson": 1059,
-    "practice": 197,
-    "project": 197,
-    "resource-pack": 197,
-    "teacher-guide": 197,
+    "unit-index": 198,
+    "answer-key": 198,
+    "assessment": 215,
+    "quiz": 408,
+    "assets": 199,
+    "asset": 286,
+    "lesson": 1065,
+    "practice": 198,
+    "project": 198,
+    "resource-pack": 198,
+    "teacher-guide": 198,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
