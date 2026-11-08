@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -115,6 +115,7 @@ requirements were specified.
 
 - [Unit 01 — Advanced Close Reading: Critical Lenses and Interpretation](units/unit-01-critical-lenses-and-interpretation/README.md) — available draft; educator review pending.
 - [Unit 02 — Comparative World Literature and Historical Context](units/unit-02-comparative-world-literature/README.md) — available draft; educator review pending.
+- [Unit 03 — Rhetorical Analysis: Argument and Media Criticism](units/unit-03-rhetorical-analysis-media-criticism/README.md) — available draft in this run's draft PR; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

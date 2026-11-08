@@ -2426,6 +2426,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/assets/rhetoric-media-criticism-scene.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-01-rhetorical-situation-appeals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-02-point-of-view-style-power.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-03-argument-structure.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-04-fallacies-reasoning.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-05-media-criticism-sift.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/lessons/lesson-06-evaluating-a-speaker-seminar.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/language-arts/units/unit-03-rhetorical-analysis-media-criticism/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/math/README.md",
       "kind": "subject-index"
     },
@@ -11775,17 +11839,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 152,
-    "answer-key": 152,
-    "assessment": 166,
-    "quiz": 365,
-    "assets": 153,
-    "asset": 219,
-    "lesson": 815,
-    "practice": 152,
-    "project": 152,
-    "resource-pack": 152,
-    "teacher-guide": 152,
+    "unit-index": 153,
+    "answer-key": 153,
+    "assessment": 167,
+    "quiz": 366,
+    "assets": 154,
+    "asset": 220,
+    "lesson": 821,
+    "practice": 153,
+    "project": 153,
+    "resource-pack": 153,
+    "teacher-guide": 153,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
