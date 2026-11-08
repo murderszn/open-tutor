@@ -9798,6 +9798,94 @@
       "kind": "unit-text"
     },
     {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assessments/week-13_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/assets/one-source-many-screens.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-01-central-idea-and-development.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-02-rhetoric-and-purpose.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-03-evaluating-arguments.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-04-seminal-documents.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-05-media-literacy.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/lessons/lesson-06-evaluation-essay.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/assessment-passage.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/fallacy-set.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/gettysburg-address-and-response.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/library-hours-editorial.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/three-reports-one-announcement.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-03-informational-rhetoric-argument-media-literacy/texts/two-editorials.md",
+      "kind": "unit-text"
+    },
+    {
       "path": "grade-9/math/README.md",
       "kind": "subject-index"
     },
@@ -11211,18 +11299,18 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 144,
-    "answer-key": 144,
-    "assessment": 155,
+    "unit-index": 145,
+    "answer-key": 145,
+    "assessment": 157,
     "quiz": 360,
-    "assets": 145,
-    "asset": 206,
-    "lesson": 770,
-    "practice": 144,
-    "project": 144,
-    "resource-pack": 144,
-    "teacher-guide": 144,
-    "unit-text": 15,
+    "assets": 146,
+    "asset": 207,
+    "lesson": 776,
+    "practice": 145,
+    "project": 145,
+    "resource-pack": 145,
+    "teacher-guide": 145,
+    "unit-text": 21,
     "new-assignment": 31,
     "template": 14,
     "hints": 2,
