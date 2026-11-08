@@ -14190,6 +14190,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/assets/rope-wave-scene.webp",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/assets/wave-anatomy.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/lessons/lesson-01-what-is-a-wave.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/lessons/lesson-02-wave-anatomy-and-wave-math.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/lessons/lesson-03-sound-needs-a-medium.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/lessons/lesson-04-light-meets-a-material.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/lessons/lesson-05-electromagnetic-spectrum.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/lessons/lesson-06-analog-vs-digital-signals.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-8/science/units/unit-04-waves-sound-light-information/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-8/science/units/unit-05-electric-magnetic-interactions-circuits/README.md",
       "kind": "unit-index"
     },
@@ -17211,17 +17279,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 237,
-    "answer-key": 237,
-    "assessment": 257,
-    "quiz": 444,
-    "assets": 238,
-    "asset": 349,
-    "lesson": 1278,
-    "practice": 237,
-    "project": 237,
-    "resource-pack": 237,
-    "teacher-guide": 237,
+    "unit-index": 238,
+    "answer-key": 238,
+    "assessment": 258,
+    "quiz": 445,
+    "assets": 239,
+    "asset": 351,
+    "lesson": 1284,
+    "practice": 238,
+    "project": 238,
+    "resource-pack": 238,
+    "teacher-guide": 238,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
