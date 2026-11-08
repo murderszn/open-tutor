@@ -13,7 +13,7 @@ See also: [curriculum index](../README.md).
 
 ## Subject tracks
 
-- [Mathematics](math/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
+- [Mathematics](math/README.md) — Units 01, 02, 03, 05 available as drafts in this branch (Unit 04 in draft PR #285, not yet merged); remaining units planned.
 - [Science](science/README.md) — Units 01, 02 available as drafts; remaining units planned.
 - [Language arts](language-arts/README.md) — Units 01, 02 available as drafts; remaining units planned.
 - [Social studies](social-studies/README.md) — Units 01, 02 available as drafts; remaining units planned.

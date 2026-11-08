@@ -3,7 +3,7 @@
 Audit section A00 of [issue #50](https://github.com/murderszn/open-tutor/issues/50).
 Status: **validated draft** (this document, the track README, and the grade-11
 hub page); Units 01–03 delivered as validated drafts (Unit 02 in
-PR #179; files available in this repository), units 04–08 planned, not yet written.
+PR #179; files available in this repository), Unit 04 delivered in draft PR #285 (not yet merged), Unit 05 delivered in this branch, units 06–08 planned, not yet written.
 
 ## 1. Audit: existing-file inventory
 
@@ -744,9 +744,11 @@ options for function graphs.
 
 ## 9. Remaining sections
 
-Issue #50's next section is **U04 — Radical functions and equations**
-(four to six written lessons, investigation, quiz, assessment, keys,
-Resource Pack, generated image), then U05–U08 in prerequisite order,
-then R00 (diagnostic, midyear/final review, cumulative assessment and
-keys). Units 01–03 are delivered as validated drafts (Unit 02 in
-PR #179; files available in this repository).
+Issue #50's next section is **U06 — Trigonometric functions and
+periodic models** (four to six written lessons, investigation, quiz,
+assessment, keys, Resource Pack, generated image), then U07–U08 in
+prerequisite order, then R00 (diagnostic, midyear/final review,
+cumulative assessment and keys). Units 01–03 are delivered as
+validated drafts (Unit 02 in PR #179; files available in this
+repository); Unit 04 is delivered in draft PR #285 (not yet merged)
+and Unit 05 in this branch.

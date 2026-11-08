@@ -2346,6 +2346,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/assessments/week-22_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/assets/exponential-logarithm-graphs.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/assets/lily-pond-doubling.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/lessons/lesson-01-exponential-functions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/lessons/lesson-02-comparing-growth.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/lessons/lesson-03-logarithms-as-inverses.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/lessons/lesson-04-logarithm-properties.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/lessons/lesson-05-solving-equations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/lessons/lesson-06-logarithmic-graphs-and-modeling.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-11/math/units/unit-05-exponential-logarithmic-functions-models/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-11/science/README.md",
       "kind": "subject-index"
     },
@@ -14327,17 +14395,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 192,
-    "answer-key": 192,
-    "assessment": 209,
-    "quiz": 402,
-    "assets": 193,
-    "asset": 279,
-    "lesson": 1032,
-    "practice": 192,
-    "project": 192,
-    "resource-pack": 192,
-    "teacher-guide": 192,
+    "unit-index": 193,
+    "answer-key": 193,
+    "assessment": 210,
+    "quiz": 403,
+    "assets": 194,
+    "asset": 281,
+    "lesson": 1038,
+    "practice": 193,
+    "project": 193,
+    "resource-pack": 193,
+    "teacher-guide": 193,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

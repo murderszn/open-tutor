@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03, 05 are available as drafts in the repository (Unit 04 is delivered as a validated draft in PR #283). Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -71,7 +71,6 @@ of state adoption, accreditation, or alignment certification). Full crosswalk in
 - [Unit 01 — Observing, Describing, and Asking Questions](units/unit-01-observing-describing-asking-questions/README.md) — available draft; educator review pending.
 - [Unit 02 — Pushes, Pulls, and Moving Objects](units/unit-02-pushes-pulls-moving-objects/README.md) — available draft; educator review pending.
 - [Unit 03 — Comparing Materials and Designing Simple Solutions](units/unit-03-comparing-materials-designing-solutions/README.md) — available draft; educator review pending.
-- [Unit 05 — Animal Needs, Habitats, and Patterns](units/unit-05-animal-needs-habitats-patterns/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
