@@ -11834,6 +11834,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/assets/market-scene-sentences.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/lessons/lesson-01-phrases-clauses.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/lessons/lesson-02-sentence-types.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/lessons/lesson-03-modifiers.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/lessons/lesson-04-commas-spelling.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/lessons/lesson-05-precise-concise.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/lessons/lesson-06-vocabulary-strategies.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-7/language-arts/units/unit-04-grammar-clauses-sentences-vocabulary/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-7/language-arts/units/unit-05-narrative-craft-scene-dialogue-revision/README.md",
       "kind": "unit-index"
     },
@@ -17147,17 +17211,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 236,
-    "answer-key": 236,
-    "assessment": 256,
-    "quiz": 443,
-    "assets": 237,
-    "asset": 348,
-    "lesson": 1272,
-    "practice": 236,
-    "project": 236,
-    "resource-pack": 236,
-    "teacher-guide": 236,
+    "unit-index": 237,
+    "answer-key": 237,
+    "assessment": 257,
+    "quiz": 444,
+    "assets": 238,
+    "asset": 349,
+    "lesson": 1278,
+    "practice": 237,
+    "project": 237,
+    "resource-pack": 237,
+    "teacher-guide": 237,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
