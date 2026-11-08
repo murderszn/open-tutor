@@ -1,7 +1,7 @@
 # Grade 3 Social Studies — Scope and Sequence
 
 Audit section A00 of [issue #21](https://github.com/murderszn/open-tutor/issues/21).
-Status: **validated draft** (this document and the track README); units planned, not yet written.
+Status: **validated draft** (this document and the track README); Units 01–03 delivered as drafts and merged, Unit 04 delivered as draft PR #300 (pending merge), Unit 05 delivered as a draft in this run's PR (see issue #21); Units 06–08 and R00 planned, not yet written.
 
 ## 1. Audit: existing-file inventory
 
