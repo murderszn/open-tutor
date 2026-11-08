@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -11,13 +11,13 @@ one grade-7 learner at a time; a guiding adult adapts pacing, materials, and
 supports. Keep completed learner work, names, photos, schedules, and grades in
 private storage — never in this public repository.
 
-`units/` — eight units; Units 01–04 delivered as validated drafts (not
-educator-reviewed, not merged), units 5–8 planned (not yet written):
+`units/` — eight units; Units 01–03 delivered as validated drafts (not
+educator-reviewed, not merged), units 4–8 planned (not yet written):
 
 1. [Scientific evidence, microscopy, and cell models](units/unit-01-scientific-evidence-microscopy-cell-models/README.md) — draft
 2. Cell structures, functions, and organism organization
 3. [Photosynthesis, respiration, and matter-energy flow](units/unit-03-photosynthesis-respiration-matter-energy-flow/README.md) — draft
-4. [Reproduction, inheritance, and genetic variation](units/unit-04-reproduction-inheritance-genetic-variation/README.md) — draft
+4. Reproduction, inheritance, and genetic variation
 5. Natural selection, adaptation, and evolutionary evidence
 6. Ecosystem interactions, populations, and biodiversity
 7. Human body systems and homeostasis
@@ -33,7 +33,6 @@ track](../README.md), [curriculum index](../../README.md).
 - [Unit 01 — Scientific Evidence, Microscopy, and Cell Models](units/unit-01-scientific-evidence-microscopy-cell-models/README.md) — available draft; educator review pending.
 - [Unit 02 — Cell Structures, Functions, and Organism Organization](units/unit-02-cell-structures-functions-organization/README.md) — available draft; educator review pending.
 - [Unit 03 — Photosynthesis, Respiration, and Matter–Energy Flow](units/unit-03-photosynthesis-respiration-matter-energy-flow/README.md) — available draft; educator review pending.
-- [Unit 04 — Reproduction, Inheritance, and Genetic Variation](units/unit-04-reproduction-inheritance-genetic-variation/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
