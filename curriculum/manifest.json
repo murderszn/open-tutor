@@ -8842,6 +8842,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assets/asia-map.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assets/asia-timeline.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/assets/monsoon-river-valley-terraces.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-01-geography-monsoons-rivers.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-02-indus-cities-later-kingdoms.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-03-belief-systems-spread.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-04-china-dynasties-bureaucracy.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/lessons/lesson-05-comparing-two-societies.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-6/social-studies/units/unit-04-ancient-south-east-asian-societies/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-7/README.md",
       "kind": "grade-index"
     },
@@ -13043,17 +13111,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 172,
-    "answer-key": 172,
-    "assessment": 187,
-    "quiz": 384,
-    "assets": 173,
-    "asset": 247,
-    "lesson": 924,
-    "practice": 172,
-    "project": 172,
-    "resource-pack": 172,
-    "teacher-guide": 172,
+    "unit-index": 173,
+    "answer-key": 173,
+    "assessment": 188,
+    "quiz": 385,
+    "assets": 174,
+    "asset": 250,
+    "lesson": 929,
+    "practice": 173,
+    "project": 173,
+    "resource-pack": 173,
+    "teacher-guide": 173,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
