@@ -5382,6 +5382,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/assets/maple-lane-market.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/lessons/lesson-01-wants-needs-and-scarcity.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/lessons/lesson-02-benefits-and-costs-of-a-choice.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/lessons/lesson-03-work-skills-and-income.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/lessons/lesson-04-prices-money-and-the-market.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/lessons/lesson-05-saving-banks-trade-and-government-services.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/social-studies/units/unit-05-work-resources-trade-economic-choices/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-3/README.md",
       "kind": "grade-index"
     },
@@ -14951,17 +15011,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 202,
-    "answer-key": 202,
-    "assessment": 219,
-    "quiz": 412,
-    "assets": 203,
-    "asset": 290,
-    "lesson": 1087,
-    "practice": 202,
-    "project": 202,
-    "resource-pack": 202,
-    "teacher-guide": 202,
+    "unit-index": 203,
+    "answer-key": 203,
+    "assessment": 220,
+    "quiz": 413,
+    "assets": 204,
+    "asset": 291,
+    "lesson": 1092,
+    "practice": 203,
+    "project": 203,
+    "resource-pack": 203,
+    "teacher-guide": 203,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
