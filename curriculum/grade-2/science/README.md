@@ -103,9 +103,6 @@ real thing is unsafe, unavailable, or inaccessible.
 - [Unit 01 — Measurement, Fair Comparisons, and Recording Evidence](units/unit-01-measurement-fair-comparisons/README.md) — available draft; educator review pending.
 - [Unit 02 — Material Properties and Uses](units/unit-02-material-properties-and-uses/README.md) — available draft; educator review pending.
 - [Unit 03 — Heating, Cooling, and Reversible Changes](units/unit-03-heating-cooling-reversible-changes/README.md) — available draft; educator review pending.
-- [Unit 05 — Biodiversity and Local Living Things](units/unit-05-biodiversity-and-local-living-things/README.md) — available draft; educator review pending.
-
-Unit 04 — Seed Dispersal, Plant Needs, and Habitats — is in review as draft PR #292 and will appear here once merged.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

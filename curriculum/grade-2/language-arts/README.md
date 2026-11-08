@@ -2,8 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
-The remaining units and R00 review package are planned; this is not a complete course.
+Units 01, 02, 03, and 05 are available as drafts in the repository.
+Educator review is pending. The remaining units and R00 review package
+are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained for
@@ -118,6 +119,7 @@ of state adoption or accreditation). Full crosswalk in
 - [Unit 01 — Phonics: Vowel Teams, Syllables, and Word Parts](units/unit-01-vowel-teams-syllables-and-word-parts/README.md) — available draft; educator review pending.
 - [Unit 02 — Fluency, Vocabulary, and Comprehension Monitoring](units/unit-02-fluency-vocabulary-comprehension-monitoring/README.md) — available draft; educator review pending.
 - [Unit 03 — Story Structure, Characters, and Multiple Perspectives](units/unit-03-story-structure-characters-perspectives/README.md) — available draft; educator review pending.
+- [Unit 05 — Grammar, Sentence Expansion, and Conventions](units/unit-05-grammar-sentence-expansion-conventions/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

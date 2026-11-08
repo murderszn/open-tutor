@@ -4418,6 +4418,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/assets/park-scene-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/lessons/lesson-01-collective-nouns.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/lessons/lesson-02-irregular-plurals-and-reflexive-pronouns.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/lessons/lesson-03-adjectives-and-adverbs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/lessons/lesson-04-irregular-past-tense-and-expanding-sentences.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/lessons/lesson-05-capitals-and-commas-in-letters.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/lessons/lesson-06-apostrophes-contractions-and-possessives.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-2/language-arts/units/unit-05-grammar-sentence-expansion-conventions/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-2/math/README.md",
       "kind": "subject-index"
     },
@@ -14887,17 +14951,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 201,
-    "answer-key": 201,
-    "assessment": 218,
-    "quiz": 411,
-    "assets": 202,
-    "asset": 289,
-    "lesson": 1081,
-    "practice": 201,
-    "project": 201,
-    "resource-pack": 201,
-    "teacher-guide": 201,
+    "unit-index": 202,
+    "answer-key": 202,
+    "assessment": 219,
+    "quiz": 412,
+    "assets": 203,
+    "asset": 290,
+    "lesson": 1087,
+    "practice": 202,
+    "project": 202,
+    "resource-pack": 202,
+    "teacher-guide": 202,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
