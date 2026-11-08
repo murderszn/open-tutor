@@ -214,6 +214,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/assets/milo-red-boat-pond.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/lessons/lesson-01-reread-like-a-storyteller.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/lessons/lesson-02-ask-and-answer-key-detail-questions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/lessons/lesson-03-retell-beginning-middle-end.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/lessons/lesson-04-characters-settings-events-and-the-lesson.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/lessons/lesson-05-feeling-words-sense-words-and-who-tells-the-story.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/lessons/lesson-06-compare-adventures-storybook-or-information-book.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/language-arts/units/unit-04-fluency-retelling-characters-and-key-details/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-1/language-arts/units/unit-05-informational-reading-topics-and-text-features/README.md",
       "kind": "unit-index"
     },
@@ -16707,17 +16771,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 229,
-    "answer-key": 229,
-    "assessment": 248,
-    "quiz": 437,
-    "assets": 230,
-    "asset": 338,
-    "lesson": 1235,
-    "practice": 229,
-    "project": 229,
-    "resource-pack": 229,
-    "teacher-guide": 229,
+    "unit-index": 230,
+    "answer-key": 230,
+    "assessment": 249,
+    "quiz": 438,
+    "assets": 231,
+    "asset": 339,
+    "lesson": 1241,
+    "practice": 230,
+    "project": 230,
+    "resource-pack": 230,
+    "teacher-guide": 230,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
