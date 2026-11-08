@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 03, 04 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -103,6 +103,7 @@ real thing is unsafe, unavailable, or inaccessible.
 - [Unit 01 — Measurement, Fair Comparisons, and Recording Evidence](units/unit-01-measurement-fair-comparisons/README.md) — available draft; educator review pending.
 - [Unit 02 — Material Properties and Uses](units/unit-02-material-properties-and-uses/README.md) — available draft; educator review pending.
 - [Unit 03 — Heating, Cooling, and Reversible Changes](units/unit-03-heating-cooling-reversible-changes/README.md) — available draft; educator review pending.
+- [Unit 04 — Seed Dispersal, Plant Needs, and Habitats](units/unit-04-seed-dispersal-plant-needs-and-habitats/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
