@@ -2,7 +2,7 @@
 
 Audit section A00 of [issue #54](https://github.com/murderszn/open-tutor/issues/54).
 Status: **validated draft** (this document, the track README, and the grade-12
-hub page); Units 01–02 are on `main`; Unit 03 is in open draft PR #278; Unit 04 is delivered in this draft PR; Units 05–08 and R00 remain planned.
+hub page); the eight units are planned, not yet written.
 
 ## 1. Audit: existing-file inventory
 

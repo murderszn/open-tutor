@@ -2026,6 +2026,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/assets/sentence-strips-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/lessons/lesson-01-syntax-as-style.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/lessons/lesson-02-word-choice-connotation-tone.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/lessons/lesson-03-figurative-language-tone.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/lessons/lesson-04-contested-usage.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/lessons/lesson-05-stylistic-analysis-essay.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-11/language-arts/units/unit-04-language-rhetoric-syntax-stylistic-analysis/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-11/math/README.md",
       "kind": "subject-index"
     },
@@ -13899,17 +13959,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 185,
-    "answer-key": 185,
-    "assessment": 202,
-    "quiz": 395,
-    "assets": 186,
-    "asset": 271,
-    "lesson": 996,
-    "practice": 185,
-    "project": 185,
-    "resource-pack": 185,
-    "teacher-guide": 185,
+    "unit-index": 186,
+    "answer-key": 186,
+    "assessment": 203,
+    "quiz": 396,
+    "assets": 187,
+    "asset": 272,
+    "lesson": 1001,
+    "practice": 186,
+    "project": 186,
+    "resource-pack": 186,
+    "teacher-guide": 186,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
