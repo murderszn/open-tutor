@@ -10018,6 +10018,74 @@
    "kind": "teacher-guide"
   },
   {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/README.md",
+   "kind": "unit-index"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/answer-key.md",
+   "kind": "answer-key"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assessments/unit-assessment.md",
+   "kind": "assessment"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assessments/week-14_quiz.md",
+   "kind": "quiz"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assets/README.md",
+   "kind": "assets"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assets/sunlit-plant-inputs.png",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/assets/energy-matter-cycle.svg",
+   "kind": "asset"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-01-photosynthesis-energy-transformation.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-02-inside-leaf-chloroplasts-two-stages.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-03-cellular-respiration-bonds-net-energy.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-04-aerobic-anaerobic-fermentation-evidence.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-05-matter-energy-through-ecosystems.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/lessons/lesson-06-energy-flow-vs-matter-cycling-models.md",
+   "kind": "lesson"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/practice.md",
+   "kind": "practice"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/project.md",
+   "kind": "project"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/resource-pack.md",
+   "kind": "resource-pack"
+  },
+  {
+   "path": "grade-9/science/units/unit-03-photosynthesis-respiration-energy/teacher-guide.md",
+   "kind": "teacher-guide"
+  },
+  {
    "path": "grade-9/social-studies/README.md",
    "kind": "subject-index"
   },

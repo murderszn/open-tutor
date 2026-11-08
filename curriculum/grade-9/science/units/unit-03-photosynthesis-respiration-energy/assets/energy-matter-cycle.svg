@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-label="Photosynthesis and cellular respiration cycle diagram">
+  <rect x="0" y="0" width="760" height="430" fill="#ffffff"/>
+  <text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#111111">Photosynthesis and respiration: matter cycles, energy flows one way</text>
+  <!-- Photosynthesis box -->
+  <rect x="40" y="70" width="300" height="120" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+  <text x="190" y="98" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#111111">PHOTOSYNTHESIS (in chloroplasts)</text>
+  <text x="190" y="125" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#111111">carbon dioxide + water + light energy</text>
+  <text x="190" y="150" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#111111">→ sugar + oxygen (stored chemical energy)</text>
+  <text x="190" y="175" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333333">Matter in = matter out. Energy stored in sugar bonds.</text>
+  <!-- Respiration box -->
+  <rect x="420" y="70" width="300" height="120" rx="10" fill="#fff3e0" stroke="#e65100" stroke-width="2"/>
+  <text x="570" y="98" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#111111">CELLULAR RESPIRATION (in cells)</text>
+  <text x="570" y="125" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#111111">sugar + oxygen</text>
+  <text x="570" y="150" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#111111">→ carbon dioxide + water + usable energy + heat</text>
+  <text x="570" y="175" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333333">Bonds break, new bonds form. Net energy released.</text>
+  <!-- Cycle arrows -->
+  <path d="M 340 130 L 415 130" stroke="#111111" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="378" y="118" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#111111">sugar + oxygen</text>
+  <path d="M 570 205 L 570 250 L 190 250 L 190 195" stroke="#111111" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <text x="380" y="240" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#111111">carbon dioxide + water return to photosynthesis</text>
+  <!-- Feeding arrow -->
+  <rect x="40" y="290" width="300" height="70" rx="10" fill="#e3f2fd" stroke="#1565c0" stroke-width="2"/>
+  <text x="190" y="318" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#111111">FEEDING: animal eats plant sugar</text>
+  <text x="190" y="342" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333333">Carbon and energy move to the animal. Matter keeps cycling.</text>
+  <path d="M 190 250 L 190 285" stroke="#111111" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <!-- Heat loss -->
+  <rect x="420" y="290" width="300" height="70" rx="10" fill="#fce4ec" stroke="#ad1457" stroke-width="2"/>
+  <text x="570" y="318" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="bold" fill="#111111">HEAT LOSS: energy leaves the system</text>
+  <text x="570" y="342" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333333">Heat does NOT return. Energy flows one way; it is not recycled.</text>
+  <path d="M 570 195 L 570 285" stroke="#111111" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#111111"/>
+    </marker>
+  </defs>
+  <text x="380" y="405" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333333">Deterministic diagram: no measurements, no scale. Carbon atoms are reused; usable energy is not.</text>
+</svg>
