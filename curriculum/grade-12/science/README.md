@@ -2,7 +2,8 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, and 04 are available as drafts in the repository. Educator review is pending.
+Unit 03 is delivered in open draft PR #279 and is not yet merged.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -17,6 +18,7 @@ See also: [Grade 12 track](../README.md), [curriculum index](../../README.md).
 
 - [Unit 01 — Earth-System Evidence, Geologic Time, and Quantitative Models](units/unit-01-earth-time-evidence/README.md) — available draft; educator review pending.
 - [Unit 02 — Plate Tectonics, Resources, and Landscape Processes](units/unit-02-plate-tectonics-resources-landscapes/README.md) — available draft; educator review pending.
+- [Unit 04 — Climate Evidence, Feedbacks, and Uncertainty](units/unit-04-climate-evidence-feedbacks-uncertainty/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

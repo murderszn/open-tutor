@@ -123,6 +123,5 @@ elsewhere in the repository (full table in
 
 - [Unit 01 — Foundations of Constitutional Government and Political Ideas](units/unit-01-foundations-of-constitutional-government/README.md) — available draft; educator review pending.
 - [Unit 02 — The Constitution, Federalism, and Institutional Powers](units/unit-02-constitution-federalism-institutional-powers/README.md) — available draft; educator review pending.
-- [Unit 04 — Elections, Representation, Participation, and Political Parties](units/unit-04-elections-representation-participation-parties/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
