@@ -786,6 +786,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/assets/plant-animal-parts-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/assets/plant-animal-parts.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/lessons/lesson-01-plant-parts.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/lessons/lesson-02-animal-parts.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/lessons/lesson-03-parts-meet-needs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/lessons/lesson-04-design-a-tool.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/lessons/lesson-05-test-and-compare.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-1/science/units/unit-04-external-structures-plants-animals/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-1/science/units/unit-05-parent-offspring-similarities-behavior/README.md",
       "kind": "unit-index"
     },
@@ -16643,17 +16707,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 228,
-    "answer-key": 228,
-    "assessment": 247,
-    "quiz": 436,
-    "assets": 229,
-    "asset": 336,
-    "lesson": 1230,
-    "practice": 228,
-    "project": 228,
-    "resource-pack": 228,
-    "teacher-guide": 228,
+    "unit-index": 229,
+    "answer-key": 229,
+    "assessment": 248,
+    "quiz": 437,
+    "assets": 230,
+    "asset": 338,
+    "lesson": 1235,
+    "practice": 229,
+    "project": 229,
+    "resource-pack": 229,
+    "teacher-guide": 229,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Labeled diagram: plant and animal external parts</title>
+<desc id="desc">A sunflower plant with labels for flower, leaf, stem, and roots, and a duck and fish with labels for beak, wing, webbed foot, tail, and fin.</desc>
+<rect width="900" height="520" fill="white"/>
+<!-- Plant -->
+<g stroke="#2e7d32" stroke-width="10" stroke-linecap="round">
+<line x1="220" y1="150" x2="220" y2="380"/>
+<line x1="220" y1="240" x2="150" y2="200"/>
+<line x1="220" y1="220" x2="300" y2="180"/>
+</g>
+<g fill="#fdd835">
+<circle cx="220" cy="110" r="46"/>
+</g>
+<g fill="#4caf50">
+<ellipse cx="140" cy="195" rx="55" ry="28" transform="rotate(-20 140 195)"/>
+<ellipse cx="310" cy="175" rx="60" ry="30" transform="rotate(15 310 175)"/>
+</g>
+<rect x="60" y="380" width="320" height="90" fill="#8d6e63"/>
+<g stroke="white" stroke-width="4" fill="none">
+<path d="M220 380 L180 450 M220 380 L260 445 M220 380 L150 430 M220 380 L290 425"/>
+</g>
+<!-- Plant labels -->
+<g font-family="sans-serif" font-size="20" fill="#222">
+<text x="300" y="105">Flower</text><line x1="292" y1="102" x2="268" y2="105" stroke="#222" stroke-width="1.5"/>
+<text x="330" y="175">Leaf</text><line x1="325" y1="172" x2="310" y2="175" stroke="#222" stroke-width="1.5"/>
+<text x="250" y="300">Stem</text><line x1="245" y1="297" x2="228" y2="297" stroke="#222" stroke-width="1.5"/>
+<text x="300" y="430">Roots</text><line x1="295" y1="427" x2="260" y2="430" stroke="#222" stroke-width="1.5"/>
+</g>
+<!-- Duck -->
+<g fill="#8d6e63">
+<ellipse cx="620" cy="260" rx="95" ry="70"/>
+<circle cx="580" cy="175" r="42"/>
+<path d="M540 175 L495 185 L540 195 Z" fill="#ffb300"/>
+<ellipse cx="650" cy="270" rx="55" ry="28"/>
+<path d="M705 230 L740 210 L720 245 Z"/>
+</g>
+<g fill="#ff8f00">
+<rect x="585" y="325" width="16" height="45"/>
+<rect x="635" y="325" width="16" height="45"/>
+<ellipse cx="593" cy="375" rx="28" ry="10"/>
+<ellipse cx="643" cy="375" rx="28" ry="10"/>
+</g>
+<circle cx="572" cy="168" r="5" fill="#222"/>
+<!-- Duck labels -->
+<g font-family="sans-serif" font-size="20" fill="#222">
+<text x="440" y="150">Beak</text><line x1="495" y1="152" x2="510" y2="170" stroke="#222" stroke-width="1.5"/>
+<text x="720" y="270">Wing</text><line x1="715" y1="267" x2="695" y2="268" stroke="#222" stroke-width="1.5"/>
+<text x="745" y="215">Tail</text><line x1="740" y1="212" x2="725" y2="220" stroke="#222" stroke-width="1.5"/>
+<text x="680" y="410">Webbed foot</text><line x1="675" y1="407" x2="650" y2="382" stroke="#222" stroke-width="1.5"/>
+</g>
+<!-- Fish -->
+<g fill="#ff8f00">
+<ellipse cx="620" cy="470" rx="55" ry="22"/>
+<path d="M672 470 L705 450 L705 490 Z"/>
+<path d="M600 450 Q620 438 640 450 Z"/>
+</g>
+<circle cx="585" cy="466" r="4" fill="#222"/>
+<g font-family="sans-serif" font-size="20" fill="#222">
+<text x="730" y="475">Fin / tail</text><line x1="725" y1="472" x2="690" y2="470" stroke="#222" stroke-width="1.5"/>
+</g>
+<text x="20" y="505" font-family="sans-serif" font-size="15" fill="#555">Diagram — not a photograph. Plant (left), duck (right), fish (bottom right).</text>
+</svg>
