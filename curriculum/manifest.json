@@ -8834,6 +8834,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/assessments/week-04_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/assets/fraction-area-model-2-thirds-x-3-fourths.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/assets/fraction-garden-area-model.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/lessons/lesson-01-whole-number-times-fraction.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/lessons/lesson-02-fraction-times-fraction-area-models.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/lessons/lesson-03-scaling-products.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/lessons/lesson-04-mixed-numbers-real-world-problems.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/lessons/lesson-05-dividing-unit-fractions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-5/math/units/unit-05-fraction-multiplication-division-models/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-5/science/README.md",
       "kind": "subject-index"
     },
@@ -13058,6 +13122,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assets/expansion-timeline-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/assets/mississippi-flatboat-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-01-two-visions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-02-first-party-system.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-03-louisiana-purchase.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-04-war-1812-monroe.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-05-removal-law-courts.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/lessons/lesson-06-expansions-price.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-8/social-studies/units/unit-04-early-republic-expansion-displacement/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-8/stem/README.md",
       "kind": "subject-index"
     },
@@ -15391,17 +15523,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 209,
-    "answer-key": 209,
-    "assessment": 226,
-    "quiz": 419,
-    "assets": 210,
-    "asset": 300,
-    "lesson": 1124,
-    "practice": 209,
-    "project": 209,
-    "resource-pack": 209,
-    "teacher-guide": 209,
+    "unit-index": 211,
+    "answer-key": 211,
+    "assessment": 229,
+    "quiz": 420,
+    "assets": 212,
+    "asset": 304,
+    "lesson": 1135,
+    "practice": 211,
+    "project": 211,
+    "resource-pack": 211,
+    "teacher-guide": 211,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
