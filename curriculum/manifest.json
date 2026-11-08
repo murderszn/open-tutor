@@ -4682,6 +4682,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assessments/week-04_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assets/two-step-model.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/assets/two-step-school-store.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-01-two-steps-one-story-at-a-time.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-02-letters-for-the-unknown.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-03-which-operation-each-step-needs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-04-is-that-answer-reasonable.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-05-patterns-in-the-multiplication-table.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/lessons/lesson-06-mixed-fluency-and-midyear-readiness.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-3/math/units/unit-04-multiplication-division-and-two-step-problems/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-3/science/README.md",
       "kind": "subject-index"
     },
@@ -12339,17 +12407,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 161,
-    "answer-key": 161,
-    "assessment": 175,
-    "quiz": 374,
-    "assets": 162,
-    "asset": 230,
-    "lesson": 864,
-    "practice": 161,
-    "project": 161,
-    "resource-pack": 161,
-    "teacher-guide": 161,
+    "unit-index": 162,
+    "answer-key": 162,
+    "assessment": 176,
+    "quiz": 375,
+    "assets": 163,
+    "asset": 232,
+    "lesson": 870,
+    "practice": 162,
+    "project": 162,
+    "resource-pack": 162,
+    "teacher-guide": 162,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
