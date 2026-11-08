@@ -325,12 +325,6 @@ revise, so grammar is taught as an editing toolkit, not isolated drills.
 *Re-verified legacy seeds: the two mechanics quizzes (active/passive voice;
 semicolons/colons/conjunctive adverbs).*
 
-**Delivered as a validated draft 2026-11-02**
-([units/unit-04-grammar-voice-verbals-punctuation/](units/unit-04-grammar-voice-verbals-punctuation/):
-README, 6 lessons, practice sessions, project with rubric, resource pack,
-formative quiz, unit assessment, teacher guide, answer key, generated
-illustration with assets record).
-
 - **Week 15:** verbals — gerunds, participles, infinitives — and what they
   do in sentences; sentence variety through subordination.
 - **Week 16:** active vs. passive voice as a stylistic choice; verb moods —

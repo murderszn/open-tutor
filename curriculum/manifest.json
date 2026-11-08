@@ -12586,6 +12586,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assessments/week-16_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assets/british-pig-iron-production.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assets/generation-record.json",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/assets/industrial-mill-town-1840-reconstruction.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/lessons/lesson-01-why-britain-first.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/lessons/lesson-02-factory-labor-urban-life.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/lessons/lesson-03-new-imperialism.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/lessons/lesson-04-resistance-reform-visions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-04-industrialization-capitalism-imperialism/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-k/README.md",
       "kind": "grade-index"
     },
@@ -13443,17 +13507,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 178,
-    "answer-key": 178,
-    "assessment": 193,
-    "quiz": 390,
-    "assets": 179,
-    "asset": 259,
-    "lesson": 958,
-    "practice": 178,
-    "project": 178,
-    "resource-pack": 178,
-    "teacher-guide": 178,
+    "unit-index": 179,
+    "answer-key": 179,
+    "assessment": 194,
+    "quiz": 391,
+    "assets": 180,
+    "asset": 262,
+    "lesson": 962,
+    "practice": 179,
+    "project": 179,
+    "resource-pack": 179,
+    "teacher-guide": 179,
     "unit-text": 26,
     "new-assignment": 31,
     "template": 14,
