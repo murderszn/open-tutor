@@ -1578,6 +1578,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assessments/week-16_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assets/mole-roadmap.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/assets/reaction-bench-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-01-evidence-reaction-types.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-02-balancing-equations.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-03-the-mole.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-04-stoichiometry.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-05-limiting-reactants-percent-yield.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/lessons/lesson-06-midyear-checkpoint.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-10/science/units/unit-04-reactions-balancing-stoichiometry/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-10/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -13639,17 +13707,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 181,
-    "answer-key": 181,
-    "assessment": 198,
-    "quiz": 391,
-    "assets": 182,
-    "asset": 265,
-    "lesson": 973,
-    "practice": 181,
-    "project": 181,
-    "resource-pack": 181,
-    "teacher-guide": 181,
+    "unit-index": 182,
+    "answer-key": 182,
+    "assessment": 199,
+    "quiz": 392,
+    "assets": 183,
+    "asset": 267,
+    "lesson": 979,
+    "practice": 182,
+    "project": 182,
+    "resource-pack": 182,
+    "teacher-guide": 182,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

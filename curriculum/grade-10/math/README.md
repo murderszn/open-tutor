@@ -102,7 +102,6 @@ School conceptual categories (verified against the official framework
 
 - [Unit 01 — Geometry Foundations: Definitions and Proof](units/unit-01-geometry-foundations/README.md) — available draft; educator review pending.
 - [Unit 02 — Congruence, Rigid Motions, and Triangle Reasoning](units/unit-02-congruence-and-triangle-reasoning/README.md) — available draft; educator review pending.
-- [Unit 04 — Right-Triangle Trigonometry and Applications](units/unit-04-right-triangle-trigonometry/README.md) — available draft; educator review pending. Follows Unit 03 (similarity), delivered as draft PR #271 for issue #46 and pending merge; see the unit README for prerequisites.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
