@@ -1834,6 +1834,70 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/assessments/week-16_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/assets/dust-storm-farm-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/assets/unemployment-1929-1940.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/lessons/lesson-01-1920s-prosperity-limits.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/lessons/lesson-02-crash-causes.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/lessons/lesson-03-human-cost-dust-bowl.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/lessons/lesson-04-first-new-deal.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/lessons/lesson-05-second-new-deal-courts-evaluation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-10/social-studies/units/unit-04-1920s-depression-new-deal/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-11/README.md",
       "kind": "grade-index"
     },
@@ -13707,17 +13771,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 182,
-    "answer-key": 182,
-    "assessment": 199,
-    "quiz": 392,
-    "assets": 183,
-    "asset": 267,
-    "lesson": 979,
-    "practice": 182,
-    "project": 182,
-    "resource-pack": 182,
-    "teacher-guide": 182,
+    "unit-index": 183,
+    "answer-key": 183,
+    "assessment": 200,
+    "quiz": 393,
+    "assets": 184,
+    "asset": 269,
+    "lesson": 984,
+    "practice": 183,
+    "project": 183,
+    "resource-pack": 183,
+    "teacher-guide": 183,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
