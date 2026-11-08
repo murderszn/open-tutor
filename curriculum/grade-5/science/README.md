@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02, 03, and 05 are available as drafts in the repository. Unit 04 is delivered as draft PR #304 and is not yet merged. Educator review is pending.
+Units 01, 02, 03 are available as drafts in the repository. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -35,7 +35,6 @@ explicit adult directions for every investigation.
 - [Unit 01 — Models, Measurement, and Controlled Investigations](units/unit-01-measurement-investigations/README.md) — available draft; educator review pending.
 - [Unit 02 — Particle Models, Properties, and Mixtures](units/unit-02-particle-models-properties-mixtures/README.md) — available draft; educator review pending.
 - [Unit 03 — Matter Conservation and Chemical-Change Evidence](units/unit-03-matter-conservation-chemical-change/README.md) — available draft; educator review pending.
-- [Unit 05 — Earth Systems: Spheres and Water Distribution](units/unit-05-earth-systems-water/README.md) — available draft; educator review pending. (Unit 04 is delivered as draft PR #304 and is not yet merged.)
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
