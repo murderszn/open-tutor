@@ -9594,6 +9594,66 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/assessments/week-18_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/assets/meadow-ecosystem.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/lessons/lesson-01-plants-air-water.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/lessons/lesson-02-energy-food-sun.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/lessons/lesson-03-matter-moves-ecosystem.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/lessons/lesson-04-decomposers-at-work.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/lessons/lesson-05-energy-flows-matter-cycles.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-5/science/units/unit-04-energy-food-plants-ecosystems/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-5/science/units/unit-05-earth-systems-water/README.md",
       "kind": "unit-index"
     },
@@ -16963,17 +17023,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 233,
-    "answer-key": 233,
-    "assessment": 253,
-    "quiz": 440,
-    "assets": 234,
-    "asset": 344,
-    "lesson": 1257,
-    "practice": 233,
-    "project": 233,
-    "resource-pack": 233,
-    "teacher-guide": 233,
+    "unit-index": 234,
+    "answer-key": 234,
+    "assessment": 254,
+    "quiz": 441,
+    "assets": 235,
+    "asset": 345,
+    "lesson": 1262,
+    "practice": 234,
+    "project": 234,
+    "resource-pack": 234,
+    "teacher-guide": 234,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
