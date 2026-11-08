@@ -6,7 +6,7 @@ Reusable grade-specific learning materials. Keep completed responses in private 
 
 - [Mathematics](math/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
 - [Science](science/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
-- [Language arts](language-arts/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Language arts](language-arts/README.md) — Units 01, 02, 05 available as drafts; Units 03–04 delivered, restore pending; remaining units planned.
 - [Social studies](social-studies/README.md) — Units 01, 02, 04 available as drafts (Unit 03 in draft PR #268); remaining units planned.
 - [STEM enrichment](stem/README.md) — legacy activities.
 

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">Pacing diagram: three ways to tell the same wait</title>
+  <desc id="desc">Three horizontal bars for the same evening at a station. Summary: one short bar, two hours in two sentences. Scene: one long bar, ten minutes in three hundred words. Scene with flashback: one long bar interrupted by a shaded block for the morning the ticket was bought.</desc>
+  <rect x="0" y="0" width="760" height="300" fill="#ffffff"/>
+  <text x="20" y="28" font-family="sans-serif" font-size="16" font-weight="bold" fill="#111111">Three ways to tell the same wait (one evening at the station)</text>
+
+  <text x="20" y="66" font-family="sans-serif" font-size="13" font-weight="bold" fill="#111111">A. Summary</text>
+  <rect x="180" y="50" width="90" height="24" fill="#8a1a1a"/>
+  <text x="180" y="92" font-family="sans-serif" font-size="12" fill="#111111">Two hours pass — two sentences</text>
+  <text x="20" y="92" font-family="sans-serif" font-size="12" fill="#555555">Story time: 2 hours</text>
+
+  <text x="20" y="136" font-family="sans-serif" font-size="13" font-weight="bold" fill="#111111">B. Scene</text>
+  <rect x="180" y="120" width="520" height="24" fill="#1f4e79"/>
+  <text x="180" y="162" font-family="sans-serif" font-size="12" fill="#111111">Ten minutes at the platform — 300 words of dialogue and action</text>
+  <text x="20" y="162" font-family="sans-serif" font-size="12" fill="#555555">Story time: 10 min</text>
+
+  <text x="20" y="206" font-family="sans-serif" font-size="13" font-weight="bold" fill="#111111">C. Scene + flashback</text>
+  <rect x="180" y="190" width="220" height="24" fill="#1f4e79"/>
+  <rect x="400" y="190" width="140" height="24" fill="#c9a227"/>
+  <rect x="540" y="190" width="160" height="24" fill="#1f4e79"/>
+  <text x="180" y="232" font-family="sans-serif" font-size="12" fill="#111111">Platform, present</text>
+  <text x="400" y="232" font-family="sans-serif" font-size="12" fill="#111111">Flashback: morning,</text>
+  <text x="400" y="248" font-family="sans-serif" font-size="12" fill="#111111">the ticket is bought</text>
+  <text x="540" y="232" font-family="sans-serif" font-size="12" fill="#111111">Back to the platform</text>
+
+  <text x="20" y="284" font-family="sans-serif" font-size="12" font-style="italic" fill="#333333">The facts do not change — only the speed of the telling. Expand what matters; compress the rest.</text>
+</svg>
