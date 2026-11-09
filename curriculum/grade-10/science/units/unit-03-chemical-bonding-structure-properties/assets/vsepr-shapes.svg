@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" font-family="sans-serif">
+<rect width="1200" height="380" fill="#ffffff"/>
+<text x="120" y="40" text-anchor="middle" font-size="20" font-weight="bold">Linear</text>
+<text x="120" y="62" text-anchor="middle" font-size="13">2 domains · 0 lone pairs</text>
+<line x1="120" y1="170" x2="25" y2="170" stroke="#333" stroke-width="3"/>
+<line x1="120" y1="170" x2="215" y2="170" stroke="#333" stroke-width="3"/>
+<circle cx="25" cy="170" r="20" fill="#2a7fff"/>
+<circle cx="215" cy="170" r="20" fill="#2a7fff"/>
+<circle cx="120" cy="170" r="26" fill="#d62828"/>
+<text x="120" y="176" text-anchor="middle" font-size="16" fill="#fff">C</text>
+<text x="360" y="40" text-anchor="middle" font-size="20" font-weight="bold">Trigonal planar</text>
+<text x="360" y="62" text-anchor="middle" font-size="13">3 domains · 0 lone pairs</text>
+<line x1="360" y1="170" x2="360" y2="75" stroke="#333" stroke-width="3"/>
+<line x1="360" y1="170" x2="278" y2="218" stroke="#333" stroke-width="3"/>
+<line x1="360" y1="170" x2="442" y2="218" stroke="#333" stroke-width="3"/>
+<circle cx="360" cy="75" r="20" fill="#2a7fff"/>
+<circle cx="278" cy="218" r="20" fill="#2a7fff"/>
+<circle cx="442" cy="218" r="20" fill="#2a7fff"/>
+<circle cx="360" cy="170" r="26" fill="#d62828"/>
+<text x="360" y="176" text-anchor="middle" font-size="16" fill="#fff">C</text>
+<text x="600" y="40" text-anchor="middle" font-size="20" font-weight="bold">Tetrahedral</text>
+<text x="600" y="62" text-anchor="middle" font-size="13">4 domains · 0 lone pairs</text>
+<line x1="600" y1="170" x2="600" y2="75" stroke="#333" stroke-width="3"/>
+<line x1="600" y1="170" x2="518" y2="218" stroke="#333" stroke-width="3"/>
+<line x1="600" y1="170" x2="682" y2="218" stroke="#333" stroke-width="3"/>
+<line x1="600" y1="170" x2="600" y2="265" stroke="#333" stroke-width="3" stroke-dasharray="6,4"/>
+<circle cx="600" cy="75" r="20" fill="#2a7fff"/>
+<circle cx="518" cy="218" r="20" fill="#2a7fff"/>
+<circle cx="682" cy="218" r="20" fill="#2a7fff"/>
+<circle cx="600" cy="265" r="20" fill="#2a7fff"/>
+<circle cx="600" cy="170" r="26" fill="#d62828"/>
+<text x="600" y="176" text-anchor="middle" font-size="16" fill="#fff">C</text>
+<text x="840" y="40" text-anchor="middle" font-size="20" font-weight="bold">Trigonal pyramidal</text>
+<text x="840" y="62" text-anchor="middle" font-size="13">4 domains · 1 lone pair</text>
+<line x1="840" y1="170" x2="840" y2="265" stroke="#333" stroke-width="3"/>
+<line x1="840" y1="170" x2="758" y2="218" stroke="#333" stroke-width="3"/>
+<line x1="840" y1="170" x2="922" y2="218" stroke="#333" stroke-width="3"/>
+<circle cx="840" cy="265" r="20" fill="#2a7fff"/>
+<circle cx="758" cy="218" r="20" fill="#2a7fff"/>
+<circle cx="922" cy="218" r="20" fill="#2a7fff"/>
+<ellipse cx="840" cy="75" rx="26" ry="14" fill="#ffb703" stroke="#333" stroke-width="1"/>
+<circle cx="840" cy="170" r="26" fill="#d62828"/>
+<text x="840" y="176" text-anchor="middle" font-size="16" fill="#fff">C</text>
+<text x="1080" y="40" text-anchor="middle" font-size="20" font-weight="bold">Bent</text>
+<text x="1080" y="62" text-anchor="middle" font-size="13">4 domains · 2 lone pairs</text>
+<line x1="1080" y1="170" x2="998" y2="218" stroke="#333" stroke-width="3"/>
+<line x1="1080" y1="170" x2="1162" y2="218" stroke="#333" stroke-width="3"/>
+<circle cx="998" cy="218" r="20" fill="#2a7fff"/>
+<circle cx="1162" cy="218" r="20" fill="#2a7fff"/>
+<ellipse cx="1025" cy="90" rx="26" ry="14" fill="#ffb703" stroke="#333" stroke-width="1"/>
+<ellipse cx="1135" cy="90" rx="26" ry="14" fill="#ffb703" stroke="#333" stroke-width="1"/>
+<circle cx="1080" cy="170" r="26" fill="#d62828"/>
+<text x="1080" y="176" text-anchor="middle" font-size="16" fill="#fff">C</text>
+<text x="600" y="330" text-anchor="middle" font-size="14">Red = central atom. Blue = bonded atom (line = one electron domain). Yellow ellipse = lone pair. Tetrahedral 4th bond shown dashed (behind plane).</text>
+<text x="600" y="355" text-anchor="middle" font-size="14">Bond angles: linear 180°, trigonal planar 120°, tetrahedral 109.5°, pyramidal ~107°, bent ~104.5°. Diagram only — not to scale.</text>
+</svg>
