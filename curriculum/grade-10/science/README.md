@@ -2,7 +2,7 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 04 are available as drafts in the repository. Unit 03 is restored in draft PR #378. Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -10,6 +10,7 @@ See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 - [Unit 01 — Chemical Measurement, Lab Methods, and Uncertainty](units/unit-01-chemical-measurement-and-uncertainty/README.md) — available draft; educator review pending.
 - [Unit 02 — Atomic Models, Isotopes, and Periodicity](units/unit-02-atomic-models-isotopes-periodicity/README.md) — available draft; educator review pending.
+- [Unit 04 — Reactions, Balancing, and Stoichiometry](units/unit-04-reactions-balancing-stoichiometry/README.md) — available draft; educator review pending. (Unit 03 is restored in draft PR #378; its index line joins this list when that PR merges.)
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
