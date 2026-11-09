@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-labelledby="title desc">
+  <title id="title">Erie Canal schematic, 1825</title>
+  <desc id="desc">Schematic, not to scale: the Erie Canal runs 363 miles from Albany on the Hudson River to Buffalo on Lake Erie, with 83 locks. Completed October 26, 1825.</desc>
+  <rect width="760" height="300" fill="#f7f3ea"/>
+  <text x="380" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222">The Erie Canal, 1825 — Schematic (not to scale)</text>
+  <!-- Lake Erie -->
+  <ellipse cx="110" cy="150" rx="78" ry="62" fill="#bcd6e8" stroke="#2f5d7a" stroke-width="2"/>
+  <text x="110" y="146" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1d4257">Lake Erie</text>
+  <text x="110" y="166" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#1d4257">Buffalo</text>
+  <!-- Canal -->
+  <line x1="188" y1="150" x2="560" y2="150" stroke="#2f5d7a" stroke-width="6" stroke-linecap="round"/>
+  <!-- locks -->
+  <g fill="#ffffff" stroke="#2f5d7a" stroke-width="2">
+    <rect x="240" y="141" width="18" height="18"/>
+    <rect x="310" y="141" width="18" height="18"/>
+    <rect x="380" y="141" width="18" height="18"/>
+    <rect x="450" y="141" width="18" height="18"/>
+    <rect x="510" y="141" width="18" height="18"/>
+  </g>
+  <text x="375" y="128" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#222">Erie Canal — 363 miles, 83 locks</text>
+  <text x="375" y="182" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#222">Completed October 26, 1825 · Cost $7,143,000</text>
+  <!-- Hudson River -->
+  <path d="M 600 60 C 620 120, 585 190, 610 260" fill="none" stroke="#2f5d7a" stroke-width="10" stroke-linecap="round"/>
+  <text x="655" y="120" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1d4257">Hudson</text>
+  <text x="655" y="140" font-family="sans-serif" font-size="14" font-weight="bold" fill="#1d4257">River</text>
+  <!-- Albany -->
+  <circle cx="598" cy="150" r="8" fill="#b3402e" stroke="#222" stroke-width="1.5"/>
+  <text x="598" y="120" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#222">Albany</text>
+  <!-- Buffalo marker -->
+  <circle cx="188" cy="150" r="8" fill="#b3402e" stroke="#222" stroke-width="1.5"/>
+  <!-- New York City -->
+  <text x="598" y="285" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#222">Hudson River continues south to New York City</text>
+  <text x="110" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">West</text>
+  <text x="650" y="250" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#555">East</text>
+  <text x="380" y="298" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555">Schematic only: positions are relative. It does not show exact boundaries, terrain, or Native nations' territories.</text>
+</svg>

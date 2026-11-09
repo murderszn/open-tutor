@@ -122,6 +122,7 @@ The audit inventoried the 21 existing files in this folder (re-audited
 - [Unit 01 — Colonial Societies, Atlantic Exchange, Labor, and Resistance](units/unit-01-colonial-societies/README.md) — available draft; educator review pending.
 - [Unit 02 — Revolution, Independence, Contested Ideals](units/unit-02-revolution-contested-ideals/README.md) — available draft; educator review pending.
 - [Unit 04 — Early Republic, Expansion, and Displacement](units/unit-04-early-republic-expansion-displacement/README.md) — available draft; educator review pending.
+- [Unit 05 — Industry, Reform, Abolition, and Social Change](units/unit-05-industry-reform-abolition/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
