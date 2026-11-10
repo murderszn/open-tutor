@@ -2,8 +2,8 @@
 
 Audit section A00 of [issue #51](https://github.com/murderszn/open-tutor/issues/51).
 Status: **validated draft** (this document, the track README, and the grade-11
-hub page); Units 01–02 are delivered as validated drafts in draft PRs
-(issue #51); units 03–08 are planned, not yet written.
+hub page); Units 01–03 are delivered as validated drafts in draft PRs
+(issue #51); units 04–08 are planned, not yet written.
 
 ## 1. Audit: existing-file inventory
 
