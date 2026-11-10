@@ -2,8 +2,11 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
-The remaining units and R00 review package are planned; this is not a complete course.
+Units 01, 02, and 05 are available as drafts in the repository. Educator review is pending.
+Units 03 and 04 were delivered as drafts and merged 2026-11-08, but their files
+are absent from `main` — they are restored in draft PRs #371 (Unit 03) and #372
+(Unit 04), not yet merged. The remaining units and R00 review package are
+planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -105,6 +108,12 @@ alignment certification). Full crosswalk in
 
 - [Unit 01 — Biological Investigation: Evidence and Biomolecules](units/unit-01-biological-investigation-biomolecules/README.md) — available draft; educator review pending.
 - [Unit 02 — Cells: Membranes and Transport](units/unit-02-cells-membranes-transport/README.md) — available draft; educator review pending.
+- [Unit 05 — Inheritance: Molecular Genetics and Gene Expression](units/unit-05-inheritance-molecular-genetics-gene-expression/README.md) — available draft; educator review pending.
+
+Units 03 and 04 are not on `main`: their files vanished in the 2026-11-08
+merge and are restored in draft PRs [#371](https://github.com/murderszn/open-tutor/pull/371)
+(Unit 03) and [#372](https://github.com/murderszn/open-tutor/pull/372) (Unit 04),
+not yet merged.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
