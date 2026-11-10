@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+<title id="title">British pig-iron production, 1740–1852</title>
+<desc id="desc">Bar chart on a linear scale. Approximate output: 1740, 17,000 tons; 1788, 70,000 tons; 1805, 250,000 tons; 1830, 650,000 tons; 1852, 2,700,000 tons. Values are rounded historical approximations; see the unit README source notes.</desc>
+<rect width="640" height="400" fill="#ffffff"/>
+<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold">British pig-iron production, 1740–1852</text>
+<text x="320" y="48" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#444444">Approximate output in tons (linear scale; rounded historical figures)</text>
+<line x1="60" y1="340" x2="600" y2="340" stroke="#000000" stroke-width="1.5"/>
+<line x1="60" y1="340" x2="60" y2="40" stroke="#000000" stroke-width="1.5"/>
+<g font-family="sans-serif" font-size="12">
+<!-- 1740: 17,000 tons -> 2px (minimum visible height; true height 1.9px) -->
+<rect x="90" y="338" width="70" height="2" fill="#8a1f1f"/>
+<text x="125" y="330" text-anchor="middle">17,000</text>
+<text x="125" y="360" text-anchor="middle">1740</text>
+<!-- 1788: 70,000 tons -> 8px -->
+<rect x="190" y="332" width="70" height="8" fill="#8a1f1f"/>
+<text x="225" y="324" text-anchor="middle">70,000</text>
+<text x="225" y="360" text-anchor="middle">1788</text>
+<!-- 1805: 250,000 tons -> 28px -->
+<rect x="290" y="312" width="70" height="28" fill="#8a1f1f"/>
+<text x="325" y="304" text-anchor="middle">250,000</text>
+<text x="325" y="360" text-anchor="middle">1805</text>
+<!-- 1830: 650,000 tons -> 72px -->
+<rect x="390" y="268" width="70" height="72" fill="#8a1f1f"/>
+<text x="425" y="260" text-anchor="middle">650,000</text>
+<text x="425" y="360" text-anchor="middle">1830</text>
+<!-- 1852: 2,700,000 tons -> 300px -->
+<rect x="490" y="40" width="70" height="300" fill="#8a1f1f"/>
+<text x="525" y="32" text-anchor="middle">2,700,000</text>
+<text x="525" y="360" text-anchor="middle">1852</text>
+</g>
+<text x="320" y="388" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#444444">Source: rounded historical approximations; see unit README source notes. The 1740 bar is drawn at a 2px minimum so it remains visible.</text>
+</svg>
