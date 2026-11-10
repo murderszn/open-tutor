@@ -15990,6 +15990,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/assessments/week-22_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/assets/pea-flower-counting.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/assets/punnett-square-bb.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/lessons/lesson-01-dna-structure-the-instruction-molecule.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/lessons/lesson-02-from-dna-to-protein-the-central-dogma.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/lessons/lesson-03-chromosomes-alleles-and-punnett-squares.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/lessons/lesson-04-probability-and-trait-distributions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/lessons/lesson-05-gene-expression-same-genome-different-jobs.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/lessons/lesson-06-inheritance-patterns-mutations-and-pedigrees.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/science/units/unit-05-inheritance-molecular-genetics-gene-expression/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-9/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -17543,17 +17611,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 242,
-    "answer-key": 242,
-    "assessment": 264,
-    "quiz": 447,
-    "assets": 243,
-    "asset": 359,
-    "lesson": 1306,
-    "practice": 242,
-    "project": 242,
-    "resource-pack": 242,
-    "teacher-guide": 242,
+    "unit-index": 243,
+    "answer-key": 243,
+    "assessment": 265,
+    "quiz": 448,
+    "assets": 244,
+    "asset": 361,
+    "lesson": 1312,
+    "practice": 243,
+    "project": 243,
+    "resource-pack": 243,
+    "teacher-guide": 243,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
