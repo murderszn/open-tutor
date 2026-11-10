@@ -121,5 +121,6 @@ elsewhere in the repository (full table in
 
 - [Unit 01 — Reconstruction, Industrialization, and Contested Citizenship](units/unit-01-reconstruction-industrialization-citizenship/README.md) — available draft; educator review pending.
 - [Unit 02 — Immigration, Urbanization, Labor, and Reform](units/unit-02-immigration-urbanization-labor-reform/README.md) — available draft; educator review pending.
+- [Unit 03 — U.S. Expansion, Imperialism, and World War I](units/unit-03-us-expansion-imperialism-wwi/README.md) — available draft; educator review pending.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
