@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title desc">
+  <title id="title">Story arc of “The Long Way Home” (Unit 05 mentor story)</title>
+  <desc id="desc">A narrative arc rising from exposition on the left to a climax near the right, then falling to resolution. Six stages are labeled with the story paragraphs and events: exposition paragraphs 1–2, the bus is gone and the phone is dead; inciting incident paragraph 4, Barnaby and the tag; rising action paragraphs 5–6, the gate, the rule, and the pull; climax paragraphs 7–8, “Long way it is”; falling action paragraphs 9–10, the walk and Number 14; resolution paragraphs 13–16, Mrs. Okafor, the understanding, and “It’s a long story.”</desc>
+  <rect width="900" height="420" fill="#ffffff"/>
+  <line x1="60" y1="340" x2="860" y2="340" stroke="#333333" stroke-width="2"/>
+  <text x="60" y="368" font-family="sans-serif" font-size="13" fill="#333333">Story begins</text>
+  <text x="790" y="368" font-family="sans-serif" font-size="13" fill="#333333">Story ends</text>
+  <path d="M 80 330 C 220 330, 280 180, 420 120 S 640 90, 700 130 S 800 260, 850 320" fill="none" stroke="#b91c1c" stroke-width="3"/>
+  <g font-family="sans-serif" font-size="13" fill="#111111">
+    <circle cx="80" cy="330" r="6" fill="#b91c1c"/>
+    <text x="70" y="300" font-weight="bold">Exposition (¶1–2)</text>
+    <text x="70" y="318">Bus gone; phone dead</text>
+    <circle cx="250" cy="235" r="6" fill="#b91c1c"/>
+    <text x="215" y="205" font-weight="bold">Inciting incident (¶4)</text>
+    <text x="215" y="223">Barnaby + the tag</text>
+    <circle cx="420" cy="122" r="6" fill="#b91c1c"/>
+    <text x="330" y="92" font-weight="bold">Rising action (¶5–6)</text>
+    <text x="330" y="110">Gate, rule, the pull</text>
+    <circle cx="620" cy="105" r="8" fill="#b91c1c"/>
+    <text x="560" y="60" font-weight="bold">Climax (¶7–8)</text>
+    <text x="560" y="78">“Long way it is”</text>
+    <circle cx="740" cy="180" r="6" fill="#b91c1c"/>
+    <text x="690" y="150" font-weight="bold">Falling action (¶9–10)</text>
+    <text x="690" y="168">Walk; Number 14</text>
+    <circle cx="845" cy="315" r="6" fill="#b91c1c"/>
+    <text x="700" y="290" font-weight="bold">Resolution (¶13–16)</text>
+    <text x="700" y="308">Understanding; “It’s a long story”</text>
+  </g>
+  <text x="60" y="400" font-family="sans-serif" font-size="12" fill="#555555">Deterministic diagram for Unit 05, Lesson 1. Paragraph numbers refer to texts/the-long-way-home.md.</text>
+</svg>

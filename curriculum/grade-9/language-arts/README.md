@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, and 05 are available as drafts in the repository. Units 03
+and 04 were delivered as drafts and restored in PRs #373 and #374
+(unmerged). Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -101,6 +103,7 @@ national reference framework, not a graduation requirement.
 
 - [Unit 01 — Literary Close Reading: Theme and Evidence](units/unit-01-theme-and-evidence/README.md) — available draft; educator review pending.
 - [Unit 02 — Narrative Structure, Characterization, and Author Choices](units/unit-02-narrative-structure-and-author-choices/README.md) — available draft; educator review pending.
+- [Unit 05 — Narrative and Creative Writing Workshop](units/unit-05-narrative-creative-writing-workshop/README.md) — available draft; educator review pending. (Units 03–04 are restored as drafts in PRs #373 and #374, unmerged.)
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
