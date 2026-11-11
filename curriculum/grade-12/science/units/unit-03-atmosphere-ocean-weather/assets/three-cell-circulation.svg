@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="460" viewBox="0 0 900 460" role="img" aria-label="Schematic cross-section of Northern Hemisphere atmospheric circulation: Hadley cell 0 to 30 degrees, Ferrel cell 30 to 60 degrees, polar cell 60 to 90 degrees, with surface winds labeled">
+  <title>Three-cell circulation model, Northern Hemisphere (schematic, not to scale)</title>
+  <rect x="0" y="0" width="900" height="460" fill="#ffffff"/>
+  <!-- ground -->
+  <line x1="60" y1="380" x2="840" y2="380" stroke="#333333" stroke-width="2"/>
+  <!-- tropopause -->
+  <line x1="60" y1="80" x2="840" y2="80" stroke="#999999" stroke-width="1" stroke-dasharray="6 4"/>
+  <text x="850" y="75" font-family="sans-serif" font-size="13" fill="#666666" text-anchor="end">tropopause (schematic)</text>
+  <!-- cell boundaries -->
+  <line x1="60" y1="80" x2="60" y2="380" stroke="#333333" stroke-width="1.5"/>
+  <line x1="320" y1="80" x2="320" y2="380" stroke="#333333" stroke-width="1.5"/>
+  <line x1="580" y1="80" x2="580" y2="380" stroke="#333333" stroke-width="1.5"/>
+  <line x1="840" y1="80" x2="840" y2="380" stroke="#333333" stroke-width="1.5"/>
+  <!-- Hadley cell loop (clockwise): rise at equator (left), flow right aloft, sink at 30, return left at surface -->
+  <path d="M 110 340 L 110 130 L 270 130 L 270 340 L 110 340" fill="none" stroke="#c0392b" stroke-width="2.5" marker-end="url(#ah)"/>
+  <!-- Ferrel cell loop (counterclockwise): surface flow poleward (left to right along the bottom), aloft flow equatorward -->
+  <path d="M 370 130 L 370 340 L 530 340 L 530 130 L 370 130" fill="none" stroke="#2471a3" stroke-width="2.5"/>
+  <!-- Polar cell loop (clockwise): sink at pole (right), flow left at surface, rise at 60 -->
+  <path d="M 790 340 L 790 130 L 630 130 L 630 340 L 790 340" fill="none" stroke="#1e8449" stroke-width="2.5"/>
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333333"/>
+    </marker>
+  </defs>
+  <!-- rise/sink labels -->
+  <text x="60" y="410" font-family="sans-serif" font-size="14" fill="#333333">Equator 0° — air rises (rainy)</text>
+  <text x="320" y="410" font-family="sans-serif" font-size="14" fill="#333333" text-anchor="middle">30° — air sinks (deserts)</text>
+  <text x="580" y="410" font-family="sans-serif" font-size="14" fill="#333333" text-anchor="middle">60° — air rises (stormy)</text>
+  <text x="840" y="410" font-family="sans-serif" font-size="14" fill="#333333" text-anchor="end">Pole 90° — air sinks (cold, dry)</text>
+  <!-- cell names -->
+  <text x="190" y="230" font-family="sans-serif" font-size="17" font-weight="bold" fill="#c0392b" text-anchor="middle">Hadley cell</text>
+  <text x="450" y="230" font-family="sans-serif" font-size="17" font-weight="bold" fill="#2471a3" text-anchor="middle">Ferrel cell</text>
+  <text x="710" y="230" font-family="sans-serif" font-size="17" font-weight="bold" fill="#1e8449" text-anchor="middle">Polar cell</text>
+  <!-- surface wind labels -->
+  <text x="190" y="360" font-family="sans-serif" font-size="14" fill="#333333" text-anchor="middle">surface: NE trade winds → toward equator</text>
+  <text x="450" y="360" font-family="sans-serif" font-size="14" fill="#333333" text-anchor="middle">surface: westerlies → toward pole</text>
+  <text x="710" y="360" font-family="sans-serif" font-size="14" fill="#333333" text-anchor="middle">surface: polar easterlies → toward 60°</text>
+  <text x="450" y="40" font-family="sans-serif" font-size="15" font-weight="bold" fill="#333333" text-anchor="middle">Northern Hemisphere three-cell model (schematic — cells not to scale; Southern Hemisphere mirrors this pattern)</text>
+</svg>
