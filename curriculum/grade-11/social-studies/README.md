@@ -123,5 +123,11 @@ elsewhere in the repository (full table in
 
 - [Unit 01 — Foundations of Constitutional Government and Political Ideas](units/unit-01-foundations-of-constitutional-government/README.md) — available draft; educator review pending.
 - [Unit 02 — The Constitution, Federalism, and Institutional Powers](units/unit-02-constitution-federalism-institutional-powers/README.md) — available draft; educator review pending.
+- [Unit 05 — Congress, Presidency, Courts, and Policy Making](units/unit-05-congress-presidency-courts-policy/README.md) — available draft; educator review pending.
+
+> Note: Units 03 and 04 were delivered as validated drafts (PRs #277
+> and #331) but their files vanished from `main` in the 2026-11-08
+> merge; they are not listed here until their restore PRs land.
+> Unit 05 is self-contained and does not depend on their files.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
