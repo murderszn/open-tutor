@@ -15362,6 +15362,86 @@
       "kind": "unit-text"
     },
     {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/assessments/week-22_quiz.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/assets/long-way-home-illustration.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/assets/story-arc-diagram.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/lessons/lesson-01-story-architecture-want-vs-need.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/lessons/lesson-02-point-of-view-and-narrator.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/lessons/lesson-03-dialogue-that-reveals-character.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/lessons/lesson-04-pacing-scene-vs-summary-sensory-language.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/lessons/lesson-05-from-seed-to-first-draft.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/lessons/lesson-06-revision-and-reflective-conclusion.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/texts/craft-vignettes.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/texts/story-seeds.md",
+      "kind": "unit-text"
+    },
+    {
+      "path": "grade-9/language-arts/units/unit-05-narrative-creative-writing-workshop/texts/the-long-way-home.md",
+      "kind": "unit-text"
+    },
+    {
       "path": "grade-9/math/README.md",
       "kind": "subject-index"
     },
@@ -17543,18 +17623,18 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 242,
-    "answer-key": 242,
-    "assessment": 264,
+    "unit-index": 243,
+    "answer-key": 243,
+    "assessment": 266,
     "quiz": 447,
-    "assets": 243,
-    "asset": 359,
-    "lesson": 1306,
-    "practice": 242,
-    "project": 242,
-    "resource-pack": 242,
-    "teacher-guide": 242,
-    "unit-text": 27,
+    "assets": 244,
+    "asset": 361,
+    "lesson": 1312,
+    "practice": 243,
+    "project": 243,
+    "resource-pack": 243,
+    "teacher-guide": 243,
+    "unit-text": 30,
     "new-assignment": 31,
     "template": 14,
     "hints": 2,

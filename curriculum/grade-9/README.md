@@ -15,5 +15,5 @@ See also: [curriculum index](../README.md).
 
 - [Mathematics](math/README.md) — Units 01, 02, 03 available as drafts; remaining units planned.
 - [Science](science/README.md) — Units 01, 02 available as drafts; remaining units planned.
-- [Language arts](language-arts/README.md) — Units 01, 02 available as drafts; remaining units planned.
+- [Language arts](language-arts/README.md) — Units 01, 02, 05 available as drafts; Units 03–04 restored as drafts in PRs #373–#374 (unmerged); remaining units planned.
 - [Social studies](social-studies/README.md) — Units 01, 02 available as drafts; remaining units planned.
