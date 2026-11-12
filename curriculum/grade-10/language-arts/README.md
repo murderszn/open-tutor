@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 05 are available as drafts in the repository; Units 03
+and 04 are restored in open draft PRs #381 and #382, pending merge.
+Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -131,6 +133,11 @@ requirement.
 
 - [Unit 01 — World Literature: Cultural Context and Interpretation](units/unit-01-world-literature/README.md) — available draft; educator review pending.
 - [Unit 02 — Comparative Theme Structure and Perspective](units/unit-02-comparative-theme/README.md) — available draft; educator review pending.
+- [Unit 05 — Narrative Craft and Literary Analysis Essays](units/unit-05-narrative-craft-literary-analysis/README.md) — available draft; educator review pending.
+
+Units 03 (Nonfiction Rhetoric, Reasoning, and Source Evaluation) and
+04 (Language, Syntax, Tone, Vocabulary, and Conventions) are restored
+in open draft PRs #381 and #382, pending merge.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 
