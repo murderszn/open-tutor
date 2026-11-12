@@ -2,7 +2,9 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
+Units 01, 02, 05 are available as drafts in the repository; Units 03
+and 04 are restored in open draft PRs #376 and #377, pending merge.
+Educator review is pending.
 The remaining units and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
@@ -102,6 +104,10 @@ School conceptual categories (verified against the official framework
 
 - [Unit 01 — Geometry Foundations: Definitions and Proof](units/unit-01-geometry-foundations/README.md) — available draft; educator review pending.
 - [Unit 02 — Congruence, Rigid Motions, and Triangle Reasoning](units/unit-02-congruence-and-triangle-reasoning/README.md) — available draft; educator review pending.
+- [Unit 05 — Quadrilaterals, Polygons, and Coordinate Proofs](units/unit-05-quadrilaterals-polygons-coordinate-proofs/README.md) — available draft; educator review pending.
+
+Units 03 (Similarity) and 04 (Right-Triangle Trigonometry) are restored
+in open draft PRs #376 and #377, pending merge.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
 

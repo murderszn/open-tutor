@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+  <title id="title">Quadrilateral hierarchy diagram</title>
+  <desc id="desc">Nesting of special quadrilaterals. Quadrilateral contains Parallelogram, Trapezoid, and Kite. Parallelogram contains Rectangle and Rhombus; Rectangle and Rhombus both contain Square. Trapezoid contains Isosceles trapezoid. Definitions are inclusive: every square is a rectangle and a rhombus.</desc>
+  <style>
+    .box { fill: #ffffff; stroke: #222222; stroke-width: 2; }
+    .label { font-family: sans-serif; font-size: 15px; fill: #111111; text-anchor: middle; }
+    .sub { font-family: sans-serif; font-size: 12px; fill: #444444; text-anchor: middle; }
+    .link { stroke: #222222; stroke-width: 2; }
+  </style>
+  <!-- Level 1 -->
+  <rect class="box" x="290" y="16" width="180" height="44" rx="6"/>
+  <text class="label" x="380" y="44">Quadrilateral</text>
+  <!-- Connectors level 1 -> 2 -->
+  <line class="link" x1="380" y1="60" x2="380" y2="84"/>
+  <line class="link" x1="140" y1="84" x2="620" y2="84"/>
+  <line class="link" x1="140" y1="84" x2="140" y2="104"/>
+  <line class="link" x1="380" y1="84" x2="380" y2="104"/>
+  <line class="link" x1="620" y1="84" x2="620" y2="104"/>
+  <!-- Level 2 -->
+  <rect class="box" x="40" y="104" width="200" height="44" rx="6"/>
+  <text class="label" x="140" y="132">Parallelogram</text>
+  <rect class="box" x="280" y="104" width="200" height="44" rx="6"/>
+  <text class="label" x="380" y="132">Trapezoid</text>
+  <rect class="box" x="540" y="104" width="160" height="44" rx="6"/>
+  <text class="label" x="620" y="132">Kite</text>
+  <!-- Connectors level 2 -> 3 -->
+  <line class="link" x1="140" y1="148" x2="140" y2="172"/>
+  <line class="link" x1="60" y1="172" x2="220" y2="172"/>
+  <line class="link" x1="60" y1="172" x2="60" y2="192"/>
+  <line class="link" x1="220" y1="172" x2="220" y2="192"/>
+  <line class="link" x1="380" y1="148" x2="380" y2="192"/>
+  <!-- Level 3 -->
+  <rect class="box" x="10" y="192" width="100" height="44" rx="6"/>
+  <text class="label" x="60" y="220">Rectangle</text>
+  <rect class="box" x="170" y="192" width="100" height="44" rx="6"/>
+  <text class="label" x="220" y="220">Rhombus</text>
+  <rect class="box" x="280" y="192" width="200" height="44" rx="6"/>
+  <text class="label" x="380" y="220">Isosceles trapezoid</text>
+  <!-- Connectors level 3 -> 4 -->
+  <line class="link" x1="60" y1="236" x2="60" y2="260"/>
+  <line class="link" x1="60" y1="260" x2="140" y2="260"/>
+  <line class="link" x1="220" y1="236" x2="220" y2="260"/>
+  <line class="link" x1="220" y1="260" x2="140" y2="260"/>
+  <line class="link" x1="140" y1="260" x2="140" y2="280"/>
+  <!-- Level 4 -->
+  <rect class="box" x="90" y="280" width="100" height="44" rx="6"/>
+  <text class="label" x="140" y="308">Square</text>
+  <!-- Note -->
+  <text class="sub" x="380" y="360">Inclusive definitions: every square is a rectangle and a rhombus.</text>
+  <text class="sub" x="380" y="380">Trapezoid here means exactly one pair of parallel sides; kite means two distinct pairs of adjacent congruent sides.</text>
+</svg>
