@@ -17536,6 +17536,74 @@
     {
       "path": "grade-k/social-studies/units/unit-05-needs-wants-and-simple-exchanges/teacher-guide.md",
       "kind": "teacher-guide"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/assessments/week-22_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/assets/evidence-table-reconstruction.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/assets/world-wars-timeline.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/assets/generation-record.json",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/lessons/lesson-01-wwi-causes-course-settlement.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/lessons/lesson-02-interwar-crisis-ideologies.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/lessons/lesson-03-wwii-global-war.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/lessons/lesson-04-evidence-lab-genocide.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/lessons/lesson-05-outcomes-institutions-memory.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-9/social-studies/units/unit-05-world-wars-ideologies-genocide/teacher-guide.md",
+      "kind": "teacher-guide"
     }
   ],
   "counts_by_kind": {
@@ -17543,17 +17611,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 242,
-    "answer-key": 242,
-    "assessment": 264,
-    "quiz": 447,
-    "assets": 243,
-    "asset": 359,
-    "lesson": 1306,
-    "practice": 242,
-    "project": 242,
-    "resource-pack": 242,
-    "teacher-guide": 242,
+    "unit-index": 243,
+    "answer-key": 243,
+    "assessment": 265,
+    "quiz": 448,
+    "assets": 244,
+    "asset": 362,
+    "lesson": 1311,
+    "practice": 243,
+    "project": 243,
+    "resource-pack": 243,
+    "teacher-guide": 243,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,

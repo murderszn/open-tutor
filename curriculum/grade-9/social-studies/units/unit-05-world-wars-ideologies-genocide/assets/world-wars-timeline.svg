@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340" role="img" aria-labelledby="title desc">
+  <title id="title">Unit 05 timeline, 1914–1948</title>
+  <desc id="desc">A horizontal timeline from 1914 to 1948 with 18 dated events: the assassination of Franz Ferdinand (28 June 1914), the First World War begins (July–August 1914), the Battle of the Somme (1916), the United States enters the war and the Russian Revolution (1917), the armistice (11 November 1918), the Treaty of Versailles (28 June 1919), the League of Nations founded (1920), German hyperinflation (1923), the stock market crash (October 1929), Hitler becomes Chancellor (30 January 1933), the Munich Agreement (September 1938), Germany invades Poland (1 September 1939), Operation Barbarossa and Pearl Harbor (1941), Stalingrad (1942–43), D-Day (6 June 1944), VE Day and the atomic bombs and Japan surrenders (1945), the United Nations Charter in force (24 October 1945), the Genocide Convention (9 December 1948), and the Universal Declaration of Human Rights (10 December 1948). The same events are listed as text below the diagram in the lessons that use it.</desc>
+  <rect width="1000" height="340" fill="#ffffff"/>
+  <text x="500" y="28" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#111111">World Wars, Ideologies, and Aftermath — 1914–1948</text>
+  <line x1="40" y1="150" x2="960" y2="150" stroke="#111111" stroke-width="3"/>
+  <!-- 1914 -->
+  <circle cx="60" cy="150" r="6" fill="#8b1a1a"/>
+  <text x="60" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1914</text>
+  <text x="60" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Assassination;</text>
+  <text x="60" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">WWI begins</text>
+  <!-- 1916 -->
+  <circle cx="150" cy="150" r="5" fill="#8b1a1a"/>
+  <text x="150" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1916</text>
+  <text x="150" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Somme</text>
+  <!-- 1917 -->
+  <circle cx="200" cy="150" r="5" fill="#8b1a1a"/>
+  <text x="200" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1917</text>
+  <text x="200" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">US enters;</text>
+  <text x="200" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Russian Revolution</text>
+  <!-- 1918 -->
+  <circle cx="245" cy="150" r="6" fill="#8b1a1a"/>
+  <text x="245" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1918</text>
+  <text x="245" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Armistice</text>
+  <text x="245" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">11 Nov</text>
+  <!-- 1919 -->
+  <circle cx="290" cy="150" r="6" fill="#8b1a1a"/>
+  <text x="290" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1919</text>
+  <text x="290" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Versailles</text>
+  <text x="290" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">28 Jun</text>
+  <!-- 1920 -->
+  <circle cx="335" cy="150" r="5" fill="#555555"/>
+  <text x="335" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1920</text>
+  <text x="335" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">League of</text>
+  <text x="335" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Nations</text>
+  <!-- 1923 -->
+  <circle cx="420" cy="150" r="5" fill="#555555"/>
+  <text x="420" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1923</text>
+  <text x="420" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">German</text>
+  <text x="420" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">hyperinflation</text>
+  <!-- 1929 -->
+  <circle cx="520" cy="150" r="5" fill="#555555"/>
+  <text x="520" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1929</text>
+  <text x="520" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Stock market</text>
+  <text x="520" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">crash, Oct</text>
+  <!-- 1933 -->
+  <circle cx="580" cy="150" r="5" fill="#555555"/>
+  <text x="580" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1933</text>
+  <text x="580" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Hitler</text>
+  <text x="580" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Chancellor</text>
+  <!-- 1938 -->
+  <circle cx="665" cy="150" r="5" fill="#555555"/>
+  <text x="665" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1938</text>
+  <text x="665" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Munich</text>
+  <text x="665" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Agreement</text>
+  <!-- 1939 -->
+  <circle cx="700" cy="150" r="6" fill="#8b1a1a"/>
+  <text x="700" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1939</text>
+  <text x="700" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Germany invades</text>
+  <text x="700" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Poland, 1 Sep</text>
+  <!-- 1941 -->
+  <circle cx="765" cy="150" r="6" fill="#8b1a1a"/>
+  <text x="765" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1941</text>
+  <text x="765" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Barbarossa;</text>
+  <text x="765" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Pearl Harbor</text>
+  <!-- 1942-43 -->
+  <circle cx="815" cy="150" r="5" fill="#8b1a1a"/>
+  <text x="815" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1942–43</text>
+  <text x="815" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Stalingrad</text>
+  <!-- 1944 -->
+  <circle cx="855" cy="150" r="5" fill="#8b1a1a"/>
+  <text x="855" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1944</text>
+  <text x="855" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">D-Day, 6 Jun</text>
+  <!-- 1945 -->
+  <circle cx="890" cy="150" r="6" fill="#8b1a1a"/>
+  <text x="890" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1945</text>
+  <text x="890" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">VE Day; atomic</text>
+  <text x="890" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">bombs; UN, 24 Oct</text>
+  <!-- 1948 -->
+  <circle cx="945" cy="150" r="6" fill="#1a4d8b"/>
+  <text x="945" y="135" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#111111">1948</text>
+  <text x="945" y="180" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Genocide</text>
+  <text x="945" y="195" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#333333">Convention; UDHR</text>
+  <text x="500" y="240" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333333">Red dots mark war events; grey dots mark interwar and institutional events; the blue dot marks the 1948 rights instruments.</text>
+  <text x="500" y="265" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333333">Text list: 28 Jun 1914 assassination · Jul–Aug 1914 WWI begins · 1916 Somme · 1917 US enters, Russian Revolution · 11 Nov 1918 armistice ·</text>
+  <text x="500" y="285" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333333">28 Jun 1919 Versailles · 1920 League of Nations · 1923 hyperinflation · Oct 1929 crash · 30 Jan 1933 Hitler Chancellor · Sep 1938 Munich ·</text>
+  <text x="500" y="305" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333333">1 Sep 1939 Poland invaded · 1941 Barbarossa, Pearl Harbor · 1942–43 Stalingrad · 6 Jun 1944 D-Day · 8 May 1945 VE Day · Aug 1945 atomic bombs ·</text>
+  <text x="500" y="325" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#333333">2 Sep 1945 Japan surrenders · 24 Oct 1945 UN Charter in force · 9 Dec 1948 Genocide Convention · 10 Dec 1948 UDHR.</text>
+</svg>
