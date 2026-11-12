@@ -2146,6 +2146,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/assessments/week-20_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/assets/gas-particles-cool-hot.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/assets/heating-curve-water.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/lessons/lesson-01-kinetic-molecular-theory.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/lessons/lesson-02-pressure-temperature-diffusion.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/lessons/lesson-03-boyles-charles-combined-gas-law.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/lessons/lesson-04-intermolecular-forces.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/lessons/lesson-05-phases-heating-curves-phase-diagrams.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/lessons/lesson-06-bulk-properties-investigation.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-10/science/units/unit-05-gases-intermolecular-forces-phases/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-10/social-studies/README.md",
       "kind": "subject-index"
     },
@@ -17543,17 +17611,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 242,
-    "answer-key": 242,
-    "assessment": 264,
-    "quiz": 447,
-    "assets": 243,
-    "asset": 359,
-    "lesson": 1306,
-    "practice": 242,
-    "project": 242,
-    "resource-pack": 242,
-    "teacher-guide": 242,
+    "unit-index": 243,
+    "answer-key": 243,
+    "assessment": 265,
+    "quiz": 448,
+    "assets": 244,
+    "asset": 361,
+    "lesson": 1312,
+    "practice": 243,
+    "project": 243,
+    "resource-pack": 243,
+    "teacher-guide": 243,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
