@@ -4018,6 +4018,74 @@
       "kind": "teacher-guide"
     },
     {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/README.md",
+      "kind": "unit-index"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/answer-key.md",
+      "kind": "answer-key"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/assessments/unit-assessment.md",
+      "kind": "assessment"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/assessments/week-22_quiz.md",
+      "kind": "quiz"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/assets/README.md",
+      "kind": "assets"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/assets/normal-curve.svg",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/assets/prize-spinner-game.png",
+      "kind": "asset"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/lessons/lesson-01-random-variables-distributions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/lessons/lesson-02-binomial-distributions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/lessons/lesson-03-expected-value.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/lessons/lesson-04-decisions-by-expected-value.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/lessons/lesson-05-normal-distribution.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/lessons/lesson-06-inference-from-distributions.md",
+      "kind": "lesson"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/practice.md",
+      "kind": "practice"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/project.md",
+      "kind": "project"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/resource-pack.md",
+      "kind": "resource-pack"
+    },
+    {
+      "path": "grade-12/math/units/unit-05-probability-distributions-inference/teacher-guide.md",
+      "kind": "teacher-guide"
+    },
+    {
       "path": "grade-12/science/README.md",
       "kind": "subject-index"
     },
@@ -17543,17 +17611,17 @@
     "grade-index": 13,
     "subject-index": 112,
     "assignment": 111,
-    "unit-index": 242,
-    "answer-key": 242,
-    "assessment": 264,
-    "quiz": 447,
-    "assets": 243,
-    "asset": 359,
-    "lesson": 1306,
-    "practice": 242,
-    "project": 242,
-    "resource-pack": 242,
-    "teacher-guide": 242,
+    "unit-index": 243,
+    "answer-key": 243,
+    "assessment": 265,
+    "quiz": 448,
+    "assets": 244,
+    "asset": 361,
+    "lesson": 1312,
+    "practice": 243,
+    "project": 243,
+    "resource-pack": 243,
+    "teacher-guide": 243,
     "unit-text": 27,
     "new-assignment": 31,
     "template": 14,
