@@ -2,8 +2,10 @@
 
 Independent, grade-specific materials in the public OpenTutor curriculum library.
 
-Units 01, 02 are available as drafts in the repository. Educator review is pending.
-The remaining units and R00 review package are planned; this is not a complete course.
+Units 01, 02, and 05 are available as drafts in the repository.
+Units 03–04 are delivered as validated drafts in open draft PRs
+(#385, #389). Educator review is pending. The remaining units
+and R00 review package are planned; this is not a complete course.
 See the [scope and sequence](scope-and-sequence.md) for the full-year plan.
 
 **Do not refer a learner to another grade track.** This folder is self-contained
@@ -104,5 +106,9 @@ by a PhET simulation or a structured observation.
 
 - [Unit 01 — Measurement, Vectors, Motion, and Uncertainty](units/unit-01-measurement-vectors-motion-and-uncertainty/README.md) — available draft; educator review pending.
 - [Unit 02 — Forces, Free-Body Diagrams, and Dynamics](units/unit-02-forces-free-body-diagrams-dynamics/README.md) — available draft; educator review pending.
+- [Unit 05 — Circular Motion, Gravitation, and Orbital Models](units/unit-05-circular-motion-gravitation-and-orbital-models/README.md) — available draft; educator review pending.
+
+Units 03–04 are delivered as validated drafts in open draft PRs
+(#385, #389); Units 06–08 are planned.
 
 For planned units and pacing, see the [scope and sequence](scope-and-sequence.md).
