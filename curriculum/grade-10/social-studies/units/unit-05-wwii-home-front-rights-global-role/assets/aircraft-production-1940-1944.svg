@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+<title id="title">U.S. aircraft production, 1940–1944</title>
+<desc id="desc">Bar chart of U.S. aircraft production, all types: 1940: 6,086; 1941: 19,433; 1942: 47,836; 1943: 85,898; 1944: 96,318. Source: The Army Air Forces in World War II, Vol. VI, ch. 10, comparative table; consistent with John Ellis, The World War II Databook.</desc>
+<rect width="640" height="420" fill="#ffffff"/>
+<text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#111111">U.S. aircraft production, 1940–1944 (all types)</text>
+<line x1="60" y1="275" x2="590" y2="275" stroke="#dddddd" stroke-width="1"/>
+<text x="55" y="279" text-anchor="end" font-family="sans-serif" font-size="11" fill="#555555">25,000</text>
+<line x1="60" y1="199" x2="590" y2="199" stroke="#dddddd" stroke-width="1"/>
+<text x="55" y="203" text-anchor="end" font-family="sans-serif" font-size="11" fill="#555555">50,000</text>
+<line x1="60" y1="124" x2="590" y2="124" stroke="#dddddd" stroke-width="1"/>
+<text x="55" y="128" text-anchor="end" font-family="sans-serif" font-size="11" fill="#555555">75,000</text>
+<line x1="60" y1="350" x2="590" y2="350" stroke="#111111" stroke-width="2"/>
+<rect x="70" y="332" width="80" height="18" fill="#8b1a1a"/>
+<text x="110" y="324" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#111111">6,086</text>
+<text x="110" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#111111">1940</text>
+<rect x="180" y="291" width="80" height="59" fill="#8b1a1a"/>
+<text x="220" y="283" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#111111">19,433</text>
+<text x="220" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#111111">1941</text>
+<rect x="290" y="206" width="80" height="144" fill="#8b1a1a"/>
+<text x="330" y="198" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#111111">47,836</text>
+<text x="330" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#111111">1942</text>
+<rect x="400" y="91" width="80" height="259" fill="#8b1a1a"/>
+<text x="440" y="83" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#111111">85,898</text>
+<text x="440" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#111111">1943</text>
+<rect x="510" y="60" width="80" height="290" fill="#8b1a1a"/>
+<text x="550" y="52" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#111111">96,318</text>
+<text x="550" y="372" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#111111">1944</text>
+<text x="320" y="405" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#555555">Source: The Army Air Forces in World War II, Vol. VI, ch. 10, comparative table.</text>
+</svg>
