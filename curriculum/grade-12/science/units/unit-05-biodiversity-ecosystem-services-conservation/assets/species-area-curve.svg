@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="460" viewBox="0 0 640 460" role="img" aria-labelledby="title desc">
+  <title id="title">Species–area curve for a fictional island group: S = 8 · A^0.25</title>
+  <desc id="desc">A curve of species richness S against habitat area A in square kilometres, for the fictional model S equals 8 times A to the power 0.25. The curve rises steeply at first and then flattens. Two worked points are marked: at area 16 square kilometres richness is 16 species, and at area 81 square kilometres richness is 24 species. Fictional practice data, not measurements from a real archipelago.</desc>
+  <rect x="0" y="0" width="640" height="460" fill="#ffffff"/>
+  <text x="320" y="28" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#222222">Species–area curve (fictional practice data)</text>
+  <text x="320" y="50" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#444444">Model: S = 8 · A^0.25 — richness S against habitat area A</text>
+  <!-- gridlines -->
+  <g stroke="#dddddd" stroke-width="1">
+    <line x1="174" y1="80" x2="174" y2="380"/>
+    <line x1="278" y1="80" x2="278" y2="380"/>
+    <line x1="382" y1="80" x2="382" y2="380"/>
+    <line x1="486" y1="80" x2="486" y2="380"/>
+    <line x1="590" y1="80" x2="590" y2="380"/>
+    <line x1="70" y1="300" x2="590" y2="300"/>
+    <line x1="70" y1="220" x2="590" y2="220"/>
+    <line x1="70" y1="140" x2="590" y2="140"/>
+    <line x1="70" y1="60" x2="590" y2="60"/>
+  </g>
+  <!-- axes -->
+  <g stroke="#222222" stroke-width="2">
+    <line x1="70" y1="80" x2="70" y2="380"/>
+    <line x1="70" y1="380" x2="590" y2="380"/>
+  </g>
+  <!-- axis ticks and labels -->
+  <g font-family="sans-serif" font-size="12" fill="#222222">
+    <text x="70" y="400" text-anchor="middle">0</text>
+    <text x="174" y="400" text-anchor="middle">20</text>
+    <text x="278" y="400" text-anchor="middle">40</text>
+    <text x="382" y="400" text-anchor="middle">60</text>
+    <text x="486" y="400" text-anchor="middle">80</text>
+    <text x="590" y="400" text-anchor="middle">100</text>
+    <text x="60" y="384" text-anchor="end">0</text>
+    <text x="60" y="304" text-anchor="end">7</text>
+    <text x="60" y="224" text-anchor="end">14</text>
+    <text x="60" y="144" text-anchor="end">21</text>
+    <text x="60" y="64" text-anchor="end">28</text>
+  </g>
+  <text x="330" y="432" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#222222">Habitat area A (km²)</text>
+  <text x="22" y="230" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#222222" transform="rotate(-90 22 230)">Species richness S</text>
+  <!-- curve: S = 8*A^0.25, x = 70 + 5.2A, y = 380 - 11.4286S -->
+  <polyline points="70,380 75.2,288.6 90.8,250.7 116.8,221.6 153.2,197.1 200,175.5 257.2,156 324.8,138.1 402.8,121.4 491.2,105.7 590,90.9" fill="none" stroke="#0072B2" stroke-width="3"/>
+  <!-- worked points -->
+  <circle cx="153.2" cy="197.1" r="6" fill="#D55E00" stroke="#222222" stroke-width="1"/>
+  <circle cx="491.2" cy="105.7" r="6" fill="#D55E00" stroke="#222222" stroke-width="1"/>
+  <g font-family="sans-serif" font-size="13" fill="#222222">
+    <text x="163" y="185">A = 16 km², S = 16</text>
+    <text x="380" y="92">A = 81 km², S = 24</text>
+  </g>
+  <text x="70" y="455" font-family="sans-serif" font-size="11" fill="#555555">Fictional practice data for Lesson 02. The curve rises but flattens: doubling area adds fewer species each time.</text>
+</svg>
